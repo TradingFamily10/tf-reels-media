@@ -1,0 +1,366 @@
+{
+ "archer": {
+  "file": "archer.mp4",
+  "source": "mixkit:34710",
+  "dur": 6.0,
+  "key_t": 2.78,
+  "focus": [
+   0.35,
+   0.45
+  ],
+  "grade": "gold",
+  "what": "Jeune femme qui bande un arc et vise, en gros plan, lumière dorée d'été",
+  "moment": "la flèche part (lâcher de la corde)"
+ },
+ "bounce": {
+  "file": "bounce.mp4",
+  "source": "mixkit:2925",
+  "dur": 4.505,
+  "key_t": 2.04,
+  "focus": [
+   0.47,
+   0.6
+  ],
+  "grade": "gold",
+  "what": "Ballon de foot qui retombe devant un mur graffé et rebondit sur le terrain synthétique (un pied de joueur entre ensuite dans le champ)",
+  "moment": "le ballon touche le sol et rebondit"
+ },
+ "break_through": {
+  "file": "break_through.mp4",
+  "source": "mixkit:28860",
+  "dur": 5.0,
+  "key_t": 1.88,
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "grade": "cold",
+  "what": "Plaque de verre posée au sol dans un rai de lumière, qui vole en éclats (impact venu du bord gauche)",
+  "moment": "le verre éclate"
+ },
+ "double_bounce": {
+  "file": "double_bounce.mp4",
+  "source": "mixkit:2925",
+  "dur": 4.505,
+  "key_t": 3.51,
+  "focus": [
+   0.48,
+   0.55
+  ],
+  "grade": "gold",
+  "what": "Même ballon de foot : 1er rebond tout près de la caméra (≈0,15 s), il repart en l'air puis retombe et rebondit une 2e fois devant le but",
+  "moment": "2e rebond du ballon (le 1er est à 0,15 s)"
+ },
+ "flag": {
+  "file": "flag.mp4",
+  "source": "mixkit:2873",
+  "dur": 6.006,
+  "key_t": null,
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "grade": "neutral",
+  "what": "Drapeau tricolore délavé et déchiré (rouge-blanc-bleu horizontal, type néerlandais) qui claque au vent sur une plage — aucun drapeau neutre trouvé, celui-ci est le plus générique",
+  "moment": "le drapeau flotte au vent (n'importe quel instant)"
+ },
+ "green_light": {
+  "file": "green_light.mp4",
+  "source": "mixkit:25357",
+  "dur": 6.0,
+  "key_t": 2.25,
+  "focus": [
+   0.72,
+   0.3
+  ],
+  "grade": "neutral",
+  "what": "Feu tricolore de rue devant une façade ancienne, qui passe du rouge au vert",
+  "moment": "le feu passe au vert"
+ },
+ "exhausted": {
+  "file": "exhausted.mp4",
+  "source": "mixkit:23458",
+  "dur": 6.0,
+  "key_t": 2.65,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "grade": "cold",
+  "what": "Athlète torse nu, à genoux devant une barre d'haltérophilie dans une salle sombre, à bout de forces : il s'effondre la tête sur ses bras",
+  "moment": "il laisse tomber la tête sur ses bras posés sur la barre"
+ },
+ "cork_pop": {
+  "file": "cork_pop.mp4",
+  "source": "mixkit:7810",
+  "dur": 5.0,
+  "key_t": 2.15,
+  "focus": [
+   0.35,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "Goulot de bouteille de champagne sur fond noir, le bouchon saute et la mousse jaillit",
+  "moment": "le bouchon saute (pop)"
+ },
+ "spiral": {
+  "file": "spiral.mp4",
+  "source": "mixkit:48333",
+  "dur": 5.005,
+  "key_t": null,
+  "focus": [
+   0.32,
+   0.6
+  ],
+  "grade": "gold",
+  "what": "Coquillage en spirale (natice, vu de dessus) parmi des coquilles Saint-Jacques, lent travelling — pas de nautile ni d'escalier hélicoïdal vu de dessus disponible, c'est la spirale la plus nette",
+  "moment": "spirale visible tout du long"
+ },
+ "fishing": {
+  "file": "fishing.mp4",
+  "source": "coverr:coverr-a-fisherman-casting-his-hook-into-the-sea-4386",
+  "dur": 5.005,
+  "key_t": 1.95,
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "grade": "neutral",
+  "what": "Pêcheur sur des rochers face à la mer qui lance sa ligne (canne ramenée derrière la tête puis fouettée vers l'avant)",
+  "moment": "le lancer : la canne fouette vers l'avant"
+ },
+ "magnet": {
+  "file": "magnet.mp4",
+  "source": "mixkit:26460",
+  "dur": 5.005,
+  "key_t": 2.08,
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "grade": "cold",
+  "what": "Électro-aimant de grue de ferraille au-dessus d'une benne de camion — plan INVERSÉ (lu à l'envers) pour que l'aimant ARRACHE la ferraille au lieu de la lâcher. Pas de plan « aimant + limaille » disponible. Plaque minéralogique floue coupée en bas du cadre",
+  "moment": "la ferraille se colle d'un coup sous l'aimant"
+ },
+ "rim_out": {
+  "file": "rim_out.mp4",
+  "source": "mixkit:46107",
+  "dur": 4.84,
+  "key_t": 2.0,
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "grade": "dark",
+  "what": "Billard : la blanche percute une boule rayée qui file vers la bande et rebondit (pas de plan de ballon de basket qui touche le cercle et ressort)",
+  "moment": "la boule frappe la bande et repart en arrière"
+ },
+ "title_particles": {
+  "file": "title_particles.mp4",
+  "source": "mixkit:14157",
+  "dur": 8.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "Fond abstrait : vague de particules dorées sur fond brun-noir (3D)",
+  "moment": null
+ },
+ "title_rings": {
+  "file": "title_rings.mp4",
+  "source": "mixkit:31491",
+  "dur": 8.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "Fond abstrait : mandala d'anneaux dorés lumineux qui tourne sur fond noir (3D)",
+  "moment": null
+ },
+ "gold": {
+  "file": "gold.mp4",
+  "source": "mixkit:2861",
+  "dur": 6.006,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "neutral",
+  "what": "Or en fusion versé dans une lingotière",
+  "moment": null
+ },
+ "bitcoin": {
+  "file": "bitcoin.mp4",
+  "source": "mixkit:45237",
+  "dur": 7.007,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "grade": "neutral",
+  "what": "Pièces de bitcoin dorées, gros plan en rotation lente",
+  "moment": null
+ },
+ "oil": {
+  "file": "oil.mp4",
+  "source": "mixkit:48884",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "grade": "neutral",
+  "what": "Chevalet de pompage pétrolier en contre-plongée, ciel bleu, accéléré",
+  "moment": null
+ },
+ "new_york": {
+  "file": "new_york.mp4",
+  "source": "mixkit:30396",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "grade": "gold",
+  "what": "Vue aérienne de Manhattan (Lower Manhattan, gratte-ciel) et du pont de Brooklyn au soleil couchant",
+  "moment": null
+ },
+ "paris": {
+  "file": "paris.mp4",
+  "source": "mixkit:31671",
+  "dur": 6.96,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "grade": "gold",
+  "what": "Vue aérienne de Paris à l'aube, tour Eiffel en silhouette",
+  "moment": null
+ },
+ "chips": {
+  "file": "chips.mp4",
+  "source": "mixkit:22027",
+  "dur": 7.007,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "Macro d'une carte électronique (pistes dorées), travelling",
+  "moment": null
+ },
+ "electric_car": {
+  "file": "electric_car.mp4",
+  "source": "mixkit:23126",
+  "dur": 5.96,
+  "key_t": null,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "grade": "neutral",
+  "what": "Main qui branche le câble de recharge sur une voiture électrique rouge (petite étiquette technique en haut du cadre, pas de logo)",
+  "moment": null
+ },
+ "currency": {
+  "file": "currency.mp4",
+  "source": "mixkit:5023",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "Gros plan de billets en euros et en dollars, travelling lent",
+  "moment": null
+ },
+ "trading_screen": {
+  "file": "trading_screen.mp4",
+  "source": "mixkit:9607",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "grade": "neutral",
+  "what": "Écran de plateforme de trading : courbe de prix et carnet d'ordres rouge/vert",
+  "moment": null
+ },
+ "luxury": {
+  "file": "luxury.mp4",
+  "source": "mixkit:34611",
+  "dur": 5.505,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "grade": "neutral",
+  "what": "Bracelet doré serti de cristaux qui tourne sur un fond bois chaud (aucune marque)",
+  "moment": null
+ },
+ "airplane": {
+  "file": "airplane.mp4",
+  "source": "mixkit:28000",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "grade": "neutral",
+  "what": "Avion de ligne qui décolle au crépuscule, ciel orangé",
+  "moment": null
+ },
+ "smartphone": {
+  "file": "smartphone.mp4",
+  "source": "mixkit:4915",
+  "dur": 7.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "grade": "dark",
+  "what": "Mains qui tapent sur un smartphone (sans logo visible), lumière tamisée",
+  "moment": null
+ },
+ "title_blocks": {
+  "file": "title_blocks.mp4",
+  "source": "mixkit:32874",
+  "dur": 8.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "lingots dorés en 3D, travelling",
+  "moment": null
+ },
+ "title_coins": {
+  "file": "title_coins.mp4",
+  "source": "mixkit:38406",
+  "dur": 8.0,
+  "key_t": null,
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "grade": "gold",
+  "what": "tours de pièces d'or en rotation",
+  "moment": null
+ }
+}
