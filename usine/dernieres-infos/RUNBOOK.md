@@ -1,9 +1,10 @@
 # Usine « Dernières Infos » — Invest Family Fr (3 reels / jour)
 
-> **⛔ DEPUIS LE 8 NOV. 2026 — PLUS AUCUNE PUBLICATION METRICOOL** (Clément : « Envoie moi ça en mp4 ici pour le moment, ne les mets plus dans Metricool, on refera ça par la suite, car ça plafonne à 0 les vues. Et envoie des alertes par mail aux heures où je dois poster. »)
-> Chaque run fabrique le reel, le dépose sur la branche `videos-dernieres-infos` (lien de téléchargement), **l'envoie à Clément en MP4 dans la conversation (SendUserFile)** et écrit dans `history.json` le titre, la légende prête à copier et le lien. **Ne jamais appeler createScheduledPost / updateScheduledPost pour cette usine.** À l'heure du créneau (06:55 · 13:05 · 14:55), la tâche planifiée « Alerte mail — Dernières Infos » envoie à clement.istasse@gmail.com le titre, la légende et le lien du MP4 : Clément poste lui-même sur Facebook + TikTok Invest Family Fr. Ce qui suit sur Metricool (§0.2, §8) est remplacé par cet encadré.
+> **📲 DEPUIS LE 8 NOV. 2026 — TIKTOK À LA MAIN, LE RESTE RESTE DANS METRICOOL** (Clément : « ne les mets plus dans Metricool […] ça plafonne à 0 les vues. Et envoie des alertes par mail aux heures où je dois poster », puis : « je veux que tu gardes Metricool pour les comptes Facebook et YouTube en lien, je voulais juste arrêter pour TikTok »).
+> - Metricool (§8) : programmer comme avant sur TOUS les réseaux reliés à la marque 7946352 d'après getBrandSettings **SAUF TikTok** (jamais `{"network":"tiktok"}` ni `tiktokData`). Facebook Reel aujourd'hui ; YouTube Short s'il est relié un jour.
+> - TikTok : **envoyer le MP4 à Clément dans la conversation (SendUserFile, display "attach", status "proactive")** et écrire dans `history.json` `title`, `caption` (légende prête à copier) et `media_url`, poussés sur main AVANT l'heure du créneau. À 06:55 · 13:05 · 14:55, les tâches planifiées « Alerte mail — Dernières Infos » envoient à clement.istasse@gmail.com le lien du MP4 + la légende : Clément poste lui-même sur TikTok.
 
-Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le dépose sur la branche `videos-dernieres-infos` du dépôt de médias (lien de téléchargement) et l'envoie à Clément en MP4 ; il le poste lui-même au créneau (marque **Invest Family Fr**, Facebook Reel + TikTok). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
+Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le dépose sur la branche `videos-dernieres-infos` du dépôt de médias (URL publique, comme les autres usines) et le programme dans Metricool sur la marque **Invest Family Fr** (blogId `7946352`, Facebook Reel + TikTok). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
 
 ## Règles non négociables
 - **Français impeccable**, ton humain et tendu, phrases courtes. Jamais « Dans un monde où… », jamais de formules IA.
@@ -19,7 +20,8 @@ Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'act
 ## 0. Créneau de ce run (à faire EN PREMIER)
 Créneaux fixes (Europe/Paris) : **06:55 · 13:05 · 14:55**. Ils laissent ≥ 3 h avec les carrousels déjà prévus sur cette page (10:00 · 18:00 · 21:30, autre usine) : ne jamais les déplacer.
 1. `TZ=Europe/Paris date` → créneau du run = le premier créneau situé **au moins 40 min** après maintenant (après 14:15 : 06:55 du lendemain).
-2. `history.json` : si une entrée a déjà la même `date` et le même `slot` → terminer tout de suite par « rien à faire (créneau HH:MM déjà pris) ». (Plus de lecture Metricool depuis le 8 nov. 2026.)
+2. Metricool `getScheduledPosts` (brandId `7946352`, Europe/Paris, journée du créneau). Si un post est déjà programmé à ±20 min de ce créneau → terminer tout de suite par « rien à faire (créneau HH:MM déjà pris) ».
+3. Noter dans le rapport tout autre post de la page à moins de 3 h du créneau (sans rien déplacer).
 
 ## 1. Préparer l'espace
 ```bash
@@ -110,17 +112,23 @@ python3 engine/contact_sheet.py episodes/<id>/<id>.mp4 episodes/<id>/check.png 2
 ```
 **Regarder `check.png`** : rien ne cache les sous-titres, chaque plan colle au texte, logos présents à chaque action, CTA lisibles, pas d'écran noir. Corriger et refaire si besoin.
 
-## 8. Livrer (plus de Metricool depuis le 8 nov. 2026)
+## 8. Publier
 ```bash
 python3 engine/publish_media.py episodes/<id>/<id>.mp4    # -> "[media] 200 <URL>" + episodes/<id>/media_url.txt
+URL=$(cat episodes/<id>/media_url.txt)
 ```
-1. **SendUserFile** du MP4 (`display: "attach"`, `status: "proactive"`), légende : « Reel du JJ/MM à HH:MM — <titre> ».
-2. Écrire `title` (titre court ≤ 60 caractères) et `caption` (légende complète prête à copier) dans l'entrée `history.json` (§9).
-   Légende : 1 phrase d'accroche (≠ du titre vidéo) + 1 phrase de contexte + « Toute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio). » + « Ceci n'est pas un conseil en investissement. » + 6–9 hashtags pertinents.
-3. Ne rien programmer dans Metricool (ni brouillon). L'alerte mail part toute seule à l'heure du créneau.
+Puis Metricool `getBrandSettings` (réseaux reliés à la marque 7946352 = clés de `networksData`, lues en direct) et `createScheduledPost` : `blogId 7946352`, date = **le créneau choisi au §0** (s'il est à moins de 25 min, prendre maintenant + 25 min et le signaler), `info` ci-dessous. **TikTok exclu depuis le 8 nov. 2026 (voir encadré en tête) : retirer `tiktok` des providers et `tiktokData` de l'info ; Clément le poste à la main.** Aujourd'hui la marque a Facebook (+ TikTok, à la main) ; si Instagram est relié un jour, ajouter `{"network":"instagram"}` + `"instagramData": {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}` ; si YouTube l'est, `{"network":"youtube"}` + `"youtubeData": {"title":"<titre court>","type":"short","privacy":"public","madeForKids":false,"isAiGeneratedContent":false,"category":"NEWS_POLITICS"}`.
+```json
+{"autoPublish": true, "draft": false, "media": ["<URL>"], "providers": [{"network": "facebook"}],
+ "publicationDate": {"dateTime": "YYYY-MM-DDTHH:MM:00", "timezone": "Europe/Paris"},
+ "text": "<légende>", "facebookData": {"type": "REEL", "title": "<titre court>"},
+ "firstCommentText": "", "hasNotReadNotes": false, "shortener": false, "smartLinkData": {"ids": []}, "descendants": [], "mediaAltText": []}
+```
+Légende : 1 phrase d'accroche (≠ du titre vidéo) + 1 phrase de contexte + « Toute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio). » + « Ceci n'est pas un conseil en investissement. » + 6–9 hashtags pertinents. Vérifier ensuite avec `getScheduledPosts` qu'aucun autre post n'est déjà sur ce créneau.
+Puis, pour TikTok : **SendUserFile** du MP4 (`display: "attach"`, `status: "proactive"`, légende « Reel TikTok du JJ/MM à poster à HH:MM — <titre> »).
 
 ## 9. Mémoriser et pousser
-Ajouter une entrée à `history.json` (`date`, `slot`, `id`, `topic`, `hook_type`, `hook_formula`, `cta_angle`, `title`, `caption`, `media_url`, `status: "a_poster_main"`) — **à pousser AVANT l'heure du créneau** (l'alerte mail la lit sur main), puis copier `spec.json`, `script.json` et `history.json` dans `tf-reels-media/usine/dernieres-infos/` (jamais de MP4, jamais de clé) et pousser (`git pull --rebase` avant `git push`).
+Ajouter une entrée à `history.json` (`date`, `slot`, `id`, `topic`, `hook_type`, `hook_formula`, `cta_angle`, `title`, `caption`, `media_url`, `planner_url`, `tiktok: "a_poster_main"`) — **à pousser AVANT l'heure du créneau** (l'alerte mail TikTok la lit sur main), puis copier `spec.json`, `script.json` et `history.json` dans `tf-reels-media/usine/dernieres-infos/` (jamais de MP4, jamais de clé) et pousser (`git pull --rebase` avant `git push`).
 
 ## 10. Rapport final
-Un message court (5 lignes max) : sujet ; accroche visuelle + formule ; créneau où Clément doit poster + lien du MP4 ; crédits Hedra restants ; problèmes rencontrés ou « MP4 envoyé, alerte mail à HH:MM ». Si Hedra n'a plus assez de crédits (< 30), utiliser la voix de secours et le dire en ligne 1.
+Un message court (5 lignes max) : sujet ; accroche visuelle + formule ; créneau + réseaux Metricool + lien (`plannerUrl`) + « MP4 TikTok envoyé, alerte mail à HH:MM » ; crédits Hedra restants ; problèmes rencontrés ou « tout est programmé ». Si Hedra n'a plus assez de crédits (< 30), utiliser la voix de secours et le dire en ligne 1.
