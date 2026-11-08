@@ -152,5 +152,47 @@
   "img": "BP.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "BLK": {
+  "name": "BlackRock",
+  "ticker": "BLK",
+  "img": "BLK.png",
+  "tile": "#000000",
+  "fit": "86%"
+ },
+ "MSTR": {
+  "name": "Strategy",
+  "ticker": "MSTR",
+  "img": "MSTR.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "COIN": {
+  "name": "Coinbase",
+  "ticker": "COIN",
+  "img": "COIN.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "DJT": {
+  "name": "Trump Media",
+  "ticker": "DJT",
+  "img": "DJT.png",
+  "tile": "#000000",
+  "fit": "86%"
+ },
+ "BTC": {
+  "name": "Bitcoin",
+  "ticker": "BTC",
+  "img": "BTC.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
+ },
+ "HOOD": {
+  "name": "Robinhood",
+  "ticker": "HOOD",
+  "img": "HOOD.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
