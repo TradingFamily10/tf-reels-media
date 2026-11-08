@@ -1,0 +1,490 @@
+{
+  "id": "ep01_intel",
+  "date_label": "30 octobre 2026",
+  "voice": {
+    "engine": "supertonic3",
+    "sid": 6,
+    "speed": 1.16,
+    "steps": 12,
+    "style": "voix masculine grave (Supertonic 3, M2)"
+  },
+  "beats": [
+    {
+      "text": "Intel vient de perdre près de 29 % en une seule séance.",
+      "say": "Intel vient de perdre près de vingt-neuf pour cent, en une seule séance.",
+      "bg": {
+        "query": "stock exchange trading floor traders",
+        "label": "Salle des marchés (NYSE)",
+        "cx": 0.6
+      },
+      "overlays": [
+        {
+          "type": "date",
+          "text": "30 octobre 2026",
+          "until_beat": 1
+        },
+        {
+          "type": "stock",
+          "key": "INTC",
+          "pct": "−28,6 %",
+          "sub": "INTC · séance du 30/10",
+          "size": "big",
+          "y": 470,
+          "at_s": 0.1,
+          "rot": -2,
+          "until_s": 1.45
+        },
+        {
+          "type": "breaking",
+          "label": "DERNIÈRES INFOS",
+          "lines": [
+            "INTEL S'EFFONDRE",
+            "DE 29 % EN UNE",
+            "SEULE SÉANCE"
+          ]
+        },
+        {
+          "type": "ticket",
+          "at_s": 1.35,
+          "until_beat": 1,
+          "title": "SÉANCE DU 30/10",
+          "subtitle": "Wall Street · clôture",
+          "rows": [
+            [
+              "Intel",
+              "−28,6 %",
+              "INTC"
+            ],
+            [
+              "AMD",
+              "−10,9 %",
+              "AMD"
+            ],
+            [
+              "Dell",
+              "−10,8 %",
+              "DELL"
+            ],
+            [
+              "Nvidia",
+              "−4,2 %",
+              "NVDA"
+            ]
+          ],
+          "total": [
+            "NASDAQ",
+            "−2,86 %",
+            "NDAQ"
+          ],
+          "stamp": "PIRE SÉANCE"
+        }
+      ]
+    },
+    {
+      "text": "Et ce n'est même pas le plus inquiétant.",
+      "bg": {
+        "query": "stressed trader hands on head screens",
+        "label": "Trader sous tension",
+        "cx": 0.66
+      },
+      "overlays": []
+    },
+    {
+      "text": "Vendredi, Wall Street a décroché.",
+      "bg": {
+        "query": "wall street sign new york stock exchange facade",
+        "label": "Wall Street (façade NYSE)"
+      },
+      "overlays": [
+        {
+          "type": "source",
+          "text": "New York · Wall Street"
+        }
+      ]
+    },
+    {
+      "text": "Le Nasdaq chute de près de 3 %, à plus de 8 % sous son record.",
+      "say": "Le Nasdaq chute de près de trois pour cent, à plus de huit pour cent sous son record.",
+      "bg": {
+        "screen": true,
+        "under": {
+          "clip": "beat_10.mp4",
+          "ss": 2
+        }
+      },
+      "overlays": [
+        {
+          "type": "screen_counter",
+          "kicker": "NASDAQ",
+          "value_from": 0,
+          "value_to": -2.86,
+          "decimals": 2,
+          "suffix": " %",
+          "color": "red",
+          "pill": "VENDREDI 30 OCTOBRE",
+          "desc": "À plus de 8 % sous son record du début octobre",
+          "drop": true,
+          "logo": "NDAQ"
+        }
+      ]
+    },
+    {
+      "text": "L'indice de la peur, le VIX, grimpe à son plus haut depuis avril.",
+      "say": "L'indice de la peur, le Vix, grimpe à son plus haut depuis avril.",
+      "bg": {
+        "screen": true,
+        "under": {
+          "clip": "beat_00.mp4",
+          "cx": 0.6,
+          "ss": 3
+        }
+      },
+      "overlays": [
+        {
+          "type": "screen_gauge",
+          "kicker": "VIX",
+          "pill": "INDICE DE LA PEUR",
+          "desc": "Au plus haut depuis avril 2026"
+        }
+      ]
+    },
+    {
+      "text": "Intel, lui, paie ses prévisions : 15 à 16 milliards de dollars de ventes ce trimestre. Bien en dessous des attentes.",
+      "say": "Intel, lui, paie ses prévisions : quinze à seize milliards de dollars de ventes ce trimestre. Bien en dessous des attentes.",
+      "bg": {
+        "label": "Puces / carte mère",
+        "shots": [
+          {
+            "clip": "beat_05.mp4"
+          },
+          {
+            "clip": "x_191305.mp4",
+            "at_word": 15,
+            "cx": 0.35,
+            "ss": 1
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "stock",
+          "key": "INTC",
+          "pct": "−28,6 %",
+          "sub": "INTC · Nasdaq",
+          "y": 330,
+          "at_word": 0,
+          "rot": -1.5
+        },
+        {
+          "type": "news",
+          "at_word": 5,
+          "left": "ACTUALITÉS",
+          "right": "RÉSULTATS INTEL",
+          "tag": "PRÉVISIONS 4E TRIMESTRE",
+          "headline": "15 à 16 Md$ de ventes attendues ce trimestre",
+          "highlight": "15 à 16 Md$",
+          "sub": "Bien en dessous des attentes du marché"
+        }
+      ]
+    },
+    {
+      "text": "Et le groupe prévient : le ralentissement des PC pourrait se prolonger en 2027.",
+      "say": "Et le groupe prévient : le ralentissement des P.C. pourrait se prolonger en deux mille vingt-sept.",
+      "bg": {
+        "label": "Bureaux / PC",
+        "shots": [
+          {
+            "clip": "beat_06.mp4"
+          },
+          {
+            "clip": "x_3160.mp4",
+            "at_word": 8,
+            "cx": 0.45,
+            "ss": 1
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "photo",
+          "at_word": 4,
+          "src": "file:///home/claude/kit/episodes/ep01_intel/broll/photo_b06.jpg",
+          "rot": -3
+        }
+      ]
+    },
+    {
+      "text": "Mais le vrai sujet, ce n'est pas Intel. C'est l'intelligence artificielle.",
+      "bg": {
+        "query": "data center server cables blue lights",
+        "label": "Data center (câbles, serveurs)"
+      },
+      "overlays": [
+        {
+          "type": "stock",
+          "key": "INTC",
+          "sub": "INTC · Nasdaq",
+          "y": 560,
+          "at_word": 7,
+          "strike_at_word": 8,
+          "rot": 2
+        }
+      ]
+    },
+    {
+      "text": "Ce genre de séance, je la décortique chaque jour sur mon Telegram. Lien en bio.",
+      "bg": {
+        "blur_prev": true,
+        "label": "(fond flouté du plan précédent)"
+      },
+      "cta": "short",
+      "overlays": [
+        {
+          "type": "phone",
+          "mode": "mini"
+        }
+      ]
+    },
+    {
+      "text": "Amazon voit son cloud bondir de 39 %… et l'action plonge quand même de près de 6 % en séance.",
+      "say": "Amazon voit son cloud bondir de trente-neuf pour cent... et l'action plonge quand même de près de six pour cent en séance.",
+      "bg": {
+        "screen": true,
+        "under": {
+          "clip": "beat_07.mp4",
+          "ss": 6
+        }
+      },
+      "overlays": [
+        {
+          "type": "screen_duo",
+          "a": {
+            "kicker": "CLOUD AWS",
+            "value_to": 39,
+            "prefix": "+",
+            "suffix": " %",
+            "color": "cyan",
+            "desc": "Croissance sur un an",
+            "logo": "AWS"
+          },
+          "b_at_word": 9,
+          "b": {
+            "kicker": "ACTION AMAZON",
+            "value_to": -6,
+            "prefix": "",
+            "suffix": " %",
+            "color": "red",
+            "desc": "Au plus bas de la séance",
+            "logo": "AMZN"
+          }
+        }
+      ]
+    },
+    {
+      "text": "AMD perd près de 11 %. Dell aussi. Nvidia recule de 4 %.",
+      "say": "AMD perd près de onze pour cent. Dell aussi. Nvidia recule de quatre pour cent.",
+      "bg": {
+        "query": "stock market screens red numbers",
+        "label": "Écrans de cotation dans le rouge"
+      },
+      "overlays": [
+        {
+          "type": "tickers",
+          "title": "LA TECH DÉRAILLE",
+          "rows": [
+            {
+              "name": "AMD",
+              "pct": "−10,9 %",
+              "at_word": 0,
+              "key": "AMD"
+            },
+            {
+              "name": "Dell",
+              "pct": "−10,8 %",
+              "at_word": 5,
+              "key": "DELL"
+            },
+            {
+              "name": "Nvidia",
+              "pct": "−4,2 %",
+              "at_word": 7,
+              "key": "NVDA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "La question qui fait trembler Wall Street : ces milliards investis dans l'IA vont-ils vraiment rapporter ?",
+      "say": "La question qui fait trembler Wall Street : ces milliards investis dans l'I.A., vont-ils vraiment rapporter ?",
+      "bg": {
+        "label": "Trader / serveurs",
+        "shots": [
+          {
+            "clip": "beat_11.mp4"
+          },
+          {
+            "clip": "x_377884.mp4",
+            "at_word": 7,
+            "ss": 3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "news",
+          "at_word": 5,
+          "left": "ACTUALITÉS",
+          "right": "WALL STREET",
+          "tag": "LA QUESTION QUI FÂCHE",
+          "headline": "L'IA va-t-elle rapporter assez pour payer la facture ?",
+          "highlight": "rapporter assez",
+          "sub": "« La question est de savoir si ces dépenses seront rentables » — P. Cardillo, Spartan Capital"
+        }
+      ]
+    },
+    {
+      "text": "Et le timing ne pouvait pas être pire.",
+      "bg": {
+        "query": "clock ticking close up",
+        "label": "Montre / chronomètre",
+        "ss": 2,
+        "cx": 0.2
+      },
+      "overlays": []
+    },
+    {
+      "text": "Mercredi, la Fed n'a pas touché à ses taux. Mais deux de ses membres voulaient déjà les remonter.",
+      "say": "Mercredi, la Fed n'a pas touché à ses taux. Mais deux de ses membres voulaient déjà les remonter.",
+      "bg": {
+        "query": "dollar bills",
+        "label": "Billet d'un dollar (Federal Reserve Note)",
+        "until_word": 7
+      },
+      "overlays": [
+        {
+          "type": "screen_vote",
+          "at_word": 8,
+          "kicker": "LE VOTE DE LA FED",
+          "groups": [
+            {
+              "n": 10,
+              "label": "STATU QUO",
+              "color": "cyan"
+            },
+            {
+              "n": 2,
+              "label": "HAUSSE",
+              "color": "red"
+            }
+          ],
+          "desc": "Taux maintenus entre 3,75 % et 4 % · 28 octobre"
+        }
+      ]
+    },
+    {
+      "text": "Les marchés voient maintenant plus de 80 % de chances d'une hausse en décembre.",
+      "say": "Les marchés voient maintenant plus de quatre-vingts pour cent de chances d'une hausse en décembre.",
+      "bg": {
+        "screen": true,
+        "under": {
+          "clip": "beat_13.mp4",
+          "ss": 5
+        }
+      },
+      "overlays": [
+        {
+          "type": "screen_counter",
+          "kicker": "FED · DÉCEMBRE",
+          "value_from": 0,
+          "value_to": 80,
+          "decimals": 0,
+          "prefix": "+ de ",
+          "suffix": " %",
+          "color": "cyan",
+          "pill": "DE CHANCES D'UNE HAUSSE",
+          "desc": "Probabilité estimée par les marchés (CME FedWatch)"
+        }
+      ]
+    },
+    {
+      "text": "Et mardi, l'Amérique vote.",
+      "bg": {
+        "query": "american flag voting booth election",
+        "label": "Drapeau US / bureau de vote"
+      },
+      "overlays": [
+        {
+          "type": "date",
+          "text": "Mardi 3 novembre"
+        },
+        {
+          "type": "bigtitle",
+          "lines": [
+            "ÉLECTIONS",
+            "DE MI-MANDAT"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Simple correction… ou début de quelque chose de plus gros ? Les prochains jours vont tout dire.",
+      "bg": {
+        "label": "New York de nuit",
+        "shots": [
+          {
+            "clip": "beat_16.mp4"
+          },
+          {
+            "clip": "x_7260.mp4",
+            "at_word": 10,
+            "cx": 0.35,
+            "ss": 2
+          }
+        ]
+      },
+      "overlays": []
+    },
+    {
+      "text": "Sur mon canal Telegram, je décortique toute l'actualité géopolitique et financière, avec des analyses d'actions détaillées, et mes opportunités en temps réel. C'est gratuit. Le lien est dans ma bio. On t'attend.",
+      "bg": {
+        "blur_prev": true,
+        "label": "(fond flouté)"
+      },
+      "cta": "long",
+      "overlays": [
+        {
+          "type": "phone",
+          "mode": "full",
+          "bullets": [
+            {
+              "text": "Actu géopolitique & financière",
+              "at_word": 6
+            },
+            {
+              "text": "Analyses d'actions détaillées",
+              "at_word": 12
+            },
+            {
+              "text": "Opportunités en temps réel",
+              "at_word": 17
+            }
+          ],
+          "bio_at_word": 25
+        }
+      ],
+      "endcard": {
+        "duration": 1.8,
+        "button": "REJOINS LE CANAL",
+        "small": "gratuit · lien en bio"
+      }
+    }
+  ],
+  "sources": [
+    "https://www.lesaffaires.com/bourse/revue-des-marches/bourse-wall-street-vendredi-30-octobre-2026/",
+    "https://www.economiematin.fr/wall-street-nasdaq-chute-intel-amazon-epargne-31-octobre-2026",
+    "https://blockchain.news/news/fed-holds-rates-at-375-400-in-split-october-fomc-vote",
+    "https://meyka.com/blog/fed-interest-rate-decision-october-2026/",
+    "https://www.federalreserve.gov/releases/h15/"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+ "INTC": {
+  "name": "Intel",
+  "ticker": "INTC",
+  "img": "INTC.png",
+  "tile": "#0068B5",
+  "fit": "82%"
+ },
+ "AMD": {
+  "name": "AMD",
+  "ticker": "AMD",
+  "img": "AMD_white.png",
+  "tile": "#000000",
+  "fit": "58%"
+ },
+ "DELL": {
+  "name": "Dell",
+  "ticker": "DELL",
+  "img": "DELL.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "NVDA": {
+  "name": "Nvidia",
+  "ticker": "NVDA",
+  "img": "NVDA.png",
+  "tile": "#76B900",
+  "fit": "100%"
+ },
+ "AMZN": {
+  "name": "Amazon",
+  "ticker": "AMZN",
+  "img": "AMZN.png",
+  "tile": "#232F3E",
+  "fit": "74%"
+ },
+ "AWS": {
+  "name": "AWS",
+  "ticker": "Amazon Web Services",
+  "img": "AWS.png",
+  "tile": "#FFFFFF",
+  "fit": "78%"
+ },
+ "NDAQ": {
+  "name": "Nasdaq",
+  "ticker": "Indice",
+  "img": "NDAQ.png",
+  "tile": "#FFFFFF",
+  "fit": "70%"
+ },
+ "GOOGL": {
+  "name": "Alphabet",
+  "ticker": "GOOGL",
+  "img": "GOOGL.png",
+  "tile": "#FFFFFF",
+  "fit": "70%"
+ },
+ "MU": {
+  "name": "Micron",
+  "ticker": "MU",
+  "img": "MU.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "AVGO": {
+  "name": "Broadcom",
+  "ticker": "AVGO",
+  "img": "AVGO.png",
+  "tile": "#FFFFFF",
+  "fit": "82%"
+ },
+ "AAPL": {
+  "name": "Apple",
+  "ticker": "AAPL",
+  "img": "AAPL.png",
+  "tile": "#111111",
+  "fit": "62%"
+ },
+ "MSFT": {
+  "name": "Microsoft",
+  "ticker": "MSFT",
+  "img": "MSFT.png",
+  "tile": "#FFFFFF",
+  "fit": "64%"
+ },
+ "META": {
+  "name": "Meta",
+  "ticker": "META",
+  "img": "META.png",
+  "tile": "#FFFFFF",
+  "fit": "76%"
+ },
+ "TSLA": {
+  "name": "Tesla",
+  "ticker": "TSLA",
+  "img": "TSLA.png",
+  "tile": "#FFFFFF",
+  "fit": "66%"
+ },
+ "ORCL": {
+  "name": "Oracle",
+  "ticker": "ORCL",
+  "img": "ORCL.png",
+  "tile": "#FFFFFF",
+  "fit": "78%"
+ },
+ "TSM": {
+  "name": "TSMC",
+  "ticker": "TSM",
+  "img": "TSM.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
+ },
+ "ASML": {
+  "name": "ASML",
+  "ticker": "ASML",
+  "img": "ASML.png",
+  "tile": "#0F238C",
+  "fit": "80%"
+ }
+}

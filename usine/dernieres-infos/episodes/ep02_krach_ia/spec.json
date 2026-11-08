@@ -1,0 +1,454 @@
+{
+ "id": "ep02_krach_ia",
+ "date_label": "5 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "beats": [
+  {
+   "text": "2 500 milliards de dollars, effacés en une seule séance.",
+   "say": "Deux mille cinq cents milliards de dollars... effacés en une seule séance.",
+   "bg": {
+    "clip": "stocks_red_191304.mp4",
+    "ss": 2
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 5 novembre 2026",
+     "until_beat": 1
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 2500,
+     "unit": "MILLIARDS DE $",
+     "label": "effacés en une seule séance",
+     "logos": [
+      "NVDA",
+      "AMD",
+      "MU",
+      "INTC",
+      "AVGO",
+      "MSFT"
+     ],
+     "reveal_at_word": 4,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Et le coupable n'est pas celui que tu crois.",
+   "bg": {
+    "clip": "silhouette_40797.mp4",
+    "cx": 0.72,
+    "ss": 1
+   },
+   "overlays": []
+  },
+  {
+   "text": "Jeudi, le Nasdaq a plongé de plus de 5 %. Sa pire séance depuis avril 2025.",
+   "say": "Jeudi, le Nasdaq a plongé de plus de cinq pour cent. Sa pire séance depuis avril deux mille vingt-cinq.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "manhattan_42489.mp4",
+     "ss": 3
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "logo": "NDAQ",
+     "kicker": "NASDAQ",
+     "value_from": 0,
+     "value_to": -5.52,
+     "decimals": 2,
+     "suffix": " %",
+     "color": "red",
+     "pill": "JEUDI 5 NOVEMBRE",
+     "desc": "Pire séance depuis avril 2025 · 2 500 Md$ de capitalisation effacés"
+    }
+   ]
+  },
+  {
+   "text": "Le voilà officiellement en correction : près de 12 % sous son record.",
+   "say": "Le voilà officiellement en correction : près de douze pour cent sous son record.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "candles_191305.mp4",
+     "ss": 4
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "logo": "NDAQ",
+     "kicker": "NASDAQ · CORRECTION",
+     "value_from": 0,
+     "value_to": -11.9,
+     "decimals": 1,
+     "suffix": " %",
+     "color": "red",
+     "pill": "SOUS SON RECORD DU 6 OCTOBRE",
+     "desc": "Correction = au moins 10 % de baisse depuis un sommet"
+    }
+   ]
+  },
+  {
+   "text": "Les fabricants de puces se font massacrer : Micron et AMD perdent plus de 17 %, Intel et Broadcom plus de 10 %.",
+   "say": "Les fabricants de puces se font massacrer : Micron et A.M.D. perdent plus de dix-sept pour cent, Intel et Broadcom plus de dix pour cent.",
+   "bg": {
+    "label": "puces",
+    "shots": [
+     {
+      "clip": "cpu_60574.mp4",
+      "inset": 0.075,
+      "ss": 0.5
+     },
+     {
+      "clip": "cpupins_27593.mp4",
+      "inset": 0.06,
+      "at_word": 14,
+      "ss": 0.5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LES PUCES S'EFFONDRENT",
+     "rows": [
+      {
+       "name": "Micron",
+       "pct": "−17,8 %",
+       "key": "MU",
+       "at_word": 7
+      },
+      {
+       "name": "AMD",
+       "pct": "−17,4 %",
+       "key": "AMD",
+       "at_word": 9
+      },
+      {
+       "name": "Intel",
+       "pct": "−10,4 %",
+       "key": "INTC",
+       "at_word": 14
+      },
+      {
+       "name": "Broadcom",
+       "pct": "−10,2 %",
+       "key": "AVGO",
+       "at_word": 16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "À eux seuls, les sept géants de la tech perdent 800 milliards.",
+   "say": "À eux seuls, les sept géants de la tech perdent huit cents milliards.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "racks_377884.mp4",
+     "ss": 6
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "LES 7 GÉANTS DE LA TECH",
+     "value_from": 0,
+     "value_to": -800,
+     "decimals": 0,
+     "suffix": " Md$",
+     "color": "red",
+     "pill": "PERDUS EN UNE SÉANCE",
+     "keys": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "TSLA"
+     ],
+     "desc": "Apple · Microsoft · Nvidia · Amazon · Alphabet · Meta · Tesla"
+    }
+   ]
+  },
+  {
+   "text": "Alors… qui a déclenché tout ça ?",
+   "say": "Alors... qui a déclenché tout ça ?",
+   "bg": {
+    "clip": "silhouette_40797.mp4",
+    "cx": 0.72,
+    "ss": 7
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A DÉCLENCHÉ",
+      "TOUT ÇA ?"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ce krach, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "cta": "short",
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c.jpg",
+     "bio_at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Mardi, les démocrates remportent largement les élections de mi-mandat.",
+   "bg": {
+    "clip": "capitol_239278.mp4",
+    "cx": 0.42,
+    "ss": 2
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 3 novembre"
+    },
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "ACTUALITÉS",
+     "right": "ÉTATS-UNIS",
+     "tag": "ÉLECTIONS DE MI-MANDAT",
+     "headline": "Large victoire des démocrates",
+     "highlight": "Large victoire",
+     "sub": "Scrutin du mardi 3 novembre 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et le même jour, des dizaines de villes américaines votent des restrictions, voire des interdictions… contre les data centers.",
+   "say": "Et le même jour, des dizaines de villes américaines votent des restrictions, voire des interdictions... contre les data centers.",
+   "bg": {
+    "clip": "datacenter_14900.mp4",
+    "ss": 8
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 11,
+     "left": "ACTUALITÉS",
+     "right": "VOTES LOCAUX",
+     "tag": "DATA CENTERS",
+     "headline": "Des dizaines de villes disent non aux data centers",
+     "highlight": "disent non",
+     "sub": "Restrictions et interdictions votées le jour du scrutin (AFP)"
+    }
+   ]
+  },
+  {
+   "text": "Or sans data centers, pas d'intelligence artificielle. Et toute la folie boursière de l'IA repose dessus.",
+   "say": "Or sans data centers, pas d'intelligence artificielle. Et toute la folie boursière de l'I.A. repose dessus.",
+   "bg": {
+    "label": "serveurs",
+    "shots": [
+     {
+      "clip": "racks_377884.mp4",
+      "ss": 12
+     },
+     {
+      "clip": "board_72326.mp4",
+      "at_word": 7,
+      "ss": 4
+     }
+    ]
+   },
+   "overlays": []
+  },
+  {
+   "text": "Un gérant résume : « C'est une véritable panique. »",
+   "say": "Un gérant résume : C'est une véritable panique.",
+   "bg": {
+    "clip": "stress_349086.mp4",
+    "cx": 0.6,
+    "ss": 2
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "WALL STREET",
+     "right": "JEUDI 5 NOV.",
+     "tag": "LE MOT DE LA JOURNÉE",
+     "headline": "« C'est une véritable panique »",
+     "highlight": "véritable panique",
+     "sub": "Jay Hatfield, Infrastructure Capital Advisors"
+    }
+   ]
+  },
+  {
+   "text": "Vendredi, la tech rebondit… mais un autre danger arrive.",
+   "say": "Vendredi, la tech rebondit... mais un autre danger arrive.",
+   "bg": {
+    "clip": "candles_191305.mp4",
+    "cx": 0.35,
+    "ss": 8
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NDAQ",
+     "name": "Nasdaq",
+     "sub": "Vendredi 6 novembre",
+     "pct": "+1,09 %",
+     "up": true,
+     "y": 420,
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "L'emploi américain explose les attentes : 165 000 créations, contre 59 000 prévues.",
+   "say": "L'emploi américain explose les attentes : cent soixante-cinq mille créations, contre cinquante-neuf mille prévues.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "office_273921.mp4",
+     "ss": 2
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "EMPLOIS CRÉÉS EN OCTOBRE",
+      "value_to": 165000,
+      "prefix": "+",
+      "suffix": "",
+      "color": "cyan",
+      "desc": "États-Unis · chiffre officiel"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "PRÉVISIONS",
+      "value_to": 59000,
+      "prefix": "",
+      "suffix": "",
+      "color": "white",
+      "desc": "Consensus des économistes"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Résultat : une hausse des taux de la Fed en décembre redevient possible.",
+   "bg": {
+    "clip": "dollar_46922.mp4",
+    "ss": 3
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "FED · 9 DÉCEMBRE",
+      "HAUSSE DES TAUX ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Et mardi, l'inflation américaine tombe.",
+   "bg": {
+    "clip": "usflag_221814.mp4",
+    "ss": 2
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 novembre"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "INFLATION US",
+      "MARDI · 14H30"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Bulle de l'IA qui éclate… ou simple trou d'air ? Cette semaine va trancher.",
+   "say": "Bulle de l'I.A. qui éclate... ou simple trou d'air ? Cette semaine va trancher.",
+   "bg": {
+    "label": "NY nuit",
+    "shots": [
+     {
+      "clip": "citynight_231168.mp4",
+      "ss": 1
+     },
+     {
+      "clip": "brooklyn_7260.mp4",
+      "cx": 0.35,
+      "ss": 2,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": []
+  },
+  {
+   "text": "Pendant que les marchés paniquent, sur mon canal Telegram, on garde la tête froide. J'y décortique toute l'actu géopolitique et financière, avec des analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes sont déjà dedans. C'est gratuit, le lien est dans ma bio. Rejoins la famille.",
+   "say": "Pendant que les marchés paniquent, sur mon canal Telegram, on garde la tête froide. J'y décortique toute l'actu géopolitique et financière, avec des analyses d'actions détaillées, et mes opportunités en temps réel. Plus de vingt-deux mille personnes sont déjà dedans. C'est gratuit, le lien est dans ma bio. Rejoins la famille.",
+   "bg": {
+    "blur_prev": true
+   },
+   "cta": "long",
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nouvelle analyse : Nasdaq, Fed, inflation… le point complet de la semaine",
+     "imgs": [
+      "tg_3435c02c.jpg",
+      "tg_38e4f34b.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 32,
+     "bio_at_word": 42,
+     "button": "REJOINS LA FAMILLE"
+    }
+   ],
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINS LA FAMILLE",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ],
+ "sources": [
+  "https://fr.qz.com/wall-street-nasdaq-chute-ia-elections-americaines-110526",
+  "https://www.boursorama.com/bourse/actualites/wall-street-tente-un-rebond-mais-reste-loin-de-compenser-la-deroute-de-la-veille-e94b065dd7033d381f8729dcbaba98f8",
+  "https://vaultwealth.com/resources/daily-pour/07-november/",
+  "https://eurasiabusinessnews.com/2026/11/07/stock-market-today-ai-stocks-rebound-after-brutal-nasdaq-selloff/"
+ ]
+}

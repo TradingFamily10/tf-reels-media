@@ -1,0 +1,5 @@
+pixabay_key.txt
+**/voice_raw/
+**/broll/*.mp4
+*.mp4
+!reels/*.mp4
