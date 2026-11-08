@@ -1,6 +1,6 @@
 # Usine « Dernières Infos » — Invest Family Fr (3 reels / jour)
 
-Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le publie en release GitHub (URL publique) et le programme dans Metricool sur la marque **Invest Family Fr** (blogId `7946352`, Facebook Reel + TikTok). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
+Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le dépose sur la branche `videos-dernieres-infos` du dépôt de médias (URL publique, comme les autres usines) et le programme dans Metricool sur la marque **Invest Family Fr** (blogId `7946352`, Facebook Reel + TikTok). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
 
 ## Règles non négociables
 - **Français impeccable**, ton humain et tendu, phrases courtes. Jamais « Dans un monde où… », jamais de formules IA.
@@ -110,7 +110,8 @@ python3 engine/contact_sheet.py episodes/<id>/<id>.mp4 episodes/<id>/check.png 2
 
 ## 8. Publier
 ```bash
-URL=$(bash engine/publish_release.sh episodes/<id>/<id>.mp4 "<id>" "<titre court>")
+python3 engine/publish_media.py episodes/<id>/<id>.mp4    # -> "[media] 200 <URL>" + episodes/<id>/media_url.txt
+URL=$(cat episodes/<id>/media_url.txt)
 ```
 Puis Metricool `getBrandSettings` (réseaux reliés à la marque 7946352 = clés de `networksData`, lues en direct) et `createScheduledPost` : `blogId 7946352`, date = **le créneau choisi au §0** (s'il est à moins de 25 min, prendre maintenant + 25 min et le signaler), `info` ci-dessous. Aujourd'hui la marque a Facebook + TikTok ; si Instagram est relié un jour, ajouter `{"network":"instagram"}` + `"instagramData": {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}` ; si YouTube l'est, `{"network":"youtube"}` + `"youtubeData": {"title":"<titre court>","type":"short","privacy":"public","madeForKids":false,"isAiGeneratedContent":false,"category":"NEWS_POLITICS"}`.
 ```json
@@ -123,7 +124,7 @@ Puis Metricool `getBrandSettings` (réseaux reliés à la marque 7946352 = clés
 Légende : 1 phrase d'accroche (≠ du titre vidéo) + 1 phrase de contexte + « Toute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio). » + « Ceci n'est pas un conseil en investissement. » + 6–9 hashtags pertinents. Vérifier ensuite avec `getScheduledPosts` qu'aucun autre post n'est déjà sur ce créneau.
 
 ## 9. Mémoriser et pousser
-Ajouter une entrée à `history.json` (`date`, `slot`, `id`, `topic`, `hook_type`, `hook_formula`, `cta_angle`, `release_url`), puis copier `spec.json`, `script.json` et `history.json` dans `tf-reels-media/usine/dernieres-infos/` (jamais de MP4, jamais de clé) et pousser (`git pull --rebase` avant `git push`).
+Ajouter une entrée à `history.json` (`date`, `slot`, `id`, `topic`, `hook_type`, `hook_formula`, `cta_angle`, `media_url`, `planner_url`), puis copier `spec.json`, `script.json` et `history.json` dans `tf-reels-media/usine/dernieres-infos/` (jamais de MP4, jamais de clé) et pousser (`git pull --rebase` avant `git push`).
 
 ## 10. Rapport final
 Un message court (5 lignes max) : sujet ; accroche visuelle + formule ; créneau + réseaux + lien Metricool (`plannerUrl`) ; crédits Hedra restants ; problèmes rencontrés ou « tout est programmé ». Si Hedra n'a plus assez de crédits (< 30), utiliser la voix de secours et le dire en ligne 1.

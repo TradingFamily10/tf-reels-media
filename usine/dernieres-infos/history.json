@@ -1,3 +1,13 @@
 [
- {"date": "2026-11-08", "slot": "12:30", "id": "ep02_krach_ia", "topic": "Krach tech du 5 novembre : Nasdaq -5,5 %, 2 500 Md$ effacés, data centers bloqués après la victoire démocrate, emploi US, Fed, CPI du 10/11", "hook_type": "bignum", "hook_formula": "chiffre choc + coupable inattendu", "cta_angle": "Pendant que les marchés paniquent, on garde la tête froide", "release_url": ""}
+ {
+  "date": "2026-11-08",
+  "slot": "13:05",
+  "id": "ep02_krach_ia",
+  "topic": "Krach tech du 5 novembre : Nasdaq -5,5 %, 2 500 Md$ effacés, data centers bloqués après la victoire démocrate, emploi US, Fed, CPI du 10/11",
+  "hook_type": "bignum",
+  "hook_formula": "chiffre choc + coupable inattendu",
+  "cta_angle": "Pendant que les marchés paniquent, on garde la tête froide",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/afab26e289967d05ab46c5896bc8413d940c4118/2026-11-08_InvestFamily_ep02_krach_IA.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=4400210528593593674"
+ }
 ]
