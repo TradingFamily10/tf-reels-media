@@ -13,6 +13,12 @@ Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'act
 - **Metricool** : ne jamais cocher « contenu généré par IA » (`isAigc:false`, `isAiGeneratedContent:false`).
 - **Varier à chaque vidéo** : accroche visuelle, formule d'accroche écrite et CTA final doivent être différents des 3 dernières entrées de `history.json`.
 
+## 0. Créneau de ce run (à faire EN PREMIER)
+Créneaux fixes (Europe/Paris) : **06:55 · 13:05 · 14:55**. Ils laissent ≥ 3 h avec les carrousels déjà prévus sur cette page (10:00 · 18:00 · 21:30, autre usine) : ne jamais les déplacer.
+1. `TZ=Europe/Paris date` → créneau du run = le premier créneau situé **au moins 40 min** après maintenant (après 14:15 : 06:55 du lendemain).
+2. Metricool `getScheduledPosts` (brandId `7946352`, Europe/Paris, journée du créneau). Si un post est déjà programmé à ±20 min de ce créneau → terminer tout de suite par « rien à faire (créneau HH:MM déjà pris) ».
+3. Noter dans le rapport tout autre post de la page à moins de 3 h du créneau (sans rien déplacer).
+
 ## 1. Préparer l'espace
 ```bash
 # dépôt public (déjà rattaché en push par add_repo TradingFamily10/tf-reels-media)
@@ -28,7 +34,7 @@ Prérequis déjà présents : Python 3 (numpy, scipy), Playwright + Chromium, ff
 1. Recherche (WebSearch extended puis WebFetch des articles) : ce qui a fait bouger les marchés ou la géopolitique dans les dernières 24–48 h (krach / envolée d'une valeur, banque centrale, inflation, emploi, pétrole, or, guerre, sanctions, élections, dette, tarifs douaniers, crypto majeure).
 2. Écarter tout sujet déjà traité dans `history.json` (même événement), sauf rebondissement nouveau.
 3. Préférer un sujet avec : un chiffre choc, un « coupable » ou un retournement, 2 à 4 sociétés cotées à montrer en logo, une suite à venir (date).
-4. Créneau 10:00 → sujet de la nuit / marchés asiatiques et européens ; 12:30 → macro / géopolitique ; 18:00 → Wall Street du jour.
+4. Créneau 06:55 → la nuit : Asie, Wall Street de la veille, ce qui attend l'Europe ; 13:05 → macro / géopolitique / Europe ; 14:55 → avant l'ouverture de Wall Street (15:30) : valeurs US, stats US, Fed. Le week-end : géopolitique, macro, dossiers de fond liés à l'actu de la semaine.
 
 ## 3. Écrire le script (16–19 phrases, 70–85 s de voix)
 Structure : **accroche (chiffre ou fait choc, lu à l'écran)** → relance (« et ce n'est pas le pire ») → contexte chiffré → le pourquoi → boucle ouverte (« alors, qui… ? ») → **CTA court Telegram vers 35–50 %** (1 phrase) → révélation → preuves (2–3 chiffres) → twist macro / géopolitique → prochaine date à surveiller → question ouverte → **CTA long original**.
@@ -94,6 +100,7 @@ python3 engine/broll_candidates.py episodes/<id> episodes/<id>/cand_queries.json
 ## 7. Fabriquer
 ```bash
 python3 engine/build_timeline.py episodes/<id>
+python3 engine/check_broll.py episodes/<id>        # FAIL = clip quasi noir -> changer de clip / de ss, refaire build_timeline
 python3 engine/audio.py episodes/<id>
 python3 engine/render.py episodes/<id> --still 1,8,20,40,60,75     # contrôle rapide de l'habillage
 python3 engine/render.py episodes/<id> --best --out episodes/<id>/<id>.mp4   # ≈ 15 min
@@ -105,7 +112,7 @@ python3 engine/contact_sheet.py episodes/<id>/<id>.mp4 episodes/<id>/check.png 2
 ```bash
 URL=$(bash engine/publish_release.sh episodes/<id>/<id>.mp4 "<id>" "<titre court>")
 ```
-Puis Metricool `createScheduledPost` : `blogId 7946352`, date du prochain créneau libre parmi **10:00 / 12:30 / 18:00** (Europe/Paris) situé au moins 30 min après maintenant (sinon maintenant + 20 min), `info` :
+Puis Metricool `getBrandSettings` (réseaux reliés à la marque 7946352 = clés de `networksData`, lues en direct) et `createScheduledPost` : `blogId 7946352`, date = **le créneau choisi au §0** (s'il est à moins de 25 min, prendre maintenant + 25 min et le signaler), `info` ci-dessous. Aujourd'hui la marque a Facebook + TikTok ; si Instagram est relié un jour, ajouter `{"network":"instagram"}` + `"instagramData": {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}` ; si YouTube l'est, `{"network":"youtube"}` + `"youtubeData": {"title":"<titre court>","type":"short","privacy":"public","madeForKids":false,"isAiGeneratedContent":false,"category":"NEWS_POLITICS"}`.
 ```json
 {"autoPublish": true, "draft": false, "media": ["<URL>"], "providers": [{"network": "facebook"}, {"network": "tiktok"}],
  "publicationDate": {"dateTime": "YYYY-MM-DDTHH:MM:00", "timezone": "Europe/Paris"},
@@ -119,4 +126,4 @@ Légende : 1 phrase d'accroche (≠ du titre vidéo) + 1 phrase de contexte + «
 Ajouter une entrée à `history.json` (`date`, `slot`, `id`, `topic`, `hook_type`, `hook_formula`, `cta_angle`, `release_url`), puis copier `spec.json`, `script.json` et `history.json` dans `tf-reels-media/usine/dernieres-infos/` (jamais de MP4, jamais de clé) et pousser (`git pull --rebase` avant `git push`).
 
 ## 10. Rapport final
-Un message court : sujet, accroche choisie, créneau programmé, lien de la release, crédits Hedra restants, et tout problème rencontré.
+Un message court (5 lignes max) : sujet ; accroche visuelle + formule ; créneau + réseaux + lien Metricool (`plannerUrl`) ; crédits Hedra restants ; problèmes rencontrés ou « tout est programmé ». Si Hedra n'a plus assez de crédits (< 30), utiliser la voix de secours et le dire en ligne 1.

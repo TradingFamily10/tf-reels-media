@@ -161,8 +161,8 @@
    "bg": {
     "screen": true,
     "under": {
-     "clip": "racks_377884.mp4",
-     "ss": 6
+     "clip": "manhattan_42489.mp4",
+     "ss": 9
     }
    },
    "overlays": [
@@ -272,8 +272,9 @@
     "label": "serveurs",
     "shots": [
      {
-      "clip": "racks_377884.mp4",
-      "ss": 12
+      "clip": "datacenter_14900.mp4",
+      "ss": 15,
+      "cx": 0.75
      },
      {
       "clip": "board_72326.mp4",

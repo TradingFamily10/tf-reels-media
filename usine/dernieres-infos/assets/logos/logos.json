@@ -24,8 +24,8 @@
   "name": "Nvidia",
   "ticker": "NVDA",
   "img": "NVDA.png",
-  "tile": "#76B900",
-  "fit": "100%"
+  "tile": "#FFFFFF",
+  "fit": "84%"
  },
  "AMZN": {
   "name": "Amazon",
