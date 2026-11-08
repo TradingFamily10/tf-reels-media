@@ -4,7 +4,7 @@
 > - Metricool (§8) : programmer comme avant sur TOUS les réseaux reliés à la marque 7946352 d'après getBrandSettings **SAUF TikTok** (jamais `{"network":"tiktok"}` ni `tiktokData`). Facebook Reel aujourd'hui ; YouTube Short s'il est relié un jour.
 > - TikTok : **envoyer le MP4 à Clément dans la conversation (SendUserFile, display "attach", status "proactive")** et écrire dans `history.json` `title`, `caption` (légende prête à copier) et `media_url`, poussés sur main AVANT l'heure du créneau. À 06:55 · 13:05 · 14:55, les tâches planifiées « Alerte mail — Dernières Infos » envoient à clement.istasse@gmail.com le lien du MP4 + la légende : Clément poste lui-même sur TikTok.
 
-Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le dépose sur la branche `videos-dernieres-infos` du dépôt de médias (URL publique, comme les autres usines) et le programme dans Metricool sur la marque **Invest Family Fr** (blogId `7946352`, Facebook Reel + TikTok). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
+Chaque exécution fabrique **1 reel vertical 1080×1920 de 70–85 s** sur l'actu éco / géopolitique / financière / macro, le dépose sur la branche `videos-dernieres-infos` du dépôt de médias (URL publique, comme les autres usines) et le programme dans Metricool sur la marque **Invest Family Fr** (blogId `7946352`, Facebook Reel ; TikTok posté à la main par Clément). Tout est automatique : ne demande rien à Clément, décide et note tes choix dans le rapport final.
 
 ## Règles non négociables
 - **Français impeccable**, ton humain et tendu, phrases courtes. Jamais « Dans un monde où… », jamais de formules IA.
