@@ -9,5 +9,16 @@
   "cta_angle": "Pendant que les marchés paniquent, on garde la tête froide",
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/afab26e289967d05ab46c5896bc8413d940c4118/2026-11-08_InvestFamily_ep02_krach_IA.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=4400210528593593674"
+ },
+ {
+  "date": "2026-11-08",
+  "slot": "06:55",
+  "id": "ep03_petrole_iran",
+  "topic": "Pétrole : pire semaine depuis 2020 (Brent −16 % du 2 au 6 nov., 117,64 → 98,32 $), victoire démocrate aux midterms, proposition iranienne via le Qatar, blocus US, attaques à Ormuz, CPI 10/11, OPEP+ 29/11",
+  "hook_type": "breaking",
+  "hook_formula": "contre-intuitif",
+  "cta_angle": "Comprendre avant les autres au lieu de subir",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/6301df1/2026-11-08_InvestFamily_ep03_petrole_iran.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=2536505163706092770"
  }
 ]

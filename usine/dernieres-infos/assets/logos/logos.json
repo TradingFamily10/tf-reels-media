@@ -117,5 +117,40 @@
   "img": "ASML.png",
   "tile": "#0F238C",
   "fit": "80%"
+ },
+ "XOM": {
+  "name": "ExxonMobil",
+  "ticker": "XOM",
+  "img": "XOM.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "CVX": {
+  "name": "Chevron",
+  "ticker": "CVX",
+  "img": "CVX.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "TTE": {
+  "name": "TotalEnergies",
+  "ticker": "TTE",
+  "img": "TTE.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "SHEL": {
+  "name": "Shell",
+  "ticker": "SHEL",
+  "img": "SHEL.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "BP": {
+  "name": "BP",
+  "ticker": "BP",
+  "img": "BP.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }

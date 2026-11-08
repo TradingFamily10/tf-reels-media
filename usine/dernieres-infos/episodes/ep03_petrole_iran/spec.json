@@ -1,0 +1,418 @@
+{
+ "id": "ep03_petrole_iran",
+ "date_label": "8 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "beats": [
+  {
+   "text": "La guerre n'est pas finie. Et pourtant, le pétrole vient de vivre sa pire semaine depuis 2020.",
+   "say": "La guerre n'est pas finie. Et pourtant... le pétrole vient de vivre sa pire semaine depuis deux mille vingt.",
+   "bg": {
+    "clip": "refinery_67364.mp4",
+    "ss": 2,
+    "cx": 0.38
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Semaine du 2 au 6 novembre 2026",
+     "until_beat": 1
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "LE PÉTROLE VIT",
+      "SA PIRE SEMAINE",
+      "DEPUIS 2020"
+     ]
+    },
+    {
+     "type": "ticket",
+     "at_s": 2.3,
+     "until_beat": 1,
+     "title": "SEMAINE DU 2 AU 6 NOV.",
+     "subtitle": "Pétrole · clôture",
+     "rows": [
+      [
+       "Brent",
+       "−16 %",
+       ""
+      ],
+      [
+       "WTI",
+       "−13 %",
+       ""
+      ],
+      [
+       "Brent · mercredi",
+       "−8 %",
+       ""
+      ]
+     ],
+     "total": [
+      "BRENT · VENDREDI",
+      "98,32 $",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est même pas le plus fou.",
+   "bg": {
+    "clip": "tankerport_95240.mp4",
+    "ss": 3,
+    "cx": 0.58
+   },
+   "overlays": []
+  },
+  {
+   "text": "Le Brent a perdu 16 % en cinq jours : de 117 à 98 dollars le baril.",
+   "say": "Le Brent a perdu seize pour cent en cinq jours : de cent dix-sept à quatre-vingt-dix-huit dollars le baril.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "smokestack_199788.mp4",
+     "ss": 2
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BRENT · LE BARIL",
+     "value_from": 0,
+     "value_to": -16,
+     "decimals": 0,
+     "suffix": " %",
+     "color": "red",
+     "pill": "117,64 $ → 98,32 $",
+     "desc": "Pire semaine depuis le début du Covid, en 2020 · record en dollars depuis 1988",
+     "drop": true
+    }
+   ]
+  },
+  {
+   "text": "Tout bascule mercredi : moins 8 % en une seule séance.",
+   "say": "Tout bascule mercredi : moins huit pour cent en une seule séance.",
+   "bg": {
+    "clip": "stockapp_191304.mp4",
+    "ss": 2,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "MERCREDI",
+      "−8 % EN UNE SÉANCE"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "La veille, les démocrates ont raflé le Congrès aux élections de mi-mandat.",
+   "bg": {
+    "clip": "capitol_239278.mp4",
+    "ss": 2,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 3 novembre"
+    },
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "ACTUALITÉS",
+     "right": "ÉTATS-UNIS",
+     "tag": "ÉLECTIONS DE MI-MANDAT",
+     "headline": "Les démocrates remportent les deux chambres",
+     "highlight": "les deux chambres",
+     "sub": "Scrutin du mardi 3 novembre 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et les marchés ont fait un pari : plus de pression pour arrêter la guerre avec l'Iran.",
+   "bg": {
+    "clip": "usflag_221814.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE PARI DES MARCHÉS :",
+      "LA FIN DE LA GUERRE ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Alors… la paix est-elle vraiment à portée de main ?",
+   "say": "Alors... la paix est-elle vraiment à portée de main ?",
+   "bg": {
+    "clip": "silhouette_215081.mp4",
+    "ss": 3,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA PAIX,",
+      "VRAIMENT ?"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La suite de ce dossier, je la publie en temps réel sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Selon Reuters, Téhéran aurait envoyé une proposition nucléaire à Washington… via le Qatar.",
+   "say": "Selon Reuters, Téhéran aurait envoyé une proposition nucléaire à Washington... via le Qatar.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "doha_291448.mp4",
+      "ss": 1,
+      "cx": 0.35
+     },
+     {
+      "clip": "doha2_291447.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "ACTUALITÉS",
+     "right": "IRAN · ÉTATS-UNIS",
+     "tag": "DIPLOMATIE",
+     "headline": "Une proposition iranienne transmise via le Qatar",
+     "highlight": "via le Qatar",
+     "sub": "Selon un haut responsable iranien cité par Reuters"
+    }
+   ]
+  },
+  {
+   "text": "Mais l'Iran pose ses conditions : la fin du blocus naval américain et la levée des sanctions.",
+   "bg": {
+    "clip": "shipshorizon_209900.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "ACTUALITÉS",
+     "right": "IRAN",
+     "tag": "LES CONDITIONS DE TÉHÉRAN",
+     "headline": "Fin du blocus naval et levée des sanctions",
+     "highlight": "Fin du blocus",
+     "sub": "Exportations de brut iranien proches de zéro depuis deux mois"
+    }
+   ]
+  },
+  {
+   "text": "Et dans le détroit d'Ormuz, les attaques contre les pétroliers continuent, à un rythme presque record.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "tankerpier_256282.mp4",
+      "ss": 2,
+      "cx": 0.5
+     },
+     {
+      "clip": "tankerport2_95239.mp4",
+      "ss": 5,
+      "cx": 0.55,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "source",
+     "text": "Golfe · détroit d'Ormuz"
+    },
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "ACTUALITÉS",
+     "right": "GOLFE",
+     "tag": "DÉTROIT D'ORMUZ",
+     "headline": "Attaques de pétroliers : un rythme quasi record",
+     "highlight": "quasi record",
+     "sub": "Données UKMTO · un marin tué le 5 novembre"
+    }
+   ]
+  },
+  {
+   "text": "Un analyste américain estime à 80 % le risque que les combats reprennent.",
+   "say": "Un analyste américain estime à quatre-vingts pour cent le risque que les combats reprennent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "storm_16160.mp4",
+     "ss": 3
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_gauge",
+     "kicker": "REPRISE DES COMBATS ?",
+     "pill": "80 % SELON RAPIDAN ENERGY",
+     "desc": "Bob McNally, Rapidan Energy Group, cité par CNBC"
+    }
+   ]
+  },
+  {
+   "text": "Pour TotalEnergies, Exxon, Chevron ou Shell, chaque dollar du baril compte.",
+   "say": "Pour Total Énergies, Exxon, Chevron ou Shell, chaque dollar du baril compte.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "tankerport_95240.mp4",
+     "ss": 20
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "GÉANTS DU PÉTROLE",
+     "value_from": 0,
+     "value_to": 98.32,
+     "decimals": 2,
+     "suffix": " $",
+     "color": "white",
+     "pill": "BRENT · CLÔTURE DU 6 NOV.",
+     "keys": [
+      "TTE",
+      "XOM",
+      "CVX",
+      "SHEL"
+     ],
+     "desc": "TotalEnergies · ExxonMobil · Chevron · Shell"
+    }
+   ]
+  },
+  {
+   "text": "Mardi, l'inflation américaine. Et le 29 novembre, l'OPEP+ se réunit.",
+   "say": "Mardi, l'inflation américaine. Et le vingt-neuf novembre, l'OPEP plus se réunit.",
+   "bg": {
+    "clip": "usflag_221814.mp4",
+    "ss": 10,
+    "cx": 0.4
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 novembre"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "INFLATION US · MARDI",
+      "OPEP+ · 29 NOVEMBRE"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Paix durable… ou nouvelle flambée au-dessus de 100 dollars ? Toi, tu paries sur quoi ?",
+   "say": "Paix durable... ou nouvelle flambée au-dessus de cent dollars ? Toi, tu paries sur quoi ?",
+   "bg": {
+    "shots": [
+     {
+      "clip": "dubainight_203951.mp4",
+      "ss": 1,
+      "cx": 0.6
+     },
+     {
+      "clip": "flames_2336.mp4",
+      "ss": 3,
+      "cx": 0.5,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PAIX DURABLE…",
+      "OU NOUVELLE FLAMBÉE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon canal Telegram. Chaque jour, j'y décortique l'actu géopolitique et financière, avec des analyses d'actions détaillées et mes opportunités en temps réel. On est déjà plus de 22 000. C'est gratuit, le lien t'attend dans ma bio.",
+   "say": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon canal Telegram. Chaque jour, j'y décortique l'actu géopolitique et financière, avec des analyses d'actions détaillées, et mes opportunités en temps réel. On est déjà plus de vingt-deux mille. C'est gratuit, le lien t'attend dans ma bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Pétrole, Iran, OPEP+ : ce qu'il faut surveiller cette semaine",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 39,
+     "bio_at_word": 47,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ],
+ "sources": [
+  "https://www.rte.ie/news/business/2026/1106/1598252-world-oil-prices/",
+  "https://mansfield.energy/2026/11/06/week-in-review-oil-prices-retreat-on-iran-peace-hopes-and-weaker-global-demand/",
+  "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/",
+  "https://report.az/en/finance/key-indicators-of-global-commodity-stock-and-currency-markets-07-11-2026",
+  "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+ ]
+}
