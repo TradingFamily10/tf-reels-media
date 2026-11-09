@@ -222,5 +222,19 @@
   "img": "BAMI.png",
   "tile": "#FFFFFF",
   "fit": "94%"
+ },
+ "SFTBY": {
+  "name": "SoftBank Group",
+  "ticker": "9984",
+  "img": "SFTBY.png",
+  "tile": "#FFFFFF",
+  "fit": "96%"
+ },
+ "ABB": {
+  "name": "ABB",
+  "ticker": "ABBN",
+  "img": "ABB.png",
+  "tile": "#FFFFFF",
+  "fit": "82%"
  }
 }

@@ -1,0 +1,438 @@
+{
+ "id": "ep07_softbank_abb",
+ "date_label": "9 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.siliconrepublic.com/business/china-softbank-abb-robotics-japan-data-ai-investment",
+  "https://www.briefs.co/news/softbank-and-abb-weigh-china-carve-out-after-beijing-blocks/",
+  "https://www.bostonglobe.com/2026/11/09/business/world-markets-bounce-back-recovery-ai-stocks-wall-street/",
+  "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-mixed-investors-095952467.html",
+  "https://www.bloomberg.com/news/articles/2026-11-05/china-blocks-softbank-s-acquisition-of-abb-industrial-robot-unit"
+ ],
+ "beats": [
+  {
+   "text": "5,4 milliards de dollars. Et Pékin vient de dire non.",
+   "say": "Cinq virgule quatre milliards de dollars... Et Pékin vient de dire non.",
+   "bg": {
+    "clip": "robotlab_88223.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 5 novembre 2026",
+     "until_beat": 1
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 5400,
+     "unit": "MILLIONS DE $",
+     "label": "bloqués par Pékin",
+     "logos": [
+      "SFTBY",
+      "ABB",
+      "SFTBY",
+      "ABB"
+     ],
+     "reveal_at_word": 5,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Tout le monde regarde Nvidia. Le vrai choc de la semaine est ailleurs.",
+   "bg": {
+    "clip": "phonetrade_202987.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE VRAI CHOC",
+      "EST AILLEURS"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Jeudi, la Chine a interdit le rachat des robots industriels d'ABB par le japonais SoftBank.",
+   "say": "Jeudi, la Chine a interdit le rachat des robots industriels d'A.B.B. par le japonais SoftBank.",
+   "bg": {
+    "clip": "tiananmen_233870.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "CHINE",
+     "right": "5 NOV.",
+     "tag": "SÉCURITÉ DES INVESTISSEMENTS",
+     "headline": "Pékin bloque le rachat d'ABB Robotics par SoftBank",
+     "highlight": "bloque",
+     "sub": "Contrat signé · bouclage prévu avant la fin de l'année"
+    },
+    {
+     "type": "stock",
+     "key": "ABB",
+     "name": "ABB",
+     "sub": "ABBN · Bourse de Zurich",
+     "size": "big",
+     "y": 1480,
+     "at_word": 10
+    },
+    {
+     "type": "source",
+     "text": "Silicon Republic · Briefs (FT)"
+    }
+   ]
+  },
+  {
+   "text": "Problème : la Chine, c'est plus de 90 % de la demande de cette activité. Et environ 7 000 salariés.",
+   "say": "Problème : la Chine, c'est plus de quatre-vingt-dix pour cent de la demande de cette activité... Et environ sept mille salariés.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "factory_40054.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "DEMANDE VENUE DE CHINE",
+      "value_to": 90,
+      "prefix": "+ de ",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "ABB Robotics",
+      "logo": "ABB"
+     },
+     "b_at_word": 15,
+     "b": {
+      "kicker": "SALARIÉS",
+      "value_to": 7000,
+      "prefix": "≈ ",
+      "suffix": "",
+      "color": "white",
+      "desc": "Suède · États-Unis · Chine",
+      "logo": "ABB"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Silicon Republic · Briefs"
+    }
+   ]
+  },
+  {
+   "text": "Alors pourquoi bloquer un accord déjà validé par la concurrence chinoise en février ?",
+   "say": "Alors... pourquoi bloquer un accord déjà validé par la concurrence chinoise en février ?",
+   "bg": {
+    "clip": "chess_32384.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI",
+      "BLOQUER ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette guerre des robots, je la suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse : les données. Pékin craint de voir des actifs et des données partir au Japon.",
+   "bg": {
+    "clip": "servers_14900.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "SELON LE FT",
+     "right": "DONNÉES",
+     "tag": "LA CRAINTE DE PÉKIN",
+     "headline": "Des actifs et des données envoyés au Japon",
+     "highlight": "données",
+     "sub": "Pour entraîner des modèles d'IA · selon le Financial Times"
+    }
+   ]
+  },
+  {
+   "text": "Pour entraîner des modèles d'IA… y compris chez OpenAI, dans le portefeuille de SoftBank.",
+   "say": "Pour entraîner des modèles d'I.A.... y compris chez OpenAI, dans le portefeuille de SoftBank.",
+   "bg": {
+    "clip": "code_171.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "SFTBY",
+     "name": "SoftBank Group",
+     "sub": "9984 · Bourse de Tokyo · actionnaire d'OpenAI",
+     "size": "big",
+     "y": 560,
+     "at_word": 13
+    }
+   ]
+  },
+  {
+   "text": "Vendredi, en pleine tempête sur la tech, SoftBank a plongé de 11 % à Tokyo.",
+   "say": "Vendredi, en pleine tempête sur la tech, SoftBank a plongé de onze pour cent à Tokyo.",
+   "bg": {
+    "clip": "tokyo_256109.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "SFTBY",
+     "name": "SoftBank Group",
+     "sub": "9984 · Tokyo · vendredi 6 novembre",
+     "pct": "−11 %",
+     "up": false,
+     "size": "big",
+     "y": 560,
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Briefs · 7 novembre 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce lundi, il perd encore 4 %… pendant que TSMC s'envole et que Tokyo rebondit.",
+   "say": "Et ce lundi, il perd encore quatre pour cent... pendant que T.S.M.C. s'envole et que Tokyo rebondit.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "taipei_231280.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "ASIE · LUNDI 9 NOVEMBRE",
+     "rows": [
+      {
+       "name": "SoftBank",
+       "pct": "−4,2 %",
+       "at_word": 0,
+       "key": "SFTBY"
+      },
+      {
+       "name": "TSMC",
+       "pct": "+4,7 %",
+       "at_word": 9,
+       "key": "TSM"
+      },
+      {
+       "name": "Nikkei 225",
+       "pct": "+2,3 %",
+       "at_word": 13
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AP · Boston Globe · 9 novembre"
+    }
+   ]
+  },
+  {
+   "text": "ABB perd plus de 5 % sur la semaine. Et selon Citi, sa force de frappe est coupée de moitié.",
+   "say": "A.B.B. perd plus de cinq pour cent sur la semaine... Et selon Citi, sa force de frappe est coupée de moitié.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "zurich_44509.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ABB SUR LA SEMAINE",
+      "value_to": 5,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Plus de 5 % de baisse · Zurich",
+      "logo": "ABB"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "TRÉSOR POUR RACHETER",
+      "value_to": 5,
+      "prefix": "≈ ",
+      "suffix": " Md$",
+      "color": "gold",
+      "desc": "Coupé de moitié, selon Citi",
+      "logo": "ABB"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Briefs · Citigroup"
+    }
+   ]
+  },
+  {
+   "text": "Plan B : isoler l'activité chinoise… ou revendre ailleurs, pour 2 à 3 milliards seulement.",
+   "say": "Plan B : isoler l'activité chinoise... ou revendre ailleurs, pour deux à trois milliards seulement.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "shanghai_220942.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "port_23008.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "PLAN B",
+     "right": "ABB · SOFTBANK",
+     "tag": "CE QUI SE PRÉPARE",
+     "headline": "Isoler la Chine… ou revendre 2 à 3 Md$",
+     "highlight": "2 à 3 Md$",
+     "sub": "Contre 5,4 Md$ prévus · rien n'est garanti"
+    }
+   ]
+  },
+  {
+   "text": "Et dès demain, l'inflation américaine peut encore secouer toute la tech.",
+   "say": "Et dès demain, l'inflation américaine peut encore secouer toute la tech.",
+   "bg": {
+    "clip": "nyc_231405.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 novembre · inflation US d'octobre"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "DEMAIN :",
+      "L'INFLATION US"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Simple bras de fer… ou début d'une guerre des robots ? Dis-le-moi en commentaire.",
+   "say": "Simple bras de fer... ou début d'une guerre des robots ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "welding_135851.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "chessking_32386.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SIMPLE BRAS DE FER…",
+      "OU GUERRE ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde. Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Ce que je viens de te montrer... mes abonnés l'ont lu avant tout le monde. Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Chine, SoftBank, ABB : qui gagne la guerre des robots ?",
+     "imgs": [
+      "tg_3435c02c.jpg",
+      "tg_38e4f34b.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 21,
+     "bio_at_word": 41,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

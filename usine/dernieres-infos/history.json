@@ -67,5 +67,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/190f9285aff6d49c94b691f4bdffe03e103e3633/2026-11-09_ep06_ca_banco_bpm.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=7057851807097506347",
   "tiktok": "a_poster_main"
+ },
+ {
+  "date": "2026-11-09",
+  "slot": "14:55",
+  "id": "ep07_softbank_abb",
+  "topic": "Pékin bloque (5/11) le rachat d'ABB Robotics par SoftBank (5,4 Md$, contrat signé, feu vert concurrence en février) : crainte de transfert d'actifs/données vers le Japon pour entraîner de l'IA (OpenAI), Chine >90 % de la demande, ~7 000 salariés, site de Shanghai ; SoftBank −11 % le 6/11, −4,2 % le 9/11 ; TSMC +4,7 %, Nikkei +2,3 % ; ABB >5 % de baisse sur la semaine, Citi : force de frappe coupée de moitié (~5 Md$) ; plan B carve-out Chine ou revente 2-3 Md$ ; CPI US 10/11",
+  "hook_type": "bignum",
+  "hook_formula": "chiffre choc + personne n'en parle",
+  "cta_angle": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde",
+  "title": "Pékin bloque 5,4 milliards de robots",
+  "caption": "🤖 Pendant que tout le monde regarde Nvidia, Pékin vient de bloquer un deal à 5,4 milliards de dollars 😳\n\n🇨🇳 La Chine interdit le rachat des robots industriels d'ABB par le japonais SoftBank : elle craint de voir actifs et données partir au Japon pour entraîner de l'IA\n📉 SoftBank a plongé de 11 % vendredi à Tokyo et recule encore ce lundi\n🔧 Plan B : isoler l'activité chinoise… ou revendre pour 2 à 3 milliards seulement\n\n👉 Simple bras de fer ou début d'une guerre des robots ? Dis-moi en commentaire 👇\n\n📲 Toute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio) 🔗\n\n⚠️ Ceci n'est pas un conseil en investissement.\n\n#softbank #abb #chine #japon #robotique #ia #bourse #geopolitique #actualite",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/710c2b1403f19a57bfc9344ef60ffa213e612c77/2026-11-09_ep07_softbank_abb.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=9068118624526945822",
+  "tiktok": "a_poster_main"
  }
 ]
