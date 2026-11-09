@@ -1,0 +1,60 @@
+{
+ "B0": {
+  "clip": "chip_13370.mp4"
+ },
+ "B1": {
+  "clip": "bokeh_28860.mp4"
+ },
+ "B2": {
+  "clip": "towers_50352.mp4"
+ },
+ "B3": {
+  "clip": "hacker_289001.mp4"
+ },
+ "B4": {
+  "clip": "singapore_198477.mp4",
+  "cx": 0.3
+ },
+ "B5": {
+  "clip": "whitehouse_239282.mp4"
+ },
+ "B5b": {
+  "clip": "chinaflag_30289.mp4"
+ },
+ "B6": {
+  "clip": "servers_14907.mp4"
+ },
+ "B7": {
+  "clip": "storm_278750.mp4"
+ },
+ "B9": {
+  "clip": "meeting_3132.mp4",
+  "cx": 0.45
+ },
+ "B10": {
+  "clip": "cockpit_83156.mp4"
+ },
+ "B11": {
+  "clip": "phone_202987.mp4"
+ },
+ "B12": {
+  "clip": "laptopchart_349089.mp4",
+  "cx": 0.6
+ },
+ "B13": {
+  "clip": "vegas_205875.mp4",
+  "cx": 0.42
+ },
+ "B14": {
+  "clip": "phone2_131161.mp4"
+ },
+ "B15": {
+  "clip": "watch_15615.mp4"
+ },
+ "B16": {
+  "clip": "wave_201766.mp4"
+ },
+ "B16b": {
+  "clip": "crack_219140.mp4"
+ }
+}

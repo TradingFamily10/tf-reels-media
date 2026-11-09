@@ -1,0 +1,460 @@
+{
+ "id": "ep05_nvidia_enquete",
+ "date_label": "9 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "beats": [
+  {
+   "text": "Et si l'homme le plus puissant de l'intelligence artificielle avait été la cible d'espions chinois ?",
+   "say": "Et si l'homme le plus puissant de l'intelligence artificielle... avait été la cible d'espions chinois ?",
+   "bg": {
+    "clip": "chip_13370.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Dimanche 8 novembre 2026",
+     "until_beat": 1
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "ACTUALITÉS",
+     "right": "ÉTATS-UNIS",
+     "tag": "NVIDIA",
+     "headline": "Nvidia ouvre une enquête sur son propre patron",
+     "highlight": "son propre patron",
+     "sub": "Communiqué du conseil d'administration · 8 novembre"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq",
+     "y": 1180,
+     "at_word": 12
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas un scénario de film.",
+   "bg": {
+    "clip": "bokeh_28860.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": []
+  },
+  {
+   "text": "Dimanche, Nvidia a lancé une enquête indépendante sur son propre fondateur, Jensen Huang.",
+   "bg": {
+    "clip": "towers_50352.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Enquête indépendante · 8 nov.",
+     "size": "big",
+     "y": 420,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Communiqué Nvidia · CBS News · TechCrunch"
+    }
+   ]
+  },
+  {
+   "text": "Selon la presse américaine, il aurait été visé par une opération de renseignement étrangère.",
+   "bg": {
+    "clip": "hacker_289001.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "VISÉ PAR UN",
+      "SERVICE ÉTRANGER"
+     ],
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Au cœur du dossier : une cadre de Megaspeed, un très gros client de Nvidia en Asie.",
+   "say": "Au cœur du dossier : une cadre de Megaspeed... un très gros client de Nvidia en Asie.",
+   "bg": {
+    "clip": "singapore_198477.mp4",
+    "ss": 2,
+    "cx": 0.3
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "ACTUALITÉS",
+     "right": "SINGAPOUR",
+     "tag": "MEGASPEED",
+     "headline": "Un gros client de Nvidia au centre de l'affaire",
+     "highlight": "gros client",
+     "sub": "Fournisseur de cloud basé à Singapour"
+    }
+   ]
+  },
+  {
+   "text": "Les services américains la soupçonnent de travailler pour Pékin. La Chine dément.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "whitehouse_239282.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "chinaflag_30289.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SOUPÇONNÉE DE",
+      "SERVIR PÉKIN"
+     ],
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "New York Times · BBC"
+    }
+   ]
+  },
+  {
+   "text": "Ce client a acheté pour plus de 4,8 milliards de dollars de puces Nvidia en deux ans.",
+   "say": "Ce client a acheté pour plus de quatre milliards huit cents millions de dollars de puces Nvidia en deux ans.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "servers_14907.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PUCES NVIDIA · MEGASPEED",
+     "value_from": 0,
+     "value_to": 4.8,
+     "decimals": 1,
+     "suffix": " Md$",
+     "color": "white",
+     "pill": "EN DEUX ANS",
+     "desc": "Selon le New York Times, cité par CBS News"
+    }
+   ]
+  },
+  {
+   "text": "Alors… Nvidia est-elle en danger ?",
+   "say": "Alors... Nvidia est-elle en danger ?",
+   "bg": {
+    "clip": "storm_278750.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "NVIDIA",
+      "EN DANGER ?"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ce dossier, je le décrypte en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_4b2fa9a8.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Le conseil assure n'avoir aucune raison de croire à une fuite de secrets.",
+   "bg": {
+    "clip": "meeting_3132.mp4",
+    "ss": 2,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "COMMUNIQUÉ",
+     "right": "NVIDIA",
+     "tag": "CONSEIL D'ADMINISTRATION",
+     "headline": "« Aucune raison de croire » à une fuite de secrets",
+     "highlight": "Aucune raison de croire",
+     "sub": "Enquête menée par des administrateurs indépendants et des avocats externes"
+    }
+   ]
+  },
+  {
+   "text": "Et Jensen Huang reste aux commandes.",
+   "bg": {
+    "clip": "cockpit_83156.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "IL RESTE",
+      "AUX COMMANDES"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Mais l'action arrive fragilisée : 186 dollars vendredi soir, 22 % sous son record.",
+   "say": "Mais l'action arrive fragilisée : cent quatre-vingt-six dollars vendredi soir... vingt-deux pour cent sous son record.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "phone_202987.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NVIDIA · CLÔTURE DU 6 NOV.",
+      "value_to": 186.64,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " $",
+      "color": "white",
+      "desc": "Vendredi soir à Wall Street",
+      "logo": "NVDA"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "DEPUIS SON RECORD",
+      "value_to": -22,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Avant même l'annonce de l'enquête"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Jeudi, elle avait déjà plongé de plus de 9 % en une séance.",
+   "say": "Jeudi, elle avait déjà plongé de plus de neuf pour cent en une séance.",
+   "bg": {
+    "clip": "laptopchart_349089.mp4",
+    "ss": 2,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Jeudi 5 novembre",
+     "pct": "−9,26 %",
+     "size": "big",
+     "y": 440,
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "24/7 Wall St. · Yahoo Finance"
+    }
+   ]
+  },
+  {
+   "text": "Et l'histoire envoie deux signaux. En 2018, Wynn Resorts perd 10 % le jour où son patron est mis en cause.",
+   "say": "Et l'histoire envoie deux signaux. En deux mille dix-huit, Wynn Resorts perd dix pour cent... le jour où son patron est mis en cause.",
+   "bg": {
+    "clip": "vegas_205875.mp4",
+    "ss": 2,
+    "cx": 0.42
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "WYNN",
+     "name": "Wynn Resorts",
+     "sub": "1er jour après la mise en cause · 2018",
+     "pct": "−10,1 %",
+     "size": "big",
+     "y": 440,
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Mais en 2006, Apple garde Steve Jobs après une enquête interne… et l'action prend 49 % en six mois.",
+   "say": "Mais en deux mille six, Apple garde Steve Jobs après une enquête interne... et l'action prend quarante-neuf pour cent en six mois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "phone2_131161.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "WYNN RESORTS · 2018",
+      "value_to": -10.1,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Premier jour après la mise en cause du patron",
+      "logo": "WYNN"
+     },
+     "b_at_word": 3,
+     "b": {
+      "kicker": "APPLE · 2006",
+      "value_to": 49.1,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Six mois après l'enquête interne",
+      "logo": "AAPL"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Historique compilé par 24/7 Wall St."
+    }
+   ]
+  },
+  {
+   "text": "Prochains tests : l'inflation américaine mardi, puis les résultats de Nvidia le 17 novembre.",
+   "say": "Prochains tests : l'inflation américaine mardi... puis les résultats de Nvidia le dix-sept novembre.",
+   "bg": {
+    "clip": "watch_15615.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 nov. · 14 h 30 (Paris)"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "RÉSULTATS NVIDIA",
+      "MARDI 17 NOVEMBRE"
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Tempête passagère… ou vraie crise de confiance ? Dis-le-moi en commentaire.",
+   "say": "Tempête passagère... ou vraie crise de confiance ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "wave_201766.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "crack_219140.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "TEMPÊTE PASSAGÈRE…",
+      "OU VRAIE CRISE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nvidia, inflation, Fed : ce qui compte ce matin",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c.jpg",
+      "tg_38e4f34b.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 17,
+     "bio_at_word": 37,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ],
+ "sources": [
+  "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/",
+  "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+  "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-just-opened-investigation-010700633.html",
+  "https://www.techflowpost.com/fr-FR/article/35194"
+ ]
+}

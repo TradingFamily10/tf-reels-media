@@ -194,5 +194,12 @@
   "img": "HOOD.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "WYNN": {
+  "name": "Wynn Resorts",
+  "ticker": "WYNN",
+  "img": "WYNN.png",
+  "tile": "#111111",
+  "fit": "78%"
  }
 }
