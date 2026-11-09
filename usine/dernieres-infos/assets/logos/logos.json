@@ -201,5 +201,26 @@
   "img": "WYNN.png",
   "tile": "#111111",
   "fit": "78%"
+ },
+ "ACA": {
+  "name": "Crédit Agricole",
+  "ticker": "ACA",
+  "img": "ACA.png",
+  "tile": "#0E2F2E",
+  "fit": "80%"
+ },
+ "UCG": {
+  "name": "UniCredit",
+  "ticker": "UCG",
+  "img": "UCG.png",
+  "tile": "#FFFFFF",
+  "fit": "78%"
+ },
+ "BAMI": {
+  "name": "Banco BPM",
+  "ticker": "BAMI",
+  "img": "BAMI.png",
+  "tile": "#FFFFFF",
+  "fit": "94%"
  }
 }

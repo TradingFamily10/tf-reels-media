@@ -103,6 +103,8 @@ body{font-family:"TFSans",sans-serif;color:#fff;-webkit-font-smoothing:antialias
 .tickers .r .n span{width:62px;height:62px;border-radius:50%;background:#121A24;color:#fff;font-size:24px;display:flex;align-items:center;justify-content:center;letter-spacing:0}
 .tickers .r .p{display:flex;align-items:center;gap:12px;font-weight:900;font-size:58px;color:var(--neg)}
 .tickers .r .p:before{content:"";border-left:16px solid transparent;border-right:16px solid transparent;border-top:22px solid var(--neg)}
+.tickers .r .p.up{color:var(--pos)}
+.tickers .r .p.up:before{border-top:none;border-bottom:22px solid var(--pos)}
 
 /* ---------- logo tiles & stock chips ---------- */
 .tile{display:inline-flex;align-items:center;justify-content:center;border-radius:24%;overflow:hidden;flex:none;box-shadow:inset 0 0 0 2px rgba(0,0,0,.07)}
@@ -289,7 +291,7 @@ C.photo=o=>{
   e.style.left="0";e.style.top="0";stage.appendChild(e);return cardLife(e,o,{x:240,y:420})};
 
 C.tickers=o=>{
-  const e=el("div","card tickers",`<div class="hd">${esc(o.title)}</div>`+o.rows.map(r=>`<div class="r"><span class="n">${r.key?tileHTML(r.key,72):`<span>${esc(r.name.slice(0,3).toUpperCase())}</span>`}${esc(r.name)}</span><span class="p">${esc(r.pct)}</span></div>`).join(""));
+  const e=el("div","card tickers",`<div class="hd">${esc(o.title)}</div>`+o.rows.map(r=>`<div class="r"><span class="n">${r.key?tileHTML(r.key,72):`<span>${esc(r.name.slice(0,3).toUpperCase())}</span>`}${esc(r.name)}</span><span class="p ${(r.up||String(r.pct).trim().startsWith("+"))?"up":""}">${esc(r.pct)}</span></div>`).join(""));
   e.style.left="0";e.style.top="0";stage.appendChild(e);o.rot=o.rot??-1.5;
   const rows=[...e.querySelectorAll(".r")];const base=cardLife(e,o,{x:130,y:520});
   return t=>{let k=base(t);rows.forEach((d,i)=>{const p=easeOut((t-o.rows[i].t)/.22);d.style.opacity=clamp(p*1.5);d.style.transform=`translateX(${r2(-50*(1-p))}px)`;k+="|"+r2(p)});return k}};

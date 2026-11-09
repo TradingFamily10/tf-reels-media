@@ -1,0 +1,433 @@
+{
+ "id": "ep06_ca_banco_bpm",
+ "date_label": "9 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "chip",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.globenewswire.com/news-release/2026/11/09/3398046/0/fr/credit-agricole-sa-cr%C3%A9dit-agricole-propose-%C3%A0-banco-bpm-de-cr%C3%A9er-ensemble-un-nouveau-champion-bancaire-italien.html",
+  "https://www.boursorama.com/bourse/actualites/credit-agricole-propose-une-fusion-entre-banco-bpm-et-credit-agricole-italia-9fe33f10b6115541188fe19237c20be2",
+  "https://www.france-epargne.fr/news/credit-agricole-propose-une-fusion-entre-banco-bpm-et-sa-filiale-italienne-avec-une-prime-de-20",
+  "https://www.rte.ie/news/business/2026/1109/1598480-unicredit-posts-24-rise-in-third-quarter-earnings/",
+  "https://www.zonebourse.com/actualite-bourse/l-europe-ouvre-dans-le-vert-l-action-nvidia-souffre-a-francfort-ce785fd3db8af121",
+  "https://www.boursorama.com/bourse/actualites/zone-euro-l-inflation-annuelle-atteint-4-en-octobre-4de7bf40199c62a24dcf263094646a88"
+ ],
+ "beats": [
+  {
+   "text": "1 milliard d'euros sur la table… et une banque italienne bondit de près de 10 % en une matinée.",
+   "say": "Un milliard d'euros sur la table... et une banque italienne bondit de près de dix pour cent en une matinée.",
+   "bg": {
+    "clip": "euros_9728.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 9 novembre 2026",
+     "until_beat": 1
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "1 MILLIARD €",
+      "SUR LA TABLE"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "stock",
+     "key": "BAMI",
+     "name": "Banco BPM",
+     "sub": "BAMI · Bourse de Milan · ce matin",
+     "pct": "+9,7 %",
+     "up": true,
+     "size": "big",
+     "y": 560,
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Derrière ce coup, une banque bien française.",
+   "bg": {
+    "clip": "paris_215421.mp4",
+    "ss": 1,
+    "cx": 0.36
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "ACA",
+     "name": "Crédit Agricole",
+     "sub": "ACA · Euronext Paris",
+     "size": "big",
+     "y": 560,
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Ce matin, le Crédit Agricole a proposé de fusionner sa filiale italienne avec Banco BPM.",
+   "bg": {
+    "clip": "milan_120303.mp4",
+    "ss": 1,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "COMMUNIQUÉ",
+     "right": "ITALIE",
+     "tag": "CRÉDIT AGRICOLE · BANCO BPM",
+     "headline": "Le Crédit Agricole propose une fusion à Banco BPM",
+     "highlight": "une fusion",
+     "sub": "Proposition amicale · 9 novembre 2026"
+    },
+    {
+     "type": "source",
+     "text": "Communiqué Crédit Agricole · Boursorama"
+    }
+   ],
+   "say": "Ce matin, le Crédit Agricole a proposé de fusionner sa filiale italienne avec Banco B.P.M."
+  },
+  {
+   "text": "Objectif : le troisième groupe bancaire d'Italie. 6,5 millions de clients, plus de 2 300 agences.",
+   "say": "Objectif : le troisième groupe bancaire d'Italie. Six millions et demi de clients... plus de deux mille trois cents agences.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "italystreet_28303.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CLIENTS",
+      "value_to": 6.5,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " M",
+      "color": "white",
+      "desc": "3e groupe bancaire italien",
+      "logo": "BAMI"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "AGENCES",
+      "value_to": 2300,
+      "prefix": "+ de ",
+      "suffix": "",
+      "color": "gold",
+      "desc": "Partout en Italie",
+      "logo": "ACA"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Pour convaincre : une prime de 20 % et un dividende exceptionnel d'un milliard d'euros.",
+   "say": "Pour convaincre : une prime de vingt pour cent... et un dividende exceptionnel d'un milliard d'euros.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "coins_138315.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "DIVIDENDE EXCEPTIONNEL",
+     "value_from": 0,
+     "value_to": 1,
+     "decimals": 0,
+     "suffix": " Md€",
+     "color": "gold",
+     "pill": "+ PRIME DE 20 %",
+     "desc": "Pour les actionnaires actuels de Banco BPM",
+     "logo": "BAMI"
+    }
+   ]
+  },
+  {
+   "text": "Il détient déjà 29,6 % de Banco BPM. Demain, ce serait environ 45 %.",
+   "say": "Il détient déjà près de trente pour cent de Banco B.P.M. Demain... ce serait environ quarante-cinq pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "tower_214888.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "SA PART AUJOURD'HUI",
+      "value_to": 29.6,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Dans Banco BPM",
+      "logo": "ACA"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "APRÈS LA FUSION",
+      "value_to": 45,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Du nouveau groupe",
+      "logo": "ACA"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Alors… pourquoi maintenant ? Et qui peut encore tout bloquer ?",
+   "say": "Alors... pourquoi maintenant ? Et qui peut encore tout bloquer ?",
+   "bg": {
+    "clip": "chess_32384.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI",
+      "MAINTENANT ?"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ce bras de fer bancaire, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 15
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Et le timing n'a rien d'un hasard : en Europe, les banques gagnent des fortunes.",
+   "bg": {
+    "clip": "frankfurt_333339.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LES BANQUES CE MATIN",
+     "rows": [
+      {
+       "name": "Banco BPM",
+       "pct": "+9,7 %",
+       "at_word": 8,
+       "key": "BAMI"
+      },
+      {
+       "name": "UniCredit",
+       "pct": "+5,2 %",
+       "at_word": 10,
+       "key": "UCG"
+      },
+      {
+       "name": "Crédit Agricole",
+       "pct": "−0,9 %",
+       "at_word": 13,
+       "key": "ACA"
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Zonebourse · Boursorama · lundi matin"
+    }
+   ]
+  },
+  {
+   "text": "Ce matin, UniCredit annonce 3,3 milliards d'euros de bénéfice en un seul trimestre. +24 % en un an.",
+   "say": "Ce matin, UniCredit annonce plus de trois milliards d'euros de bénéfice en un seul trimestre... Plus vingt-quatre pour cent en un an.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "laptopchart_349089.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "BÉNÉFICE NET T3",
+      "value_to": 3.3,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " Md€",
+      "color": "white",
+      "desc": "Juillet à septembre 2026",
+      "logo": "UCG"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "SUR UN AN",
+      "value_to": 24,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Au-dessus des attentes",
+      "logo": "UCG"
+     }
+    },
+    {
+     "type": "source",
+     "text": "RTÉ · UniCredit, résultats du 3e trimestre"
+    }
+   ]
+  },
+  {
+   "text": "Derrière, un chiffre : l'inflation de la zone euro monte à 4 %, au plus haut depuis trois ans.",
+   "say": "Derrière, un chiffre : l'inflation de la zone euro monte à quatre pour cent... au plus haut depuis trois ans.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "market_4730.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INFLATION · ZONE EURO",
+     "value_from": 0,
+     "value_to": 4.0,
+     "decimals": 1,
+     "suffix": " %",
+     "color": "red",
+     "pill": "OCTOBRE 2026",
+     "desc": "Plus haut depuis trois ans · énergie : +20,8 % sur un an"
+    },
+    {
+     "type": "source",
+     "text": "Eurostat (estimation rapide) · Boursorama"
+    }
+   ]
+  },
+  {
+   "text": "Mais rien n'est joué : il faut le feu vert de la BCE… et de Rome, qui peut tout bloquer.",
+   "say": "Mais rien n'est joué : il faut le feu vert de la B.C.E.... et de Rome, qui peut tout bloquer.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "ecb_155305.mp4",
+      "ss": 1,
+      "cx": 0.45
+     },
+     {
+      "clip": "colosseum_115528.mp4",
+      "ss": 1,
+      "cx": 0.55,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "CONDITIONS",
+     "right": "ITALIE",
+     "tag": "GOLDEN POWER",
+     "headline": "Feu vert de la BCE et de Rome obligatoire",
+     "highlight": "obligatoire",
+     "sub": "Vote des actionnaires de Banco BPM · finalisation visée au 2nd semestre 2027"
+    }
+   ]
+  },
+  {
+   "text": "Coup de maître… ou nouvel échec ? Dis-le-moi en commentaire.",
+   "say": "Coup de maître... ou nouvel échec ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "chessking_89986.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "phone_348444.mp4",
+      "ss": 1,
+      "cx": 0.55,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "COUP DE MAÎTRE…",
+      "OU NOUVEL ÉCHEC ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "La prochaine grande manœuvre, tu veux la subir… ou la voir venir ? Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "La prochaine grande manœuvre, tu veux la subir... ou la voir venir ? Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Crédit Agricole, Banco BPM, UniCredit : qui gagne la bataille des banques ?",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 18,
+     "bio_at_word": 38,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

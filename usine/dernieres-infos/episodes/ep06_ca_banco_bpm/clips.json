@@ -1,0 +1,50 @@
+{
+ "B0": {
+  "clip": "euros_9728.mp4"
+ },
+ "B1": {
+  "clip": "paris_215421.mp4",
+  "cx": 0.36
+ },
+ "B2": {
+  "clip": "milan_120303.mp4",
+  "cx": 0.45
+ },
+ "B3": {
+  "clip": "italystreet_28303.mp4"
+ },
+ "B4": {
+  "clip": "coins_138315.mp4"
+ },
+ "B5": {
+  "clip": "tower_214888.mp4"
+ },
+ "B6": {
+  "clip": "chess_32384.mp4"
+ },
+ "B9": {
+  "clip": "frankfurt_333339.mp4",
+  "cx": 0.6
+ },
+ "B10": {
+  "clip": "laptopchart_349089.mp4"
+ },
+ "B12": {
+  "clip": "market_4730.mp4"
+ },
+ "B14": {
+  "clip": "ecb_155305.mp4",
+  "cx": 0.45
+ },
+ "B14b": {
+  "clip": "colosseum_115528.mp4",
+  "cx": 0.55
+ },
+ "B15": {
+  "clip": "chessking_89986.mp4"
+ },
+ "B15b": {
+  "clip": "phone_348444.mp4",
+  "cx": 0.55
+ }
+}
