@@ -1,0 +1,418 @@
+{
+ "id": "ep10_fed_demi_point",
+ "date_label": "10 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.americanbanker.com/news/waller-calls-for-raising-interest-rates-25-basis-points-at-least",
+  "https://stocktwits.com/news-articles/markets/equity/cpi-report-today-fed-s-waller-says-50-basis-point-rate-hike-should-be-considered-if-core-inflation-remains-elevated/cNGuW4pR97v",
+  "https://www.actionforex.com/live-comments/660413-feds-waller-backs-december-hike-says-50bps-should-be-considered-if-inflation-stays-hot/",
+  "https://www.tipranks.com/news/feds-largest-rate-hike-since-2022-hinges-on-todays-unusual-october-inflation-report",
+  "https://www.tipranks.com/news/stock-market-today-nov-10-markets-await-the-consumer-inflation-report",
+  "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---wall-street-rebounds-and-brent-slides-below-usd-92---10-november-2026-10112026"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas l'inflation qui fait trembler Wall Street ce matin. C'est un homme de la Fed.",
+   "say": "Ce n'est pas l'inflation qui fait trembler Wall Street ce matin... C'est un homme de la Fed.",
+   "bg": {
+    "clip": "b0_42489.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 novembre 2026 · Londres",
+     "until_beat": 1
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "ACTUALITÉS",
+     "right": "ÉTATS-UNIS",
+     "tag": "RÉSERVE FÉDÉRALE",
+     "headline": "Fed : Waller ouvre la porte à un demi-point de hausse",
+     "highlight": "un demi-point",
+     "sub": "Discours au Bank of England Watchers Conference · 10 nov."
+    }
+   ]
+  },
+  {
+   "text": "Et le pire : il ne veut pas baisser les taux. Il veut les monter.",
+   "say": "Et le pire : il ne veut pas baisser les taux... Il veut les monter.",
+   "bg": {
+    "clip": "b1_153458.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PAS UNE BAISSE.",
+      "UNE HAUSSE."
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Christopher Waller veut au moins un quart de point de hausse en décembre.",
+   "say": "Christopher Ouôleur veut au moins un quart de point de hausse en décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_239278.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "HAUSSE DE TAUX · DÉCEMBRE",
+     "value_from": 0,
+     "value_to": 0.25,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " pt",
+     "color": "gold",
+     "pill": "AU MINIMUM",
+     "desc": "Christopher Waller · discours de Londres · American Banker"
+    }
+   ]
+  },
+  {
+   "text": "Et si l'inflation reste chaude, il veut frapper deux fois plus fort : un demi-point.",
+   "say": "Et si l'inflation reste chaude... il veut frapper deux fois plus fort : un demi-point.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_31342.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "SCÉNARIO DE BASE",
+      "value_to": 0.25,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " pt",
+      "color": "gold",
+      "desc": "Hausse en décembre"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "SI L'INFLATION RESTE CHAUDE",
+      "value_to": 0.5,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " pt",
+      "color": "red",
+      "desc": "« Devrait être envisagée »"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Discours de C. Waller · 10 nov. · StockTwits · ActionForex"
+    }
+   ]
+  },
+  {
+   "text": "Sa phrase choc : un simple quart de point mettrait la crédibilité de la Fed en danger.",
+   "bg": {
+    "clip": "b4_287393.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "CITATION",
+     "right": "10 NOV.",
+     "tag": "CHRISTOPHER WALLER",
+     "headline": "« Monter de 25 points de base seulement mettrait notre crédibilité en danger »",
+     "highlight": "notre crédibilité",
+     "sub": "Gouverneur de la Fed · American Banker"
+    }
+   ]
+  },
+  {
+   "text": "Et les marchés y croient : plus de 84 % de chances d'une hausse en décembre.",
+   "say": "Et les marchés y croient : plus de quatre-vingt-quatre pour cent de chances d'une hausse en décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_191304.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_gauge",
+     "kicker": "PROBABILITÉ D'UNE HAUSSE EN DÉCEMBRE",
+     "pill": "PLUS DE 84 %",
+     "desc": "Contrats à terme · CME FedWatch · clôture du 9 nov."
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi la Fed a-t-elle aussi peur ?",
+   "say": "Alors... pourquoi la Fed a-t-elle aussi peur ?",
+   "bg": {
+    "clip": "b6_44637.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI LA FED",
+      "A-T-ELLE PEUR ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce bras de fer avec la Fed, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 17
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "En septembre, les prix américains ont bondi de 0,6 % en un seul mois.",
+   "say": "En septembre, les prix américains ont bondi de plus d'un demi pour cent... en un seul mois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8_20910.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INFLATION US · SEPTEMBRE",
+     "value_from": 0,
+     "value_to": 0.6,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "red",
+     "pill": "EN UN SEUL MOIS",
+     "desc": "Indice des prix à la consommation · TipRanks · StockTwits"
+    }
+   ]
+  },
+  {
+   "text": "Le coupable : le pétrole. Assurances et transferts en mer ajoutent 20 à 30 dollars par baril.",
+   "say": "Le coupable : le pétrole. Assurances et transferts en mer ajoutent vingt à trente dollars par baril.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_95240.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SURCOÛT SUR LE BARIL",
+     "value_from": 20,
+     "value_to": 30,
+     "decimals": 0,
+     "prefix": "+20 à ",
+     "suffix": " $",
+     "color": "red",
+     "pill": "GUERRE AVEC L'IRAN",
+     "desc": "Assurances maritimes · transferts de navire à navire · C. Waller"
+    }
+   ]
+  },
+  {
+   "text": "Pourtant hier, Wall Street a signé sa meilleure séance depuis avril : plus de 2 % pour le S&P 500.",
+   "say": "Pourtant hier, Wall Street a signé sa meilleure séance depuis avril : plus de deux pour cent pour le S and P cinq cents.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12_121994.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "S&P 500 · LUNDI 9 NOV.",
+     "value_from": 0,
+     "value_to": 2.35,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "MEILLEURE SÉANCE DEPUIS AVRIL",
+     "desc": "7 549,94 points · Saxo · TipRanks"
+    }
+   ]
+  },
+  {
+   "text": "Meta prend 5 %, Microsoft près de 3 %… mais Nvidia chute de 4 %.",
+   "say": "Meta prend cinq pour cent, Microsoft près de trois pour cent... mais Nvidia chute de quatre pour cent.",
+   "bg": {
+    "clip": "b13_14900.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "WALL STREET · LUNDI",
+     "rows": [
+      {
+       "name": "Meta",
+       "pct": "+5,1 %",
+       "at_word": 0,
+       "key": "META"
+      },
+      {
+       "name": "Microsoft",
+       "pct": "+2,8 %",
+       "at_word": 3,
+       "key": "MSFT"
+      },
+      {
+       "name": "Nvidia",
+       "pct": "−4,3 %",
+       "at_word": 8,
+       "key": "NVDA",
+       "down": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Saxo · 10 nov."
+    }
+   ]
+  },
+  {
+   "text": "À 14 h 30, si l'inflation de fond atteint 0,3 % sur un mois, le demi-point revient sur la table.",
+   "say": "À quatorze heures trente, si l'inflation de fond atteint trois dixièmes de point sur un mois... le demi-point revient sur la table.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b15_15615.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b15b_276973.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Inflation US d'octobre · publiée le 10 nov. à 14 h 30 (Paris)"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "0,3 % OU PLUS :",
+      "DEMI-POINT ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Dernière réunion de la Fed de l'année en décembre : un quart de point… ou un demi ? Dis-le-moi en commentaire.",
+   "say": "Dernière réunion de la Fed de l'année en décembre : un quart de point... ou un demi ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b16_46922.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b16b_142641.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 16
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "UN QUART…",
+      "OU UN DEMI ?"
+     ],
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Tu veux comprendre avant les autres au lieu de subir ? Sur mon Telegram gratuit, plus de 22 000 personnes lisent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Tu veux comprendre avant les autres... au lieu de subir ? Sur mon Telegram gratuit, plus de vingt-deux mille personnes lisent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Fed : ce que change le chiffre de 14 h 30",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 16,
+     "bio_at_word": 36,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
