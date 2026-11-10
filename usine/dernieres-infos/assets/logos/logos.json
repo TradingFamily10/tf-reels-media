@@ -236,5 +236,19 @@
   "img": "ABB.png",
   "tile": "#FFFFFF",
   "fit": "82%"
+ },
+ "SAF": {
+  "name": "Safran",
+  "ticker": "SAF",
+  "img": "SAF.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "LDO": {
+  "name": "Leonardo",
+  "ticker": "LDO",
+  "img": "LDO.png",
+  "tile": "#FFFFFF",
+  "fit": "72%"
  }
 }

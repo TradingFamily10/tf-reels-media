@@ -1,0 +1,54 @@
+{
+ "B0": {
+  "clip": "ukraineflag_110271.mp4"
+ },
+ "B1": {
+  "clip": "euflag_57657.mp4"
+ },
+ "B2": {
+  "clip": "abudhabi_47052.mp4"
+ },
+ "B3": {
+  "clip": "clock_61621.mp4"
+ },
+ "B4": {
+  "clip": "meeting_8252.mp4"
+ },
+ "B5": {
+  "clip": "whitehouse_239282.mp4"
+ },
+ "B6": {
+  "clip": "jet_35516.mp4",
+  "cx": 0.7
+ },
+ "B8": {
+  "clip": "engine_144323.mp4"
+ },
+ "B9": {
+  "clip": "helico_170295.mp4"
+ },
+ "B10": {
+  "clip": "kyiv_141202.mp4"
+ },
+ "B11": {
+  "clip": "tanker_95240.mp4"
+ },
+ "B12": {
+  "clip": "paris_282564.mp4"
+ },
+ "B13": {
+  "clip": "euros_9728.mp4"
+ },
+ "B14": {
+  "clip": "dollars_153458.mp4"
+ },
+ "B14b": {
+  "clip": "trader_349089.mp4"
+ },
+ "B16": {
+  "clip": "storm_230317.mp4"
+ },
+ "B16b": {
+  "clip": "phone_204527.mp4"
+ }
+}
