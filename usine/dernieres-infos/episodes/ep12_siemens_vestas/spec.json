@@ -1,0 +1,468 @@
+{
+ "id": "ep12_siemens_vestas",
+ "date_label": "11 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Chaque matin, je fais le tri dans le bruit pour toi",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.boursorama.com/bourse/actualites/les-valeurs-a-suivre-a-paris-et-en-europe-actualise-7701ce64aa6e5d85331bfe0785830627",
+  "https://www.boursorama.com/bourse/actualites/l-europe-ouvre-dans-le-vert-la-tech-se-distingue-3eddfc2905b363fd2315553efd0d0d52",
+  "https://www.boursorama.com/bourse/actualites/siemens-energy-vise-une-hausse-des-marges-en-2027-avec-la-demande-en-equipements-de-reseau-cf190d052f322a66e79663cad7143379",
+  "https://www.france-epargne.fr/news/siemens-energy-vise-20-a-22-de-marge-en-2030-et-porte-son-dividende-a-2-30-euros",
+  "https://au.investing.com/news/stock-market-news/why-is-vestas-wind-stock-sliding-today-93CH-4761354",
+  "https://www.rttnews.com/3712919/vestas-wind-systems-q3-profit-rises-orders-down-narrows-fy26-outlook.aspx",
+  "https://swedenherald.com/article/vestas-third-quarter-profit-and-sales-fall-short-of-forecasts-as-company-narrows-full-year-outlook"
+ ],
+ "beats": [
+  {
+   "text": "Même matin, même secteur : Siemens Energy bondit de près de 8 %… Vestas plonge de près de 9 %.",
+   "say": "Même matin, même secteur : Siemens Energy bondit de près de huit pour cent... Vestas plonge de près de neuf pour cent.",
+   "bg": {
+    "clip": "b0_112957.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mercredi 11 novembre 2026 · Francfort · Copenhague",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "LE GAZ S'ENVOLE",
+      "LE VENT",
+      "S'EFFONDRE"
+     ]
+    },
+    {
+     "type": "tickers",
+     "title": "ÉNERGIE · MERCREDI MATIN",
+     "rows": [
+      {
+       "name": "Siemens Energy",
+       "pct": "+7,9 %",
+       "at_word": 4,
+       "key": "ENR"
+      },
+      {
+       "name": "Vestas",
+       "pct": "−8,7 %",
+       "at_word": 11,
+       "key": "VWS",
+       "down": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire pour l'éolien : les commandes de Vestas reculent, à 4,1 milliards d'euros.",
+   "say": "Et ce n'est pas le pire pour l'éolien : les commandes de Vestas reculent, à un peu plus de quatre milliards d'euros.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_230545.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "COMMANDES T3 2025",
+      "value_to": 4.6,
+      "decimals": 1,
+      "suffix": " Md€",
+      "color": "gold",
+      "desc": "Vestas · un an plus tôt"
+     },
+     "b_at_word": 12,
+     "b": {
+      "kicker": "COMMANDES T3 2026",
+      "value_to": 4.1,
+      "decimals": 1,
+      "suffix": " Md€",
+      "color": "red",
+      "desc": "3 377 MW contre 4 606 MW"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Vestas · rapport du 3e trimestre · RTTNews · 11 nov."
+    }
+   ]
+  },
+  {
+   "text": "Pourtant, Vestas a vendu plus : 5,68 milliards d'euros au trimestre. Mais le marché en attendait 6.",
+   "say": "Pourtant, Vestas a vendu plus : près de cinq milliards sept cents millions d'euros au trimestre. Mais le marché en attendait six.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_274403.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ATTENDU",
+      "value_to": 6.0,
+      "decimals": 1,
+      "suffix": " Md€",
+      "color": "gold",
+      "desc": "Consensus · chiffre d'affaires T3"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "PUBLIÉ",
+      "value_to": 5.68,
+      "decimals": 2,
+      "suffix": " Md€",
+      "color": "red",
+      "desc": "+6 % sur un an · encore raté"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · Sweden Herald (TT) · 11 nov."
+    }
+   ]
+  },
+  {
+   "text": "Le coupable : un chantier éolien en mer, en Europe, qui coûte bien plus cher que prévu.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3_285982.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b_201766.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "VESTAS",
+     "right": "11 NOV.",
+     "tag": "ÉOLIEN EN MER",
+     "headline": "Résultat du trimestre sous les attentes, plombé par des coûts en hausse sur un projet offshore européen",
+     "highlight": "projet offshore européen",
+     "sub": "Boursorama · Investing.com"
+    },
+    {
+     "type": "stock",
+     "key": "VWS",
+     "name": "Vestas",
+     "sub": "VWS · Copenhague · à l'ouverture",
+     "pct": "−8,7 %",
+     "up": false,
+     "y": 1420,
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "En face, Siemens Energy affiche un carnet de commandes record : 164 milliards d'euros.",
+   "say": "En face, Siemens Energy affiche un carnet de commandes record : cent soixante-quatre milliards d'euros.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4_128310.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "CARNET DE COMMANDES · RECORD",
+     "value_from": 0,
+     "value_to": 164,
+     "decimals": 0,
+     "suffix": " Md€",
+     "color": "green",
+     "pill": "AU 30 SEPTEMBRE 2026",
+     "keys": [
+      "ENR"
+     ],
+     "desc": "Siemens Energy · exercice 2026 · France Épargne · Boursorama"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui achète toutes ces machines ?",
+   "say": "Alors... qui achète toutes ces machines ?",
+   "bg": {
+    "clip": "b6_85824.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI ACHÈTE",
+      "TOUT ÇA ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce genre de bascule, je la décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : les centres de données américains de l'IA. Ils réclament des turbines à gaz et des réseaux électriques.",
+   "say": "Réponse : les centres de données américains de l'I.A. Ils réclament des turbines à gaz... et des réseaux électriques.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8_14900.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b8b_205625.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "SIEMENS ENERGY",
+     "right": "11 NOV.",
+     "tag": "DATA CENTERS · ÉTATS-UNIS",
+     "headline": "L'expansion des centres de données américains alimente la demande en turbines et en équipements de réseau",
+     "highlight": "turbines",
+     "sub": "Boursorama · 11 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Résultat : le dividende passe de 0,70 à 2,30 euros par action. Plus du triple.",
+   "say": "Résultat : le dividende passe de soixante-dix centimes... à deux euros trente par action. Plus du triple.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_3819.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "DIVIDENDE 2025",
+      "value_to": 0.7,
+      "decimals": 2,
+      "suffix": " €",
+      "color": "gold",
+      "desc": "Par action"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "DIVIDENDE 2026",
+      "value_to": 2.3,
+      "decimals": 2,
+      "suffix": " €",
+      "color": "green",
+      "desc": "Proposé à l'assemblée générale"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Siemens Energy · France Épargne · Boursorama"
+    }
+   ]
+  },
+  {
+   "text": "Les puces européennes s'envolent : Soitec plus de 9 %, Infineon plus de 5 %, STMicro autour de 4 %.",
+   "say": "Les puces européennes s'envolent : Soitec, plus de neuf pour cent... Infineon, plus de cinq... S.T. Micro, autour de quatre.",
+   "bg": {
+    "clip": "b13_13370.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PUCES · OUVERTURE MERCREDI",
+     "rows": [
+      {
+       "name": "Soitec",
+       "pct": "+9,2 %",
+       "at_word": 4,
+       "key": "SOI"
+      },
+      {
+       "name": "Infineon",
+       "pct": "+5,6 %",
+       "at_word": 8,
+       "key": "IFX"
+      },
+      {
+       "name": "STMicro",
+       "pct": "≈ +4 %",
+       "at_word": 12,
+       "key": "STM",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Boursorama · ouverture du 11 nov."
+    }
+   ]
+  },
+  {
+   "text": "Le paradoxe : l'Europe parie sur le vent, mais la course à l'IA, elle, fait tourner les turbines à gaz.",
+   "say": "Le paradoxe : l'Europe parie sur le vent... mais la course à l'I.A., elle, fait tourner les turbines à gaz.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b14_57657.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b14b_23757.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE VENT",
+      "OU LE GAZ ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Prochain juge de paix : Nvidia publie ses résultats le 17 novembre.",
+   "say": "Prochain juge de paix : Nvidia publie ses résultats le dix-sept novembre.",
+   "bg": {
+    "clip": "b15_231168.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Résultats Nvidia : mardi 17 novembre"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Le thermomètre de toute la chaîne de l'IA",
+     "size": "big",
+     "y": 1420,
+     "at_word": 4
+    }
+   ]
+  },
+  {
+   "text": "Et toi, tu mises sur le vent… ou sur le gaz ? Dis-le-moi en commentaire.",
+   "say": "Et toi, tu mises sur le vent... ou sur le gaz ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b16_3804.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b16b_202987.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE VENT",
+      "OU LE GAZ ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Siemens Energy vs Vestas : ce que personne ne t'a dit",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 17,
+     "bio_at_word": 37,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

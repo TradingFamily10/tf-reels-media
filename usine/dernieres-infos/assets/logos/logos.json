@@ -250,5 +250,47 @@
   "img": "LDO.png",
   "tile": "#FFFFFF",
   "fit": "72%"
+ },
+ "ENR": {
+  "name": "Siemens Energy",
+  "ticker": "ENR",
+  "img": "ENR.png",
+  "tile": "#FFFFFF",
+  "fit": "88%"
+ },
+ "VWS": {
+  "name": "Vestas",
+  "ticker": "VWS",
+  "img": "VWS.png",
+  "tile": "#FFFFFF",
+  "fit": "88%"
+ },
+ "IFX": {
+  "name": "Infineon",
+  "ticker": "IFX",
+  "img": "IFX.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
+ },
+ "CRWV": {
+  "name": "CoreWeave",
+  "ticker": "CRWV",
+  "img": "CRWV.png",
+  "tile": "#FFFFFF",
+  "fit": "88%"
+ },
+ "STM": {
+  "name": "STMicroelectronics",
+  "ticker": "STM",
+  "img": "STM.png",
+  "tile": "#03234B",
+  "fit": "78%"
+ },
+ "SOI": {
+  "name": "Soitec",
+  "ticker": "SOI",
+  "img": "SOI.png",
+  "tile": "#1B2A4A",
+  "fit": "86%"
  }
 }
