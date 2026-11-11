@@ -151,5 +151,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/1e998fc39e8e20f548363da2245913e8a31efc37/2026-11-11_ep12_siemens_vestas.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=6762087832328228452",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-11",
+  "slot": "14:55",
+  "id": "ep13_nvidia_coreweave",
+  "topic": "IA, 11/11 avant Wall Street : Nvidia −9,5 % en 2 séances (9-10/11 : enquête visant Jensen Huang puis inflation US au-dessus des attentes), ≈ 430 Md$ effacés (Reuters) ; rebond en avant-Bourse : CoreWeave +16 % (CA T3 3,66 Md$ vs 3,55 attendus, prévisions annuelles relevées, rentable seulement en 2028), Nvidia ≈ +3 %, Intel +5 %, Nasdaq 100 futures +1,6 % ; Burry « a heck of a trade » ; taux US 10 ans touche 5 %, hausse Fed 25 pb en déc. 86,5 % (CME) ; pétrolier sur une mine près d'Ormuz, Brent ≈ 93 $ ; résultats Nvidia 17/11 (objectif 108 Md$ ± 2 %)",
+  "hook_type": "bignum",
+  "hook_formula": "compte à rebours",
+  "cta_angle": "La prochaine secousse, tu veux la subir ou la voir venir ?",
+  "title": "Nvidia : 430 milliards évaporés, l'IA repart",
+  "caption": "Deux séances, 430 milliards de dollars envolés… et ce matin, l'IA repart à l'attaque. CoreWeave bondit de 16 % avant l'ouverture après un trimestre au-dessus des attentes, et Nvidia relève la tête à six jours de ses résultats du 17 novembre.\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nCeci n'est pas un conseil en investissement.\n\n#nvidia #coreweave #intelligenceartificielle #wallstreet #bourse #nasdaq #intel #actions #actualite",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/a70b5e3571c19d2023155c0e25a20cdccdab56ea/2026-11-11_ep13_nvidia_coreweave.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-2627845797910396888",
+  "tiktok": "metricool"
  }
 ]
