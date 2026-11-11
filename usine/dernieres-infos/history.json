@@ -123,5 +123,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/dc6a6cede9c9466283fe30b21955d95f0190c2ca/2026-11-10_ep10_fed_demi_point.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=3647341592540300405",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-11",
+  "slot": "06:55",
+  "id": "ep11_inflation_us",
+  "topic": "Inflation US d'octobre (BLS, 10/11) +0,4 % m/m vs +0,3 % attendu, inflation de fond +0,3 % vs +0,2 % ; taux US 10 ans 4,986 % (+9 pb) ; Wall Street stoppe son rebond : Nasdaq −0,74 % (25 065), S&P 500 −0,38 % (7 520), Dow −0,30 % ; Nvidia ≈ −5,5 % (capi ≈ 4 070 Md$) ; AMD +7,25 %, Broadcom +7,86 % ; hausse Fed de 25 pb en déc. entièrement intégrée, 50 pb ≈ 13,6 % (CME FedWatch) ; ligne rouge de Waller (0,3 % de fond) atteinte ; PPI ven. 13/11, résultats Nvidia 17/11",
+  "hook_type": "logowall",
+  "hook_formula": "chiffre choc",
+  "cta_angle": "22 000 personnes ont déjà une longueur d'avance, il ne manque que toi",
+  "title": "Inflation US : le chiffre qui casse l'élan de Wall Street",
+  "caption": "Un dixième de trop, et toute la Fed change de ton. L'inflation américaine d'octobre ressort à +0,4 % sur un mois (+0,3 % attendu) : le taux à 10 ans frôle les 5 %, Wall Street recule et Nvidia décroche.\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nCeci n'est pas un conseil en investissement.\n\n#inflation #fed #wallstreet #bourse #nvidia #tauxdinteret #economie #finance",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/cc422e1a9b22e03be285885ef5e40dd723292666/2026-11-11_ep11_inflation_us.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-6831828925377788279",
+  "tiktok": "metricool"
  }
 ]

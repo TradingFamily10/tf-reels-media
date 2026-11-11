@@ -1,0 +1,458 @@
+{
+ "id": "ep11_inflation_us",
+ "date_label": "11 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "logowall",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "22 000 personnes ont déjà une longueur d avance, il ne manque que toi",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.boursorama.com/bourse/actualites/wall-street-termine-en-baisse-apres-l-inflation-92e8bcdebdd4c2537adc34ddd331d364",
+  "https://www.kucoin.com/news/flash/u-s-stocks-drop-as-october-cpi-exceeds-expectations-nvidia-falls-5-5",
+  "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+ ],
+ "beats": [
+  {
+   "text": "0,4 %. Ce petit chiffre vient de casser l'élan de Wall Street.",
+   "say": "Quatre dixièmes de point... Ce petit chiffre vient de casser l'élan de Wall Street.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b0_21117.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 10 novembre 2026 · Washington",
+     "until_beat": 1
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "INFLATION US · OCTOBRE",
+     "value_from": 0,
+     "value_to": 0.4,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "red",
+     "pill": "EN UN MOIS · ATTENDU +0,3 %",
+     "keys": [
+      "NVDA",
+      "MSFT",
+      "AMD",
+      "AVGO"
+     ],
+     "desc": "Indice des prix à la consommation · BLS · 10 nov."
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : le taux à 10 ans américain frôle maintenant les 5 %.",
+   "say": "Et ce n'est pas le pire... le taux à dix ans américain frôle maintenant les cinq pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_46922.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TAUX US À 10 ANS",
+     "value_from": 4.89,
+     "value_to": 4.986,
+     "decimals": 3,
+     "suffix": " %",
+     "color": "red",
+     "pill": "PLUS DE 9 POINTS DE BASE EN UNE SÉANCE",
+     "desc": "Bon du Trésor américain · clôture du 10 nov. · TechFlow / KuCoin"
+    }
+   ]
+  },
+  {
+   "text": "Résultat : Wall Street stoppe net son rebond. Le Nasdaq et le S&P 500 finissent dans le rouge.",
+   "say": "Résultat : Wall Street stoppe net son rebond. Le Nasdaq et le S and P cinq cents finissent dans le rouge.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_10836.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NASDAQ",
+      "value_to": -0.74,
+      "decimals": 2,
+      "suffix": " %",
+      "color": "red",
+      "desc": "25 065 points"
+     },
+     "b_at_word": 11,
+     "b": {
+      "kicker": "S&P 500",
+      "value_to": -0.38,
+      "decimals": 2,
+      "suffix": " %",
+      "color": "red",
+      "desc": "7 520 points"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Clôture du 10 nov. · Reuters / Boursorama · KuCoin"
+    }
+   ]
+  },
+  {
+   "text": "Et au cœur de la chute, un géant : Nvidia, déjà secoué par l'enquête sur son patron, lâche environ 5,5 %.",
+   "say": "Et au cœur de la chute, un géant : Nvidia, déjà secoué par l'enquête sur son patron, lâche environ cinq et demi pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3_60574.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b_201766.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 16
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · capitalisation ≈ 4 070 Md$",
+     "pct": "≈ −5,5 %",
+     "up": false,
+     "size": "big",
+     "y": 1420,
+     "at_word": 8
+    }
+   ]
+  },
+  {
+   "text": "Le problème : les prix américains ont pris 0,4 % en un mois, quand on attendait 0,3 %.",
+   "say": "Le problème : les prix américains ont pris quatre dixièmes de point en un mois... quand on attendait trois dixièmes.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4_172891.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ATTENDU",
+      "value_to": 0.3,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "Consensus Dow Jones"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "PUBLIÉ",
+      "value_to": 0.4,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Prix à la consommation · octobre"
+     }
+    },
+    {
+     "type": "source",
+     "text": "BLS · 10 nov. · TheStreet · KuCoin"
+    }
+   ]
+  },
+  {
+   "text": "Et l'inflation de fond, sans énergie ni alimentation, monte de 0,3 % au lieu de 0,2 %.",
+   "say": "Et l'inflation de fond, sans énergie ni alimentation, monte de trois dixièmes... au lieu de deux.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_214115.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INFLATION DE FOND · OCTOBRE",
+     "value_from": 0,
+     "value_to": 0.3,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "red",
+     "pill": "ATTENDU : +0,2 %",
+     "desc": "Hors énergie et alimentation · BLS · TheStreet"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui va payer l'addition ?",
+   "say": "Alors... qui va payer l'addition ?",
+   "bg": {
+    "clip": "b7_59139.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI VA PAYER",
+      "L'ADDITION ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "La suite de ce feuilleton, je la publie en temps réel sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c.jpg",
+     "bio_at_word": 16
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse est à Washington : une hausse des taux d'un quart de point en décembre est désormais entièrement intégrée par le marché.",
+   "say": "La réponse est à Washington : une hausse des taux d'un quart de point en décembre... est désormais entièrement intégrée par le marché.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_239282.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "FED · 8-9 DÉCEMBRE",
+     "value_from": 0,
+     "value_to": 25,
+     "decimals": 0,
+     "prefix": "+",
+     "suffix": " pb",
+     "color": "gold",
+     "pill": "HAUSSE ENTIÈREMENT INTÉGRÉE",
+     "desc": "Contrats à terme · CME FedWatch · TechFlow / KuCoin"
+    }
+   ]
+  },
+  {
+   "text": "Et le scénario d'un demi-point d'un coup pèse déjà près de 14 %.",
+   "say": "Et le scénario d'un demi-point d'un coup... pèse déjà près de quatorze pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_90048.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PROBA. HAUSSE DE 50 PB",
+     "value_from": 0,
+     "value_to": 13.6,
+     "decimals": 1,
+     "suffix": " %",
+     "color": "red",
+     "pill": "DÉCEMBRE",
+     "desc": "CME FedWatch · après l'inflation d'octobre"
+    }
+   ]
+  },
+  {
+   "text": "Car mardi matin, juste avant le chiffre, Christopher Waller avait fixé la ligne rouge : 0,3 % d'inflation de fond.",
+   "say": "Car mardi matin, juste avant le chiffre, Christopher Ouôleur avait fixé la ligne rouge : trois dixièmes d'inflation de fond.",
+   "bg": {
+    "clip": "b11_239278.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "FED",
+     "right": "10 NOV.",
+     "tag": "CHRISTOPHER WALLER",
+     "headline": "À 0,3 % ou plus d'inflation de fond, une hausse de 50 pb « devrait être envisagée »",
+     "highlight": "50 pb",
+     "sub": "Gouverneur de la Fed · TheStreet"
+    }
+   ]
+  },
+  {
+   "text": "Le paradoxe : le même jour, AMD et Broadcom s'envolent de plus de 7 %, pendant que Nvidia plonge.",
+   "say": "Le paradoxe : le même jour, A.M.D. et Broadcom s'envolent de plus de sept pour cent... pendant que Nvidia plonge.",
+   "bg": {
+    "clip": "b13_72326.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PUCES · MARDI 10 NOV.",
+     "rows": [
+      {
+       "name": "AMD",
+       "pct": "+7,25 %",
+       "at_word": 5,
+       "key": "AMD"
+      },
+      {
+       "name": "Broadcom",
+       "pct": "+7,86 %",
+       "at_word": 7,
+       "key": "AVGO"
+      },
+      {
+       "name": "Nvidia",
+       "pct": "≈ −5,5 %",
+       "at_word": 15,
+       "key": "NVDA",
+       "down": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "TechFlow / KuCoin · 10 nov."
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : vendredi, les prix à la production. Puis Nvidia publie ses résultats le 17 novembre.",
+   "say": "Prochain rendez-vous : vendredi, les prix à la production... Puis Nvidia publie ses résultats le dix-sept novembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b15_10447.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b15b_14900.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Prix à la production US : ven. 13 nov. · Résultats Nvidia : 17 nov."
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Résultats du trimestre · 17 novembre",
+     "size": "big",
+     "y": 1420,
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Et toi, tu crois que la Fed osera frapper d'un demi-point ? Dis-le-moi en commentaire.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b16_231168.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b16b_202987.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA FED OSERA-T-ELLE",
+      "UN DEMI-POINT ?"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Plus de 22 000 personnes ont déjà une longueur d'avance. Il ne manque que toi. Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Plus de vingt-deux mille personnes ont déjà une longueur d'avance... Il ne manque que toi. Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Inflation US : le scénario Fed qui change tout",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 2,
+     "bio_at_word": 35,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
