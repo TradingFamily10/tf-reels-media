@@ -292,5 +292,33 @@
   "img": "SOI.png",
   "tile": "#1B2A4A",
   "fit": "86%"
+ },
+ "SIE": {
+  "name": "Siemens",
+  "ticker": "SIE",
+  "img": "SIE.png",
+  "tile": "#FFFFFF",
+  "fit": "90%"
+ },
+ "BRBY": {
+  "name": "Burberry",
+  "ticker": "BRBY",
+  "img": "BRBY.png",
+  "tile": "#111111",
+  "fit": "90%"
+ },
+ "RR": {
+  "name": "Rolls-Royce",
+  "ticker": "RR",
+  "img": "RR.png",
+  "tile": "#10173A",
+  "fit": "70%"
+ },
+ "ALV": {
+  "name": "Allianz",
+  "ticker": "ALV",
+  "img": "ALV.png",
+  "tile": "#FFFFFF",
+  "fit": "90%"
  }
 }
