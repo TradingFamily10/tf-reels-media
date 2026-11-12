@@ -1,0 +1,488 @@
+{
+ "id": "ep14_nvidia_conseil",
+ "date_label": "12 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "personne n'en parle",
+ "cta_angle": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026",
+  "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+  "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026",
+  "https://www.tradingkey.com/analysis/stocks/more/262301592-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-nvidia-tradingkey"
+ ],
+ "beats": [
+  {
+   "text": "Tout le monde regardait l'inflation. Le vrai danger pour Nvidia était… dans sa propre salle du conseil.",
+   "say": "Tout le monde regardait l'inflation... Le vrai danger pour Nvidia était... dans sa propre salle du conseil.",
+   "bg": {
+    "clip": "b0_201671.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 12 novembre 2026 · avant l'ouverture",
+     "until_beat": 1
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "NVIDIA",
+     "right": "ÉTATS-UNIS",
+     "tag": "COUP DE TONNERRE",
+     "headline": "Le conseil de Nvidia envisagerait d'écarter son patron, Jensen Huang",
+     "highlight": "écarter son patron",
+     "sub": "Wall Street Journal · soir du 11 nov."
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : après la clôture, l'action a plongé de 8 %, à 160 dollars.",
+   "say": "Et ce n'est pas le pire : après la clôture, l'action a plongé de huit pour cent... à cent soixante dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_202987.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NVIDIA · APRÈS LA CLÔTURE",
+     "value_from": 0,
+     "value_to": 8,
+     "decimals": 0,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "≈ 160 $",
+     "desc": "Jusqu'à −10 % au plus bas · Saxo · StockTitan",
+     "logo": "NVDA"
+    }
+   ]
+  },
+  {
+   "text": "Quelques minutes plus tôt, elle finissait pourtant la séance en hausse de près de 3 %.",
+   "say": "Quelques minutes plus tôt, elle finissait pourtant la séance en hausse de près de trois pour cent.",
+   "bg": {
+    "clip": "b2_349089.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Clôture · mercredi 11 novembre · 173,73 $",
+     "pct": "+2,9 %",
+     "up": true,
+     "size": "big",
+     "y": 1420,
+     "at_word": 10
+    },
+    {
+     "type": "source",
+     "text": "Yahoo Finance · 11 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Selon le Wall Street Journal, le conseil se réunit pour décider s'il écarte Jensen Huang, son patron.",
+   "say": "Selon le Wall Street Journal, le conseil se réunit pour décider s'il écarte Jensen Huang, son patron.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3_34594.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b5_8252.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "WALL STREET JOURNAL",
+     "right": "11 NOV.",
+     "tag": "CONSEIL D'ADMINISTRATION",
+     "headline": "Le conseil se réunit pour décider s'il écarte Jensen Huang",
+     "highlight": "écarte Jensen Huang",
+     "sub": "Rapporté par Yahoo Finance · CNBC · Saxo"
+    }
+   ]
+  },
+  {
+   "text": "Le New York Times évoque une deuxième relation cachée, cette fois avec une dirigeante du groupe.",
+   "say": "Le New York Times évoque une deuxième relation cachée... cette fois avec une dirigeante du groupe.",
+   "bg": {
+    "clip": "b4_20837.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "NEW YORK TIMES",
+     "right": "11 NOV.",
+     "tag": "RÉVÉLATIONS",
+     "headline": "Une deuxième relation cachée, avec une dirigeante de Nvidia",
+     "highlight": "deuxième relation",
+     "sub": "D'après Yahoo Finance · Saxo · 11 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · après-Bourse",
+     "pct": "−8 %",
+     "up": false,
+     "y": 1440,
+     "at_word": 13
+    }
+   ]
+  },
+  {
+   "text": "Et Bloomberg affirme que le conseil cherche déjà un remplaçant… peut-être un patron par intérim.",
+   "say": "Et Bloomberg affirme que le conseil cherche déjà un remplaçant... peut-être un patron par intérim.",
+   "bg": {
+    "clip": "b10_16224.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "UN PATRON",
+      "PAR INTÉRIM ?"
+     ],
+     "at_word": 14
+    },
+    {
+     "type": "source",
+     "text": "Bloomberg, cité par Saxo · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui d'autre va payer l'addition ?",
+   "say": "Alors... qui d'autre va payer l'addition ?",
+   "bg": {
+    "clip": "b6_89986.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI VA PAYER",
+      "L'ADDITION ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette crise, je la suis heure par heure sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Premier touché : CoreWeave, qui loue des puces Nvidia aux géants de l'IA.",
+   "say": "Premier touché : CoreWeave... qui loue des puces Nvidia aux géants de l'I.A.",
+   "bg": {
+    "clip": "b8_14907.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "CRWV",
+     "name": "CoreWeave",
+     "sub": "CRWV · Nasdaq · cloud de l'IA",
+     "size": "big",
+     "y": 560,
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "StockTitan · Yahoo Finance"
+    }
+   ]
+  },
+  {
+   "text": "Mercredi, il venait de s'envoler de près de 25 %, sa meilleure séance depuis juin 2025.",
+   "say": "Mercredi, il venait de s'envoler de près de vingt-cinq pour cent... sa meilleure séance depuis juin deux mille vingt-cinq.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "COREWEAVE · SÉANCE DU 11/11",
+     "value_from": 0,
+     "value_to": 24.7,
+     "decimals": 1,
+     "prefix": "+ ",
+     "suffix": " %",
+     "color": "green",
+     "pill": "RECORD DEPUIS JUIN 2025",
+     "desc": "Clôture 60,77 $ · Yahoo Finance · Saxo",
+     "logo": "CRWV"
+    }
+   ]
+  },
+  {
+   "text": "Cette nuit, les contrats sur le Nasdaq 100 reculent de près de 1 %.",
+   "say": "Cette nuit, les contrats sur le Nasdaq cent reculent de près d'un pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_231168.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "CONTRATS À TERME · CETTE NUIT",
+     "rows": [
+      {
+       "name": "Nasdaq 100 · futures",
+       "pct": "−0,9 %",
+       "at_word": 6,
+       "up": false
+      },
+      {
+       "name": "S&P 500 · futures",
+       "pct": "−0,4 %",
+       "at_word": 8,
+       "up": false
+      },
+      {
+       "name": "Nvidia · après-Bourse",
+       "pct": "−8 %",
+       "at_word": 7,
+       "key": "NVDA",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Saxo · Yahoo Finance · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À Tokyo, la Bourse tient bon, mais SoftBank, grand parieur de l'IA, perd 2 %.",
+   "say": "À Tokyo, la Bourse tient bon... mais SoftBank, grand parieur de l'I.A., perd deux pour cent.",
+   "bg": {
+    "clip": "b12_21118.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "TOKYO · JEUDI MATIN",
+     "rows": [
+      {
+       "name": "Nikkei 225",
+       "pct": "+0,1 %",
+       "at_word": 1,
+       "up": true
+      },
+      {
+       "name": "SoftBank Group",
+       "pct": "−2 %",
+       "at_word": 7,
+       "key": "SFTBY",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "TradingKey · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et la Fed n'aide pas : une hausse des taux en décembre est jugée probable à 90 %.",
+   "say": "Et la Fed n'aide pas : une hausse des taux en décembre est jugée probable à quatre-vingt-dix pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13_153458.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "TAUX US À 10 ANS",
+      "value_to": 4.99,
+      "decimals": 2,
+      "suffix": " %",
+      "color": "red",
+      "desc": "Juste sous les 5 % · Saxo"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "HAUSSE EN DÉCEMBRE",
+      "value_to": 90,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "Probabilité · CME FedWatch"
+     }
+    },
+    {
+     "type": "source",
+     "text": "StockTitan · CME FedWatch · 11 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Depuis début novembre, Nvidia a perdu environ 14 %… près de 700 milliards de dollars.",
+   "say": "Depuis début novembre, Nvidia a perdu environ quatorze pour cent... près de sept cents milliards de dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b14_14906.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "VALEUR EFFACÉE EN NOVEMBRE",
+     "value_from": 0,
+     "value_to": 700,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " Md$",
+     "color": "red",
+     "pill": "≈ −14 % CE MOIS-CI",
+     "keys": [
+      "NVDA"
+     ],
+     "desc": "Yahoo Finance · 11 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : mardi 17 novembre, les résultats. Mais avec quel patron aux commandes ?",
+   "say": "Prochain rendez-vous : mardi dix-sept novembre, les résultats... Mais avec quel patron aux commandes ?",
+   "bg": {
+    "clip": "b15_21549.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Résultats Nvidia : mardi 17 novembre"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUEL PATRON",
+      "LE 17/11 ?"
+     ],
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Alors : Nvidia sans Jensen Huang, coup dur… ou nouveau départ ? Dis-le-moi en commentaire.",
+   "say": "Alors : Nvidia sans Jensen Huang, coup dur... ou nouveau départ ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b16_176796.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "COUP DUR OU",
+      "NOUVEAU DÉPART ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde. Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde. Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nvidia : le conseil peut-il vraiment écarter Jensen Huang ?",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 21,
+     "bio_at_word": 41,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
