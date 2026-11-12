@@ -320,5 +320,26 @@
   "img": "ALV.png",
   "tile": "#FFFFFF",
   "fit": "90%"
+ },
+ "BABA": {
+  "name": "Alibaba",
+  "ticker": "BABA",
+  "img": "BABA.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
+ },
+ "CSCO": {
+  "name": "Cisco",
+  "ticker": "CSCO",
+  "img": "CSCO.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
+ },
+ "AMAT": {
+  "name": "Applied Materials",
+  "ticker": "AMAT",
+  "img": "AMAT.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
