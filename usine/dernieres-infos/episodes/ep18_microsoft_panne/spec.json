@@ -1,0 +1,507 @@
+{
+ "id": "ep18_microsoft_panne",
+ "date_label": "13 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "Quand tout tombe en panne, mon Telegram, lui, reste allumé",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://financefeeds.com/msft-stock-microsoft-365-outage-day-two/",
+  "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why",
+  "https://www.tradingkey.com/analysis/stocks/us-stocks/262304391-microsoft-outage-msft-outlook-teams-microsoft-365-tradingkey",
+  "https://finance.yahoo.com/markets/stocks/articles/futures-edge-lower-nvda-fallout-110121361.html"
+ ],
+ "beats": [
+  {
+   "text": "Plus de 100 milliards de dollars envolés… à cause d'une boîte mail.",
+   "say": "Plus de cent milliards de dollars envolés... à cause d'une boîte mail.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_14214.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b_42305.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 13 novembre 2026 · avant Wall Street",
+     "until_beat": 0
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "MICROSOFT 365",
+     "right": "12-13 NOV.",
+     "tag": "PANNE MONDIALE",
+     "headline": "Outlook, Teams et Copilot tombent en panne dans le monde entier",
+     "highlight": "en panne",
+     "sub": "Al Jazeera · FinanceFeeds · TradingKey"
+    },
+    {
+     "type": "stock",
+     "key": "MSFT",
+     "name": "Microsoft",
+     "sub": "Avant-Bourse, vendredi",
+     "pct": "−2,77 %",
+     "up": false,
+     "y": 1440,
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : la panne dure depuis plus de 12 heures.",
+   "say": "Et ce n'est pas le pire : la panne dure depuis plus de douze heures.",
+   "bg": {
+    "clip": "b1_14906.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PLUS DE 12 H",
+      "DE PANNE"
+     ],
+     "at_word": 8
+    },
+    {
+     "type": "source",
+     "text": "Al Jazeera · 13 nov. 2026 · TradingKey · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Outlook, Teams, Copilot : touchés dans 74 pays.",
+   "say": "Outlook, Teams, Copilot : touchés dans soixante-quatorze pays.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_55990.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PAYS ET TERRITOIRES TOUCHÉS",
+     "value_from": 0,
+     "value_to": 74,
+     "decimals": 0,
+     "suffix": "",
+     "color": "gold",
+     "pill": "OUTLOOK · TEAMS · COPILOT",
+     "desc": "Signalements Downdetector · Al Jazeera · 13 nov. 2026",
+     "logo": "MSFT"
+    }
+   ]
+  },
+  {
+   "text": "Au pic, des dizaines de milliers de signalements, rien que pour Outlook.",
+   "say": "Au pic, des dizaines de milliers de signalements... rien que pour Outlook.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_10822.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SIGNALEMENTS OUTLOOK AU PIC",
+     "value_from": 0,
+     "value_to": 138000,
+     "decimals": 0,
+     "suffix": "",
+     "color": "red",
+     "pill": "JEUDI ≈ 13 H (NEW YORK)",
+     "desc": "Downdetector · TradingKey · 13 nov. 2026",
+     "logo": "MSFT"
+    }
+   ]
+  },
+  {
+   "text": "Même des États sont coupés : le Japon, Singapour, la Cour suprême des Philippines.",
+   "say": "Même des États sont coupés : le Japon... Singapour... la Cour suprême des Philippines.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4_256109.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b_198477.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     },
+     {
+      "clip": "b4c_214946.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "ADMINISTRATIONS TOUCHÉES",
+     "right": "12-13 NOV.",
+     "tag": "ASIE",
+     "headline": "Le gouvernement japonais, l'agence tech de Singapour et la Cour suprême des Philippines perturbés",
+     "highlight": "Cour suprême",
+     "sub": "AP via FinanceFeeds · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Microsoft l'assure : aucune trace de cyberattaque.",
+   "say": "Microsoft l'assure : aucune trace de cyberattaque.",
+   "bg": {
+    "clip": "b5_171.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "MICROSOFT · SUR X",
+     "right": "12 NOV.",
+     "tag": "CITATION",
+     "headline": "« Aucun signe d'une activité malveillante ou d'une cyberattaque »",
+     "highlight": "cyberattaque",
+     "sub": "Charles Lamanna, vice-président exécutif · Al Jazeera · 13 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "MSFT",
+     "name": "Microsoft",
+     "sub": "Un changement réseau annulé",
+     "y": 1440,
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui paie la note… et qui en profite ?",
+   "say": "Alors... qui paie la note... et qui en profite ?",
+   "bg": {
+    "clip": "b6_31392.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI PAIE ?",
+      "QUI EN PROFITE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette panne, je la suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_4b2fa9a8.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Avant Wall Street, Microsoft recule de près de 3 %. Environ 108 milliards de dollars effacés.",
+   "say": "Avant Wall Street, Microsoft recule de près de trois pour cent. Environ cent huit milliards de dollars effacés.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8_148596.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "MICROSOFT · AVANT-BOURSE",
+     "value_from": 523.0,
+     "value_to": 508.51,
+     "decimals": 2,
+     "suffix": " $",
+     "color": "red",
+     "pill": "−2,77 % · ≈ 108 MD$",
+     "desc": "Clôture jeudi : 523,00 $ · FinanceFeeds · 13 nov. 2026",
+     "logo": "MSFT"
+    }
+   ]
+  },
+  {
+   "text": "Le plus fou ? Jeudi, en pleine panne, l'action avait fini dans le vert.",
+   "say": "Le plus fou ? Jeudi, en pleine panne, l'action avait fini dans le vert.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_42489.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "JEUDI · CLÔTURE",
+      "value_to": 0.36,
+      "decimals": 2,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "523,00 $",
+      "logo": "MSFT"
+     },
+     "b_at_word": 12,
+     "b": {
+      "kicker": "VENDREDI · AVANT-BOURSE",
+      "value_to": 2.77,
+      "decimals": 2,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "508,51 $",
+      "logo": "MSFT"
+     }
+    },
+    {
+     "type": "source",
+     "text": "FinanceFeeds · 13 nov. 2026 · TradingKey · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pendant ce temps, Alphabet, maison mère de Google Workspace, grimpe d'environ 1 %.",
+   "say": "Pendant ce temps, Alphabet, maison mère de Google Workspace, grimpe d'environ un pour cent.",
+   "bg": {
+    "clip": "b10_29879.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "AVANT-BOURSE · 13 NOV.",
+     "rows": [
+      {
+       "name": "Microsoft",
+       "pct": "−2,77 %",
+       "at_word": 0,
+       "key": "MSFT",
+       "up": false
+      },
+      {
+       "name": "Alphabet",
+       "pct": "+0,98 %",
+       "at_word": 3,
+       "key": "GOOGL",
+       "up": true
+      },
+      {
+       "name": "Nvidia",
+       "pct": "+2,8 %",
+       "at_word": 9,
+       "key": "NVDA",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "FinanceFeeds · 13 nov. 2026 · Stocktwits"
+    }
+   ]
+  },
+  {
+   "text": "Et Cisco bat les attentes… mais perd quand même près de 3 %.",
+   "say": "Et Cisco bat les attentes... mais perd quand même près de trois pour cent.",
+   "bg": {
+    "clip": "b11_378976.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "CSCO",
+     "name": "Cisco",
+     "sub": "CA 18,5 Md$ vs 18,14 attendus",
+     "pct": "−2,7 %",
+     "up": false,
+     "size": "big",
+     "y": 1440,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Stocktwits via Yahoo Finance · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En Europe, ça relance un vieux débat : dépendre des géants américains du numérique.",
+   "say": "En Europe, ça relance un vieux débat : dépendre des géants américains du numérique.",
+   "bg": {
+    "clip": "b12_276971.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "SOUVERAINETÉ NUMÉRIQUE",
+     "right": "FRANCE",
+     "tag": "LE DÉBAT",
+     "headline": "Sébastien Lecornu veut que l'administration lâche Zoom et les outils de visio américains",
+     "highlight": "outils de visio américains",
+     "sub": "Al Jazeera · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le problème ? Pour l'instant, aucune alternative européenne vraiment crédible.",
+   "say": "Le problème ? Pour l'instant... aucune alternative européenne vraiment crédible.",
+   "bg": {
+    "clip": "b13_215421.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "AUCUNE ALTERNATIVE",
+      "EUROPÉENNE ?"
+     ],
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "Walter Pasquarelli, expert IA · Al Jazeera · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochaine étape : le rapport d'incident promis par Microsoft. Et mardi 17, les résultats de Nvidia.",
+   "say": "Prochaine étape : le rapport d'incident promis par Microsoft. Et mardi dix-sept, les résultats de Nvidia.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b14_14907.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Résultats Nvidia : mardi 17 novembre"
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "JOURS AVANT LES RÉSULTATS NVIDIA",
+     "value_from": 0,
+     "value_to": 4,
+     "decimals": 0,
+     "suffix": "",
+     "color": "gold",
+     "pill": "MARDI 17 NOVEMBRE",
+     "keys": [
+      "MSFT",
+      "NVDA",
+      "GOOGL"
+     ],
+     "desc": "Rapport d'incident Microsoft attendu après rétablissement · FinanceFeeds · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors : simple panne… ou vraie faille dans le cloud ? Dis-le-moi en commentaire.",
+   "say": "Alors : simple panne... ou vraie faille dans le cloud ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b15_199856.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SIMPLE PANNE",
+      "OU VRAIE FAILLE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Quand tout tombe en panne, mon Telegram, lui, reste allumé. Plus de 22 000 personnes y reçoivent gratuitement l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Quand tout tombe en panne, mon Telegram, lui, reste allumé. Plus de vingt-deux mille personnes y reçoivent gratuitement l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Panne Microsoft : ce que ça change pour les marchés",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg",
+      "tg_38e4f34b.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 12,
+     "bio_at_word": 34,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
