@@ -1,0 +1,481 @@
+{
+ "id": "ep17_huang_quitte",
+ "date_label": "13 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Chaque matin, je fais le tri dans le bruit pour toi",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026",
+  "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/",
+  "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-131805045.html",
+  "https://investinglive.com/stock-market-update/asian-stocks-steady-as-nikkei-gains-1-4-hang-seng-slips-on-nvidia-leadership-fallout/"
+ ],
+ "beats": [
+  {
+   "text": "Jensen Huang quitte Nvidia. L'action plonge de 14 %… et pourtant, ce sont ses rivaux qui s'envolent.",
+   "say": "Jensen Huang quitte Nvidia. L'action plonge de quatorze pour cent... et pourtant, ce sont ses rivaux qui s'envolent.",
+   "bg": {
+    "clip": "b0_72326.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 13 novembre 2026 · avant l'Europe",
+     "until_beat": 0
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 14,
+     "prefix": "−",
+     "suffix": " %",
+     "unit": "EN UNE MINUTE",
+     "label": "Nvidia, à l'ouverture jeudi",
+     "logos": [
+      "NVDA",
+      "AMD",
+      "AVGO",
+      "NVDA"
+     ],
+     "reveal_at_word": 13,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : il lâche tout, avec effet immédiat. Patron, président, administrateur.",
+   "say": "Et ce n'est pas le pire : il lâche tout, avec effet immédiat. Patron... président... administrateur.",
+   "bg": {
+    "clip": "b1_220941.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "NVIDIA · DÉPÔT SEC",
+     "right": "12 NOV.",
+     "tag": "DÉMISSION",
+     "headline": "Jensen Huang quitte la direction et le conseil de Nvidia, avec effet immédiat",
+     "highlight": "effet immédiat",
+     "sub": "Annonce à 14 h 48 (Paris) · StockTitan · 12 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Fondateur parti",
+     "y": 1440,
+     "at_word": 12
+    }
+   ]
+  },
+  {
+   "text": "C'est sa directrice financière, Colette Kress, qui prend la barre par intérim.",
+   "say": "C'est sa directrice financière, Colette Kress, qui prend la barre par intérim.",
+   "bg": {
+    "clip": "b2_268230.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "NOUVELLE PATRONNE",
+      "PAR INTÉRIM"
+     ],
+     "at_word": 5
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "PDG par intérim : Colette Kress",
+     "y": 1440,
+     "at_word": 9
+    },
+    {
+     "type": "source",
+     "text": "StockTitan · Investopedia · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le motif ? Nvidia n'en donne aucun. Mais depuis une semaine, sa vie privée faisait la une, et le conseil enquêtait.",
+   "say": "Le motif ? Nvidia n'en donne aucun. Mais depuis une semaine, sa vie privée faisait la une... et le conseil enquêtait.",
+   "bg": {
+    "clip": "b3_152728.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 9,
+     "left": "LE CONTEXTE",
+     "right": "NOV. 2026",
+     "tag": "AUCUN MOTIF OFFICIEL",
+     "headline": "Le conseil de Nvidia avait ouvert une enquête après des révélations sur la vie privée de son patron",
+     "highlight": "une enquête",
+     "sub": "Investopedia via Yahoo Finance · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À l'ouverture, l'action tombe à 148,80 dollars. Moins 14 % en une minute.",
+   "say": "À l'ouverture, l'action tombe sous les cent cinquante dollars. Moins quatorze pour cent... en une minute.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4_349089.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NVIDIA · JEUDI 15 H 31 (PARIS)",
+     "value_from": 173.73,
+     "value_to": 148.8,
+     "decimals": 2,
+     "suffix": " $",
+     "color": "red",
+     "pill": "−14,35 % AU PIRE",
+     "desc": "Clôture de la veille : 173,73 $ · StockTitan · 12 nov. 2026",
+     "logo": "NVDA"
+    }
+   ]
+  },
+  {
+   "text": "Alors, comment Nvidia a-t-il pu effacer l'essentiel de cette chute ?",
+   "say": "Alors... comment Nvidia a-t-il pu effacer l'essentiel de cette chute ?",
+   "bg": {
+    "clip": "b5_254449.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "COMMENT ÇA",
+      "REMONTE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette saga, je la décortique chaque jour sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Clôture à 166,19 dollars. Moins 4 % seulement, après un plongeon de 14.",
+   "say": "Clôture au-dessus des cent soixante-six dollars. Moins quatre pour cent seulement... après un plongeon de quatorze.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7_148596.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "AU PIRE DE LA SÉANCE",
+      "value_to": 14.35,
+      "decimals": 2,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "148,80 $ à 15 h 31",
+      "logo": "NVDA"
+     },
+     "b_at_word": 4,
+     "b": {
+      "kicker": "À LA CLÔTURE",
+      "value_to": 4.34,
+      "decimals": 2,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "166,19 $",
+      "logo": "NVDA"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Motley Fool · StockTitan · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les grands gagnants : A.M.D. prend près de 6 %. Broadcom aussi. Le marché parie sur ses concurrents.",
+   "say": "Les grands gagnants : A.M.D. prend près de six pour cent. Broadcom aussi. Le marché parie sur ses concurrents.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8_13461.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b8b_14900.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "CLÔTURE · JEUDI 12 NOV.",
+     "rows": [
+      {
+       "name": "AMD",
+       "pct": "+5,86 %",
+       "at_word": 3,
+       "key": "AMD",
+       "up": true
+      },
+      {
+       "name": "Broadcom",
+       "pct": "+5,54 %",
+       "at_word": 8,
+       "key": "AVGO",
+       "up": true
+      },
+      {
+       "name": "Nvidia",
+       "pct": "−4,34 %",
+       "at_word": 15,
+       "key": "NVDA",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Motley Fool · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Au total, Wall Street limite la casse : le Nasdaq et le Dow Jones cèdent moins d'un demi pour cent.",
+   "say": "Au total, Wall Street limite la casse : le Nasdaq et le Dow Jones cèdent moins d'un demi pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_42489.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "WALL STREET · JEUDI",
+     "rows": [
+      {
+       "name": "Nasdaq",
+       "pct": "−0,39 %",
+       "at_word": 8,
+       "up": false
+      },
+      {
+       "name": "S&P 500",
+       "pct": "−0,36 %",
+       "at_word": 11,
+       "up": false
+      },
+      {
+       "name": "Dow Jones",
+       "pct": "−0,36 %",
+       "at_word": 12,
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Motley Fool · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Cette nuit en Asie, Tokyo grimpe de plus de 1 %. Hong Kong, lui, recule.",
+   "say": "Cette nuit en Asie, Tokyo grimpe de plus d'un pour cent. Hong Kong, lui, recule.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_256109.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NIKKEI · TOKYO",
+      "value_to": 1.4,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "≈ 61 650 points"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "HANG SENG · HONG KONG",
+      "value_to": 0.9,
+      "decimals": 1,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "≈ 23 800 points"
+     }
+    },
+    {
+     "type": "source",
+     "text": "investingLive · 13 nov. 2026, mi-séance"
+    }
+   ]
+  },
+  {
+   "text": "Et le bitcoin décroche : moins 6 %, sous les 70 000 dollars.",
+   "say": "Et le bitcoin décroche : moins six pour cent... sous les soixante-dix mille dollars.",
+   "bg": {
+    "clip": "b11_27453.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "BTC",
+     "name": "Bitcoin",
+     "sub": "Sous 70 000 $ · nuit du 12 au 13 nov.",
+     "pct": "≈ −6 %",
+     "up": false,
+     "size": "big",
+     "y": 1500,
+     "at_word": 3
+    },
+    {
+     "type": "source",
+     "text": "investingLive · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et mardi 17 novembre, Nvidia publie ses résultats. Sans son fondateur aux commandes.",
+   "say": "Et mardi dix-sept novembre, Nvidia publie ses résultats... sans son fondateur aux commandes.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13_13370.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Résultats Nvidia : mardi 17 novembre"
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "JOURS AVANT LES RÉSULTATS",
+     "value_from": 0,
+     "value_to": 4,
+     "decimals": 0,
+     "suffix": "",
+     "color": "gold",
+     "pill": "MARDI 17 NOVEMBRE",
+     "keys": [
+      "NVDA",
+      "AMD",
+      "AVGO"
+     ],
+     "desc": "Publication maintenue à la date prévue · StockTitan · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors : Nvidia sans Jensen Huang, nouvelle ère… ou début du déclin ? Dis-le-moi en commentaire.",
+   "say": "Alors : Nvidia sans Jensen Huang... nouvelle ère, ou début du déclin ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b14_21118.mp4",
+    "ss": 0.2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "NOUVELLE ÈRE",
+      "OU DÉCLIN ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de 22 000 personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit, plus de vingt-deux mille personnes reçoivent l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nvidia sans Jensen Huang : ce qui change vraiment",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_4b2fa9a8.jpg",
+      "tg_38e4f34b.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 17,
+     "bio_at_word": 37,
+     "button": "REJOINS LA FAMILLE"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINS LA FAMILLE",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
