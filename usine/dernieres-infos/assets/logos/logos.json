@@ -341,5 +341,12 @@
   "img": "AMAT.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "ERA": {
+  "name": "Eramet",
+  "ticker": "ERA",
+  "img": "ERA.png",
+  "tile": "#FFFFFF",
+  "fit": "82%"
  }
 }
