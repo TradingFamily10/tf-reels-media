@@ -1,0 +1,446 @@
+{
+ "id": "ep20_houthis_petrole",
+ "date_label": "14 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "personne n'en parle",
+ "cta_angle": "La prochaine secousse, tu veux l'apprendre ici ou la voir venir ?",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://prixdubaril.com/news-petrole/75209-le-brent-au-dessus-de-96-dollars-les-houthis-visent-le-petrole-saoudien.html",
+  "https://legrandcontinent.eu/fr/2026/11/13/la-crise-petroliere-est-elle-terminee/",
+  "https://france.varoenergy.com/actualites-france/flash-marche-du-13-novembre-2026-a-09h40/",
+  "https://www.moneyvox.fr/bourse/actualites/111240/le-cac-40-totalenergies-en-forme-le-journal-de-la-bourse-du-vendredi-13-novembre-2026",
+  "https://libnanews.com/marches-du-13-novembre-inflation-et-financement-de-lia/",
+  "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+ ],
+ "beats": [
+  {
+   "text": "Trois sites pétroliers saoudiens visés en une seule nuit. Et tout le monde regarde ailleurs.",
+   "say": "Trois sites pétroliers saoudiens visés... en une seule nuit. Et tout le monde regarde ailleurs.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_67364.mp4",
+      "ss": 2,
+      "cx": 0.3
+     },
+     {
+      "clip": "b0b_199788.mp4",
+      "ss": 1,
+      "cx": 0.72,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Samedi 14 novembre 2026 · Golfe & mer Rouge",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "3 SITES PÉTROLIERS",
+      "SAOUDIENS",
+      "VISÉS EN 1 NUIT"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Jeudi soir, les rebelles houthis du Yémen revendiquent trois frappes.",
+   "say": "Jeudi soir, les rebelles houthis du Yémen revendiquent trois frappes.",
+   "bg": {
+    "clip": "b1_30087.mp4",
+    "ss": 2,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "YÉMEN · ARABIE SAOUDITE",
+     "right": "12 NOV.",
+     "tag": "REVENDICATION",
+     "headline": "Les Houthis affirment avoir frappé trois sites pétroliers saoudiens",
+     "highlight": "trois sites pétroliers",
+     "sub": "Revendication non vérifiée · la coalition dit avoir intercepté un drone · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Un oléoduc, le terminal de Yanbu sur la mer Rouge, et un site pétrolier à Riyad.",
+   "say": "Un oléoduc... le terminal de Yanbou sur la mer Rouge... et un site pétrolier à Riyad.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4_43629.mp4",
+      "ss": 0.5,
+      "cx": 0.55
+     },
+     {
+      "clip": "b2b_95240.mp4",
+      "ss": 5,
+      "cx": 0.55,
+      "at_word": 3
+     },
+     {
+      "clip": "b2c_336103.mp4",
+      "ss": 1,
+      "cx": 0.58,
+      "at_word": 15
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "OLÉODUC, YANBU",
+      "ET RIYAD"
+     ],
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Selon les Houthis · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Depuis le 28 février, l'Iran verrouille Ormuz, par où passaient 20 % des hydrocarbures du monde.",
+   "say": "Depuis le vingt-huit février, l'Iran verrouille Ormuz... par où passait un cinquième des hydrocarbures du monde.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_7338.mp4",
+     "ss": 1,
+     "cx": 0.72
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "VIA ORMUZ AVANT LA GUERRE",
+     "value_from": 0,
+     "value_to": 20,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "VERROUILLÉ DEPUIS LE 28 FÉVRIER",
+     "desc": "Part des hydrocarbures mondiaux · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Or cet oléoduc, c'est la porte de secours : il contourne Ormuz.",
+   "say": "Or cet oléoduc, c'est la porte de secours : il contourne Ormuz.",
+   "bg": {
+    "clip": "b4b_32052.mp4",
+    "ss": 2,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA PORTE",
+      "DE SECOURS"
+     ],
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "Oléoduc Est-Ouest · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Résultat : le Brent bondit de 92 à 96 dollars en deux séances.",
+   "say": "Résultat : le Brent bondit de quatre-vingt-douze à quatre-vingt-seize dollars... en deux séances.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_308077.mp4",
+     "ss": 1,
+     "cx": 0.7
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "BRENT · CLÔTURE MER. 11 NOV.",
+      "value_to": 92.76,
+      "decimals": 2,
+      "suffix": " $",
+      "color": "gold",
+      "desc": "Contrat de janvier"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "VENDREDI 13 NOV., 7 H",
+      "value_to": 96.13,
+      "decimals": 2,
+      "suffix": " $",
+      "color": "green",
+      "desc": "Le baril de Brent"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais sur la semaine, il recule. Alors, pourquoi le pétrole n'explose-t-il pas ?",
+   "say": "Mais sur la semaine... il recule. Alors, pourquoi le pétrole n'explose-t-il pas ?",
+   "bg": {
+    "clip": "b6_18818.mp4",
+    "ss": 1,
+    "cx": 0.47
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI ÇA",
+      "N'EXPLOSE PAS ?"
+     ],
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Brent −2,38 % sur la semaine · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Ce conflit, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Vendredi, l'Agence internationale de l'énergie a tranché : l'offre de pétrole dépasse la demande.",
+   "say": "Vendredi, l'Agence internationale de l'énergie a tranché : l'offre de pétrole... dépasse la demande.",
+   "bg": {
+    "clip": "b8_203401.mp4",
+    "ss": 0.5,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "AIE · RAPPORT MENSUEL",
+     "right": "13 NOV.",
+     "tag": "LA RÉPONSE",
+     "headline": "Pour la première fois depuis février, l'offre de pétrole dépasse la demande",
+     "highlight": "dépasse la demande",
+     "sub": "Le Grand Continent (rapport AIE) · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Une première depuis la guerre : 52 millions de barils en plus dans les stocks en octobre.",
+   "say": "Une première depuis la guerre : cinquante-deux millions de barils en plus dans les stocks en octobre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_95239.mp4",
+     "ss": 3,
+     "cx": 0.68
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "STOCKS MONDIAUX · OCT.",
+     "value_from": 0,
+     "value_to": 52,
+     "decimals": 0,
+     "prefix": "+ ",
+     "suffix": " M",
+     "color": "gold",
+     "pill": "MILLIONS DE BARILS EN PLUS",
+     "desc": "Surtout du pétrole en mer · Le Grand Continent (rapport AIE) · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En Bourse, TotalEnergies a quand même pris près de 2 % vendredi.",
+   "say": "En Bourse, TotalEnergies a quand même pris près de deux pour cent... vendredi.",
+   "bg": {
+    "clip": "b0_67364.mp4",
+    "ss": 16,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "TTE",
+     "name": "TotalEnergies",
+     "sub": "TTE · Euronext Paris · vendredi 13 nov.",
+     "pct": "+1,9 %",
+     "up": true,
+     "size": "big",
+     "y": 600,
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "CAC 40 : 8 369 pts (+0,09 %) · MoneyVox · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais à la pompe, le gazole reste 32 % plus cher qu'avant la guerre en Europe.",
+   "say": "Mais à la pompe, le gazole reste près d'un tiers plus cher qu'avant la guerre en Europe.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_175.mp4",
+     "ss": 1,
+     "cx": 0.42
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "GAZOLE UE VS AVANT-GUERRE",
+     "value_from": 0,
+     "value_to": 32,
+     "decimals": 0,
+     "prefix": "+ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "FRANCE : 2,156 € LE LITRE",
+     "desc": "Le Grand Continent (rapport AIE) · 13 nov. 2026 · Prixdubaril.com · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Aux États-Unis, les prix à la production grimpent de 6,5 % sur un an, un record depuis 2022.",
+   "say": "Aux États-Unis, les prix à la production grimpent de plus de six pour cent sur un an... un record depuis deux mille vingt-deux.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12_10447.mp4",
+     "ss": 3,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PRIX PRODUCTION US · OCT.",
+     "value_from": 0,
+     "value_to": 6.5,
+     "decimals": 1,
+     "prefix": "+ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "SUR UN AN · PLUS HAUT DEPUIS NOV. 2022",
+     "desc": "Libnanews (BLS) · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : la Fed, les 8 et 9 décembre, avec une hausse de taux attendue.",
+   "say": "Prochain rendez-vous : la Fed, les huit et neuf décembre... avec une hausse de taux attendue.",
+   "bg": {
+    "clip": "b13_239278.mp4",
+    "ss": 2,
+    "cx": 0.68
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Réunion de la Fed : 8 et 9 décembre 2026"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "8-9 DÉCEMBRE",
+      "LA FED"
+     ],
+     "at_word": 3
+    },
+    {
+     "type": "source",
+     "text": "Hausse de 0,25 point anticipée · TheStreet (CME FedWatch) · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, la mer Rouge va-t-elle tenir ? Dis-le-moi en commentaire.",
+   "say": "Alors... la mer Rouge va-t-elle tenir ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b14_129181.mp4",
+    "ss": 3,
+    "cx": 0.3
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA MER ROUGE",
+      "VA-T-ELLE TENIR ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "La prochaine secousse, tu veux l'apprendre ici… ou la voir venir ? Sur mon Telegram gratuit, plus de 22 000 personnes ont l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "La prochaine secousse, tu veux l'apprendre ici... ou la voir venir ? Sur mon Telegram gratuit, plus de vingt-deux mille personnes ont l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Pétrole : ce que les frappes houthies changent vraiment",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 17,
+     "bio_at_word": 37,
+     "button": "REJOINS LA FAMILLE"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINS LA FAMILLE",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
