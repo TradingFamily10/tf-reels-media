@@ -263,5 +263,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/c050bea5d3621690d6a8e66140a9bf605414d715/2026-11-14_ep20_houthis_petrole.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-105754392898026141",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "14:55",
+  "id": "ep21_nvidia_compte_rebours",
+  "topic": "Nvidia avant ses résultats du mar. 17/11 sans PDG permanent : −12,8 % sur la semaine du 9-13/11, 6e semaine de baisse d'affilée (Reuters/Boursorama ; ≈ −12 % Yahoo), clôture ven. 162,85 $ (−2,01 %), capitalisation sous 4 000 Md$ (Yahoo) ; HSBC passe à conserver, objectif 365 → 170 $ (Yahoo) ; ven. 13/11 : SOX −3,4 %, AMD −8,8 % après 5 hausses (Reuters) ; S&P 500 +2,5 %, Nasdaq +2,6 % sur la semaine, meilleure depuis début août ; conso de base +1,4 %, tech −1,7 %, Meta +2,9 % (Reuters) ; CAC 40 5/5, +2,8 %, 8 369 pts (MoneyVox, Boursorama) ; taux US 10 ans 5,17 %, plus haut depuis octobre, PPI +6,5 % sur un an (Yahoo) ; hausse Fed attendue le 9/12 ; minutes Fed mer. 18/11 (MoneyVox)",
+  "hook_type": "bignum",
+  "hook_formula": "compte à rebours",
+  "cta_angle": "Mardi soir, certains liront les chiffres le lendemain. Toi, tu les auras en direct",
+  "title": "Nvidia : 6 semaines de chute avant des résultats sans patron",
+  "caption": "Six semaines de baisse d'affilée… et mardi soir, Nvidia publie ses résultats sans patron. L'action a perdu 12,8 % cette semaine et HSBC coupe son objectif de 365 à 170 $, pendant que Wall Street signe sa meilleure semaine depuis août et que le CAC 40 aligne 5 hausses sur 5 séances.\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nCeci n'est pas un conseil en investissement.\n\n#Nvidia #Bourse #WallStreet #AMD #CAC40 #Fed #Taux #Investissement #Actualité",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/f223de62b567a4236e273d50251a21f41a6308e9/2026-11-14_ep21_nvidia_compte_rebours.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-3083474157655077347",
+  "tiktok": "metricool"
  }
 ]

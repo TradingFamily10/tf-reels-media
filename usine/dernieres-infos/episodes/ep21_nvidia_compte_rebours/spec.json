@@ -1,0 +1,487 @@
+{
+ "id": "ep21_nvidia_compte_rebours",
+ "date_label": "14 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "compte à rebours",
+ "cta_angle": "Mardi soir, certains liront les chiffres le lendemain. Toi, tu les auras en direct",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.boursorama.com/bourse/actualites/wall-street-clot-une-semaine-en-forte-hausse-par-une-baisse-journaliere-847b582b43c1dff6a6d87e196d4f67be",
+  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+  "https://www.moneyvox.fr/bourse/actualites/111240/le-cac-40-totalenergies-en-forme-le-journal-de-la-bourse-du-vendredi-13-novembre-2026",
+  "https://www.boursorama.com/bourse/actualites/cinq-sur-cinq-pour-le-cac-40-sur-la-semaine-de2fcbec62e3ccc0a2e58f1c60018d85"
+ ],
+ "beats": [
+  {
+   "text": "Dans 3 jours, Nvidia publie ses résultats. Et pour la première fois, sans patron.",
+   "say": "Dans trois jours, Nvidia publie ses résultats. Et pour la première fois... sans patron.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_148596.mp4",
+      "ss": 1,
+      "cx": 0.4
+     },
+     {
+      "clip": "b0b_42489.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Samedi 14 novembre 2026 · Wall Street",
+     "until_beat": 0
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 6,
+     "prefix": "",
+     "suffix": "",
+     "unit": "SEMAINES DE BAISSE",
+     "label": "Nvidia, d'affilée, avant ses résultats",
+     "logos": [
+      "NVDA",
+      "AMD",
+      "AVGO",
+      "NVDA"
+     ],
+     "reveal_at_word": 12,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Cette semaine, l'action a perdu 12,8 %. Sa sixième semaine de baisse d'affilée.",
+   "say": "Cette semaine, l'action a perdu près de treize pour cent. Sa sixième semaine de baisse... d'affilée.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_336755.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NVIDIA · 9-13 NOV.",
+     "value_from": 0,
+     "value_to": 12.8,
+     "decimals": 1,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "6e SEMAINE DE BAISSE D'AFFILÉE",
+     "desc": "Reuters via Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Vendredi, elle repasse sous les 4 000 milliards de dollars en Bourse.",
+   "say": "Vendredi, elle repasse sous les quatre mille milliards de dollars... en Bourse.",
+   "bg": {
+    "clip": "b2_13370.mp4",
+    "ss": 1,
+    "cx": 0.62
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · clôture 162,85 $",
+     "pct": "−2,01 %",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Capitalisation sous 4 000 Md$ · Yahoo Finance · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Jensen Huang est parti jeudi. Et HSBC vient de couper son objectif de 365 à 170 dollars.",
+   "say": "Jensen Huang est parti jeudi. Et H.S.B.C. vient de couper son objectif... de trois cent soixante-cinq à cent soixante-dix dollars.",
+   "bg": {
+    "clip": "b3_214888.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "NVIDIA · ANALYSTES",
+     "right": "13 NOV.",
+     "tag": "DÉGRADATION",
+     "headline": "HSBC passe Nvidia à « conserver » et abaisse son objectif à 170 $",
+     "highlight": "abaisse son objectif",
+     "sub": "Objectif précédent : 365 $ · Yahoo Finance · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : vendredi, tout le secteur des semi-conducteurs a plongé.",
+   "say": "Et ce n'est pas le pire : vendredi, tout le secteur des semi-conducteurs a plongé.",
+   "bg": {
+    "clip": "b5_84086.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PUCES · VENDREDI 13 NOV.",
+     "rows": [
+      {
+       "name": "Indice des semi-conducteurs",
+       "pct": "−3,4 %",
+       "at_word": 9,
+       "up": false
+      },
+      {
+       "name": "AMD",
+       "pct": "−8,8 %",
+       "at_word": 11,
+       "key": "AMD",
+       "up": false
+      },
+      {
+       "name": "Nvidia",
+       "pct": "−2 %",
+       "at_word": 13,
+       "key": "NVDA",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "AMD lâche près de 9 %, après cinq hausses de suite.",
+   "say": "A.M.D. lâche près de neuf pour cent... après cinq hausses de suite.",
+   "bg": {
+    "clip": "b6_32443.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "AMD",
+     "name": "AMD",
+     "sub": "AMD · Nasdaq · vendredi 13 nov.",
+     "pct": "−8,8 %",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pourtant, Wall Street signe sa meilleure semaine depuis août. Alors, qui a ramassé la mise ?",
+   "say": "Pourtant, Wall Street signe sa meilleure semaine depuis août. Alors... qui a ramassé la mise ?",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7_231168.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "S&P 500 · SEMAINE",
+      "value_to": 2.5,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Meilleure semaine depuis août"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "NASDAQ · SEMAINE",
+      "value_to": 2.6,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Fin de 4 semaines de baisse"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Boursorama · 13 nov. 2026 · Yahoo Finance · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les comptes de Nvidia, je les décortique en direct sur mon Telegram. Lien en bio.",
+   "say": "Les comptes de Nvidia, je les décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : les valeurs du quotidien. Vendredi, la consommation gagne 1,4 %, la tech perd 1,7 %.",
+   "say": "Réponse : les valeurs du quotidien. Vendredi, la consommation gagne plus d'un pour cent... la tech en perd presque deux.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_47601.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CONSO DE BASE",
+      "value_to": 1.4,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Meilleur secteur vendredi"
+     },
+     "b_at_word": 11,
+     "b": {
+      "kicker": "TECH · S&P 500",
+      "value_to": 1.7,
+      "decimals": 1,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Pire secteur vendredi"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Meta, elle, prend 2,9 %. Le marché fait le tri.",
+   "say": "Meta, elle, prend près de trois pour cent. Le marché... fait le tri.",
+   "bg": {
+    "clip": "b10_183448.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "META",
+     "name": "Meta",
+     "sub": "META · Nasdaq · vendredi 13 nov.",
+     "pct": "+2,9 %",
+     "up": true,
+     "size": "big",
+     "y": 600,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et à Paris ? Le CAC 40 aligne cinq hausses en cinq séances : plus 2,8 % sur la semaine.",
+   "say": "Et à Paris ? Le CAC quarante aligne cinq hausses en cinq séances : presque trois pour cent sur la semaine.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_203402.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CAC 40 · 9-13 NOV.",
+     "value_from": 0,
+     "value_to": 2.8,
+     "decimals": 1,
+     "prefix": "+ ",
+     "suffix": " %",
+     "color": "green",
+     "pill": "5 SÉANCES · 5 HAUSSES · 8 369 PTS",
+     "desc": "MoneyVox · 13 nov. 2026 · Boursorama · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais un chiffre inquiète : le taux américain à 10 ans touche 5,17 %, au plus haut depuis octobre.",
+   "say": "Mais un chiffre inquiète : le taux américain à dix ans touche plus de cinq pour cent... au plus haut depuis octobre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13_153458.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TAUX US 10 ANS",
+     "value_from": 4.5,
+     "value_to": 5.17,
+     "decimals": 2,
+     "suffix": " %",
+     "color": "red",
+     "pill": "PLUS HAUT DEPUIS OCTOBRE",
+     "desc": "Yahoo Finance · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les marchés parient sur une hausse des taux de la Fed le 9 décembre.",
+   "say": "Les marchés parient sur une hausse des taux de la Fed... le neuf décembre.",
+   "bg": {
+    "clip": "b14_239278.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "HAUSSE DE TAUX",
+      "LE 9 DÉC. ?"
+     ],
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "Prix à la production US : +6,5 % sur un an · Yahoo Finance · 13 nov. 2026 · MoneyVox · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mardi soir, les résultats de Nvidia. Mercredi, le compte rendu de la Fed.",
+   "say": "Mardi soir, les résultats de Nvidia. Mercredi, le compte rendu de la Fed.",
+   "bg": {
+    "clip": "b15_7998.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mardi 17 nov. : Nvidia · Mercredi 18 nov. : minutes de la Fed"
+    },
+    {
+     "type": "tickers",
+     "title": "LA SEMAINE QUI VIENT",
+     "rows": [
+      {
+       "name": "Nvidia · résultats",
+       "pct": "MAR. 17/11",
+       "at_word": 5,
+       "key": "NVDA",
+       "up": true
+      },
+      {
+       "name": "Fed · compte rendu",
+       "pct": "MER. 18/11",
+       "at_word": 12,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "MoneyVox · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Nvidia peut-elle rebondir sans Jensen Huang ? Dis-le-moi en commentaire.",
+   "say": "Alors... Nvidia peut-elle rebondir sans Jensen Huang ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b16_126558.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "REBOND OU",
+      "CHUTE LIBRE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Mardi soir, certains liront les chiffres le lendemain. Toi, tu les auras en direct. Sur mon Telegram gratuit, plus de 22 000 personnes suivent l'actu géopolitique et financière, mes analyses d'actions détaillées et mes opportunités en temps réel. Lien en bio.",
+   "say": "Mardi soir, certains liront les chiffres le lendemain. Toi... tu les auras en direct. Sur mon Telegram gratuit, plus de vingt-deux mille personnes suivent l'actu géopolitique et financière, mes analyses d'actions détaillées, et mes opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nvidia : les résultats décortiqués en direct ce soir",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 20,
+     "bio_at_word": 39,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
