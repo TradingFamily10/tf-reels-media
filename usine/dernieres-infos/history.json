@@ -310,5 +310,19 @@
    "tiktok",
    "youtube"
   ]
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "14:55",
+  "id": "ep24_rocketlab_100",
+  "topic": "Rocket Lab, 14/11 : 100e lancement d'Electron (Māhia, NZ), « plus vite que tout autre lanceur développé commercialement » (communiqué 12/11, NewSpace Economy, Starlust) ; 9 ans après les débuts de 2017 ; satellite radar YAMATSUMI-II (QPS-SAR-19) d'iQPS, orbite 575 km, 11e mission iQPS, 11/11 réussies, 7 autres lancements prévus d'ici 2030 ; 100+ lancements déjà réservés (Peter Beck) ; précision 8 m vs ≈ 15 km moyenne du secteur, Victus Haze 16 h 42, +270 charges, 999 moteurs Rutherford, +1 Md$ de lancements réservés sur Electron, HASTE, Neutron, +55 satellites maison (Starlust) ; iQPS vise 24 satellites d'ici mai 2028, revisite ≈ 10 min (NewSpace Economy 13/11) ; Neutron : 1er vol repoussé à 2027 (titre NewSpace Economy 15/10)",
+  "hook_type": "chip",
+  "hook_formula": "chiffre choc",
+  "cta_angle": "Si tu veux comprendre avant les autres au lieu de subir",
+  "title": "Rocket Lab : 100 lancements, plus vite que tous les autres",
+  "caption": "Aucun lanceur développé par une entreprise privée n'avait atteint ce cap aussi vite. Samedi, Electron, le lanceur de Rocket Lab, a décollé pour la 100e fois depuis la Nouvelle-Zélande, avec un satellite radar japonais à bord, et 100 autres lancements sont déjà réservés.\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nCeci n'est pas un conseil en investissement.\n\n#RocketLab #RKLB #Espace #SpaceX #Satellites #Nasdaq #Bourse #ActuEco",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/39ef51588ef600a9e597d9d49586ff888514870d/2026-11-15_ep24_rocketlab_100.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=63036517139301595",
+  "tiktok": "metricool"
  }
 ]

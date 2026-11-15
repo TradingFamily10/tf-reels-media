@@ -376,5 +376,12 @@
   "img": "AAL.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "RKLB": {
+  "name": "Rocket Lab",
+  "ticker": "RKLB",
+  "img": "RKLB.png",
+  "tile": "#000000",
+  "fit": "92%"
  }
 }

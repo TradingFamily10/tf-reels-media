@@ -1,0 +1,463 @@
+{
+ "id": "ep24_rocketlab_100",
+ "date_label": "15 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "chip",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "Si tu veux comprendre avant les autres au lieu de subir",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://newspaceeconomy.ca/2026/11/14/electron-100th-launch-iqps-yamatsumi-ii/",
+  "https://starlust.org/rocket-lab-completes-100th-mission-of-electron-rocket-faster-than-any-commercial-launch-vehicle/",
+  "https://newspaceeconomy.ca/2026/11/13/rocket-lab-electron-100th-launch-november-14-2026/",
+  "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-launch-milestone-100th-electron-rocket-week"
+ ],
+ "beats": [
+  {
+   "text": "100 lancements. En neuf ans à peine.",
+   "say": "Cent lancements. En neuf ans... à peine.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_8.mp4",
+      "ss": 1,
+      "cx": 0.38
+     },
+     {
+      "clip": "b0b_228.mp4",
+      "ss": 1,
+      "cx": 0.6,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Samedi 14 novembre 2026 · Espace",
+     "until_beat": 0
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "100 LANCEMENTS",
+      "EN 9 ANS"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "stock",
+     "key": "RKLB",
+     "name": "Rocket Lab",
+     "sub": "RKLB · Nasdaq",
+     "size": "big",
+     "y": 600,
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Samedi, le lanceur Electron de Rocket Lab a décollé pour la centième fois, depuis la Nouvelle-Zélande.",
+   "say": "Samedi, le lanceur Electron de Rocket Lab a décollé pour la centième fois... depuis la Nouvelle-Zélande.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_223.mp4",
+     "ss": 1,
+     "cx": 0.55
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ELECTRON · LANCEMENTS DEPUIS 2017",
+     "value_from": 0,
+     "value_to": 100,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "gold",
+     "pill": "14 NOV. 2026 · PÉNINSULE DE MĀHIA",
+     "desc": "NewSpace Economy · 14 nov. 2026",
+     "logo": "RKLB"
+    }
+   ]
+  },
+  {
+   "text": "Aucun lanceur développé par une entreprise privée n'avait atteint ce cap aussi vite.",
+   "say": "Aucun lanceur développé par une entreprise privée... n'avait atteint ce cap aussi vite.",
+   "bg": {
+    "clip": "b2_235.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PLUS VITE QUE",
+      "TOUS LES AUTRES"
+     ],
+     "at_word": 10
+    },
+    {
+     "type": "source",
+     "text": "Rocket Lab · communiqué du 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas tout : 100 autres lancements sont déjà réservés.",
+   "say": "Et ce n'est pas tout : cent autres lancements... sont déjà réservés.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_224.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ELECTRON · LANCEMENTS DÉJÀ RÉSERVÉS",
+     "value_from": 0,
+     "value_to": 100,
+     "decimals": 0,
+     "prefix": "+ ",
+     "suffix": "",
+     "color": "gold",
+     "pill": "SELON PETER BECK, PDG",
+     "desc": "NewSpace Economy · 14 nov. 2026 · Starlust · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À bord : un satellite radar japonais, capable d'observer la Terre à travers les nuages.",
+   "say": "À bord : un satellite radar japonais... capable d'observer la Terre à travers les nuages.",
+   "bg": {
+    "clip": "b4_20763.mp4",
+    "ss": 1,
+    "cx": 0.4
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "MISSION « THE MOUNTAIN GOD RISES »",
+     "right": "JAPON",
+     "tag": "LA CHARGE",
+     "headline": "Satellite radar YAMATSUMI-II (QPS-SAR-19), placé sur une orbite à 575 km",
+     "highlight": "radar",
+     "sub": "NewSpace Economy · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Son client, iQPS, en est à sa onzième mission. Onze sur onze, toutes réussies.",
+   "say": "Son client, i.Q.P.S., en est à sa onzième mission. Onze sur onze... toutes réussies.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_256109.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "MISSIONS iQPS SUR ELECTRON",
+     "value_from": 0,
+     "value_to": 11,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " / 11",
+     "color": "green",
+     "pill": "7 AUTRES LANCEMENTS PRÉVUS D'ICI 2030",
+     "desc": "NewSpace Economy · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, comment un lanceur de 18 mètres a-t-il fait ce que même SpaceX n'avait pas fait ?",
+   "say": "Alors... comment un lanceur de dix-huit mètres a-t-il fait ce que même SpaceX n'avait pas fait ?",
+   "bg": {
+    "clip": "b6_233.mp4",
+    "ss": 1,
+    "cx": 0.48
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "18 MÈTRES",
+      "FACE À SPACEX ?"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Starlust · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "La conquête spatiale, je la suis de près sur mon Telegram. Lien en bio.",
+   "say": "La conquête spatiale, je la suis de près sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_202987.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Première arme, la précision : ses satellites arrivent à 8 mètres de l'orbite visée. La moyenne du secteur : 15 kilomètres.",
+   "say": "Première arme, la précision : ses satellites arrivent à huit mètres de l'orbite visée. La moyenne du secteur... quinze kilomètres.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8_55990.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ELECTRON",
+      "value_to": 8,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " m",
+      "color": "gold",
+      "desc": "Écart avec l'orbite visée"
+     },
+     "b_at_word": 14,
+     "b": {
+      "kicker": "MOYENNE DU SECTEUR",
+      "value_to": 15,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " km",
+      "color": "red",
+      "desc": "Selon Rocket Lab · Starlust · 14 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Deuxième arme, la vitesse : pour l'armée américaine, Electron a décollé 16 h 42 après la commande.",
+   "say": "Deuxième arme, la vitesse : pour l'armée américaine, Electron a décollé seize heures quarante-deux... après la commande.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_170300.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "MISSION VICTUS HAZE · U.S. SPACE FORCE",
+     "value_from": 0,
+     "value_to": 16,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " h 42",
+     "color": "gold",
+     "pill": "ENTRE LA COMMANDE ET LE DÉCOLLAGE",
+     "desc": "Starlust · 14 nov. 2026 · Rocket Lab · communiqué du 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Troisième arme, la cadence : plus de 270 satellites lancés, avec 999 moteurs Rutherford.",
+   "say": "Troisième arme, la cadence : plus de deux cent soixante-dix satellites lancés... avec neuf cent quatre-vingt-dix-neuf moteurs.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_229.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "SATELLITES LANCÉS",
+      "value_to": 270,
+      "decimals": 0,
+      "prefix": "+ de ",
+      "suffix": "",
+      "color": "gold",
+      "desc": "En 100 vols d'Electron"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "MOTEURS RUTHERFORD",
+      "value_to": 999,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": "",
+      "color": "gold",
+      "desc": "Starlust · 14 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Et Rocket Lab revendique plus d'un milliard de dollars de lancements réservés, sur ses trois programmes.",
+   "say": "Et Rocket Lab revendique plus d'un milliard de dollars de lancements réservés... sur ses trois programmes.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_234.mp4",
+     "ss": 1,
+     "cx": 0.35
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "LANCEMENTS RÉSERVÉS · ELECTRON, HASTE, NEUTRON",
+     "value_from": 0,
+     "value_to": 1,
+     "decimals": 0,
+     "prefix": "+ de ",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "+ DE 55 SATELLITES MAISON EN PRODUCTION",
+     "desc": "Starlust · 14 nov. 2026",
+     "logo": "RKLB"
+    }
+   ]
+  },
+  {
+   "text": "Le vrai enjeu est ailleurs : iQPS veut 24 satellites radar d'ici mai 2028, pour revoir une même zone toutes les dix minutes environ.",
+   "say": "Le vrai enjeu est ailleurs : i.Q.P.S. veut vingt-quatre satellites radar d'ici mai deux mille vingt-huit... pour revoir une même zone toutes les dix minutes environ.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12_201404.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b12b_179775.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "24 SATELLITES",
+      "D'ICI MAI 2028"
+     ],
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "NewSpace Economy · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochaine étape : Neutron, son lanceur bien plus gros, dont le premier vol a glissé à 2027.",
+   "say": "Prochaine étape : Neutron, son lanceur bien plus gros... dont le premier vol a glissé à deux mille vingt-sept.",
+   "bg": {
+    "clip": "b14_285663.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "2027 · Premier vol de Neutron"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "NEUTRON",
+      "RENDEZ-VOUS EN 2027"
+     ],
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "NewSpace Economy · 15 oct. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Rocket Lab peut-il devenir le prochain SpaceX ? Dis-le-moi en commentaire.",
+   "say": "Alors... Rocket Lab peut-il devenir le prochain SpaceX ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b15_232.mp4",
+    "ss": 1,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE PROCHAIN",
+      "SPACEX ?"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon canal Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon canal Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Espace : la course aux lanceurs s'accélère",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 30,
+     "bio_at_word": 37,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
