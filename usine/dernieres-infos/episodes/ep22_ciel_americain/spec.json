@@ -1,0 +1,442 @@
+{
+ "id": "ep22_ciel_americain",
+ "date_label": "15 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "Les infos qui comptent arrivent toujours en vrac, je les remets dans l'ordre",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
+  "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+  "https://www.boursorama.com/bourse/actualites/etats-unis-des-cables-en-cuivre-vetustes-a-l-origine-des-perturbations-de-vols-95fcde80bf9d1770b858f29c8d10bbf6"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas une cyberattaque qui a cloué l'Amérique au sol. C'est du matériel… vieux de 20 ans.",
+   "say": "Ce n'est pas une cyberattaque qui a cloué l'Amérique au sol. C'est du matériel... vieux de vingt ans.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_283.mp4",
+      "ss": 1,
+      "cx": 0.72
+     },
+     {
+      "clip": "b0b_14900.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 13 novembre 2026 · États-Unis",
+     "until_beat": 0
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "ÉTATS-UNIS · FAA",
+     "right": "13 NOV.",
+     "tag": "ARRÊT NATIONAL",
+     "headline": "Tous les décollages stoppés dans le pays pendant environ cinq heures",
+     "highlight": "Tous les décollages stoppés",
+     "sub": "CBS News · 14 nov. 2026 · AFP via Boursorama · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Vendredi, plus de 9 000 vols ont été annulés aux États-Unis. En une seule journée.",
+   "say": "Vendredi, plus de neuf mille vols ont été annulés aux États-Unis. En une seule journée.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_10874.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "VOLS ANNULÉS · VENDREDI 13 NOV.",
+     "value_from": 0,
+     "value_to": 9159,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "red",
+     "pill": "EN UNE SEULE JOURNÉE",
+     "desc": "FlightAware via CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : plus de 7 000 autres sont partis en retard.",
+   "say": "Et ce n'est pas le pire : plus de sept mille autres sont partis en retard.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_30869.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ANNULÉS",
+      "value_to": 9159,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": "",
+      "color": "red",
+      "desc": "Vendredi 13 nov."
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "RETARDÉS",
+      "value_to": 7190,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": "",
+      "color": "gold",
+      "desc": "FlightAware via CBS News · 14 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Un arrêt national, du jamais-vu depuis janvier 2023. Le dernier grand avant ça ? Le 11 septembre.",
+   "say": "Un arrêt national, du jamais-vu depuis janvier deux mille vingt-trois. Le dernier grand avant ça ? Le onze septembre.",
+   "bg": {
+    "clip": "b4_47339.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "PRÉCÉDENTS",
+     "right": "FAA",
+     "tag": "HISTORIQUE",
+     "headline": "Premier arrêt national depuis janvier 2023. Le dernier grand : le 11 septembre 2001",
+     "highlight": "11 septembre 2001",
+     "sub": "CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Samedi matin, la casse continue : Delta, United et American annulent encore des centaines de vols.",
+   "say": "Samedi matin, la casse continue : Delta, United et American annulent encore des centaines de vols.",
+   "bg": {
+    "clip": "b5_282.mp4",
+    "ss": 1,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "VOLS ANNULÉS · SAMEDI MATIN",
+     "rows": [
+      {
+       "name": "Delta",
+       "pct": "640",
+       "at_word": 5,
+       "key": "DAL",
+       "up": false
+      },
+      {
+       "name": "United",
+       "pct": "530",
+       "at_word": 6,
+       "key": "UAL",
+       "up": false
+      },
+      {
+       "name": "American",
+       "pct": "488",
+       "at_word": 8,
+       "key": "AAL",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "FlightAware via CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a fait tomber le ciel américain ?",
+   "say": "Alors... qui a fait tomber le ciel américain ?",
+   "bg": {
+    "clip": "b6_20536.mp4",
+    "ss": 1,
+    "cx": 0.33
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A FAIT TOMBER",
+      "LE CIEL AMÉRICAIN ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "Les coulisses de cette panne, je les décortique sur mon Telegram. Lien en bio.",
+   "say": "Les coulisses de cette panne, je les décortique sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_202987.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 13
+    }
+   ]
+  },
+  {
+   "text": "Selon les premières conclusions, des routeurs Cisco… fabriqués entre 2001 et 2006.",
+   "say": "Selon les premières conclusions, des routeurs Cisco... fabriqués entre deux mille un et deux mille six.",
+   "bg": {
+    "clip": "b8_14907.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "CSCO",
+     "name": "Cisco",
+     "sub": "Routeurs série 600 · enquête préliminaire",
+     "pct": "20 ANS",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "Sources gouvernementales via CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Saturés de données, ils envoyaient des infos incohérentes. Alors Washington a tout coupé.",
+   "say": "Saturés de données, ils envoyaient des infos incohérentes. Alors Washington a tout coupé.",
+   "bg": {
+    "clip": "b9_14214.mp4",
+    "ss": 1,
+    "cx": 0.25
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "SEAN DUFFY · TRANSPORTS",
+     "right": "13 NOV.",
+     "tag": "CITATION",
+     "headline": "« Les routeurs ont été surchargés de données. Alors nous avons coupé le système »",
+     "highlight": "surchargés de données",
+     "sub": "Traduction · CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Selon l'AFP, tout serait parti du remplacement de vieux câbles en cuivre.",
+   "say": "Selon l'A.F.P., tout serait parti du remplacement de vieux câbles en cuivre.",
+   "bg": {
+    "clip": "b10_378976.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "DE VIEUX CÂBLES",
+      "EN CUIVRE"
+     ],
+     "at_word": 8
+    },
+    {
+     "type": "source",
+     "text": "AFP via Boursorama · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce réseau de communication, c'est L3Harris qui l'exploite pour l'aviation civile.",
+   "say": "Et ce réseau de communication, c'est L. trois Harris qui l'exploite pour l'aviation civile.",
+   "bg": {
+    "clip": "b11_241936.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "LHX",
+     "name": "L3Harris",
+     "sub": "Opérateur du réseau FTI de la FAA",
+     "pct": "",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pas de cyberattaque, jure Washington. Et aucun lien avec la panne géante de Microsoft.",
+   "say": "Pas de cyberattaque, jure Washington. Et aucun lien avec la panne géante de Microsoft.",
+   "bg": {
+    "clip": "b12_239282.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "MSFT",
+     "name": "Microsoft",
+     "sub": "Panne mondiale du 12-13 nov. · aucun lien",
+     "pct": "",
+     "up": false,
+     "y": 600,
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "Markwayne Mullin, sécurité intérieure · CBS News · 14 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais la facture tombe : 50 milliards de dollars pour remplacer tout le contrôle aérien.",
+   "say": "Mais la facture tombe : cinquante milliards de dollars pour remplacer tout le contrôle aérien.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13_120177.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "MILLIARDS DE DOLLARS DEMANDÉS",
+     "value_from": 0,
+     "value_to": 50,
+     "decimals": 0,
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "REMPLACER TOUT LE SYSTÈME",
+     "keys": [
+      "LHX",
+      "CSCO",
+      "DAL",
+      "UAL"
+     ],
+     "desc": "CBS News · 14 nov. 2026 · AFP via Boursorama · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et l'horloge tourne : le 26 novembre, c'est Thanksgiving, et toute l'Amérique reprend l'avion.",
+   "say": "Et l'horloge tourne : le vingt-six novembre, c'est Thanksgiving... et toute l'Amérique reprend l'avion.",
+   "bg": {
+    "clip": "b14_69545.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 26 novembre 2026 · Thanksgiving"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "J-11",
+      "AVANT THANKSGIVING"
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Alors, le ciel américain tiendra-t-il jusqu'aux fêtes ? Dis-le-moi en commentaire.",
+   "say": "Alors... le ciel américain tiendra-t-il jusqu'aux fêtes ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b15_189895.mp4",
+    "ss": 1,
+    "cx": 0.72
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "IL TIENDRA",
+      "OU PAS ?"
+     ],
+     "at_word": 4
+    }
+   ]
+  },
+  {
+   "text": "Les infos qui comptent arrivent toujours en vrac. Sur mon Telegram gratuit, je les remets dans l'ordre : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "Les infos qui comptent arrivent toujours en vrac. Sur mon Telegram gratuit, je les remets dans l'ordre : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Panne géante aux États-Unis : ce qu'il faut retenir",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 31,
+     "bio_at_word": 38,
+     "button": "REJOINS LA FAMILLE"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINS LA FAMILLE",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

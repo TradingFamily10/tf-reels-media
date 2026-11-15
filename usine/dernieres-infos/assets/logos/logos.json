@@ -348,5 +348,33 @@
   "img": "ERA.png",
   "tile": "#FFFFFF",
   "fit": "82%"
+ },
+ "LHX": {
+  "name": "L3Harris",
+  "ticker": "LHX",
+  "img": "LHX.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "DAL": {
+  "name": "Delta Air Lines",
+  "ticker": "DAL",
+  "img": "DAL.png",
+  "tile": "#FFFFFF",
+  "fit": "78%"
+ },
+ "UAL": {
+  "name": "United Airlines",
+  "ticker": "UAL",
+  "img": "UAL.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
+ },
+ "AAL": {
+  "name": "American Airlines",
+  "ticker": "AAL",
+  "img": "AAL.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
