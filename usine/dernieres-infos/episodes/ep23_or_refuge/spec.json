@@ -1,0 +1,440 @@
+{
+ "id": "ep23_or_refuge",
+ "date_label": "15 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "question",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Pendant que les marchés paniquent, sur mon Telegram on garde la tête froide",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-price-week-111320261",
+  "https://www.kitco.com/news/off-the-wire/2026-11-13/rate-hike-bets-keep-gold-track-its-worst-week-four-months",
+  "https://www.kitco.com/news/article/2026-11-13/wall-street-bears-abound-after-inflation-sours-fed-outlook-main-street",
+  "https://www.tmgm.com/en/analysis/market-news/article/gold-faces-weekly-rout-as-high-us-yields-fuel-fed-rate-hike-bets-202611132023",
+  "https://ancstockinvestments.com/blog/2026/11/14/why-is-gold-falling-this-week/"
+ ],
+ "beats": [
+  {
+   "text": "L'inflation repart. Et pourtant, l'or, la valeur refuge, s'effondre.",
+   "say": "L'inflation repart. Et pourtant, l'or... la valeur refuge... s'effondre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_36529.mp4",
+      "ss": 1,
+      "cx": 0.45
+     },
+     {
+      "clip": "b0b_191304.mp4",
+      "ss": 1,
+      "cx": 0.4,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Semaine du 9 au 13 novembre 2026 · Or",
+     "until_beat": 0
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "L'OR, ENCORE",
+      "UNE VALEUR REFUGE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Cette semaine, l'once d'or a perdu presque 5 %. Sa pire semaine depuis juin.",
+   "say": "Cette semaine, l'once d'or a perdu presque cinq pour cent. Sa pire semaine... depuis juin.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_153986.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "OR · SEMAINE DU 9 AU 13 NOV.",
+     "value_from": 0,
+     "value_to": 4.5,
+     "decimals": 1,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE SEMAINE DEPUIS JUIN",
+     "desc": "Reuters via Kitco · 13 nov. 2026 · FXStreet via TMGM · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Lundi, elle valait encore plus de 4 100 dollars. Jeudi, elle tombait sous les 3 900.",
+   "say": "Lundi, elle valait encore plus de quatre mille cent dollars. Jeudi, elle tombait sous les trois mille neuf cents.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_191305.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "LUNDI · PLUS HAUT",
+      "value_to": 4149,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "gold",
+      "desc": "Once d'or, au comptant"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "JEUDI · PLUS BAS",
+      "value_to": 3852,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "Plus bas depuis octobre 2025 · Kitco News · 13 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : l'or a baissé 10 semaines sur les 12 dernières.",
+   "say": "Et ce n'est pas le pire : l'or a baissé dix semaines... sur les douze dernières.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_68878.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SEMAINES DE BAISSE SUR 12",
+     "value_from": 0,
+     "value_to": 10,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " / 12",
+     "color": "red",
+     "pill": "PIRE SÉRIE DEPUIS 1989",
+     "desc": "BullionVault · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "L'argent, lui, repasse sous les 50 dollars. Moins de la moitié de son record de janvier.",
+   "say": "L'argent, lui, repasse sous les cinquante dollars. Moins de la moitié... de son record de janvier.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_12751.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ARGENT · L'ONCE",
+     "value_from": 60,
+     "value_to": 49.9,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " $",
+     "color": "red",
+     "pill": "PLUS DE −50 % DEPUIS LE RECORD DE JANVIER",
+     "desc": "Reuters via Kitco · 13 nov. 2026 · BullionVault · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a fait tomber le métal refuge ?",
+   "say": "Alors... qui a fait tomber le métal refuge ?",
+   "bg": {
+    "clip": "b6_36528.mp4",
+    "ss": 1,
+    "cx": 0.42
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A FAIT TOMBER",
+      "LE MÉTAL REFUGE ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "L'or, je le suis chaque jour en direct sur mon Telegram. Lien en bio.",
+   "say": "L'or, je le suis chaque jour en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_202987.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Le coupable : le taux américain à 10 ans. Il grimpe au-dessus des 5 %.",
+   "say": "Le coupable : le taux américain à dix ans. Il grimpe au-dessus des cinq pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8_42489.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TAUX US À 10 ANS",
+     "value_from": 4.86,
+     "value_to": 5.13,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "+0,27 PT : RECORD DEPUIS AVRIL 2025",
+     "desc": "BullionVault · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mardi, l'inflation américaine d'octobre a surpris : elle est sortie plus forte que prévu.",
+   "say": "Mardi, l'inflation américaine d'octobre a surpris... elle est sortie plus forte que prévu.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_4730.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ATTENDU",
+      "value_to": 0.3,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "Prix à la consommation, octobre"
+     },
+     "b_at_word": 5,
+     "b": {
+      "kicker": "PUBLIÉ",
+      "value_to": 0.4,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Sur un mois · Reuters via ANC · 14 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Résultat : les marchés parient à près de 90 % sur une hausse des taux de la Fed le 9 décembre.",
+   "say": "Résultat : les marchés parient à près de quatre-vingt-dix pour cent... sur une hausse des taux de la Fed, le neuf décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_239278.mp4",
+     "ss": 1,
+     "cx": 0.62
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_gauge",
+     "kicker": "HAUSSE DE LA FED LE 9 DÉCEMBRE ?",
+     "pill": "≈ 90 % SELON LE CME FEDWATCH",
+     "desc": "Reuters via Kitco · 13 nov. 2026 · FXStreet via TMGM · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Or l'or ne verse aucun intérêt. Quand les taux montent, il perd son attrait.",
+   "say": "Or, l'or ne verse aucun intérêt. Quand les taux montent... il perd son attrait.",
+   "bg": {
+    "clip": "b12_35565.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "TAUX EN HAUSSE",
+      "OR EN BAISSE"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Et le dollar grimpe à son plus haut depuis 19 mois. Double peine pour le métal jaune.",
+   "say": "Et le dollar grimpe à son plus haut depuis dix-neuf mois. Double peine pour le métal jaune.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13_153458.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INDICE DU DOLLAR",
+     "value_from": 100,
+     "value_to": 103.4,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": "",
+     "color": "gold",
+     "pill": "PLUS HAUT DEPUIS 19 MOIS",
+     "desc": "FXStreet via TMGM · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et sur 13 analystes de Wall Street, 10 voient l'or baisser encore.",
+   "say": "Et sur treize analystes de Wall Street... dix voient l'or baisser encore.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b15_191303.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_vote",
+     "at_word": 2,
+     "kicker": "L'OR LA SEMAINE PROCHAINE",
+     "groups": [
+      {
+       "n": 3,
+       "label": "HAUSSE OU STABLE",
+       "color": "gold"
+      },
+      {
+       "n": 10,
+       "label": "BAISSE",
+       "color": "red"
+      }
+     ],
+     "desc": "Sondage hebdomadaire Kitco · 13 analystes · 13 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : mercredi 18 novembre, les minutes de la Fed.",
+   "say": "Prochain rendez-vous : mercredi dix-huit novembre... les minutes de la Fed.",
+   "bg": {
+    "clip": "b16_3019.mp4",
+    "ss": 1,
+    "cx": 0.7
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mercredi 18 novembre 2026 · Fed"
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "MERCREDI 18 NOV.",
+      "LES MINUTES DE LA FED"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Alors, l'or est-il encore une valeur refuge ? Dis-le-moi en commentaire.",
+   "say": "Alors... l'or est-il encore une valeur refuge ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b17_12564.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "REFUGE",
+      "OU PIÈGE ?"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Pendant que les marchés paniquent, sur mon Telegram gratuit, on garde la tête froide : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Rejoins la famille, lien en bio.",
+   "say": "Pendant que les marchés paniquent, sur mon Telegram gratuit, on garde la tête froide : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Rejoins la famille, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "L'or décroche : ce que ça change pour toi",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 28,
+     "bio_at_word": 38,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
