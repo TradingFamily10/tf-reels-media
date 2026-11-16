@@ -1,0 +1,421 @@
+{
+ "id": "ep27_vulcan_amazon",
+ "date_label": "16 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "le jour où",
+ "cta_angle": "La prochaine secousse, tu veux la subir ou la voir venir ?",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+  "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+  "https://stockanalysis.com/news/ula-vulcan-rocket-fails-amazon-leo-satellites-lost/",
+  "https://thenextweb.com/news/vulcan-rocket-failure-amazon-leo-satellites-ula",
+  "https://www.tipranks.com/news/stock-market-today-nov-16-u-s-stocks-mixed-ahead-of-nvidia-results-and-anthropic-ipo"
+ ],
+ "beats": [
+  {
+   "text": "Le jour où la fusée de Boeing et Lockheed Martin a perdu 40 satellites d'Amazon… en 10 minutes.",
+   "say": "Le jour où la fusée de Boeing et Lockheed Martin a perdu quarante satellites d'Amazon... en dix minutes.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_8.mp4",
+      "ss": 1,
+      "cx": 0.42
+     },
+     {
+      "clip": "b0b_223.mp4",
+      "ss": 18,
+      "cx": 0.45,
+      "at_word": 13
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Dimanche 15 novembre 2026 · Cap Canaveral",
+     "until_beat": 0
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "CAP CANAVERAL · ULA",
+     "right": "15 NOV.",
+     "tag": "ÉCHEC",
+     "headline": "La fusée Vulcan échoue : les 40 satellites Amazon Leo n'atteignent pas l'orbite",
+     "highlight": "40 satellites Amazon Leo",
+     "sub": "Spaceflight Now · 15 nov. 2026 · Space.com · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Dimanche, en Floride, la fusée Vulcan décolle. Dix minutes plus tard : l'anomalie.",
+   "say": "Dimanche, en Floride, la fusée Vulcan décolle. Dix minutes plus tard... l'anomalie.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b1_85012.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b1b_228.mp4",
+      "ss": 19,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "T + 10 MIN :",
+      "ANOMALIE"
+     ],
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Communiqué de ULA · Spaceflight Now · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : c'est le premier échec total de ULA depuis sa création, en 2006.",
+   "say": "Et ce n'est pas le pire : c'est le premier échec total de U.L.A. depuis sa création, en deux mille six.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_233.mp4",
+     "ss": 9,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "ULA · BOEING + LOCKHEED MARTIN",
+     "value_from": 0,
+     "value_to": 20,
+     "decimals": 0,
+     "suffix": " ans",
+     "color": "gold",
+     "pill": "PREMIER ÉCHEC TOTAL",
+     "keys": [
+      "BA",
+      "LMT"
+     ],
+     "desc": "ULA créée en 2006 · Spaceflight Now · 15 nov. 2026 · StockAnalysis · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Ces 40 satellites devaient renforcer Amazon Leo, le réseau internet spatial d'Amazon.",
+   "say": "Ces quarante satellites devaient renforcer Amazon Léo, le réseau internet spatial d'Amazon.",
+   "bg": {
+    "clip": "b3_40041.mp4",
+    "ss": 1,
+    "cx": 0.66
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "AMZN",
+     "name": "Amazon",
+     "sub": "AMZN · Nasdaq",
+     "y": 560,
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "Space.com · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Amazon n'en a qu'environ 400 en orbite. Il lui en faut plus de 3 200.",
+   "say": "Amazon n'en a qu'environ quatre cents en orbite. Il lui en faut... plus de trois mille deux cents.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4_14900.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "AMAZON LEO · EN ORBITE",
+      "value_to": 400,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": "",
+      "color": "gold",
+      "desc": "Avant le vol de dimanche · Space.com · 15 nov. 2026"
+     },
+     "b_at_word": 10,
+     "b": {
+      "kicker": "OBJECTIF · 1RE GÉNÉRATION",
+      "value_to": 3200,
+      "decimals": 0,
+      "prefix": "+ de ",
+      "suffix": "",
+      "color": "gold",
+      "desc": "Space.com · 15 nov. 2026 · The Next Web · 16 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "En face, Starlink, le réseau de SpaceX, en aligne déjà plus de 11 000.",
+   "say": "En face, Starlink, le réseau de SpaceX, en aligne déjà... plus de onze mille.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_283431.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SATELLITES STARLINK",
+     "value_from": 0,
+     "value_to": 11000,
+     "decimals": 0,
+     "prefix": "+ de ",
+     "suffix": "",
+     "color": "gold",
+     "pill": "ET DES MILLIONS DE CLIENTS",
+     "desc": "StockAnalysis · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui paie vraiment l'addition de cet échec ?",
+   "say": "Alors... qui paie vraiment l'addition de cet échec ?",
+   "bg": {
+    "clip": "b6_229.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI PAIE",
+      "L'ADDITION ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Cette course à l'espace, je la décrypte en direct sur mon Telegram. Lien en bio.",
+   "say": "Cette course à l'espace, je la décrypte en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_736.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Premier touché : Amazon. Le groupe a réservé 38 vols sur cette fusée… qui reste au sol jusqu'à la fin de l'enquête.",
+   "say": "Premier touché : Amazon. Le groupe a réservé trente-huit vols sur cette fusée... qui reste au sol jusqu'à la fin de l'enquête.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8_234.mp4",
+     "ss": 1,
+     "cx": 0.45
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "VOLS VULCAN ACHETÉS PAR AMAZON",
+     "value_from": 0,
+     "value_to": 38,
+     "decimals": 0,
+     "suffix": "",
+     "color": "red",
+     "pill": "ENQUÊTE EN COURS",
+     "keys": [
+      "AMZN"
+     ],
+     "desc": "Spaceflight Now · 15 nov. 2026 · StockAnalysis · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Ce lundi, l'action Amazon recule avant l'ouverture de Wall Street.",
+   "say": "Ce lundi, l'action Amazon recule avant l'ouverture de Wall Street.",
+   "bg": {
+    "clip": "b9_42489.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "WALL STREET · AMZN",
+     "right": "16 NOV.",
+     "tag": "AVANT-BOURSE",
+     "headline": "L'action Amazon recule après la perte de 40 satellites Leo",
+     "highlight": "recule",
+     "sub": "TipRanks · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Deuxième touché : le Pentagone. Il attendait ce vol pour confier de nouveau ses missions militaires à Vulcan.",
+   "say": "Deuxième touché : le Pentagone. Il attendait ce vol pour confier de nouveau ses missions militaires... à Vulcan.",
+   "bg": {
+    "clip": "b10_170300.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE PENTAGONE",
+      "EN ATTENTE"
+     ],
+     "at_word": 3
+    },
+    {
+     "type": "source",
+     "text": "Reuters via StockAnalysis · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et l'enquête touche aussi Blue Origin : ses moteurs BE-4 font voler Vulcan… et sa propre fusée, New Glenn, au sol depuis mai.",
+   "say": "Et l'enquête touche aussi Blue Origin : ses moteurs B.E. quatre font voler Vulcan... et sa propre fusée, New Glenn, au sol depuis mai.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b11_224.mp4",
+      "ss": 4,
+      "cx": 0.45
+     },
+     {
+      "clip": "b11b_235.mp4",
+      "ss": 10,
+      "cx": 0.6,
+      "at_word": 16
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "MOTEURS BE-4",
+      "SOUS LA LOUPE"
+     ],
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Blue Origin aide l'enquête · Spaceflight Now · 15 nov. 2026 · The Next Web · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain test : pas avant le 23 novembre, une Ariane 6 doit emporter 36 satellites Amazon.",
+   "say": "Prochain test : pas avant le vingt-trois novembre, une Ariane six doit emporter trente-six satellites Amazon.",
+   "bg": {
+    "clip": "b12_234735.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "23 NOVEMBRE :",
+      "ARIANE 6"
+     ],
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "36 satellites Amazon Leo · GeekWire via The Next Web · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Amazon peut-il encore rattraper Starlink ? Dis-le-moi en commentaire.",
+   "say": "Alors... Amazon peut-il encore rattraper Starlink ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b13_368458.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "AMAZON PEUT-IL",
+      "RATTRAPER STARLINK ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "La prochaine secousse, tu veux la subir ou la voir venir ? Sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "La prochaine secousse, tu veux la subir... ou la voir venir ? Sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Vulcan : 40 satellites Amazon perdus en 10 minutes",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 33,
+     "bio_at_word": 40,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

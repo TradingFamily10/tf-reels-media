@@ -383,5 +383,19 @@
   "img": "RKLB.png",
   "tile": "#000000",
   "fit": "92%"
+ },
+ "BA": {
+  "name": "Boeing",
+  "ticker": "BA",
+  "img": "BA.png",
+  "tile": "#0033A1",
+  "fit": "80%"
+ },
+ "LMT": {
+  "name": "Lockheed Martin",
+  "ticker": "LMT",
+  "img": "LMT.png",
+  "tile": "#00205B",
+  "fit": "80%"
  }
 }
