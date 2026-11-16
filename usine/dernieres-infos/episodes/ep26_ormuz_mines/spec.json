@@ -1,0 +1,406 @@
+{
+ "id": "ep26_ormuz_mines",
+ "date_label": "16 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "question directe",
+ "cta_angle": "Le pétrole raconte la géopolitique avant les journaux",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.rigzone.com/news/wire/iran_says_door_to_peace_still_open_after_strikes_on_bahrain-16-nov-2026-185086-article/",
+  "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+  "https://ng.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-2808258",
+  "https://www.boursorama.com/bourse/actualites/l-europe-ouvre-hesitante-nvidia-pese-toujours-sur-les-echanges-cc5f3f33e4e74fb1959a96ce49690064",
+  "https://www.tickmill.com/blog/daily-market-outlook-november-16-2026",
+  "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
+ ],
+ "beats": [
+  {
+   "text": "Six navires en feu dans le détroit d'Ormuz. Et pourtant, le pétrole baisse. Pourquoi ?",
+   "say": "Six navires en feu dans le détroit d'Ormuz. Et pourtant... le pétrole baisse. Pourquoi ?",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_95241.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b_15178.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 16 novembre 2026 · Golfe persique",
+     "until_beat": 0
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 6,
+     "prefix": "",
+     "suffix": "",
+     "unit": "NAVIRES EN FEU",
+     "label": "Détroit d'Ormuz, depuis dimanche, selon l'Iran",
+     "logos": [
+      "TTE",
+      "SHEL",
+      "BP",
+      "XOM"
+     ],
+     "reveal_at_word": 11,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "L'un d'eux, un superpétrolier, transportait plus de 2 millions de barils. Il aurait coulé.",
+   "say": "L'un d'eux, un superpétrolier, transportait plus de deux millions de barils. Il aurait... coulé.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_237249.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SUPERPÉTROLIER TOUCHÉ",
+     "value_from": 0,
+     "value_to": 2,
+     "decimals": 0,
+     "prefix": "+ ",
+     "suffix": " M",
+     "color": "gold",
+     "pill": "BARILS DE BRUT À BORD",
+     "desc": "6 navires en feu depuis dimanche selon la TV iranienne · ISNA via Investing.com · 15-16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : dimanche, les Gardiens de la révolution ont visé Bahreïn.",
+   "say": "Et ce n'est pas le pire : dimanche, les Gardiens de la révolution ont visé Bahreïn.",
+   "bg": {
+    "clip": "b3_170300.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "CIBLE :",
+      "BAHREÏN"
+     ],
+     "at_word": 13
+    },
+    {
+     "type": "source",
+     "text": "Al Jazeera · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Six drones lancés sur la base de Riffa. Bahreïn affirme avoir déjoué plusieurs attaques.",
+   "say": "Six drones lancés sur la base de Riffa. Bahreïn affirme avoir déjoué... plusieurs attaques.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4_241936.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "RIFFA · BAHREÏN",
+     "value_from": 0,
+     "value_to": 6,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " drones",
+     "color": "red",
+     "pill": "2E REVENDICATION EN 3 JOURS",
+     "desc": "Revendication des Gardiens · Al Jazeera · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Washington muscle sa présence : un troisième porte-avions arrive dans la région. Du jamais vu depuis 2003.",
+   "say": "Washington muscle sa présence : un troisième porte-avions arrive dans la région. Du jamais vu... depuis deux mille trois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5_200993.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PORTE-AVIONS US",
+     "value_from": 0,
+     "value_to": 3,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "gold",
+     "pill": "DU JAMAIS-VU DEPUIS 2003",
+     "desc": "USS Theodore Roosevelt · Bloomberg via Rigzone · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, avec des mines dans le détroit, pourquoi le baril ne s'envole-t-il pas ?",
+   "say": "Alors... avec des mines dans le détroit, pourquoi le baril ne s'envole-t-il pas ?",
+   "bg": {
+    "clip": "b6_67364.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI LE BARIL",
+      "NE S'ENVOLE PAS ?"
+     ],
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Ce bras de fer, je le suis heure par heure sur mon Telegram. Lien en bio.",
+   "say": "Ce bras de fer, je le suis heure par heure sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_736.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 15
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : le marché croule sous les barils. Les signaux d'offre excédentaire pèsent plus lourd que la peur.",
+   "say": "Réponse : le marché croule sous les barils. Les signaux d'offre excédentaire... pèsent plus lourd que la peur.",
+   "bg": {
+    "clip": "b8_43629.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "TROP DE BARILS",
+      "SUR LE MARCHÉ"
+     ],
+     "at_word": 3
+    },
+    {
+     "type": "source",
+     "text": "Tickmill · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "La semaine dernière, le Brent a perdu plus de 2 %. Ce lundi matin, il recule encore, sous les 95 dollars.",
+   "say": "La semaine dernière, le Brent a perdu plus de deux pour cent. Ce lundi matin, il recule encore... sous les quatre-vingt-quinze dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9_148596.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "BRENT · SEMAINE DERNIÈRE",
+      "value_to": 2,
+      "decimals": 0,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Plus de 2 % · Bloomberg via Rigzone · 16 nov. 2026"
+     },
+     "b_at_word": 11,
+     "b": {
+      "kicker": "BRENT · LUNDI MATIN",
+      "value_to": 94.87,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "− 1,13 % · Reuters via Boursorama · 16 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Pour les majors comme TotalEnergies, Shell ou BP, c'est ce prix du baril qui fait la loi.",
+   "say": "Pour les majors comme TotalEnergies, Shell ou B.P., c'est ce prix du baril qui fait la loi.",
+   "bg": {
+    "clip": "b10_175.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "TTE",
+     "name": "TotalEnergies",
+     "sub": "TTE · Euronext Paris",
+     "y": 480,
+     "at_word": 4
+    },
+    {
+     "type": "stock",
+     "key": "SHEL",
+     "name": "Shell",
+     "sub": "SHEL · Londres",
+     "y": 680,
+     "at_word": 5
+    },
+    {
+     "type": "stock",
+     "key": "BP",
+     "name": "BP",
+     "sub": "BP · Londres",
+     "y": 880,
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Mais Téhéran souffle le chaud et le froid : l'Iran a transmis 7 conditions pour la paix, via le Qatar.",
+   "say": "Mais Téhéran souffle le chaud et le froid : l'Iran a transmis sept conditions pour la paix... via le Qatar.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_291447.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CONDITIONS DE L'IRAN",
+     "value_from": 0,
+     "value_to": 7,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "gold",
+     "pill": "LEVÉE DU BLOCUS ET DES SANCTIONS",
+     "desc": "Présentées par Mohammad Ghalibaf, président du Parlement · Al Jazeera · 15 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : jeudi, Trump, Xi et Poutine se retrouvent en marge du sommet de l'APEC.",
+   "say": "Prochain rendez-vous : jeudi, Trump, Xi et Poutine se retrouvent en marge du sommet de l'A.P.E.C.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13_263203.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b_264525.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "JEUDI :",
+      "TRUMP · XI · POUTINE"
+     ],
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "Sommet de l'APEC à Shenzhen · Newsquawk · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, les mines ou les barils en trop : qui va gagner la bataille du prix ? Dis-le-moi en commentaire.",
+   "say": "Alors... les mines, ou les barils en trop : qui va gagner la bataille du prix ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b14_135658.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "MINES OU BARILS",
+      "QUI GAGNE ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Le pétrole raconte la géopolitique avant les journaux. Sur mon canal Telegram gratuit, je te la traduis : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de 22 000 personnes lisent déjà. Lien en bio.",
+   "say": "Le pétrole raconte la géopolitique avant les journaux. Sur mon canal Telegram gratuit, je te la traduis : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de vingt-deux mille personnes lisent déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Ormuz : six navires en feu, et le baril qui recule",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 34,
+     "bio_at_word": 40,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
