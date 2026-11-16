@@ -1,0 +1,487 @@
+{
+ "id": "ep25_japon_recul",
+ "date_label": "16 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "personne n'en parle",
+ "cta_angle": "Chaque nuit, pendant que tu dors, l'Asie fait bouger les marchés. Moi, je veille",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.thestar.com.my/business/business-news/2026/11/16/japan039s-economy-unexpectedly-shrinks-in-july-september-as-consumption-falters",
+  "https://finance.biggo.com/news/4a06c79e-a90f-4681-9939-d5e7a80e19ff",
+  "https://www.local10.com/business/2026/11/15/japans-economy-contracts-slightly-in-the-latest-quarter-as-oil-prices-remain-high/",
+  "https://www.swingfish.trade/blog/market-news/economic-and-event-calendar-in-asia-monday-november-16-2026-boj-china-data-japan-gdp-442235/",
+  "https://www.insiderfinance.io/news/nvidia-stock-nov-17-earnings"
+ ],
+ "beats": [
+  {
+   "text": "Tout le monde attend Nvidia. Mais cette nuit, le vrai signal d'alarme est venu du Japon.",
+   "say": "Tout le monde attend Nvidia. Mais cette nuit... le vrai signal d'alarme est venu du Japon.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0_181114.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b_337459.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 16 novembre 2026 · Tokyo",
+     "until_beat": 0
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · résultats le 17 nov.",
+     "y": 560,
+     "at_word": 4,
+     "until_word": 10
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "CETTE NUIT",
+      "LE JAPON",
+      "RECULE"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La quatrième économie du monde a reculé cet été. Une première depuis un an.",
+   "say": "La quatrième économie du monde a reculé cet été. Une première... depuis un an.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_243075.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PIB JAPON · JUIL.-SEPT. 2026",
+     "value_from": 0,
+     "value_to": 0.1,
+     "decimals": 1,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "1RE CONTRACTION EN 4 TRIMESTRES",
+     "desc": "Rythme annualisé · Cabinet Office via Reuters (The Star) · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les économistes attendaient une hausse. Le chiffre tombe dans le rouge.",
+   "say": "Les économistes attendaient une hausse. Le chiffre tombe... dans le rouge.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_336755.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ATTENDU",
+      "value_to": 0.3,
+      "decimals": 1,
+      "prefix": "+ ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Médiane du sondage Reuters"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "PUBLIÉ",
+      "value_to": 0.1,
+      "decimals": 1,
+      "prefix": "− ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "PIB annualisé · Cabinet Office via Reuters (The Star) · 16 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : les Japonais dépensent moins, pour le deuxième trimestre d'affilée.",
+   "say": "Et ce n'est pas le pire : les Japonais dépensent moins... pour le deuxième trimestre d'affilée.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3_44860.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CONSOMMATION · T3 2026",
+     "value_from": 0,
+     "value_to": 0.3,
+     "decimals": 1,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "2E BAISSE D'AFFILÉE",
+     "desc": "Plus de la moitié du PIB · Cabinet Office via BigGo Finance · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Riz, climatiseurs, vêtements : même le panier du quotidien recule.",
+   "say": "Riz, climatiseurs, vêtements : même le panier du quotidien... recule.",
+   "bg": {
+    "clip": "b4_134106.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "RIZ, CLIM,",
+      "VÊTEMENTS"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Cabinet Office via BigGo Finance · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En face, les importations grimpent, gonflées par le pétrole et l'aluminium.",
+   "say": "En face, les importations grimpent... gonflées par le pétrole et l'aluminium.",
+   "bg": {
+    "clip": "b5_95240.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "ticket",
+     "at_word": 3,
+     "title": "JAPON · T3 2026",
+     "subtitle": "Variation sur le trimestre · Cabinet Office",
+     "rows": [
+      [
+       "Consommation",
+       "−0,3 %"
+      ],
+      [
+       "Exportations",
+       "−0,2 %"
+      ],
+      [
+       "Importations",
+       "+2,5 %"
+      ]
+     ],
+     "total": [
+      "PIB annualisé",
+      "−0,1 %"
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Cabinet Office via BigGo Finance · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Résultat : le commerce extérieur ampute la croissance de 0,6 point.",
+   "say": "Résultat : le commerce extérieur ampute la croissance... de plus d'un demi-point.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b6_216315.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "COMMERCE EXTÉRIEUR · PIB",
+     "value_from": 0,
+     "value_to": 0.6,
+     "decimals": 1,
+     "prefix": "− ",
+     "suffix": " pt",
+     "color": "red",
+     "pill": "LES ÉCONOMISTES ATTENDAIENT − 0,4 PT",
+     "desc": "Cabinet Office via Reuters (The Star) · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui va devoir bouger le premier ?",
+   "say": "Alors... qui va devoir bouger le premier ?",
+   "bg": {
+    "clip": "b7_246384.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI BOUGE",
+      "LE PREMIER ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "Les marchés d'Asie, je les décrypte chaque matin sur mon Telegram. Lien en bio.",
+   "say": "Les marchés d'Asie, je les décrypte chaque matin sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b8_202987.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : la Banque du Japon. Elle a déjà monté ses taux en juin, puis en septembre.",
+   "say": "Réponse : la Banque du Japon. Elle a déjà monté ses taux en juin... puis en septembre.",
+   "bg": {
+    "clip": "b9_250395.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "BANQUE DU JAPON",
+     "right": "2026",
+     "tag": "TAUX",
+     "headline": "La Banque du Japon a relevé ses taux en juin et en septembre",
+     "highlight": "relevé ses taux",
+     "sub": "Reuters (The Star) · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Fin octobre, un de ses membres réclamait déjà une nouvelle hausse. Seul contre huit.",
+   "say": "Fin octobre, un de ses membres réclamait déjà une nouvelle hausse. Seul... contre huit.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_137264.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_vote",
+     "kicker": "VOTE DU 30 OCTOBRE 2026",
+     "groups": [
+      {
+       "n": 8,
+       "label": "TAUX À 1,25 %",
+       "color": "gold"
+      },
+      {
+       "n": 1,
+       "label": "HAUSSE À 1,5 %",
+       "color": "red"
+      }
+     ],
+     "desc": "3e désaccord d'affilée de Naoki Takata · investingLive · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : les 17 et 18 décembre. Les économistes y voient une hausse à 1,5 %.",
+   "say": "Prochain rendez-vous : les dix-sept et dix-huit décembre. Les économistes y voient une hausse... à un et demi pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_4899.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BANQUE DU JAPON · 17-18 DÉC.",
+     "value_from": 1.25,
+     "value_to": 1.5,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "SCÉNARIO DU SONDAGE REUTERS",
+     "desc": "investingLive · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais le vrai coup dur est ailleurs : selon le FMI, le Japon glisserait au sixième rang mondial en 2027.",
+   "say": "Mais le vrai coup dur est ailleurs : selon le F.M.I., le Japon glisserait au sixième rang mondial... en deux mille vingt-sept.",
+   "bg": {
+    "clip": "b12_55990.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "4E → 6E",
+      "ÉCONOMIE EN 2027"
+     ],
+     "at_word": 14
+    },
+    {
+     "type": "source",
+     "text": "Projection du FMI, PIB nominal en dollars · Reuters (The Star) · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Doublé par l'Inde, puis par le Royaume-Uni.",
+   "say": "Doublé par l'Inde... puis par le Royaume-Uni.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13_154195.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b_287386.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "INDE",
+      "ROYAUME-UNI"
+     ],
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "FMI via Reuters (The Star) · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et pendant que l'Asie encaisse, Wall Street attend mardi les comptes de Nvidia.",
+   "say": "Et pendant que l'Asie encaisse, Wall Street attend mardi... les comptes de Nvidia.",
+   "bg": {
+    "clip": "b14_42489.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · résultats le 17 nov.",
+     "size": "big",
+     "y": 600,
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "InsiderFinance · nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, le Japon peut-il encore monter ses taux sans casser sa croissance ? Dis-le-moi en commentaire.",
+   "say": "Alors... le Japon peut-il encore monter ses taux sans casser sa croissance ? Dis-le-moi en commentaire.",
+   "bg": {
+    "clip": "b15_202877.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "MONTER LES TAUX",
+      "SANS TOUT CASSER ?"
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Chaque nuit, pendant que tu dors, l'Asie fait bouger les marchés. Moi, je veille : sur mon canal Telegram gratuit, l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "Chaque nuit, pendant que tu dors, l'Asie fait bouger les marchés. Moi, je veille : sur mon canal Telegram gratuit, l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Japon : le PIB recule, la Banque du Japon sous pression",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 36,
+     "bio_at_word": 43,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
