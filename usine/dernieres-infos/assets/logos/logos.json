@@ -397,5 +397,12 @@
   "img": "LMT.png",
   "tile": "#00205B",
   "fit": "80%"
+ },
+ "DB": {
+  "name": "Deutsche Bank",
+  "ticker": "DBK",
+  "img": "DB.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
