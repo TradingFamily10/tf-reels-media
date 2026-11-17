@@ -366,5 +366,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/f7e72946b90b5576013470c2c3cfa65818a20047/2026-11-16_ep27_vulcan_amazon.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=5595706836981729546",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "06:55",
+  "id": "ep28_puces_micron",
+  "topic": "Wall Street lun. 16/11 : Nasdaq −2,49 % (24 509,76), S&P 500 −1,92 % (7 416,59), Dow −739 pts (−1,41 %, 51 608,17) (AFP via Quartz, Eurasia Business News) ; puces : Micron −7,62 %, AMD −5,58 %, Broadcom −3,92 %, Nvidia −4,12 % à 156,14 $ (AFP via Quartz) ; nouvelle autorisation exigée pour exporter des puces US, accès distant de la Chine via data centers étrangers, Malaisie/Thaïlande/Indonésie/Singapour/Brésil (Quartz, Eurasia) ; VIX ≈ +19 % (CNN via Eurasia) ; Huang démissionnaire 12/11, Colette Kress PDG par intérim, résultats T3 FY27 mar. 17/11 vers 22h20 Paris (communiqués Nvidia) ; IPO Anthropic jeu. 19/11 (Quartz, TipRanks) ; logos MU, NVDA, AMD, AVGO",
+  "hook_type": "logowall",
+  "hook_formula": "coupable inattendu",
+  "cta_angle": "Quand Wall Street tremble, tout se joue sur l'info",
+  "title": "Puces : Micron chute plus que Nvidia",
+  "caption": "Lundi, ce n'est pas Nvidia qui a le plus chuté à Wall Street… c'est Micron. 📉\nLe Nasdaq a perdu 2,49 % après une nouvelle autorisation exigée par Washington pour exporter des puces américaines, à la veille des résultats de Nvidia, publiés ce mardi soir avec une dirigeante par intérim.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#nvidia #micron #semiconducteurs #nasdaq #wallstreet #bourse #actualite #finance",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/fae3c0c854339f082100fdfcda8229fcc43a5b8b/2026-11-17_ep28_puces_micron.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=7499526966097758950",
+  "tiktok": "metricool"
  }
 ]

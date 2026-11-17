@@ -1,0 +1,433 @@
+{
+ "id": "ep28_puces_micron",
+ "date_label": "17 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "logowall",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "Quand Wall Street tremble, tout se joue sur l'info",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://fr.qz.com/wall-street-cloture-baisse-nasdaq-nvidia-anthropic-111626",
+  "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/",
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+  "https://www.tipranks.com/news/stock-market-today-nov-16-u-s-stocks-mixed-ahead-of-nvidia-results-and-anthropic-ipo"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas Nvidia qui a le plus chuté lundi à Wall Street. C'est Micron : −7,6 %.",
+   "say": "Ce n'est pas Nvidia qui a le plus chuté lundi à Wall Street... C'est Micron : presque moins huit pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b0_27593.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 16 novembre 2026 · Wall Street",
+     "until_beat": 1
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "MICRON · SÉANCE DU 16 NOV.",
+     "value_from": 0,
+     "value_to": -7.62,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE QUE NVIDIA",
+     "keys": [
+      "MU",
+      "NVDA",
+      "AMD",
+      "AVGO"
+     ],
+     "desc": "AFP via Quartz · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : le Nasdaq a perdu 2,5 % en une seule séance.",
+   "say": "Et ce n'est pas le pire : le Nasdaq a perdu deux pour cent et demi... en une seule séance.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1_148596.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NASDAQ · CLÔTURE 16 NOV.",
+     "value_from": 0,
+     "value_to": -2.49,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "24 509 POINTS",
+     "desc": "AFP via Quartz · 16 nov. 2026 · Eurasia Business News · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le S&P 500 recule de près de 2 %. Le Dow Jones lâche plus de 700 points.",
+   "say": "Le S. and P. cinq cents recule de près de deux pour cent. Le Dow Jones lâche plus de sept cents points.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2_42489.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "S&P 500",
+      "value_to": -1.92,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "7 416 points · Eurasia Business News · 16 nov. 2026"
+     },
+     "b_at_word": 9,
+     "b": {
+      "kicker": "DOW JONES",
+      "value_to": -739,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " pts",
+      "color": "red",
+      "desc": "51 608 points · Eurasia Business News · 16 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Dans les puces, c'est la déroute : AMD −5,6 %, Broadcom −3,9 %, Nvidia −4,1 %.",
+   "say": "Dans les puces, c'est la déroute : A.M.D. presque moins six pour cent, Broadcom moins quatre, Nvidia aussi.",
+   "bg": {
+    "clip": "b3_47217.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PUCES · LUNDI 16 NOV.",
+     "rows": [
+      {
+       "name": "AMD",
+       "pct": "−5,58 %",
+       "at_word": 6,
+       "key": "AMD",
+       "up": false
+      },
+      {
+       "name": "Broadcom",
+       "pct": "−3,92 %",
+       "at_word": 8,
+       "key": "AVGO",
+       "up": false
+      },
+      {
+       "name": "Nvidia",
+       "pct": "−4,12 %",
+       "at_word": 10,
+       "key": "NVDA",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AFP via Quartz · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Nvidia termine à 156 dollars, cinq jours après le départ de Jensen Huang.",
+   "say": "Nvidia termine à cent cinquante-six dollars, cinq jours après le départ de Jensen Huang.",
+   "bg": {
+    "clip": "b4_14900.mp4",
+    "ss": 1,
+    "cx": 0.4
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · 156,14 $ · −4,12 %",
+     "y": 560,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Eurasia Business News · 16 nov. 2026 · Communiqué Nvidia · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce soir, le géant publie ses résultats… avec une dirigeante par intérim, Colette Kress.",
+   "say": "Et ce soir, le géant publie ses résultats... avec une dirigeante par intérim, Colette Kress.",
+   "bg": {
+    "clip": "b5_24136.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "NVIDIA · NASDAQ",
+     "right": "17 NOV.",
+     "tag": "RÉSULTATS",
+     "headline": "Résultats du 3e trimestre ce mardi, Colette Kress PDG par intérim",
+     "highlight": "ce mardi",
+     "sub": "Communiqué Nvidia · 12 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a vraiment déclenché cette chute ?",
+   "say": "Alors... qui a vraiment déclenché cette chute ?",
+   "bg": {
+    "clip": "b6_61706.mp4",
+    "ss": 1,
+    "cx": 0.66
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A DÉCLENCHÉ",
+      "LA CHUTE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Les résultats de ce soir, je les décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7_202987.mp4",
+    "ss": 1,
+    "cx": 0.62
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c.jpg",
+     "bio_at_word": 15
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Le coupable vient de Washington : une nouvelle autorisation obligatoire pour exporter des puces américaines.",
+   "bg": {
+    "clip": "b8_239278.mp4",
+    "ss": 1,
+    "cx": 0.3
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "WASHINGTON · COMMERCE",
+     "right": "16 NOV.",
+     "tag": "PUCES",
+     "headline": "Nouvelle autorisation exigée pour exporter des semi-conducteurs américains",
+     "highlight": "autorisation exigée",
+     "sub": "AFP via Quartz · 16 nov. 2026 · Eurasia Business News · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le but : couper l'accès de la Chine aux puces américaines, même via des data centers à l'étranger.",
+   "say": "Le but : couper l'accès de la Chine aux puces américaines... même via des data centers à l'étranger.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9_220942.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b_14906.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 13
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA CHINE",
+      "DANS LE VISEUR"
+     ],
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "Eurasia Business News · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Malaisie, Thaïlande, Indonésie, Singapour, Brésil : cinq pays sous licence.",
+   "say": "Malaisie, Thaïlande, Indonésie, Singapour, Brésil : cinq pays... sous licence.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10_23544.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NOUVELLES RESTRICTIONS",
+     "value_from": 0,
+     "value_to": 5,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " pays",
+     "color": "gold",
+     "pill": "LICENCE OBLIGATOIRE",
+     "desc": "Malaisie · Thaïlande · Indonésie · Singapour · Brésil · Eurasia Business News · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Résultat : l'indice de la peur, le VIX, bondit d'environ 19 %.",
+   "say": "Résultat : l'indice de la peur, le V.I.X., bondit d'environ dix-neuf pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11_201766.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "VIX · INDICE DE LA PEUR",
+     "value_from": 0,
+     "value_to": 19,
+     "decimals": 0,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "red",
+     "pill": "EN UNE SÉANCE",
+     "desc": "Environ · CNN via Eurasia Business News · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Premier rendez-vous : ce soir, vers 22 h 20, heure de Paris. Puis jeudi, l'entrée en Bourse d'Anthropic.",
+   "say": "Premier rendez-vous : ce soir, vers vingt-deux heures vingt, heure de Paris. Puis jeudi... l'entrée en Bourse d'Anthropic.",
+   "bg": {
+    "clip": "b13_61621.mp4",
+    "ss": 1,
+    "cx": 0.68
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LES DATES À SURVEILLER",
+     "rows": [
+      {
+       "name": "Nvidia · résultats",
+       "pct": "MAR. 22H20",
+       "at_word": 3,
+       "key": "NVDA",
+       "up": true
+      },
+      {
+       "name": "Anthropic · entrée en Bourse",
+       "pct": "JEU. 19/11",
+       "at_word": 12,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Communiqué Nvidia · 12 nov. 2026 · AFP via Quartz · 16 nov. 2026 · TipRanks · 16 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, simple trou d'air… ou début d'une vraie correction des puces ? Dis-le en commentaire.",
+   "say": "Alors... simple trou d'air... ou début d'une vraie correction des puces ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b14_88223.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "TROU D'AIR",
+      "OU CORRECTION ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Quand Wall Street tremble, tout se joue sur l'info. Sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de 22 000 personnes nous ont déjà rejoints. Lien en bio.",
+   "say": "Quand Wall Street tremble... tout se joue sur l'info. Sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Plus de vingt-deux mille personnes nous ont déjà rejoints. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nasdaq −2,5 % : les puces décrochent avant Nvidia",
+     "imgs": [
+      "tg_38e4f34b.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 31,
+     "bio_at_word": 39,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
