@@ -404,5 +404,26 @@
   "img": "DB.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "SPCX": {
+  "name": "SpaceX",
+  "ticker": "SPCX",
+  "img": "SPCX.png",
+  "tile": "#0B0F19",
+  "fit": "80%"
+ },
+ "NOK": {
+  "name": "Nokia",
+  "ticker": "NOK",
+  "img": "NOK.png",
+  "tile": "#124191",
+  "fit": "84%"
+ },
+ "SNPS": {
+  "name": "Synopsys",
+  "ticker": "SNPS",
+  "img": "SNPS.png",
+  "tile": "#FFFFFF",
+  "fit": "70%"
  }
 }

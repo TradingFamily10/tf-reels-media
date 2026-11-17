@@ -394,5 +394,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/07ddc0534d8f814abf32f1753a8980cb12aad890/2026-11-17_ep29_deutsche_fuite.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-7325188248909625102",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "14:55",
+  "id": "ep30_spacex_nvidia",
+  "topic": "Nvidia 13F (T3 2026, publié lun. 16/11) : SpaceX devient sa 1re ligne, ≈ 19,7 Md$ (130,5 M d'actions, +7,7 M), devant Intel 19,4 Md$ (−25 %, 214,8 M → 161,1 M actions ; ≈ 30 Md$ fin juin) ; Nokia −56 %, Synopsys −10 % (CoinCentral 17/11, StockTwits 16/11) ; SpaceX : bail ≈ 40 Md$ de puces Nvidia Vera Rubin via une entité Apollo, + de 74 Md$ de sites d'I.A. Texas/Arizona (StockTwits) ; Appaloosa (Tepper) 225 000 → 3,88 M actions (≈ 556 M$) ; Citadel −95 % (5,13 M → 283 822) ; SPCX 137,36 $ lundi, +1,7 % vs IPO de juin (StockTwits) ; résultats Nvidia mar. 17/11 après la clôture (TipRanks) ; logos NVDA, SPCX, INTC, NOK, SNPS",
+  "hook_type": "bignum",
+  "hook_formula": "personne n'en parle",
+  "cta_angle": "Les grands fonds dévoilent leurs paris avec des semaines de retard",
+  "title": "Nvidia mise près de 20 Md$ sur SpaceX",
+  "caption": "Tout le monde attend les résultats de Nvidia ce soir… mais sa déclaration 13F raconte autre chose. 🚀\nAu 30 septembre, SpaceX est devenue sa plus grosse ligne en Bourse (≈ 19,7 Md$), devant Intel, dont Nvidia a vendu un quart des actions ; David Tepper renforce, Citadel allège.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#nvidia #spacex #intel #13F #wallstreet #bourse #actualite #finance",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/c3bc11cb87caededf3830c657e1bc3422ee00a53/2026-11-17_ep30_spacex_nvidia.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=1402809296042085260",
+  "tiktok": "metricool"
  }
 ]
