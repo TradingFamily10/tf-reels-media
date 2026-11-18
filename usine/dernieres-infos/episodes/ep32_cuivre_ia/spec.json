@@ -1,0 +1,522 @@
+{
+ "id": "ep32_cuivre_ia",
+ "date_label": "18 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "22 000 personnes ont déjà la longueur d'avance. Il manque toi.",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.business-standard.com/markets/commodities/copper-falls-to-near-five-month-low-as-firm-dollar-ai-concerns-weigh-126111800283_1.html",
+  "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-slip-as-miners-sink-on-metals-rout-cpi-at-36-5035095",
+  "https://www.investing.com/news/stock-market-news/european-shares-muted-as-tech-offsets-mining-weakness-5035128",
+  "https://www.ii.co.uk/analysis-commentary/another-tech-slump-ai-confusion-and-big-ftse-100-losses-ii540918",
+  "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table",
+  "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---18th-november-2026"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas la Chine qui fait plonger le cuivre. C'est l'intelligence artificielle.",
+   "say": "Ce n'est pas la Chine qui fait plonger le cuivre... C'est l'intelligence artificielle.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mercredi 18 novembre 2026 · métaux sous pression",
+     "until_beat": 0
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "MÉTAUX · LONDRES",
+     "right": "18 NOV.",
+     "tag": "ALERTE",
+     "headline": "Le cuivre recule pour la 5e séance d'affilée, au plus bas depuis fin juin",
+     "highlight": "5e séance d'affilée",
+     "sub": "Reuters via Business Standard · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le cuivre vient d'enchaîner 5 séances de baisse. Au plus bas depuis fin juin.",
+   "say": "Le cuivre vient d'enchaîner cinq séances de baisse... Au plus bas depuis fin juin.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CUIVRE LME · $ LA TONNE",
+     "value_from": 14000,
+     "value_to": 13078.5,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "red",
+     "pill": "PLUS BAS DEPUIS FIN JUIN",
+     "desc": "13 078,50 $ à 03h06 GMT · Reuters via Business Standard · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : à New York, il a lâché près de 4 % en une matinée.",
+   "say": "Et ce n'est pas le pire : à New York, il a lâché près de quatre pour cent en une matinée.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CUIVRE COMEX · EN %",
+     "value_from": 0,
+     "value_to": -3.8,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "5,76 $ LA LIVRE",
+     "desc": "Contrat à terme · Investing.com · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "L'or plonge aussi : moins 2,4 % ce matin, à 3 778 dollars l'once.",
+   "say": "L'or plonge aussi : plus de deux pour cent de baisse ce matin.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "OR · RECORD DE JANVIER",
+      "value_to": 5400,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " $",
+      "color": "white",
+      "desc": "interactive investor · 17 nov. 2026"
+     },
+     "b_at_word": 3,
+     "b": {
+      "kicker": "OR · CE MATIN",
+      "value_to": 3778,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "−2,4 % au comptant · Investing.com · 18 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Résultat : près de 30 % sous son record de janvier. L'argent aussi décroche.",
+   "say": "Résultat : près de trente pour cent sous son record de janvier... L'argent aussi décroche.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "L'OR ET L'ARGENT",
+     "rows": [
+      {
+       "name": "Or · vs record",
+       "pct": "−30 %",
+       "at_word": 2,
+       "up": false
+      },
+      {
+       "name": "Or · ce matin",
+       "pct": "−2,4 %",
+       "at_word": 6,
+       "up": false
+      },
+      {
+       "name": "Argent",
+       "pct": "−3,8 %",
+       "at_word": 9,
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · 18 nov. 2026 · interactive investor · 17 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En Europe, les minières chutent de 3 %, au plus bas depuis près de 9 mois.",
+   "say": "En Europe, les minières chutent de trois pour cent... au plus bas depuis près de neuf mois.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b5.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b5b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "STOXX 600 · MINES",
+     "right": "18 NOV.",
+     "tag": "SECTEUR",
+     "headline": "Le secteur minier européen recule de 3 %, au plus bas depuis près de 9 mois",
+     "highlight": "3 %",
+     "sub": "Reuters via Investing.com · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Rio Tinto a encore perdu 112 pence hier à Londres.",
+   "say": "Rio Tinto a encore perdu cent douze pence hier à Londres.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "RIO",
+     "name": "Rio Tinto",
+     "sub": "Londres · 6 038 pence · 17 nov.",
+     "pct": "−1,8 %",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "interactive investor · 17 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a tiré le premier ?",
+   "say": "Alors... qui a tiré le premier ?",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A TIRÉ",
+      "LE PREMIER ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette chute des métaux, je la suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Cette chute des métaux, je la suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Le coupable, c'est le doute sur l'I.A. Moins de data centers, c'est moins de réseaux électriques. Donc moins de cuivre.",
+   "say": "Le coupable, c'est le doute sur l'I.A.... Moins de data centers, c'est moins de réseaux électriques. Donc moins de cuivre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "TD SECURITIES · ANALYSE",
+     "right": "18 NOV.",
+     "tag": "CITATION",
+     "headline": "L'incertitude sur les investissements dans les data centers d'IA affaiblit un pilier de la demande de cuivre",
+     "highlight": "data centers d'IA",
+     "sub": "Reuters via Business Standard · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le baromètre de l'I.A., Nvidia, a perdu 35 % depuis son record d'octobre.",
+   "say": "Le baromètre de l'I.A., Nvidia, a perdu trente-cinq pour cent depuis son record d'octobre.",
+   "bg": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Nasdaq · depuis le record d'octobre",
+     "pct": "≈ −35 %",
+     "up": false,
+     "size": "big",
+     "y": 600,
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "interactive investor · 17 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Deuxième coupable : le dollar, tout près de son plus haut depuis 19 mois.",
+   "say": "Deuxième coupable : le dollar, tout près de son plus haut depuis dix-neuf mois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "DOLLAR · PLUS HAUT DEPUIS",
+     "value_from": 0,
+     "value_to": 19,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " MOIS",
+     "color": "gold",
+     "pill": "UN DOLLAR FORT PÈSE SUR LES MÉTAUX",
+     "desc": "Reuters via Business Standard · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Car la Fed parle de remonter ses taux. Christopher Waller a même évoqué un demi-point en décembre.",
+   "say": "Car la Fed parle de remonter ses taux... Christopher Waller a même évoqué un demi-point en décembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b12b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 8,
+     "left": "FED · CHRISTOPHER WALLER",
+     "right": "10 NOV.",
+     "tag": "CITATION",
+     "headline": "« Monter de 25 points de base seulement mettrait notre crédibilité en danger »",
+     "highlight": "crédibilité",
+     "sub": "Une hausse de 50 points « devrait être envisagée » · Kitco · 10 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Même à Londres, l'inflation remonte à 3,6 %. Et une hausse de taux est attendue en décembre.",
+   "say": "Même à Londres, l'inflation remonte à plus de trois et demi pour cent... Et une hausse de taux est attendue en décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INFLATION R.-U. · OCTOBRE",
+     "value_from": 0,
+     "value_to": 3.6,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "≈ 90 % DE CHANCES D'UNE HAUSSE EN DÉCEMBRE",
+     "desc": "3,5 % en septembre · Investing.com · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller ce soir : les minutes de la Fed. Un mot de trop, et les métaux peuvent encore bouger.",
+   "say": "À surveiller ce soir : les minutes de la Fed... Un mot de trop, et les métaux peuvent encore bouger.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER",
+     "rows": [
+      {
+       "name": "Minutes Fed",
+       "pct": "CE SOIR",
+       "at_word": 5,
+       "up": true
+      },
+      {
+       "name": "Rio Tinto",
+       "pct": "−1,8 %",
+       "at_word": 15,
+       "key": "RIO",
+       "up": false
+      },
+      {
+       "name": "Nvidia",
+       "pct": "15H30",
+       "at_word": 18,
+       "key": "NVDA",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Agenda Newsquawk · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, le cuivre est-il le premier à sentir la fin de la fête de l'I.A. ? Dis-le en commentaire.",
+   "say": "Alors... le cuivre est-il le premier à sentir la fin de la fête de l'I.A. ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA FIN DE LA FÊTE",
+      "DE L'I.A. ?"
+     ],
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Plus de 22 000 personnes ont déjà une longueur d'avance sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Il ne manque plus que toi. Lien en bio.",
+   "say": "Plus de vingt-deux mille personnes ont déjà une longueur d'avance sur mon canal Telegram gratuit : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées et les opportunités en temps réel. Il ne manque plus que toi. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Cuivre, or, I.A. : ce qui se joue vraiment",
+     "imgs": [
+      "tg_3435c02c.jpg",
+      "tg_4b2fa9a8.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 2,
+     "bio_at_word": 37,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

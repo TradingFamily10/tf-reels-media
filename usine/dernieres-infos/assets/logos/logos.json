@@ -425,5 +425,12 @@
   "img": "SNPS.png",
   "tile": "#FFFFFF",
   "fit": "70%"
+ },
+ "RIO": {
+  "name": "Rio Tinto",
+  "ticker": "RIO",
+  "img": "RIO.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
  }
 }
