@@ -52,14 +52,18 @@ def align(display, heard):
     D = [norm(t) for t in display]; H = [norm(h[0]) for h in heard]
     times = [None] * len(display)
     sm = difflib.SequenceMatcher(a=D, b=H, autojunk=False)
+    hidx = [None] * len(display)
     for a, b, n in sm.get_matching_blocks():
         for k in range(n):
-            times[a + k] = (heard[b + k][1], heard[b + k][2])
+            times[a + k] = (heard[b + k][1], heard[b + k][2]); hidx[a + k] = b + k
     # fuzzy pass for near matches (Mazdaq ~ Nasdaq)
     for i, t in enumerate(times):
         if t is None and D[i]:
             best, bj = 0, None
+            jlo = max([hidx[k] for k in range(i) if hidx[k] is not None] or [-1]) + 1
+            jhi = min([hidx[k] for k in range(i + 1, len(D)) if hidx[k] is not None] or [len(H)])
             for j, h in enumerate(H):
+                if j < jlo or j >= jhi: continue
                 r = difflib.SequenceMatcher(a=D[i], b=h).ratio()
                 if r > best: best, bj = r, j
             if best >= .6:
