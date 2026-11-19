@@ -1,0 +1,535 @@
+{
+ "id": "ep35_anthropic_ipo",
+ "date_label": "19 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "compte à rebours",
+ "cta_angle": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+  "https://www.boursorama.com/bourse/actualites/l-europe-tente-de-rebondir-avec-la-cotation-d-anthropic-acbd003719d0a72ace7d4f52dbccd501",
+  "https://www.boursorama.com/bourse/actualites/hausse-prudente-en-vue-en-europe-avant-l-ipo-d-anthropic-actualise-a337ca97967f579cd00357e9d532cbac",
+  "https://www.boursorama.com/bourse/actualites/les-valeurs-a-suivre-a-paris-et-en-europe-actualise-9088e4723d449758f908eee3a8f7e125",
+  "https://boursenews.ma/article/marches/marches-europeens-rebond-stoxx-50-600-19-novembre"
+ ],
+ "beats": [
+  {
+   "text": "Dans quelques heures, la plus grosse entrée en Bourse de l'histoire démarre à Wall Street.",
+   "say": "Dans quelques heures... la plus grosse entrée en Bourse de l'histoire démarre à Wall Street.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 4
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 19 novembre 2026 · Nasdaq",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "81 MILLIARDS",
+      "LA PLUS GROSSE",
+      "IPO DE L'HISTOIRE"
+     ]
+    },
+    {
+     "type": "stock",
+     "key": "ANT",
+     "name": "Anthropic",
+     "sub": "ANT · Nasdaq · 1re cotation ce jeudi",
+     "y": 560,
+     "at_word": 13
+    }
+   ]
+  },
+  {
+   "text": "81 milliards de dollars levés par Anthropic, le créateur de l'I.A. Claude.",
+   "say": "Quatre-vingt-un milliards de dollars levés par Anthropic, le créateur de l'I.A. Claude.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ANTHROPIC · IPO",
+     "value_from": 0,
+     "value_to": 81,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "980 MILLIONS D'ACTIONS",
+     "desc": "AP (PBS NewsHour) · 18 nov. 2026 · Reuters (Boursorama) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas tout : le prix final, 83 dollars, dépasse la fourchette prévue.",
+   "say": "Et ce n'est pas tout : le prix final, quatre-vingt-trois dollars... dépasse la fourchette prévue.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.72
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "FOURCHETTE PRÉVUE · HAUT",
+      "value_to": 78,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "gold",
+      "desc": "Fourchette initiale : 70 – 78 $"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "PRIX FINAL PAR ACTION",
+      "value_to": 83,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "green",
+      "desc": "AP · Reuters · 18-19 nov."
+     }
+    }
+   ]
+  },
+  {
+   "text": "Résultat : une valorisation de 1 500 milliards de dollars.",
+   "say": "Résultat : une valorisation de mille cinq cents milliards de dollars.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "hook_bignum",
+     "value_to": 1500,
+     "prefix": "",
+     "suffix": " Md$",
+     "unit": "DE VALORISATION",
+     "label": "Au prix de 83 $ par action · AP",
+     "logos": [
+      "ANT"
+     ],
+     "reveal_at_word": 2,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Le record de SpaceX, environ 75 milliards levés en juin, est déjà battu.",
+   "say": "Le record de SpaceX, environ soixante-quinze milliards levés en juin... est déjà battu.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 4,
+      "cx": 0.22,
+      "at_word": 12
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PLUS GROSSES IPO · MONTANT LEVÉ",
+     "rows": [
+      {
+       "name": "SpaceX · juin 2026",
+       "pct": "≈ 75 Md$",
+       "at_word": 3,
+       "key": "SPCX",
+       "up": true
+      },
+      {
+       "name": "Anthropic · nov. 2026",
+       "pct": "81 Md$",
+       "at_word": 12,
+       "key": "ANT",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AP (PBS NewsHour) · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi un tel appétit pour ces actions ?",
+   "say": "Alors... pourquoi un tel appétit pour ces actions ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI UN TEL",
+      "APPÉTIT ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette cotation, je la suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Cette cotation, je la suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Parce que l'I.A. reste le grand pari de Wall Street, malgré le départ du patron de Nvidia.",
+   "say": "Parce que l'I.A. reste le grand pari de Wall Street... malgré le départ du patron de Nvidia.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b7.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b7b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "WALL STREET · I.A.",
+     "right": "18 NOV.",
+     "tag": "CITATION",
+     "headline": "« Le prix montre une forte demande des investisseurs » — Dan Ives, Yorkville Ives & Co.",
+     "highlight": "forte demande",
+     "sub": "AP (PBS NewsHour) · 18 nov. 2026",
+     "until_word": 10
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Incertitude sur la direction",
+     "y": 1380,
+     "at_word": 16
+    }
+   ]
+  },
+  {
+   "text": "Mais dans son dossier, Anthropic a déjà 6,2 milliards de dollars de dettes.",
+   "say": "Mais dans son dossier, Anthropic a déjà plus de six milliards de dollars de dettes.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "DETTE DÉJÀ CONTRACTÉE",
+     "value_from": 0,
+     "value_to": 6.2,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "red",
+     "pill": "« SUBSTANTIELLE » SELON LE DOSSIER",
+     "desc": "AP (PBS NewsHour) · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et elle s'engage à dépenser 900 milliards en puissance de calcul dans les prochaines années.",
+   "say": "Et elle s'engage à dépenser neuf cents milliards en puissance de calcul dans les prochaines années.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ENGAGEMENTS CALCUL & INFRASTRUCTURES",
+     "value_from": 0,
+     "value_to": 900,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "DANS LES PROCHAINES ANNÉES",
+     "desc": "AP (PBS NewsHour) · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Dont 70 milliards rien que sur les douze prochains mois.",
+   "say": "Dont soixante-dix milliards... rien que sur les douze prochains mois.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.6
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "ANTHROPIC · DOSSIER D'IPO",
+     "right": "18 NOV.",
+     "tag": "CHIFFRE CLÉ",
+     "headline": "70 milliards de dollars d'engagements sur les 12 prochains mois",
+     "highlight": "70 milliards de dollars",
+     "sub": "AP (PBS NewsHour) · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pendant ce temps, l'Europe respire : le Stoxx 600 rebondit après quatre séances dans le rouge.",
+   "say": "Pendant ce temps, l'Europe respire : le Stoxx six cents rebondit après quatre séances dans le rouge.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "STOXX 600 · JEU. 19 NOV. MATIN",
+     "value_from": 0,
+     "value_to": 0.3,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "APRÈS 4 SÉANCES DE BAISSE",
+     "desc": "Boursenews · 19 nov. 2026 · Reuters (Boursorama) · 19 nov. 2026, 09:47"
+    }
+   ]
+  },
+  {
+   "text": "La tech européenne mène la danse : ASML et Infineon gagnent environ 3 %. Soitec bondit de près de 16 %.",
+   "say": "La tech européenne mène la danse : A.S.M.L. et Infineon gagnent environ trois pour cent. Soitec bondit de près de seize pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b12b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 12
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "TECH EUROPÉENNE · JEU. MATIN",
+     "rows": [
+      {
+       "name": "ASML",
+       "pct": "≈ +3 %",
+       "at_word": 6,
+       "key": "ASML",
+       "up": true
+      },
+      {
+       "name": "Infineon",
+       "pct": "≈ +3 %",
+       "at_word": 8,
+       "key": "IFX",
+       "up": true
+      },
+      {
+       "name": "Soitec",
+       "pct": "+15,9 %",
+       "at_word": 12,
+       "key": "SOI",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Reuters (Boursorama) · 19 nov. 2026, 09:47 · Soitec : objectif de croissance ≈ 40 %"
+    }
+   ]
+  },
+  {
+   "text": "Le vrai test, c'est cet après-midi : la première cotation sur le Nasdaq, sous le code ANT.",
+   "say": "Le vrai test, c'est cet après-midi : la première cotation sur le Nasdaq... sous le code A.N.T.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER CET APRÈS-MIDI",
+     "rows": [
+      {
+       "name": "Anthropic · 1re cotation",
+       "pct": "NASDAQ",
+       "at_word": 7,
+       "key": "ANT",
+       "up": true
+      },
+      {
+       "name": "Prix d'introduction",
+       "pct": "83 $",
+       "at_word": 11,
+       "up": true
+      },
+      {
+       "name": "Nvidia · réaction",
+       "pct": "À SUIVRE",
+       "at_word": 14,
+       "key": "NVDA",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AP (PBS NewsHour) · 18 nov. 2026 · Reuters (Boursorama) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, bulle de l'I.A.… ou début d'une nouvelle ère pour la Bourse ? Dis-le en commentaire.",
+   "say": "Alors... bulle de l'I.A.... ou début d'une nouvelle ère pour la Bourse ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "BULLE DE L'I.A.",
+      "OU NOUVELLE ÈRE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde. Mon canal Telegram gratuit, plus de 22 000 personnes : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Lien en bio.",
+   "say": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde. Mon canal Telegram gratuit, plus de vingt-deux mille personnes : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "IPO Anthropic : ce qu'il faut regarder",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 21,
+     "bio_at_word": 39,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

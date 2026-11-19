@@ -474,5 +474,12 @@
   "img": "CI.png",
   "tile": "#FFFFFF",
   "fit": "84%"
+ },
+ "ANT": {
+  "name": "Anthropic",
+  "ticker": "ANT",
+  "img": "ANT.png",
+  "tile": "#F0EEE6",
+  "fit": "62%"
  }
 }

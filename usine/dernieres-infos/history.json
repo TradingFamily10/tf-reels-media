@@ -469,5 +469,19 @@
    "youtube"
   ],
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "13:05",
+  "id": "ep35_anthropic_ipo",
+  "topic": "IPO Anthropic, 1re cotation jeu. 19/11 sur le Nasdaq (ANT) : prix 83 $ (fourchette 70-78 $), 980 M d'actions, ≈ 81 Md$ levés, valorisation ≈ 1 500 Md$, record de SpaceX (≈ 75 Md$ en juin) battu ; dette 6,2 Md$, engagements calcul ≈ 900 Md$ dont 70 Md$ sur 12 mois ; Dan Ives : forte demande ; OpenAI pas avant l'an prochain (AP/PBS 18/11) ; Europe : Stoxx 600 +0,30 % après 4 séances de baisse (Boursenews 19/11), tech +1,43 %, ASML / Infineon ≈ +3 %, Soitec +15,9 % (Reuters/Boursorama 19/11 09:47) ; logos ANT (ajouté, lettre A du logotype Wikimedia), SPCX, NVDA, ASML, IFX, SOI",
+  "hook_type": "breaking",
+  "hook_formula": "compte à rebours",
+  "cta_angle": "Ce que je viens de te montrer, mes abonnés l'ont lu avant tout le monde",
+  "title": "Anthropic : la plus grosse IPO de l'histoire",
+  "caption": "Cet après-midi, Wall Street accueille la plus grosse entrée en Bourse jamais vue.\nAnthropic a levé 81 milliards de dollars à 83 $ par action, au-dessus de la fourchette prévue, pour une valorisation d'environ 1 500 milliards : le record de SpaceX (≈ 75 Md$ en juin) est battu.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #ipo #anthropic #intelligenceartificielle #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/6a0789753c2bd9fbea3f3dde37ba3bbbeae663c6/2026-11-19_ep35_anthropic_ipo.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=7398772544060081705",
+  "tiktok": "metricool"
  }
 ]
