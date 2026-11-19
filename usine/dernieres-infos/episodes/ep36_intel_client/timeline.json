@@ -1,0 +1,3716 @@
+{
+ "fps": 30,
+ "duration": 85.293,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.869,
+   "w0": 0,
+   "w1": 18,
+   "voice": "episodes/ep36_intel_client/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.929,
+   "end": 7.272,
+   "w0": 19,
+   "w1": 25,
+   "voice": "episodes/ep36_intel_client/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 7.332,
+   "end": 12.114,
+   "w0": 26,
+   "w1": 40,
+   "voice": "episodes/ep36_intel_client/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 12.174,
+   "end": 16.238,
+   "w0": 41,
+   "w1": 51,
+   "voice": "episodes/ep36_intel_client/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 16.298,
+   "end": 21.058,
+   "w0": 52,
+   "w1": 67,
+   "voice": "episodes/ep36_intel_client/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 21.118,
+   "end": 24.869,
+   "w0": 68,
+   "w1": 78,
+   "voice": "episodes/ep36_intel_client/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 24.929,
+   "end": 28.482,
+   "w0": 79,
+   "w1": 88,
+   "voice": "episodes/ep36_intel_client/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 28.542,
+   "end": 30.314,
+   "w0": 89,
+   "w1": 94,
+   "voice": "episodes/ep36_intel_client/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 30.374,
+   "end": 33.915,
+   "w0": 95,
+   "w1": 108,
+   "voice": "episodes/ep36_intel_client/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 33.975,
+   "end": 40.159,
+   "w0": 109,
+   "w1": 126,
+   "voice": "episodes/ep36_intel_client/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 40.219,
+   "end": 44.534,
+   "w0": 127,
+   "w1": 139,
+   "voice": "episodes/ep36_intel_client/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 44.594,
+   "end": 49.097,
+   "w0": 140,
+   "w1": 152,
+   "voice": "episodes/ep36_intel_client/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 49.157,
+   "end": 52.828,
+   "w0": 153,
+   "w1": 161,
+   "voice": "episodes/ep36_intel_client/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 52.888,
+   "end": 58.38,
+   "w0": 162,
+   "w1": 180,
+   "voice": "episodes/ep36_intel_client/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 58.44,
+   "end": 61.783,
+   "w0": 181,
+   "w1": 189,
+   "voice": "episodes/ep36_intel_client/voice/beat_14.wav"
+  },
+  {
+   "i": 15,
+   "start": 61.843,
+   "end": 66.603,
+   "w0": 190,
+   "w1": 202,
+   "voice": "episodes/ep36_intel_client/voice/beat_15.wav"
+  },
+  {
+   "i": 16,
+   "start": 66.663,
+   "end": 70.387,
+   "w0": 203,
+   "w1": 211,
+   "voice": "episodes/ep36_intel_client/voice/beat_16.wav"
+  },
+  {
+   "i": 17,
+   "start": 70.447,
+   "end": 83.383,
+   "w0": 212,
+   "w1": 250,
+   "voice": "episodes/ep36_intel_client/voice/beat_17.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "Intel",
+   "start": 0.0,
+   "end": 0.3,
+   "beat": 0
+  },
+  {
+   "w": "a",
+   "start": 0.3,
+   "end": 0.44,
+   "beat": 0
+  },
+  {
+   "w": "perdu",
+   "start": 0.44,
+   "end": 0.64,
+   "beat": 0
+  },
+  {
+   "w": "plus",
+   "start": 0.64,
+   "end": 0.88,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 0.88,
+   "end": 1.0,
+   "beat": 0
+  },
+  {
+   "w": "la",
+   "start": 1.0,
+   "end": 1.1,
+   "beat": 0
+  },
+  {
+   "w": "moitié",
+   "start": 1.1,
+   "end": 1.54,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 1.54,
+   "end": 1.66,
+   "beat": 0
+  },
+  {
+   "w": "sa",
+   "start": 1.66,
+   "end": 1.8,
+   "beat": 0
+  },
+  {
+   "w": "valeur",
+   "start": 1.8,
+   "end": 2.06,
+   "beat": 0
+  },
+  {
+   "w": "en",
+   "start": 2.06,
+   "end": 2.32,
+   "beat": 0
+  },
+  {
+   "w": "deux",
+   "start": 2.32,
+   "end": 2.52,
+   "beat": 0
+  },
+  {
+   "w": "mois.",
+   "start": 2.52,
+   "end": 2.76,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 2.76,
+   "end": 3.0,
+   "beat": 0
+  },
+  {
+   "w": "pourtant,",
+   "start": 3.0,
+   "end": 3.34,
+   "beat": 0
+  },
+  {
+   "w": "ce",
+   "start": 3.34,
+   "end": 3.68,
+   "beat": 0
+  },
+  {
+   "w": "matin,",
+   "start": 3.68,
+   "end": 3.96,
+   "beat": 0
+  },
+  {
+   "w": "elle",
+   "start": 3.96,
+   "end": 4.26,
+   "beat": 0
+  },
+  {
+   "w": "rebondit.",
+   "start": 4.26,
+   "end": 4.78,
+   "beat": 0
+  },
+  {
+   "w": "Près",
+   "start": 4.929,
+   "end": 5.069,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 5.069,
+   "end": 5.189,
+   "beat": 1
+  },
+  {
+   "w": "5 %",
+   "start": 5.189,
+   "end": 5.469,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 5.729,
+   "end": 5.909,
+   "beat": 1
+  },
+  {
+   "w": "hausse",
+   "start": 5.909,
+   "end": 6.369,
+   "beat": 1
+  },
+  {
+   "w": "avant",
+   "start": 6.369,
+   "end": 6.589,
+   "beat": 1
+  },
+  {
+   "w": "l'ouverture.",
+   "start": 6.729,
+   "end": 7.189,
+   "beat": 1
+  },
+  {
+   "w": "La",
+   "start": 7.332,
+   "end": 7.452,
+   "beat": 2
+  },
+  {
+   "w": "raison ?",
+   "start": 7.452,
+   "end": 7.752,
+   "beat": 2
+  },
+  {
+   "w": "Son",
+   "start": 7.752,
+   "end": 8.072,
+   "beat": 2
+  },
+  {
+   "w": "tout",
+   "start": 8.072,
+   "end": 8.312,
+   "beat": 2
+  },
+  {
+   "w": "premier",
+   "start": 8.312,
+   "end": 8.632,
+   "beat": 2
+  },
+  {
+   "w": "client",
+   "start": 8.632,
+   "end": 8.872,
+   "beat": 2
+  },
+  {
+   "w": "extérieur",
+   "start": 8.872,
+   "end": 9.712,
+   "beat": 2
+  },
+  {
+   "w": "pour",
+   "start": 9.712,
+   "end": 9.832,
+   "beat": 2
+  },
+  {
+   "w": "sa",
+   "start": 9.832,
+   "end": 9.972,
+   "beat": 2
+  },
+  {
+   "w": "gravure",
+   "start": 9.972,
+   "end": 10.332,
+   "beat": 2
+  },
+  {
+   "w": "la",
+   "start": 10.332,
+   "end": 10.452,
+   "beat": 2
+  },
+  {
+   "w": "plus",
+   "start": 10.452,
+   "end": 10.592,
+   "beat": 2
+  },
+  {
+   "w": "avancée,",
+   "start": 10.592,
+   "end": 11.152,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 11.332,
+   "end": 11.412,
+   "beat": 2
+  },
+  {
+   "w": "18A.",
+   "start": 11.412,
+   "end": 11.992,
+   "beat": 2
+  },
+  {
+   "w": "Son",
+   "start": 12.174,
+   "end": 12.314,
+   "beat": 3
+  },
+  {
+   "w": "patron,",
+   "start": 12.314,
+   "end": 12.654,
+   "beat": 3
+  },
+  {
+   "w": "Lip-Bu",
+   "start": 12.654,
+   "end": 13.054,
+   "beat": 3
+  },
+  {
+   "w": "Tan,",
+   "start": 13.054,
+   "end": 13.554,
+   "beat": 3
+  },
+  {
+   "w": "l'a",
+   "start": 13.794,
+   "end": 13.854,
+   "beat": 3
+  },
+  {
+   "w": "annoncé",
+   "start": 13.894,
+   "end": 14.234,
+   "beat": 3
+  },
+  {
+   "w": "hier",
+   "start": 14.234,
+   "end": 14.534,
+   "beat": 3
+  },
+  {
+   "w": "à",
+   "start": 14.534,
+   "end": 14.854,
+   "beat": 3
+  },
+  {
+   "w": "Austin,",
+   "start": 14.854,
+   "end": 15.154,
+   "beat": 3
+  },
+  {
+   "w": "au",
+   "start": 15.154,
+   "end": 15.534,
+   "beat": 3
+  },
+  {
+   "w": "Texas.",
+   "start": 15.534,
+   "end": 15.774,
+   "beat": 3
+  },
+  {
+   "w": "Fin",
+   "start": 16.298,
+   "end": 16.478,
+   "beat": 4
+  },
+  {
+   "w": "octobre,",
+   "start": 16.478,
+   "end": 17.018,
+   "beat": 4
+  },
+  {
+   "w": "Intel",
+   "start": 17.118,
+   "end": 17.338,
+   "beat": 4
+  },
+  {
+   "w": "a",
+   "start": 17.338,
+   "end": 17.558,
+   "beat": 4
+  },
+  {
+   "w": "prévenu :",
+   "start": 17.558,
+   "end": 17.918,
+   "beat": 4
+  },
+  {
+   "w": "ses",
+   "start": 18.018,
+   "end": 18.138,
+   "beat": 4
+  },
+  {
+   "w": "ventes",
+   "start": 18.138,
+   "end": 18.438,
+   "beat": 4
+  },
+  {
+   "w": "du",
+   "start": 18.438,
+   "end": 18.518,
+   "beat": 4
+  },
+  {
+   "w": "trimestre",
+   "start": 18.518,
+   "end": 19.018,
+   "beat": 4
+  },
+  {
+   "w": "manqueront",
+   "start": 19.018,
+   "end": 19.498,
+   "beat": 4
+  },
+  {
+   "w": "d'au",
+   "start": 19.618,
+   "end": 19.678,
+   "beat": 4
+  },
+  {
+   "w": "moins",
+   "start": 19.678,
+   "end": 19.898,
+   "beat": 4
+  },
+  {
+   "w": "1",
+   "start": 19.898,
+   "end": 20.138,
+   "beat": 4
+  },
+  {
+   "w": "milliard",
+   "start": 20.138,
+   "end": 20.478,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 20.478,
+   "end": 20.578,
+   "beat": 4
+  },
+  {
+   "w": "dollars.",
+   "start": 20.578,
+   "end": 20.778,
+   "beat": 4
+  },
+  {
+   "w": "Et",
+   "start": 21.118,
+   "end": 21.218,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 21.218,
+   "end": 21.298,
+   "beat": 5
+  },
+  {
+   "w": "marché",
+   "start": 21.298,
+   "end": 21.578,
+   "beat": 5
+  },
+  {
+   "w": "des",
+   "start": 21.578,
+   "end": 21.718,
+   "beat": 5
+  },
+  {
+   "w": "PC",
+   "start": 21.718,
+   "end": 22.038,
+   "beat": 5
+  },
+  {
+   "w": "restera",
+   "start": 22.038,
+   "end": 22.518,
+   "beat": 5
+  },
+  {
+   "w": "déprimé",
+   "start": 22.518,
+   "end": 23.118,
+   "beat": 5
+  },
+  {
+   "w": "jusqu'à",
+   "start": 23.118,
+   "end": 23.338,
+   "beat": 5
+  },
+  {
+   "w": "mi-2027",
+   "start": 23.658,
+   "end": 24.338,
+   "beat": 5
+  },
+  {
+   "w": "au",
+   "start": 24.338,
+   "end": 24.558,
+   "beat": 5
+  },
+  {
+   "w": "moins.",
+   "start": 24.558,
+   "end": 24.738,
+   "beat": 5
+  },
+  {
+   "w": "Cette",
+   "start": 24.929,
+   "end": 25.109,
+   "beat": 6
+  },
+  {
+   "w": "semaine,",
+   "start": 25.109,
+   "end": 25.569,
+   "beat": 6
+  },
+  {
+   "w": "même",
+   "start": 25.749,
+   "end": 25.949,
+   "beat": 6
+  },
+  {
+   "w": "Nvidia",
+   "start": 25.949,
+   "end": 26.349,
+   "beat": 6
+  },
+  {
+   "w": "a",
+   "start": 26.349,
+   "end": 26.749,
+   "beat": 6
+  },
+  {
+   "w": "réduit",
+   "start": 26.749,
+   "end": 27.089,
+   "beat": 6
+  },
+  {
+   "w": "d'un",
+   "start": 27.149,
+   "end": 27.229,
+   "beat": 6
+  },
+  {
+   "w": "quart",
+   "start": 27.229,
+   "end": 27.449,
+   "beat": 6
+  },
+  {
+   "w": "sa",
+   "start": 27.449,
+   "end": 27.609,
+   "beat": 6
+  },
+  {
+   "w": "participation.",
+   "start": 27.609,
+   "end": 27.949,
+   "beat": 6
+  },
+  {
+   "w": "Alors,",
+   "start": 28.542,
+   "end": 28.782,
+   "beat": 7
+  },
+  {
+   "w": "qui",
+   "start": 29.102,
+   "end": 29.222,
+   "beat": 7
+  },
+  {
+   "w": "est",
+   "start": 29.222,
+   "end": 29.322,
+   "beat": 7
+  },
+  {
+   "w": "ce",
+   "start": 29.322,
+   "end": 29.462,
+   "beat": 7
+  },
+  {
+   "w": "mystérieux",
+   "start": 29.462,
+   "end": 29.942,
+   "beat": 7
+  },
+  {
+   "w": "client ?",
+   "start": 29.942,
+   "end": 30.122,
+   "beat": 7
+  },
+  {
+   "w": "Ce",
+   "start": 30.374,
+   "end": 30.534,
+   "beat": 8
+  },
+  {
+   "w": "suspense,",
+   "start": 30.534,
+   "end": 30.974,
+   "beat": 8
+  },
+  {
+   "w": "je",
+   "start": 31.254,
+   "end": 31.394,
+   "beat": 8
+  },
+  {
+   "w": "le",
+   "start": 31.394,
+   "end": 31.514,
+   "beat": 8
+  },
+  {
+   "w": "suis",
+   "start": 31.514,
+   "end": 31.674,
+   "beat": 8
+  },
+  {
+   "w": "en",
+   "start": 31.674,
+   "end": 31.814,
+   "beat": 8
+  },
+  {
+   "w": "temps",
+   "start": 31.814,
+   "end": 31.994,
+   "beat": 8
+  },
+  {
+   "w": "réel",
+   "start": 31.994,
+   "end": 32.334,
+   "beat": 8
+  },
+  {
+   "w": "sur",
+   "start": 32.334,
+   "end": 32.474,
+   "beat": 8
+  },
+  {
+   "w": "mon",
+   "start": 32.474,
+   "end": 32.614,
+   "beat": 8
+  },
+  {
+   "w": "Telegram.",
+   "start": 32.614,
+   "end": 33.294,
+   "beat": 8
+  },
+  {
+   "w": "Lien",
+   "start": 33.334,
+   "end": 33.494,
+   "beat": 8
+  },
+  {
+   "w": "en",
+   "start": 33.494,
+   "end": 33.574,
+   "beat": 8
+  },
+  {
+   "w": "bio.",
+   "start": 33.574,
+   "end": 33.754,
+   "beat": 8
+  },
+  {
+   "w": "Intel",
+   "start": 33.975,
+   "end": 34.275,
+   "beat": 9
+  },
+  {
+   "w": "garde",
+   "start": 34.275,
+   "end": 34.515,
+   "beat": 9
+  },
+  {
+   "w": "le",
+   "start": 34.515,
+   "end": 34.715,
+   "beat": 9
+  },
+  {
+   "w": "nom",
+   "start": 34.715,
+   "end": 34.895,
+   "beat": 9
+  },
+  {
+   "w": "secret.",
+   "start": 34.895,
+   "end": 35.255,
+   "beat": 9
+  },
+  {
+   "w": "L'analyste",
+   "start": 35.515,
+   "end": 35.955,
+   "beat": 9
+  },
+  {
+   "w": "Ben",
+   "start": 35.955,
+   "end": 36.215,
+   "beat": 9
+  },
+  {
+   "w": "Bajarin",
+   "start": 36.215,
+   "end": 36.715,
+   "beat": 9
+  },
+  {
+   "w": "cite",
+   "start": 36.715,
+   "end": 36.955,
+   "beat": 9
+  },
+  {
+   "w": "trois",
+   "start": 36.955,
+   "end": 37.295,
+   "beat": 9
+  },
+  {
+   "w": "pistes :",
+   "start": 37.295,
+   "end": 37.775,
+   "beat": 9
+  },
+  {
+   "w": "Nvidia,",
+   "start": 37.795,
+   "end": 38.075,
+   "beat": 9
+  },
+  {
+   "w": "Apple…",
+   "start": 38.535,
+   "end": 38.815,
+   "beat": 9
+  },
+  {
+   "w": "ou",
+   "start": 38.815,
+   "end": 39.175,
+   "beat": 9
+  },
+  {
+   "w": "un",
+   "start": 39.175,
+   "end": 39.295,
+   "beat": 9
+  },
+  {
+   "w": "géant",
+   "start": 39.295,
+   "end": 39.575,
+   "beat": 9
+  },
+  {
+   "w": "du",
+   "start": 39.575,
+   "end": 39.675,
+   "beat": 9
+  },
+  {
+   "w": "cloud.",
+   "start": 39.675,
+   "end": 39.895,
+   "beat": 9
+  },
+  {
+   "w": "Car",
+   "start": 40.219,
+   "end": 40.359,
+   "beat": 10
+  },
+  {
+   "w": "les",
+   "start": 40.359,
+   "end": 40.519,
+   "beat": 10
+  },
+  {
+   "w": "géants",
+   "start": 40.519,
+   "end": 40.759,
+   "beat": 10
+  },
+  {
+   "w": "du",
+   "start": 40.759,
+   "end": 40.859,
+   "beat": 10
+  },
+  {
+   "w": "cloud",
+   "start": 40.859,
+   "end": 41.239,
+   "beat": 10
+  },
+  {
+   "w": "manquent",
+   "start": 41.239,
+   "end": 41.659,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 41.659,
+   "end": 41.759,
+   "beat": 10
+  },
+  {
+   "w": "capacité",
+   "start": 41.759,
+   "end": 42.379,
+   "beat": 10
+  },
+  {
+   "w": "chez",
+   "start": 42.379,
+   "end": 42.599,
+   "beat": 10
+  },
+  {
+   "w": "TSMC,",
+   "start": 42.599,
+   "end": 43.339,
+   "beat": 10
+  },
+  {
+   "w": "le",
+   "start": 43.479,
+   "end": 43.539,
+   "beat": 10
+  },
+  {
+   "w": "leader",
+   "start": 43.539,
+   "end": 43.759,
+   "beat": 10
+  },
+  {
+   "w": "taïwanais.",
+   "start": 43.759,
+   "end": 44.459,
+   "beat": 10
+  },
+  {
+   "w": "Et",
+   "start": 44.594,
+   "end": 44.694,
+   "beat": 11
+  },
+  {
+   "w": "Microsoft",
+   "start": 44.694,
+   "end": 45.154,
+   "beat": 11
+  },
+  {
+   "w": "devient",
+   "start": 45.154,
+   "end": 45.614,
+   "beat": 11
+  },
+  {
+   "w": "le",
+   "start": 45.614,
+   "end": 45.794,
+   "beat": 11
+  },
+  {
+   "w": "premier",
+   "start": 45.794,
+   "end": 46.114,
+   "beat": 11
+  },
+  {
+   "w": "client",
+   "start": 46.114,
+   "end": 46.454,
+   "beat": 11
+  },
+  {
+   "w": "affiché",
+   "start": 46.454,
+   "end": 47.094,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 47.094,
+   "end": 47.294,
+   "beat": 11
+  },
+  {
+   "w": "son",
+   "start": 47.294,
+   "end": 47.434,
+   "beat": 11
+  },
+  {
+   "w": "assemblage",
+   "start": 47.434,
+   "end": 47.894,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 47.894,
+   "end": 48.034,
+   "beat": 11
+  },
+  {
+   "w": "puces",
+   "start": 48.034,
+   "end": 48.394,
+   "beat": 11
+  },
+  {
+   "w": "EMIB.",
+   "start": 48.394,
+   "end": 48.934,
+   "beat": 11
+  },
+  {
+   "w": "L'enjeu",
+   "start": 49.297,
+   "end": 49.577,
+   "beat": 12
+  },
+  {
+   "w": "dépasse",
+   "start": 49.577,
+   "end": 49.857,
+   "beat": 12
+  },
+  {
+   "w": "la",
+   "start": 49.857,
+   "end": 49.997,
+   "beat": 12
+  },
+  {
+   "w": "Bourse :",
+   "start": 49.997,
+   "end": 50.397,
+   "beat": 12
+  },
+  {
+   "w": "l'État",
+   "start": 50.637,
+   "end": 50.757,
+   "beat": 12
+  },
+  {
+   "w": "américain",
+   "start": 50.757,
+   "end": 51.297,
+   "beat": 12
+  },
+  {
+   "w": "détient",
+   "start": 51.297,
+   "end": 51.617,
+   "beat": 12
+  },
+  {
+   "w": "10 %",
+   "start": 51.617,
+   "end": 51.837,
+   "beat": 12
+  },
+  {
+   "w": "d'Intel.",
+   "start": 52.317,
+   "end": 52.637,
+   "beat": 12
+  },
+  {
+   "w": "Et",
+   "start": 52.888,
+   "end": 53.028,
+   "beat": 13
+  },
+  {
+   "w": "Trump",
+   "start": 53.028,
+   "end": 53.308,
+   "beat": 13
+  },
+  {
+   "w": "ouvre",
+   "start": 53.308,
+   "end": 53.748,
+   "beat": 13
+  },
+  {
+   "w": "une",
+   "start": 53.748,
+   "end": 53.828,
+   "beat": 13
+  },
+  {
+   "w": "porte :",
+   "start": 53.828,
+   "end": 54.168,
+   "beat": 13
+  },
+  {
+   "w": "les",
+   "start": 54.168,
+   "end": 54.448,
+   "beat": 13
+  },
+  {
+   "w": "puces",
+   "start": 54.448,
+   "end": 54.688,
+   "beat": 13
+  },
+  {
+   "w": "Blackwell",
+   "start": 54.688,
+   "end": 55.108,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 55.108,
+   "end": 55.288,
+   "beat": 13
+  },
+  {
+   "w": "Nvidia",
+   "start": 55.288,
+   "end": 55.768,
+   "beat": 13
+  },
+  {
+   "w": "pourraient",
+   "start": 55.768,
+   "end": 56.128,
+   "beat": 13
+  },
+  {
+   "w": "arriver",
+   "start": 56.128,
+   "end": 56.468,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 56.468,
+   "end": 56.728,
+   "beat": 13
+  },
+  {
+   "w": "Chine",
+   "start": 56.728,
+   "end": 57.108,
+   "beat": 13
+  },
+  {
+   "w": "d'ici",
+   "start": 57.288,
+   "end": 57.448,
+   "beat": 13
+  },
+  {
+   "w": "deux",
+   "start": 57.448,
+   "end": 57.728,
+   "beat": 13
+  },
+  {
+   "w": "ou",
+   "start": 57.728,
+   "end": 57.908,
+   "beat": 13
+  },
+  {
+   "w": "trois",
+   "start": 57.908,
+   "end": 58.168,
+   "beat": 13
+  },
+  {
+   "w": "ans.",
+   "start": 58.168,
+   "end": 58.348,
+   "beat": 13
+  },
+  {
+   "w": "Résultat :",
+   "start": 58.44,
+   "end": 59.04,
+   "beat": 14
+  },
+  {
+   "w": "le",
+   "start": 59.2,
+   "end": 59.3,
+   "beat": 14
+  },
+  {
+   "w": "Nasdaq",
+   "start": 59.3,
+   "end": 59.7,
+   "beat": 14
+  },
+  {
+   "w": "est",
+   "start": 59.7,
+   "end": 59.76,
+   "beat": 14
+  },
+  {
+   "w": "attendu",
+   "start": 59.76,
+   "end": 60.16,
+   "beat": 14
+  },
+  {
+   "w": "en",
+   "start": 60.16,
+   "end": 60.36,
+   "beat": 14
+  },
+  {
+   "w": "hausse",
+   "start": 60.36,
+   "end": 60.72,
+   "beat": 14
+  },
+  {
+   "w": "d'environ",
+   "start": 60.76,
+   "end": 61.0,
+   "beat": 14
+  },
+  {
+   "w": "2 %.",
+   "start": 61.0,
+   "end": 61.56,
+   "beat": 14
+  },
+  {
+   "w": "Prochain",
+   "start": 61.843,
+   "end": 62.203,
+   "beat": 15
+  },
+  {
+   "w": "rendez-vous :",
+   "start": 62.203,
+   "end": 62.363,
+   "beat": 15
+  },
+  {
+   "w": "15h30,",
+   "start": 62.763,
+   "end": 63.383,
+   "beat": 15
+  },
+  {
+   "w": "l'ouverture",
+   "start": 63.703,
+   "end": 64.063,
+   "beat": 15
+  },
+  {
+   "w": "de",
+   "start": 64.063,
+   "end": 64.163,
+   "beat": 15
+  },
+  {
+   "w": "Wall",
+   "start": 64.163,
+   "end": 64.323,
+   "beat": 15
+  },
+  {
+   "w": "Street,",
+   "start": 64.323,
+   "end": 64.623,
+   "beat": 15
+  },
+  {
+   "w": "et",
+   "start": 64.623,
+   "end": 64.923,
+   "beat": 15
+  },
+  {
+   "w": "les",
+   "start": 64.923,
+   "end": 65.003,
+   "beat": 15
+  },
+  {
+   "w": "débuts",
+   "start": 65.003,
+   "end": 65.283,
+   "beat": 15
+  },
+  {
+   "w": "d'Anthropic",
+   "start": 65.403,
+   "end": 65.923,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 65.923,
+   "end": 66.083,
+   "beat": 15
+  },
+  {
+   "w": "Bourse.",
+   "start": 66.083,
+   "end": 66.423,
+   "beat": 15
+  },
+  {
+   "w": "Alors,",
+   "start": 66.663,
+   "end": 66.843,
+   "beat": 16
+  },
+  {
+   "w": "Intel",
+   "start": 67.263,
+   "end": 67.523,
+   "beat": 16
+  },
+  {
+   "w": "peut-elle",
+   "start": 67.263,
+   "end": 67.523,
+   "beat": 16
+  },
+  {
+   "w": "vraiment",
+   "start": 67.763,
+   "end": 68.103,
+   "beat": 16
+  },
+  {
+   "w": "rattraper",
+   "start": 68.103,
+   "end": 68.583,
+   "beat": 16
+  },
+  {
+   "w": "TSMC ?",
+   "start": 68.583,
+   "end": 69.223,
+   "beat": 16
+  },
+  {
+   "w": "Dis-le",
+   "start": 69.523,
+   "end": 69.523,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 69.643,
+   "end": 69.743,
+   "beat": 16
+  },
+  {
+   "w": "commentaire.",
+   "start": 69.743,
+   "end": 70.243,
+   "beat": 16
+  },
+  {
+   "w": "Pendant",
+   "start": 70.447,
+   "end": 70.687,
+   "beat": 17
+  },
+  {
+   "w": "que",
+   "start": 70.687,
+   "end": 70.767,
+   "beat": 17
+  },
+  {
+   "w": "les",
+   "start": 70.767,
+   "end": 70.867,
+   "beat": 17
+  },
+  {
+   "w": "marchés",
+   "start": 70.867,
+   "end": 71.207,
+   "beat": 17
+  },
+  {
+   "w": "paniquent,",
+   "start": 71.207,
+   "end": 71.667,
+   "beat": 17
+  },
+  {
+   "w": "sur",
+   "start": 71.767,
+   "end": 71.867,
+   "beat": 17
+  },
+  {
+   "w": "mon",
+   "start": 71.867,
+   "end": 71.987,
+   "beat": 17
+  },
+  {
+   "w": "Telegram",
+   "start": 71.987,
+   "end": 72.507,
+   "beat": 17
+  },
+  {
+   "w": "gratuit",
+   "start": 72.507,
+   "end": 72.727,
+   "beat": 17
+  },
+  {
+   "w": "on",
+   "start": 73.007,
+   "end": 73.107,
+   "beat": 17
+  },
+  {
+   "w": "garde",
+   "start": 73.107,
+   "end": 73.327,
+   "beat": 17
+  },
+  {
+   "w": "la",
+   "start": 73.327,
+   "end": 73.527,
+   "beat": 17
+  },
+  {
+   "w": "tête",
+   "start": 73.527,
+   "end": 73.687,
+   "beat": 17
+  },
+  {
+   "w": "froide :",
+   "start": 73.687,
+   "end": 74.147,
+   "beat": 17
+  },
+  {
+   "w": "l'actu",
+   "start": 74.327,
+   "end": 74.587,
+   "beat": 17
+  },
+  {
+   "w": "géopolitique",
+   "start": 74.587,
+   "end": 75.327,
+   "beat": 17
+  },
+  {
+   "w": "et",
+   "start": 75.327,
+   "end": 75.447,
+   "beat": 17
+  },
+  {
+   "w": "financière",
+   "start": 75.447,
+   "end": 75.967,
+   "beat": 17
+  },
+  {
+   "w": "décortiquée,",
+   "start": 75.967,
+   "end": 76.567,
+   "beat": 17
+  },
+  {
+   "w": "des",
+   "start": 76.747,
+   "end": 76.867,
+   "beat": 17
+  },
+  {
+   "w": "analyses",
+   "start": 76.867,
+   "end": 77.207,
+   "beat": 17
+  },
+  {
+   "w": "d'actions",
+   "start": 77.387,
+   "end": 77.587,
+   "beat": 17
+  },
+  {
+   "w": "détaillées,",
+   "start": 77.587,
+   "end": 78.207,
+   "beat": 17
+  },
+  {
+   "w": "les",
+   "start": 78.347,
+   "end": 78.427,
+   "beat": 17
+  },
+  {
+   "w": "opportunités",
+   "start": 78.427,
+   "end": 79.167,
+   "beat": 17
+  },
+  {
+   "w": "en",
+   "start": 79.167,
+   "end": 79.407,
+   "beat": 17
+  },
+  {
+   "w": "temps",
+   "start": 79.407,
+   "end": 79.587,
+   "beat": 17
+  },
+  {
+   "w": "réel.",
+   "start": 79.587,
+   "end": 80.027,
+   "beat": 17
+  },
+  {
+   "w": "Plus",
+   "start": 80.147,
+   "end": 80.247,
+   "beat": 17
+  },
+  {
+   "w": "de",
+   "start": 80.247,
+   "end": 80.387,
+   "beat": 17
+  },
+  {
+   "w": "22 000",
+   "start": 80.687,
+   "end": 80.847,
+   "beat": 17
+  },
+  {
+   "w": "personnes",
+   "start": 80.847,
+   "end": 81.147,
+   "beat": 17
+  },
+  {
+   "w": "déjà.",
+   "start": 81.147,
+   "end": 81.527,
+   "beat": 17
+  },
+  {
+   "w": "Rejoins",
+   "start": 81.747,
+   "end": 82.027,
+   "beat": 17
+  },
+  {
+   "w": "la",
+   "start": 82.027,
+   "end": 82.167,
+   "beat": 17
+  },
+  {
+   "w": "famille,",
+   "start": 82.167,
+   "end": 82.527,
+   "beat": 17
+  },
+  {
+   "w": "lien",
+   "start": 82.787,
+   "end": 82.967,
+   "beat": 17
+  },
+  {
+   "w": "en",
+   "start": 83.007,
+   "end": 83.067,
+   "beat": 17
+  },
+  {
+   "w": "bio.",
+   "start": 83.067,
+   "end": 83.247,
+   "beat": 17
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1,
+     2
+    ]
+   ],
+   "beat": 0,
+   "end": 0.64
+  },
+  {
+   "start": 0.64,
+   "lines": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "beat": 0,
+   "end": 1.54
+  },
+  {
+   "start": 1.54,
+   "lines": [
+    [
+     7,
+     8,
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 2.06
+  },
+  {
+   "start": 2.06,
+   "lines": [
+    [
+     10,
+     11,
+     12
+    ]
+   ],
+   "beat": 0,
+   "end": 2.76
+  },
+  {
+   "start": 2.76,
+   "lines": [
+    [
+     13,
+     14
+    ]
+   ],
+   "beat": 0,
+   "end": 3.34
+  },
+  {
+   "start": 3.34,
+   "lines": [
+    [
+     15,
+     16
+    ]
+   ],
+   "beat": 0,
+   "end": 3.96
+  },
+  {
+   "start": 3.96,
+   "lines": [
+    [
+     17,
+     18
+    ]
+   ],
+   "beat": 0,
+   "end": 4.929
+  },
+  {
+   "start": 4.929,
+   "lines": [
+    [
+     19,
+     20,
+     21
+    ]
+   ],
+   "beat": 1,
+   "end": 5.729
+  },
+  {
+   "start": 5.729,
+   "lines": [
+    [
+     22,
+     23
+    ],
+    [
+     24
+    ]
+   ],
+   "beat": 1,
+   "end": 6.729
+  },
+  {
+   "start": 6.729,
+   "lines": [
+    [
+     25
+    ]
+   ],
+   "beat": 1,
+   "end": 7.332
+  },
+  {
+   "start": 7.332,
+   "lines": [
+    [
+     26,
+     27
+    ]
+   ],
+   "beat": 2,
+   "end": 7.752
+  },
+  {
+   "start": 7.752,
+   "lines": [
+    [
+     28,
+     29
+    ],
+    [
+     30,
+     31
+    ]
+   ],
+   "beat": 2,
+   "end": 8.872
+  },
+  {
+   "start": 8.872,
+   "lines": [
+    [
+     32,
+     33
+    ],
+    [
+     34,
+     35
+    ]
+   ],
+   "beat": 2,
+   "end": 10.332
+  },
+  {
+   "start": 10.332,
+   "lines": [
+    [
+     36,
+     37
+    ],
+    [
+     38
+    ]
+   ],
+   "beat": 2,
+   "end": 11.332
+  },
+  {
+   "start": 11.332,
+   "lines": [
+    [
+     39,
+     40
+    ]
+   ],
+   "beat": 2,
+   "end": 12.174
+  },
+  {
+   "start": 12.174,
+   "lines": [
+    [
+     41,
+     42
+    ]
+   ],
+   "beat": 3,
+   "end": 12.654
+  },
+  {
+   "start": 12.654,
+   "lines": [
+    [
+     43,
+     44
+    ]
+   ],
+   "beat": 3,
+   "end": 13.794
+  },
+  {
+   "start": 13.794,
+   "lines": [
+    [
+     45,
+     46
+    ],
+    [
+     47
+    ]
+   ],
+   "beat": 3,
+   "end": 14.534
+  },
+  {
+   "start": 14.534,
+   "lines": [
+    [
+     48,
+     49
+    ]
+   ],
+   "beat": 3,
+   "end": 15.154
+  },
+  {
+   "start": 15.154,
+   "lines": [
+    [
+     50,
+     51
+    ]
+   ],
+   "beat": 3,
+   "end": 16.298
+  },
+  {
+   "start": 16.298,
+   "lines": [
+    [
+     52,
+     53
+    ]
+   ],
+   "beat": 4,
+   "end": 17.118
+  },
+  {
+   "start": 17.118,
+   "lines": [
+    [
+     54,
+     55
+    ],
+    [
+     56
+    ]
+   ],
+   "beat": 4,
+   "end": 18.018
+  },
+  {
+   "start": 18.018,
+   "lines": [
+    [
+     57,
+     58
+    ],
+    [
+     59,
+     60
+    ]
+   ],
+   "beat": 4,
+   "end": 19.018
+  },
+  {
+   "start": 19.018,
+   "lines": [
+    [
+     61
+    ],
+    [
+     62,
+     63
+    ]
+   ],
+   "beat": 4,
+   "end": 19.898
+  },
+  {
+   "start": 19.898,
+   "lines": [
+    [
+     64,
+     65
+    ],
+    [
+     66,
+     67
+    ]
+   ],
+   "beat": 4,
+   "end": 21.118
+  },
+  {
+   "start": 21.118,
+   "lines": [
+    [
+     68,
+     69,
+     70
+    ]
+   ],
+   "beat": 5,
+   "end": 21.578
+  },
+  {
+   "start": 21.578,
+   "lines": [
+    [
+     71,
+     72,
+     73
+    ],
+    [
+     74
+    ]
+   ],
+   "beat": 5,
+   "end": 23.118
+  },
+  {
+   "start": 23.118,
+   "lines": [
+    [
+     75,
+     76
+    ],
+    [
+     77,
+     78
+    ]
+   ],
+   "beat": 5,
+   "end": 24.929
+  },
+  {
+   "start": 24.929,
+   "lines": [
+    [
+     79,
+     80
+    ]
+   ],
+   "beat": 6,
+   "end": 25.749
+  },
+  {
+   "start": 25.749,
+   "lines": [
+    [
+     81,
+     82
+    ],
+    [
+     83,
+     84
+    ]
+   ],
+   "beat": 6,
+   "end": 27.149
+  },
+  {
+   "start": 27.149,
+   "lines": [
+    [
+     85,
+     86
+    ]
+   ],
+   "beat": 6,
+   "end": 27.449
+  },
+  {
+   "start": 27.449,
+   "lines": [
+    [
+     87,
+     88
+    ]
+   ],
+   "beat": 6,
+   "end": 28.542
+  },
+  {
+   "start": 28.542,
+   "lines": [
+    [
+     89
+    ],
+    [
+     90,
+     91
+    ]
+   ],
+   "beat": 7,
+   "end": 29.322
+  },
+  {
+   "start": 29.322,
+   "lines": [
+    [
+     92,
+     93
+    ],
+    [
+     94
+    ]
+   ],
+   "beat": 7,
+   "end": 30.374
+  },
+  {
+   "start": 30.374,
+   "lines": [
+    [
+     95,
+     96
+    ]
+   ],
+   "beat": 8,
+   "end": 31.254
+  },
+  {
+   "start": 31.254,
+   "lines": [
+    [
+     97,
+     98,
+     99
+    ]
+   ],
+   "beat": 8,
+   "end": 31.674
+  },
+  {
+   "start": 31.674,
+   "lines": [
+    [
+     100,
+     101,
+     102
+    ]
+   ],
+   "beat": 8,
+   "end": 32.334
+  },
+  {
+   "start": 32.334,
+   "lines": [
+    [
+     103,
+     104
+    ],
+    [
+     105
+    ]
+   ],
+   "beat": 8,
+   "end": 33.334
+  },
+  {
+   "start": 33.334,
+   "lines": [
+    [
+     106,
+     107,
+     108
+    ]
+   ],
+   "beat": 8,
+   "end": 33.975
+  },
+  {
+   "start": 33.975,
+   "lines": [
+    [
+     109,
+     110
+    ],
+    [
+     111,
+     112
+    ]
+   ],
+   "beat": 9,
+   "end": 34.895
+  },
+  {
+   "start": 34.895,
+   "lines": [
+    [
+     113
+    ]
+   ],
+   "beat": 9,
+   "end": 35.515
+  },
+  {
+   "start": 35.515,
+   "lines": [
+    [
+     114
+    ],
+    [
+     115,
+     116
+    ]
+   ],
+   "beat": 9,
+   "end": 36.715
+  },
+  {
+   "start": 36.715,
+   "lines": [
+    [
+     117,
+     118
+    ],
+    [
+     119
+    ]
+   ],
+   "beat": 9,
+   "end": 37.795
+  },
+  {
+   "start": 37.795,
+   "lines": [
+    [
+     120,
+     121
+    ]
+   ],
+   "beat": 9,
+   "end": 38.815
+  },
+  {
+   "start": 38.815,
+   "lines": [
+    [
+     122,
+     123,
+     124
+    ]
+   ],
+   "beat": 9,
+   "end": 39.575
+  },
+  {
+   "start": 39.575,
+   "lines": [
+    [
+     125,
+     126
+    ]
+   ],
+   "beat": 9,
+   "end": 40.219
+  },
+  {
+   "start": 40.219,
+   "lines": [
+    [
+     127,
+     128
+    ],
+    [
+     129
+    ]
+   ],
+   "beat": 10,
+   "end": 40.759
+  },
+  {
+   "start": 40.759,
+   "lines": [
+    [
+     130,
+     131
+    ],
+    [
+     132
+    ]
+   ],
+   "beat": 10,
+   "end": 41.659
+  },
+  {
+   "start": 41.659,
+   "lines": [
+    [
+     133,
+     134
+    ],
+    [
+     135,
+     136
+    ]
+   ],
+   "beat": 10,
+   "end": 43.479
+  },
+  {
+   "start": 43.479,
+   "lines": [
+    [
+     137,
+     138
+    ],
+    [
+     139
+    ]
+   ],
+   "beat": 10,
+   "end": 44.594
+  },
+  {
+   "start": 44.594,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142
+    ]
+   ],
+   "beat": 11,
+   "end": 45.614
+  },
+  {
+   "start": 45.614,
+   "lines": [
+    [
+     143,
+     144
+    ],
+    [
+     145,
+     146
+    ]
+   ],
+   "beat": 11,
+   "end": 47.094
+  },
+  {
+   "start": 47.094,
+   "lines": [
+    [
+     147,
+     148
+    ],
+    [
+     149
+    ]
+   ],
+   "beat": 11,
+   "end": 47.894
+  },
+  {
+   "start": 47.894,
+   "lines": [
+    [
+     150,
+     151
+    ],
+    [
+     152
+    ]
+   ],
+   "beat": 11,
+   "end": 49.297
+  },
+  {
+   "start": 49.297,
+   "lines": [
+    [
+     153,
+     154
+    ]
+   ],
+   "beat": 12,
+   "end": 49.857
+  },
+  {
+   "start": 49.857,
+   "lines": [
+    [
+     155,
+     156
+    ]
+   ],
+   "beat": 12,
+   "end": 50.637
+  },
+  {
+   "start": 50.637,
+   "lines": [
+    [
+     157,
+     158
+    ],
+    [
+     159
+    ]
+   ],
+   "beat": 12,
+   "end": 51.617
+  },
+  {
+   "start": 51.617,
+   "lines": [
+    [
+     160,
+     161
+    ]
+   ],
+   "beat": 12,
+   "end": 52.888
+  },
+  {
+   "start": 52.888,
+   "lines": [
+    [
+     162,
+     163
+    ],
+    [
+     164
+    ]
+   ],
+   "beat": 13,
+   "end": 53.748
+  },
+  {
+   "start": 53.748,
+   "lines": [
+    [
+     165,
+     166
+    ]
+   ],
+   "beat": 13,
+   "end": 54.168
+  },
+  {
+   "start": 54.168,
+   "lines": [
+    [
+     167,
+     168
+    ],
+    [
+     169
+    ]
+   ],
+   "beat": 13,
+   "end": 55.108
+  },
+  {
+   "start": 55.108,
+   "lines": [
+    [
+     170,
+     171
+    ],
+    [
+     172
+    ]
+   ],
+   "beat": 13,
+   "end": 56.128
+  },
+  {
+   "start": 56.128,
+   "lines": [
+    [
+     173,
+     174
+    ],
+    [
+     175,
+     176
+    ]
+   ],
+   "beat": 13,
+   "end": 57.448
+  },
+  {
+   "start": 57.448,
+   "lines": [
+    [
+     177,
+     178
+    ],
+    [
+     179,
+     180
+    ]
+   ],
+   "beat": 13,
+   "end": 58.44
+  },
+  {
+   "start": 58.44,
+   "lines": [
+    [
+     181
+    ]
+   ],
+   "beat": 14,
+   "end": 59.2
+  },
+  {
+   "start": 59.2,
+   "lines": [
+    [
+     182,
+     183
+    ],
+    [
+     184,
+     185
+    ]
+   ],
+   "beat": 14,
+   "end": 60.16
+  },
+  {
+   "start": 60.16,
+   "lines": [
+    [
+     186,
+     187
+    ],
+    [
+     188,
+     189
+    ]
+   ],
+   "beat": 14,
+   "end": 61.843
+  },
+  {
+   "start": 61.843,
+   "lines": [
+    [
+     190
+    ],
+    [
+     191
+    ]
+   ],
+   "beat": 15,
+   "end": 62.763
+  },
+  {
+   "start": 62.763,
+   "lines": [
+    [
+     192,
+     193
+    ]
+   ],
+   "beat": 15,
+   "end": 64.063
+  },
+  {
+   "start": 64.063,
+   "lines": [
+    [
+     194,
+     195
+    ],
+    [
+     196
+    ]
+   ],
+   "beat": 15,
+   "end": 64.623
+  },
+  {
+   "start": 64.623,
+   "lines": [
+    [
+     197,
+     198,
+     199
+    ],
+    [
+     200
+    ]
+   ],
+   "beat": 15,
+   "end": 65.923
+  },
+  {
+   "start": 65.923,
+   "lines": [
+    [
+     201,
+     202
+    ]
+   ],
+   "beat": 15,
+   "end": 66.663
+  },
+  {
+   "start": 66.663,
+   "lines": [
+    [
+     203,
+     204
+    ],
+    [
+     205
+    ]
+   ],
+   "beat": 16,
+   "end": 67.763
+  },
+  {
+   "start": 67.763,
+   "lines": [
+    [
+     206
+    ],
+    [
+     207,
+     208
+    ]
+   ],
+   "beat": 16,
+   "end": 69.523
+  },
+  {
+   "start": 69.523,
+   "lines": [
+    [
+     209,
+     210
+    ],
+    [
+     211
+    ]
+   ],
+   "beat": 16,
+   "end": 70.447
+  },
+  {
+   "start": 70.447,
+   "lines": [
+    [
+     212,
+     213
+    ],
+    [
+     214,
+     215
+    ]
+   ],
+   "beat": 17,
+   "end": 71.207
+  },
+  {
+   "start": 71.207,
+   "lines": [
+    [
+     216,
+     217
+    ]
+   ],
+   "beat": 17,
+   "end": 71.867
+  },
+  {
+   "start": 71.867,
+   "lines": [
+    [
+     218,
+     219
+    ],
+    [
+     220,
+     221
+    ]
+   ],
+   "beat": 17,
+   "end": 73.107
+  },
+  {
+   "start": 73.107,
+   "lines": [
+    [
+     222,
+     223
+    ],
+    [
+     224,
+     225
+    ]
+   ],
+   "beat": 17,
+   "end": 74.327
+  },
+  {
+   "start": 74.327,
+   "lines": [
+    [
+     226
+    ],
+    [
+     227
+    ]
+   ],
+   "beat": 17,
+   "end": 75.327
+  },
+  {
+   "start": 75.327,
+   "lines": [
+    [
+     228,
+     229
+    ],
+    [
+     230
+    ]
+   ],
+   "beat": 17,
+   "end": 76.747
+  },
+  {
+   "start": 76.747,
+   "lines": [
+    [
+     231,
+     232
+    ],
+    [
+     233
+    ]
+   ],
+   "beat": 17,
+   "end": 77.587
+  },
+  {
+   "start": 77.587,
+   "lines": [
+    [
+     234,
+     235
+    ]
+   ],
+   "beat": 17,
+   "end": 78.427
+  },
+  {
+   "start": 78.427,
+   "lines": [
+    [
+     236
+    ],
+    [
+     237,
+     238
+    ]
+   ],
+   "beat": 17,
+   "end": 79.587
+  },
+  {
+   "start": 79.587,
+   "lines": [
+    [
+     239
+    ]
+   ],
+   "beat": 17,
+   "end": 80.147
+  },
+  {
+   "start": 80.147,
+   "lines": [
+    [
+     240,
+     241,
+     242
+    ],
+    [
+     243
+    ]
+   ],
+   "beat": 17,
+   "end": 81.147
+  },
+  {
+   "start": 81.147,
+   "lines": [
+    [
+     244
+    ]
+   ],
+   "beat": 17,
+   "end": 81.747
+  },
+  {
+   "start": 81.747,
+   "lines": [
+    [
+     245,
+     246
+    ],
+    [
+     247
+    ]
+   ],
+   "beat": 17,
+   "end": 82.787
+  },
+  {
+   "start": 82.787,
+   "lines": [
+    [
+     248,
+     249,
+     250
+    ]
+   ],
+   "beat": 17,
+   "end": 83.583
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Jeudi 19 novembre 2026 · avant Wall Street",
+   "until_beat": 0,
+   "start": 0.0,
+   "end": 4.929
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "PLUS DE −50 %",
+    "ET POURTANT…"
+   ],
+   "at_word": 0,
+   "start": 0.0,
+   "end": 4.929
+  },
+  {
+   "type": "stock",
+   "key": "INTC",
+   "name": "Intel",
+   "sub": "INTC · Nasdaq · depuis fin septembre",
+   "size": "big",
+   "y": 600,
+   "at_word": 14,
+   "start": 3.0,
+   "end": 4.929
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "INTEL · PRÉOUVERTURE",
+   "value_from": 0,
+   "value_to": 4.65,
+   "decimals": 2,
+   "prefix": "+",
+   "suffix": " %",
+   "color": "green",
+   "pill": "APRÈS 5 SÉANCES DE BAISSE",
+   "desc": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York",
+   "start": 4.929,
+   "end": 7.332
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "INTEL FOUNDRY",
+   "right": "18 NOV.",
+   "tag": "CONTRAT",
+   "headline": "Intel signe son premier client externe pour sa technologie 18A-P",
+   "highlight": "premier client externe",
+   "sub": "GuruFocus · Seeking Alpha · 19 nov. 2026",
+   "start": 7.752,
+   "end": 12.174
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "SOMMET TOMORROWX · AUSTIN",
+   "right": "18 NOV.",
+   "tag": "CITATION",
+   "headline": "« Et puis le 18A… nous venons de signer le premier client » — Lip-Bu Tan, PDG d'Intel",
+   "highlight": "premier client",
+   "sub": "Stocktwits · 19 nov. 2026 · Zhitong (Longbridge) · 19 nov. 2026",
+   "start": 12.314,
+   "end": 16.298
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "VENTES VS ATTENTES",
+   "value_from": 0,
+   "value_to": 1,
+   "decimals": 0,
+   "prefix": "− ",
+   "suffix": " Md$",
+   "color": "red",
+   "pill": "AU MOINS · PC EN BERNE",
+   "desc": "Zhitong (Longbridge) · 19 nov. 2026",
+   "start": 16.298,
+   "end": 21.118
+  },
+  {
+   "type": "news",
+   "at_word": 3,
+   "left": "INTEL · PRÉVISIONS",
+   "right": "29 OCT.",
+   "tag": "ALERTE",
+   "headline": "Le marché des PC restera en crise au moins jusqu'au premier semestre 2027",
+   "highlight": "premier semestre 2027",
+   "sub": "Stocktwits · 19 nov. 2026",
+   "start": 21.578,
+   "end": 24.929
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "NVIDIA ALLÈGE INTEL",
+   "value_from": 0,
+   "value_to": 25,
+   "decimals": 0,
+   "prefix": "− ",
+   "suffix": " %",
+   "color": "red",
+   "pill": "CETTE SEMAINE",
+   "desc": "Stocktwits · 19 nov. 2026",
+   "start": 24.929,
+   "end": 28.542
+  },
+  {
+   "type": "stock",
+   "key": "NVDA",
+   "name": "Nvidia",
+   "sub": "Allège sa ligne Intel",
+   "y": 1380,
+   "at_word": 3,
+   "start": 25.949,
+   "end": 28.542
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "QUI EST CE",
+    "MYSTÉRIEUX CLIENT ?"
+   ],
+   "at_word": 1,
+   "start": 29.102,
+   "end": 30.374
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_3435c02c_top.jpg",
+   "bio_at_word": 13,
+   "start": 30.374,
+   "end": 33.975,
+   "bio_t": 33.574
+  },
+  {
+   "type": "screen_logos",
+   "kicker": "LES PISTES DE BEN BAJARIN",
+   "value_from": 0,
+   "value_to": 3,
+   "decimals": 0,
+   "suffix": " PISTES",
+   "color": "gold",
+   "pill": "CREATIVE STRATEGIES",
+   "keys": [
+    "NVDA",
+    "AAPL",
+    "AMZN",
+    "MSFT",
+    "GOOGL"
+   ],
+   "desc": "Zhitong (Longbridge) · 19 nov. 2026 · hypothèses, rien de confirmé",
+   "start": 33.975,
+   "end": 40.219
+  },
+  {
+   "type": "tickers",
+   "title": "LE GOULOT D'ÉTRANGLEMENT",
+   "rows": [
+    {
+     "name": "Amazon",
+     "pct": "CLOUD",
+     "at_word": 2,
+     "key": "AMZN",
+     "up": true,
+     "t": 40.469
+    },
+    {
+     "name": "Microsoft",
+     "pct": "CLOUD",
+     "at_word": 4,
+     "key": "MSFT",
+     "up": true,
+     "t": 40.809
+    },
+    {
+     "name": "Google",
+     "pct": "CLOUD",
+     "at_word": 5,
+     "key": "GOOGL",
+     "up": true,
+     "t": 41.189
+    },
+    {
+     "name": "TSMC · capacités saturées",
+     "pct": "N°1 MONDIAL",
+     "at_word": 9,
+     "key": "TSM",
+     "up": false,
+     "t": 42.549
+    }
+   ],
+   "start": 40.219,
+   "end": 44.594
+  },
+  {
+   "type": "source",
+   "text": "Zhitong (Longbridge) · 19 nov. 2026",
+   "start": 40.219,
+   "end": 44.594
+  },
+  {
+   "type": "stock",
+   "key": "MSFT",
+   "name": "Microsoft",
+   "sub": "1er client public d'Intel pour l'EMIB",
+   "y": 560,
+   "at_word": 1,
+   "start": 44.694,
+   "end": 49.157
+  },
+  {
+   "type": "source",
+   "text": "Zhitong (Longbridge) · 19 nov. 2026",
+   "start": 44.594,
+   "end": 49.157
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "PART DE L'ÉTAT AMÉRICAIN",
+   "value_from": 0,
+   "value_to": 10,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " %",
+   "color": "gold",
+   "pill": "DEPUIS AOÛT 2025",
+   "desc": "Zhitong (Longbridge) · 19 nov. 2026 · Nvidia a aussi investi 5 Md$",
+   "start": 49.157,
+   "end": 52.888
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "APRÈS LA RENCONTRE AVEC XI JINPING",
+   "right": "FOX NEWS",
+   "tag": "CITATION",
+   "headline": "« Dans deux ou trois ans, je dirais : allez-y, vous pouvez vendre des Blackwell » — Donald Trump",
+   "highlight": "deux ou trois ans",
+   "sub": "Stocktwits · 19 nov. 2026",
+   "start": 53.028,
+   "end": 58.44
+  },
+  {
+   "type": "stock",
+   "key": "NVDA",
+   "name": "Nvidia",
+   "sub": "+2 % en préouverture",
+   "y": 1380,
+   "at_word": 9,
+   "start": 55.288,
+   "end": 58.44
+  },
+  {
+   "type": "tickers",
+   "title": "FUTURES · 5H30 À NEW YORK",
+   "rows": [
+    {
+     "name": "Nasdaq 100",
+     "pct": "+2,06 %",
+     "at_word": 2,
+     "up": true,
+     "t": 59.25
+    },
+    {
+     "name": "Intel",
+     "pct": "+4,65 %",
+     "at_word": 6,
+     "key": "INTC",
+     "up": true,
+     "t": 60.31
+    },
+    {
+     "name": "Nvidia",
+     "pct": "+2 %",
+     "at_word": 7,
+     "key": "NVDA",
+     "up": true,
+     "t": 60.71
+    }
+   ],
+   "start": 58.44,
+   "end": 61.843
+  },
+  {
+   "type": "source",
+   "text": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York",
+   "start": 58.44,
+   "end": 61.843
+  },
+  {
+   "type": "tickers",
+   "title": "À SURVEILLER CET APRÈS-MIDI",
+   "rows": [
+    {
+     "name": "Intel · tient-elle sa hausse ?",
+     "pct": "15H30",
+     "at_word": 2,
+     "key": "INTC",
+     "up": true,
+     "t": 62.713
+    },
+    {
+     "name": "Anthropic · 1re cotation",
+     "pct": "NASDAQ",
+     "at_word": 10,
+     "key": "ANT",
+     "up": true,
+     "t": 65.353
+    }
+   ],
+   "start": 61.843,
+   "end": 66.663
+  },
+  {
+   "type": "source",
+   "text": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York",
+   "start": 61.843,
+   "end": 66.663
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "INTEL PEUT-ELLE",
+    "RATTRAPER TSMC ?"
+   ],
+   "at_word": 1,
+   "start": 67.263,
+   "end": 70.447
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Intel : le client mystère, mon analyse",
+   "imgs": [
+    "tg_1eaa56f0.jpg",
+    "tg_3435c02c_top.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 30,
+   "bio_at_word": 38,
+   "button": "REJOINS LA FAMILLE",
+   "start": 70.447,
+   "end": 83.493,
+   "subs_t": 80.687,
+   "bio_t": 83.067
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.96,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 14,
+   "src": "episodes/ep36_intel_client/broll/b0b.mp4",
+   "start": 2.96,
+   "end": 4.929,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep36_intel_client/broll/b1.mp4",
+   "start": 4.929,
+   "end": 7.332,
+   "beat": 1
+  },
+  {
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b2.mp4",
+   "start": 7.332,
+   "end": 9.932,
+   "beat": 2
+  },
+  {
+   "clip": "b2b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep36_intel_client/broll/b2b.mp4",
+   "start": 9.932,
+   "end": 12.174,
+   "beat": 2
+  },
+  {
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b3.mp4",
+   "start": 12.174,
+   "end": 16.298,
+   "beat": 3
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep36_intel_client/broll/b4.mp4",
+   "start": 16.298,
+   "end": 21.118,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b5.mp4",
+   "start": 21.118,
+   "end": 22.478,
+   "beat": 5
+  },
+  {
+   "clip": "b5b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 6,
+   "src": "episodes/ep36_intel_client/broll/b5b.mp4",
+   "start": 22.478,
+   "end": 24.929,
+   "beat": 5
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep36_intel_client/broll/b6.mp4",
+   "start": 24.929,
+   "end": 28.542,
+   "beat": 6
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b7.mp4",
+   "start": 28.542,
+   "end": 30.374,
+   "beat": 7
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b8.mp4",
+   "start": 30.374,
+   "end": 33.975,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep36_intel_client/broll/b9.mp4",
+   "start": 33.975,
+   "end": 40.219,
+   "beat": 9
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b10.mp4",
+   "start": 40.219,
+   "end": 42.559,
+   "beat": 10
+  },
+  {
+   "clip": "b10b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep36_intel_client/broll/b10b.mp4",
+   "start": 42.559,
+   "end": 44.594,
+   "beat": 10
+  },
+  {
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b11.mp4",
+   "start": 44.594,
+   "end": 49.157,
+   "beat": 11
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep36_intel_client/broll/b13.mp4",
+   "start": 49.157,
+   "end": 52.888,
+   "beat": 12
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b14.mp4",
+   "start": 52.888,
+   "end": 54.648,
+   "beat": 13
+  },
+  {
+   "clip": "b14b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep36_intel_client/broll/b14b.mp4",
+   "start": 54.648,
+   "end": 58.44,
+   "beat": 13
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b15.mp4",
+   "start": 58.44,
+   "end": 61.843,
+   "beat": 14
+  },
+  {
+   "clip": "b16.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b16.mp4",
+   "start": 61.843,
+   "end": 66.663,
+   "beat": 15
+  },
+  {
+   "clip": "b17.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep36_intel_client/broll/b17.mp4",
+   "start": 66.663,
+   "end": 70.447,
+   "beat": 16
+  },
+  {
+   "blur_prev": true,
+   "start": 70.447,
+   "end": 85.293,
+   "beat": 17
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 2.91,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 3.0,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 4.869,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 5.049,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 7.752,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 9.882,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 12.124,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 12.314,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 16.238,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 16.418,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 21.578,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 22.428,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 24.869,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 25.049,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 25.949,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 29.102,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 30.324,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 30.374,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 33.574,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 33.925,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 34.075,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 34.275,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 34.365,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 34.455,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 34.545,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 34.635,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 40.219,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 40.469,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 40.809,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 41.189,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 42.509,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 42.549,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 44.544,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 44.694,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 49.097,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 49.277,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 53.028,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 54.598,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 55.288,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 58.39,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 58.44,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 59.25,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 60.31,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 60.71,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 61.793,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 61.843,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 62.713,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 65.353,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 66.613,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 67.263,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 70.397,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 70.497,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 70.797,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 80.687,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 82.893,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 83.067,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 83.493,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   83.493,
+   86.29299999999999
+  ]
+ ],
+ "endcard": {
+  "start": 83.493,
+  "button": "REJOINS LA FAMILLE",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "19 novembre 2026"
+}

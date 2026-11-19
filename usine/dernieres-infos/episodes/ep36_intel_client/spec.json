@@ -1,0 +1,576 @@
+{
+ "id": "ep36_intel_client",
+ "date_label": "19 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "chip",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Pendant que les marchés paniquent, sur mon Telegram on garde la tête froide",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://finance.yahoo.com/markets/stocks/articles/stock-futures-climb-ahead-anthropics-110203603.html",
+  "https://stocktwits.com/news-articles/markets/equity/nvda-intc-stocks-ease-post-5-day-rout-after-meeting-xi-jinping-trump-says-nvidia-blackwell-chips-could-reach-china-within-2-3-years/cNbiTxFR9io",
+  "https://longbridge.com/en/news/306044243",
+  "https://www.gurufocus.com/news/9209413/intel-intc-signs-first-external-customer-for-18a-chip-tech-shares-rise-26",
+  "https://seekingalpha.com/news/4674509-intel-lands-first-external-customer-for-18a-p-chips"
+ ],
+ "beats": [
+  {
+   "text": "Intel a perdu plus de la moitié de sa valeur en deux mois. Et pourtant, ce matin, elle rebondit.",
+   "say": "Intel a perdu plus de la moitié de sa valeur en deux mois... Et pourtant, ce matin, elle rebondit.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 19 novembre 2026 · avant Wall Street",
+     "until_beat": 0
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PLUS DE −50 %",
+      "ET POURTANT…"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "stock",
+     "key": "INTC",
+     "name": "Intel",
+     "sub": "INTC · Nasdaq · depuis fin septembre",
+     "size": "big",
+     "y": 600,
+     "at_word": 14
+    }
+   ]
+  },
+  {
+   "text": "Près de 5 % de hausse avant l'ouverture.",
+   "say": "Près de cinq pour cent de hausse... avant l'ouverture.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INTEL · PRÉOUVERTURE",
+     "value_from": 0,
+     "value_to": 4.65,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "APRÈS 5 SÉANCES DE BAISSE",
+     "desc": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York"
+    }
+   ]
+  },
+  {
+   "text": "La raison ? Son tout premier client extérieur pour sa gravure la plus avancée, le 18A.",
+   "say": "La raison ? Son tout premier client extérieur... pour sa gravure la plus avancée, le dix-huit A.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b2b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "INTEL FOUNDRY",
+     "right": "18 NOV.",
+     "tag": "CONTRAT",
+     "headline": "Intel signe son premier client externe pour sa technologie 18A-P",
+     "highlight": "premier client externe",
+     "sub": "GuruFocus · Seeking Alpha · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Son patron, Lip-Bu Tan, l'a annoncé hier à Austin, au Texas.",
+   "say": "Son patron, Lip-Bu Tan, l'a annoncé hier à Austin, au Texas.",
+   "bg": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "SOMMET TOMORROWX · AUSTIN",
+     "right": "18 NOV.",
+     "tag": "CITATION",
+     "headline": "« Et puis le 18A… nous venons de signer le premier client » — Lip-Bu Tan, PDG d'Intel",
+     "highlight": "premier client",
+     "sub": "Stocktwits · 19 nov. 2026 · Zhitong (Longbridge) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Fin octobre, Intel a prévenu : ses ventes du trimestre manqueront d'au moins 1 milliard de dollars.",
+   "say": "Fin octobre, Intel a prévenu : ses ventes du trimestre manqueront d'au moins un milliard de dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "VENTES VS ATTENTES",
+     "value_from": 0,
+     "value_to": 1,
+     "decimals": 0,
+     "prefix": "− ",
+     "suffix": " Md$",
+     "color": "red",
+     "pill": "AU MOINS · PC EN BERNE",
+     "desc": "Zhitong (Longbridge) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et le marché des PC restera déprimé jusqu'à mi-2027 au moins.",
+   "say": "Et le marché des P.C. restera déprimé jusqu'à mi-deux-mille-vingt-sept au moins.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b5.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b5b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "INTEL · PRÉVISIONS",
+     "right": "29 OCT.",
+     "tag": "ALERTE",
+     "headline": "Le marché des PC restera en crise au moins jusqu'au premier semestre 2027",
+     "highlight": "premier semestre 2027",
+     "sub": "Stocktwits · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Cette semaine, même Nvidia a réduit d'un quart sa participation.",
+   "say": "Cette semaine, même Nvidia a réduit d'un quart sa participation.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b6.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NVIDIA ALLÈGE INTEL",
+     "value_from": 0,
+     "value_to": 25,
+     "decimals": 0,
+     "prefix": "− ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "CETTE SEMAINE",
+     "desc": "Stocktwits · 19 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Allège sa ligne Intel",
+     "y": 1380,
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui est ce mystérieux client ?",
+   "say": "Alors... qui est ce mystérieux client ?",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI EST CE",
+      "MYSTÉRIEUX CLIENT ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce suspense, je le suis en temps réel sur mon Telegram. Lien en bio.",
+   "say": "Ce suspense, je le suis en temps réel sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Intel garde le nom secret. L'analyste Ben Bajarin cite trois pistes : Nvidia, Apple… ou un géant du cloud.",
+   "say": "Intel garde le nom secret. L'analyste Ben Bajarine cite trois pistes : Nvidia, Apple... ou un géant du cloud.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "LES PISTES DE BEN BAJARIN",
+     "value_from": 0,
+     "value_to": 3,
+     "decimals": 0,
+     "suffix": " PISTES",
+     "color": "gold",
+     "pill": "CREATIVE STRATEGIES",
+     "keys": [
+      "NVDA",
+      "AAPL",
+      "AMZN",
+      "MSFT",
+      "GOOGL"
+     ],
+     "desc": "Zhitong (Longbridge) · 19 nov. 2026 · hypothèses, rien de confirmé"
+    }
+   ]
+  },
+  {
+   "text": "Car les géants du cloud manquent de capacité chez TSMC, le leader taïwanais.",
+   "say": "Car les géants du cloud manquent de capacité chez T.S.M.C., le leader taïwanais.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LE GOULOT D'ÉTRANGLEMENT",
+     "rows": [
+      {
+       "name": "Amazon",
+       "pct": "CLOUD",
+       "at_word": 2,
+       "key": "AMZN",
+       "up": true
+      },
+      {
+       "name": "Microsoft",
+       "pct": "CLOUD",
+       "at_word": 4,
+       "key": "MSFT",
+       "up": true
+      },
+      {
+       "name": "Google",
+       "pct": "CLOUD",
+       "at_word": 5,
+       "key": "GOOGL",
+       "up": true
+      },
+      {
+       "name": "TSMC · capacités saturées",
+       "pct": "N°1 MONDIAL",
+       "at_word": 9,
+       "key": "TSM",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Zhitong (Longbridge) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et Microsoft devient le premier client affiché de son assemblage de puces EMIB.",
+   "say": "Et Microsoft devient le premier client affiché de son assemblage de puces E.M.I.B.",
+   "bg": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "MSFT",
+     "name": "Microsoft",
+     "sub": "1er client public d'Intel pour l'EMIB",
+     "y": 560,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Zhitong (Longbridge) · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "L'enjeu dépasse la Bourse : l'État américain détient 10 % d'Intel.",
+   "say": "L'enjeu dépasse la Bourse : l'État américain détient dix pour cent d'Intel.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PART DE L'ÉTAT AMÉRICAIN",
+     "value_from": 0,
+     "value_to": 10,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "DEPUIS AOÛT 2025",
+     "desc": "Zhitong (Longbridge) · 19 nov. 2026 · Nvidia a aussi investi 5 Md$"
+    }
+   ]
+  },
+  {
+   "text": "Et Trump ouvre une porte : les puces Blackwell de Nvidia pourraient arriver en Chine d'ici deux ou trois ans.",
+   "say": "Et Trump ouvre une porte : les puces Blackwell de Nvidia pourraient arriver en Chine... d'ici deux ou trois ans.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b14.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b14b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "APRÈS LA RENCONTRE AVEC XI JINPING",
+     "right": "FOX NEWS",
+     "tag": "CITATION",
+     "headline": "« Dans deux ou trois ans, je dirais : allez-y, vous pouvez vendre des Blackwell » — Donald Trump",
+     "highlight": "deux ou trois ans",
+     "sub": "Stocktwits · 19 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "+2 % en préouverture",
+     "y": 1380,
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Résultat : le Nasdaq est attendu en hausse d'environ 2 %.",
+   "say": "Résultat : le Nasdaq est attendu en hausse d'environ deux pour cent.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "FUTURES · 5H30 À NEW YORK",
+     "rows": [
+      {
+       "name": "Nasdaq 100",
+       "pct": "+2,06 %",
+       "at_word": 2,
+       "up": true
+      },
+      {
+       "name": "Intel",
+       "pct": "+4,65 %",
+       "at_word": 6,
+       "key": "INTC",
+       "up": true
+      },
+      {
+       "name": "Nvidia",
+       "pct": "+2 %",
+       "at_word": 7,
+       "key": "NVDA",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York"
+    }
+   ]
+  },
+  {
+   "text": "Prochain rendez-vous : 15h30, l'ouverture de Wall Street, et les débuts d'Anthropic en Bourse.",
+   "say": "Prochain rendez-vous : quinze heures trente, l'ouverture de Wall Street... et les débuts d'Anthropic en Bourse.",
+   "bg": {
+    "clip": "b16.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER CET APRÈS-MIDI",
+     "rows": [
+      {
+       "name": "Intel · tient-elle sa hausse ?",
+       "pct": "15H30",
+       "at_word": 2,
+       "key": "INTC",
+       "up": true
+      },
+      {
+       "name": "Anthropic · 1re cotation",
+       "pct": "NASDAQ",
+       "at_word": 10,
+       "key": "ANT",
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Stocktwits (Yahoo Finance) · 19 nov. 2026, 5h30 heure de New York"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Intel peut-elle vraiment rattraper TSMC ? Dis-le en commentaire.",
+   "say": "Alors... Intel peut-elle vraiment rattraper T.S.M.C. ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b17.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "INTEL PEUT-ELLE",
+      "RATTRAPER TSMC ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Pendant que les marchés paniquent, sur mon Telegram gratuit on garde la tête froide : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Plus de 22 000 personnes déjà. Rejoins la famille, lien en bio.",
+   "say": "Pendant que les marchés paniquent, sur mon Telegram gratuit on garde la tête froide : l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Plus de vingt-deux mille personnes déjà. Rejoins la famille, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Intel : le client mystère, mon analyse",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 30,
+     "bio_at_word": 38,
+     "button": "REJOINS LA FAMILLE"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINS LA FAMILLE",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

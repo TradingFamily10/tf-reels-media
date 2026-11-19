@@ -483,5 +483,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/6a0789753c2bd9fbea3f3dde37ba3bbbeae663c6/2026-11-19_ep35_anthropic_ipo.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=7398772544060081705",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "14:55",
+  "id": "ep36_intel_client",
+  "topic": "Intel, jeu. 19/11 avant Wall Street : premier client externe (non nommé) pour le 18A-P, annoncé par Lip-Bu Tan mer. 18/11 au sommet TomorrowX d'Austin (GuruFocus, Seeking Alpha, Stocktwits, Longbridge 19/11) ; INTC +4,65 % en préouverture à 5h30 ET, Nasdaq 100 futures +2,06 %, Nvidia +2 % (Stocktwits/Yahoo 19/11) ; INTC +2,6 % after-hours à 54,67 $ (GuruFocus) ; action divisée par plus de 2 depuis fin sept., ventes du trimestre ≥ 1 Md$ sous les attentes, PC en crise jusqu'au S1 2027, Ben Bajarin : Nvidia, Apple ou cloud (Amazon, Microsoft, Google) en manque de capacité TSMC, Microsoft 1er client public EMIB, État US 10 % depuis août 2025, Nvidia 5 Md$ (Longbridge) ; Nvidia −25 % sur sa ligne Intel, accord Xeon pluriannuel Azure, Trump : Blackwell en Chine d'ici 2-3 ans (Stocktwits) ; logos INTC, NVDA, AAPL, AMZN, MSFT, GOOGL, TSM, ANT",
+  "hook_type": "chip",
+  "hook_formula": "contre-intuitif",
+  "cta_angle": "Pendant que les marchés paniquent, sur mon Telegram on garde la tête froide",
+  "title": "Intel : le client mystère qui relance l'action",
+  "caption": "Plus de la moitié de sa valeur envolée depuis fin septembre… et Intel rebondit avant l'ouverture de Wall Street.\nSon patron annonce un premier client extérieur pour sa gravure la plus avancée, le 18A, sans dire qui. Nvidia, Apple ou un géant du cloud ?\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #intel #semiconducteurs #wallstreet #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/546a69a597dbda64a8938a0ef6c9e51623ee7a03/2026-11-19_ep36_intel_client.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-8531249983469894981",
+  "tiktok": "metricool"
  }
 ]
