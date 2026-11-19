@@ -1,0 +1,527 @@
+{
+ "id": "ep34_assureurs_medicare",
+ "date_label": "19 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "La prochaine secousse, tu veux la subir ou la voir venir ?",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+  "https://beinsure.com/news/healthcare-stocks-fall-as-medicare-rules-trigger-a-selloff/",
+  "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html",
+  "https://www.alainguillot.com/stock-market-recap-november-18-2026/"
+ ],
+ "beats": [
+  {
+   "text": "90 milliards de dollars. C'est ce que Washington veut reprendre aux assureurs santé.",
+   "say": "Quatre-vingt-dix milliards de dollars... C'est ce que Washington veut reprendre aux assureurs santé.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Jeudi 19 novembre 2026 · Wall Street hier soir",
+     "until_beat": 1
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 90,
+     "prefix": "",
+     "suffix": " Md$",
+     "unit": "À RÉCUPÉRER EN 10 ANS",
+     "label": "Estimation de l'agence Medicare (CMS) · 2027-2036",
+     "logos": [
+      "UNH",
+      "HUM",
+      "CVS"
+     ],
+     "reveal_at_word": 7,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Résultat : UnitedHealth s'effondre de 10 % en une seule séance.",
+   "say": "Résultat : UnitedHealth s'effondre de dix pour cent... en une seule séance.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "UNITEDHEALTH · MER. 18 NOV.",
+     "value_from": 0,
+     "value_to": -10.2,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "CLÔTURE ≈ 349,81 $",
+     "desc": "CappNotes · clôture du 18 nov. 2026 · Beinsure · 18 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "UNH",
+     "name": "UnitedHealth",
+     "sub": "UNH · NYSE · 18 nov. 2026",
+     "pct": "−10,21 %",
+     "up": false,
+     "y": 1380,
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : Humana plonge de 13 %. Elevance, Centene et CVS suivent.",
+   "say": "Et ce n'est pas le pire : Humana plonge de treize pour cent. Elevance, Centene et C.V.S. suivent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b2b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "ASSUREURS SANTÉ · 18 NOV.",
+     "rows": [
+      {
+       "name": "Humana",
+       "pct": "−12,98 %",
+       "at_word": 6,
+       "key": "HUM",
+       "up": false
+      },
+      {
+       "name": "Elevance",
+       "pct": "−7,63 %",
+       "at_word": 10,
+       "key": "ELV",
+       "up": false
+      },
+      {
+       "name": "Centene",
+       "pct": "−7,03 %",
+       "at_word": 11,
+       "key": "CNC",
+       "up": false
+      },
+      {
+       "name": "CVS Health",
+       "pct": "−5,20 %",
+       "at_word": 13,
+       "key": "CVS",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "CappNotes · clôture du 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "UnitedHealth en tête, le Dow Jones recule de 561 points.",
+   "say": "UnitedHealth en tête, le Dow Jones recule de cinq cent soixante et un points.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "DOW JONES · MER. 18 NOV.",
+     "value_from": 0,
+     "value_to": -561,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "red",
+     "pill": "POINTS PERDUS · −1,11 % · 50 198",
+     "desc": "UnitedHealth ≈ 4,3 % de l'indice (Yahoo Finance) · CappNotes · clôture du 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a déclenché cette panique ?",
+   "say": "Alors... qui a déclenché cette panique ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A DÉCLENCHÉ",
+      "CETTE PANIQUE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette secousse, je la suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Cette secousse, je la suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Le coupable, c'est l'État américain lui-même. Son agence Medicare vient de dévoiler un plan baptisé CRUSH.",
+   "say": "Le coupable... c'est l'État américain lui-même. Son agence Medicare vient de dévoiler un plan baptisé Creuche.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b7.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b7b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "CMS · AGENCE MEDICARE",
+     "right": "16 NOV.",
+     "tag": "ALERTE",
+     "headline": "« CRUSH » : le nouveau plan anti-fraude de Medicare vise les assureurs privés",
+     "highlight": "vise les assureurs privés",
+     "sub": "Beinsure · 18 nov. 2026 · Yahoo Finance · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le principe : contrôler un échantillon de dossiers… puis étendre les erreurs à tout le contrat.",
+   "say": "Le principe : contrôler un échantillon de dossiers... puis étendre les erreurs à tout le contrat.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b8b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "UN ÉCHANTILLON…",
+      "TOUT LE CONTRAT"
+     ],
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "Audits RADV · Medicare Advantage · Beinsure · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ces contrôles remonteraient jusqu'aux paiements de 2018.",
+   "say": "Et ces contrôles remonteraient jusqu'aux paiements de deux mille dix-huit.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "AUDITS MEDICARE ADVANTAGE",
+     "value_from": 2026,
+     "value_to": 2018,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "gold",
+     "pill": "ANNÉE DE PAIEMENT DE DÉPART",
+     "desc": "Règle proposée le 16 nov. 2026 · Beinsure · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Selon l'agence, près de 9 milliards de dollars de trop-perçus par année de paiement.",
+   "say": "Selon l'agence, près de neuf milliards de dollars de trop-perçus... par année de paiement.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TROP-PERÇUS RÉCUPÉRABLES",
+     "value_from": 0,
+     "value_to": 9,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "PAR ANNÉE DE PAIEMENT",
+     "desc": "Estimation CMS · Beinsure · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Washington cite des abus : des fauteuils roulants fantômes facturés, des seniors en bonne santé placés en soins palliatifs.",
+   "say": "Washington cite des abus : des fauteuils roulants fantômes facturés... des seniors en bonne santé placés en soins palliatifs.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b11.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b11b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "HHS · CMS",
+     "right": "16 NOV.",
+     "tag": "EXEMPLES CITÉS",
+     "headline": "Fauteuils roulants inexistants facturés, seniors en bonne santé inscrits en soins palliatifs",
+     "highlight": "inexistants",
+     "sub": "Yahoo Finance · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le plus frappant ? La santé chute de plus de 2 %… pendant que la tech monte.",
+   "say": "Le plus frappant ? La santé chute de plus de deux pour cent... pendant que la tech monte.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "SECTEUR SANTÉ · S&P 500",
+      "value_to": -2.2,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "CappNotes · clôture du 18 nov. 2026"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "SECTEUR TECH · S&P 500",
+      "value_to": 0.34,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Nasdaq +0,42 % · CappNotes · clôture du 18 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mais rien n'est joué : un tribunal a annulé une règle similaire en 2025. Et Oppenheimer prévoit de nouveaux recours.",
+   "say": "Mais rien n'est joué : un tribunal a annulé une règle similaire en deux mille vingt-cinq. Et Oppenheimer prévoit de nouveaux recours.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 14,
+     "left": "OPPENHEIMER · ANALYSTES",
+     "right": "18 NOV.",
+     "tag": "CITATION",
+     "headline": "« La CMS fera face aux mêmes recours juridiques qu'en 2025 »",
+     "highlight": "mêmes recours juridiques",
+     "sub": "Yahoo Finance · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller : l'avis du public sur ce plan est ouvert jusqu'au 19 janvier.",
+   "say": "À surveiller : l'avis du public sur ce plan est ouvert jusqu'au dix-neuf janvier.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER",
+     "rows": [
+      {
+       "name": "UnitedHealth",
+       "pct": "349,81 $",
+       "at_word": 0,
+       "key": "UNH",
+       "up": false
+      },
+      {
+       "name": "Humana",
+       "pct": "−12,98 %",
+       "at_word": 7,
+       "key": "HUM",
+       "up": false
+      },
+      {
+       "name": "Fin des commentaires",
+       "pct": "19 JANV.",
+       "at_word": 11,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Beinsure · 18 nov. 2026 · Yahoo Finance · 18 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, simple coup de semonce… ou début d'une longue descente pour les assureurs ? Dis-le en commentaire.",
+   "say": "Alors... simple coup de semonce... ou début d'une longue descente pour les assureurs ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "COUP DE SEMONCE",
+      "OU LONGUE DESCENTE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "La prochaine secousse, tu veux la subir ou la voir venir ? Mon canal Telegram gratuit, c'est plus de 22 000 personnes, l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Lien en bio.",
+   "say": "La prochaine secousse, tu veux la subir ou la voir venir ? Mon canal Telegram gratuit, c'est plus de vingt-deux mille personnes, l'actu géopolitique et financière décortiquée, des analyses d'actions détaillées, les opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Assureurs santé : ce que prépare Washington",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_38e4f34b.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 18,
+     "bio_at_word": 36,
+     "button": "REJOINDRE LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "REJOINDRE LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

@@ -1,0 +1,3475 @@
+{
+ "fps": 30,
+ "duration": 90.203,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.492,
+   "w0": 0,
+   "w1": 12,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.552,
+   "end": 9.038,
+   "w0": 13,
+   "w1": 21,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 9.098,
+   "end": 14.841,
+   "w0": 22,
+   "w1": 36,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 14.901,
+   "end": 19.155,
+   "w0": 37,
+   "w1": 46,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 19.215,
+   "end": 21.194,
+   "w0": 47,
+   "w1": 52,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 21.254,
+   "end": 25.043,
+   "w0": 53,
+   "w1": 65,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 25.103,
+   "end": 31.348,
+   "w0": 66,
+   "w1": 81,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 31.408,
+   "end": 36.946,
+   "w0": 82,
+   "w1": 96,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 37.006,
+   "end": 40.339,
+   "w0": 97,
+   "w1": 104,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 40.399,
+   "end": 45.042,
+   "w0": 105,
+   "w1": 118,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 45.102,
+   "end": 52.255,
+   "w0": 119,
+   "w1": 136,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 52.315,
+   "end": 57.229,
+   "w0": 137,
+   "w1": 151,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 57.289,
+   "end": 64.346,
+   "w0": 152,
+   "w1": 170,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 64.406,
+   "end": 68.507,
+   "w0": 171,
+   "w1": 183,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 68.567,
+   "end": 74.236,
+   "w0": 184,
+   "w1": 199,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_14.wav"
+  },
+  {
+   "i": 15,
+   "start": 74.296,
+   "end": 88.293,
+   "w0": 200,
+   "w1": 236,
+   "voice": "episodes/ep34_assureurs_medicare/voice/beat_15.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "90",
+   "start": 0.0,
+   "end": 0.3,
+   "beat": 0
+  },
+  {
+   "w": "milliards",
+   "start": 0.3,
+   "end": 0.88,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 0.88,
+   "end": 1.12,
+   "beat": 0
+  },
+  {
+   "w": "dollars.",
+   "start": 1.12,
+   "end": 1.4,
+   "beat": 0
+  },
+  {
+   "w": "C'est",
+   "start": 1.82,
+   "end": 1.9,
+   "beat": 0
+  },
+  {
+   "w": "ce",
+   "start": 1.9,
+   "end": 1.94,
+   "beat": 0
+  },
+  {
+   "w": "que",
+   "start": 1.94,
+   "end": 2.04,
+   "beat": 0
+  },
+  {
+   "w": "Washington",
+   "start": 2.04,
+   "end": 2.42,
+   "beat": 0
+  },
+  {
+   "w": "veut",
+   "start": 2.42,
+   "end": 2.88,
+   "beat": 0
+  },
+  {
+   "w": "reprendre",
+   "start": 2.88,
+   "end": 3.38,
+   "beat": 0
+  },
+  {
+   "w": "aux",
+   "start": 3.38,
+   "end": 3.62,
+   "beat": 0
+  },
+  {
+   "w": "assureurs",
+   "start": 3.62,
+   "end": 4.08,
+   "beat": 0
+  },
+  {
+   "w": "santé.",
+   "start": 4.08,
+   "end": 4.32,
+   "beat": 0
+  },
+  {
+   "w": "Résultat :",
+   "start": 4.552,
+   "end": 5.212,
+   "beat": 1
+  },
+  {
+   "w": "UnitedHealth",
+   "start": 5.372,
+   "end": 5.752,
+   "beat": 1
+  },
+  {
+   "w": "s'effondre",
+   "start": 6.492,
+   "end": 6.892,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 6.892,
+   "end": 7.032,
+   "beat": 1
+  },
+  {
+   "w": "10 %",
+   "start": 7.032,
+   "end": 7.292,
+   "beat": 1
+  },
+  {
+   "w": "en",
+   "start": 7.692,
+   "end": 8.012,
+   "beat": 1
+  },
+  {
+   "w": "une",
+   "start": 8.012,
+   "end": 8.212,
+   "beat": 1
+  },
+  {
+   "w": "seule",
+   "start": 8.212,
+   "end": 8.432,
+   "beat": 1
+  },
+  {
+   "w": "séance.",
+   "start": 8.432,
+   "end": 8.912,
+   "beat": 1
+  },
+  {
+   "w": "Et",
+   "start": 9.098,
+   "end": 9.338,
+   "beat": 2
+  },
+  {
+   "w": "ce",
+   "start": 9.338,
+   "end": 9.418,
+   "beat": 2
+  },
+  {
+   "w": "n'est",
+   "start": 9.438,
+   "end": 9.518,
+   "beat": 2
+  },
+  {
+   "w": "pas",
+   "start": 9.518,
+   "end": 9.638,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 9.638,
+   "end": 9.698,
+   "beat": 2
+  },
+  {
+   "w": "pire :",
+   "start": 9.698,
+   "end": 10.018,
+   "beat": 2
+  },
+  {
+   "w": "Humana",
+   "start": 10.158,
+   "end": 10.558,
+   "beat": 2
+  },
+  {
+   "w": "plonge",
+   "start": 10.558,
+   "end": 10.938,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 10.938,
+   "end": 11.078,
+   "beat": 2
+  },
+  {
+   "w": "13 %.",
+   "start": 11.078,
+   "end": 11.378,
+   "beat": 2
+  },
+  {
+   "w": "Elevance,",
+   "start": 11.378,
+   "end": 12.598,
+   "beat": 2
+  },
+  {
+   "w": "Centene",
+   "start": 12.598,
+   "end": 13.338,
+   "beat": 2
+  },
+  {
+   "w": "et",
+   "start": 13.338,
+   "end": 13.538,
+   "beat": 2
+  },
+  {
+   "w": "CVS",
+   "start": 13.538,
+   "end": 14.198,
+   "beat": 2
+  },
+  {
+   "w": "suivent.",
+   "start": 14.198,
+   "end": 14.818,
+   "beat": 2
+  },
+  {
+   "w": "UnitedHealth",
+   "start": 14.901,
+   "end": 15.301,
+   "beat": 3
+  },
+  {
+   "w": "en",
+   "start": 15.821,
+   "end": 16.081,
+   "beat": 3
+  },
+  {
+   "w": "tête,",
+   "start": 16.081,
+   "end": 16.381,
+   "beat": 3
+  },
+  {
+   "w": "le",
+   "start": 16.681,
+   "end": 16.761,
+   "beat": 3
+  },
+  {
+   "w": "Dow",
+   "start": 16.761,
+   "end": 16.941,
+   "beat": 3
+  },
+  {
+   "w": "Jones",
+   "start": 16.941,
+   "end": 17.241,
+   "beat": 3
+  },
+  {
+   "w": "recule",
+   "start": 17.241,
+   "end": 17.801,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 17.801,
+   "end": 17.921,
+   "beat": 3
+  },
+  {
+   "w": "561",
+   "start": 17.921,
+   "end": 18.821,
+   "beat": 3
+  },
+  {
+   "w": "points.",
+   "start": 18.821,
+   "end": 19.061,
+   "beat": 3
+  },
+  {
+   "w": "Alors,",
+   "start": 19.215,
+   "end": 19.415,
+   "beat": 4
+  },
+  {
+   "w": "qui",
+   "start": 19.735,
+   "end": 19.895,
+   "beat": 4
+  },
+  {
+   "w": "a",
+   "start": 19.895,
+   "end": 20.015,
+   "beat": 4
+  },
+  {
+   "w": "déclenché",
+   "start": 20.015,
+   "end": 20.475,
+   "beat": 4
+  },
+  {
+   "w": "cette",
+   "start": 20.475,
+   "end": 20.615,
+   "beat": 4
+  },
+  {
+   "w": "panique ?",
+   "start": 20.615,
+   "end": 21.075,
+   "beat": 4
+  },
+  {
+   "w": "Cette",
+   "start": 21.254,
+   "end": 21.474,
+   "beat": 5
+  },
+  {
+   "w": "secousse,",
+   "start": 21.474,
+   "end": 21.994,
+   "beat": 5
+  },
+  {
+   "w": "je",
+   "start": 22.094,
+   "end": 22.254,
+   "beat": 5
+  },
+  {
+   "w": "la",
+   "start": 22.254,
+   "end": 22.394,
+   "beat": 5
+  },
+  {
+   "w": "suis",
+   "start": 22.394,
+   "end": 22.574,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 22.574,
+   "end": 22.694,
+   "beat": 5
+  },
+  {
+   "w": "direct",
+   "start": 22.694,
+   "end": 22.934,
+   "beat": 5
+  },
+  {
+   "w": "sur",
+   "start": 22.934,
+   "end": 23.194,
+   "beat": 5
+  },
+  {
+   "w": "mon",
+   "start": 23.194,
+   "end": 23.334,
+   "beat": 5
+  },
+  {
+   "w": "Telegram.",
+   "start": 23.334,
+   "end": 24.074,
+   "beat": 5
+  },
+  {
+   "w": "Lien",
+   "start": 24.094,
+   "end": 24.374,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 24.374,
+   "end": 24.674,
+   "beat": 5
+  },
+  {
+   "w": "bio.",
+   "start": 24.674,
+   "end": 24.874,
+   "beat": 5
+  },
+  {
+   "w": "Le",
+   "start": 25.103,
+   "end": 25.263,
+   "beat": 6
+  },
+  {
+   "w": "coupable,",
+   "start": 25.263,
+   "end": 25.703,
+   "beat": 6
+  },
+  {
+   "w": "c'est",
+   "start": 26.103,
+   "end": 26.163,
+   "beat": 6
+  },
+  {
+   "w": "l'État",
+   "start": 26.263,
+   "end": 26.443,
+   "beat": 6
+  },
+  {
+   "w": "américain",
+   "start": 26.443,
+   "end": 26.963,
+   "beat": 6
+  },
+  {
+   "w": "lui-même.",
+   "start": 27.143,
+   "end": 27.423,
+   "beat": 6
+  },
+  {
+   "w": "Son",
+   "start": 27.643,
+   "end": 27.863,
+   "beat": 6
+  },
+  {
+   "w": "agence",
+   "start": 27.863,
+   "end": 28.363,
+   "beat": 6
+  },
+  {
+   "w": "Medicare",
+   "start": 28.363,
+   "end": 29.143,
+   "beat": 6
+  },
+  {
+   "w": "vient",
+   "start": 29.143,
+   "end": 29.443,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 29.443,
+   "end": 29.603,
+   "beat": 6
+  },
+  {
+   "w": "dévoiler",
+   "start": 29.603,
+   "end": 29.983,
+   "beat": 6
+  },
+  {
+   "w": "un",
+   "start": 29.983,
+   "end": 30.103,
+   "beat": 6
+  },
+  {
+   "w": "plan",
+   "start": 30.103,
+   "end": 30.323,
+   "beat": 6
+  },
+  {
+   "w": "baptisé",
+   "start": 30.323,
+   "end": 30.823,
+   "beat": 6
+  },
+  {
+   "w": "CRUSH.",
+   "start": 30.823,
+   "end": 31.123,
+   "beat": 6
+  },
+  {
+   "w": "Le",
+   "start": 31.408,
+   "end": 31.728,
+   "beat": 7
+  },
+  {
+   "w": "principe :",
+   "start": 31.728,
+   "end": 32.128,
+   "beat": 7
+  },
+  {
+   "w": "contrôler",
+   "start": 32.468,
+   "end": 32.988,
+   "beat": 7
+  },
+  {
+   "w": "un",
+   "start": 32.988,
+   "end": 33.108,
+   "beat": 7
+  },
+  {
+   "w": "échantillon",
+   "start": 33.108,
+   "end": 33.648,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 33.648,
+   "end": 33.788,
+   "beat": 7
+  },
+  {
+   "w": "dossiers…",
+   "start": 33.788,
+   "end": 34.288,
+   "beat": 7
+  },
+  {
+   "w": "puis",
+   "start": 34.708,
+   "end": 34.788,
+   "beat": 7
+  },
+  {
+   "w": "étendre",
+   "start": 34.788,
+   "end": 35.328,
+   "beat": 7
+  },
+  {
+   "w": "les",
+   "start": 35.328,
+   "end": 35.568,
+   "beat": 7
+  },
+  {
+   "w": "erreurs",
+   "start": 35.568,
+   "end": 36.068,
+   "beat": 7
+  },
+  {
+   "w": "à",
+   "start": 36.068,
+   "end": 36.228,
+   "beat": 7
+  },
+  {
+   "w": "tout",
+   "start": 36.228,
+   "end": 36.428,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 36.428,
+   "end": 36.508,
+   "beat": 7
+  },
+  {
+   "w": "contrat.",
+   "start": 36.508,
+   "end": 36.748,
+   "beat": 7
+  },
+  {
+   "w": "Et",
+   "start": 37.006,
+   "end": 37.126,
+   "beat": 8
+  },
+  {
+   "w": "ces",
+   "start": 37.126,
+   "end": 37.266,
+   "beat": 8
+  },
+  {
+   "w": "contrôles",
+   "start": 37.266,
+   "end": 37.826,
+   "beat": 8
+  },
+  {
+   "w": "remonteraient",
+   "start": 37.826,
+   "end": 38.746,
+   "beat": 8
+  },
+  {
+   "w": "jusqu'aux",
+   "start": 38.746,
+   "end": 38.866,
+   "beat": 8
+  },
+  {
+   "w": "paiements",
+   "start": 39.066,
+   "end": 39.346,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 39.346,
+   "end": 39.486,
+   "beat": 8
+  },
+  {
+   "w": "2018.",
+   "start": 39.486,
+   "end": 39.806,
+   "beat": 8
+  },
+  {
+   "w": "Selon",
+   "start": 40.399,
+   "end": 40.919,
+   "beat": 9
+  },
+  {
+   "w": "l'agence,",
+   "start": 41.019,
+   "end": 41.439,
+   "beat": 9
+  },
+  {
+   "w": "près",
+   "start": 41.599,
+   "end": 41.739,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 41.739,
+   "end": 41.899,
+   "beat": 9
+  },
+  {
+   "w": "9",
+   "start": 41.899,
+   "end": 42.159,
+   "beat": 9
+  },
+  {
+   "w": "milliards",
+   "start": 42.159,
+   "end": 42.439,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 42.439,
+   "end": 42.699,
+   "beat": 9
+  },
+  {
+   "w": "dollars",
+   "start": 42.699,
+   "end": 42.979,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 42.979,
+   "end": 43.179,
+   "beat": 9
+  },
+  {
+   "w": "trop-perçus",
+   "start": 43.419,
+   "end": 43.919,
+   "beat": 9
+  },
+  {
+   "w": "par",
+   "start": 43.919,
+   "end": 44.299,
+   "beat": 9
+  },
+  {
+   "w": "année",
+   "start": 44.299,
+   "end": 44.579,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 44.579,
+   "end": 44.719,
+   "beat": 9
+  },
+  {
+   "w": "paiement.",
+   "start": 44.719,
+   "end": 44.959,
+   "beat": 9
+  },
+  {
+   "w": "Washington",
+   "start": 45.102,
+   "end": 45.602,
+   "beat": 10
+  },
+  {
+   "w": "cite",
+   "start": 45.602,
+   "end": 46.102,
+   "beat": 10
+  },
+  {
+   "w": "des",
+   "start": 46.102,
+   "end": 46.342,
+   "beat": 10
+  },
+  {
+   "w": "abus :",
+   "start": 46.342,
+   "end": 46.642,
+   "beat": 10
+  },
+  {
+   "w": "des",
+   "start": 46.922,
+   "end": 47.002,
+   "beat": 10
+  },
+  {
+   "w": "fauteuils",
+   "start": 47.002,
+   "end": 47.382,
+   "beat": 10
+  },
+  {
+   "w": "roulants",
+   "start": 47.382,
+   "end": 47.662,
+   "beat": 10
+  },
+  {
+   "w": "fantômes",
+   "start": 47.662,
+   "end": 48.202,
+   "beat": 10
+  },
+  {
+   "w": "facturés,",
+   "start": 48.202,
+   "end": 48.782,
+   "beat": 10
+  },
+  {
+   "w": "des",
+   "start": 49.182,
+   "end": 49.282,
+   "beat": 10
+  },
+  {
+   "w": "seniors",
+   "start": 49.282,
+   "end": 49.842,
+   "beat": 10
+  },
+  {
+   "w": "en",
+   "start": 49.842,
+   "end": 50.022,
+   "beat": 10
+  },
+  {
+   "w": "bonne",
+   "start": 50.022,
+   "end": 50.222,
+   "beat": 10
+  },
+  {
+   "w": "santé",
+   "start": 50.222,
+   "end": 50.622,
+   "beat": 10
+  },
+  {
+   "w": "placés",
+   "start": 50.622,
+   "end": 51.162,
+   "beat": 10
+  },
+  {
+   "w": "en",
+   "start": 51.162,
+   "end": 51.262,
+   "beat": 10
+  },
+  {
+   "w": "soins",
+   "start": 51.262,
+   "end": 51.522,
+   "beat": 10
+  },
+  {
+   "w": "palliatifs.",
+   "start": 51.522,
+   "end": 52.122,
+   "beat": 10
+  },
+  {
+   "w": "Le",
+   "start": 52.315,
+   "end": 52.495,
+   "beat": 11
+  },
+  {
+   "w": "plus",
+   "start": 52.495,
+   "end": 52.675,
+   "beat": 11
+  },
+  {
+   "w": "frappant ?",
+   "start": 52.675,
+   "end": 53.095,
+   "beat": 11
+  },
+  {
+   "w": "La",
+   "start": 53.355,
+   "end": 53.435,
+   "beat": 11
+  },
+  {
+   "w": "santé",
+   "start": 53.435,
+   "end": 53.855,
+   "beat": 11
+  },
+  {
+   "w": "chute",
+   "start": 53.855,
+   "end": 54.375,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 54.375,
+   "end": 54.575,
+   "beat": 11
+  },
+  {
+   "w": "plus",
+   "start": 54.575,
+   "end": 54.755,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 54.755,
+   "end": 54.895,
+   "beat": 11
+  },
+  {
+   "w": "2 %…",
+   "start": 54.895,
+   "end": 55.155,
+   "beat": 11
+  },
+  {
+   "w": "pendant",
+   "start": 55.475,
+   "end": 55.895,
+   "beat": 11
+  },
+  {
+   "w": "que",
+   "start": 55.895,
+   "end": 56.135,
+   "beat": 11
+  },
+  {
+   "w": "la",
+   "start": 56.135,
+   "end": 56.255,
+   "beat": 11
+  },
+  {
+   "w": "tech",
+   "start": 56.255,
+   "end": 56.555,
+   "beat": 11
+  },
+  {
+   "w": "monte.",
+   "start": 56.555,
+   "end": 57.015,
+   "beat": 11
+  },
+  {
+   "w": "Mais",
+   "start": 57.289,
+   "end": 57.589,
+   "beat": 12
+  },
+  {
+   "w": "rien",
+   "start": 57.589,
+   "end": 57.809,
+   "beat": 12
+  },
+  {
+   "w": "n'est",
+   "start": 57.909,
+   "end": 57.969,
+   "beat": 12
+  },
+  {
+   "w": "joué :",
+   "start": 57.969,
+   "end": 58.249,
+   "beat": 12
+  },
+  {
+   "w": "un",
+   "start": 58.369,
+   "end": 58.449,
+   "beat": 12
+  },
+  {
+   "w": "tribunal",
+   "start": 58.449,
+   "end": 59.009,
+   "beat": 12
+  },
+  {
+   "w": "a",
+   "start": 59.009,
+   "end": 59.249,
+   "beat": 12
+  },
+  {
+   "w": "annulé",
+   "start": 59.249,
+   "end": 59.629,
+   "beat": 12
+  },
+  {
+   "w": "une",
+   "start": 59.629,
+   "end": 59.709,
+   "beat": 12
+  },
+  {
+   "w": "règle",
+   "start": 59.709,
+   "end": 60.009,
+   "beat": 12
+  },
+  {
+   "w": "similaire",
+   "start": 60.009,
+   "end": 60.709,
+   "beat": 12
+  },
+  {
+   "w": "en",
+   "start": 60.709,
+   "end": 60.869,
+   "beat": 12
+  },
+  {
+   "w": "2025.",
+   "start": 60.869,
+   "end": 61.529,
+   "beat": 12
+  },
+  {
+   "w": "Et",
+   "start": 61.529,
+   "end": 62.009,
+   "beat": 12
+  },
+  {
+   "w": "Oppenheimer",
+   "start": 62.009,
+   "end": 62.549,
+   "beat": 12
+  },
+  {
+   "w": "prévoit",
+   "start": 62.549,
+   "end": 63.349,
+   "beat": 12
+  },
+  {
+   "w": "de",
+   "start": 63.349,
+   "end": 63.449,
+   "beat": 12
+  },
+  {
+   "w": "nouveaux",
+   "start": 63.449,
+   "end": 63.709,
+   "beat": 12
+  },
+  {
+   "w": "recours.",
+   "start": 63.709,
+   "end": 64.209,
+   "beat": 12
+  },
+  {
+   "w": "À",
+   "start": 64.406,
+   "end": 64.526,
+   "beat": 13
+  },
+  {
+   "w": "surveiller :",
+   "start": 64.526,
+   "end": 65.066,
+   "beat": 13
+  },
+  {
+   "w": "l'avis",
+   "start": 65.406,
+   "end": 65.586,
+   "beat": 13
+  },
+  {
+   "w": "du",
+   "start": 65.586,
+   "end": 65.686,
+   "beat": 13
+  },
+  {
+   "w": "public",
+   "start": 65.686,
+   "end": 66.006,
+   "beat": 13
+  },
+  {
+   "w": "sur",
+   "start": 66.006,
+   "end": 66.226,
+   "beat": 13
+  },
+  {
+   "w": "ce",
+   "start": 66.226,
+   "end": 66.426,
+   "beat": 13
+  },
+  {
+   "w": "plan",
+   "start": 66.426,
+   "end": 66.706,
+   "beat": 13
+  },
+  {
+   "w": "est",
+   "start": 66.706,
+   "end": 66.946,
+   "beat": 13
+  },
+  {
+   "w": "ouvert",
+   "start": 66.946,
+   "end": 67.206,
+   "beat": 13
+  },
+  {
+   "w": "jusqu'au",
+   "start": 67.206,
+   "end": 67.446,
+   "beat": 13
+  },
+  {
+   "w": "19",
+   "start": 67.626,
+   "end": 67.966,
+   "beat": 13
+  },
+  {
+   "w": "janvier.",
+   "start": 67.966,
+   "end": 68.446,
+   "beat": 13
+  },
+  {
+   "w": "Alors,",
+   "start": 68.567,
+   "end": 68.787,
+   "beat": 14
+  },
+  {
+   "w": "simple",
+   "start": 69.107,
+   "end": 69.427,
+   "beat": 14
+  },
+  {
+   "w": "coup",
+   "start": 69.427,
+   "end": 69.667,
+   "beat": 14
+  },
+  {
+   "w": "de",
+   "start": 69.667,
+   "end": 69.747,
+   "beat": 14
+  },
+  {
+   "w": "semonce…",
+   "start": 69.747,
+   "end": 70.287,
+   "beat": 14
+  },
+  {
+   "w": "ou",
+   "start": 70.287,
+   "end": 70.527,
+   "beat": 14
+  },
+  {
+   "w": "début",
+   "start": 70.527,
+   "end": 70.807,
+   "beat": 14
+  },
+  {
+   "w": "d'une",
+   "start": 70.967,
+   "end": 71.047,
+   "beat": 14
+  },
+  {
+   "w": "longue",
+   "start": 71.047,
+   "end": 71.307,
+   "beat": 14
+  },
+  {
+   "w": "descente",
+   "start": 71.307,
+   "end": 71.867,
+   "beat": 14
+  },
+  {
+   "w": "pour",
+   "start": 71.867,
+   "end": 72.087,
+   "beat": 14
+  },
+  {
+   "w": "les",
+   "start": 72.087,
+   "end": 72.227,
+   "beat": 14
+  },
+  {
+   "w": "assureurs ?",
+   "start": 72.227,
+   "end": 72.807,
+   "beat": 14
+  },
+  {
+   "w": "Dis-le",
+   "start": 72.927,
+   "end": 73.147,
+   "beat": 14
+  },
+  {
+   "w": "en",
+   "start": 73.347,
+   "end": 73.587,
+   "beat": 14
+  },
+  {
+   "w": "commentaire.",
+   "start": 73.587,
+   "end": 74.107,
+   "beat": 14
+  },
+  {
+   "w": "La",
+   "start": 74.296,
+   "end": 74.436,
+   "beat": 15
+  },
+  {
+   "w": "prochaine",
+   "start": 74.436,
+   "end": 74.736,
+   "beat": 15
+  },
+  {
+   "w": "secousse,",
+   "start": 74.736,
+   "end": 75.296,
+   "beat": 15
+  },
+  {
+   "w": "tu",
+   "start": 75.456,
+   "end": 75.616,
+   "beat": 15
+  },
+  {
+   "w": "veux",
+   "start": 75.616,
+   "end": 75.736,
+   "beat": 15
+  },
+  {
+   "w": "la",
+   "start": 75.736,
+   "end": 75.856,
+   "beat": 15
+  },
+  {
+   "w": "subir",
+   "start": 75.856,
+   "end": 76.156,
+   "beat": 15
+  },
+  {
+   "w": "ou",
+   "start": 76.156,
+   "end": 76.576,
+   "beat": 15
+  },
+  {
+   "w": "la",
+   "start": 76.576,
+   "end": 76.676,
+   "beat": 15
+  },
+  {
+   "w": "voir",
+   "start": 76.676,
+   "end": 76.836,
+   "beat": 15
+  },
+  {
+   "w": "venir ?",
+   "start": 76.836,
+   "end": 77.236,
+   "beat": 15
+  },
+  {
+   "w": "Mon",
+   "start": 77.536,
+   "end": 77.596,
+   "beat": 15
+  },
+  {
+   "w": "canal",
+   "start": 77.596,
+   "end": 77.876,
+   "beat": 15
+  },
+  {
+   "w": "Telegram",
+   "start": 77.876,
+   "end": 78.716,
+   "beat": 15
+  },
+  {
+   "w": "gratuit,",
+   "start": 78.716,
+   "end": 78.716,
+   "beat": 15
+  },
+  {
+   "w": "c'est",
+   "start": 79.156,
+   "end": 79.256,
+   "beat": 15
+  },
+  {
+   "w": "plus",
+   "start": 79.256,
+   "end": 79.396,
+   "beat": 15
+  },
+  {
+   "w": "de",
+   "start": 79.396,
+   "end": 79.536,
+   "beat": 15
+  },
+  {
+   "w": "22 000",
+   "start": 79.836,
+   "end": 80.036,
+   "beat": 15
+  },
+  {
+   "w": "personnes,",
+   "start": 80.036,
+   "end": 80.476,
+   "beat": 15
+  },
+  {
+   "w": "l'actu",
+   "start": 80.896,
+   "end": 81.196,
+   "beat": 15
+  },
+  {
+   "w": "géopolitique",
+   "start": 81.196,
+   "end": 81.916,
+   "beat": 15
+  },
+  {
+   "w": "et",
+   "start": 81.916,
+   "end": 81.976,
+   "beat": 15
+  },
+  {
+   "w": "financière",
+   "start": 81.976,
+   "end": 82.536,
+   "beat": 15
+  },
+  {
+   "w": "décortiquée,",
+   "start": 82.536,
+   "end": 83.196,
+   "beat": 15
+  },
+  {
+   "w": "des",
+   "start": 83.456,
+   "end": 83.636,
+   "beat": 15
+  },
+  {
+   "w": "analyses",
+   "start": 83.636,
+   "end": 83.996,
+   "beat": 15
+  },
+  {
+   "w": "d'actions",
+   "start": 84.236,
+   "end": 84.456,
+   "beat": 15
+  },
+  {
+   "w": "détaillées,",
+   "start": 84.456,
+   "end": 85.156,
+   "beat": 15
+  },
+  {
+   "w": "les",
+   "start": 85.376,
+   "end": 85.476,
+   "beat": 15
+  },
+  {
+   "w": "opportunités",
+   "start": 85.476,
+   "end": 86.256,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 86.256,
+   "end": 86.496,
+   "beat": 15
+  },
+  {
+   "w": "temps",
+   "start": 86.496,
+   "end": 86.716,
+   "beat": 15
+  },
+  {
+   "w": "réel.",
+   "start": 86.716,
+   "end": 87.176,
+   "beat": 15
+  },
+  {
+   "w": "Lien",
+   "start": 87.256,
+   "end": 87.596,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 87.596,
+   "end": 87.876,
+   "beat": 15
+  },
+  {
+   "w": "bio.",
+   "start": 87.876,
+   "end": 88.096,
+   "beat": 15
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 1.82
+  },
+  {
+   "start": 1.82,
+   "lines": [
+    [
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ]
+   ],
+   "beat": 0,
+   "end": 2.42
+  },
+  {
+   "start": 2.42,
+   "lines": [
+    [
+     8,
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 3.38
+  },
+  {
+   "start": 3.38,
+   "lines": [
+    [
+     10,
+     11
+    ],
+    [
+     12
+    ]
+   ],
+   "beat": 0,
+   "end": 4.552
+  },
+  {
+   "start": 4.552,
+   "lines": [
+    [
+     13
+    ]
+   ],
+   "beat": 1,
+   "end": 5.372
+  },
+  {
+   "start": 5.372,
+   "lines": [
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "beat": 1,
+   "end": 6.892
+  },
+  {
+   "start": 6.892,
+   "lines": [
+    [
+     16,
+     17,
+     18
+    ]
+   ],
+   "beat": 1,
+   "end": 8.012
+  },
+  {
+   "start": 8.012,
+   "lines": [
+    [
+     19,
+     20
+    ],
+    [
+     21
+    ]
+   ],
+   "beat": 1,
+   "end": 9.098
+  },
+  {
+   "start": 9.098,
+   "lines": [
+    [
+     22,
+     23
+    ],
+    [
+     24,
+     25
+    ]
+   ],
+   "beat": 2,
+   "end": 9.638
+  },
+  {
+   "start": 9.638,
+   "lines": [
+    [
+     26,
+     27
+    ]
+   ],
+   "beat": 2,
+   "end": 10.158
+  },
+  {
+   "start": 10.158,
+   "lines": [
+    [
+     28,
+     29
+    ],
+    [
+     30,
+     31
+    ]
+   ],
+   "beat": 2,
+   "end": 11.378
+  },
+  {
+   "start": 11.378,
+   "lines": [
+    [
+     32
+    ],
+    [
+     33,
+     34,
+     35
+    ]
+   ],
+   "beat": 2,
+   "end": 14.198
+  },
+  {
+   "start": 14.198,
+   "lines": [
+    [
+     36
+    ]
+   ],
+   "beat": 2,
+   "end": 14.901
+  },
+  {
+   "start": 14.901,
+   "lines": [
+    [
+     37
+    ],
+    [
+     38,
+     39
+    ]
+   ],
+   "beat": 3,
+   "end": 16.681
+  },
+  {
+   "start": 16.681,
+   "lines": [
+    [
+     40,
+     41
+    ],
+    [
+     42,
+     43
+    ]
+   ],
+   "beat": 3,
+   "end": 17.801
+  },
+  {
+   "start": 17.801,
+   "lines": [
+    [
+     44,
+     45
+    ],
+    [
+     46
+    ]
+   ],
+   "beat": 3,
+   "end": 19.215
+  },
+  {
+   "start": 19.215,
+   "lines": [
+    [
+     47,
+     48
+    ],
+    [
+     49,
+     50
+    ]
+   ],
+   "beat": 4,
+   "end": 20.475
+  },
+  {
+   "start": 20.475,
+   "lines": [
+    [
+     51,
+     52
+    ]
+   ],
+   "beat": 4,
+   "end": 21.254
+  },
+  {
+   "start": 21.254,
+   "lines": [
+    [
+     53,
+     54
+    ]
+   ],
+   "beat": 5,
+   "end": 22.094
+  },
+  {
+   "start": 22.094,
+   "lines": [
+    [
+     55,
+     56,
+     57
+    ]
+   ],
+   "beat": 5,
+   "end": 22.574
+  },
+  {
+   "start": 22.574,
+   "lines": [
+    [
+     58,
+     59,
+     60
+    ]
+   ],
+   "beat": 5,
+   "end": 23.194
+  },
+  {
+   "start": 23.194,
+   "lines": [
+    [
+     61,
+     62
+    ]
+   ],
+   "beat": 5,
+   "end": 24.094
+  },
+  {
+   "start": 24.094,
+   "lines": [
+    [
+     63,
+     64,
+     65
+    ]
+   ],
+   "beat": 5,
+   "end": 25.103
+  },
+  {
+   "start": 25.103,
+   "lines": [
+    [
+     66,
+     67
+    ]
+   ],
+   "beat": 6,
+   "end": 26.103
+  },
+  {
+   "start": 26.103,
+   "lines": [
+    [
+     68,
+     69
+    ],
+    [
+     70
+    ]
+   ],
+   "beat": 6,
+   "end": 27.143
+  },
+  {
+   "start": 27.143,
+   "lines": [
+    [
+     71
+    ]
+   ],
+   "beat": 6,
+   "end": 27.643
+  },
+  {
+   "start": 27.643,
+   "lines": [
+    [
+     72,
+     73
+    ],
+    [
+     74,
+     75
+    ]
+   ],
+   "beat": 6,
+   "end": 29.443
+  },
+  {
+   "start": 29.443,
+   "lines": [
+    [
+     76,
+     77
+    ],
+    [
+     78,
+     79
+    ]
+   ],
+   "beat": 6,
+   "end": 30.323
+  },
+  {
+   "start": 30.323,
+   "lines": [
+    [
+     80,
+     81
+    ]
+   ],
+   "beat": 6,
+   "end": 31.408
+  },
+  {
+   "start": 31.408,
+   "lines": [
+    [
+     82,
+     83
+    ]
+   ],
+   "beat": 7,
+   "end": 32.468
+  },
+  {
+   "start": 32.468,
+   "lines": [
+    [
+     84,
+     85
+    ],
+    [
+     86
+    ]
+   ],
+   "beat": 7,
+   "end": 33.648
+  },
+  {
+   "start": 33.648,
+   "lines": [
+    [
+     87,
+     88
+    ]
+   ],
+   "beat": 7,
+   "end": 34.708
+  },
+  {
+   "start": 34.708,
+   "lines": [
+    [
+     89,
+     90
+    ],
+    [
+     91,
+     92
+    ]
+   ],
+   "beat": 7,
+   "end": 36.068
+  },
+  {
+   "start": 36.068,
+   "lines": [
+    [
+     93,
+     94,
+     95
+    ],
+    [
+     96
+    ]
+   ],
+   "beat": 7,
+   "end": 37.006
+  },
+  {
+   "start": 37.006,
+   "lines": [
+    [
+     97,
+     98
+    ],
+    [
+     99
+    ]
+   ],
+   "beat": 8,
+   "end": 37.826
+  },
+  {
+   "start": 37.826,
+   "lines": [
+    [
+     100
+    ],
+    [
+     101
+    ]
+   ],
+   "beat": 8,
+   "end": 39.066
+  },
+  {
+   "start": 39.066,
+   "lines": [
+    [
+     102
+    ],
+    [
+     103,
+     104
+    ]
+   ],
+   "beat": 8,
+   "end": 40.399
+  },
+  {
+   "start": 40.399,
+   "lines": [
+    [
+     105,
+     106
+    ]
+   ],
+   "beat": 9,
+   "end": 41.599
+  },
+  {
+   "start": 41.599,
+   "lines": [
+    [
+     107,
+     108,
+     109
+    ],
+    [
+     110
+    ]
+   ],
+   "beat": 9,
+   "end": 42.439
+  },
+  {
+   "start": 42.439,
+   "lines": [
+    [
+     111,
+     112,
+     113
+    ],
+    [
+     114
+    ]
+   ],
+   "beat": 9,
+   "end": 43.919
+  },
+  {
+   "start": 43.919,
+   "lines": [
+    [
+     115,
+     116
+    ],
+    [
+     117,
+     118
+    ]
+   ],
+   "beat": 9,
+   "end": 45.102
+  },
+  {
+   "start": 45.102,
+   "lines": [
+    [
+     119
+    ],
+    [
+     120,
+     121,
+     122
+    ]
+   ],
+   "beat": 10,
+   "end": 46.922
+  },
+  {
+   "start": 46.922,
+   "lines": [
+    [
+     123,
+     124
+    ],
+    [
+     125
+    ]
+   ],
+   "beat": 10,
+   "end": 47.662
+  },
+  {
+   "start": 47.662,
+   "lines": [
+    [
+     126,
+     127
+    ]
+   ],
+   "beat": 10,
+   "end": 49.182
+  },
+  {
+   "start": 49.182,
+   "lines": [
+    [
+     128,
+     129
+    ],
+    [
+     130,
+     131
+    ]
+   ],
+   "beat": 10,
+   "end": 50.222
+  },
+  {
+   "start": 50.222,
+   "lines": [
+    [
+     132,
+     133
+    ],
+    [
+     134,
+     135
+    ]
+   ],
+   "beat": 10,
+   "end": 51.522
+  },
+  {
+   "start": 51.522,
+   "lines": [
+    [
+     136
+    ]
+   ],
+   "beat": 10,
+   "end": 52.315
+  },
+  {
+   "start": 52.315,
+   "lines": [
+    [
+     137,
+     138
+    ],
+    [
+     139
+    ]
+   ],
+   "beat": 11,
+   "end": 53.355
+  },
+  {
+   "start": 53.355,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142
+    ]
+   ],
+   "beat": 11,
+   "end": 54.375
+  },
+  {
+   "start": 54.375,
+   "lines": [
+    [
+     143,
+     144
+    ],
+    [
+     145,
+     146
+    ]
+   ],
+   "beat": 11,
+   "end": 55.475
+  },
+  {
+   "start": 55.475,
+   "lines": [
+    [
+     147
+    ],
+    [
+     148,
+     149,
+     150
+    ]
+   ],
+   "beat": 11,
+   "end": 56.555
+  },
+  {
+   "start": 56.555,
+   "lines": [
+    [
+     151
+    ]
+   ],
+   "beat": 11,
+   "end": 57.289
+  },
+  {
+   "start": 57.289,
+   "lines": [
+    [
+     152,
+     153
+    ],
+    [
+     154,
+     155
+    ]
+   ],
+   "beat": 12,
+   "end": 58.369
+  },
+  {
+   "start": 58.369,
+   "lines": [
+    [
+     156,
+     157
+    ],
+    [
+     158,
+     159
+    ]
+   ],
+   "beat": 12,
+   "end": 59.629
+  },
+  {
+   "start": 59.629,
+   "lines": [
+    [
+     160,
+     161
+    ],
+    [
+     162
+    ]
+   ],
+   "beat": 12,
+   "end": 60.709
+  },
+  {
+   "start": 60.709,
+   "lines": [
+    [
+     163,
+     164
+    ]
+   ],
+   "beat": 12,
+   "end": 61.529
+  },
+  {
+   "start": 61.529,
+   "lines": [
+    [
+     165,
+     166
+    ],
+    [
+     167
+    ]
+   ],
+   "beat": 12,
+   "end": 63.349
+  },
+  {
+   "start": 63.349,
+   "lines": [
+    [
+     168,
+     169
+    ],
+    [
+     170
+    ]
+   ],
+   "beat": 12,
+   "end": 64.406
+  },
+  {
+   "start": 64.406,
+   "lines": [
+    [
+     171,
+     172
+    ]
+   ],
+   "beat": 13,
+   "end": 65.406
+  },
+  {
+   "start": 65.406,
+   "lines": [
+    [
+     173
+    ],
+    [
+     174,
+     175
+    ]
+   ],
+   "beat": 13,
+   "end": 66.006
+  },
+  {
+   "start": 66.006,
+   "lines": [
+    [
+     176,
+     177
+    ],
+    [
+     178,
+     179
+    ]
+   ],
+   "beat": 13,
+   "end": 66.946
+  },
+  {
+   "start": 66.946,
+   "lines": [
+    [
+     180
+    ],
+    [
+     181,
+     182
+    ]
+   ],
+   "beat": 13,
+   "end": 67.966
+  },
+  {
+   "start": 67.966,
+   "lines": [
+    [
+     183
+    ]
+   ],
+   "beat": 13,
+   "end": 68.567
+  },
+  {
+   "start": 68.567,
+   "lines": [
+    [
+     184
+    ],
+    [
+     185,
+     186
+    ]
+   ],
+   "beat": 14,
+   "end": 69.667
+  },
+  {
+   "start": 69.667,
+   "lines": [
+    [
+     187,
+     188
+    ]
+   ],
+   "beat": 14,
+   "end": 70.287
+  },
+  {
+   "start": 70.287,
+   "lines": [
+    [
+     189,
+     190
+    ],
+    [
+     191,
+     192
+    ]
+   ],
+   "beat": 14,
+   "end": 71.307
+  },
+  {
+   "start": 71.307,
+   "lines": [
+    [
+     193,
+     194
+    ]
+   ],
+   "beat": 14,
+   "end": 72.087
+  },
+  {
+   "start": 72.087,
+   "lines": [
+    [
+     195,
+     196
+    ]
+   ],
+   "beat": 14,
+   "end": 72.927
+  },
+  {
+   "start": 72.927,
+   "lines": [
+    [
+     197,
+     198
+    ],
+    [
+     199
+    ]
+   ],
+   "beat": 14,
+   "end": 74.296
+  },
+  {
+   "start": 74.296,
+   "lines": [
+    [
+     200,
+     201
+    ],
+    [
+     202
+    ]
+   ],
+   "beat": 15,
+   "end": 75.456
+  },
+  {
+   "start": 75.456,
+   "lines": [
+    [
+     203,
+     204
+    ],
+    [
+     205,
+     206
+    ]
+   ],
+   "beat": 15,
+   "end": 76.156
+  },
+  {
+   "start": 76.156,
+   "lines": [
+    [
+     207,
+     208,
+     209
+    ],
+    [
+     210
+    ]
+   ],
+   "beat": 15,
+   "end": 77.536
+  },
+  {
+   "start": 77.536,
+   "lines": [
+    [
+     211,
+     212
+    ],
+    [
+     213
+    ]
+   ],
+   "beat": 15,
+   "end": 78.716
+  },
+  {
+   "start": 78.716,
+   "lines": [
+    [
+     214
+    ],
+    [
+     215,
+     216
+    ]
+   ],
+   "beat": 15,
+   "end": 79.396
+  },
+  {
+   "start": 79.396,
+   "lines": [
+    [
+     217,
+     218
+    ],
+    [
+     219
+    ]
+   ],
+   "beat": 15,
+   "end": 80.896
+  },
+  {
+   "start": 80.896,
+   "lines": [
+    [
+     220
+    ],
+    [
+     221
+    ]
+   ],
+   "beat": 15,
+   "end": 81.916
+  },
+  {
+   "start": 81.916,
+   "lines": [
+    [
+     222,
+     223
+    ],
+    [
+     224
+    ]
+   ],
+   "beat": 15,
+   "end": 83.456
+  },
+  {
+   "start": 83.456,
+   "lines": [
+    [
+     225,
+     226
+    ],
+    [
+     227
+    ]
+   ],
+   "beat": 15,
+   "end": 84.456
+  },
+  {
+   "start": 84.456,
+   "lines": [
+    [
+     228,
+     229
+    ]
+   ],
+   "beat": 15,
+   "end": 85.476
+  },
+  {
+   "start": 85.476,
+   "lines": [
+    [
+     230
+    ],
+    [
+     231,
+     232
+    ]
+   ],
+   "beat": 15,
+   "end": 86.716
+  },
+  {
+   "start": 86.716,
+   "lines": [
+    [
+     233
+    ]
+   ],
+   "beat": 15,
+   "end": 87.256
+  },
+  {
+   "start": 87.256,
+   "lines": [
+    [
+     234,
+     235,
+     236
+    ]
+   ],
+   "beat": 15,
+   "end": 88.493
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Jeudi 19 novembre 2026 · Wall Street hier soir",
+   "until_beat": 1,
+   "start": 0.0,
+   "end": 9.098
+  },
+  {
+   "type": "hook_bignum",
+   "value_to": 90,
+   "prefix": "",
+   "suffix": " Md$",
+   "unit": "À RÉCUPÉRER EN 10 ANS",
+   "label": "Estimation de l'agence Medicare (CMS) · 2027-2036",
+   "logos": [
+    "UNH",
+    "HUM",
+    "CVS"
+   ],
+   "reveal_at_word": 7,
+   "count_dur": 1.0,
+   "start": 0.0,
+   "end": 4.552,
+   "reveal_t": 2.04
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "UNITEDHEALTH · MER. 18 NOV.",
+   "value_from": 0,
+   "value_to": -10.2,
+   "decimals": 1,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "CLÔTURE ≈ 349,81 $",
+   "desc": "CappNotes · clôture du 18 nov. 2026 · Beinsure · 18 nov. 2026",
+   "start": 4.552,
+   "end": 9.098
+  },
+  {
+   "type": "stock",
+   "key": "UNH",
+   "name": "UnitedHealth",
+   "sub": "UNH · NYSE · 18 nov. 2026",
+   "pct": "−10,21 %",
+   "up": false,
+   "y": 1380,
+   "at_word": 1,
+   "start": 5.372,
+   "end": 9.098
+  },
+  {
+   "type": "tickers",
+   "title": "ASSUREURS SANTÉ · 18 NOV.",
+   "rows": [
+    {
+     "name": "Humana",
+     "pct": "−12,98 %",
+     "at_word": 6,
+     "key": "HUM",
+     "up": false,
+     "t": 10.108
+    },
+    {
+     "name": "Elevance",
+     "pct": "−7,63 %",
+     "at_word": 10,
+     "key": "ELV",
+     "up": false,
+     "t": 11.328
+    },
+    {
+     "name": "Centene",
+     "pct": "−7,03 %",
+     "at_word": 11,
+     "key": "CNC",
+     "up": false,
+     "t": 12.548
+    },
+    {
+     "name": "CVS Health",
+     "pct": "−5,20 %",
+     "at_word": 13,
+     "key": "CVS",
+     "up": false,
+     "t": 13.488
+    }
+   ],
+   "start": 9.098,
+   "end": 14.901
+  },
+  {
+   "type": "source",
+   "text": "CappNotes · clôture du 18 nov. 2026",
+   "start": 9.098,
+   "end": 14.901
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "DOW JONES · MER. 18 NOV.",
+   "value_from": 0,
+   "value_to": -561,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "color": "red",
+   "pill": "POINTS PERDUS · −1,11 % · 50 198",
+   "desc": "UnitedHealth ≈ 4,3 % de l'indice (Yahoo Finance) · CappNotes · clôture du 18 nov. 2026",
+   "start": 14.901,
+   "end": 19.215
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "QUI A DÉCLENCHÉ",
+    "CETTE PANIQUE ?"
+   ],
+   "at_word": 1,
+   "start": 19.735,
+   "end": 21.254
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_3435c02c.jpg",
+   "bio_at_word": 12,
+   "start": 21.254,
+   "end": 25.103,
+   "bio_t": 24.674
+  },
+  {
+   "type": "news",
+   "at_word": 7,
+   "left": "CMS · AGENCE MEDICARE",
+   "right": "16 NOV.",
+   "tag": "ALERTE",
+   "headline": "« CRUSH » : le nouveau plan anti-fraude de Medicare vise les assureurs privés",
+   "highlight": "vise les assureurs privés",
+   "sub": "Beinsure · 18 nov. 2026 · Yahoo Finance · 18 nov. 2026",
+   "start": 27.863,
+   "end": 31.408
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "UN ÉCHANTILLON…",
+    "TOUT LE CONTRAT"
+   ],
+   "at_word": 4,
+   "start": 33.108,
+   "end": 37.006
+  },
+  {
+   "type": "source",
+   "text": "Audits RADV · Medicare Advantage · Beinsure · 18 nov. 2026",
+   "start": 31.408,
+   "end": 37.006
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "AUDITS MEDICARE ADVANTAGE",
+   "value_from": 2026,
+   "value_to": 2018,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "color": "gold",
+   "pill": "ANNÉE DE PAIEMENT DE DÉPART",
+   "desc": "Règle proposée le 16 nov. 2026 · Beinsure · 18 nov. 2026",
+   "start": 37.006,
+   "end": 40.399
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "TROP-PERÇUS RÉCUPÉRABLES",
+   "value_from": 0,
+   "value_to": 9,
+   "decimals": 0,
+   "prefix": "≈ ",
+   "suffix": " Md$",
+   "color": "gold",
+   "pill": "PAR ANNÉE DE PAIEMENT",
+   "desc": "Estimation CMS · Beinsure · 18 nov. 2026",
+   "start": 40.399,
+   "end": 45.102,
+   "cut_in": true
+  },
+  {
+   "type": "news",
+   "at_word": 5,
+   "left": "HHS · CMS",
+   "right": "16 NOV.",
+   "tag": "EXEMPLES CITÉS",
+   "headline": "Fauteuils roulants inexistants facturés, seniors en bonne santé inscrits en soins palliatifs",
+   "highlight": "inexistants",
+   "sub": "Yahoo Finance · 18 nov. 2026",
+   "start": 47.002,
+   "end": 52.315
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "SECTEUR SANTÉ · S&P 500",
+    "value_to": -2.2,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "CappNotes · clôture du 18 nov. 2026"
+   },
+   "b_at_word": 13,
+   "b": {
+    "kicker": "SECTEUR TECH · S&P 500",
+    "value_to": 0.34,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "Nasdaq +0,42 % · CappNotes · clôture du 18 nov. 2026"
+   },
+   "start": 52.315,
+   "end": 57.289,
+   "b_t": 56.255
+  },
+  {
+   "type": "news",
+   "at_word": 14,
+   "left": "OPPENHEIMER · ANALYSTES",
+   "right": "18 NOV.",
+   "tag": "CITATION",
+   "headline": "« La CMS fera face aux mêmes recours juridiques qu'en 2025 »",
+   "highlight": "mêmes recours juridiques",
+   "sub": "Yahoo Finance · 18 nov. 2026",
+   "start": 62.009,
+   "end": 64.406
+  },
+  {
+   "type": "tickers",
+   "title": "À SURVEILLER",
+   "rows": [
+    {
+     "name": "UnitedHealth",
+     "pct": "349,81 $",
+     "at_word": 0,
+     "key": "UNH",
+     "up": false,
+     "t": 64.356
+    },
+    {
+     "name": "Humana",
+     "pct": "−12,98 %",
+     "at_word": 7,
+     "key": "HUM",
+     "up": false,
+     "t": 66.376
+    },
+    {
+     "name": "Fin des commentaires",
+     "pct": "19 JANV.",
+     "at_word": 11,
+     "up": true,
+     "t": 67.576
+    }
+   ],
+   "start": 64.406,
+   "end": 68.567
+  },
+  {
+   "type": "source",
+   "text": "Beinsure · 18 nov. 2026 · Yahoo Finance · 18 nov. 2026",
+   "start": 64.406,
+   "end": 68.567
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "COUP DE SEMONCE",
+    "OU LONGUE DESCENTE ?"
+   ],
+   "at_word": 1,
+   "start": 69.107,
+   "end": 74.296
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Assureurs santé : ce que prépare Washington",
+   "imgs": [
+    "tg_4b2fa9a8.jpg",
+    "tg_38e4f34b.jpg",
+    "tg_1eaa56f0.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 18,
+   "bio_at_word": 36,
+   "button": "REJOINDRE LE CANAL",
+   "start": 74.296,
+   "end": 88.403,
+   "subs_t": 79.836,
+   "bio_t": 87.876
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.0,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep34_assureurs_medicare/broll/b0b.mp4",
+   "start": 2.0,
+   "end": 4.552,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep34_assureurs_medicare/broll/b1.mp4",
+   "start": 4.552,
+   "end": 9.098,
+   "beat": 1
+  },
+  {
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b2.mp4",
+   "start": 9.098,
+   "end": 11.338,
+   "beat": 2
+  },
+  {
+   "clip": "b2b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 10,
+   "src": "episodes/ep34_assureurs_medicare/broll/b2b.mp4",
+   "start": 11.338,
+   "end": 14.901,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep34_assureurs_medicare/broll/b4.mp4",
+   "start": 14.901,
+   "end": 19.215,
+   "beat": 3
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b5.mp4",
+   "start": 19.215,
+   "end": 21.254,
+   "beat": 4
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b6.mp4",
+   "start": 21.254,
+   "end": 25.103,
+   "beat": 5
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b7.mp4",
+   "start": 25.103,
+   "end": 27.823,
+   "beat": 6
+  },
+  {
+   "clip": "b7b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep34_assureurs_medicare/broll/b7b.mp4",
+   "start": 27.823,
+   "end": 31.408,
+   "beat": 6
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b8.mp4",
+   "start": 31.408,
+   "end": 34.748,
+   "beat": 7
+  },
+  {
+   "clip": "b8b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep34_assureurs_medicare/broll/b8b.mp4",
+   "start": 34.748,
+   "end": 37.006,
+   "beat": 7
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep34_assureurs_medicare/broll/b9.mp4",
+   "start": 37.006,
+   "end": 40.399,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep34_assureurs_medicare/broll/b10.mp4",
+   "start": 40.399,
+   "end": 45.102,
+   "beat": 9
+  },
+  {
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b11.mp4",
+   "start": 45.102,
+   "end": 49.242,
+   "beat": 10
+  },
+  {
+   "clip": "b11b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 10,
+   "src": "episodes/ep34_assureurs_medicare/broll/b11b.mp4",
+   "start": 49.242,
+   "end": 52.315,
+   "beat": 10
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b12.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep34_assureurs_medicare/broll/b12.mp4",
+   "start": 52.315,
+   "end": 57.289,
+   "beat": 11
+  },
+  {
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b13.mp4",
+   "start": 57.289,
+   "end": 61.969,
+   "beat": 12
+  },
+  {
+   "clip": "b13b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 14,
+   "src": "episodes/ep34_assureurs_medicare/broll/b13b.mp4",
+   "start": 61.969,
+   "end": 64.406,
+   "beat": 12
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b14.mp4",
+   "start": 64.406,
+   "end": 68.567,
+   "beat": 13
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep34_assureurs_medicare/broll/b15.mp4",
+   "start": 68.567,
+   "end": 74.296,
+   "beat": 14
+  },
+  {
+   "blur_prev": true,
+   "start": 74.296,
+   "end": 90.203,
+   "beat": 15
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.02,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 0.15,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.22,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.29,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 1.0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 1.95,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 1.99,
+   "k": "swish",
+   "g": 0.8
+  },
+  {
+   "t": 4.492,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 4.672,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 5.372,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 9.098,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 10.108,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 11.288,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 11.328,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 12.548,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 13.488,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 14.841,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 15.021,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 19.735,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 21.204,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 21.254,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 24.674,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 25.053,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 27.773,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 27.863,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 31.358,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 33.108,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 34.698,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 36.946,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 37.126,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 40.369,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 40.519,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 47.002,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 49.192,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 52.255,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 52.435,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 56.255,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 56.305,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 61.919,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 62.009,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 64.356,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 64.356,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 64.406,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 66.376,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 67.576,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 68.517,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 69.107,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 74.246,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 74.346,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 74.646,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 79.836,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 87.803,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 87.876,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 88.403,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   0.0,
+   4.601999999999999
+  ],
+  [
+   88.403,
+   91.203
+  ]
+ ],
+ "endcard": {
+  "start": 88.403,
+  "button": "REJOINDRE LE CANAL",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "19 novembre 2026"
+}

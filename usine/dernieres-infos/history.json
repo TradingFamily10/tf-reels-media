@@ -450,5 +450,24 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/1d3ddf87bf9c304afc2ddb7274da775e35576ccb/2026-11-18_ep33_fed_ia_taux.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=2300259373994035010",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "06:55",
+  "id": "ep34_assureurs_medicare",
+  "topic": "Assureurs santé US, mer. 18/11 : UnitedHealth −10,21 % (≈ 349,81 $), Humana −12,98 %, Elevance −7,63 %, Centene −7,03 %, CVS −5,20 % (CappNotes, StockTitan, Beinsure) ; UNH −5,4 % à 389,68 $ le 17/11 (Beinsure) ; Dow −561 pts (−1,11 %, 50 198), UNH ≈ 4,32 % du Dow (Yahoo) ; santé S&P −2,20 %, tech +0,34 %, Nasdaq +0,42 % (CappNotes) ; règle CMS « CRUSH » proposée le 16/11 : audits RADV Medicare Advantage extrapolés à tout le contrat dès l'année de paiement 2018, ≈ 90 Md$ sur 2027-2036, ≈ 9 Md$ par année de paiement, commentaires jusqu'au 19/01/2027 (Beinsure, Yahoo, StockTitan) ; exemples HHS : fauteuils roulants inexistants, seniors en bonne santé en soins palliatifs (Yahoo) ; règle RADV 2023 annulée par un tribunal en sept. 2025, Oppenheimer attend des recours (Beinsure, Yahoo) ; logos UNH, HUM, ELV, CNC, CVS (ajoutés)",
+  "hook_type": "bignum",
+  "hook_formula": "chiffre choc",
+  "cta_angle": "La prochaine secousse, tu veux la subir ou la voir venir ?",
+  "title": "Assureurs santé : Washington veut 90 Md$",
+  "caption": "Washington veut récupérer près de 90 milliards de dollars, et Wall Street l'a fait payer aux assureurs santé.\nMercredi, UnitedHealth a perdu 10 % et Humana 13 % : l'agence Medicare (CMS) veut durcir ses audits sur Medicare Advantage, jusqu'aux paiements de 2018.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #wallstreet #unitedhealth #actualite #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/02b642ee0723cb59c5fdcaf9f1262aa82a7bf92b/2026-11-19_ep34_assureurs_medicare.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-5840880595728315115",
+  "networks": [
+   "facebook",
+   "tiktok",
+   "youtube"
+  ],
+  "tiktok": "metricool"
  }
 ]

@@ -432,5 +432,47 @@
   "img": "RIO.png",
   "tile": "#FFFFFF",
   "fit": "84%"
+ },
+ "UNH": {
+  "name": "UnitedHealth",
+  "ticker": "UNH",
+  "img": "UNH.png",
+  "tile": "#002677",
+  "fit": "74%"
+ },
+ "HUM": {
+  "name": "Humana",
+  "ticker": "HUM",
+  "img": "HUM.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
+ },
+ "ELV": {
+  "name": "Elevance Health",
+  "ticker": "ELV",
+  "img": "ELV.png",
+  "tile": "#1A3673",
+  "fit": "74%"
+ },
+ "CNC": {
+  "name": "Centene",
+  "ticker": "CNC",
+  "img": "CNC.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
+ },
+ "CVS": {
+  "name": "CVS Health",
+  "ticker": "CVS",
+  "img": "CVS.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
+ },
+ "CI": {
+  "name": "Cigna",
+  "ticker": "CI",
+  "img": "CI.png",
+  "tile": "#FFFFFF",
+  "fit": "84%"
  }
 }
