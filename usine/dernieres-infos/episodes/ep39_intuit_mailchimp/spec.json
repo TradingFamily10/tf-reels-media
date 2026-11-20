@@ -1,0 +1,576 @@
+{
+ "id": "ep39_intuit_mailchimp",
+ "date_label": "20 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "Les gros titres, tout le monde les voit. Ce qu'il y a derrière, on le décortique",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://siliconangle.com/2026/11/19/intuit-sells-mailchimp-to-bending-spoons-for-3-68b-less-than-a-third-of-what-it-paid/",
+  "https://tbreak.com/intuit-sells-mailchimp-bending-spoons/",
+  "https://www.investing.com/news/stock-market-news/premarket-movers-anthropic-slides-after-debut-intuit-tumbles-on-mailchimp-sale-5041130",
+  "https://www.icmarkets-vno.com/blog/stock-futures-fall-as-global-markets-extend-losses-20-november-ic/"
+ ],
+ "beats": [
+  {
+   "text": "12 milliards en 2021. À peine 3,7 milliards aujourd'hui.",
+   "say": "Douze milliards de dollars en deux mille vingt et un... À peine trois milliards sept cents millions aujourd'hui.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 20 novembre 2026 · Wall Street",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "12 MD$ → 3,7 MD$",
+      "INTUIT REVEND",
+      "MAILCHIMP"
+     ]
+    },
+    {
+     "type": "stock",
+     "key": "INTU",
+     "name": "Intuit",
+     "sub": "INTU · Nasdaq · 20 nov. 2026",
+     "y": 560,
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "C'est le prix auquel Intuit, le géant américain de la compta, revend Mailchimp.",
+   "say": "C'est le prix auquel Intuit, le géant américain de la compta, revend Mailchimp.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "RACHAT DE MAILCHIMP · 2021",
+      "value_to": 12,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "white",
+      "desc": "Plus gros rachat d'Intuit à l'époque",
+      "logo": "INTU"
+     },
+     "b_at_word": 11,
+     "b": {
+      "kicker": "REVENTE · NOV. 2026",
+      "value_to": 3.68,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "red",
+      "desc": "SiliconANGLE · 19 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Moins d'un tiers de ce qu'il l'avait payé, il y a cinq ans.",
+   "say": "Moins d'un tiers de ce qu'il l'avait payé... il y a cinq ans.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b2b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "SILICONANGLE",
+     "right": "19 NOV.",
+     "tag": "DEAL",
+     "headline": "Intuit vend Mailchimp à Bending Spoons pour 3,68 Md$, moins d'un tiers de ce qu'il avait payé",
+     "highlight": "moins d'un tiers",
+     "sub": "SiliconANGLE · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : après l'annonce, l'action Intuit a plongé de plus de 10 %.",
+   "say": "Et ce n'est pas le pire : après l'annonce, l'action Intuit a plongé de plus de dix pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "INTU",
+     "name": "Intuit",
+     "sub": "Hors séance, jeudi soir · SiliconANGLE · 19 nov. 2026",
+     "pct": "> −10 %",
+     "up": false,
+     "y": 560,
+     "at_word": 9
+    },
+    {
+     "type": "source",
+     "text": "SiliconANGLE · 19 nov. 2026 · Investing.com · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pourtant, ses résultats battent les attentes : 4,35 milliards de chiffre d'affaires, en hausse de 12 %.",
+   "say": "Pourtant, ses résultats battent les attentes : plus de quatre milliards de chiffre d'affaires... en hausse de douze pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CHIFFRE D'AFFAIRES ATTENDU",
+      "value_to": 4.31,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "white",
+      "desc": "Consensus LSEG"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "PUBLIÉ · TRIMESTRE AU 31 OCT.",
+      "value_to": 4.35,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "green",
+      "desc": "+12 % sur un an · SiliconANGLE · 19 nov. 2026",
+      "logo": "INTU"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi de bons chiffres font-ils chuter l'action ?",
+   "say": "Alors... pourquoi de bons chiffres font-ils chuter l'action ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "DE BONS CHIFFRES",
+      "ET L'ACTION CHUTE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Ce genre de coup de théâtre, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce genre de coup de théâtre, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 16
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Premier problème : Mailchimp recule. 313 millions de dollars sur le trimestre, en baisse de 1 %.",
+   "say": "Premier problème : Mailchimp recule. Trois cent treize millions de dollars sur le trimestre... en baisse de un pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "MAILCHIMP · CHIFFRE D'AFFAIRES DU TRIMESTRE",
+     "value_from": 0,
+     "value_to": 313,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " M$",
+     "color": "red",
+     "pill": "−1 % SUR UN AN",
+     "desc": "SiliconANGLE · 19 nov. 2026 · tbreak · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Deuxième problème : Intuit abaisse sa prévision de croissance pour toute l'année.",
+   "say": "Deuxième problème : Intuit abaisse sa prévision de croissance pour toute l'année.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CROISSANCE PRÉVUE · AVANT",
+      "value_to": 10,
+      "decimals": 0,
+      "prefix": "9 à ",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Exercice 2027",
+      "logo": "INTU"
+     },
+     "b_at_word": 3,
+     "b": {
+      "kicker": "CROISSANCE PRÉVUE · MAINTENANT",
+      "value_to": 9,
+      "decimals": 0,
+      "prefix": "8 à ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "23,08 à 23,37 Md$ · tbreak · 20 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "En cause : Credit Karma, dont la croissance attendue est ramenée entre 3 et 7 %, contre 11 à 13 % avant.",
+   "say": "En cause : Credit Karma, dont la croissance attendue est ramenée entre trois et sept pour cent... contre onze à treize avant.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "INTUIT",
+     "right": "19 NOV.",
+     "tag": "PRÉVISIONS",
+     "headline": "Credit Karma : croissance attendue ramenée à 3-7 %, contre 11-13 % auparavant",
+     "highlight": "3-7 %",
+     "sub": "SiliconANGLE · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et l'acheteur ? Bending Spoons, un groupe italien coté au Nasdaq depuis juillet.",
+   "say": "Et l'acheteur ? Bending Spoons... un groupe italien coté au Nasdaq depuis juillet.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "BSP",
+     "name": "Bending Spoons",
+     "sub": "BSP · Nasdaq · Milan · tbreak · 20 nov. 2026",
+     "y": 560,
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Il a déjà avalé Evernote, WeTransfer, Vimeo et Eventbrite.",
+   "say": "Il a déjà avalé Evernote, WeTransfer, Vimeo... et Eventbrite.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "DÉJÀ RACHETÉS PAR BENDING SPOONS",
+     "rows": [
+      {
+       "name": "Evernote",
+       "pct": "NOTES",
+       "at_word": 4,
+       "up": true
+      },
+      {
+       "name": "WeTransfer",
+       "pct": "FICHIERS",
+       "at_word": 5,
+       "up": true
+      },
+      {
+       "name": "Vimeo",
+       "pct": "VIDÉO",
+       "at_word": 6,
+       "up": true
+      },
+      {
+       "name": "Eventbrite",
+       "pct": "BILLETS",
+       "at_word": 8,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "SiliconANGLE · 19 nov. 2026 · tbreak · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce matin, toute la tech flanche encore : Anthropic perd plus de 6 % avant l'ouverture.",
+   "say": "Et ce matin, toute la tech flanche encore : Anthropic perd plus de six pour cent avant l'ouverture.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "AVANT L'OUVERTURE · CE VENDREDI",
+     "rows": [
+      {
+       "name": "Anthropic",
+       "pct": "> −6 %",
+       "at_word": 8,
+       "key": "ANT",
+       "up": false
+      },
+      {
+       "name": "AMD",
+       "pct": "> −5 %",
+       "at_word": 9,
+       "key": "AMD",
+       "up": false
+      },
+      {
+       "name": "Intel",
+       "pct": "> −4 %",
+       "at_word": 13,
+       "key": "INTC",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le Dow Jones a déjà perdu plus de 6 % cette semaine, sa pire depuis avril 2025.",
+   "say": "Le Dow Jones a déjà perdu plus de six pour cent cette semaine... sa pire depuis avril deux mille vingt-cinq.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "DOW JONES · SUR LA SEMAINE",
+     "value_from": 0,
+     "value_to": -6.2,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE SEMAINE DEPUIS AVRIL 2025",
+     "desc": "IC Markets · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller : la confiance des consommateurs américains, à 16 h, heure de Paris.",
+   "say": "À surveiller : la confiance des consommateurs américains, à seize heures, heure de Paris.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b14.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b14b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER",
+     "rows": [
+      {
+       "name": "Confiance Michigan",
+       "pct": "16H00",
+       "at_word": 3,
+       "up": true
+      },
+      {
+       "name": "Vente de Mailchimp",
+       "pct": "DÉBUT 2027",
+       "at_word": 8,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Agenda (heure de Paris) · IC Markets · 20 nov. 2026 · SiliconANGLE · 19 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Intuit a-t-il raison de couper la branche qui ne pousse plus ? Dis-le en commentaire.",
+   "say": "Alors... Intuit a-t-il raison de couper la branche qui ne pousse plus ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "BONNE DÉCISION",
+      "OU AVEU D'ÉCHEC ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Les gros titres, tout le monde les voit. Ce qu'il y a derrière, on le décortique sur mon Telegram gratuit : actu géopolitique et financière, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes déjà. Entre dans le canal, lien en bio.",
+   "say": "Les gros titres, tout le monde les voit... Ce qu'il y a derrière, on le décortique sur mon Telegram gratuit : actu géopolitique et financière, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes déjà. Entre dans le canal, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Intuit brade Mailchimp : ce qu'il faut comprendre",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 33,
+     "bio_at_word": 42,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

@@ -1,0 +1,3765 @@
+{
+ "fps": 30,
+ "duration": 91.912,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.862,
+   "w0": 0,
+   "w1": 8,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.922,
+   "end": 9.13,
+   "w0": 9,
+   "w1": 21,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 9.19,
+   "end": 11.988,
+   "w0": 22,
+   "w1": 34,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 12.048,
+   "end": 16.631,
+   "w0": 35,
+   "w1": 50,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 16.691,
+   "end": 22.012,
+   "w0": 51,
+   "w1": 65,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 22.072,
+   "end": 25.0,
+   "w0": 66,
+   "w1": 73,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 25.06,
+   "end": 29.641,
+   "w0": 74,
+   "w1": 90,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 29.701,
+   "end": 35.655,
+   "w0": 91,
+   "w1": 105,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 35.715,
+   "end": 39.764,
+   "w0": 106,
+   "w1": 116,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 39.824,
+   "end": 46.591,
+   "w0": 117,
+   "w1": 135,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 46.651,
+   "end": 51.377,
+   "w0": 136,
+   "w1": 147,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 51.437,
+   "end": 55.981,
+   "w0": 148,
+   "w1": 156,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 56.041,
+   "end": 61.18,
+   "w0": 157,
+   "w1": 171,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 61.24,
+   "end": 67.033,
+   "w0": 172,
+   "w1": 187,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 67.093,
+   "end": 71.591,
+   "w0": 188,
+   "w1": 200,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_14.wav"
+  },
+  {
+   "i": 15,
+   "start": 71.651,
+   "end": 76.127,
+   "w0": 201,
+   "w1": 215,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_15.wav"
+  },
+  {
+   "i": 16,
+   "start": 76.187,
+   "end": 90.002,
+   "w0": 216,
+   "w1": 258,
+   "voice": "episodes/ep39_intuit_mailchimp/voice/beat_16.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "12",
+   "start": 0.0,
+   "end": 0.28,
+   "beat": 0
+  },
+  {
+   "w": "milliards",
+   "start": 0.28,
+   "end": 0.6,
+   "beat": 0
+  },
+  {
+   "w": "en",
+   "start": 1.1,
+   "end": 1.26,
+   "beat": 0
+  },
+  {
+   "w": "2021.",
+   "start": 1.26,
+   "end": 2.0,
+   "beat": 0
+  },
+  {
+   "w": "À",
+   "start": 2.18,
+   "end": 2.56,
+   "beat": 0
+  },
+  {
+   "w": "peine",
+   "start": 2.56,
+   "end": 2.76,
+   "beat": 0
+  },
+  {
+   "w": "3,7",
+   "start": 2.76,
+   "end": 3.04,
+   "beat": 0
+  },
+  {
+   "w": "milliards",
+   "start": 3.56,
+   "end": 3.76,
+   "beat": 0
+  },
+  {
+   "w": "aujourd'hui.",
+   "start": 3.76,
+   "end": 4.38,
+   "beat": 0
+  },
+  {
+   "w": "C'est",
+   "start": 5.082,
+   "end": 5.142,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 5.142,
+   "end": 5.222,
+   "beat": 1
+  },
+  {
+   "w": "prix",
+   "start": 5.222,
+   "end": 5.422,
+   "beat": 1
+  },
+  {
+   "w": "auquel",
+   "start": 5.422,
+   "end": 5.702,
+   "beat": 1
+  },
+  {
+   "w": "Intuit,",
+   "start": 5.702,
+   "end": 6.222,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 6.402,
+   "end": 6.562,
+   "beat": 1
+  },
+  {
+   "w": "géant",
+   "start": 6.562,
+   "end": 6.842,
+   "beat": 1
+  },
+  {
+   "w": "américain",
+   "start": 6.842,
+   "end": 7.322,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 7.322,
+   "end": 7.382,
+   "beat": 1
+  },
+  {
+   "w": "la",
+   "start": 7.382,
+   "end": 7.502,
+   "beat": 1
+  },
+  {
+   "w": "compta,",
+   "start": 7.502,
+   "end": 7.922,
+   "beat": 1
+  },
+  {
+   "w": "revend",
+   "start": 8.102,
+   "end": 8.402,
+   "beat": 1
+  },
+  {
+   "w": "Mailchimp.",
+   "start": 8.402,
+   "end": 8.982,
+   "beat": 1
+  },
+  {
+   "w": "Moins",
+   "start": 9.19,
+   "end": 9.39,
+   "beat": 2
+  },
+  {
+   "w": "d'un",
+   "start": 9.65,
+   "end": 9.73,
+   "beat": 2
+  },
+  {
+   "w": "tiers",
+   "start": 9.73,
+   "end": 9.95,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 9.95,
+   "end": 10.15,
+   "beat": 2
+  },
+  {
+   "w": "ce",
+   "start": 10.15,
+   "end": 10.29,
+   "beat": 2
+  },
+  {
+   "w": "qu'il",
+   "start": 10.29,
+   "end": 10.41,
+   "beat": 2
+  },
+  {
+   "w": "l'avait",
+   "start": 10.59,
+   "end": 10.69,
+   "beat": 2
+  },
+  {
+   "w": "payé,",
+   "start": 10.69,
+   "end": 11.15,
+   "beat": 2
+  },
+  {
+   "w": "il",
+   "start": 11.15,
+   "end": 11.37,
+   "beat": 2
+  },
+  {
+   "w": "y",
+   "start": 11.37,
+   "end": 11.47,
+   "beat": 2
+  },
+  {
+   "w": "a",
+   "start": 11.47,
+   "end": 11.55,
+   "beat": 2
+  },
+  {
+   "w": "cinq",
+   "start": 11.55,
+   "end": 11.75,
+   "beat": 2
+  },
+  {
+   "w": "ans.",
+   "start": 11.75,
+   "end": 11.95,
+   "beat": 2
+  },
+  {
+   "w": "Et",
+   "start": 12.048,
+   "end": 12.328,
+   "beat": 3
+  },
+  {
+   "w": "ce",
+   "start": 12.328,
+   "end": 12.468,
+   "beat": 3
+  },
+  {
+   "w": "n'est",
+   "start": 12.528,
+   "end": 12.608,
+   "beat": 3
+  },
+  {
+   "w": "pas",
+   "start": 12.608,
+   "end": 12.708,
+   "beat": 3
+  },
+  {
+   "w": "le",
+   "start": 12.708,
+   "end": 12.808,
+   "beat": 3
+  },
+  {
+   "w": "pire :",
+   "start": 12.808,
+   "end": 13.168,
+   "beat": 3
+  },
+  {
+   "w": "après",
+   "start": 13.288,
+   "end": 13.528,
+   "beat": 3
+  },
+  {
+   "w": "l'annonce,",
+   "start": 13.668,
+   "end": 14.068,
+   "beat": 3
+  },
+  {
+   "w": "l'action",
+   "start": 14.248,
+   "end": 14.448,
+   "beat": 3
+  },
+  {
+   "w": "Intuit",
+   "start": 14.748,
+   "end": 15.008,
+   "beat": 3
+  },
+  {
+   "w": "a",
+   "start": 15.008,
+   "end": 15.148,
+   "beat": 3
+  },
+  {
+   "w": "plongé",
+   "start": 15.148,
+   "end": 15.488,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 15.488,
+   "end": 15.588,
+   "beat": 3
+  },
+  {
+   "w": "plus",
+   "start": 15.588,
+   "end": 15.808,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 15.808,
+   "end": 15.968,
+   "beat": 3
+  },
+  {
+   "w": "10 %.",
+   "start": 15.968,
+   "end": 16.348,
+   "beat": 3
+  },
+  {
+   "w": "Pourtant,",
+   "start": 16.691,
+   "end": 17.171,
+   "beat": 4
+  },
+  {
+   "w": "ses",
+   "start": 17.331,
+   "end": 17.411,
+   "beat": 4
+  },
+  {
+   "w": "résultats",
+   "start": 17.411,
+   "end": 17.931,
+   "beat": 4
+  },
+  {
+   "w": "battent",
+   "start": 17.931,
+   "end": 18.271,
+   "beat": 4
+  },
+  {
+   "w": "les",
+   "start": 18.271,
+   "end": 18.271,
+   "beat": 4
+  },
+  {
+   "w": "attentes :",
+   "start": 18.271,
+   "end": 18.711,
+   "beat": 4
+  },
+  {
+   "w": "4,35",
+   "start": 18.711,
+   "end": 19.371,
+   "beat": 4
+  },
+  {
+   "w": "milliards",
+   "start": 19.371,
+   "end": 19.651,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 19.651,
+   "end": 19.871,
+   "beat": 4
+  },
+  {
+   "w": "chiffre",
+   "start": 19.871,
+   "end": 20.171,
+   "beat": 4
+  },
+  {
+   "w": "d'affaires,",
+   "start": 20.271,
+   "end": 20.671,
+   "beat": 4
+  },
+  {
+   "w": "en",
+   "start": 20.671,
+   "end": 20.911,
+   "beat": 4
+  },
+  {
+   "w": "hausse",
+   "start": 20.911,
+   "end": 21.191,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 21.191,
+   "end": 21.291,
+   "beat": 4
+  },
+  {
+   "w": "12 %.",
+   "start": 21.291,
+   "end": 21.751,
+   "beat": 4
+  },
+  {
+   "w": "Alors,",
+   "start": 22.072,
+   "end": 22.452,
+   "beat": 5
+  },
+  {
+   "w": "pourquoi",
+   "start": 22.452,
+   "end": 23.012,
+   "beat": 5
+  },
+  {
+   "w": "de",
+   "start": 23.012,
+   "end": 23.232,
+   "beat": 5
+  },
+  {
+   "w": "bons",
+   "start": 23.232,
+   "end": 23.412,
+   "beat": 5
+  },
+  {
+   "w": "chiffres",
+   "start": 23.412,
+   "end": 23.792,
+   "beat": 5
+  },
+  {
+   "w": "font-ils",
+   "start": 23.792,
+   "end": 23.972,
+   "beat": 5
+  },
+  {
+   "w": "chuter",
+   "start": 24.172,
+   "end": 24.532,
+   "beat": 5
+  },
+  {
+   "w": "l'action ?",
+   "start": 24.632,
+   "end": 24.812,
+   "beat": 5
+  },
+  {
+   "w": "Ce",
+   "start": 25.06,
+   "end": 25.34,
+   "beat": 6
+  },
+  {
+   "w": "genre",
+   "start": 25.34,
+   "end": 25.54,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 25.54,
+   "end": 25.68,
+   "beat": 6
+  },
+  {
+   "w": "coup",
+   "start": 25.68,
+   "end": 25.94,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 25.94,
+   "end": 25.94,
+   "beat": 6
+  },
+  {
+   "w": "théâtre,",
+   "start": 25.94,
+   "end": 26.42,
+   "beat": 6
+  },
+  {
+   "w": "je",
+   "start": 26.56,
+   "end": 26.62,
+   "beat": 6
+  },
+  {
+   "w": "le",
+   "start": 26.62,
+   "end": 26.74,
+   "beat": 6
+  },
+  {
+   "w": "décortique",
+   "start": 26.74,
+   "end": 27.26,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 27.26,
+   "end": 27.34,
+   "beat": 6
+  },
+  {
+   "w": "direct",
+   "start": 27.34,
+   "end": 27.64,
+   "beat": 6
+  },
+  {
+   "w": "sur",
+   "start": 27.64,
+   "end": 27.96,
+   "beat": 6
+  },
+  {
+   "w": "mon",
+   "start": 27.96,
+   "end": 28.12,
+   "beat": 6
+  },
+  {
+   "w": "Telegram.",
+   "start": 28.12,
+   "end": 28.9,
+   "beat": 6
+  },
+  {
+   "w": "Lien",
+   "start": 28.96,
+   "end": 29.14,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 29.14,
+   "end": 29.36,
+   "beat": 6
+  },
+  {
+   "w": "bio.",
+   "start": 29.36,
+   "end": 29.5,
+   "beat": 6
+  },
+  {
+   "w": "Premier",
+   "start": 29.701,
+   "end": 30.061,
+   "beat": 7
+  },
+  {
+   "w": "problème :",
+   "start": 30.061,
+   "end": 30.501,
+   "beat": 7
+  },
+  {
+   "w": "Mailchimp",
+   "start": 30.781,
+   "end": 31.381,
+   "beat": 7
+  },
+  {
+   "w": "recule.",
+   "start": 31.381,
+   "end": 31.981,
+   "beat": 7
+  },
+  {
+   "w": "313",
+   "start": 32.161,
+   "end": 32.721,
+   "beat": 7
+  },
+  {
+   "w": "millions",
+   "start": 32.721,
+   "end": 33.021,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 33.021,
+   "end": 33.201,
+   "beat": 7
+  },
+  {
+   "w": "dollars",
+   "start": 33.201,
+   "end": 33.481,
+   "beat": 7
+  },
+  {
+   "w": "sur",
+   "start": 33.481,
+   "end": 33.701,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 33.701,
+   "end": 33.801,
+   "beat": 7
+  },
+  {
+   "w": "trimestre,",
+   "start": 33.801,
+   "end": 34.361,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 34.361,
+   "end": 34.621,
+   "beat": 7
+  },
+  {
+   "w": "baisse",
+   "start": 34.621,
+   "end": 34.901,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 34.901,
+   "end": 35.041,
+   "beat": 7
+  },
+  {
+   "w": "1 %.",
+   "start": 35.041,
+   "end": 35.261,
+   "beat": 7
+  },
+  {
+   "w": "Deuxième",
+   "start": 35.715,
+   "end": 36.255,
+   "beat": 8
+  },
+  {
+   "w": "problème :",
+   "start": 36.255,
+   "end": 36.615,
+   "beat": 8
+  },
+  {
+   "w": "Intuit",
+   "start": 36.975,
+   "end": 37.315,
+   "beat": 8
+  },
+  {
+   "w": "abaisse",
+   "start": 37.315,
+   "end": 37.695,
+   "beat": 8
+  },
+  {
+   "w": "sa",
+   "start": 37.695,
+   "end": 37.815,
+   "beat": 8
+  },
+  {
+   "w": "prévision",
+   "start": 37.815,
+   "end": 38.255,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 38.255,
+   "end": 38.375,
+   "beat": 8
+  },
+  {
+   "w": "croissance",
+   "start": 38.375,
+   "end": 38.835,
+   "beat": 8
+  },
+  {
+   "w": "pour",
+   "start": 38.835,
+   "end": 39.075,
+   "beat": 8
+  },
+  {
+   "w": "toute",
+   "start": 39.075,
+   "end": 39.255,
+   "beat": 8
+  },
+  {
+   "w": "l'année.",
+   "start": 39.415,
+   "end": 39.555,
+   "beat": 8
+  },
+  {
+   "w": "En",
+   "start": 39.824,
+   "end": 40.044,
+   "beat": 9
+  },
+  {
+   "w": "cause :",
+   "start": 40.044,
+   "end": 40.324,
+   "beat": 9
+  },
+  {
+   "w": "Credit",
+   "start": 40.604,
+   "end": 40.964,
+   "beat": 9
+  },
+  {
+   "w": "Karma,",
+   "start": 40.964,
+   "end": 41.304,
+   "beat": 9
+  },
+  {
+   "w": "dont",
+   "start": 41.464,
+   "end": 41.644,
+   "beat": 9
+  },
+  {
+   "w": "la",
+   "start": 41.644,
+   "end": 41.784,
+   "beat": 9
+  },
+  {
+   "w": "croissance",
+   "start": 41.784,
+   "end": 42.124,
+   "beat": 9
+  },
+  {
+   "w": "attendue",
+   "start": 42.124,
+   "end": 42.644,
+   "beat": 9
+  },
+  {
+   "w": "est",
+   "start": 42.924,
+   "end": 43.024,
+   "beat": 9
+  },
+  {
+   "w": "ramenée",
+   "start": 43.024,
+   "end": 43.444,
+   "beat": 9
+  },
+  {
+   "w": "entre",
+   "start": 43.444,
+   "end": 43.624,
+   "beat": 9
+  },
+  {
+   "w": "3",
+   "start": 43.624,
+   "end": 44.024,
+   "beat": 9
+  },
+  {
+   "w": "et",
+   "start": 44.024,
+   "end": 44.184,
+   "beat": 9
+  },
+  {
+   "w": "7 %,",
+   "start": 44.184,
+   "end": 44.504,
+   "beat": 9
+  },
+  {
+   "w": "contre",
+   "start": 44.864,
+   "end": 45.244,
+   "beat": 9
+  },
+  {
+   "w": "11",
+   "start": 45.244,
+   "end": 45.644,
+   "beat": 9
+  },
+  {
+   "w": "à",
+   "start": 45.644,
+   "end": 45.924,
+   "beat": 9
+  },
+  {
+   "w": "13 %",
+   "start": 45.924,
+   "end": 46.184,
+   "beat": 9
+  },
+  {
+   "w": "avant.",
+   "start": 46.184,
+   "end": 46.464,
+   "beat": 9
+  },
+  {
+   "w": "Et",
+   "start": 46.651,
+   "end": 46.791,
+   "beat": 10
+  },
+  {
+   "w": "l'acheteur ?",
+   "start": 46.871,
+   "end": 47.351,
+   "beat": 10
+  },
+  {
+   "w": "Bending",
+   "start": 47.531,
+   "end": 47.951,
+   "beat": 10
+  },
+  {
+   "w": "Spoons,",
+   "start": 47.951,
+   "end": 48.431,
+   "beat": 10
+  },
+  {
+   "w": "un",
+   "start": 48.691,
+   "end": 48.831,
+   "beat": 10
+  },
+  {
+   "w": "groupe",
+   "start": 48.831,
+   "end": 49.031,
+   "beat": 10
+  },
+  {
+   "w": "italien",
+   "start": 49.031,
+   "end": 49.611,
+   "beat": 10
+  },
+  {
+   "w": "coté",
+   "start": 49.611,
+   "end": 49.891,
+   "beat": 10
+  },
+  {
+   "w": "au",
+   "start": 49.891,
+   "end": 50.071,
+   "beat": 10
+  },
+  {
+   "w": "Nasdaq",
+   "start": 50.071,
+   "end": 50.511,
+   "beat": 10
+  },
+  {
+   "w": "depuis",
+   "start": 50.511,
+   "end": 50.731,
+   "beat": 10
+  },
+  {
+   "w": "juillet.",
+   "start": 50.731,
+   "end": 51.271,
+   "beat": 10
+  },
+  {
+   "w": "Il",
+   "start": 51.437,
+   "end": 51.677,
+   "beat": 11
+  },
+  {
+   "w": "a",
+   "start": 51.677,
+   "end": 51.777,
+   "beat": 11
+  },
+  {
+   "w": "déjà",
+   "start": 51.777,
+   "end": 51.997,
+   "beat": 11
+  },
+  {
+   "w": "avalé",
+   "start": 51.997,
+   "end": 52.477,
+   "beat": 11
+  },
+  {
+   "w": "Evernote,",
+   "start": 52.477,
+   "end": 53.097,
+   "beat": 11
+  },
+  {
+   "w": "WeTransfer,",
+   "start": 53.297,
+   "end": 53.977,
+   "beat": 11
+  },
+  {
+   "w": "Vimeo",
+   "start": 54.237,
+   "end": 54.777,
+   "beat": 11
+  },
+  {
+   "w": "et",
+   "start": 54.777,
+   "end": 55.017,
+   "beat": 11
+  },
+  {
+   "w": "Eventbrite.",
+   "start": 55.017,
+   "end": 55.717,
+   "beat": 11
+  },
+  {
+   "w": "Et",
+   "start": 56.041,
+   "end": 56.261,
+   "beat": 12
+  },
+  {
+   "w": "ce",
+   "start": 56.261,
+   "end": 56.441,
+   "beat": 12
+  },
+  {
+   "w": "matin,",
+   "start": 56.441,
+   "end": 56.721,
+   "beat": 12
+  },
+  {
+   "w": "toute",
+   "start": 56.961,
+   "end": 57.041,
+   "beat": 12
+  },
+  {
+   "w": "la",
+   "start": 57.041,
+   "end": 57.241,
+   "beat": 12
+  },
+  {
+   "w": "tech",
+   "start": 57.241,
+   "end": 57.401,
+   "beat": 12
+  },
+  {
+   "w": "flanche",
+   "start": 57.401,
+   "end": 57.761,
+   "beat": 12
+  },
+  {
+   "w": "encore :",
+   "start": 57.761,
+   "end": 58.121,
+   "beat": 12
+  },
+  {
+   "w": "Anthropic",
+   "start": 58.421,
+   "end": 58.901,
+   "beat": 12
+  },
+  {
+   "w": "perd",
+   "start": 58.901,
+   "end": 59.061,
+   "beat": 12
+  },
+  {
+   "w": "plus",
+   "start": 59.061,
+   "end": 59.321,
+   "beat": 12
+  },
+  {
+   "w": "de",
+   "start": 59.321,
+   "end": 59.441,
+   "beat": 12
+  },
+  {
+   "w": "6 %",
+   "start": 59.441,
+   "end": 59.701,
+   "beat": 12
+  },
+  {
+   "w": "avant",
+   "start": 60.081,
+   "end": 60.361,
+   "beat": 12
+  },
+  {
+   "w": "l'ouverture.",
+   "start": 60.501,
+   "end": 61.041,
+   "beat": 12
+  },
+  {
+   "w": "Le",
+   "start": 61.24,
+   "end": 61.46,
+   "beat": 13
+  },
+  {
+   "w": "Dow",
+   "start": 61.46,
+   "end": 61.66,
+   "beat": 13
+  },
+  {
+   "w": "Jones",
+   "start": 61.66,
+   "end": 62.02,
+   "beat": 13
+  },
+  {
+   "w": "a",
+   "start": 62.02,
+   "end": 62.28,
+   "beat": 13
+  },
+  {
+   "w": "déjà",
+   "start": 62.28,
+   "end": 62.5,
+   "beat": 13
+  },
+  {
+   "w": "perdu",
+   "start": 62.5,
+   "end": 62.84,
+   "beat": 13
+  },
+  {
+   "w": "plus",
+   "start": 62.84,
+   "end": 63.08,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 63.08,
+   "end": 63.24,
+   "beat": 13
+  },
+  {
+   "w": "6 %",
+   "start": 63.24,
+   "end": 63.5,
+   "beat": 13
+  },
+  {
+   "w": "cette",
+   "start": 63.82,
+   "end": 64.04,
+   "beat": 13
+  },
+  {
+   "w": "semaine,",
+   "start": 64.04,
+   "end": 64.46,
+   "beat": 13
+  },
+  {
+   "w": "sa",
+   "start": 64.46,
+   "end": 65.0,
+   "beat": 13
+  },
+  {
+   "w": "pire",
+   "start": 65.0,
+   "end": 65.38,
+   "beat": 13
+  },
+  {
+   "w": "depuis",
+   "start": 65.38,
+   "end": 65.64,
+   "beat": 13
+  },
+  {
+   "w": "avril",
+   "start": 65.64,
+   "end": 66.12,
+   "beat": 13
+  },
+  {
+   "w": "2025.",
+   "start": 66.12,
+   "end": 66.44,
+   "beat": 13
+  },
+  {
+   "w": "À",
+   "start": 67.093,
+   "end": 67.353,
+   "beat": 14
+  },
+  {
+   "w": "surveiller :",
+   "start": 67.353,
+   "end": 67.913,
+   "beat": 14
+  },
+  {
+   "w": "la",
+   "start": 67.913,
+   "end": 68.193,
+   "beat": 14
+  },
+  {
+   "w": "confiance",
+   "start": 68.193,
+   "end": 68.513,
+   "beat": 14
+  },
+  {
+   "w": "des",
+   "start": 68.513,
+   "end": 68.753,
+   "beat": 14
+  },
+  {
+   "w": "consommateurs",
+   "start": 68.753,
+   "end": 69.313,
+   "beat": 14
+  },
+  {
+   "w": "américains,",
+   "start": 69.313,
+   "end": 69.973,
+   "beat": 14
+  },
+  {
+   "w": "à",
+   "start": 69.973,
+   "end": 70.173,
+   "beat": 14
+  },
+  {
+   "w": "16",
+   "start": 70.173,
+   "end": 70.473,
+   "beat": 14
+  },
+  {
+   "w": "h,",
+   "start": 70.473,
+   "end": 70.793,
+   "beat": 14
+  },
+  {
+   "w": "heure",
+   "start": 70.793,
+   "end": 71.053,
+   "beat": 14
+  },
+  {
+   "w": "de",
+   "start": 71.053,
+   "end": 71.193,
+   "beat": 14
+  },
+  {
+   "w": "Paris.",
+   "start": 71.193,
+   "end": 71.453,
+   "beat": 14
+  },
+  {
+   "w": "Alors,",
+   "start": 71.651,
+   "end": 71.891,
+   "beat": 15
+  },
+  {
+   "w": "Intuit",
+   "start": 72.351,
+   "end": 72.571,
+   "beat": 15
+  },
+  {
+   "w": "a-t-il",
+   "start": 72.771,
+   "end": 72.871,
+   "beat": 15
+  },
+  {
+   "w": "raison",
+   "start": 72.871,
+   "end": 73.131,
+   "beat": 15
+  },
+  {
+   "w": "de",
+   "start": 73.131,
+   "end": 73.311,
+   "beat": 15
+  },
+  {
+   "w": "couper",
+   "start": 73.311,
+   "end": 73.591,
+   "beat": 15
+  },
+  {
+   "w": "la",
+   "start": 73.591,
+   "end": 73.691,
+   "beat": 15
+  },
+  {
+   "w": "branche",
+   "start": 73.691,
+   "end": 74.031,
+   "beat": 15
+  },
+  {
+   "w": "qui",
+   "start": 74.031,
+   "end": 74.131,
+   "beat": 15
+  },
+  {
+   "w": "ne",
+   "start": 74.131,
+   "end": 74.231,
+   "beat": 15
+  },
+  {
+   "w": "pousse",
+   "start": 74.231,
+   "end": 74.511,
+   "beat": 15
+  },
+  {
+   "w": "plus ?",
+   "start": 74.511,
+   "end": 74.731,
+   "beat": 15
+  },
+  {
+   "w": "Dis-le",
+   "start": 74.891,
+   "end": 75.111,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 75.251,
+   "end": 75.371,
+   "beat": 15
+  },
+  {
+   "w": "commentaire.",
+   "start": 75.371,
+   "end": 75.951,
+   "beat": 15
+  },
+  {
+   "w": "Les",
+   "start": 76.187,
+   "end": 76.367,
+   "beat": 16
+  },
+  {
+   "w": "gros",
+   "start": 76.367,
+   "end": 76.547,
+   "beat": 16
+  },
+  {
+   "w": "titres,",
+   "start": 76.547,
+   "end": 77.007,
+   "beat": 16
+  },
+  {
+   "w": "tout",
+   "start": 77.107,
+   "end": 77.187,
+   "beat": 16
+  },
+  {
+   "w": "le",
+   "start": 77.187,
+   "end": 77.307,
+   "beat": 16
+  },
+  {
+   "w": "monde",
+   "start": 77.307,
+   "end": 77.447,
+   "beat": 16
+  },
+  {
+   "w": "les",
+   "start": 77.447,
+   "end": 77.627,
+   "beat": 16
+  },
+  {
+   "w": "voit.",
+   "start": 77.627,
+   "end": 77.827,
+   "beat": 16
+  },
+  {
+   "w": "Ce",
+   "start": 78.067,
+   "end": 78.147,
+   "beat": 16
+  },
+  {
+   "w": "qu'il",
+   "start": 78.147,
+   "end": 78.307,
+   "beat": 16
+  },
+  {
+   "w": "y",
+   "start": 78.387,
+   "end": 78.487,
+   "beat": 16
+  },
+  {
+   "w": "a",
+   "start": 78.487,
+   "end": 78.527,
+   "beat": 16
+  },
+  {
+   "w": "derrière,",
+   "start": 78.527,
+   "end": 78.867,
+   "beat": 16
+  },
+  {
+   "w": "on",
+   "start": 79.167,
+   "end": 79.267,
+   "beat": 16
+  },
+  {
+   "w": "le",
+   "start": 79.267,
+   "end": 79.387,
+   "beat": 16
+  },
+  {
+   "w": "décortique",
+   "start": 79.387,
+   "end": 79.907,
+   "beat": 16
+  },
+  {
+   "w": "sur",
+   "start": 79.907,
+   "end": 80.047,
+   "beat": 16
+  },
+  {
+   "w": "mon",
+   "start": 80.047,
+   "end": 80.187,
+   "beat": 16
+  },
+  {
+   "w": "Telegram",
+   "start": 80.187,
+   "end": 80.727,
+   "beat": 16
+  },
+  {
+   "w": "gratuit :",
+   "start": 80.727,
+   "end": 81.007,
+   "beat": 16
+  },
+  {
+   "w": "actu",
+   "start": 81.267,
+   "end": 81.627,
+   "beat": 16
+  },
+  {
+   "w": "géopolitique",
+   "start": 81.627,
+   "end": 82.327,
+   "beat": 16
+  },
+  {
+   "w": "et",
+   "start": 82.327,
+   "end": 82.407,
+   "beat": 16
+  },
+  {
+   "w": "financière,",
+   "start": 82.407,
+   "end": 83.067,
+   "beat": 16
+  },
+  {
+   "w": "analyses",
+   "start": 83.187,
+   "end": 83.487,
+   "beat": 16
+  },
+  {
+   "w": "d'actions",
+   "start": 83.707,
+   "end": 83.887,
+   "beat": 16
+  },
+  {
+   "w": "détaillées,",
+   "start": 83.887,
+   "end": 84.487,
+   "beat": 16
+  },
+  {
+   "w": "opportunités",
+   "start": 84.687,
+   "end": 85.347,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 85.347,
+   "end": 85.487,
+   "beat": 16
+  },
+  {
+   "w": "temps",
+   "start": 85.487,
+   "end": 85.647,
+   "beat": 16
+  },
+  {
+   "w": "réel.",
+   "start": 85.647,
+   "end": 86.127,
+   "beat": 16
+  },
+  {
+   "w": "Plus",
+   "start": 86.307,
+   "end": 86.447,
+   "beat": 16
+  },
+  {
+   "w": "de",
+   "start": 86.447,
+   "end": 86.607,
+   "beat": 16
+  },
+  {
+   "w": "22 000",
+   "start": 86.947,
+   "end": 87.167,
+   "beat": 16
+  },
+  {
+   "w": "personnes",
+   "start": 87.167,
+   "end": 87.487,
+   "beat": 16
+  },
+  {
+   "w": "déjà.",
+   "start": 87.487,
+   "end": 87.887,
+   "beat": 16
+  },
+  {
+   "w": "Entre",
+   "start": 88.167,
+   "end": 88.387,
+   "beat": 16
+  },
+  {
+   "w": "dans",
+   "start": 88.387,
+   "end": 88.527,
+   "beat": 16
+  },
+  {
+   "w": "le",
+   "start": 88.527,
+   "end": 88.627,
+   "beat": 16
+  },
+  {
+   "w": "canal,",
+   "start": 88.627,
+   "end": 88.967,
+   "beat": 16
+  },
+  {
+   "w": "lien",
+   "start": 89.307,
+   "end": 89.527,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 89.567,
+   "end": 89.667,
+   "beat": 16
+  },
+  {
+   "w": "bio.",
+   "start": 89.667,
+   "end": 89.847,
+   "beat": 16
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 2.18
+  },
+  {
+   "start": 2.18,
+   "lines": [
+    [
+     4,
+     5,
+     6
+    ],
+    [
+     7
+    ]
+   ],
+   "beat": 0,
+   "end": 3.76
+  },
+  {
+   "start": 3.76,
+   "lines": [
+    [
+     8
+    ]
+   ],
+   "beat": 0,
+   "end": 5.082
+  },
+  {
+   "start": 5.082,
+   "lines": [
+    [
+     9,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "beat": 1,
+   "end": 5.702
+  },
+  {
+   "start": 5.702,
+   "lines": [
+    [
+     13,
+     14
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "beat": 1,
+   "end": 7.322
+  },
+  {
+   "start": 7.322,
+   "lines": [
+    [
+     17,
+     18,
+     19
+    ]
+   ],
+   "beat": 1,
+   "end": 8.102
+  },
+  {
+   "start": 8.102,
+   "lines": [
+    [
+     20,
+     21
+    ]
+   ],
+   "beat": 1,
+   "end": 9.19
+  },
+  {
+   "start": 9.19,
+   "lines": [
+    [
+     22
+    ],
+    [
+     23,
+     24
+    ]
+   ],
+   "beat": 2,
+   "end": 9.95
+  },
+  {
+   "start": 9.95,
+   "lines": [
+    [
+     25,
+     26,
+     27
+    ],
+    [
+     28
+    ]
+   ],
+   "beat": 2,
+   "end": 10.69
+  },
+  {
+   "start": 10.69,
+   "lines": [
+    [
+     29,
+     30,
+     31,
+     32
+    ]
+   ],
+   "beat": 2,
+   "end": 11.55
+  },
+  {
+   "start": 11.55,
+   "lines": [
+    [
+     33,
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 12.048
+  },
+  {
+   "start": 12.048,
+   "lines": [
+    [
+     35,
+     36
+    ],
+    [
+     37,
+     38
+    ]
+   ],
+   "beat": 3,
+   "end": 12.708
+  },
+  {
+   "start": 12.708,
+   "lines": [
+    [
+     39,
+     40
+    ]
+   ],
+   "beat": 3,
+   "end": 13.288
+  },
+  {
+   "start": 13.288,
+   "lines": [
+    [
+     41,
+     42
+    ]
+   ],
+   "beat": 3,
+   "end": 14.248
+  },
+  {
+   "start": 14.248,
+   "lines": [
+    [
+     43
+    ],
+    [
+     44,
+     45,
+     46
+    ]
+   ],
+   "beat": 3,
+   "end": 15.488
+  },
+  {
+   "start": 15.488,
+   "lines": [
+    [
+     47,
+     48
+    ],
+    [
+     49,
+     50
+    ]
+   ],
+   "beat": 3,
+   "end": 16.691
+  },
+  {
+   "start": 16.691,
+   "lines": [
+    [
+     51
+    ],
+    [
+     52,
+     53
+    ]
+   ],
+   "beat": 4,
+   "end": 17.931
+  },
+  {
+   "start": 17.931,
+   "lines": [
+    [
+     54,
+     55
+    ],
+    [
+     56
+    ]
+   ],
+   "beat": 4,
+   "end": 18.711
+  },
+  {
+   "start": 18.711,
+   "lines": [
+    [
+     57,
+     58
+    ],
+    [
+     59,
+     60
+    ]
+   ],
+   "beat": 4,
+   "end": 20.271
+  },
+  {
+   "start": 20.271,
+   "lines": [
+    [
+     61
+    ],
+    [
+     62,
+     63
+    ]
+   ],
+   "beat": 4,
+   "end": 21.191
+  },
+  {
+   "start": 21.191,
+   "lines": [
+    [
+     64,
+     65
+    ]
+   ],
+   "beat": 4,
+   "end": 22.072
+  },
+  {
+   "start": 22.072,
+   "lines": [
+    [
+     66,
+     67
+    ],
+    [
+     68,
+     69
+    ]
+   ],
+   "beat": 5,
+   "end": 23.412
+  },
+  {
+   "start": 23.412,
+   "lines": [
+    [
+     70
+    ],
+    [
+     71,
+     72
+    ]
+   ],
+   "beat": 5,
+   "end": 24.632
+  },
+  {
+   "start": 24.632,
+   "lines": [
+    [
+     73
+    ]
+   ],
+   "beat": 5,
+   "end": 25.06
+  },
+  {
+   "start": 25.06,
+   "lines": [
+    [
+     74,
+     75
+    ],
+    [
+     76,
+     77
+    ]
+   ],
+   "beat": 6,
+   "end": 25.94
+  },
+  {
+   "start": 25.94,
+   "lines": [
+    [
+     78,
+     79
+    ]
+   ],
+   "beat": 6,
+   "end": 26.56
+  },
+  {
+   "start": 26.56,
+   "lines": [
+    [
+     80,
+     81
+    ],
+    [
+     82
+    ]
+   ],
+   "beat": 6,
+   "end": 27.26
+  },
+  {
+   "start": 27.26,
+   "lines": [
+    [
+     83,
+     84,
+     85
+    ]
+   ],
+   "beat": 6,
+   "end": 27.96
+  },
+  {
+   "start": 27.96,
+   "lines": [
+    [
+     86,
+     87
+    ]
+   ],
+   "beat": 6,
+   "end": 28.96
+  },
+  {
+   "start": 28.96,
+   "lines": [
+    [
+     88,
+     89,
+     90
+    ]
+   ],
+   "beat": 6,
+   "end": 29.701
+  },
+  {
+   "start": 29.701,
+   "lines": [
+    [
+     91,
+     92
+    ]
+   ],
+   "beat": 7,
+   "end": 30.781
+  },
+  {
+   "start": 30.781,
+   "lines": [
+    [
+     93,
+     94
+    ]
+   ],
+   "beat": 7,
+   "end": 32.161
+  },
+  {
+   "start": 32.161,
+   "lines": [
+    [
+     95,
+     96
+    ],
+    [
+     97,
+     98
+    ]
+   ],
+   "beat": 7,
+   "end": 33.481
+  },
+  {
+   "start": 33.481,
+   "lines": [
+    [
+     99,
+     100
+    ],
+    [
+     101
+    ]
+   ],
+   "beat": 7,
+   "end": 34.361
+  },
+  {
+   "start": 34.361,
+   "lines": [
+    [
+     102,
+     103
+    ],
+    [
+     104,
+     105
+    ]
+   ],
+   "beat": 7,
+   "end": 35.715
+  },
+  {
+   "start": 35.715,
+   "lines": [
+    [
+     106
+    ],
+    [
+     107
+    ]
+   ],
+   "beat": 8,
+   "end": 36.975
+  },
+  {
+   "start": 36.975,
+   "lines": [
+    [
+     108,
+     109
+    ]
+   ],
+   "beat": 8,
+   "end": 37.695
+  },
+  {
+   "start": 37.695,
+   "lines": [
+    [
+     110,
+     111
+    ],
+    [
+     112,
+     113
+    ]
+   ],
+   "beat": 8,
+   "end": 38.835
+  },
+  {
+   "start": 38.835,
+   "lines": [
+    [
+     114,
+     115
+    ],
+    [
+     116
+    ]
+   ],
+   "beat": 8,
+   "end": 39.824
+  },
+  {
+   "start": 39.824,
+   "lines": [
+    [
+     117,
+     118
+    ]
+   ],
+   "beat": 9,
+   "end": 40.604
+  },
+  {
+   "start": 40.604,
+   "lines": [
+    [
+     119,
+     120
+    ]
+   ],
+   "beat": 9,
+   "end": 41.464
+  },
+  {
+   "start": 41.464,
+   "lines": [
+    [
+     121,
+     122
+    ],
+    [
+     123
+    ]
+   ],
+   "beat": 9,
+   "end": 42.124
+  },
+  {
+   "start": 42.124,
+   "lines": [
+    [
+     124,
+     125
+    ],
+    [
+     126,
+     127
+    ]
+   ],
+   "beat": 9,
+   "end": 43.624
+  },
+  {
+   "start": 43.624,
+   "lines": [
+    [
+     128,
+     129,
+     130
+    ]
+   ],
+   "beat": 9,
+   "end": 44.864
+  },
+  {
+   "start": 44.864,
+   "lines": [
+    [
+     131
+    ],
+    [
+     132,
+     133,
+     134
+    ]
+   ],
+   "beat": 9,
+   "end": 46.184
+  },
+  {
+   "start": 46.184,
+   "lines": [
+    [
+     135
+    ]
+   ],
+   "beat": 9,
+   "end": 46.651
+  },
+  {
+   "start": 46.651,
+   "lines": [
+    [
+     136,
+     137
+    ]
+   ],
+   "beat": 10,
+   "end": 47.531
+  },
+  {
+   "start": 47.531,
+   "lines": [
+    [
+     138,
+     139
+    ]
+   ],
+   "beat": 10,
+   "end": 48.691
+  },
+  {
+   "start": 48.691,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 10,
+   "end": 49.891
+  },
+  {
+   "start": 49.891,
+   "lines": [
+    [
+     144,
+     145
+    ],
+    [
+     146,
+     147
+    ]
+   ],
+   "beat": 10,
+   "end": 51.437
+  },
+  {
+   "start": 51.437,
+   "lines": [
+    [
+     148,
+     149,
+     150
+    ],
+    [
+     151
+    ]
+   ],
+   "beat": 11,
+   "end": 52.477
+  },
+  {
+   "start": 52.477,
+   "lines": [
+    [
+     152
+    ],
+    [
+     153
+    ]
+   ],
+   "beat": 11,
+   "end": 54.237
+  },
+  {
+   "start": 54.237,
+   "lines": [
+    [
+     154,
+     155
+    ],
+    [
+     156
+    ]
+   ],
+   "beat": 11,
+   "end": 56.041
+  },
+  {
+   "start": 56.041,
+   "lines": [
+    [
+     157,
+     158,
+     159
+    ]
+   ],
+   "beat": 12,
+   "end": 56.961
+  },
+  {
+   "start": 56.961,
+   "lines": [
+    [
+     160,
+     161
+    ],
+    [
+     162,
+     163
+    ]
+   ],
+   "beat": 12,
+   "end": 57.761
+  },
+  {
+   "start": 57.761,
+   "lines": [
+    [
+     164
+    ]
+   ],
+   "beat": 12,
+   "end": 58.421
+  },
+  {
+   "start": 58.421,
+   "lines": [
+    [
+     165
+    ],
+    [
+     166,
+     167
+    ]
+   ],
+   "beat": 12,
+   "end": 59.321
+  },
+  {
+   "start": 59.321,
+   "lines": [
+    [
+     168,
+     169,
+     170
+    ],
+    [
+     171
+    ]
+   ],
+   "beat": 12,
+   "end": 61.24
+  },
+  {
+   "start": 61.24,
+   "lines": [
+    [
+     172,
+     173
+    ],
+    [
+     174,
+     175
+    ]
+   ],
+   "beat": 13,
+   "end": 62.28
+  },
+  {
+   "start": 62.28,
+   "lines": [
+    [
+     176
+    ],
+    [
+     177,
+     178
+    ]
+   ],
+   "beat": 13,
+   "end": 63.08
+  },
+  {
+   "start": 63.08,
+   "lines": [
+    [
+     179,
+     180,
+     181
+    ],
+    [
+     182
+    ]
+   ],
+   "beat": 13,
+   "end": 64.46
+  },
+  {
+   "start": 64.46,
+   "lines": [
+    [
+     183,
+     184
+    ],
+    [
+     185,
+     186
+    ]
+   ],
+   "beat": 13,
+   "end": 66.12
+  },
+  {
+   "start": 66.12,
+   "lines": [
+    [
+     187
+    ]
+   ],
+   "beat": 13,
+   "end": 67.093
+  },
+  {
+   "start": 67.093,
+   "lines": [
+    [
+     188,
+     189
+    ]
+   ],
+   "beat": 14,
+   "end": 67.913
+  },
+  {
+   "start": 67.913,
+   "lines": [
+    [
+     190,
+     191
+    ]
+   ],
+   "beat": 14,
+   "end": 68.513
+  },
+  {
+   "start": 68.513,
+   "lines": [
+    [
+     192,
+     193
+    ]
+   ],
+   "beat": 14,
+   "end": 69.313
+  },
+  {
+   "start": 69.313,
+   "lines": [
+    [
+     194
+    ],
+    [
+     195,
+     196,
+     197
+    ]
+   ],
+   "beat": 14,
+   "end": 70.793
+  },
+  {
+   "start": 70.793,
+   "lines": [
+    [
+     198,
+     199
+    ],
+    [
+     200
+    ]
+   ],
+   "beat": 14,
+   "end": 71.651
+  },
+  {
+   "start": 71.651,
+   "lines": [
+    [
+     201
+    ],
+    [
+     202,
+     203
+    ]
+   ],
+   "beat": 15,
+   "end": 72.871
+  },
+  {
+   "start": 72.871,
+   "lines": [
+    [
+     204
+    ],
+    [
+     205,
+     206
+    ]
+   ],
+   "beat": 15,
+   "end": 73.591
+  },
+  {
+   "start": 73.591,
+   "lines": [
+    [
+     207,
+     208
+    ],
+    [
+     209,
+     210
+    ]
+   ],
+   "beat": 15,
+   "end": 74.231
+  },
+  {
+   "start": 74.231,
+   "lines": [
+    [
+     211,
+     212
+    ]
+   ],
+   "beat": 15,
+   "end": 74.891
+  },
+  {
+   "start": 74.891,
+   "lines": [
+    [
+     213,
+     214
+    ],
+    [
+     215
+    ]
+   ],
+   "beat": 15,
+   "end": 76.187
+  },
+  {
+   "start": 76.187,
+   "lines": [
+    [
+     216,
+     217
+    ],
+    [
+     218
+    ]
+   ],
+   "beat": 16,
+   "end": 77.107
+  },
+  {
+   "start": 77.107,
+   "lines": [
+    [
+     219,
+     220,
+     221
+    ]
+   ],
+   "beat": 16,
+   "end": 77.447
+  },
+  {
+   "start": 77.447,
+   "lines": [
+    [
+     222,
+     223
+    ]
+   ],
+   "beat": 16,
+   "end": 78.067
+  },
+  {
+   "start": 78.067,
+   "lines": [
+    [
+     224,
+     225,
+     226,
+     227
+    ]
+   ],
+   "beat": 16,
+   "end": 78.527
+  },
+  {
+   "start": 78.527,
+   "lines": [
+    [
+     228,
+     229
+    ],
+    [
+     230,
+     231
+    ]
+   ],
+   "beat": 16,
+   "end": 79.907
+  },
+  {
+   "start": 79.907,
+   "lines": [
+    [
+     232,
+     233,
+     234
+    ],
+    [
+     235
+    ]
+   ],
+   "beat": 16,
+   "end": 81.267
+  },
+  {
+   "start": 81.267,
+   "lines": [
+    [
+     236,
+     237
+    ]
+   ],
+   "beat": 16,
+   "end": 82.327
+  },
+  {
+   "start": 82.327,
+   "lines": [
+    [
+     238,
+     239
+    ]
+   ],
+   "beat": 16,
+   "end": 83.187
+  },
+  {
+   "start": 83.187,
+   "lines": [
+    [
+     240,
+     241
+    ]
+   ],
+   "beat": 16,
+   "end": 83.887
+  },
+  {
+   "start": 83.887,
+   "lines": [
+    [
+     242
+    ],
+    [
+     243
+    ]
+   ],
+   "beat": 16,
+   "end": 85.347
+  },
+  {
+   "start": 85.347,
+   "lines": [
+    [
+     244,
+     245
+    ],
+    [
+     246
+    ]
+   ],
+   "beat": 16,
+   "end": 86.307
+  },
+  {
+   "start": 86.307,
+   "lines": [
+    [
+     247,
+     248,
+     249
+    ],
+    [
+     250
+    ]
+   ],
+   "beat": 16,
+   "end": 87.487
+  },
+  {
+   "start": 87.487,
+   "lines": [
+    [
+     251
+    ]
+   ],
+   "beat": 16,
+   "end": 88.167
+  },
+  {
+   "start": 88.167,
+   "lines": [
+    [
+     252,
+     253
+    ],
+    [
+     254,
+     255
+    ]
+   ],
+   "beat": 16,
+   "end": 89.307
+  },
+  {
+   "start": 89.307,
+   "lines": [
+    [
+     256,
+     257,
+     258
+    ]
+   ],
+   "beat": 16,
+   "end": 90.202
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Vendredi 20 novembre 2026 · Wall Street",
+   "until_beat": 0,
+   "start": 0.0,
+   "end": 4.922
+  },
+  {
+   "type": "breaking",
+   "label": "DERNIÈRES INFOS",
+   "lines": [
+    "12 MD$ → 3,7 MD$",
+    "INTUIT REVEND",
+    "MAILCHIMP"
+   ],
+   "start": 0.0,
+   "end": 4.922
+  },
+  {
+   "type": "stock",
+   "key": "INTU",
+   "name": "Intuit",
+   "sub": "INTU · Nasdaq · 20 nov. 2026",
+   "y": 560,
+   "at_word": 5,
+   "start": 2.56,
+   "end": 4.922
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "RACHAT DE MAILCHIMP · 2021",
+    "value_to": 12,
+    "decimals": 0,
+    "prefix": "",
+    "suffix": " Md$",
+    "color": "white",
+    "desc": "Plus gros rachat d'Intuit à l'époque",
+    "logo": "INTU"
+   },
+   "b_at_word": 11,
+   "b": {
+    "kicker": "REVENTE · NOV. 2026",
+    "value_to": 3.68,
+    "decimals": 2,
+    "prefix": "",
+    "suffix": " Md$",
+    "color": "red",
+    "desc": "SiliconANGLE · 19 nov. 2026"
+   },
+   "start": 4.922,
+   "end": 9.19,
+   "b_t": 8.102
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "SILICONANGLE",
+   "right": "19 NOV.",
+   "tag": "DEAL",
+   "headline": "Intuit vend Mailchimp à Bending Spoons pour 3,68 Md$, moins d'un tiers de ce qu'il avait payé",
+   "highlight": "moins d'un tiers",
+   "sub": "SiliconANGLE · 19 nov. 2026",
+   "start": 9.65,
+   "end": 12.048
+  },
+  {
+   "type": "stock",
+   "key": "INTU",
+   "name": "Intuit",
+   "sub": "Hors séance, jeudi soir · SiliconANGLE · 19 nov. 2026",
+   "pct": "> −10 %",
+   "up": false,
+   "y": 560,
+   "at_word": 9,
+   "start": 14.748,
+   "end": 16.691
+  },
+  {
+   "type": "source",
+   "text": "SiliconANGLE · 19 nov. 2026 · Investing.com · 20 nov. 2026",
+   "start": 12.048,
+   "end": 16.691
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "CHIFFRE D'AFFAIRES ATTENDU",
+    "value_to": 4.31,
+    "decimals": 2,
+    "prefix": "",
+    "suffix": " Md$",
+    "color": "white",
+    "desc": "Consensus LSEG"
+   },
+   "b_at_word": 6,
+   "b": {
+    "kicker": "PUBLIÉ · TRIMESTRE AU 31 OCT.",
+    "value_to": 4.35,
+    "decimals": 2,
+    "prefix": "",
+    "suffix": " Md$",
+    "color": "green",
+    "desc": "+12 % sur un an · SiliconANGLE · 19 nov. 2026",
+    "logo": "INTU"
+   },
+   "start": 16.691,
+   "end": 22.072,
+   "b_t": 18.711
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "DE BONS CHIFFRES",
+    "ET L'ACTION CHUTE ?"
+   ],
+   "at_word": 3,
+   "start": 23.232,
+   "end": 25.06
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_1eaa56f0.jpg",
+   "bio_at_word": 16,
+   "start": 25.06,
+   "end": 29.701,
+   "bio_t": 29.36
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "MAILCHIMP · CHIFFRE D'AFFAIRES DU TRIMESTRE",
+   "value_from": 0,
+   "value_to": 313,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " M$",
+   "color": "red",
+   "pill": "−1 % SUR UN AN",
+   "desc": "SiliconANGLE · 19 nov. 2026 · tbreak · 20 nov. 2026",
+   "start": 29.701,
+   "end": 35.715
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "CROISSANCE PRÉVUE · AVANT",
+    "value_to": 10,
+    "decimals": 0,
+    "prefix": "9 à ",
+    "suffix": " %",
+    "color": "white",
+    "desc": "Exercice 2027",
+    "logo": "INTU"
+   },
+   "b_at_word": 3,
+   "b": {
+    "kicker": "CROISSANCE PRÉVUE · MAINTENANT",
+    "value_to": 9,
+    "decimals": 0,
+    "prefix": "8 à ",
+    "suffix": " %",
+    "color": "red",
+    "desc": "23,08 à 23,37 Md$ · tbreak · 20 nov. 2026"
+   },
+   "start": 35.715,
+   "end": 39.824,
+   "b_t": 37.315,
+   "cut_in": true
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "INTUIT",
+   "right": "19 NOV.",
+   "tag": "PRÉVISIONS",
+   "headline": "Credit Karma : croissance attendue ramenée à 3-7 %, contre 11-13 % auparavant",
+   "highlight": "3-7 %",
+   "sub": "SiliconANGLE · 19 nov. 2026",
+   "start": 40.604,
+   "end": 46.651
+  },
+  {
+   "type": "stock",
+   "key": "BSP",
+   "name": "Bending Spoons",
+   "sub": "BSP · Nasdaq · Milan · tbreak · 20 nov. 2026",
+   "y": 560,
+   "at_word": 2,
+   "start": 47.531,
+   "end": 51.437
+  },
+  {
+   "type": "tickers",
+   "title": "DÉJÀ RACHETÉS PAR BENDING SPOONS",
+   "rows": [
+    {
+     "name": "Evernote",
+     "pct": "NOTES",
+     "at_word": 4,
+     "up": true,
+     "t": 52.427
+    },
+    {
+     "name": "WeTransfer",
+     "pct": "FICHIERS",
+     "at_word": 5,
+     "up": true,
+     "t": 53.247
+    },
+    {
+     "name": "Vimeo",
+     "pct": "VIDÉO",
+     "at_word": 6,
+     "up": true,
+     "t": 54.187
+    },
+    {
+     "name": "Eventbrite",
+     "pct": "BILLETS",
+     "at_word": 8,
+     "up": true,
+     "t": 54.967
+    }
+   ],
+   "start": 51.437,
+   "end": 56.041
+  },
+  {
+   "type": "source",
+   "text": "SiliconANGLE · 19 nov. 2026 · tbreak · 20 nov. 2026",
+   "start": 51.437,
+   "end": 56.041
+  },
+  {
+   "type": "tickers",
+   "title": "AVANT L'OUVERTURE · CE VENDREDI",
+   "rows": [
+    {
+     "name": "Anthropic",
+     "pct": "> −6 %",
+     "at_word": 8,
+     "key": "ANT",
+     "up": false,
+     "t": 58.371
+    },
+    {
+     "name": "AMD",
+     "pct": "> −5 %",
+     "at_word": 9,
+     "key": "AMD",
+     "up": false,
+     "t": 58.851
+    },
+    {
+     "name": "Intel",
+     "pct": "> −4 %",
+     "at_word": 13,
+     "key": "INTC",
+     "up": false,
+     "t": 60.031
+    }
+   ],
+   "start": 56.041,
+   "end": 61.24
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 20 nov. 2026",
+   "start": 56.041,
+   "end": 61.24
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "DOW JONES · SUR LA SEMAINE",
+   "value_from": 0,
+   "value_to": -6.2,
+   "decimals": 1,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "PIRE SEMAINE DEPUIS AVRIL 2025",
+   "desc": "IC Markets · 20 nov. 2026",
+   "start": 61.24,
+   "end": 67.093
+  },
+  {
+   "type": "tickers",
+   "title": "À SURVEILLER",
+   "rows": [
+    {
+     "name": "Confiance Michigan",
+     "pct": "16H00",
+     "at_word": 3,
+     "up": true,
+     "t": 68.143
+    },
+    {
+     "name": "Vente de Mailchimp",
+     "pct": "DÉBUT 2027",
+     "at_word": 8,
+     "up": true,
+     "t": 70.123
+    }
+   ],
+   "start": 67.093,
+   "end": 71.651
+  },
+  {
+   "type": "source",
+   "text": "Agenda (heure de Paris) · IC Markets · 20 nov. 2026 · SiliconANGLE · 19 nov. 2026",
+   "start": 67.093,
+   "end": 71.651
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "BONNE DÉCISION",
+    "OU AVEU D'ÉCHEC ?"
+   ],
+   "at_word": 3,
+   "start": 72.871,
+   "end": 76.187
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Intuit brade Mailchimp : ce qu'il faut comprendre",
+   "imgs": [
+    "tg_3435c02c_top.jpg",
+    "tg_1eaa56f0.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 33,
+   "bio_at_word": 42,
+   "button": "ENTRE DANS LE CANAL",
+   "start": 76.187,
+   "end": 90.112,
+   "subs_t": 86.947,
+   "bio_t": 89.667
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.52,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b0b.mp4",
+   "start": 2.52,
+   "end": 4.922,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b1.mp4",
+   "start": 4.922,
+   "end": 9.19,
+   "beat": 1
+  },
+  {
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b2.mp4",
+   "start": 9.19,
+   "end": 10.65,
+   "beat": 2
+  },
+  {
+   "clip": "b2b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b2b.mp4",
+   "start": 10.65,
+   "end": 12.048,
+   "beat": 2
+  },
+  {
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b3.mp4",
+   "start": 12.048,
+   "end": 15.108,
+   "beat": 3
+  },
+  {
+   "clip": "b3b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 11,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b3b.mp4",
+   "start": 15.108,
+   "end": 16.691,
+   "beat": 3
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b4.mp4",
+   "start": 16.691,
+   "end": 22.072,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b5.mp4",
+   "start": 22.072,
+   "end": 25.06,
+   "beat": 5
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b6.mp4",
+   "start": 25.06,
+   "end": 29.701,
+   "beat": 6
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b7.mp4",
+   "start": 29.701,
+   "end": 35.715,
+   "beat": 7
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b8.mp4",
+   "start": 35.715,
+   "end": 39.824,
+   "beat": 8
+  },
+  {
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b9.mp4",
+   "start": 39.824,
+   "end": 44.824,
+   "beat": 9
+  },
+  {
+   "clip": "b9b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 14,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b9b.mp4",
+   "start": 44.824,
+   "end": 46.651,
+   "beat": 9
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b10.mp4",
+   "start": 46.651,
+   "end": 48.991,
+   "beat": 10
+  },
+  {
+   "clip": "b10b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 6,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b10b.mp4",
+   "start": 48.991,
+   "end": 51.437,
+   "beat": 10
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b11.mp4",
+   "start": 51.437,
+   "end": 56.041,
+   "beat": 11
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b12.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b12.mp4",
+   "start": 56.041,
+   "end": 61.24,
+   "beat": 12
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b13.mp4",
+   "start": 61.24,
+   "end": 67.093,
+   "beat": 13
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b14.mp4",
+   "start": 67.093,
+   "end": 70.133,
+   "beat": 14
+  },
+  {
+   "clip": "b14b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b14b.mp4",
+   "start": 70.133,
+   "end": 71.651,
+   "beat": 14
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep39_intuit_mailchimp/broll/b15.mp4",
+   "start": 71.651,
+   "end": 76.187,
+   "beat": 15
+  },
+  {
+   "blur_prev": true,
+   "start": 76.187,
+   "end": 91.912,
+   "beat": 16
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.1,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.21,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.32,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 2.47,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 2.56,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 4.862,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 5.042,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 8.102,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 8.152,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 9.65,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 10.6,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 11.998,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 14.748,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 15.058,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 16.631,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 16.811,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 18.711,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 18.761,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 23.232,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 25.01,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 25.06,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 29.36,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 29.641,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 29.821,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 35.685,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 35.835,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 37.315,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 37.365,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 40.604,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 44.774,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 46.601,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 47.531,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 48.941,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 51.437,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 52.427,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 53.247,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 54.187,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 54.967,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 56.041,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 58.371,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 58.851,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 60.031,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 61.18,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 61.36,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 67.093,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 68.143,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 70.083,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 70.123,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 71.601,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 72.871,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 76.137,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 76.237,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 76.537,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 86.947,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 89.512,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 89.667,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 90.112,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   0.0,
+   4.9719999999999995
+  ],
+  [
+   90.112,
+   92.91199999999999
+  ]
+ ],
+ "endcard": {
+  "start": 90.112,
+  "button": "ENTRE DANS LE CANAL",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "20 novembre 2026"
+}

@@ -488,5 +488,19 @@
   "img": "SSU.png",
   "tile": "#FFFFFF",
   "fit": "90%"
+ },
+ "INTU": {
+  "name": "Intuit",
+  "ticker": "INTU",
+  "img": "INTU.png",
+  "tile": "#FFFFFF",
+  "fit": "62%"
+ },
+ "BSP": {
+  "name": "Bending Spoons",
+  "ticker": "BSP",
+  "img": "BSP.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
