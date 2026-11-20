@@ -481,5 +481,12 @@
   "img": "ANT.png",
   "tile": "#F0EEE6",
   "fit": "62%"
+ },
+ "SSU": {
+  "name": "Samsung Electronics",
+  "ticker": "005930",
+  "img": "SSU.png",
+  "tile": "#FFFFFF",
+  "fit": "90%"
  }
 }
