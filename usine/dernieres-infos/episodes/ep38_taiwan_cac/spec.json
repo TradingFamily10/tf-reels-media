@@ -1,0 +1,577 @@
+{
+ "id": "ep38_taiwan_cac",
+ "date_label": "20 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "Quand l'Asie éternue, ton portefeuille s'enrhume",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://gfxfts.substack.com/p/ai-rout-sinks-asian-stocks-as-japan",
+  "https://www.abcbourse.com/marches/l-europe-decroche-vif-regain-d-aversion-au-risque_706431",
+  "https://www.moneyvox.fr/bourse/actualites/111329/le-cac-40-en-net-repli-a-ouverture-ce-vendredi-20-novembre"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas Paris qui fait plonger le CAC 40. C'est Taïwan.",
+   "say": "Ce n'est pas Paris qui fait plonger le CAC quarante... C'est Taïwan.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 20 novembre 2026 · Bourses mondiales",
+     "until_beat": 0
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 17,
+     "prefix": "−",
+     "suffix": ",5 %",
+     "unit": "TAÏWAN EN UNE SEMAINE",
+     "label": "Pire semaine depuis 1991 · GGMA Macro · 20 nov. 2026, 07h27",
+     "logos": [
+      "TSM",
+      "SSU",
+      "SFTBY"
+     ],
+     "reveal_at_word": 11,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "La Bourse de Taïwan perd 17,5 % sur la semaine. Du jamais vu depuis plus de 30 ans.",
+   "say": "La Bourse de Taïwan perd dix-sept pour cent et demi sur la semaine... Du jamais vu depuis plus de trente ans.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TAIEX · SUR LA SEMAINE",
+     "value_from": 0,
+     "value_to": -17.5,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE SEMAINE DEPUIS 1991",
+     "desc": "GGMA Macro · 20 nov. 2026, 07h27"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : ce vendredi, Taipei lâche encore plus de 6 %.",
+   "say": "Et ce n'est pas le pire : ce vendredi, Taipei lâche encore plus de six pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b2b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "ASIE · CE VENDREDI",
+     "rows": [
+      {
+       "name": "Taipei",
+       "pct": "−6,23 %",
+       "at_word": 8,
+       "up": false
+      },
+      {
+       "name": "Séoul · Kospi",
+       "pct": "−5,21 %",
+       "at_word": 10,
+       "up": false
+      },
+      {
+       "name": "Tokyo · Nikkei",
+       "pct": "−5,06 %",
+       "at_word": 13,
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AFP via MoneyVox · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "TSMC recule de près de 5 %, Samsung de 7 %, et SoftBank de 14 %.",
+   "say": "T.S.M.C. recule de près de cinq pour cent, Samsung de sept... et SoftBank de quatorze.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LES GÉANTS DES PUCES ET DE L'IA",
+     "rows": [
+      {
+       "name": "TSMC",
+       "pct": "−4,8 %",
+       "at_word": 0,
+       "key": "TSM",
+       "up": false
+      },
+      {
+       "name": "Samsung Electronics",
+       "pct": "−7,2 %",
+       "at_word": 6,
+       "key": "SSU",
+       "up": false
+      },
+      {
+       "name": "SoftBank Group",
+       "pct": "−14,2 %",
+       "at_word": 10,
+       "key": "SFTBY",
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "GGMA Macro · 20 nov. 2026, 07h27"
+    }
+   ]
+  },
+  {
+   "text": "Et la vague arrive en Europe : ce matin, le CAC 40 recule encore de près de 1 %.",
+   "say": "Et la vague arrive en Europe : ce matin, le CAC quarante recule encore de près de un pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "EUROPE · VERS 9H40",
+     "rows": [
+      {
+       "name": "CAC 40",
+       "pct": "−0,9 %",
+       "at_word": 9,
+       "up": false
+      },
+      {
+       "name": "DAX · Francfort",
+       "pct": "−1,1 %",
+       "at_word": 11,
+       "up": false
+      },
+      {
+       "name": "Stoxx Europe 600",
+       "pct": "−0,9 %",
+       "at_word": 14,
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Agefi-Dow Jones via ABC Bourse · 20 nov. 2026, 9h47"
+    }
+   ]
+  },
+  {
+   "text": "Avant même ce vendredi, Paris avait déjà perdu 3,44 % depuis lundi.",
+   "say": "Avant même ce vendredi, Paris avait déjà perdu plus de trois pour cent depuis lundi.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CAC 40 · DE LUNDI À JEUDI",
+     "value_from": 0,
+     "value_to": -3.44,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "CLÔTURE JEUDI : 8 080,74 PTS",
+     "desc": "AFP via MoneyVox · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, comment une île d'Asie peut-elle faire trembler ton épargne ?",
+   "say": "Alors... comment une île d'Asie peut-elle faire trembler ton épargne ?",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "UNE ÎLE D'ASIE",
+      "ET TON ÉPARGNE ?"
+     ],
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Cette tempête, je la suis en temps réel sur mon Telegram. Lien en bio.",
+   "say": "Cette tempête, je la suis en temps réel sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse tient en deux lettres : IA.",
+   "say": "La réponse tient en deux lettres : I.A.",
+   "bg": {
+    "clip": "b8b.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "DEUX LETTRES :",
+      "I.A."
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Hier, Anthropic a levé 81 milliards de dollars en Bourse.",
+   "say": "Hier, Anthropic a levé quatre-vingt-un milliards de dollars en Bourse.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ANTHROPIC · INTRODUCTION RECORD",
+     "value_from": 0,
+     "value_to": 81.3,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "+17,07 % À LA 1RE CLÔTURE · 97,17 $",
+     "desc": "AFP via MoneyVox · 20 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "ANT",
+     "name": "Anthropic",
+     "sub": "ANT · Nasdaq · 19 nov. 2026",
+     "pct": "+17,07 %",
+     "up": true,
+     "y": 1380,
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Et pourtant, le même jour, Wall Street a chuté de plus de 2 %.",
+   "say": "Et pourtant, le même jour... Wall Street a chuté de plus de deux pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "WALL STREET · CLÔTURE DU 19 NOV.",
+     "rows": [
+      {
+       "name": "Dow Jones",
+       "pct": "−2,19 %",
+       "at_word": 5,
+       "up": false
+      },
+      {
+       "name": "S&P 500",
+       "pct": "−2,02 %",
+       "at_word": 8,
+       "up": false
+      },
+      {
+       "name": "Nasdaq",
+       "pct": "−2,25 %",
+       "at_word": 10,
+       "up": false
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AFP via MoneyVox · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le doute : l'IA a besoin de montagnes d'argent, alors qu'emprunter coûte toujours plus cher.",
+   "say": "Le doute : l'I.A. a besoin de montagnes d'argent... alors qu'emprunter coûte toujours plus cher.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "SWISSQUOTE",
+     "right": "20 NOV.",
+     "tag": "ANALYSE",
+     "headline": "L'infrastructure de l'IA « a toujours besoin de financements considérables » alors que le coût du crédit grimpe",
+     "highlight": "financements considérables",
+     "sub": "Ipek Ozkardeskaya, Swissquote · AFP via MoneyVox · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et en Europe, les marchés de taux voient à 97 % une hausse de la BCE en décembre.",
+   "say": "Et en Europe, les marchés de taux voient à quatre-vingt-dix-sept pour cent une hausse de la B.C.E. en décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BCE · RÉUNION DE DÉCEMBRE",
+     "value_from": 0,
+     "value_to": 97,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "PROBABILITÉ D'UNE HAUSSE DE TAUX",
+     "desc": "Prix des marchés de taux · GGMA Macro · 20 nov. 2026, 07h27"
+    }
+   ]
+  },
+  {
+   "text": "Prochain test : Christopher Waller, de la Fed, prend la parole à 14 h 25.",
+   "say": "Prochain test : Christopher Waller, de la Fed... prend la parole à quatorze heures vingt-cinq.",
+   "bg": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER CE VENDREDI",
+     "rows": [
+      {
+       "name": "Waller · Fed",
+       "pct": "14H25",
+       "at_word": 3,
+       "up": true
+      },
+      {
+       "name": "Confiance Michigan",
+       "pct": "16H00",
+       "at_word": 9,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Agenda (heure de Paris) · GGMA Macro · 20 nov. 2026, 07h27"
+    }
+   ]
+  },
+  {
+   "text": "Et ce soir, une 7e baisse du S&P 500 serait sa plus longue série depuis 2020.",
+   "say": "Et ce soir, une septième baisse du S&P cinq cents serait sa plus longue série... depuis deux mille vingt.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b14.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b14b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 12
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "DEUTSCHE BANK",
+     "right": "20 NOV.",
+     "tag": "STATISTIQUE",
+     "headline": "Une 7e baisse du S&P 500 : plus longue série depuis le krach de la pandémie, en février 2020",
+     "highlight": "depuis février 2020",
+     "sub": "Jim Reid, Deutsche Bank · AFP via MoneyVox · 20 nov. 2026"
+    },
+    {
+     "type": "stock",
+     "key": "DB",
+     "name": "Deutsche Bank",
+     "sub": "Analyse de Jim Reid",
+     "y": 1380,
+     "at_word": 3
+    }
+   ]
+  },
+  {
+   "text": "Alors, simple purge, ou début d'une vraie correction ? Dis-le en commentaire.",
+   "say": "Alors... simple purge, ou début d'une vraie correction ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SIMPLE PURGE",
+      "OU CORRECTION ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Quand l'Asie éternue, ton portefeuille s'enrhume. Rejoins mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes déjà. Accès gratuit, lien en bio.",
+   "say": "Quand l'Asie éternue... ton portefeuille s'enrhume. Rejoins mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes déjà. Accès gratuit, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Taïwan −17,5 % en une semaine : mon analyse",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_3435c02c.jpg",
+      "tg_38e4f34b.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 24,
+     "bio_at_word": 31,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
