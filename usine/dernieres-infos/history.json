@@ -539,5 +539,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/16709e1f285290d104a035d9e058fd88946eafd6/2026-11-20_ep39_intuit_mailchimp_web.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-4230611411077870898",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-21",
+  "slot": "06:55",
+  "id": "ep40_vendredi_noir_ia",
+  "topic": "Vendredi noir de l'I.A., ven. 20/11 (clôture) : Nvidia −14,01 % à 125,53 $ après un article Reuters sur un examen par la SEC de possibles problèmes comptables (rien de prouvé) + assignation du procureur de Californie (puces vers la Chine ?) ; Nasdaq −5,28 % à 22 617,73, négatif sur 2026 ; S&P 500 −3,70 % à 6 910,39, en correction (≈ 10 % sous le record du 6 oct.), −8,6 % sur la semaine, pire depuis avril 2025, 7e baisse d'affilée ; Micron −13,89 %, AMD −13,25 %, Broadcom −12,19 %, TSMC −9,48 % ; Anthropic −8,50 % à 88,91 $ ; tech −7,27 %, conso de base +0,67 % seul secteur en hausse ; VIX 35,89 (+26 %, plus haut depuis fin mars, coupé au montage) ; 10 ans US 5,04 % -> 4,92 % ; Taiex −17,5 % sur la semaine (record), Nikkei −5,06 %, CAC 40 −1,89 %, SoftBank −14,48 % ; lundi 23/11 : PMI flash 15h45, Williams (Fed NY) 22h, hausse Fed 9 déc. à 90 % (Kalshi) (StockTitan 20/11, CappNotes 20/11, AP via BNN 20/11) ; logos NVDA, AMD, MU, AVGO, TSM, ANT, NDAQ, SFTBY",
+  "hook_type": "logowall",
+  "hook_formula": "le jour où",
+  "cta_angle": "Ce week-end, pendant que tout le monde digère le choc, on prépare lundi ensemble",
+  "title": "Vendredi noir pour l'I.A. : Nvidia −14 % le 20 novembre",
+  "caption": "Une seule séance a suffi pour faire vaciller toute la tech mondiale. Vendredi 20 novembre, le Nasdaq a perdu 5,28 % et le S&P 500 est entré en correction, après un article de Reuters sur la comptabilité de Nvidia (rien n'est prouvé à ce stade).\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nContenu éducatif, pas un conseil en investissement.\n\n#bourse #nvidia #wallstreet #intelligenceartificielle #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/e8fb72bd7a5f56f911468f6e5859675c307d6095/2026-11-21_ep40_vendredi_noir_ia.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-6591951091913635973",
+  "tiktok": "metricool"
  }
 ]
