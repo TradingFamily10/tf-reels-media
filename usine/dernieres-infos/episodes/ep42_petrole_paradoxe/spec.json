@@ -1,0 +1,426 @@
+{
+ "id": "ep42_petrole_paradoxe",
+ "date_label": "21 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Un baril qui baisse en pleine guerre, personne ne te l'explique. Mon Telegram, si.",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://tradingeconomics.com/commodity/crude-oil",
+  "https://oilprice.com/Latest-Energy-News/World-News/",
+  "https://investinglive.com/news/investinglive-european-news-wrap-stock-markets-remain-under-pressure-bonds-rally-on-slowdown-expectations"
+ ],
+ "beats": [
+  {
+   "text": "L'Iran attaque des pétroliers. Les Houthis menacent l'Arabie saoudite. Et pourtant, le pétrole s'effondre.",
+   "say": "L'Iran attaque des pétroliers. Les Houthis menacent l'Arabie saoudite... Et pourtant, le pétrole s'effondre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 20 novembre 2026 · Pétrole",
+     "until_beat": 1
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "PÉTROLE",
+     "right": "20 NOV.",
+     "tag": "PARADOXE",
+     "headline": "Le pétrole file vers une troisième semaine de baisse, au plus bas depuis près de trois mois",
+     "highlight": "troisième semaine de baisse",
+     "sub": "Trading Economics · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Vendredi, le baril américain est tombé autour de 82 dollars, au plus bas depuis près de trois mois.",
+   "say": "Vendredi, le baril américain est tombé autour de quatre-vingt-deux dollars... au plus bas depuis près de trois mois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PÉTROLE WTI · 20 NOV.",
+     "value_from": 95,
+     "value_to": 82,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " $",
+     "color": "red",
+     "pill": "PLUS BAS DEPUIS PRÈS DE 3 MOIS",
+     "desc": "Le baril de brut américain · Trading Economics · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : sur un mois, le baril a perdu 14 %.",
+   "say": "Et ce n'est pas le pire : sur un mois, le baril a perdu quatorze pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PÉTROLE WTI · SUR UN MOIS",
+     "value_from": 0,
+     "value_to": -14,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "3e SEMAINE DE BAISSE D'AFFILÉE",
+     "desc": "Trading Economics · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pourtant, l'Iran multiplie les attaques contre les pétroliers dans le détroit d'Ormuz.",
+   "say": "Pourtant, l'Iran multiplie les attaques contre les pétroliers dans le détroit d'Ormuz.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "DÉTROIT D'ORMUZ",
+     "right": "20 NOV.",
+     "tag": "IRAN",
+     "headline": "L'Iran a intensifié ses attaques contre les pétroliers dans le détroit d'Ormuz ces dernières semaines",
+     "highlight": "intensifié ses attaques",
+     "sub": "OilPrice.com · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les Houthis menacent de frapper Djeddah et les autres ports saoudiens de la mer Rouge.",
+   "say": "Les Houthis menacent de frapper Djeddah... et les autres ports saoudiens de la mer Rouge.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "MER ROUGE",
+     "right": "20 NOV.",
+     "tag": "MENACE",
+     "headline": "Les Houthis menacent Djeddah et les ports saoudiens si la coalition frappe le port yéménite d'Hodeïda",
+     "highlight": "Djeddah et les ports saoudiens",
+     "sub": "investingLive · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi le pétrole ne flambe-t-il pas ?",
+   "say": "Alors... pourquoi le pétrole ne flambe-t-il pas ?",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI ÇA",
+      "NE FLAMBE PAS ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce paradoxe, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce paradoxe, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse : il y a trop de pétrole. L'Agence internationale de l'énergie voit un surplus d'environ 2 millions de barils par jour.",
+   "say": "La réponse : il y a trop de pétrole. L'Agence internationale de l'énergie voit un surplus... d'environ deux millions de barils par jour.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "SURPLUS MONDIAL",
+     "value_from": 0,
+     "value_to": 2,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " M b/j",
+     "color": "white",
+     "pill": "PRÉVISION DE L'AIE",
+     "desc": "Millions de barils par jour en trop · Trading Economics · 20 nov. 2026",
+     "at_word": 8
+    }
+   ]
+  },
+  {
+   "text": "Et aux États-Unis, les stocks de brut ont encore grimpé de 3,4 millions de barils, à près de 418 millions.",
+   "say": "Et aux États-Unis, les stocks de brut ont encore grimpé de plus de trois millions de barils... à près de quatre cent dix-huit millions.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "STOCKS US · 1 SEMAINE",
+      "value_to": 3.38,
+      "decimals": 2,
+      "prefix": "+ ",
+      "suffix": " M b",
+      "color": "green",
+      "desc": "Semaine au 13 nov. · EIA, via Trading Economics · 20 nov. 2026"
+     },
+     "b_at_word": 18,
+     "b": {
+      "kicker": "STOCKS US · TOTAL",
+      "value_to": 417.8,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " M b",
+      "color": "white",
+      "desc": "Millions de barils · EIA, via Trading Economics · 20 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Pour Exxon, Chevron, TotalEnergies ou Shell, le Brent tient encore au-dessus de 92 dollars.",
+   "say": "Pour Exxon, Chevron, TotalEnergies ou Shell, le Brent tient encore au-dessus de quatre-vingt-douze dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "GÉANTS DU PÉTROLE",
+     "value_from": 0,
+     "value_to": 92.57,
+     "decimals": 2,
+     "suffix": " $",
+     "color": "white",
+     "pill": "BRENT · 20 NOV.",
+     "keys": [
+      "XOM",
+      "CVX",
+      "TTE",
+      "SHEL"
+     ],
+     "desc": "ExxonMobil · Chevron · TotalEnergies · Shell · Trading Economics · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le twist ? Un pétrole qui baisse en pleine guerre, c'est un signal : les marchés parient sur un ralentissement de l'économie d'ici 6 à 12 mois.",
+   "say": "Le twist ? Un pétrole qui baisse en pleine guerre, c'est un signal : les marchés parient sur un ralentissement de l'économie... d'ici six à douze mois.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 13
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 11,
+     "left": "MARCHÉS",
+     "right": "20 NOV.",
+     "tag": "RALENTISSEMENT",
+     "headline": "Les marchés continuent d'anticiper un ralentissement économique dans les 6 à 12 prochains mois",
+     "highlight": "ralentissement économique",
+     "sub": "investingLive · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller : Donald Trump, qui se dit « pas pressé » de trancher sur l'Iran, puis la Fed, les 8 et 9 décembre.",
+   "say": "À surveiller : Donald Trump, qui se dit « pas pressé » de trancher sur l'Iran... puis la Fed, les huit et neuf décembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b15.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b15b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 15
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER",
+     "rows": [
+      {
+       "name": "Décision sur l'Iran",
+       "pct": "EN ATTENTE",
+       "at_word": 3,
+       "up": true
+      },
+      {
+       "name": "Réunion de la Fed",
+       "pct": "8-9 DÉC.",
+       "at_word": 15,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Trading Economics · 20 nov. 2026 · calendrier de la Fed"
+    }
+   ]
+  },
+  {
+   "text": "Alors, l'Iran peut-il encore faire flamber le pétrole ? Dis-le en commentaire.",
+   "say": "Alors... l'Iran peut-il encore faire flamber le pétrole ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b16.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "L'IRAN PEUT-IL",
+      "TOUT RALLUMER ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Un baril qui baisse en pleine guerre, personne ne te l'explique. Sur mon Telegram gratuit, si : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes nous ont déjà rejoints. Lien en bio.",
+   "say": "Un baril qui baisse en pleine guerre, personne ne te l'explique... Sur mon Telegram gratuit, si : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes nous ont déjà rejoints. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Pétrole : le paradoxe Iran expliqué",
+     "imgs": [
+      "tg_4b2fa9a8.jpg",
+      "tg_38e4f34b.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 30,
+     "bio_at_word": 38,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
