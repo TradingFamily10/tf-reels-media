@@ -1,0 +1,3359 @@
+{
+ "fps": 30,
+ "duration": 87.128,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 3.82,
+   "w0": 0,
+   "w1": 9,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 3.88,
+   "end": 9.375,
+   "w0": 10,
+   "w1": 24,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 9.435,
+   "end": 13.447,
+   "w0": 25,
+   "w1": 39,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 13.507,
+   "end": 19.352,
+   "w0": 40,
+   "w1": 56,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 19.412,
+   "end": 26.846,
+   "w0": 57,
+   "w1": 74,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 26.906,
+   "end": 30.004,
+   "w0": 75,
+   "w1": 85,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 30.064,
+   "end": 34.427,
+   "w0": 86,
+   "w1": 99,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 34.487,
+   "end": 39.678,
+   "w0": 100,
+   "w1": 115,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 39.738,
+   "end": 45.719,
+   "w0": 116,
+   "w1": 134,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 45.779,
+   "end": 51.166,
+   "w0": 135,
+   "w1": 151,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 51.226,
+   "end": 59.406,
+   "w0": 152,
+   "w1": 173,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 59.466,
+   "end": 67.124,
+   "w0": 174,
+   "w1": 195,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 67.184,
+   "end": 71.564,
+   "w0": 196,
+   "w1": 207,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 71.624,
+   "end": 85.218,
+   "w0": 208,
+   "w1": 243,
+   "voice": "episodes/ep41_or_bitcoin_fed/voice/beat_13.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "L'or",
+   "start": 0.0,
+   "end": 0.32,
+   "beat": 0
+  },
+  {
+   "w": "et",
+   "start": 0.32,
+   "end": 0.44,
+   "beat": 0
+  },
+  {
+   "w": "le",
+   "start": 0.44,
+   "end": 0.52,
+   "beat": 0
+  },
+  {
+   "w": "bitcoin",
+   "start": 0.52,
+   "end": 0.92,
+   "beat": 0
+  },
+  {
+   "w": "devaient",
+   "start": 0.92,
+   "end": 1.32,
+   "beat": 0
+  },
+  {
+   "w": "te",
+   "start": 1.32,
+   "end": 1.4,
+   "beat": 0
+  },
+  {
+   "w": "protéger.",
+   "start": 1.4,
+   "end": 1.98,
+   "beat": 0
+  },
+  {
+   "w": "Pourquoi",
+   "start": 2.16,
+   "end": 2.4,
+   "beat": 0
+  },
+  {
+   "w": "s'effondrent-ils",
+   "start": 2.62,
+   "end": 2.94,
+   "beat": 0
+  },
+  {
+   "w": "ensemble ?",
+   "start": 3.18,
+   "end": 3.48,
+   "beat": 0
+  },
+  {
+   "w": "Vendredi",
+   "start": 3.88,
+   "end": 4.48,
+   "beat": 1
+  },
+  {
+   "w": "soir,",
+   "start": 4.48,
+   "end": 4.66,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 4.82,
+   "end": 4.86,
+   "beat": 1
+  },
+  {
+   "w": "bitcoin",
+   "start": 4.86,
+   "end": 5.18,
+   "beat": 1
+  },
+  {
+   "w": "est",
+   "start": 5.18,
+   "end": 5.36,
+   "beat": 1
+  },
+  {
+   "w": "tombé",
+   "start": 5.36,
+   "end": 5.64,
+   "beat": 1
+  },
+  {
+   "w": "à",
+   "start": 5.64,
+   "end": 5.727,
+   "beat": 1
+  },
+  {
+   "w": "55 830",
+   "start": 5.727,
+   "end": 6.247,
+   "beat": 1
+  },
+  {
+   "w": "dollars,",
+   "start": 6.247,
+   "end": 6.94,
+   "beat": 1
+  },
+  {
+   "w": "au",
+   "start": 6.94,
+   "end": 7.26,
+   "beat": 1
+  },
+  {
+   "w": "plus",
+   "start": 7.26,
+   "end": 7.44,
+   "beat": 1
+  },
+  {
+   "w": "bas",
+   "start": 7.44,
+   "end": 7.66,
+   "beat": 1
+  },
+  {
+   "w": "depuis",
+   "start": 7.66,
+   "end": 7.9,
+   "beat": 1
+  },
+  {
+   "w": "septembre",
+   "start": 7.9,
+   "end": 8.56,
+   "beat": 1
+  },
+  {
+   "w": "2024.",
+   "start": 8.56,
+   "end": 8.86,
+   "beat": 1
+  },
+  {
+   "w": "Et",
+   "start": 9.435,
+   "end": 9.695,
+   "beat": 2
+  },
+  {
+   "w": "ce",
+   "start": 9.695,
+   "end": 9.835,
+   "beat": 2
+  },
+  {
+   "w": "n'est",
+   "start": 9.895,
+   "end": 9.955,
+   "beat": 2
+  },
+  {
+   "w": "pas",
+   "start": 9.955,
+   "end": 10.055,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 10.055,
+   "end": 10.175,
+   "beat": 2
+  },
+  {
+   "w": "pire :",
+   "start": 10.175,
+   "end": 10.535,
+   "beat": 2
+  },
+  {
+   "w": "l'or",
+   "start": 10.835,
+   "end": 10.915,
+   "beat": 2
+  },
+  {
+   "w": "a",
+   "start": 10.915,
+   "end": 11.055,
+   "beat": 2
+  },
+  {
+   "w": "perdu",
+   "start": 11.055,
+   "end": 11.315,
+   "beat": 2
+  },
+  {
+   "w": "près",
+   "start": 11.315,
+   "end": 11.515,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 11.515,
+   "end": 11.655,
+   "beat": 2
+  },
+  {
+   "w": "9 %",
+   "start": 11.655,
+   "end": 11.915,
+   "beat": 2
+  },
+  {
+   "w": "en",
+   "start": 12.395,
+   "end": 12.735,
+   "beat": 2
+  },
+  {
+   "w": "une",
+   "start": 12.735,
+   "end": 12.955,
+   "beat": 2
+  },
+  {
+   "w": "semaine.",
+   "start": 12.955,
+   "end": 13.215,
+   "beat": 2
+  },
+  {
+   "w": "Le",
+   "start": 13.507,
+   "end": 13.987,
+   "beat": 3
+  },
+  {
+   "w": "bitcoin,",
+   "start": 13.987,
+   "end": 14.347,
+   "beat": 3
+  },
+  {
+   "w": "lui,",
+   "start": 14.347,
+   "end": 14.887,
+   "beat": 3
+  },
+  {
+   "w": "a",
+   "start": 14.887,
+   "end": 15.287,
+   "beat": 3
+  },
+  {
+   "w": "perdu",
+   "start": 15.287,
+   "end": 15.527,
+   "beat": 3
+  },
+  {
+   "w": "plus",
+   "start": 15.527,
+   "end": 15.747,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 15.747,
+   "end": 15.887,
+   "beat": 3
+  },
+  {
+   "w": "la",
+   "start": 15.887,
+   "end": 15.967,
+   "beat": 3
+  },
+  {
+   "w": "moitié",
+   "start": 15.967,
+   "end": 16.367,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 16.367,
+   "end": 16.487,
+   "beat": 3
+  },
+  {
+   "w": "sa",
+   "start": 16.487,
+   "end": 16.627,
+   "beat": 3
+  },
+  {
+   "w": "valeur",
+   "start": 16.627,
+   "end": 16.907,
+   "beat": 3
+  },
+  {
+   "w": "depuis",
+   "start": 16.907,
+   "end": 17.327,
+   "beat": 3
+  },
+  {
+   "w": "son",
+   "start": 17.327,
+   "end": 17.567,
+   "beat": 3
+  },
+  {
+   "w": "record",
+   "start": 17.567,
+   "end": 17.967,
+   "beat": 3
+  },
+  {
+   "w": "d'octobre",
+   "start": 18.207,
+   "end": 18.667,
+   "beat": 3
+  },
+  {
+   "w": "2025.",
+   "start": 18.667,
+   "end": 18.947,
+   "beat": 3
+  },
+  {
+   "w": "Les",
+   "start": 19.412,
+   "end": 19.732,
+   "beat": 4
+  },
+  {
+   "w": "gros",
+   "start": 19.732,
+   "end": 20.012,
+   "beat": 4
+  },
+  {
+   "w": "fonds",
+   "start": 20.012,
+   "end": 20.432,
+   "beat": 4
+  },
+  {
+   "w": "fuient :",
+   "start": 20.432,
+   "end": 20.672,
+   "beat": 4
+  },
+  {
+   "w": "jeudi,",
+   "start": 20.772,
+   "end": 21.252,
+   "beat": 4
+  },
+  {
+   "w": "541",
+   "start": 21.492,
+   "end": 22.312,
+   "beat": 4
+  },
+  {
+   "w": "millions",
+   "start": 22.312,
+   "end": 22.772,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 22.772,
+   "end": 22.972,
+   "beat": 4
+  },
+  {
+   "w": "dollars",
+   "start": 22.972,
+   "end": 23.292,
+   "beat": 4
+  },
+  {
+   "w": "sont",
+   "start": 23.292,
+   "end": 23.552,
+   "beat": 4
+  },
+  {
+   "w": "sortis",
+   "start": 23.552,
+   "end": 23.972,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 23.972,
+   "end": 24.092,
+   "beat": 4
+  },
+  {
+   "w": "l'ETF",
+   "start": 24.192,
+   "end": 24.572,
+   "beat": 4
+  },
+  {
+   "w": "bitcoin",
+   "start": 24.572,
+   "end": 25.012,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 25.012,
+   "end": 25.432,
+   "beat": 4
+  },
+  {
+   "w": "BlackRock.",
+   "start": 25.432,
+   "end": 25.972,
+   "beat": 4
+  },
+  {
+   "w": "Un",
+   "start": 26.232,
+   "end": 26.312,
+   "beat": 4
+  },
+  {
+   "w": "record.",
+   "start": 26.312,
+   "end": 26.612,
+   "beat": 4
+  },
+  {
+   "w": "Alors,",
+   "start": 26.906,
+   "end": 27.266,
+   "beat": 5
+  },
+  {
+   "w": "qui",
+   "start": 27.606,
+   "end": 27.766,
+   "beat": 5
+  },
+  {
+   "w": "a",
+   "start": 27.766,
+   "end": 27.906,
+   "beat": 5
+  },
+  {
+   "w": "tiré",
+   "start": 27.906,
+   "end": 28.186,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 28.186,
+   "end": 28.246,
+   "beat": 5
+  },
+  {
+   "w": "tapis",
+   "start": 28.246,
+   "end": 28.646,
+   "beat": 5
+  },
+  {
+   "w": "sous",
+   "start": 28.646,
+   "end": 28.786,
+   "beat": 5
+  },
+  {
+   "w": "les",
+   "start": 28.786,
+   "end": 28.906,
+   "beat": 5
+  },
+  {
+   "w": "deux",
+   "start": 28.906,
+   "end": 29.126,
+   "beat": 5
+  },
+  {
+   "w": "valeurs",
+   "start": 29.126,
+   "end": 29.426,
+   "beat": 5
+  },
+  {
+   "w": "refuges ?",
+   "start": 29.426,
+   "end": 29.866,
+   "beat": 5
+  },
+  {
+   "w": "Ce",
+   "start": 30.064,
+   "end": 30.284,
+   "beat": 6
+  },
+  {
+   "w": "double",
+   "start": 30.284,
+   "end": 30.524,
+   "beat": 6
+  },
+  {
+   "w": "plongeon,",
+   "start": 30.524,
+   "end": 31.084,
+   "beat": 6
+  },
+  {
+   "w": "je",
+   "start": 31.204,
+   "end": 31.364,
+   "beat": 6
+  },
+  {
+   "w": "le",
+   "start": 31.364,
+   "end": 31.484,
+   "beat": 6
+  },
+  {
+   "w": "décrypte",
+   "start": 31.484,
+   "end": 31.984,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 31.984,
+   "end": 32.084,
+   "beat": 6
+  },
+  {
+   "w": "direct",
+   "start": 32.084,
+   "end": 32.404,
+   "beat": 6
+  },
+  {
+   "w": "sur",
+   "start": 32.404,
+   "end": 32.824,
+   "beat": 6
+  },
+  {
+   "w": "mon",
+   "start": 32.824,
+   "end": 32.964,
+   "beat": 6
+  },
+  {
+   "w": "Telegram.",
+   "start": 32.964,
+   "end": 33.684,
+   "beat": 6
+  },
+  {
+   "w": "Lien",
+   "start": 33.764,
+   "end": 33.924,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 33.924,
+   "end": 34.124,
+   "beat": 6
+  },
+  {
+   "w": "bio.",
+   "start": 34.124,
+   "end": 34.284,
+   "beat": 6
+  },
+  {
+   "w": "La",
+   "start": 34.487,
+   "end": 34.647,
+   "beat": 7
+  },
+  {
+   "w": "réponse :",
+   "start": 34.647,
+   "end": 35.027,
+   "beat": 7
+  },
+  {
+   "w": "la",
+   "start": 35.407,
+   "end": 35.527,
+   "beat": 7
+  },
+  {
+   "w": "Fed.",
+   "start": 35.527,
+   "end": 35.887,
+   "beat": 7
+  },
+  {
+   "w": "Une",
+   "start": 36.107,
+   "end": 36.287,
+   "beat": 7
+  },
+  {
+   "w": "hausse",
+   "start": 36.287,
+   "end": 36.667,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 36.667,
+   "end": 36.747,
+   "beat": 7
+  },
+  {
+   "w": "ses",
+   "start": 36.747,
+   "end": 36.887,
+   "beat": 7
+  },
+  {
+   "w": "taux",
+   "start": 36.887,
+   "end": 37.107,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 37.107,
+   "end": 37.207,
+   "beat": 7
+  },
+  {
+   "w": "9",
+   "start": 37.207,
+   "end": 37.447,
+   "beat": 7
+  },
+  {
+   "w": "décembre",
+   "start": 37.447,
+   "end": 38.047,
+   "beat": 7
+  },
+  {
+   "w": "est",
+   "start": 38.047,
+   "end": 38.307,
+   "beat": 7
+  },
+  {
+   "w": "jouée",
+   "start": 38.307,
+   "end": 38.687,
+   "beat": 7
+  },
+  {
+   "w": "à",
+   "start": 38.687,
+   "end": 38.887,
+   "beat": 7
+  },
+  {
+   "w": "92 %.",
+   "start": 38.887,
+   "end": 39.367,
+   "beat": 7
+  },
+  {
+   "w": "Inflation",
+   "start": 39.738,
+   "end": 40.638,
+   "beat": 8
+  },
+  {
+   "w": "déduite,",
+   "start": 40.638,
+   "end": 41.118,
+   "beat": 8
+  },
+  {
+   "w": "les",
+   "start": 41.318,
+   "end": 41.418,
+   "beat": 8
+  },
+  {
+   "w": "taux",
+   "start": 41.418,
+   "end": 41.658,
+   "beat": 8
+  },
+  {
+   "w": "américains",
+   "start": 41.658,
+   "end": 42.318,
+   "beat": 8
+  },
+  {
+   "w": "à",
+   "start": 42.318,
+   "end": 42.458,
+   "beat": 8
+  },
+  {
+   "w": "10",
+   "start": 42.458,
+   "end": 42.778,
+   "beat": 8
+  },
+  {
+   "w": "et",
+   "start": 42.778,
+   "end": 43.098,
+   "beat": 8
+  },
+  {
+   "w": "30",
+   "start": 43.098,
+   "end": 43.458,
+   "beat": 8
+  },
+  {
+   "w": "ans",
+   "start": 43.458,
+   "end": 43.638,
+   "beat": 8
+  },
+  {
+   "w": "sont",
+   "start": 43.638,
+   "end": 43.998,
+   "beat": 8
+  },
+  {
+   "w": "au",
+   "start": 43.998,
+   "end": 44.218,
+   "beat": 8
+  },
+  {
+   "w": "plus",
+   "start": 44.218,
+   "end": 44.398,
+   "beat": 8
+  },
+  {
+   "w": "haut",
+   "start": 44.398,
+   "end": 44.578,
+   "beat": 8
+  },
+  {
+   "w": "depuis",
+   "start": 44.578,
+   "end": 44.798,
+   "beat": 8
+  },
+  {
+   "w": "plus",
+   "start": 44.798,
+   "end": 45.078,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 45.078,
+   "end": 45.218,
+   "beat": 8
+  },
+  {
+   "w": "20",
+   "start": 45.218,
+   "end": 45.458,
+   "beat": 8
+  },
+  {
+   "w": "ans.",
+   "start": 45.458,
+   "end": 45.698,
+   "beat": 8
+  },
+  {
+   "w": "Or",
+   "start": 45.779,
+   "end": 46.099,
+   "beat": 9
+  },
+  {
+   "w": "l'or",
+   "start": 46.499,
+   "end": 46.619,
+   "beat": 9
+  },
+  {
+   "w": "et",
+   "start": 46.619,
+   "end": 46.739,
+   "beat": 9
+  },
+  {
+   "w": "le",
+   "start": 46.739,
+   "end": 46.839,
+   "beat": 9
+  },
+  {
+   "w": "bitcoin",
+   "start": 46.839,
+   "end": 47.179,
+   "beat": 9
+  },
+  {
+   "w": "ne",
+   "start": 47.179,
+   "end": 47.659,
+   "beat": 9
+  },
+  {
+   "w": "rapportent",
+   "start": 47.659,
+   "end": 48.199,
+   "beat": 9
+  },
+  {
+   "w": "aucun",
+   "start": 48.199,
+   "end": 48.559,
+   "beat": 9
+  },
+  {
+   "w": "intérêt.",
+   "start": 48.559,
+   "end": 49.019,
+   "beat": 9
+  },
+  {
+   "w": "Face",
+   "start": 49.199,
+   "end": 49.379,
+   "beat": 9
+  },
+  {
+   "w": "à",
+   "start": 49.379,
+   "end": 49.559,
+   "beat": 9
+  },
+  {
+   "w": "ces",
+   "start": 49.559,
+   "end": 49.639,
+   "beat": 9
+  },
+  {
+   "w": "taux,",
+   "start": 49.639,
+   "end": 49.919,
+   "beat": 9
+  },
+  {
+   "w": "ils",
+   "start": 50.099,
+   "end": 50.179,
+   "beat": 9
+  },
+  {
+   "w": "perdent",
+   "start": 50.179,
+   "end": 50.579,
+   "beat": 9
+  },
+  {
+   "w": "leur",
+   "start": 50.579,
+   "end": 50.699,
+   "beat": 9
+  },
+  {
+   "w": "attrait.",
+   "start": 50.699,
+   "end": 51.059,
+   "beat": 9
+  },
+  {
+   "w": "Le",
+   "start": 51.226,
+   "end": 51.366,
+   "beat": 10
+  },
+  {
+   "w": "twist ?",
+   "start": 51.366,
+   "end": 51.626,
+   "beat": 10
+  },
+  {
+   "w": "Strategy,",
+   "start": 51.946,
+   "end": 52.666,
+   "beat": 10
+  },
+  {
+   "w": "plus",
+   "start": 52.846,
+   "end": 52.966,
+   "beat": 10
+  },
+  {
+   "w": "gros",
+   "start": 52.966,
+   "end": 53.206,
+   "beat": 10
+  },
+  {
+   "w": "détenteur",
+   "start": 53.206,
+   "end": 53.706,
+   "beat": 10
+  },
+  {
+   "w": "coté,",
+   "start": 53.706,
+   "end": 53.986,
+   "beat": 10
+  },
+  {
+   "w": "a",
+   "start": 54.366,
+   "end": 54.446,
+   "beat": 10
+  },
+  {
+   "w": "payé",
+   "start": 54.446,
+   "end": 54.806,
+   "beat": 10
+  },
+  {
+   "w": "ses",
+   "start": 54.806,
+   "end": 54.946,
+   "beat": 10
+  },
+  {
+   "w": "bitcoins",
+   "start": 54.946,
+   "end": 55.426,
+   "beat": 10
+  },
+  {
+   "w": "plus",
+   "start": 55.426,
+   "end": 55.686,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 55.686,
+   "end": 55.826,
+   "beat": 10
+  },
+  {
+   "w": "75 000",
+   "start": 56.306,
+   "end": 56.746,
+   "beat": 10
+  },
+  {
+   "w": "dollars",
+   "start": 56.746,
+   "end": 57.006,
+   "beat": 10
+  },
+  {
+   "w": "en",
+   "start": 57.006,
+   "end": 57.306,
+   "beat": 10
+  },
+  {
+   "w": "moyenne :",
+   "start": 57.306,
+   "end": 57.786,
+   "beat": 10
+  },
+  {
+   "w": "son",
+   "start": 57.926,
+   "end": 58.126,
+   "beat": 10
+  },
+  {
+   "w": "trésor",
+   "start": 58.126,
+   "end": 58.666,
+   "beat": 10
+  },
+  {
+   "w": "est",
+   "start": 58.666,
+   "end": 58.906,
+   "beat": 10
+  },
+  {
+   "w": "sous",
+   "start": 58.906,
+   "end": 59.166,
+   "beat": 10
+  },
+  {
+   "w": "l'eau.",
+   "start": 59.246,
+   "end": 59.366,
+   "beat": 10
+  },
+  {
+   "w": "À",
+   "start": 59.466,
+   "end": 59.606,
+   "beat": 11
+  },
+  {
+   "w": "surveiller :",
+   "start": 59.606,
+   "end": 60.186,
+   "beat": 11
+  },
+  {
+   "w": "la",
+   "start": 60.366,
+   "end": 60.546,
+   "beat": 11
+  },
+  {
+   "w": "Fed,",
+   "start": 60.546,
+   "end": 60.926,
+   "beat": 11
+  },
+  {
+   "w": "les",
+   "start": 61.146,
+   "end": 61.306,
+   "beat": 11
+  },
+  {
+   "w": "8",
+   "start": 61.306,
+   "end": 61.586,
+   "beat": 11
+  },
+  {
+   "w": "et",
+   "start": 61.586,
+   "end": 61.706,
+   "beat": 11
+  },
+  {
+   "w": "9",
+   "start": 61.706,
+   "end": 61.946,
+   "beat": 11
+  },
+  {
+   "w": "décembre.",
+   "start": 61.946,
+   "end": 62.506,
+   "beat": 11
+  },
+  {
+   "w": "Goldman",
+   "start": 62.686,
+   "end": 62.946,
+   "beat": 11
+  },
+  {
+   "w": "Sachs",
+   "start": 62.946,
+   "end": 63.586,
+   "beat": 11
+  },
+  {
+   "w": "ne",
+   "start": 63.586,
+   "end": 63.726,
+   "beat": 11
+  },
+  {
+   "w": "voit",
+   "start": 63.726,
+   "end": 63.906,
+   "beat": 11
+  },
+  {
+   "w": "pas",
+   "start": 63.906,
+   "end": 64.066,
+   "beat": 11
+  },
+  {
+   "w": "l'or",
+   "start": 64.066,
+   "end": 64.226,
+   "beat": 11
+  },
+  {
+   "w": "revenir",
+   "start": 64.226,
+   "end": 64.666,
+   "beat": 11
+  },
+  {
+   "w": "à",
+   "start": 64.666,
+   "end": 64.906,
+   "beat": 11
+  },
+  {
+   "w": "son",
+   "start": 64.906,
+   "end": 65.066,
+   "beat": 11
+  },
+  {
+   "w": "record",
+   "start": 65.066,
+   "end": 65.466,
+   "beat": 11
+  },
+  {
+   "w": "avant",
+   "start": 65.466,
+   "end": 65.946,
+   "beat": 11
+  },
+  {
+   "w": "fin",
+   "start": 65.946,
+   "end": 66.286,
+   "beat": 11
+  },
+  {
+   "w": "2028.",
+   "start": 66.286,
+   "end": 66.926,
+   "beat": 11
+  },
+  {
+   "w": "Alors,",
+   "start": 67.184,
+   "end": 67.524,
+   "beat": 12
+  },
+  {
+   "w": "l'or",
+   "start": 68.024,
+   "end": 68.124,
+   "beat": 12
+  },
+  {
+   "w": "et",
+   "start": 68.124,
+   "end": 68.244,
+   "beat": 12
+  },
+  {
+   "w": "le",
+   "start": 68.244,
+   "end": 68.324,
+   "beat": 12
+  },
+  {
+   "w": "bitcoin",
+   "start": 68.324,
+   "end": 68.644,
+   "beat": 12
+  },
+  {
+   "w": "sont-ils",
+   "start": 68.924,
+   "end": 69.044,
+   "beat": 12
+  },
+  {
+   "w": "encore",
+   "start": 69.224,
+   "end": 69.484,
+   "beat": 12
+  },
+  {
+   "w": "des",
+   "start": 69.484,
+   "end": 69.684,
+   "beat": 12
+  },
+  {
+   "w": "refuges ?",
+   "start": 69.684,
+   "end": 70.204,
+   "beat": 12
+  },
+  {
+   "w": "Dis-le",
+   "start": 70.364,
+   "end": 70.564,
+   "beat": 12
+  },
+  {
+   "w": "en",
+   "start": 70.724,
+   "end": 70.844,
+   "beat": 12
+  },
+  {
+   "w": "commentaire.",
+   "start": 70.844,
+   "end": 71.404,
+   "beat": 12
+  },
+  {
+   "w": "L'or",
+   "start": 71.804,
+   "end": 71.904,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 71.904,
+   "end": 72.004,
+   "beat": 13
+  },
+  {
+   "w": "le",
+   "start": 72.004,
+   "end": 72.104,
+   "beat": 13
+  },
+  {
+   "w": "bitcoin",
+   "start": 72.104,
+   "end": 72.444,
+   "beat": 13
+  },
+  {
+   "w": "ne",
+   "start": 72.444,
+   "end": 72.724,
+   "beat": 13
+  },
+  {
+   "w": "préviennent",
+   "start": 72.724,
+   "end": 73.104,
+   "beat": 13
+  },
+  {
+   "w": "pas",
+   "start": 73.104,
+   "end": 73.264,
+   "beat": 13
+  },
+  {
+   "w": "avant",
+   "start": 73.264,
+   "end": 73.564,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 73.564,
+   "end": 73.724,
+   "beat": 13
+  },
+  {
+   "w": "chuter.",
+   "start": 73.724,
+   "end": 74.104,
+   "beat": 13
+  },
+  {
+   "w": "Mon",
+   "start": 74.304,
+   "end": 74.424,
+   "beat": 13
+  },
+  {
+   "w": "Telegram",
+   "start": 74.424,
+   "end": 74.964,
+   "beat": 13
+  },
+  {
+   "w": "gratuit,",
+   "start": 74.964,
+   "end": 75.244,
+   "beat": 13
+  },
+  {
+   "w": "si :",
+   "start": 75.524,
+   "end": 75.704,
+   "beat": 13
+  },
+  {
+   "w": "actu",
+   "start": 75.984,
+   "end": 76.344,
+   "beat": 13
+  },
+  {
+   "w": "géopolitique",
+   "start": 76.344,
+   "end": 77.124,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 77.124,
+   "end": 77.264,
+   "beat": 13
+  },
+  {
+   "w": "financière",
+   "start": 77.264,
+   "end": 77.864,
+   "beat": 13
+  },
+  {
+   "w": "décortiquée,",
+   "start": 77.864,
+   "end": 78.604,
+   "beat": 13
+  },
+  {
+   "w": "analyses",
+   "start": 78.744,
+   "end": 79.084,
+   "beat": 13
+  },
+  {
+   "w": "d'actions",
+   "start": 79.284,
+   "end": 79.504,
+   "beat": 13
+  },
+  {
+   "w": "détaillées,",
+   "start": 79.504,
+   "end": 80.164,
+   "beat": 13
+  },
+  {
+   "w": "opportunités",
+   "start": 80.364,
+   "end": 81.064,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 81.064,
+   "end": 81.324,
+   "beat": 13
+  },
+  {
+   "w": "temps",
+   "start": 81.324,
+   "end": 81.544,
+   "beat": 13
+  },
+  {
+   "w": "réel.",
+   "start": 81.544,
+   "end": 81.964,
+   "beat": 13
+  },
+  {
+   "w": "Plus",
+   "start": 82.104,
+   "end": 82.244,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 82.244,
+   "end": 82.424,
+   "beat": 13
+  },
+  {
+   "w": "22 000",
+   "start": 82.744,
+   "end": 82.944,
+   "beat": 13
+  },
+  {
+   "w": "personnes",
+   "start": 82.944,
+   "end": 83.404,
+   "beat": 13
+  },
+  {
+   "w": "y",
+   "start": 83.404,
+   "end": 83.684,
+   "beat": 13
+  },
+  {
+   "w": "sont",
+   "start": 83.684,
+   "end": 83.864,
+   "beat": 13
+  },
+  {
+   "w": "déjà.",
+   "start": 83.864,
+   "end": 84.224,
+   "beat": 13
+  },
+  {
+   "w": "Lien",
+   "start": 84.504,
+   "end": 84.764,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 84.764,
+   "end": 84.884,
+   "beat": 13
+  },
+  {
+   "w": "bio.",
+   "start": 84.884,
+   "end": 85.064,
+   "beat": 13
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 0.92
+  },
+  {
+   "start": 0.92,
+   "lines": [
+    [
+     4,
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "beat": 0,
+   "end": 2.16
+  },
+  {
+   "start": 2.16,
+   "lines": [
+    [
+     7
+    ],
+    [
+     8
+    ]
+   ],
+   "beat": 0,
+   "end": 3.18
+  },
+  {
+   "start": 3.18,
+   "lines": [
+    [
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 3.88
+  },
+  {
+   "start": 3.88,
+   "lines": [
+    [
+     10,
+     11
+    ]
+   ],
+   "beat": 1,
+   "end": 4.82
+  },
+  {
+   "start": 4.82,
+   "lines": [
+    [
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "beat": 1,
+   "end": 5.64
+  },
+  {
+   "start": 5.64,
+   "lines": [
+    [
+     16,
+     17
+    ],
+    [
+     18
+    ]
+   ],
+   "beat": 1,
+   "end": 6.94
+  },
+  {
+   "start": 6.94,
+   "lines": [
+    [
+     19,
+     20
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "beat": 1,
+   "end": 7.9
+  },
+  {
+   "start": 7.9,
+   "lines": [
+    [
+     23,
+     24
+    ]
+   ],
+   "beat": 1,
+   "end": 9.435
+  },
+  {
+   "start": 9.435,
+   "lines": [
+    [
+     25,
+     26
+    ],
+    [
+     27,
+     28
+    ]
+   ],
+   "beat": 2,
+   "end": 10.055
+  },
+  {
+   "start": 10.055,
+   "lines": [
+    [
+     29,
+     30
+    ]
+   ],
+   "beat": 2,
+   "end": 10.835
+  },
+  {
+   "start": 10.835,
+   "lines": [
+    [
+     31,
+     32,
+     33
+    ]
+   ],
+   "beat": 2,
+   "end": 11.315
+  },
+  {
+   "start": 11.315,
+   "lines": [
+    [
+     34,
+     35,
+     36
+    ]
+   ],
+   "beat": 2,
+   "end": 12.395
+  },
+  {
+   "start": 12.395,
+   "lines": [
+    [
+     37,
+     38
+    ],
+    [
+     39
+    ]
+   ],
+   "beat": 2,
+   "end": 13.507
+  },
+  {
+   "start": 13.507,
+   "lines": [
+    [
+     40,
+     41
+    ]
+   ],
+   "beat": 3,
+   "end": 14.347
+  },
+  {
+   "start": 14.347,
+   "lines": [
+    [
+     42,
+     43,
+     44
+    ]
+   ],
+   "beat": 3,
+   "end": 15.527
+  },
+  {
+   "start": 15.527,
+   "lines": [
+    [
+     45,
+     46
+    ],
+    [
+     47,
+     48
+    ]
+   ],
+   "beat": 3,
+   "end": 16.367
+  },
+  {
+   "start": 16.367,
+   "lines": [
+    [
+     49,
+     50,
+     51
+    ],
+    [
+     52
+    ]
+   ],
+   "beat": 3,
+   "end": 17.327
+  },
+  {
+   "start": 17.327,
+   "lines": [
+    [
+     53,
+     54
+    ],
+    [
+     55,
+     56
+    ]
+   ],
+   "beat": 3,
+   "end": 19.412
+  },
+  {
+   "start": 19.412,
+   "lines": [
+    [
+     57,
+     58
+    ],
+    [
+     59,
+     60
+    ]
+   ],
+   "beat": 4,
+   "end": 20.772
+  },
+  {
+   "start": 20.772,
+   "lines": [
+    [
+     61,
+     62
+    ],
+    [
+     63
+    ]
+   ],
+   "beat": 4,
+   "end": 22.772
+  },
+  {
+   "start": 22.772,
+   "lines": [
+    [
+     64,
+     65
+    ],
+    [
+     66,
+     67
+    ]
+   ],
+   "beat": 4,
+   "end": 23.972
+  },
+  {
+   "start": 23.972,
+   "lines": [
+    [
+     68,
+     69
+    ],
+    [
+     70
+    ]
+   ],
+   "beat": 4,
+   "end": 25.012
+  },
+  {
+   "start": 25.012,
+   "lines": [
+    [
+     71,
+     72
+    ]
+   ],
+   "beat": 4,
+   "end": 26.232
+  },
+  {
+   "start": 26.232,
+   "lines": [
+    [
+     73,
+     74
+    ]
+   ],
+   "beat": 4,
+   "end": 26.906
+  },
+  {
+   "start": 26.906,
+   "lines": [
+    [
+     75
+    ],
+    [
+     76,
+     77,
+     78
+    ]
+   ],
+   "beat": 5,
+   "end": 28.186
+  },
+  {
+   "start": 28.186,
+   "lines": [
+    [
+     79,
+     80,
+     81
+    ]
+   ],
+   "beat": 5,
+   "end": 28.786
+  },
+  {
+   "start": 28.786,
+   "lines": [
+    [
+     82,
+     83,
+     84
+    ],
+    [
+     85
+    ]
+   ],
+   "beat": 5,
+   "end": 30.064
+  },
+  {
+   "start": 30.064,
+   "lines": [
+    [
+     86,
+     87
+    ],
+    [
+     88
+    ]
+   ],
+   "beat": 6,
+   "end": 31.204
+  },
+  {
+   "start": 31.204,
+   "lines": [
+    [
+     89,
+     90
+    ],
+    [
+     91
+    ]
+   ],
+   "beat": 6,
+   "end": 31.984
+  },
+  {
+   "start": 31.984,
+   "lines": [
+    [
+     92,
+     93,
+     94
+    ]
+   ],
+   "beat": 6,
+   "end": 32.824
+  },
+  {
+   "start": 32.824,
+   "lines": [
+    [
+     95,
+     96
+    ]
+   ],
+   "beat": 6,
+   "end": 33.764
+  },
+  {
+   "start": 33.764,
+   "lines": [
+    [
+     97,
+     98,
+     99
+    ]
+   ],
+   "beat": 6,
+   "end": 34.487
+  },
+  {
+   "start": 34.487,
+   "lines": [
+    [
+     100,
+     101
+    ]
+   ],
+   "beat": 7,
+   "end": 35.407
+  },
+  {
+   "start": 35.407,
+   "lines": [
+    [
+     102,
+     103
+    ]
+   ],
+   "beat": 7,
+   "end": 36.107
+  },
+  {
+   "start": 36.107,
+   "lines": [
+    [
+     104,
+     105,
+     106
+    ]
+   ],
+   "beat": 7,
+   "end": 36.747
+  },
+  {
+   "start": 36.747,
+   "lines": [
+    [
+     107,
+     108,
+     109,
+     110
+    ]
+   ],
+   "beat": 7,
+   "end": 37.447
+  },
+  {
+   "start": 37.447,
+   "lines": [
+    [
+     111
+    ],
+    [
+     112,
+     113
+    ]
+   ],
+   "beat": 7,
+   "end": 38.687
+  },
+  {
+   "start": 38.687,
+   "lines": [
+    [
+     114,
+     115
+    ]
+   ],
+   "beat": 7,
+   "end": 39.738
+  },
+  {
+   "start": 39.738,
+   "lines": [
+    [
+     116,
+     117
+    ]
+   ],
+   "beat": 8,
+   "end": 41.318
+  },
+  {
+   "start": 41.318,
+   "lines": [
+    [
+     118,
+     119
+    ],
+    [
+     120
+    ]
+   ],
+   "beat": 8,
+   "end": 42.318
+  },
+  {
+   "start": 42.318,
+   "lines": [
+    [
+     121,
+     122,
+     123,
+     124
+    ]
+   ],
+   "beat": 8,
+   "end": 43.458
+  },
+  {
+   "start": 43.458,
+   "lines": [
+    [
+     125,
+     126,
+     127
+    ]
+   ],
+   "beat": 8,
+   "end": 44.218
+  },
+  {
+   "start": 44.218,
+   "lines": [
+    [
+     128,
+     129
+    ],
+    [
+     130
+    ]
+   ],
+   "beat": 8,
+   "end": 44.798
+  },
+  {
+   "start": 44.798,
+   "lines": [
+    [
+     131,
+     132
+    ],
+    [
+     133,
+     134
+    ]
+   ],
+   "beat": 8,
+   "end": 45.779
+  },
+  {
+   "start": 45.779,
+   "lines": [
+    [
+     135,
+     136,
+     137
+    ]
+   ],
+   "beat": 9,
+   "end": 46.739
+  },
+  {
+   "start": 46.739,
+   "lines": [
+    [
+     138,
+     139
+    ],
+    [
+     140,
+     141
+    ]
+   ],
+   "beat": 9,
+   "end": 48.199
+  },
+  {
+   "start": 48.199,
+   "lines": [
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 9,
+   "end": 49.199
+  },
+  {
+   "start": 49.199,
+   "lines": [
+    [
+     144,
+     145
+    ],
+    [
+     146,
+     147
+    ]
+   ],
+   "beat": 9,
+   "end": 50.099
+  },
+  {
+   "start": 50.099,
+   "lines": [
+    [
+     148,
+     149
+    ],
+    [
+     150,
+     151
+    ]
+   ],
+   "beat": 9,
+   "end": 51.226
+  },
+  {
+   "start": 51.226,
+   "lines": [
+    [
+     152,
+     153
+    ]
+   ],
+   "beat": 10,
+   "end": 51.946
+  },
+  {
+   "start": 51.946,
+   "lines": [
+    [
+     154
+    ],
+    [
+     155,
+     156
+    ]
+   ],
+   "beat": 10,
+   "end": 53.206
+  },
+  {
+   "start": 53.206,
+   "lines": [
+    [
+     157,
+     158
+    ]
+   ],
+   "beat": 10,
+   "end": 54.366
+  },
+  {
+   "start": 54.366,
+   "lines": [
+    [
+     159,
+     160,
+     161
+    ],
+    [
+     162
+    ]
+   ],
+   "beat": 10,
+   "end": 55.426
+  },
+  {
+   "start": 55.426,
+   "lines": [
+    [
+     163,
+     164
+    ],
+    [
+     165,
+     166
+    ]
+   ],
+   "beat": 10,
+   "end": 57.006
+  },
+  {
+   "start": 57.006,
+   "lines": [
+    [
+     167,
+     168
+    ]
+   ],
+   "beat": 10,
+   "end": 57.926
+  },
+  {
+   "start": 57.926,
+   "lines": [
+    [
+     169,
+     170
+    ],
+    [
+     171,
+     172
+    ]
+   ],
+   "beat": 10,
+   "end": 59.246
+  },
+  {
+   "start": 59.246,
+   "lines": [
+    [
+     173
+    ]
+   ],
+   "beat": 10,
+   "end": 59.466
+  },
+  {
+   "start": 59.466,
+   "lines": [
+    [
+     174,
+     175
+    ]
+   ],
+   "beat": 11,
+   "end": 60.366
+  },
+  {
+   "start": 60.366,
+   "lines": [
+    [
+     176,
+     177
+    ]
+   ],
+   "beat": 11,
+   "end": 61.146
+  },
+  {
+   "start": 61.146,
+   "lines": [
+    [
+     178,
+     179,
+     180,
+     181
+    ]
+   ],
+   "beat": 11,
+   "end": 61.946
+  },
+  {
+   "start": 61.946,
+   "lines": [
+    [
+     182
+    ]
+   ],
+   "beat": 11,
+   "end": 62.686
+  },
+  {
+   "start": 62.686,
+   "lines": [
+    [
+     183
+    ],
+    [
+     184,
+     185,
+     186
+    ]
+   ],
+   "beat": 11,
+   "end": 63.906
+  },
+  {
+   "start": 63.906,
+   "lines": [
+    [
+     187,
+     188
+    ],
+    [
+     189
+    ]
+   ],
+   "beat": 11,
+   "end": 64.666
+  },
+  {
+   "start": 64.666,
+   "lines": [
+    [
+     190,
+     191
+    ],
+    [
+     192,
+     193
+    ]
+   ],
+   "beat": 11,
+   "end": 65.946
+  },
+  {
+   "start": 65.946,
+   "lines": [
+    [
+     194,
+     195
+    ]
+   ],
+   "beat": 11,
+   "end": 67.184
+  },
+  {
+   "start": 67.184,
+   "lines": [
+    [
+     196
+    ],
+    [
+     197,
+     198
+    ]
+   ],
+   "beat": 12,
+   "end": 68.244
+  },
+  {
+   "start": 68.244,
+   "lines": [
+    [
+     199,
+     200
+    ],
+    [
+     201,
+     202
+    ]
+   ],
+   "beat": 12,
+   "end": 69.484
+  },
+  {
+   "start": 69.484,
+   "lines": [
+    [
+     203,
+     204
+    ]
+   ],
+   "beat": 12,
+   "end": 70.364
+  },
+  {
+   "start": 70.364,
+   "lines": [
+    [
+     205,
+     206
+    ],
+    [
+     207
+    ]
+   ],
+   "beat": 12,
+   "end": 71.804
+  },
+  {
+   "start": 71.804,
+   "lines": [
+    [
+     208,
+     209
+    ],
+    [
+     210,
+     211
+    ]
+   ],
+   "beat": 13,
+   "end": 72.444
+  },
+  {
+   "start": 72.444,
+   "lines": [
+    [
+     212,
+     213
+    ],
+    [
+     214,
+     215
+    ]
+   ],
+   "beat": 13,
+   "end": 73.564
+  },
+  {
+   "start": 73.564,
+   "lines": [
+    [
+     216,
+     217
+    ]
+   ],
+   "beat": 13,
+   "end": 74.304
+  },
+  {
+   "start": 74.304,
+   "lines": [
+    [
+     218,
+     219
+    ],
+    [
+     220
+    ]
+   ],
+   "beat": 13,
+   "end": 75.524
+  },
+  {
+   "start": 75.524,
+   "lines": [
+    [
+     221
+    ]
+   ],
+   "beat": 13,
+   "end": 75.984
+  },
+  {
+   "start": 75.984,
+   "lines": [
+    [
+     222,
+     223
+    ]
+   ],
+   "beat": 13,
+   "end": 77.124
+  },
+  {
+   "start": 77.124,
+   "lines": [
+    [
+     224,
+     225
+    ],
+    [
+     226
+    ]
+   ],
+   "beat": 13,
+   "end": 78.744
+  },
+  {
+   "start": 78.744,
+   "lines": [
+    [
+     227,
+     228
+    ]
+   ],
+   "beat": 13,
+   "end": 79.504
+  },
+  {
+   "start": 79.504,
+   "lines": [
+    [
+     229
+    ],
+    [
+     230
+    ]
+   ],
+   "beat": 13,
+   "end": 81.064
+  },
+  {
+   "start": 81.064,
+   "lines": [
+    [
+     231,
+     232
+    ],
+    [
+     233
+    ]
+   ],
+   "beat": 13,
+   "end": 82.104
+  },
+  {
+   "start": 82.104,
+   "lines": [
+    [
+     234,
+     235,
+     236
+    ],
+    [
+     237
+    ]
+   ],
+   "beat": 13,
+   "end": 83.404
+  },
+  {
+   "start": 83.404,
+   "lines": [
+    [
+     238,
+     239,
+     240
+    ]
+   ],
+   "beat": 13,
+   "end": 84.504
+  },
+  {
+   "start": 84.504,
+   "lines": [
+    [
+     241,
+     242,
+     243
+    ]
+   ],
+   "beat": 13,
+   "end": 85.418
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Vendredi 20 novembre 2026 · Or & bitcoin",
+   "until_beat": 1,
+   "start": 0.0,
+   "end": 9.435
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "OR ET BITCOIN :",
+    "POURQUOI ?"
+   ],
+   "at_word": 0,
+   "start": 0.0,
+   "end": 3.88
+  },
+  {
+   "type": "stock",
+   "key": "BTC",
+   "name": "Bitcoin",
+   "sub": "BTC · vs record oct. 2025 · calcul",
+   "pct": "−56 %",
+   "up": false,
+   "y": 1420,
+   "at_word": 7,
+   "start": 2.16,
+   "end": 3.88
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "BITCOIN · VENDREDI SOIR",
+   "value_from": 70000,
+   "value_to": 55830,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " $",
+   "color": "red",
+   "pill": "PLUS BAS DEPUIS SEPT. 2024",
+   "desc": "20 nov., 23h13 heure de New York · Reuters / Schwab via Nocta · 21 nov. 2026",
+   "logo": "BTC",
+   "start": 3.88,
+   "end": 9.435
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "OR · SUR LA SEMAINE",
+   "value_from": 0,
+   "value_to": -9,
+   "decimals": 0,
+   "prefix": "≈ ",
+   "suffix": " %",
+   "color": "red",
+   "pill": "PIRE SEMAINE DEPUIS MARS",
+   "desc": "3 515 $ l'once le 20 nov., plus bas depuis sept. 2025 · Cryptoast · 20 nov. 2026",
+   "start": 9.435,
+   "end": 13.507,
+   "cut_in": true
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "BITCOIN · RECORD OCT. 2025",
+    "value_to": 126210,
+    "decimals": 0,
+    "prefix": "",
+    "suffix": " $",
+    "color": "white",
+    "desc": "JKN · 20 nov. 2026",
+    "logo": "BTC"
+   },
+   "b_at_word": 8,
+   "b": {
+    "kicker": "BITCOIN · 20 NOV. 2026 (SOIR)",
+    "value_to": 55830,
+    "decimals": 0,
+    "prefix": "",
+    "suffix": " $",
+    "color": "red",
+    "desc": "≈ −56 % (calcul) · Reuters / Schwab via Nocta · 21 nov. 2026"
+   },
+   "start": 13.507,
+   "end": 19.412,
+   "b_t": 15.967,
+   "cut_in": true
+  },
+  {
+   "type": "stock",
+   "key": "BLK",
+   "name": "BlackRock · IBIT",
+   "sub": "Sortie du 19 nov. · record · Crypto Economy",
+   "pct": "−541 M$",
+   "up": false,
+   "y": 560,
+   "at_word": 5,
+   "start": 21.492,
+   "end": 26.906
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "QUI A TIRÉ",
+    "LE TAPIS ?"
+   ],
+   "at_word": 1,
+   "start": 27.606,
+   "end": 30.064
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_1eaa56f0.jpg",
+   "bio_at_word": 13,
+   "start": 30.064,
+   "end": 34.487,
+   "bio_t": 34.124
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "HAUSSE DE TAUX DE LA FED · 9 DÉC.",
+   "value_from": 0,
+   "value_to": 92,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " %",
+   "color": "white",
+   "pill": "PROBABILITÉ (CME FEDWATCH)",
+   "desc": "Vendredi soir · Reuters / Schwab via Nocta · 21 nov. 2026",
+   "at_word": 5,
+   "start": 36.287,
+   "end": 39.738
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "TAUX RÉELS US",
+   "right": "20 NOV.",
+   "tag": "OBLIGATIONS",
+   "headline": "Les taux réels à 10 et 30 ans au plus haut depuis plus de 20 ans, selon Robin Brooks (Brookings)",
+   "highlight": "plus haut depuis plus de 20 ans",
+   "sub": "CoinDesk via KuCoin · 20 nov. 2026",
+   "start": 40.638,
+   "end": 45.779
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "TAUX RÉEL US À 2 ANS",
+    "value_to": 2.4,
+    "decimals": 2,
+    "prefix": "> ",
+    "suffix": " %",
+    "color": "green",
+    "desc": "Plus haut depuis 2023 · ING via CoinDesk via KuCoin · 20 nov. 2026"
+   },
+   "b_at_word": 7,
+   "b": {
+    "kicker": "OR ET BITCOIN",
+    "value_to": 0,
+    "decimals": 0,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Aucun intérêt versé"
+   },
+   "start": 45.779,
+   "end": 51.226,
+   "b_t": 48.199
+  },
+  {
+   "type": "stock",
+   "key": "MSTR",
+   "name": "Strategy",
+   "sub": "850 849 BTC · prix moyen ≈ 75 452 $",
+   "pct": "−26 %",
+   "up": false,
+   "y": 560,
+   "at_word": 2,
+   "start": 51.946,
+   "end": 59.466
+  },
+  {
+   "type": "source",
+   "text": "The Cryptonomist · écart prix moyen / plus bas de vendredi (55 830 $) : calcul",
+   "start": 51.226,
+   "end": 59.466
+  },
+  {
+   "type": "tickers",
+   "title": "À SURVEILLER",
+   "rows": [
+    {
+     "name": "Réunion de la Fed",
+     "pct": "8-9 DÉC.",
+     "at_word": 3,
+     "up": true,
+     "t": 60.496
+    },
+    {
+     "name": "Hausse suivante (Goldman)",
+     "pct": "MARS 2027",
+     "at_word": 9,
+     "up": true,
+     "t": 62.636
+    },
+    {
+     "name": "Or à 5 600 $ (Goldman)",
+     "pct": "FIN 2028",
+     "at_word": 18,
+     "up": true,
+     "t": 65.016
+    }
+   ],
+   "start": 59.466,
+   "end": 67.184
+  },
+  {
+   "type": "source",
+   "text": "Goldman Sachs via Kitco, cité par Cryptoast · 20 nov. 2026",
+   "start": 59.466,
+   "end": 67.184
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "ENCORE DES",
+    "VALEURS REFUGES ?"
+   ],
+   "at_word": 8,
+   "start": 69.684,
+   "end": 71.624
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Or & bitcoin : ce que la Fed prépare",
+   "imgs": [
+    "tg_3435c02c_top.jpg",
+    "tg_1eaa56f0.jpg",
+    "tg_4b2fa9a8.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 28,
+   "bio_at_word": 35,
+   "button": "ENTRE DANS LE CANAL",
+   "start": 71.624,
+   "end": 85.328,
+   "subs_t": 82.744,
+   "bio_t": 84.884
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.12,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b0b.mp4",
+   "start": 2.12,
+   "end": 3.88,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b1.mp4",
+   "start": 3.88,
+   "end": 9.435,
+   "beat": 1
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b2.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b2.mp4",
+   "start": 9.435,
+   "end": 13.507,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b4.mp4",
+   "start": 13.507,
+   "end": 19.412,
+   "beat": 3
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b6.mp4",
+   "start": 19.412,
+   "end": 25.392,
+   "beat": 4
+  },
+  {
+   "clip": "b6b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 15,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b6b.mp4",
+   "start": 25.392,
+   "end": 26.906,
+   "beat": 4
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b7.mp4",
+   "start": 26.906,
+   "end": 30.064,
+   "beat": 5
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b8.mp4",
+   "start": 30.064,
+   "end": 34.487,
+   "beat": 6
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b9.mp4",
+   "start": 34.487,
+   "end": 39.738,
+   "beat": 7
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b10.mp4",
+   "start": 39.738,
+   "end": 44.178,
+   "beat": 8
+  },
+  {
+   "clip": "b10b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 12,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b10b.mp4",
+   "start": 44.178,
+   "end": 45.779,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b11.mp4",
+   "start": 45.779,
+   "end": 51.226,
+   "beat": 9
+  },
+  {
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b12.mp4",
+   "start": 51.226,
+   "end": 58.086,
+   "beat": 10
+  },
+  {
+   "clip": "b13b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 18,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b13b.mp4",
+   "start": 58.086,
+   "end": 59.466,
+   "beat": 10
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b15.mp4",
+   "start": 59.466,
+   "end": 62.646,
+   "beat": 11
+  },
+  {
+   "clip": "b15b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b15b.mp4",
+   "start": 62.646,
+   "end": 67.184,
+   "beat": 11
+  },
+  {
+   "clip": "b16.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep41_or_bitcoin_fed/broll/b16.mp4",
+   "start": 67.184,
+   "end": 71.624,
+   "beat": 12
+  },
+  {
+   "blur_prev": true,
+   "start": 71.624,
+   "end": 87.128,
+   "beat": 13
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 2.07,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 2.16,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 3.82,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 4.0,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 9.405,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 9.555,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 13.477,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 13.627,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 15.967,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 16.017,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 21.492,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 25.342,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 26.856,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 27.606,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 30.014,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 30.064,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 34.124,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 36.227,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 36.407,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 40.638,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 44.128,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 45.719,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 45.899,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 48.199,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 48.249,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 51.946,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 58.036,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 59.416,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 59.466,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 60.496,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 62.596,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 62.636,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 65.016,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 67.134,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 69.684,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 71.574,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 71.674,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 71.974,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 82.744,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 84.728,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 84.884,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 85.328,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   85.328,
+   88.128
+  ]
+ ],
+ "endcard": {
+  "start": 85.328,
+  "button": "ENTRE DANS LE CANAL",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "21 novembre 2026"
+}

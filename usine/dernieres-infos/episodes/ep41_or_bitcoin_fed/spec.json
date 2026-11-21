@@ -1,0 +1,454 @@
+{
+ "id": "ep41_or_bitcoin_fed",
+ "date_label": "21 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "question",
+ "hook_formula": "question directe",
+ "cta_angle": "L'or et le bitcoin ne préviennent pas avant de chuter. Mon Telegram, si.",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://cryptoast.fr/or-bitcoin-chute-dollar-fed-taux-anthropic-gold-xau/",
+  "https://noctaaa.substack.com/p/daily-brief-saturday-21-november-2026",
+  "https://news.jkn.co.kr/editions/french/post/1111422",
+  "https://fr.cryptonomist.ch/2026/11/20/chute-du-prix-du-bitcoin-sous-60-000-dollars-septieme-perte-en-vue/",
+  "https://www.kucoin.com/fr/news/flash/gold-and-bitcoin-fall-amid-rising-u-s-real-yields",
+  "https://www.kucoin.com/fr/news/flash/bitcoin-hits-4-5-month-low-amid-record-etf-outflows-in-november-2026"
+ ],
+ "beats": [
+  {
+   "text": "L'or et le bitcoin devaient te protéger. Pourquoi s'effondrent-ils ensemble ?",
+   "say": "L'or et le bitcoin devaient te protéger... Pourquoi s'effondrent-ils ensemble ?",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 20 novembre 2026 · Or & bitcoin",
+     "until_beat": 1
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "OR ET BITCOIN :",
+      "POURQUOI ?"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "stock",
+     "key": "BTC",
+     "name": "Bitcoin",
+     "sub": "BTC · vs record oct. 2025 · calcul",
+     "pct": "−56 %",
+     "up": false,
+     "y": 1420,
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Vendredi soir, le bitcoin est tombé à 55 830 dollars, au plus bas depuis septembre 2024.",
+   "say": "Vendredi soir, le bitcoin est tombé sous les cinquante-six mille dollars... au plus bas depuis septembre deux mille vingt-quatre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BITCOIN · VENDREDI SOIR",
+     "value_from": 70000,
+     "value_to": 55830,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " $",
+     "color": "red",
+     "pill": "PLUS BAS DEPUIS SEPT. 2024",
+     "desc": "20 nov., 23h13 heure de New York · Reuters / Schwab via Nocta · 21 nov. 2026",
+     "logo": "BTC"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : l'or a perdu près de 9 % en une semaine.",
+   "say": "Et ce n'est pas le pire : l'or a perdu près de neuf pour cent... en une semaine.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "OR · SUR LA SEMAINE",
+     "value_from": 0,
+     "value_to": -9,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE SEMAINE DEPUIS MARS",
+     "desc": "3 515 $ l'once le 20 nov., plus bas depuis sept. 2025 · Cryptoast · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le bitcoin, lui, a perdu plus de la moitié de sa valeur depuis son record d'octobre 2025.",
+   "say": "Le bitcoin, lui, a perdu plus de la moitié de sa valeur... depuis son record d'octobre deux mille vingt-cinq.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "BITCOIN · RECORD OCT. 2025",
+      "value_to": 126210,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "white",
+      "desc": "JKN · 20 nov. 2026",
+      "logo": "BTC"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "BITCOIN · 20 NOV. 2026 (SOIR)",
+      "value_to": 55830,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "≈ −56 % (calcul) · Reuters / Schwab via Nocta · 21 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Les gros fonds fuient : jeudi, 541 millions de dollars sont sortis de l'ETF bitcoin de BlackRock. Un record.",
+   "say": "Les gros fonds fuient : jeudi, cinq cent quarante et un millions de dollars sont sortis de l'E.T.F. bitcoin de BlackRock. Un record.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b6.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b6b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 15
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "BLK",
+     "name": "BlackRock · IBIT",
+     "sub": "Sortie du 19 nov. · record · Crypto Economy",
+     "pct": "−541 M$",
+     "up": false,
+     "y": 560,
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a tiré le tapis sous les deux valeurs refuges ?",
+   "say": "Alors... qui a tiré le tapis sous les deux valeurs refuges ?",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A TIRÉ",
+      "LE TAPIS ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce double plongeon, je le décrypte en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce double plongeon, je le décrypte en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse : la Fed. Une hausse de ses taux le 9 décembre est jouée à 92 %.",
+   "say": "La réponse : la Fed. Une hausse de ses taux le neuf décembre... est jouée à quatre-vingt-douze pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "HAUSSE DE TAUX DE LA FED · 9 DÉC.",
+     "value_from": 0,
+     "value_to": 92,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "white",
+     "pill": "PROBABILITÉ (CME FEDWATCH)",
+     "desc": "Vendredi soir · Reuters / Schwab via Nocta · 21 nov. 2026",
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Inflation déduite, les taux américains à 10 et 30 ans sont au plus haut depuis plus de 20 ans.",
+   "say": "Inflation déduite, les taux américains à dix et trente ans... sont au plus haut depuis plus de vingt ans.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 12
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "TAUX RÉELS US",
+     "right": "20 NOV.",
+     "tag": "OBLIGATIONS",
+     "headline": "Les taux réels à 10 et 30 ans au plus haut depuis plus de 20 ans, selon Robin Brooks (Brookings)",
+     "highlight": "plus haut depuis plus de 20 ans",
+     "sub": "CoinDesk via KuCoin · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Or l'or et le bitcoin ne rapportent aucun intérêt. Face à ces taux, ils perdent leur attrait.",
+   "say": "Or... l'or et le bitcoin ne rapportent aucun intérêt. Face à ces taux, ils perdent leur attrait.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "TAUX RÉEL US À 2 ANS",
+      "value_to": 2.4,
+      "decimals": 2,
+      "prefix": "> ",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Plus haut depuis 2023 · ING via CoinDesk via KuCoin · 20 nov. 2026"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "OR ET BITCOIN",
+      "value_to": 0,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Aucun intérêt versé"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Le twist ? Strategy, plus gros détenteur coté, a payé ses bitcoins plus de 75 000 dollars en moyenne : son trésor est sous l'eau.",
+   "say": "Le twist ? Strategy, plus gros détenteur coté, a payé ses bitcoins plus de soixante-quinze mille dollars en moyenne... son trésor est sous l'eau.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 18
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "MSTR",
+     "name": "Strategy",
+     "sub": "850 849 BTC · prix moyen ≈ 75 452 $",
+     "pct": "−26 %",
+     "up": false,
+     "y": 560,
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "The Cryptonomist · écart prix moyen / plus bas de vendredi (55 830 $) : calcul"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller : la Fed, les 8 et 9 décembre. Goldman Sachs ne voit pas l'or revenir à son record avant fin 2028.",
+   "say": "À surveiller : la Fed, les huit et neuf décembre. Goldman Sachs ne voit pas l'or revenir à son record... avant fin deux mille vingt-huit.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b15.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b15b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "À SURVEILLER",
+     "rows": [
+      {
+       "name": "Réunion de la Fed",
+       "pct": "8-9 DÉC.",
+       "at_word": 3,
+       "up": true
+      },
+      {
+       "name": "Hausse suivante (Goldman)",
+       "pct": "MARS 2027",
+       "at_word": 9,
+       "up": true
+      },
+      {
+       "name": "Or à 5 600 $ (Goldman)",
+       "pct": "FIN 2028",
+       "at_word": 18,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Goldman Sachs via Kitco, cité par Cryptoast · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, l'or et le bitcoin sont-ils encore des refuges ? Dis-le en commentaire.",
+   "say": "Alors... l'or et le bitcoin sont-ils encore des refuges ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b16.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "ENCORE DES",
+      "VALEURS REFUGES ?"
+     ],
+     "at_word": 8
+    }
+   ]
+  },
+  {
+   "text": "L'or et le bitcoin ne préviennent pas avant de chuter. Mon Telegram gratuit, si : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "L'or et le bitcoin ne préviennent pas avant de chuter... Mon Telegram gratuit, si : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Or & bitcoin : ce que la Fed prépare",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 28,
+     "bio_at_word": 35,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
