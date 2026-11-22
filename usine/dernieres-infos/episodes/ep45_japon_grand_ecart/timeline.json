@@ -1,0 +1,3489 @@
+{
+ "fps": 30,
+ "duration": 86.848,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.342,
+   "w0": 0,
+   "w1": 14,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.402,
+   "end": 8.923,
+   "w0": 15,
+   "w1": 31,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 8.983,
+   "end": 13.513,
+   "w0": 32,
+   "w1": 44,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 13.573,
+   "end": 19.225,
+   "w0": 45,
+   "w1": 59,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 19.285,
+   "end": 23.707,
+   "w0": 60,
+   "w1": 76,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 23.767,
+   "end": 27.059,
+   "w0": 77,
+   "w1": 89,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 27.119,
+   "end": 33.11,
+   "w0": 90,
+   "w1": 106,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 33.17,
+   "end": 36.886,
+   "w0": 107,
+   "w1": 118,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 36.946,
+   "end": 42.988,
+   "w0": 119,
+   "w1": 137,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 43.048,
+   "end": 49.653,
+   "w0": 138,
+   "w1": 152,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 49.713,
+   "end": 54.286,
+   "w0": 153,
+   "w1": 165,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 54.346,
+   "end": 61.918,
+   "w0": 166,
+   "w1": 184,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 61.978,
+   "end": 66.948,
+   "w0": 185,
+   "w1": 198,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 67.008,
+   "end": 71.631,
+   "w0": 199,
+   "w1": 211,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 71.691,
+   "end": 84.938,
+   "w0": 212,
+   "w1": 248,
+   "voice": "episodes/ep45_japon_grand_ecart/voice/beat_14.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "22 %",
+   "start": 0.0,
+   "end": 0.38,
+   "beat": 0
+  },
+  {
+   "w": "effacés",
+   "start": 0.92,
+   "end": 1.5,
+   "beat": 0
+  },
+  {
+   "w": "depuis",
+   "start": 1.5,
+   "end": 1.72,
+   "beat": 0
+  },
+  {
+   "w": "juin.",
+   "start": 1.72,
+   "end": 2.16,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 2.16,
+   "end": 2.38,
+   "beat": 0
+  },
+  {
+   "w": "ce",
+   "start": 2.38,
+   "end": 2.5,
+   "beat": 0
+  },
+  {
+   "w": "n'est",
+   "start": 2.52,
+   "end": 2.58,
+   "beat": 0
+  },
+  {
+   "w": "pas",
+   "start": 2.58,
+   "end": 2.7,
+   "beat": 0
+  },
+  {
+   "w": "Wall",
+   "start": 2.7,
+   "end": 2.86,
+   "beat": 0
+  },
+  {
+   "w": "Street :",
+   "start": 2.86,
+   "end": 3.12,
+   "beat": 0
+  },
+  {
+   "w": "c'est",
+   "start": 3.46,
+   "end": 3.54,
+   "beat": 0
+  },
+  {
+   "w": "la",
+   "start": 3.54,
+   "end": 3.62,
+   "beat": 0
+  },
+  {
+   "w": "Bourse",
+   "start": 3.62,
+   "end": 3.88,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 3.88,
+   "end": 4.04,
+   "beat": 0
+  },
+  {
+   "w": "Tokyo.",
+   "start": 4.04,
+   "end": 4.2,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 4.402,
+   "end": 4.742,
+   "beat": 1
+  },
+  {
+   "w": "ce",
+   "start": 4.742,
+   "end": 4.862,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 4.882,
+   "end": 4.962,
+   "beat": 1
+  },
+  {
+   "w": "pas",
+   "start": 4.962,
+   "end": 5.042,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 5.042,
+   "end": 5.142,
+   "beat": 1
+  },
+  {
+   "w": "pire :",
+   "start": 5.142,
+   "end": 5.422,
+   "beat": 1
+  },
+  {
+   "w": "sur",
+   "start": 5.562,
+   "end": 5.642,
+   "beat": 1
+  },
+  {
+   "w": "la",
+   "start": 5.642,
+   "end": 5.762,
+   "beat": 1
+  },
+  {
+   "w": "seule",
+   "start": 5.762,
+   "end": 5.922,
+   "beat": 1
+  },
+  {
+   "w": "semaine,",
+   "start": 5.922,
+   "end": 6.302,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 6.522,
+   "end": 6.602,
+   "beat": 1
+  },
+  {
+   "w": "Nikkei",
+   "start": 6.602,
+   "end": 7.182,
+   "beat": 1
+  },
+  {
+   "w": "a",
+   "start": 7.182,
+   "end": 7.322,
+   "beat": 1
+  },
+  {
+   "w": "perdu",
+   "start": 7.322,
+   "end": 7.662,
+   "beat": 1
+  },
+  {
+   "w": "près",
+   "start": 7.662,
+   "end": 7.942,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 7.942,
+   "end": 8.102,
+   "beat": 1
+  },
+  {
+   "w": "8 %.",
+   "start": 8.102,
+   "end": 8.682,
+   "beat": 1
+  },
+  {
+   "w": "Pendant",
+   "start": 8.983,
+   "end": 9.363,
+   "beat": 2
+  },
+  {
+   "w": "ce",
+   "start": 9.363,
+   "end": 9.463,
+   "beat": 2
+  },
+  {
+   "w": "temps,",
+   "start": 9.463,
+   "end": 9.583,
+   "beat": 2
+  },
+  {
+   "w": "l'économie",
+   "start": 9.843,
+   "end": 10.203,
+   "beat": 2
+  },
+  {
+   "w": "japonaise",
+   "start": 10.203,
+   "end": 10.763,
+   "beat": 2
+  },
+  {
+   "w": "recule :",
+   "start": 10.763,
+   "end": 11.383,
+   "beat": 2
+  },
+  {
+   "w": "−0,1 %",
+   "start": 11.383,
+   "end": 11.383,
+   "beat": 2
+  },
+  {
+   "w": "au",
+   "start": 11.383,
+   "end": 11.623,
+   "beat": 2
+  },
+  {
+   "w": "troisième",
+   "start": 11.623,
+   "end": 11.963,
+   "beat": 2
+  },
+  {
+   "w": "trimestre,",
+   "start": 11.963,
+   "end": 12.523,
+   "beat": 2
+  },
+  {
+   "w": "en",
+   "start": 12.523,
+   "end": 12.763,
+   "beat": 2
+  },
+  {
+   "w": "rythme",
+   "start": 12.763,
+   "end": 13.103,
+   "beat": 2
+  },
+  {
+   "w": "annuel.",
+   "start": 13.103,
+   "end": 13.483,
+   "beat": 2
+  },
+  {
+   "w": "Et",
+   "start": 13.573,
+   "end": 13.873,
+   "beat": 3
+  },
+  {
+   "w": "pourtant,",
+   "start": 13.873,
+   "end": 14.233,
+   "beat": 3
+  },
+  {
+   "w": "les",
+   "start": 14.233,
+   "end": 14.593,
+   "beat": 3
+  },
+  {
+   "w": "prix",
+   "start": 14.593,
+   "end": 14.773,
+   "beat": 3
+  },
+  {
+   "w": "accélèrent :",
+   "start": 14.773,
+   "end": 15.373,
+   "beat": 3
+  },
+  {
+   "w": "2,3 %",
+   "start": 15.753,
+   "end": 16.033,
+   "beat": 3
+  },
+  {
+   "w": "d'inflation",
+   "start": 16.453,
+   "end": 16.853,
+   "beat": 3
+  },
+  {
+   "w": "en",
+   "start": 16.853,
+   "end": 16.953,
+   "beat": 3
+  },
+  {
+   "w": "octobre,",
+   "start": 16.953,
+   "end": 17.493,
+   "beat": 3
+  },
+  {
+   "w": "au",
+   "start": 17.493,
+   "end": 17.653,
+   "beat": 3
+  },
+  {
+   "w": "plus",
+   "start": 17.653,
+   "end": 17.853,
+   "beat": 3
+  },
+  {
+   "w": "haut",
+   "start": 17.853,
+   "end": 18.173,
+   "beat": 3
+  },
+  {
+   "w": "depuis",
+   "start": 18.173,
+   "end": 18.533,
+   "beat": 3
+  },
+  {
+   "w": "un",
+   "start": 18.533,
+   "end": 18.893,
+   "beat": 3
+  },
+  {
+   "w": "an.",
+   "start": 18.893,
+   "end": 19.053,
+   "beat": 3
+  },
+  {
+   "w": "Alors,",
+   "start": 19.285,
+   "end": 19.585,
+   "beat": 4
+  },
+  {
+   "w": "une",
+   "start": 19.885,
+   "end": 20.005,
+   "beat": 4
+  },
+  {
+   "w": "économie",
+   "start": 20.005,
+   "end": 20.505,
+   "beat": 4
+  },
+  {
+   "w": "qui",
+   "start": 20.505,
+   "end": 20.565,
+   "beat": 4
+  },
+  {
+   "w": "recule",
+   "start": 20.565,
+   "end": 21.085,
+   "beat": 4
+  },
+  {
+   "w": "et",
+   "start": 21.085,
+   "end": 21.305,
+   "beat": 4
+  },
+  {
+   "w": "des",
+   "start": 21.305,
+   "end": 21.465,
+   "beat": 4
+  },
+  {
+   "w": "prix",
+   "start": 21.465,
+   "end": 21.645,
+   "beat": 4
+  },
+  {
+   "w": "qui",
+   "start": 21.645,
+   "end": 21.805,
+   "beat": 4
+  },
+  {
+   "w": "montent :",
+   "start": 21.805,
+   "end": 22.285,
+   "beat": 4
+  },
+  {
+   "w": "que",
+   "start": 22.365,
+   "end": 22.425,
+   "beat": 4
+  },
+  {
+   "w": "va",
+   "start": 22.425,
+   "end": 22.585,
+   "beat": 4
+  },
+  {
+   "w": "faire",
+   "start": 22.585,
+   "end": 22.825,
+   "beat": 4
+  },
+  {
+   "w": "la",
+   "start": 22.825,
+   "end": 22.945,
+   "beat": 4
+  },
+  {
+   "w": "Banque",
+   "start": 22.945,
+   "end": 23.205,
+   "beat": 4
+  },
+  {
+   "w": "du",
+   "start": 23.205,
+   "end": 23.285,
+   "beat": 4
+  },
+  {
+   "w": "Japon ?",
+   "start": 23.285,
+   "end": 23.525,
+   "beat": 4
+  },
+  {
+   "w": "Le",
+   "start": 23.767,
+   "end": 23.947,
+   "beat": 5
+  },
+  {
+   "w": "Japon,",
+   "start": 23.947,
+   "end": 24.267,
+   "beat": 5
+  },
+  {
+   "w": "je",
+   "start": 24.487,
+   "end": 24.587,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 24.587,
+   "end": 24.687,
+   "beat": 5
+  },
+  {
+   "w": "suis",
+   "start": 24.687,
+   "end": 24.887,
+   "beat": 5
+  },
+  {
+   "w": "de",
+   "start": 24.887,
+   "end": 25.007,
+   "beat": 5
+  },
+  {
+   "w": "près",
+   "start": 25.007,
+   "end": 25.307,
+   "beat": 5
+  },
+  {
+   "w": "sur",
+   "start": 25.307,
+   "end": 25.507,
+   "beat": 5
+  },
+  {
+   "w": "mon",
+   "start": 25.507,
+   "end": 25.607,
+   "beat": 5
+  },
+  {
+   "w": "Telegram.",
+   "start": 25.607,
+   "end": 26.407,
+   "beat": 5
+  },
+  {
+   "w": "Lien",
+   "start": 26.407,
+   "end": 26.547,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 26.547,
+   "end": 26.747,
+   "beat": 5
+  },
+  {
+   "w": "bio.",
+   "start": 26.747,
+   "end": 26.887,
+   "beat": 5
+  },
+  {
+   "w": "La",
+   "start": 27.119,
+   "end": 27.279,
+   "beat": 6
+  },
+  {
+   "w": "réponse",
+   "start": 27.279,
+   "end": 27.559,
+   "beat": 6
+  },
+  {
+   "w": "des",
+   "start": 27.559,
+   "end": 27.779,
+   "beat": 6
+  },
+  {
+   "w": "marchés",
+   "start": 27.779,
+   "end": 28.159,
+   "beat": 6
+  },
+  {
+   "w": "est",
+   "start": 28.159,
+   "end": 28.319,
+   "beat": 6
+  },
+  {
+   "w": "claire :",
+   "start": 28.319,
+   "end": 28.739,
+   "beat": 6
+  },
+  {
+   "w": "une",
+   "start": 28.879,
+   "end": 29.019,
+   "beat": 6
+  },
+  {
+   "w": "hausse",
+   "start": 29.019,
+   "end": 29.379,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 29.379,
+   "end": 29.479,
+   "beat": 6
+  },
+  {
+   "w": "taux",
+   "start": 29.479,
+   "end": 29.739,
+   "beat": 6
+  },
+  {
+   "w": "le",
+   "start": 29.739,
+   "end": 29.939,
+   "beat": 6
+  },
+  {
+   "w": "18",
+   "start": 29.939,
+   "end": 30.259,
+   "beat": 6
+  },
+  {
+   "w": "décembre,",
+   "start": 30.259,
+   "end": 30.779,
+   "beat": 6
+  },
+  {
+   "w": "jugée",
+   "start": 30.779,
+   "end": 31.259,
+   "beat": 6
+  },
+  {
+   "w": "probable",
+   "start": 31.259,
+   "end": 31.659,
+   "beat": 6
+  },
+  {
+   "w": "à",
+   "start": 31.659,
+   "end": 31.959,
+   "beat": 6
+  },
+  {
+   "w": "85 %.",
+   "start": 31.959,
+   "end": 32.779,
+   "beat": 6
+  },
+  {
+   "w": "Monter",
+   "start": 33.17,
+   "end": 33.57,
+   "beat": 7
+  },
+  {
+   "w": "les",
+   "start": 33.57,
+   "end": 33.79,
+   "beat": 7
+  },
+  {
+   "w": "taux",
+   "start": 33.79,
+   "end": 34.01,
+   "beat": 7
+  },
+  {
+   "w": "dans",
+   "start": 34.01,
+   "end": 34.23,
+   "beat": 7
+  },
+  {
+   "w": "une",
+   "start": 34.23,
+   "end": 34.39,
+   "beat": 7
+  },
+  {
+   "w": "économie",
+   "start": 34.39,
+   "end": 34.87,
+   "beat": 7
+  },
+  {
+   "w": "qui",
+   "start": 34.87,
+   "end": 34.97,
+   "beat": 7
+  },
+  {
+   "w": "recule :",
+   "start": 34.97,
+   "end": 35.49,
+   "beat": 7
+  },
+  {
+   "w": "c'est",
+   "start": 35.89,
+   "end": 35.97,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 35.97,
+   "end": 36.07,
+   "beat": 7
+  },
+  {
+   "w": "grand",
+   "start": 36.07,
+   "end": 36.29,
+   "beat": 7
+  },
+  {
+   "w": "écart.",
+   "start": 36.29,
+   "end": 36.71,
+   "beat": 7
+  },
+  {
+   "w": "Sur",
+   "start": 36.946,
+   "end": 37.146,
+   "beat": 8
+  },
+  {
+   "w": "les",
+   "start": 37.146,
+   "end": 37.286,
+   "beat": 8
+  },
+  {
+   "w": "marchés,",
+   "start": 37.286,
+   "end": 37.686,
+   "beat": 8
+  },
+  {
+   "w": "le",
+   "start": 37.926,
+   "end": 37.986,
+   "beat": 8
+  },
+  {
+   "w": "taux",
+   "start": 37.986,
+   "end": 38.226,
+   "beat": 8
+  },
+  {
+   "w": "japonais",
+   "start": 38.226,
+   "end": 38.746,
+   "beat": 8
+  },
+  {
+   "w": "à",
+   "start": 38.786,
+   "end": 38.866,
+   "beat": 8
+  },
+  {
+   "w": "30",
+   "start": 38.866,
+   "end": 39.166,
+   "beat": 8
+  },
+  {
+   "w": "ans",
+   "start": 39.166,
+   "end": 39.366,
+   "beat": 8
+  },
+  {
+   "w": "frôle",
+   "start": 39.526,
+   "end": 39.866,
+   "beat": 8
+  },
+  {
+   "w": "déjà",
+   "start": 39.866,
+   "end": 40.106,
+   "beat": 8
+  },
+  {
+   "w": "les",
+   "start": 40.106,
+   "end": 40.286,
+   "beat": 8
+  },
+  {
+   "w": "4 %.",
+   "start": 40.286,
+   "end": 41.006,
+   "beat": 8
+  },
+  {
+   "w": "Le",
+   "start": 41.006,
+   "end": 41.266,
+   "beat": 8
+  },
+  {
+   "w": "10",
+   "start": 41.266,
+   "end": 41.506,
+   "beat": 8
+  },
+  {
+   "w": "ans",
+   "start": 41.506,
+   "end": 41.646,
+   "beat": 8
+  },
+  {
+   "w": "est",
+   "start": 41.646,
+   "end": 41.886,
+   "beat": 8
+  },
+  {
+   "w": "à",
+   "start": 41.886,
+   "end": 42.006,
+   "beat": 8
+  },
+  {
+   "w": "2,79 %.",
+   "start": 42.006,
+   "end": 42.826,
+   "beat": 8
+  },
+  {
+   "w": "Côté",
+   "start": 43.048,
+   "end": 43.428,
+   "beat": 9
+  },
+  {
+   "w": "entreprises,",
+   "start": 43.428,
+   "end": 43.948,
+   "beat": 9
+  },
+  {
+   "w": "Nissan",
+   "start": 44.148,
+   "end": 44.588,
+   "beat": 9
+  },
+  {
+   "w": "sabre",
+   "start": 44.588,
+   "end": 45.108,
+   "beat": 9
+  },
+  {
+   "w": "ses",
+   "start": 45.108,
+   "end": 45.268,
+   "beat": 9
+  },
+  {
+   "w": "ventes",
+   "start": 45.268,
+   "end": 45.508,
+   "beat": 9
+  },
+  {
+   "w": "en",
+   "start": 45.508,
+   "end": 45.528,
+   "beat": 9
+  },
+  {
+   "w": "Chine :",
+   "start": 45.528,
+   "end": 45.988,
+   "beat": 9
+  },
+  {
+   "w": "370 000",
+   "start": 46.868,
+   "end": 47.248,
+   "beat": 9
+  },
+  {
+   "w": "à",
+   "start": 47.248,
+   "end": 47.248,
+   "beat": 9
+  },
+  {
+   "w": "400 000",
+   "start": 47.248,
+   "end": 47.248,
+   "beat": 9
+  },
+  {
+   "w": "voitures",
+   "start": 47.248,
+   "end": 47.668,
+   "beat": 9
+  },
+  {
+   "w": "attendues,",
+   "start": 47.668,
+   "end": 48.188,
+   "beat": 9
+  },
+  {
+   "w": "contre",
+   "start": 48.188,
+   "end": 48.568,
+   "beat": 9
+  },
+  {
+   "w": "580 000.",
+   "start": 48.568,
+   "end": 49.308,
+   "beat": 9
+  },
+  {
+   "w": "En",
+   "start": 49.713,
+   "end": 50.073,
+   "beat": 10
+  },
+  {
+   "w": "octobre,",
+   "start": 50.073,
+   "end": 50.633,
+   "beat": 10
+  },
+  {
+   "w": "les",
+   "start": 50.833,
+   "end": 50.933,
+   "beat": 10
+  },
+  {
+   "w": "ventes",
+   "start": 50.933,
+   "end": 51.293,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 51.293,
+   "end": 51.413,
+   "beat": 10
+  },
+  {
+   "w": "voitures",
+   "start": 51.413,
+   "end": 51.813,
+   "beat": 10
+  },
+  {
+   "w": "neuves",
+   "start": 51.813,
+   "end": 52.193,
+   "beat": 10
+  },
+  {
+   "w": "en",
+   "start": 52.193,
+   "end": 52.333,
+   "beat": 10
+  },
+  {
+   "w": "Chine",
+   "start": 52.333,
+   "end": 52.753,
+   "beat": 10
+  },
+  {
+   "w": "ont",
+   "start": 52.753,
+   "end": 52.973,
+   "beat": 10
+  },
+  {
+   "w": "plongé",
+   "start": 52.973,
+   "end": 53.413,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 53.413,
+   "end": 53.533,
+   "beat": 10
+  },
+  {
+   "w": "27 %.",
+   "start": 53.533,
+   "end": 54.093,
+   "beat": 10
+  },
+  {
+   "w": "Le",
+   "start": 54.346,
+   "end": 54.646,
+   "beat": 11
+  },
+  {
+   "w": "twist :",
+   "start": 54.646,
+   "end": 54.946,
+   "beat": 11
+  },
+  {
+   "w": "malgré",
+   "start": 55.246,
+   "end": 55.546,
+   "beat": 11
+  },
+  {
+   "w": "la",
+   "start": 55.546,
+   "end": 55.666,
+   "beat": 11
+  },
+  {
+   "w": "chute,",
+   "start": 55.666,
+   "end": 55.986,
+   "beat": 11
+  },
+  {
+   "w": "les",
+   "start": 56.166,
+   "end": 56.286,
+   "beat": 11
+  },
+  {
+   "w": "investisseurs",
+   "start": 56.286,
+   "end": 56.946,
+   "beat": 11
+  },
+  {
+   "w": "japonais",
+   "start": 56.946,
+   "end": 57.466,
+   "beat": 11
+  },
+  {
+   "w": "ont",
+   "start": 57.466,
+   "end": 57.646,
+   "beat": 11
+  },
+  {
+   "w": "raflé",
+   "start": 57.646,
+   "end": 58.066,
+   "beat": 11
+  },
+  {
+   "w": "3",
+   "start": 58.066,
+   "end": 58.446,
+   "beat": 11
+  },
+  {
+   "w": "milliards",
+   "start": 58.446,
+   "end": 58.686,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 58.686,
+   "end": 58.946,
+   "beat": 11
+  },
+  {
+   "w": "dollars",
+   "start": 58.946,
+   "end": 59.226,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 59.226,
+   "end": 59.726,
+   "beat": 11
+  },
+  {
+   "w": "l'introduction",
+   "start": 59.866,
+   "end": 60.466,
+   "beat": 11
+  },
+  {
+   "w": "en",
+   "start": 60.466,
+   "end": 60.666,
+   "beat": 11
+  },
+  {
+   "w": "Bourse",
+   "start": 60.666,
+   "end": 61.026,
+   "beat": 11
+  },
+  {
+   "w": "d'Anthropic.",
+   "start": 61.286,
+   "end": 61.806,
+   "beat": 11
+  },
+  {
+   "w": "Prochaine",
+   "start": 61.978,
+   "end": 62.278,
+   "beat": 12
+  },
+  {
+   "w": "date",
+   "start": 62.278,
+   "end": 62.618,
+   "beat": 12
+  },
+  {
+   "w": "à",
+   "start": 62.618,
+   "end": 62.838,
+   "beat": 12
+  },
+  {
+   "w": "surveiller :",
+   "start": 62.838,
+   "end": 63.378,
+   "beat": 12
+  },
+  {
+   "w": "le",
+   "start": 63.378,
+   "end": 63.678,
+   "beat": 12
+  },
+  {
+   "w": "18",
+   "start": 63.678,
+   "end": 64.018,
+   "beat": 12
+  },
+  {
+   "w": "décembre.",
+   "start": 64.018,
+   "end": 64.578,
+   "beat": 12
+  },
+  {
+   "w": "Ce",
+   "start": 64.698,
+   "end": 64.858,
+   "beat": 12
+  },
+  {
+   "w": "jour-là,",
+   "start": 64.858,
+   "end": 65.038,
+   "beat": 12
+  },
+  {
+   "w": "la",
+   "start": 65.498,
+   "end": 65.598,
+   "beat": 12
+  },
+  {
+   "w": "Banque",
+   "start": 65.598,
+   "end": 65.878,
+   "beat": 12
+  },
+  {
+   "w": "du",
+   "start": 65.878,
+   "end": 65.978,
+   "beat": 12
+  },
+  {
+   "w": "Japon",
+   "start": 65.978,
+   "end": 66.258,
+   "beat": 12
+  },
+  {
+   "w": "tranche.",
+   "start": 66.258,
+   "end": 66.858,
+   "beat": 12
+  },
+  {
+   "w": "Alors,",
+   "start": 67.008,
+   "end": 67.228,
+   "beat": 13
+  },
+  {
+   "w": "le",
+   "start": 67.528,
+   "end": 67.668,
+   "beat": 13
+  },
+  {
+   "w": "Japon",
+   "start": 67.668,
+   "end": 67.988,
+   "beat": 13
+  },
+  {
+   "w": "peut-il",
+   "start": 67.988,
+   "end": 68.368,
+   "beat": 13
+  },
+  {
+   "w": "secouer",
+   "start": 68.548,
+   "end": 68.968,
+   "beat": 13
+  },
+  {
+   "w": "les",
+   "start": 68.968,
+   "end": 69.048,
+   "beat": 13
+  },
+  {
+   "w": "marchés",
+   "start": 69.048,
+   "end": 69.388,
+   "beat": 13
+  },
+  {
+   "w": "du",
+   "start": 69.388,
+   "end": 69.508,
+   "beat": 13
+  },
+  {
+   "w": "monde",
+   "start": 69.508,
+   "end": 69.708,
+   "beat": 13
+  },
+  {
+   "w": "entier ?",
+   "start": 69.708,
+   "end": 70.108,
+   "beat": 13
+  },
+  {
+   "w": "Dis-le",
+   "start": 70.288,
+   "end": 70.488,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 70.668,
+   "end": 70.928,
+   "beat": 13
+  },
+  {
+   "w": "commentaire.",
+   "start": 70.928,
+   "end": 71.508,
+   "beat": 13
+  },
+  {
+   "w": "Si",
+   "start": 71.691,
+   "end": 71.851,
+   "beat": 14
+  },
+  {
+   "w": "tu",
+   "start": 71.851,
+   "end": 71.971,
+   "beat": 14
+  },
+  {
+   "w": "veux",
+   "start": 71.971,
+   "end": 72.091,
+   "beat": 14
+  },
+  {
+   "w": "comprendre",
+   "start": 72.091,
+   "end": 72.531,
+   "beat": 14
+  },
+  {
+   "w": "avant",
+   "start": 72.531,
+   "end": 72.891,
+   "beat": 14
+  },
+  {
+   "w": "les",
+   "start": 72.891,
+   "end": 73.071,
+   "beat": 14
+  },
+  {
+   "w": "autres",
+   "start": 73.071,
+   "end": 73.351,
+   "beat": 14
+  },
+  {
+   "w": "au",
+   "start": 73.571,
+   "end": 73.611,
+   "beat": 14
+  },
+  {
+   "w": "lieu",
+   "start": 73.611,
+   "end": 73.751,
+   "beat": 14
+  },
+  {
+   "w": "de",
+   "start": 73.751,
+   "end": 73.871,
+   "beat": 14
+  },
+  {
+   "w": "subir,",
+   "start": 73.871,
+   "end": 74.191,
+   "beat": 14
+  },
+  {
+   "w": "rejoins",
+   "start": 74.611,
+   "end": 74.991,
+   "beat": 14
+  },
+  {
+   "w": "mon",
+   "start": 74.991,
+   "end": 75.144,
+   "beat": 14
+  },
+  {
+   "w": "Telegram",
+   "start": 75.144,
+   "end": 75.551,
+   "beat": 14
+  },
+  {
+   "w": "gratuit :",
+   "start": 75.551,
+   "end": 75.951,
+   "beat": 14
+  },
+  {
+   "w": "actu",
+   "start": 76.131,
+   "end": 76.451,
+   "beat": 14
+  },
+  {
+   "w": "géopolitique",
+   "start": 76.451,
+   "end": 77.151,
+   "beat": 14
+  },
+  {
+   "w": "et",
+   "start": 77.151,
+   "end": 77.291,
+   "beat": 14
+  },
+  {
+   "w": "financière",
+   "start": 77.291,
+   "end": 77.811,
+   "beat": 14
+  },
+  {
+   "w": "décortiquée,",
+   "start": 77.811,
+   "end": 78.471,
+   "beat": 14
+  },
+  {
+   "w": "analyses",
+   "start": 78.631,
+   "end": 78.971,
+   "beat": 14
+  },
+  {
+   "w": "d'actions",
+   "start": 79.151,
+   "end": 79.351,
+   "beat": 14
+  },
+  {
+   "w": "détaillées,",
+   "start": 79.351,
+   "end": 79.911,
+   "beat": 14
+  },
+  {
+   "w": "opportunités",
+   "start": 80.111,
+   "end": 80.811,
+   "beat": 14
+  },
+  {
+   "w": "en",
+   "start": 80.811,
+   "end": 81.051,
+   "beat": 14
+  },
+  {
+   "w": "temps",
+   "start": 81.051,
+   "end": 81.231,
+   "beat": 14
+  },
+  {
+   "w": "réel.",
+   "start": 81.231,
+   "end": 81.631,
+   "beat": 14
+  },
+  {
+   "w": "Plus",
+   "start": 81.771,
+   "end": 81.891,
+   "beat": 14
+  },
+  {
+   "w": "de",
+   "start": 81.891,
+   "end": 82.051,
+   "beat": 14
+  },
+  {
+   "w": "22 000",
+   "start": 82.371,
+   "end": 82.571,
+   "beat": 14
+  },
+  {
+   "w": "personnes",
+   "start": 82.571,
+   "end": 83.011,
+   "beat": 14
+  },
+  {
+   "w": "y",
+   "start": 83.011,
+   "end": 83.271,
+   "beat": 14
+  },
+  {
+   "w": "sont",
+   "start": 83.271,
+   "end": 83.411,
+   "beat": 14
+  },
+  {
+   "w": "déjà.",
+   "start": 83.411,
+   "end": 83.731,
+   "beat": 14
+  },
+  {
+   "w": "Lien",
+   "start": 83.731,
+   "end": 84.291,
+   "beat": 14
+  },
+  {
+   "w": "en",
+   "start": 84.291,
+   "end": 84.531,
+   "beat": 14
+  },
+  {
+   "w": "bio.",
+   "start": 84.531,
+   "end": 84.751,
+   "beat": 14
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 2.16
+  },
+  {
+   "start": 2.16,
+   "lines": [
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "beat": 0,
+   "end": 2.7
+  },
+  {
+   "start": 2.7,
+   "lines": [
+    [
+     8,
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 3.46
+  },
+  {
+   "start": 3.46,
+   "lines": [
+    [
+     10,
+     11
+    ],
+    [
+     12
+    ]
+   ],
+   "beat": 0,
+   "end": 3.88
+  },
+  {
+   "start": 3.88,
+   "lines": [
+    [
+     13,
+     14
+    ]
+   ],
+   "beat": 0,
+   "end": 4.402
+  },
+  {
+   "start": 4.402,
+   "lines": [
+    [
+     15,
+     16
+    ],
+    [
+     17,
+     18
+    ]
+   ],
+   "beat": 1,
+   "end": 5.042
+  },
+  {
+   "start": 5.042,
+   "lines": [
+    [
+     19,
+     20
+    ]
+   ],
+   "beat": 1,
+   "end": 5.562
+  },
+  {
+   "start": 5.562,
+   "lines": [
+    [
+     21,
+     22,
+     23
+    ],
+    [
+     24
+    ]
+   ],
+   "beat": 1,
+   "end": 6.522
+  },
+  {
+   "start": 6.522,
+   "lines": [
+    [
+     25,
+     26
+    ],
+    [
+     27,
+     28
+    ]
+   ],
+   "beat": 1,
+   "end": 7.662
+  },
+  {
+   "start": 7.662,
+   "lines": [
+    [
+     29,
+     30,
+     31
+    ]
+   ],
+   "beat": 1,
+   "end": 8.983
+  },
+  {
+   "start": 8.983,
+   "lines": [
+    [
+     32
+    ],
+    [
+     33,
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 9.843
+  },
+  {
+   "start": 9.843,
+   "lines": [
+    [
+     35
+    ],
+    [
+     36
+    ]
+   ],
+   "beat": 2,
+   "end": 10.763
+  },
+  {
+   "start": 10.763,
+   "lines": [
+    [
+     37
+    ]
+   ],
+   "beat": 2,
+   "end": 11.383
+  },
+  {
+   "start": 11.383,
+   "lines": [
+    [
+     38,
+     39
+    ],
+    [
+     40
+    ]
+   ],
+   "beat": 2,
+   "end": 11.963
+  },
+  {
+   "start": 11.963,
+   "lines": [
+    [
+     41
+    ],
+    [
+     42,
+     43
+    ]
+   ],
+   "beat": 2,
+   "end": 13.103
+  },
+  {
+   "start": 13.103,
+   "lines": [
+    [
+     44
+    ]
+   ],
+   "beat": 2,
+   "end": 13.573
+  },
+  {
+   "start": 13.573,
+   "lines": [
+    [
+     45,
+     46
+    ]
+   ],
+   "beat": 3,
+   "end": 14.233
+  },
+  {
+   "start": 14.233,
+   "lines": [
+    [
+     47,
+     48
+    ],
+    [
+     49
+    ]
+   ],
+   "beat": 3,
+   "end": 15.753
+  },
+  {
+   "start": 15.753,
+   "lines": [
+    [
+     50,
+     51
+    ]
+   ],
+   "beat": 3,
+   "end": 16.853
+  },
+  {
+   "start": 16.853,
+   "lines": [
+    [
+     52,
+     53
+    ]
+   ],
+   "beat": 3,
+   "end": 17.493
+  },
+  {
+   "start": 17.493,
+   "lines": [
+    [
+     54,
+     55
+    ],
+    [
+     56,
+     57
+    ]
+   ],
+   "beat": 3,
+   "end": 18.533
+  },
+  {
+   "start": 18.533,
+   "lines": [
+    [
+     58,
+     59
+    ]
+   ],
+   "beat": 3,
+   "end": 19.285
+  },
+  {
+   "start": 19.285,
+   "lines": [
+    [
+     60,
+     61
+    ],
+    [
+     62
+    ]
+   ],
+   "beat": 4,
+   "end": 20.505
+  },
+  {
+   "start": 20.505,
+   "lines": [
+    [
+     63,
+     64,
+     65
+    ]
+   ],
+   "beat": 4,
+   "end": 21.305
+  },
+  {
+   "start": 21.305,
+   "lines": [
+    [
+     66,
+     67,
+     68
+    ],
+    [
+     69
+    ]
+   ],
+   "beat": 4,
+   "end": 22.365
+  },
+  {
+   "start": 22.365,
+   "lines": [
+    [
+     70,
+     71,
+     72
+    ]
+   ],
+   "beat": 4,
+   "end": 22.825
+  },
+  {
+   "start": 22.825,
+   "lines": [
+    [
+     73,
+     74
+    ],
+    [
+     75,
+     76
+    ]
+   ],
+   "beat": 4,
+   "end": 23.767
+  },
+  {
+   "start": 23.767,
+   "lines": [
+    [
+     77,
+     78
+    ]
+   ],
+   "beat": 5,
+   "end": 24.487
+  },
+  {
+   "start": 24.487,
+   "lines": [
+    [
+     79,
+     80,
+     81
+    ]
+   ],
+   "beat": 5,
+   "end": 24.887
+  },
+  {
+   "start": 24.887,
+   "lines": [
+    [
+     82,
+     83,
+     84
+    ]
+   ],
+   "beat": 5,
+   "end": 25.507
+  },
+  {
+   "start": 25.507,
+   "lines": [
+    [
+     85,
+     86
+    ]
+   ],
+   "beat": 5,
+   "end": 26.407
+  },
+  {
+   "start": 26.407,
+   "lines": [
+    [
+     87,
+     88,
+     89
+    ]
+   ],
+   "beat": 5,
+   "end": 27.119
+  },
+  {
+   "start": 27.119,
+   "lines": [
+    [
+     90,
+     91
+    ],
+    [
+     92,
+     93
+    ]
+   ],
+   "beat": 6,
+   "end": 28.159
+  },
+  {
+   "start": 28.159,
+   "lines": [
+    [
+     94,
+     95
+    ]
+   ],
+   "beat": 6,
+   "end": 28.879
+  },
+  {
+   "start": 28.879,
+   "lines": [
+    [
+     96,
+     97
+    ],
+    [
+     98,
+     99
+    ]
+   ],
+   "beat": 6,
+   "end": 29.739
+  },
+  {
+   "start": 29.739,
+   "lines": [
+    [
+     100,
+     101
+    ],
+    [
+     102
+    ]
+   ],
+   "beat": 6,
+   "end": 30.779
+  },
+  {
+   "start": 30.779,
+   "lines": [
+    [
+     103,
+     104
+    ],
+    [
+     105,
+     106
+    ]
+   ],
+   "beat": 6,
+   "end": 33.17
+  },
+  {
+   "start": 33.17,
+   "lines": [
+    [
+     107
+    ],
+    [
+     108,
+     109
+    ]
+   ],
+   "beat": 7,
+   "end": 34.01
+  },
+  {
+   "start": 34.01,
+   "lines": [
+    [
+     110,
+     111
+    ],
+    [
+     112
+    ]
+   ],
+   "beat": 7,
+   "end": 34.87
+  },
+  {
+   "start": 34.87,
+   "lines": [
+    [
+     113,
+     114
+    ]
+   ],
+   "beat": 7,
+   "end": 35.89
+  },
+  {
+   "start": 35.89,
+   "lines": [
+    [
+     115,
+     116
+    ],
+    [
+     117,
+     118
+    ]
+   ],
+   "beat": 7,
+   "end": 36.946
+  },
+  {
+   "start": 36.946,
+   "lines": [
+    [
+     119,
+     120
+    ],
+    [
+     121
+    ]
+   ],
+   "beat": 8,
+   "end": 37.926
+  },
+  {
+   "start": 37.926,
+   "lines": [
+    [
+     122,
+     123
+    ],
+    [
+     124
+    ]
+   ],
+   "beat": 8,
+   "end": 38.786
+  },
+  {
+   "start": 38.786,
+   "lines": [
+    [
+     125,
+     126,
+     127
+    ],
+    [
+     128
+    ]
+   ],
+   "beat": 8,
+   "end": 39.866
+  },
+  {
+   "start": 39.866,
+   "lines": [
+    [
+     129,
+     130,
+     131
+    ]
+   ],
+   "beat": 8,
+   "end": 41.006
+  },
+  {
+   "start": 41.006,
+   "lines": [
+    [
+     132,
+     133,
+     134,
+     135
+    ]
+   ],
+   "beat": 8,
+   "end": 41.886
+  },
+  {
+   "start": 41.886,
+   "lines": [
+    [
+     136,
+     137
+    ]
+   ],
+   "beat": 8,
+   "end": 43.048
+  },
+  {
+   "start": 43.048,
+   "lines": [
+    [
+     138,
+     139
+    ]
+   ],
+   "beat": 9,
+   "end": 44.148
+  },
+  {
+   "start": 44.148,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 9,
+   "end": 45.508
+  },
+  {
+   "start": 45.508,
+   "lines": [
+    [
+     144,
+     145
+    ]
+   ],
+   "beat": 9,
+   "end": 46.868
+  },
+  {
+   "start": 46.868,
+   "lines": [
+    [
+     146,
+     147
+    ],
+    [
+     148,
+     149
+    ]
+   ],
+   "beat": 9,
+   "end": 47.668
+  },
+  {
+   "start": 47.668,
+   "lines": [
+    [
+     150
+    ],
+    [
+     151,
+     152
+    ]
+   ],
+   "beat": 9,
+   "end": 49.713
+  },
+  {
+   "start": 49.713,
+   "lines": [
+    [
+     153,
+     154
+    ]
+   ],
+   "beat": 10,
+   "end": 50.833
+  },
+  {
+   "start": 50.833,
+   "lines": [
+    [
+     155,
+     156
+    ],
+    [
+     157,
+     158
+    ]
+   ],
+   "beat": 10,
+   "end": 51.813
+  },
+  {
+   "start": 51.813,
+   "lines": [
+    [
+     159,
+     160
+    ],
+    [
+     161,
+     162
+    ]
+   ],
+   "beat": 10,
+   "end": 52.973
+  },
+  {
+   "start": 52.973,
+   "lines": [
+    [
+     163
+    ],
+    [
+     164,
+     165
+    ]
+   ],
+   "beat": 10,
+   "end": 54.346
+  },
+  {
+   "start": 54.346,
+   "lines": [
+    [
+     166,
+     167
+    ]
+   ],
+   "beat": 11,
+   "end": 55.246
+  },
+  {
+   "start": 55.246,
+   "lines": [
+    [
+     168
+    ],
+    [
+     169,
+     170
+    ]
+   ],
+   "beat": 11,
+   "end": 56.166
+  },
+  {
+   "start": 56.166,
+   "lines": [
+    [
+     171,
+     172
+    ],
+    [
+     173
+    ]
+   ],
+   "beat": 11,
+   "end": 57.466
+  },
+  {
+   "start": 57.466,
+   "lines": [
+    [
+     174,
+     175
+    ],
+    [
+     176,
+     177
+    ]
+   ],
+   "beat": 11,
+   "end": 58.686
+  },
+  {
+   "start": 58.686,
+   "lines": [
+    [
+     178,
+     179
+    ]
+   ],
+   "beat": 11,
+   "end": 59.226
+  },
+  {
+   "start": 59.226,
+   "lines": [
+    [
+     180,
+     181
+    ]
+   ],
+   "beat": 11,
+   "end": 60.466
+  },
+  {
+   "start": 60.466,
+   "lines": [
+    [
+     182,
+     183
+    ],
+    [
+     184
+    ]
+   ],
+   "beat": 11,
+   "end": 61.978
+  },
+  {
+   "start": 61.978,
+   "lines": [
+    [
+     185,
+     186
+    ]
+   ],
+   "beat": 12,
+   "end": 62.618
+  },
+  {
+   "start": 62.618,
+   "lines": [
+    [
+     187,
+     188
+    ]
+   ],
+   "beat": 12,
+   "end": 63.378
+  },
+  {
+   "start": 63.378,
+   "lines": [
+    [
+     189,
+     190
+    ],
+    [
+     191
+    ]
+   ],
+   "beat": 12,
+   "end": 64.698
+  },
+  {
+   "start": 64.698,
+   "lines": [
+    [
+     192,
+     193
+    ]
+   ],
+   "beat": 12,
+   "end": 65.498
+  },
+  {
+   "start": 65.498,
+   "lines": [
+    [
+     194,
+     195
+    ],
+    [
+     196,
+     197
+    ]
+   ],
+   "beat": 12,
+   "end": 66.258
+  },
+  {
+   "start": 66.258,
+   "lines": [
+    [
+     198
+    ]
+   ],
+   "beat": 12,
+   "end": 67.008
+  },
+  {
+   "start": 67.008,
+   "lines": [
+    [
+     199,
+     200
+    ],
+    [
+     201,
+     202
+    ]
+   ],
+   "beat": 13,
+   "end": 68.548
+  },
+  {
+   "start": 68.548,
+   "lines": [
+    [
+     203
+    ],
+    [
+     204,
+     205
+    ]
+   ],
+   "beat": 13,
+   "end": 69.388
+  },
+  {
+   "start": 69.388,
+   "lines": [
+    [
+     206,
+     207
+    ],
+    [
+     208
+    ]
+   ],
+   "beat": 13,
+   "end": 70.288
+  },
+  {
+   "start": 70.288,
+   "lines": [
+    [
+     209,
+     210
+    ],
+    [
+     211
+    ]
+   ],
+   "beat": 13,
+   "end": 71.691
+  },
+  {
+   "start": 71.691,
+   "lines": [
+    [
+     212,
+     213,
+     214
+    ],
+    [
+     215
+    ]
+   ],
+   "beat": 14,
+   "end": 72.531
+  },
+  {
+   "start": 72.531,
+   "lines": [
+    [
+     216,
+     217
+    ],
+    [
+     218
+    ]
+   ],
+   "beat": 14,
+   "end": 73.571
+  },
+  {
+   "start": 73.571,
+   "lines": [
+    [
+     219,
+     220
+    ],
+    [
+     221,
+     222
+    ]
+   ],
+   "beat": 14,
+   "end": 74.611
+  },
+  {
+   "start": 74.611,
+   "lines": [
+    [
+     223,
+     224
+    ],
+    [
+     225
+    ]
+   ],
+   "beat": 14,
+   "end": 75.551
+  },
+  {
+   "start": 75.551,
+   "lines": [
+    [
+     226
+    ]
+   ],
+   "beat": 14,
+   "end": 76.131
+  },
+  {
+   "start": 76.131,
+   "lines": [
+    [
+     227,
+     228
+    ]
+   ],
+   "beat": 14,
+   "end": 77.151
+  },
+  {
+   "start": 77.151,
+   "lines": [
+    [
+     229,
+     230
+    ],
+    [
+     231
+    ]
+   ],
+   "beat": 14,
+   "end": 78.631
+  },
+  {
+   "start": 78.631,
+   "lines": [
+    [
+     232,
+     233
+    ]
+   ],
+   "beat": 14,
+   "end": 79.351
+  },
+  {
+   "start": 79.351,
+   "lines": [
+    [
+     234
+    ],
+    [
+     235
+    ]
+   ],
+   "beat": 14,
+   "end": 80.811
+  },
+  {
+   "start": 80.811,
+   "lines": [
+    [
+     236,
+     237
+    ],
+    [
+     238
+    ]
+   ],
+   "beat": 14,
+   "end": 81.771
+  },
+  {
+   "start": 81.771,
+   "lines": [
+    [
+     239,
+     240,
+     241
+    ],
+    [
+     242
+    ]
+   ],
+   "beat": 14,
+   "end": 83.011
+  },
+  {
+   "start": 83.011,
+   "lines": [
+    [
+     243,
+     244,
+     245
+    ]
+   ],
+   "beat": 14,
+   "end": 83.731
+  },
+  {
+   "start": 83.731,
+   "lines": [
+    [
+     246,
+     247,
+     248
+    ]
+   ],
+   "beat": 14,
+   "end": 85.138
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Dimanche 22 novembre 2026 · Japon",
+   "until_beat": 0,
+   "start": 0.0,
+   "end": 4.402
+  },
+  {
+   "type": "breaking",
+   "label": "DERNIÈRES INFOS",
+   "lines": [
+    "−22 % DEPUIS JUIN",
+    "LA BOURSE DE TOKYO",
+    "DÉCROCHE"
+   ],
+   "start": 0.0,
+   "end": 4.402
+  },
+  {
+   "type": "ticket",
+   "at_word": 8,
+   "title": "TOKYO · NIKKEI 225",
+   "subtitle": "Clôture du vendredi 20 nov. 2026",
+   "rows": [
+    [
+     "Record du 22 juin",
+     "72 353"
+    ],
+    [
+     "Clôture du 20 nov.",
+     "56 437"
+    ],
+    [
+     "Sur la semaine",
+     "−7,7 %"
+    ]
+   ],
+   "total": [
+    "DEPUIS LE RECORD",
+    "−22 %"
+   ],
+   "stamp": "TOKYO",
+   "start": 2.7,
+   "end": 4.402
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "NIKKEI · SEMAINE",
+   "value_from": 0,
+   "value_to": -7.7,
+   "decimals": 1,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "CLÔTURE 56 437 PTS",
+   "desc": "Semaine du 16 au 20 nov. · DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 4.402,
+   "end": 8.983
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "PIB · ATTENDU",
+    "value_to": 0.3,
+    "decimals": 1,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "gold",
+    "desc": "3e trimestre 2026, en rythme annuel · investingLive · 16 nov. 2026"
+   },
+   "b_at_word": 5,
+   "b": {
+    "kicker": "PIB · PUBLIÉ",
+    "value_to": -0.1,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "1re baisse en un an, après +1,7 % au 2e trimestre · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+   },
+   "start": 8.983,
+   "end": 13.573,
+   "b_t": 10.763,
+   "cut_in": true
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "INFLATION · OCTOBRE",
+   "value_from": 0,
+   "value_to": 2.3,
+   "decimals": 1,
+   "prefix": "+",
+   "suffix": " %",
+   "color": "gold",
+   "pill": "PLUS HAUT DEPUIS NOV. 2025",
+   "desc": "Sur un an · inflation sous-jacente 2,2 % · DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 13.573,
+   "end": 19.285,
+   "cut_in": true
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "QUE VA FAIRE",
+    "LA BANQUE DU JAPON ?"
+   ],
+   "at_word": 10,
+   "start": 22.365,
+   "end": 23.767
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_4b2fa9a8.jpg",
+   "bio_at_word": 12,
+   "start": 23.767,
+   "end": 27.119,
+   "bio_t": 26.747
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "BOJ · 18 DÉCEMBRE",
+   "value_from": 0,
+   "value_to": 85,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " %",
+   "color": "gold",
+   "pill": "PROBABILITÉ D'UNE HAUSSE DE 0,25 POINT",
+   "desc": "Anticipations de marché au 20 nov. 2026 · DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 27.119,
+   "end": 33.17
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "LE GRAND",
+    "ÉCART"
+   ],
+   "at_word": 10,
+   "start": 36.07,
+   "end": 36.946
+  },
+  {
+   "type": "tickers",
+   "title": "TAUX JAPONAIS · 20 NOV.",
+   "rows": [
+    {
+     "name": "Japon 30 ans",
+     "pct": "3,97 %",
+     "at_word": 7,
+     "up": true,
+     "t": 38.816
+    },
+    {
+     "name": "Japon 20 ans",
+     "pct": "3,69 %",
+     "at_word": 9,
+     "up": true,
+     "t": 39.476
+    },
+    {
+     "name": "Japon 10 ans",
+     "pct": "2,79 %",
+     "at_word": 14,
+     "up": true,
+     "t": 41.216
+    }
+   ],
+   "start": 36.946,
+   "end": 43.048
+  },
+  {
+   "type": "source",
+   "text": "DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 36.946,
+   "end": 43.048
+  },
+  {
+   "type": "stock",
+   "key": "NSANY",
+   "name": "Nissan",
+   "sub": "Prévision de ventes en Chine 2026 abaissée",
+   "y": 520,
+   "at_word": 2,
+   "start": 44.148,
+   "end": 49.713
+  },
+  {
+   "type": "news",
+   "at_word": 8,
+   "left": "NISSAN · CHINE 2026",
+   "right": "NOV.",
+   "tag": "PRÉVISION",
+   "headline": "Ventes attendues en Chine : 370 000 à 400 000 véhicules, contre 580 000 prévus",
+   "highlight": "370 000 à 400 000",
+   "sub": "DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 46.868,
+   "end": 49.713
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "CHINE · AUTOS · OCT.",
+   "value_from": 0,
+   "value_to": -27,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "SUR UN AN",
+   "desc": "Part des marques japonaises en Chine : −20 % depuis 2022 · DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 49.713,
+   "end": 54.346
+  },
+  {
+   "type": "stock",
+   "key": "ANT",
+   "name": "Anthropic",
+   "sub": "3 Md$ pris par des investisseurs japonais · 3,7 % de l'opération",
+   "y": 520,
+   "at_word": 6,
+   "start": 56.286,
+   "end": 61.978
+  },
+  {
+   "type": "source",
+   "text": "Introduction valorisée 81 Md$ · DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 54.346,
+   "end": 61.978
+  },
+  {
+   "type": "news",
+   "at_word": 5,
+   "left": "AGENDA · JAPON",
+   "right": "18 DÉC.",
+   "tag": "À SURVEILLER",
+   "headline": "Vendredi 18 décembre : décision de la Banque du Japon sur ses taux",
+   "highlight": "18 décembre",
+   "sub": "DG Trésor · veille Japon-Corée · 20 nov. 2026",
+   "start": 63.678,
+   "end": 67.008
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "LE JAPON, PROCHAINE",
+    "SECOUSSE ?"
+   ],
+   "at_word": 2,
+   "start": 67.668,
+   "end": 71.691
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Japon : le grand écart de la Banque centrale, décrypté",
+   "imgs": [
+    "tg_38e4f34b.jpg",
+    "tg_1eaa56f0.jpg",
+    "tg_3435c02c_top.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 29,
+   "bio_at_word": 36,
+   "button": "ACCÈS GRATUIT",
+   "start": 71.691,
+   "end": 85.048,
+   "subs_t": 82.371,
+   "bio_t": 84.531
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.27,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.66,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b0b.mp4",
+   "start": 2.66,
+   "end": 4.402,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b1.mp4",
+   "start": 4.402,
+   "end": 8.983,
+   "beat": 1
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b2.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b2.mp4",
+   "start": 8.983,
+   "end": 13.573,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.45
+   },
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.45,
+   "blur": true,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b4.mp4",
+   "start": 13.573,
+   "end": 19.285,
+   "beat": 3
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b5.mp4",
+   "start": 19.285,
+   "end": 23.767,
+   "beat": 4
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.62,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b6.mp4",
+   "start": 23.767,
+   "end": 27.119,
+   "beat": 5
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b7.mp4",
+   "start": 27.119,
+   "end": 33.17,
+   "beat": 6
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.47,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b8.mp4",
+   "start": 33.17,
+   "end": 36.946,
+   "beat": 7
+  },
+  {
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b9.mp4",
+   "start": 36.946,
+   "end": 37.886,
+   "beat": 8
+  },
+  {
+   "clip": "b9b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 3,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b9b.mp4",
+   "start": 37.886,
+   "end": 43.048,
+   "beat": 8
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.72,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b10.mp4",
+   "start": 43.048,
+   "end": 46.828,
+   "beat": 9
+  },
+  {
+   "clip": "b10b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b10b.mp4",
+   "start": 46.828,
+   "end": 49.713,
+   "beat": 9
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b11.mp4",
+   "start": 49.713,
+   "end": 54.346,
+   "beat": 10
+  },
+  {
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b12.mp4",
+   "start": 54.346,
+   "end": 57.606,
+   "beat": 11
+  },
+  {
+   "clip": "b12b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b12b.mp4",
+   "start": 57.606,
+   "end": 61.978,
+   "beat": 11
+  },
+  {
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b13.mp4",
+   "start": 61.978,
+   "end": 63.978,
+   "beat": 12
+  },
+  {
+   "clip": "b13b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 6,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b13b.mp4",
+   "start": 63.978,
+   "end": 67.008,
+   "beat": 12
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep45_japon_grand_ecart/broll/b14.mp4",
+   "start": 67.008,
+   "end": 71.691,
+   "beat": 13
+  },
+  {
+   "blur_prev": true,
+   "start": 71.691,
+   "end": 86.848,
+   "beat": 14
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.1,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.21,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.32,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 2.61,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 2.7,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 4.342,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 4.522,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 8.953,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 9.103,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 10.763,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 10.813,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 13.543,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 13.693,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 22.365,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 23.717,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 23.767,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 26.747,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 27.059,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 27.239,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 36.07,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 36.896,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 36.946,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 37.836,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 38.816,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 39.476,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 41.216,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 42.998,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 44.148,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 46.778,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 46.868,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 49.653,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 49.833,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 56.286,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 57.556,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 61.928,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 63.678,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 63.928,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 66.958,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 67.668,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 71.641,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 71.741,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 72.041,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 82.371,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 84.448,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 84.531,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 85.048,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   0.0,
+   4.452
+  ],
+  [
+   85.048,
+   87.848
+  ]
+ ],
+ "endcard": {
+  "start": 85.048,
+  "button": "ACCÈS GRATUIT",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "22 novembre 2026"
+}

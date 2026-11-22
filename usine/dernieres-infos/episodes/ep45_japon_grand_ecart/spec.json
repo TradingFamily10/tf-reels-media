@@ -1,0 +1,478 @@
+{
+ "id": "ep45_japon_grand_ecart",
+ "date_label": "22 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon Telegram gratuit",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.tresor.economie.gouv.fr/Articles/2026/11/20/japon-coree-du-sud-veille-economique-et-financiere-du-16-au-20-novembre-2026",
+  "https://investinglive.com/news/japan-q3-gdp-shrinks-0-1-annualised-vs-0-3-expected-as-exports-and-consumers-weigh/"
+ ],
+ "beats": [
+  {
+   "text": "22 % effacés depuis juin. Et ce n'est pas Wall Street : c'est la Bourse de Tokyo.",
+   "say": "Vingt-deux pour cent effacés depuis juin... Et ce n'est pas Wall Street : c'est la Bourse de Tokyo.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.27
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Dimanche 22 novembre 2026 · Japon",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "−22 % DEPUIS JUIN",
+      "LA BOURSE DE TOKYO",
+      "DÉCROCHE"
+     ]
+    },
+    {
+     "type": "ticket",
+     "at_word": 8,
+     "title": "TOKYO · NIKKEI 225",
+     "subtitle": "Clôture du vendredi 20 nov. 2026",
+     "rows": [
+      [
+       "Record du 22 juin",
+       "72 353"
+      ],
+      [
+       "Clôture du 20 nov.",
+       "56 437"
+      ],
+      [
+       "Sur la semaine",
+       "−7,7 %"
+      ]
+     ],
+     "total": [
+      "DEPUIS LE RECORD",
+      "−22 %"
+     ],
+     "stamp": "TOKYO"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : sur la seule semaine, le Nikkei a perdu près de 8 %.",
+   "say": "Et ce n'est pas le pire : sur la seule semaine, le Nikkei a perdu près de huit pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NIKKEI · SEMAINE",
+     "value_from": 0,
+     "value_to": -7.7,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "CLÔTURE 56 437 PTS",
+     "desc": "Semaine du 16 au 20 nov. · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pendant ce temps, l'économie japonaise recule : −0,1 % au troisième trimestre, en rythme annuel.",
+   "say": "Pendant ce temps, l'économie japonaise recule... au troisième trimestre, en rythme annuel.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "PIB · ATTENDU",
+      "value_to": 0.3,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "3e trimestre 2026, en rythme annuel · investingLive · 16 nov. 2026"
+     },
+     "b_at_word": 5,
+     "b": {
+      "kicker": "PIB · PUBLIÉ",
+      "value_to": -0.1,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "1re baisse en un an, après +1,7 % au 2e trimestre · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Et pourtant, les prix accélèrent : 2,3 % d'inflation en octobre, au plus haut depuis un an.",
+   "say": "Et pourtant, les prix accélèrent : plus de deux pour cent d'inflation en octobre... au plus haut depuis un an.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.45
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "INFLATION · OCTOBRE",
+     "value_from": 0,
+     "value_to": 2.3,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "PLUS HAUT DEPUIS NOV. 2025",
+     "desc": "Sur un an · inflation sous-jacente 2,2 % · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, une économie qui recule et des prix qui montent : que va faire la Banque du Japon ?",
+   "say": "Alors... une économie qui recule et des prix qui montent : que va faire la Banque du Japon ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUE VA FAIRE",
+      "LA BANQUE DU JAPON ?"
+     ],
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Le Japon, je le suis de près sur mon Telegram. Lien en bio.",
+   "say": "Le Japon, je le suis de près sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.62
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_4b2fa9a8.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse des marchés est claire : une hausse de taux le 18 décembre, jugée probable à 85 %.",
+   "say": "La réponse des marchés est claire : une hausse de taux le dix-huit décembre... jugée probable à quatre-vingt-cinq pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BOJ · 18 DÉCEMBRE",
+     "value_from": 0,
+     "value_to": 85,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "gold",
+     "pill": "PROBABILITÉ D'UNE HAUSSE DE 0,25 POINT",
+     "desc": "Anticipations de marché au 20 nov. 2026 · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Monter les taux dans une économie qui recule : c'est le grand écart.",
+   "say": "Monter les taux dans une économie qui recule... c'est le grand écart.",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.47
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE GRAND",
+      "ÉCART"
+     ],
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Sur les marchés, le taux japonais à 30 ans frôle déjà les 4 %. Le 10 ans est à 2,79 %.",
+   "say": "Sur les marchés, le taux japonais à trente ans frôle déjà les quatre pour cent... Le dix ans est à près de trois pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "TAUX JAPONAIS · 20 NOV.",
+     "rows": [
+      {
+       "name": "Japon 30 ans",
+       "pct": "3,97 %",
+       "at_word": 7,
+       "up": true
+      },
+      {
+       "name": "Japon 20 ans",
+       "pct": "3,69 %",
+       "at_word": 9,
+       "up": true
+      },
+      {
+       "name": "Japon 10 ans",
+       "pct": "2,79 %",
+       "at_word": 14,
+       "up": true
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Côté entreprises, Nissan sabre ses ventes en Chine : 370 000 à 400 000 voitures attendues, contre 580 000.",
+   "say": "Côté entreprises, Nissan sabre ses ventes en Chine... au mieux quatre cent mille voitures attendues, contre cinq cent quatre-vingt mille.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.72
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NSANY",
+     "name": "Nissan",
+     "sub": "Prévision de ventes en Chine 2026 abaissée",
+     "y": 520,
+     "at_word": 2
+    },
+    {
+     "type": "news",
+     "at_word": 8,
+     "left": "NISSAN · CHINE 2026",
+     "right": "NOV.",
+     "tag": "PRÉVISION",
+     "headline": "Ventes attendues en Chine : 370 000 à 400 000 véhicules, contre 580 000 prévus",
+     "highlight": "370 000 à 400 000",
+     "sub": "DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En octobre, les ventes de voitures neuves en Chine ont plongé de 27 %.",
+   "say": "En octobre, les ventes de voitures neuves en Chine ont plongé de vingt-sept pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CHINE · AUTOS · OCT.",
+     "value_from": 0,
+     "value_to": -27,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "SUR UN AN",
+     "desc": "Part des marques japonaises en Chine : −20 % depuis 2022 · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le twist : malgré la chute, les investisseurs japonais ont raflé 3 milliards de dollars de l'introduction en Bourse d'Anthropic.",
+   "say": "Le twist : malgré la chute, les investisseurs japonais ont raflé trois milliards de dollars... de l'introduction en Bourse d'Anthropic.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b12b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "ANT",
+     "name": "Anthropic",
+     "sub": "3 Md$ pris par des investisseurs japonais · 3,7 % de l'opération",
+     "y": 520,
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "Introduction valorisée 81 Md$ · DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochaine date à surveiller : le 18 décembre. Ce jour-là, la Banque du Japon tranche.",
+   "say": "Prochaine date à surveiller : le dix-huit décembre... Ce jour-là, la Banque du Japon tranche.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "AGENDA · JAPON",
+     "right": "18 DÉC.",
+     "tag": "À SURVEILLER",
+     "headline": "Vendredi 18 décembre : décision de la Banque du Japon sur ses taux",
+     "highlight": "18 décembre",
+     "sub": "DG Trésor · veille Japon-Corée · 20 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, le Japon peut-il secouer les marchés du monde entier ? Dis-le en commentaire.",
+   "say": "Alors... le Japon peut-il secouer les marchés du monde entier ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE JAPON, PROCHAINE",
+      "SECOUSSE ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Lien en bio.",
+   "say": "Si tu veux comprendre avant les autres au lieu de subir, rejoins mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà... Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Japon : le grand écart de la Banque centrale, décrypté",
+     "imgs": [
+      "tg_38e4f34b.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 29,
+     "bio_at_word": 36,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

@@ -509,5 +509,19 @@
   "img": "PANW.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "NSANY": {
+  "name": "Nissan",
+  "ticker": "7201",
+  "img": "NSANY.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
+ },
+ "TM": {
+  "name": "Toyota",
+  "ticker": "7203",
+  "img": "TM.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
  }
 }
