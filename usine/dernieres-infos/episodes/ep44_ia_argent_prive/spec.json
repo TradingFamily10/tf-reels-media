@@ -1,0 +1,421 @@
+{
+ "id": "ep44_ia_argent_prive",
+ "date_label": "22 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "logowall",
+ "hook_formula": "personne n'en parle",
+ "cta_angle": "Ces chiffres, mes abonnés les ont lus avant tout le monde. Il ne manque que toi.",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://hervecuviliez.substack.com/p/market-news-saturday-21-november",
+  "https://tedpillows.substack.com/p/crypto-and-finance-market-report-13a",
+  "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-21-november-2026.html",
+  "https://emergent.sh/news/oracle-raises-20b-debt-equity-fund-ai",
+  "https://www.browninsights.com/p/the-weekender-november-21-2026"
+ ],
+ "beats": [
+  {
+   "text": "Tout le monde regarde le Nasdaq plonger. Pendant ce temps, 300 milliards de dollars de valorisation se négocient en coulisses.",
+   "say": "Tout le monde regarde le Nasdaq plonger... Pendant ce temps, trois cents milliards de dollars de valorisation se négocient en coulisses.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b0.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Dimanche 22 novembre 2026 · Intelligence artificielle",
+     "until_beat": 0
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "PENDANT LA CHUTE DE L'I.A.",
+     "value_from": 0,
+     "value_to": 300,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "DATABRICKS 225 + COGNITION 75",
+     "keys": [
+      "NVDA",
+      "ORCL",
+      "PANW",
+      "ANT",
+      "AMD",
+      "MSFT"
+     ],
+     "desc": "Valorisations en discussion, non finalisées · Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : vendredi, le Nasdaq a encore perdu plus de 5 %. Il passe dans le rouge sur 2026.",
+   "say": "Et ce n'est pas le pire : vendredi, le Nasdaq a encore perdu plus de cinq pour cent... Il passe dans le rouge sur deux mille vingt-six.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NASDAQ · VENDREDI 20 NOV.",
+     "value_from": 0,
+     "value_to": -5.3,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "NÉGATIF SUR 2026",
+     "desc": "Clôture 22 618 pts · Ted Pillows · rapport marchés · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Pourtant, dans le privé, Databricks discute d'une levée à 225 milliards de dollars. Contre 190 milliards en août.",
+   "say": "Pourtant, dans le privé, Databricks discute d'une levée à deux cent vingt-cinq milliards de dollars... Contre cent quatre-vingt-dix milliards en août.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "DATABRICKS · AOÛT 2026",
+      "value_to": 190,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "gold",
+      "desc": "Valorisation de la dernière levée · Hervé Cuviliez · Market News · 21 nov. 2026"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "DATABRICKS · NOVEMBRE",
+      "value_to": 225,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " Md$",
+      "color": "green",
+      "desc": "Discussions préliminaires (WSJ) · Hervé Cuviliez · Market News · 21 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Cognition, la start-up du codeur automatique Devin, vise 75 milliards. Elle en valait 48 en septembre.",
+   "say": "Cognition, la start-up du codeur automatique Devin, vise soixante-quinze milliards... Elle en valait quarante-huit en septembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "COGNITION · VALORISATION VISÉE",
+     "value_from": 48,
+     "value_to": 75,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "green",
+     "pill": "+56 % EN DEUX MOIS",
+     "desc": "48 Md$ en sept. → 75 Md$ en discussion, levée de plus de 2 Md$ non finalisée · Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui a raison : la Bourse qui décroche, ou les fonds qui misent encore ?",
+   "say": "Alors... qui a raison : la Bourse qui décroche, ou les fonds qui misent encore ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI A",
+      "RAISON ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce bras de fer, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce bras de fer, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Regarde Oracle. Vendredi soir, le groupe assure que son contrat avec OpenAI est entièrement financé.",
+   "say": "Regarde Oracle... Vendredi soir, le groupe assure que son contrat avec OpenAI est entièrement financé.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b7.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b7b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 2
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "ORCL",
+     "name": "Oracle",
+     "sub": "Déclaration du 20 nov. 2026",
+     "y": 520,
+     "at_word": 1
+    },
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "ORACLE · COMMUNIQUÉ",
+     "right": "20 NOV.",
+     "tag": "OPENAI",
+     "headline": "Oracle affirme que son contrat avec OpenAI est « entièrement financé »",
+     "highlight": "« entièrement financé »",
+     "sub": "Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais pour y arriver, Oracle a levé 20 milliards de dollars ce mois-ci. La moitié en dette.",
+   "say": "Mais pour y arriver, Oracle a levé vingt milliards de dollars ce mois-ci... La moitié en dette.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 4,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "ORACLE · LEVÉE DE NOVEMBRE",
+     "value_from": 0,
+     "value_to": 20,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " Md$",
+     "color": "gold",
+     "pill": "10 EN ACTIONS · 10 EN OBLIGATIONS",
+     "desc": "Lancée le 2 nov. 2026 · Emergent · 2 nov. 2026 · Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et les rachats continuent : Palo Alto Networks paie 4,5 milliards en actions pour Applied Compute, une équipe née il y a dix-huit mois.",
+   "say": "Et les rachats continuent : Palo Alto Networks paie quatre milliards et demi en actions pour Applied Compute... une équipe née il y a dix-huit mois.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 13
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "PANW",
+     "name": "Palo Alto Networks",
+     "sub": "Rachat d'Applied Compute · 4,5 Md$ en actions",
+     "y": 560,
+     "at_word": 4
+    },
+    {
+     "type": "source",
+     "text": "Communiqué Palo Alto Networks via Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Nvidia, elle, négocie le rachat d'Inception pour plus de 500 millions. En pleine chute de son action.",
+   "say": "Nvidia, elle, négocie le rachat d'Inception pour plus de cinq cents millions... En pleine chute de son action.",
+   "bg": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "125,53 $ le 20 nov. · sur la semaine",
+     "pct": "−22,9 %",
+     "up": false,
+     "y": 560,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "The Decoder via Hervé Cuviliez · Market News · 21 nov. 2026 · Marketcalls · bilan hebdo · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le twist : sur CNBC, Ed Zitron prévient que l'argent qui tourne en rond entre Nvidia, Oracle et les labos d'I.A. pourrait gonfler la demande.",
+   "say": "Le twist : sur C.N.B.C., Ed Zitron prévient que l'argent qui tourne en rond entre Nvidia, Oracle et les labos d'I.A.... pourrait gonfler la demande.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b12b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "CNBC · ED ZITRON",
+     "right": "20 NOV.",
+     "tag": "MISE EN GARDE",
+     "headline": "Le financement circulaire entre Nvidia, Oracle, les géants du cloud et les labos d'I.A. pourrait gonfler la demande",
+     "highlight": "financement circulaire",
+     "sub": "Hervé Cuviliez · Market News · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain test : mercredi, l'inflation PCE et la croissance américaine. Puis la Fed, le 9 décembre.",
+   "say": "Prochain test : mercredi, l'inflation P.C.E. et la croissance américaine... Puis la Fed, le neuf décembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "AGENDA · ÉTATS-UNIS",
+     "right": "25 NOV.",
+     "tag": "À SURVEILLER",
+     "headline": "Mercredi 25 novembre : inflation PCE d'octobre et PIB du 3e trimestre. Mercredi 9 décembre : décision de la Fed",
+     "highlight": "9 décembre",
+     "sub": "Ted Pillows · rapport marchés · 21 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, bulle qui se dégonfle, ou simple trou d'air ? Dis-le en commentaire.",
+   "say": "Alors... bulle qui se dégonfle, ou simple trou d'air ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "BULLE OU",
+      "TROU D'AIR ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Ces chiffres, mes abonnés les ont lus avant tout le monde. Mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de 22 000 personnes. Il ne manque que toi. Lien en bio.",
+   "say": "Ces chiffres, mes abonnés les ont lus avant tout le monde. Mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Plus de vingt-deux mille personnes... Il ne manque que toi. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Databricks, Oracle, Nvidia : l'argent de l'I.A. décrypté",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_3435c02c.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 28,
+     "bio_at_word": 37,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

@@ -502,5 +502,12 @@
   "img": "BSP.png",
   "tile": "#FFFFFF",
   "fit": "80%"
+ },
+ "PANW": {
+  "name": "Palo Alto Networks",
+  "ticker": "PANW",
+  "img": "PANW.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
  }
 }
