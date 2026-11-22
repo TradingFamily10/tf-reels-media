@@ -581,5 +581,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/2a1af736b65d44a1a86bbe72c2936e16eae646d4/2026-11-21_ep42_petrole_paradoxe.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=8833691393712999408",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "06:55",
+  "id": "ep43_semaine_decisive",
+  "topic": "Dimanche 22/11, la semaine qui vient après la pire semaine depuis avril 2025 (16-20/11) : Nasdaq −10,02 % à 22 617,73, S&P 500 −8,61 %, Nikkei −7,70 %, Kospi −7,95 %, CAC 40 −5,27 % à 7 927,75, DAX −7,28 % à 24 802,78, VIX 19,30 -> 35,89, Nvidia −22,92 % à 125,53 $ (−47,5 % vs record 6 oct.), 10 ans US 4,91 % (−24 pb) (Marketcalls 21/11) ; Taïwan durcit les règles de marge sur la vente à découvert, effectif lun. 23/11 (Focus Taiwan via The Morning Brief 21/11) ; agenda : PMI flash lun. 23, PIB US T3 + PCE mer. 25, Wall Street fermée jeu. 26 ; hausse Fed 9 déc. à 92 % (CME FedWatch via Nocta 21/11) ; stocks de gaz UE au plus bas depuis 2013 (AIE via The Morning Brief) ; logos NVDA, AMD, ANT, TSM",
+  "hook_type": "bignum",
+  "hook_formula": "compte à rebours",
+  "cta_angle": "Lundi, découvrir les dégâts en ouvrant ton appli… ou être prêt avant l'ouverture",
+  "title": "Bourse : ce qui attend les marchés dès lundi",
+  "caption": "Nasdaq −10 %, CAC 40 −5 % en une semaine : et maintenant ?\n\nAprès la pire semaine de Wall Street depuis avril 2025, une semaine courte et chargée s'ouvre : PMI lundi, croissance et inflation américaines mercredi, Wall Street fermée jeudi, et la Fed en ligne de mire pour le 9 décembre.\n\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\n\nContenu éducatif, pas un conseil en investissement.\n\n#bourse #cac40 #fed #nvidia #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/c3d1974250d1288dfcc3f3d09f39c741093633ba/2026-11-22_ep43_semaine_decisive.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-5256452083315292470",
+  "tiktok": "metricool"
  }
 ]
