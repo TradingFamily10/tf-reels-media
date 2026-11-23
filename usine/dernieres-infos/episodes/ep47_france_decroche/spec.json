@@ -1,0 +1,434 @@
+{
+ "id": "ep47_france_decroche",
+ "date_label": "23 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "question",
+ "hook_formula": "question directe",
+ "cta_angle": "Chaque matin, je fais le tri dans le bruit pour toi",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://investinglive.com/news/france-november-flash-services-pmi-46-6-vs-47-5-expected/",
+  "https://investinglive.com/news/eurozone-november-flash-services-pmi-51-2-vs-51-8-expected/",
+  "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744",
+  "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-tente-un-rebond-apres-une-semaine-de-secousses-sur-l-ia-88db1f584f9ff6950397c4f4d6e677be",
+  "https://www.boursorama.com/bourse/actualites/du-vert-pour-les-bourses-europeennes-avec-un-indice-pmi-plutot-rassurant-a8b39cd3f76d248a2bbf0a318b6aa8ad",
+  "https://www.boursorama.com/bourse/actualites/zone-euro-la-croissance-du-secteur-prive-se-poursuit-en-novembre-507cb3973b1f01d920e6beae147fcd1e"
+ ],
+ "beats": [
+  {
+   "text": "L'Allemagne accélère. La France recule. Pourquoi un tel écart, du jamais vu depuis six ans ?",
+   "say": "L'Allemagne accélère... La France recule. Pourquoi un tel écart, du jamais vu depuis six ans ?",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 23 novembre 2026 · Zone euro",
+     "until_beat": 1
+    },
+    {
+     "type": "bigtitle",
+     "lines": [
+      "FRANCE – ALLEMAGNE :",
+      "LE GRAND ÉCART ?"
+     ],
+     "at_word": 0
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : le privé français recule au plus vite depuis six mois.",
+   "say": "Et ce n'est pas le pire : le privé français recule au plus vite depuis six mois.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "FRANCE · PMI COMPOSITE FLASH",
+     "value_from": 50,
+     "value_to": 46.2,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": "",
+     "color": "red",
+     "pill": "SOUS 50 = L'ACTIVITÉ RECULE",
+     "desc": "Novembre 2026 · attendu 48,1 · HCOB / S&P Global via investingLive · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "L'industrie plonge sous les 48 points, bien en dessous des prévisions.",
+   "say": "L'industrie plonge sous les quarante-huit points... bien en dessous des prévisions.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "INDUSTRIE · ATTENDU",
+      "value_to": 49.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": "",
+      "color": "gold",
+      "desc": "Consensus · PMI manufacturier France"
+     },
+     "b_at_word": 4,
+     "b": {
+      "kicker": "INDUSTRIE · PUBLIÉ",
+      "value_to": 47.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": "",
+      "color": "red",
+      "desc": "Novembre 2026 · HCOB / S&P Global via investingLive · 23 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "En face, l'Allemagne tourne à plein régime : sa croissance la plus rapide depuis quatre ans et demi.",
+   "say": "En face, l'Allemagne tourne à plein régime : sa croissance la plus rapide depuis quatre ans et demi.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "ALLEMAGNE · PMI",
+     "right": "23 NOV.",
+     "tag": "ACCÉLÉRATION",
+     "headline": "La croissance allemande au plus rapide depuis quatre ans et demi, selon S&P Global",
+     "highlight": "quatre ans et demi",
+     "sub": "HCOB / S&P Global via investingLive · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qu'est-ce qui bloque la France ?",
+   "say": "Alors... qu'est-ce qui bloque la France ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QU'EST-CE QUI",
+      "BLOQUE LA FRANCE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce décrochage, je le décortique chaque jour sur mon Telegram. Lien en bio.",
+   "say": "Ce décrochage, je le décortique chaque jour sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : l'attente. Les clients repoussent leurs projets avant une présidentielle 2027 très incertaine.",
+   "say": "Réponse : l'attente. Les clients repoussent leurs projets... avant une présidentielle très incertaine.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b7.mp4",
+      "ss": 1,
+      "cx": 0.55
+     },
+     {
+      "clip": "b7b.mp4",
+      "ss": 0.5,
+      "cx": 0.5,
+      "at_word": 3
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "FRANCE · S&P GLOBAL",
+     "right": "23 NOV.",
+     "tag": "ANALYSE",
+     "headline": "Des clients qui hésitent à s'engager avant une période électorale très incertaine l'an prochain",
+     "highlight": "période électorale très incertaine",
+     "sub": "Joe Hayes, S&P Global · HCOB / S&P Global via investingLive · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le moral des chefs d'entreprise tombe au plus bas depuis fin 2012, hors Covid.",
+   "say": "Le moral des chefs d'entreprise tombe au plus bas depuis fin deux mille douze... hors Covid.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_gauge",
+     "kicker": "MORAL DES ENTREPRISES FRANÇAISES",
+     "pill": "AU PLUS BAS DEPUIS FIN 2012 (HORS COVID)",
+     "desc": "Indice d'activité future · HCOB / S&P Global via investingLive · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "S&P Global prévient : le risque de récession technique au quatrième trimestre augmente.",
+   "say": "S. and P. Global prévient : le risque de récession technique au quatrième trimestre augmente.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "FRANCE · CONJONCTURE",
+     "right": "T4 2026",
+     "tag": "ALERTE",
+     "headline": "Les données de novembre augmentent le risque d'une récession technique en France au 4e trimestre",
+     "highlight": "récession technique",
+     "sub": "Joe Hayes, S&P Global · HCOB / S&P Global via investingLive · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les marchés le voient aussi : à 10 ans, la France paie désormais 1,5 point de plus que l'Allemagne pour emprunter.",
+   "say": "Les marchés le voient aussi : à dix ans, la France paie désormais un point et demi de plus que l'Allemagne pour emprunter.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "FRANCE · TAUX À 10 ANS",
+      "value_to": 4.82,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Contre 4,87 % vendredi · AFP via Boursorama · 23 nov. 2026, 9h45"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "ALLEMAGNE · TAUX À 10 ANS",
+      "value_to": 3.32,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "gold",
+      "desc": "Référence en Europe · AFP via Boursorama · 23 nov. 2026, 9h45"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Le paradoxe : ce lundi, le CAC 40 rebondit quand même, et STMicro repart après un plongeon de 10,81 % vendredi.",
+   "say": "Le paradoxe : ce lundi, le CAC quarante rebondit quand même... et S.T. Micro repart, après un plongeon de près de onze pour cent vendredi.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b12.mp4",
+      "ss": 1,
+      "cx": 0.65
+     },
+     {
+      "clip": "b12b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PARIS · LUNDI 23 NOV. · 9H45",
+     "rows": [
+      {
+       "name": "CAC 40",
+       "pct": "+0,62 %",
+       "at_word": 5
+      },
+      {
+       "key": "STM",
+       "name": "STMicroelectronics",
+       "pct": "+1,76 %",
+       "at_word": 11
+      },
+      {
+       "key": "STM",
+       "name": "STMicro · vendredi",
+       "pct": "−10,81 %",
+       "at_word": 15
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AFP via Boursorama · 23 nov. 2026, 9h45"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller cette semaine : le PIB français et l'indice Ifo allemand, avant la BCE à la mi-décembre.",
+   "say": "À surveiller cette semaine : le P.I.B. français et l'indice Ifo allemand... avant la B.C.E., à la mi-décembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 13
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "AGENDA · ZONE EURO",
+     "right": "CETTE SEMAINE",
+     "tag": "À SURVEILLER",
+     "headline": "PIB français, indice Ifo allemand, puis la réunion de la BCE à la mi-décembre",
+     "highlight": "PIB français",
+     "sub": "Boursorama · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, la France peut-elle encore éviter la récession ? Dis-le en commentaire.",
+   "say": "Alors... la France peut-elle encore éviter la récession ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA FRANCE PEUT-ELLE",
+      "ÉVITER LA RÉCESSION ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Chaque matin, je fais le tri dans le bruit pour toi : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Tout est sur mon Telegram gratuit, et plus de 22 000 personnes y sont déjà. Entre dans le canal, lien en bio.",
+   "say": "Chaque matin, je fais le tri dans le bruit pour toi : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Tout est sur mon Telegram gratuit, et plus de vingt-deux mille personnes y sont déjà... Entre dans le canal, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "France vs Allemagne : le décrochage expliqué",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 32,
+     "bio_at_word": 43,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
