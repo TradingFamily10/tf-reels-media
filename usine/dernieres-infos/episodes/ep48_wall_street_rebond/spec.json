@@ -1,0 +1,419 @@
+{
+ "id": "ep48_wall_street_rebond",
+ "date_label": "23 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "compte à rebours",
+ "cta_angle": "La prochaine secousse, tu veux la subir ou la voir venir ?",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
+  "https://beinsure.com/news/dow-jones-and-us-stock-futures-surge-as-nasdaq-100-rebounds/",
+  "https://finwire.io/news/stock-markets-news/premarket-us-futures-rally-as-ai-rout-pauses",
+  "https://coincentral.com/nvidia-anthropic-and-alphabet-shares-bounce-back-as-investors-buy-the-dip",
+  "https://www.tipranks.com/news/stock-market-today-nov-23-markets-see-a-boost-after-last-weeks-ai-selloff"
+ ],
+ "beats": [
+  {
+   "text": "Dans 35 minutes, Wall Street rouvre. Et Nvidia bondit déjà de 8 % avant la cloche.",
+   "say": "Dans trente-cinq minutes, Wall Street rouvre... Et Nvidia bondit déjà de huit pour cent, avant la cloche.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.6,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Lundi 23 novembre 2026 · Wall Street",
+     "until_beat": 1
+    },
+    {
+     "type": "hook_bignum",
+     "value_to": 8,
+     "prefix": "+",
+     "suffix": " %",
+     "unit": "NVIDIA · AVANT L'OUVERTURE",
+     "label": "après une semaine noire",
+     "logos": [
+      "NVDA",
+      "AMD",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "AMZN"
+     ],
+     "reveal_at_word": 7,
+     "count_dur": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas tout : tout le Nasdaq 100 grimpe de 3,3 % avant l'ouverture.",
+   "say": "Et ce n'est pas tout : tout le Nasdaq cent grimpe de plus de trois pour cent avant l'ouverture.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NASDAQ 100 · AVANT-BOURSE",
+     "value_from": 0,
+     "value_to": 3.3,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "LUNDI · AVANT L'OUVERTURE",
+     "desc": "S&P 500 +2,5 % · Dow Jones ≈ +1,9 % · Reuters via Finwire · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Il faut dire que la semaine dernière, le Nasdaq a perdu 10 %. Sa pire semaine depuis mars 2020.",
+   "say": "Il faut dire que la semaine dernière, le Nasdaq a perdu dix pour cent... Sa pire semaine depuis mars deux mille vingt.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NASDAQ · 16-20 NOV.",
+     "value_from": 0,
+     "value_to": -10,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "PIRE SEMAINE DEPUIS MARS 2020",
+     "desc": "Reuters via Beinsure · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et Nvidia ? −14 % vendredi. Près de la moitié de sa valeur envolée depuis début octobre.",
+   "say": "Et Nvidia ? Moins quatorze pour cent vendredi... Près de la moitié de sa valeur envolée depuis début octobre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · Nasdaq · vendredi 20 nov.",
+     "pct": "−14 %",
+     "up": false,
+     "size": "big",
+     "y": 560,
+     "at_word": 1,
+     "strike_at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Reuters via Beinsure · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui revient sur le marché ce matin ?",
+   "say": "Alors... qui revient sur le marché ce matin ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI REVIENT",
+      "CE MATIN ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce rebond, je le suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce rebond, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : les chasseurs de rabais, après sept séances de baisse d'affilée sur le S&P 500, du jamais vu depuis le krach du Covid.",
+   "say": "Réponse : les chasseurs de rabais... après sept séances de baisse d'affilée sur le S. and P. cinq cents, du jamais vu depuis le krach du Covid.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b7.mp4",
+      "ss": 1,
+      "cx": 0.62
+     },
+     {
+      "clip": "b7b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "WALL STREET · S&P 500",
+     "right": "23 NOV.",
+     "tag": "REBOND",
+     "headline": "Après sept baisses d'affilée, la plus longue série depuis le krach de 2020, les acheteurs reviennent",
+     "highlight": "sept baisses d'affilée",
+     "sub": "Yahoo Finance · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Derrière Nvidia, toute l'I.A. se redresse : AMD, Alphabet et Meta grimpent de 4 à 6 %.",
+   "say": "Derrière Nvidia, toute l'I.A. se redresse : A.M.D., Alphabet et Meta grimpent de quatre à six pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8.mp4",
+      "ss": 1,
+      "cx": 0.5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "AVANT L'OUVERTURE · LUNDI 23 NOV.",
+     "rows": [
+      {
+       "key": "AMD",
+       "name": "AMD",
+       "pct": "+5,77 %",
+       "at_word": 6
+      },
+      {
+       "key": "GOOGL",
+       "name": "Alphabet",
+       "pct": "+4,98 %",
+       "at_word": 7
+      },
+      {
+       "key": "META",
+       "name": "Meta",
+       "pct": "+4,36 %",
+       "at_word": 9
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "CoinCentral · 23 nov. 2026, 5h21 heure de New York"
+    }
+   ]
+  },
+  {
+   "text": "L'Asie a aussi calmé le jeu : Taïwan durcit la vente à découvert, la Chine assouplit le crédit boursier, et Séoul se dit prêt à agir.",
+   "say": "L'Asie a aussi calmé le jeu : Taïwan durcit la vente à découvert... la Chine assouplit le crédit boursier... et Séoul se dit prêt à agir.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 13
+     },
+     {
+      "clip": "b10c.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 19
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 6,
+     "left": "ASIE · AUTORITÉS",
+     "right": "23 NOV.",
+     "tag": "SOUTIEN",
+     "headline": "Taïwan durcit la vente à découvert, la Chine assouplit le crédit sur marge, la Corée du Sud se dit prête à agir",
+     "highlight": "prête à agir",
+     "sub": "Reuters via Finwire · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais le vrai danger arrive : le marché voit à 91 % une hausse des taux de la Fed le 9 décembre.",
+   "say": "Mais le vrai danger arrive : le marché voit à quatre-vingt-onze pour cent une hausse des taux de la Fed... le neuf décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "HAUSSE DES TAUX FED",
+     "value_from": 0,
+     "value_to": 91,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "RÉUNION DE LA FED · 9 DÉCEMBRE",
+     "desc": "Polymarket · 98 % le 12 nov. · Yahoo Finance · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller cette semaine : les résultats de Dell mardi, puis Wall Street fermée jeudi pour Thanksgiving.",
+   "say": "À surveiller cette semaine : les résultats de Dell mardi... puis Wall Street fermée jeudi, pour Thanksgiving.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "DELL",
+     "name": "Dell",
+     "sub": "Résultats · mardi 24 novembre",
+     "y": 560,
+     "at_word": 7,
+     "until_word": 10
+    },
+    {
+     "type": "news",
+     "at_word": 10,
+     "left": "AGENDA · WALL STREET",
+     "right": "CETTE SEMAINE",
+     "tag": "À SURVEILLER",
+     "headline": "Résultats de Dell mardi, marchés fermés jeudi 26 pour Thanksgiving, séance écourtée vendredi",
+     "highlight": "fermés jeudi 26",
+     "sub": "Reuters via Beinsure · 23 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, simple rebond technique, ou vrai retour de la confiance ? Dis-le en commentaire.",
+   "say": "Alors... simple rebond technique, ou vrai retour de la confiance ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SIMPLE REBOND",
+      "OU VRAI RETOUR ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "La prochaine secousse, tu veux la subir ou la voir venir ? Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Accès gratuit, lien en bio.",
+   "say": "La prochaine secousse, tu veux la subir... ou la voir venir ? Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà... Accès gratuit, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Wall Street rebondit : ce qu'il faut surveiller",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c_top.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 32,
+     "bio_at_word": 41,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
