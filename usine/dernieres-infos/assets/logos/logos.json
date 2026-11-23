@@ -523,5 +523,12 @@
   "img": "TM.png",
   "tile": "#FFFFFF",
   "fit": "86%"
+ },
+ "SKH": {
+  "name": "SK hynix",
+  "ticker": "000660",
+  "img": "SKH.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
  }
 }
