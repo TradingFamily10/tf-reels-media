@@ -1,0 +1,3272 @@
+{
+ "fps": 30,
+ "duration": 88.833,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 6.44,
+   "w0": 0,
+   "w1": 19,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 6.5,
+   "end": 11.588,
+   "w0": 20,
+   "w1": 32,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 11.648,
+   "end": 17.609,
+   "w0": 33,
+   "w1": 45,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 17.669,
+   "end": 21.106,
+   "w0": 46,
+   "w1": 55,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 21.166,
+   "end": 25.888,
+   "w0": 56,
+   "w1": 73,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 25.948,
+   "end": 29.862,
+   "w0": 74,
+   "w1": 86,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 29.922,
+   "end": 38.206,
+   "w0": 87,
+   "w1": 107,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 38.266,
+   "end": 46.36,
+   "w0": 108,
+   "w1": 128,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 46.42,
+   "end": 51.444,
+   "w0": 129,
+   "w1": 139,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 51.504,
+   "end": 56.177,
+   "w0": 140,
+   "w1": 151,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 56.237,
+   "end": 61.857,
+   "w0": 152,
+   "w1": 167,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 61.917,
+   "end": 68.631,
+   "w0": 168,
+   "w1": 184,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 68.691,
+   "end": 73.176,
+   "w0": 185,
+   "w1": 196,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 73.236,
+   "end": 86.923,
+   "w0": 197,
+   "w1": 234,
+   "voice": "episodes/ep50_sanofi_insmed/voice/beat_13.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "41",
+   "start": 0.0,
+   "end": 0.6,
+   "beat": 0
+  },
+  {
+   "w": "milliards",
+   "start": 0.6,
+   "end": 1.1,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 1.1,
+   "end": 1.34,
+   "beat": 0
+  },
+  {
+   "w": "dollars,",
+   "start": 1.34,
+   "end": 1.6,
+   "beat": 0
+  },
+  {
+   "w": "en",
+   "start": 1.6,
+   "end": 2.0,
+   "beat": 0
+  },
+  {
+   "w": "cash.",
+   "start": 2.0,
+   "end": 2.32,
+   "beat": 0
+  },
+  {
+   "w": "Sanofi",
+   "start": 2.62,
+   "end": 3.22,
+   "beat": 0
+  },
+  {
+   "w": "vient",
+   "start": 3.22,
+   "end": 3.46,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 3.46,
+   "end": 3.62,
+   "beat": 0
+  },
+  {
+   "w": "signer",
+   "start": 3.62,
+   "end": 3.98,
+   "beat": 0
+  },
+  {
+   "w": "le",
+   "start": 3.98,
+   "end": 4.06,
+   "beat": 0
+  },
+  {
+   "w": "plus",
+   "start": 4.06,
+   "end": 4.26,
+   "beat": 0
+  },
+  {
+   "w": "gros",
+   "start": 4.26,
+   "end": 4.56,
+   "beat": 0
+  },
+  {
+   "w": "rachat",
+   "start": 4.56,
+   "end": 5.02,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 5.02,
+   "end": 5.14,
+   "beat": 0
+  },
+  {
+   "w": "la",
+   "start": 5.14,
+   "end": 5.24,
+   "beat": 0
+  },
+  {
+   "w": "pharma",
+   "start": 5.24,
+   "end": 5.56,
+   "beat": 0
+  },
+  {
+   "w": "depuis",
+   "start": 5.56,
+   "end": 5.82,
+   "beat": 0
+  },
+  {
+   "w": "des",
+   "start": 5.82,
+   "end": 6.16,
+   "beat": 0
+  },
+  {
+   "w": "années.",
+   "start": 6.16,
+   "end": 6.42,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 6.5,
+   "end": 6.76,
+   "beat": 1
+  },
+  {
+   "w": "à",
+   "start": 6.76,
+   "end": 6.86,
+   "beat": 1
+  },
+  {
+   "w": "Paris,",
+   "start": 6.86,
+   "end": 7.16,
+   "beat": 1
+  },
+  {
+   "w": "l'action",
+   "start": 7.46,
+   "end": 7.74,
+   "beat": 1
+  },
+  {
+   "w": "s'envole :",
+   "start": 8.02,
+   "end": 8.4,
+   "beat": 1
+  },
+  {
+   "w": "+5 %,",
+   "start": 8.8,
+   "end": 9.16,
+   "beat": 1
+  },
+  {
+   "w": "la",
+   "start": 9.54,
+   "end": 9.84,
+   "beat": 1
+  },
+  {
+   "w": "plus",
+   "start": 9.84,
+   "end": 10.0,
+   "beat": 1
+  },
+  {
+   "w": "forte",
+   "start": 10.0,
+   "end": 10.3,
+   "beat": 1
+  },
+  {
+   "w": "hausse",
+   "start": 10.3,
+   "end": 10.76,
+   "beat": 1
+  },
+  {
+   "w": "du",
+   "start": 10.76,
+   "end": 10.88,
+   "beat": 1
+  },
+  {
+   "w": "CAC",
+   "start": 10.88,
+   "end": 11.08,
+   "beat": 1
+  },
+  {
+   "w": "40.",
+   "start": 11.08,
+   "end": 11.4,
+   "beat": 1
+  },
+  {
+   "w": "La",
+   "start": 11.648,
+   "end": 11.808,
+   "beat": 2
+  },
+  {
+   "w": "cible :",
+   "start": 11.808,
+   "end": 12.188,
+   "beat": 2
+  },
+  {
+   "w": "Insmed,",
+   "start": 12.308,
+   "end": 12.788,
+   "beat": 2
+  },
+  {
+   "w": "un",
+   "start": 13.028,
+   "end": 13.128,
+   "beat": 2
+  },
+  {
+   "w": "labo",
+   "start": 13.128,
+   "end": 13.488,
+   "beat": 2
+  },
+  {
+   "w": "américain",
+   "start": 13.488,
+   "end": 14.028,
+   "beat": 2
+  },
+  {
+   "w": "spécialiste",
+   "start": 14.028,
+   "end": 14.668,
+   "beat": 2
+  },
+  {
+   "w": "des",
+   "start": 14.668,
+   "end": 14.828,
+   "beat": 2
+  },
+  {
+   "w": "poumons.",
+   "start": 14.828,
+   "end": 15.168,
+   "beat": 2
+  },
+  {
+   "w": "Prix :",
+   "start": 15.328,
+   "end": 15.528,
+   "beat": 2
+  },
+  {
+   "w": "175 $",
+   "start": 15.528,
+   "end": 16.588,
+   "beat": 2
+  },
+  {
+   "w": "par",
+   "start": 16.588,
+   "end": 16.988,
+   "beat": 2
+  },
+  {
+   "w": "action.",
+   "start": 16.988,
+   "end": 17.368,
+   "beat": 2
+  },
+  {
+   "w": "C'est",
+   "start": 17.909,
+   "end": 18.009,
+   "beat": 3
+  },
+  {
+   "w": "46 %",
+   "start": 18.009,
+   "end": 18.409,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 18.809,
+   "end": 18.989,
+   "beat": 3
+  },
+  {
+   "w": "plus",
+   "start": 18.989,
+   "end": 19.189,
+   "beat": 3
+  },
+  {
+   "w": "que",
+   "start": 19.189,
+   "end": 19.389,
+   "beat": 3
+  },
+  {
+   "w": "son",
+   "start": 19.389,
+   "end": 19.549,
+   "beat": 3
+  },
+  {
+   "w": "cours",
+   "start": 19.549,
+   "end": 19.929,
+   "beat": 3
+  },
+  {
+   "w": "d'avant",
+   "start": 20.249,
+   "end": 20.389,
+   "beat": 3
+  },
+  {
+   "w": "les",
+   "start": 20.389,
+   "end": 20.549,
+   "beat": 3
+  },
+  {
+   "w": "rumeurs.",
+   "start": 20.549,
+   "end": 20.969,
+   "beat": 3
+  },
+  {
+   "w": "Alors",
+   "start": 21.166,
+   "end": 21.466,
+   "beat": 4
+  },
+  {
+   "w": "pourquoi",
+   "start": 21.466,
+   "end": 22.006,
+   "beat": 4
+  },
+  {
+   "w": "un",
+   "start": 22.006,
+   "end": 22.326,
+   "beat": 4
+  },
+  {
+   "w": "géant",
+   "start": 22.326,
+   "end": 22.606,
+   "beat": 4
+  },
+  {
+   "w": "français",
+   "start": 22.606,
+   "end": 23.006,
+   "beat": 4
+  },
+  {
+   "w": "paie-t-il",
+   "start": 23.006,
+   "end": 23.546,
+   "beat": 4
+  },
+  {
+   "w": "aussi",
+   "start": 23.546,
+   "end": 23.786,
+   "beat": 4
+  },
+  {
+   "w": "cher ?",
+   "start": 23.786,
+   "end": 24.126,
+   "beat": 4
+  },
+  {
+   "w": "Il",
+   "start": 24.366,
+   "end": 24.486,
+   "beat": 4
+  },
+  {
+   "w": "y",
+   "start": 24.486,
+   "end": 24.606,
+   "beat": 4
+  },
+  {
+   "w": "a",
+   "start": 24.606,
+   "end": 24.646,
+   "beat": 4
+  },
+  {
+   "w": "une",
+   "start": 24.646,
+   "end": 24.766,
+   "beat": 4
+  },
+  {
+   "w": "raison…",
+   "start": 24.766,
+   "end": 25.046,
+   "beat": 4
+  },
+  {
+   "w": "et",
+   "start": 25.046,
+   "end": 25.366,
+   "beat": 4
+  },
+  {
+   "w": "elle",
+   "start": 25.366,
+   "end": 25.486,
+   "beat": 4
+  },
+  {
+   "w": "a",
+   "start": 25.486,
+   "end": 25.586,
+   "beat": 4
+  },
+  {
+   "w": "un",
+   "start": 25.586,
+   "end": 25.686,
+   "beat": 4
+  },
+  {
+   "w": "nom.",
+   "start": 25.686,
+   "end": 25.866,
+   "beat": 4
+  },
+  {
+   "w": "Ce",
+   "start": 25.948,
+   "end": 26.208,
+   "beat": 5
+  },
+  {
+   "w": "dossier,",
+   "start": 26.208,
+   "end": 26.648,
+   "beat": 5
+  },
+  {
+   "w": "je",
+   "start": 26.748,
+   "end": 26.808,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 26.808,
+   "end": 26.908,
+   "beat": 5
+  },
+  {
+   "w": "décortique",
+   "start": 26.908,
+   "end": 27.408,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 27.408,
+   "end": 27.608,
+   "beat": 5
+  },
+  {
+   "w": "direct",
+   "start": 27.608,
+   "end": 27.948,
+   "beat": 5
+  },
+  {
+   "w": "sur",
+   "start": 27.948,
+   "end": 28.288,
+   "beat": 5
+  },
+  {
+   "w": "mon",
+   "start": 28.288,
+   "end": 28.448,
+   "beat": 5
+  },
+  {
+   "w": "Telegram.",
+   "start": 28.448,
+   "end": 29.248,
+   "beat": 5
+  },
+  {
+   "w": "Lien",
+   "start": 29.268,
+   "end": 29.448,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 29.448,
+   "end": 29.548,
+   "beat": 5
+  },
+  {
+   "w": "bio.",
+   "start": 29.548,
+   "end": 29.708,
+   "beat": 5
+  },
+  {
+   "w": "Ce",
+   "start": 29.922,
+   "end": 30.182,
+   "beat": 6
+  },
+  {
+   "w": "nom,",
+   "start": 30.182,
+   "end": 30.382,
+   "beat": 6
+  },
+  {
+   "w": "c'est",
+   "start": 30.722,
+   "end": 30.802,
+   "beat": 6
+  },
+  {
+   "w": "Dupixent,",
+   "start": 30.802,
+   "end": 31.462,
+   "beat": 6
+  },
+  {
+   "w": "le",
+   "start": 31.642,
+   "end": 31.762,
+   "beat": 6
+  },
+  {
+   "w": "médicament",
+   "start": 31.762,
+   "end": 32.262,
+   "beat": 6
+  },
+  {
+   "w": "vedette",
+   "start": 32.262,
+   "end": 32.802,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 32.802,
+   "end": 33.002,
+   "beat": 6
+  },
+  {
+   "w": "Sanofi.",
+   "start": 33.002,
+   "end": 33.542,
+   "beat": 6
+  },
+  {
+   "w": "Il",
+   "start": 33.662,
+   "end": 33.802,
+   "beat": 6
+  },
+  {
+   "w": "perd",
+   "start": 33.802,
+   "end": 34.022,
+   "beat": 6
+  },
+  {
+   "w": "son",
+   "start": 34.022,
+   "end": 34.282,
+   "beat": 6
+  },
+  {
+   "w": "exclusivité",
+   "start": 34.282,
+   "end": 35.082,
+   "beat": 6
+  },
+  {
+   "w": "à",
+   "start": 35.082,
+   "end": 35.422,
+   "beat": 6
+  },
+  {
+   "w": "partir",
+   "start": 35.422,
+   "end": 35.702,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 35.702,
+   "end": 35.922,
+   "beat": 6
+  },
+  {
+   "w": "2031…",
+   "start": 35.922,
+   "end": 36.662,
+   "beat": 6
+  },
+  {
+   "w": "et",
+   "start": 36.662,
+   "end": 36.982,
+   "beat": 6
+  },
+  {
+   "w": "les",
+   "start": 36.982,
+   "end": 37.082,
+   "beat": 6
+  },
+  {
+   "w": "copies",
+   "start": 37.082,
+   "end": 37.402,
+   "beat": 6
+  },
+  {
+   "w": "arriveront.",
+   "start": 37.402,
+   "end": 38.142,
+   "beat": 6
+  },
+  {
+   "w": "Insmed",
+   "start": 38.266,
+   "end": 38.686,
+   "beat": 7
+  },
+  {
+   "w": "apporte",
+   "start": 38.686,
+   "end": 39.286,
+   "beat": 7
+  },
+  {
+   "w": "deux",
+   "start": 39.286,
+   "end": 39.506,
+   "beat": 7
+  },
+  {
+   "w": "médicaments",
+   "start": 39.506,
+   "end": 40.026,
+   "beat": 7
+  },
+  {
+   "w": "déjà",
+   "start": 40.026,
+   "end": 40.406,
+   "beat": 7
+  },
+  {
+   "w": "commercialisés.",
+   "start": 40.406,
+   "end": 41.166,
+   "beat": 7
+  },
+  {
+   "w": "Brinsupri",
+   "start": 41.646,
+   "end": 42.106,
+   "beat": 7
+  },
+  {
+   "w": "a",
+   "start": 42.106,
+   "end": 42.206,
+   "beat": 7
+  },
+  {
+   "w": "dépassé",
+   "start": 42.206,
+   "end": 42.726,
+   "beat": 7
+  },
+  {
+   "w": "1",
+   "start": 42.726,
+   "end": 42.946,
+   "beat": 7
+  },
+  {
+   "w": "milliard",
+   "start": 42.946,
+   "end": 43.326,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 43.326,
+   "end": 43.446,
+   "beat": 7
+  },
+  {
+   "w": "dollars",
+   "start": 43.446,
+   "end": 43.626,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 43.626,
+   "end": 43.826,
+   "beat": 7
+  },
+  {
+   "w": "ventes",
+   "start": 43.826,
+   "end": 44.146,
+   "beat": 7
+  },
+  {
+   "w": "depuis",
+   "start": 44.146,
+   "end": 44.486,
+   "beat": 7
+  },
+  {
+   "w": "son",
+   "start": 44.486,
+   "end": 44.726,
+   "beat": 7
+  },
+  {
+   "w": "lancement",
+   "start": 44.726,
+   "end": 45.226,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 45.226,
+   "end": 45.446,
+   "beat": 7
+  },
+  {
+   "w": "août",
+   "start": 45.446,
+   "end": 45.726,
+   "beat": 7
+  },
+  {
+   "w": "2025.",
+   "start": 45.726,
+   "end": 46.106,
+   "beat": 7
+  },
+  {
+   "w": "Le",
+   "start": 46.42,
+   "end": 46.86,
+   "beat": 8
+  },
+  {
+   "w": "second,",
+   "start": 46.86,
+   "end": 47.22,
+   "beat": 8
+  },
+  {
+   "w": "Arikayce :",
+   "start": 47.22,
+   "end": 48.14,
+   "beat": 8
+  },
+  {
+   "w": "434",
+   "start": 48.14,
+   "end": 48.82,
+   "beat": 8
+  },
+  {
+   "w": "millions",
+   "start": 48.82,
+   "end": 49.28,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 49.28,
+   "end": 49.5,
+   "beat": 8
+  },
+  {
+   "w": "dollars",
+   "start": 49.5,
+   "end": 49.78,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 49.78,
+   "end": 50.04,
+   "beat": 8
+  },
+  {
+   "w": "ventes",
+   "start": 50.04,
+   "end": 50.42,
+   "beat": 8
+  },
+  {
+   "w": "en",
+   "start": 50.42,
+   "end": 50.68,
+   "beat": 8
+  },
+  {
+   "w": "2025.",
+   "start": 50.68,
+   "end": 50.98,
+   "beat": 8
+  },
+  {
+   "w": "Le",
+   "start": 51.504,
+   "end": 51.824,
+   "beat": 9
+  },
+  {
+   "w": "prix",
+   "start": 51.824,
+   "end": 52.044,
+   "beat": 9
+  },
+  {
+   "w": "reste",
+   "start": 52.044,
+   "end": 52.264,
+   "beat": 9
+  },
+  {
+   "w": "salé :",
+   "start": 52.264,
+   "end": 52.764,
+   "beat": 9
+  },
+  {
+   "w": "environ",
+   "start": 52.944,
+   "end": 53.364,
+   "beat": 9
+  },
+  {
+   "w": "22",
+   "start": 53.364,
+   "end": 53.844,
+   "beat": 9
+  },
+  {
+   "w": "fois",
+   "start": 53.844,
+   "end": 54.224,
+   "beat": 9
+  },
+  {
+   "w": "leurs",
+   "start": 54.484,
+   "end": 54.584,
+   "beat": 9
+  },
+  {
+   "w": "ventes",
+   "start": 54.584,
+   "end": 54.984,
+   "beat": 9
+  },
+  {
+   "w": "attendues",
+   "start": 55.184,
+   "end": 55.544,
+   "beat": 9
+  },
+  {
+   "w": "cette",
+   "start": 55.544,
+   "end": 55.804,
+   "beat": 9
+  },
+  {
+   "w": "année.",
+   "start": 55.804,
+   "end": 56.084,
+   "beat": 9
+  },
+  {
+   "w": "Un",
+   "start": 56.237,
+   "end": 56.397,
+   "beat": 10
+  },
+  {
+   "w": "chèque",
+   "start": 56.397,
+   "end": 56.697,
+   "beat": 10
+  },
+  {
+   "w": "du",
+   "start": 56.697,
+   "end": 56.877,
+   "beat": 10
+  },
+  {
+   "w": "même",
+   "start": 56.877,
+   "end": 57.057,
+   "beat": 10
+  },
+  {
+   "w": "ordre",
+   "start": 57.057,
+   "end": 57.457,
+   "beat": 10
+  },
+  {
+   "w": "que",
+   "start": 57.457,
+   "end": 57.577,
+   "beat": 10
+  },
+  {
+   "w": "le",
+   "start": 57.577,
+   "end": 57.677,
+   "beat": 10
+  },
+  {
+   "w": "rachat",
+   "start": 57.677,
+   "end": 58.057,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 58.057,
+   "end": 58.177,
+   "beat": 10
+  },
+  {
+   "w": "Seagen",
+   "start": 58.177,
+   "end": 58.677,
+   "beat": 10
+  },
+  {
+   "w": "par",
+   "start": 58.677,
+   "end": 58.677,
+   "beat": 10
+  },
+  {
+   "w": "Pfizer",
+   "start": 58.677,
+   "end": 59.297,
+   "beat": 10
+  },
+  {
+   "w": "en",
+   "start": 59.297,
+   "end": 59.617,
+   "beat": 10
+  },
+  {
+   "w": "2023 :",
+   "start": 59.617,
+   "end": 60.297,
+   "beat": 10
+  },
+  {
+   "w": "43",
+   "start": 60.557,
+   "end": 61.117,
+   "beat": 10
+  },
+  {
+   "w": "milliards.",
+   "start": 61.117,
+   "end": 61.537,
+   "beat": 10
+  },
+  {
+   "w": "Prochaine",
+   "start": 61.917,
+   "end": 62.277,
+   "beat": 11
+  },
+  {
+   "w": "étape :",
+   "start": 62.277,
+   "end": 62.697,
+   "beat": 11
+  },
+  {
+   "w": "le",
+   "start": 62.857,
+   "end": 62.937,
+   "beat": 11
+  },
+  {
+   "w": "feu",
+   "start": 62.937,
+   "end": 63.217,
+   "beat": 11
+  },
+  {
+   "w": "vert",
+   "start": 63.217,
+   "end": 63.457,
+   "beat": 11
+  },
+  {
+   "w": "des",
+   "start": 63.457,
+   "end": 63.677,
+   "beat": 11
+  },
+  {
+   "w": "actionnaires",
+   "start": 63.677,
+   "end": 64.217,
+   "beat": 11
+  },
+  {
+   "w": "d'Insmed",
+   "start": 64.357,
+   "end": 64.757,
+   "beat": 11
+  },
+  {
+   "w": "et",
+   "start": 64.757,
+   "end": 65.077,
+   "beat": 11
+  },
+  {
+   "w": "des",
+   "start": 65.077,
+   "end": 65.197,
+   "beat": 11
+  },
+  {
+   "w": "régulateurs,",
+   "start": 65.197,
+   "end": 65.977,
+   "beat": 11
+  },
+  {
+   "w": "pour",
+   "start": 65.977,
+   "end": 66.197,
+   "beat": 11
+  },
+  {
+   "w": "boucler",
+   "start": 66.197,
+   "end": 66.677,
+   "beat": 11
+  },
+  {
+   "w": "au",
+   "start": 66.677,
+   "end": 66.897,
+   "beat": 11
+  },
+  {
+   "w": "1er",
+   "start": 66.897,
+   "end": 67.157,
+   "beat": 11
+  },
+  {
+   "w": "semestre",
+   "start": 67.157,
+   "end": 67.677,
+   "beat": 11
+  },
+  {
+   "w": "2027.",
+   "start": 67.677,
+   "end": 68.397,
+   "beat": 11
+  },
+  {
+   "w": "Alors,",
+   "start": 68.691,
+   "end": 68.931,
+   "beat": 12
+  },
+  {
+   "w": "pari",
+   "start": 69.191,
+   "end": 69.451,
+   "beat": 12
+  },
+  {
+   "w": "malin",
+   "start": 69.451,
+   "end": 69.811,
+   "beat": 12
+  },
+  {
+   "w": "pour",
+   "start": 69.811,
+   "end": 70.071,
+   "beat": 12
+  },
+  {
+   "w": "l'après-Dupixent…",
+   "start": 70.071,
+   "end": 71.031,
+   "beat": 12
+  },
+  {
+   "w": "ou",
+   "start": 71.031,
+   "end": 71.271,
+   "beat": 12
+  },
+  {
+   "w": "chèque",
+   "start": 71.271,
+   "end": 71.591,
+   "beat": 12
+  },
+  {
+   "w": "trop",
+   "start": 71.591,
+   "end": 71.771,
+   "beat": 12
+  },
+  {
+   "w": "cher ?",
+   "start": 71.771,
+   "end": 72.031,
+   "beat": 12
+  },
+  {
+   "w": "Dis-le",
+   "start": 72.271,
+   "end": 72.351,
+   "beat": 12
+  },
+  {
+   "w": "en",
+   "start": 72.491,
+   "end": 72.591,
+   "beat": 12
+  },
+  {
+   "w": "commentaire.",
+   "start": 72.591,
+   "end": 73.071,
+   "beat": 12
+  },
+  {
+   "w": "Plus",
+   "start": 73.236,
+   "end": 73.396,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 73.396,
+   "end": 73.536,
+   "beat": 13
+  },
+  {
+   "w": "22 000",
+   "start": 73.856,
+   "end": 74.036,
+   "beat": 13
+  },
+  {
+   "w": "personnes",
+   "start": 74.036,
+   "end": 74.436,
+   "beat": 13
+  },
+  {
+   "w": "ont",
+   "start": 74.436,
+   "end": 74.756,
+   "beat": 13
+  },
+  {
+   "w": "déjà",
+   "start": 74.756,
+   "end": 75.076,
+   "beat": 13
+  },
+  {
+   "w": "une",
+   "start": 75.076,
+   "end": 75.376,
+   "beat": 13
+  },
+  {
+   "w": "longueur",
+   "start": 75.376,
+   "end": 75.676,
+   "beat": 13
+  },
+  {
+   "w": "d'avance.",
+   "start": 75.756,
+   "end": 76.136,
+   "beat": 13
+  },
+  {
+   "w": "Il",
+   "start": 76.336,
+   "end": 76.416,
+   "beat": 13
+  },
+  {
+   "w": "ne",
+   "start": 76.416,
+   "end": 76.556,
+   "beat": 13
+  },
+  {
+   "w": "manque",
+   "start": 76.556,
+   "end": 76.876,
+   "beat": 13
+  },
+  {
+   "w": "que",
+   "start": 76.876,
+   "end": 77.076,
+   "beat": 13
+  },
+  {
+   "w": "toi.",
+   "start": 77.076,
+   "end": 77.296,
+   "beat": 13
+  },
+  {
+   "w": "Sur",
+   "start": 77.296,
+   "end": 77.51,
+   "beat": 13
+  },
+  {
+   "w": "mon",
+   "start": 77.51,
+   "end": 77.725,
+   "beat": 13
+  },
+  {
+   "w": "Telegram",
+   "start": 77.725,
+   "end": 78.296,
+   "beat": 13
+  },
+  {
+   "w": "gratuit :",
+   "start": 78.296,
+   "end": 78.636,
+   "beat": 13
+  },
+  {
+   "w": "l'actu",
+   "start": 78.956,
+   "end": 79.256,
+   "beat": 13
+  },
+  {
+   "w": "géopolitique",
+   "start": 79.256,
+   "end": 80.016,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 80.016,
+   "end": 80.136,
+   "beat": 13
+  },
+  {
+   "w": "financière",
+   "start": 80.136,
+   "end": 80.796,
+   "beat": 13
+  },
+  {
+   "w": "décortiquée,",
+   "start": 80.796,
+   "end": 81.436,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 81.716,
+   "end": 81.816,
+   "beat": 13
+  },
+  {
+   "w": "analyses",
+   "start": 81.816,
+   "end": 82.156,
+   "beat": 13
+  },
+  {
+   "w": "d'actions",
+   "start": 82.396,
+   "end": 82.636,
+   "beat": 13
+  },
+  {
+   "w": "détaillées",
+   "start": 82.636,
+   "end": 83.336,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 83.336,
+   "end": 83.536,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 83.536,
+   "end": 83.676,
+   "beat": 13
+  },
+  {
+   "w": "opportunités",
+   "start": 83.676,
+   "end": 84.476,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 84.476,
+   "end": 84.716,
+   "beat": 13
+  },
+  {
+   "w": "temps",
+   "start": 84.716,
+   "end": 84.956,
+   "beat": 13
+  },
+  {
+   "w": "réel.",
+   "start": 84.956,
+   "end": 85.356,
+   "beat": 13
+  },
+  {
+   "w": "Accès",
+   "start": 85.456,
+   "end": 85.776,
+   "beat": 13
+  },
+  {
+   "w": "gratuit,",
+   "start": 85.776,
+   "end": 86.036,
+   "beat": 13
+  },
+  {
+   "w": "lien",
+   "start": 86.036,
+   "end": 86.596,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 86.596,
+   "end": 86.676,
+   "beat": 13
+  },
+  {
+   "w": "bio.",
+   "start": 86.676,
+   "end": 86.836,
+   "beat": 13
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 1.6
+  },
+  {
+   "start": 1.6,
+   "lines": [
+    [
+     4,
+     5
+    ]
+   ],
+   "beat": 0,
+   "end": 2.62
+  },
+  {
+   "start": 2.62,
+   "lines": [
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 3.98
+  },
+  {
+   "start": 3.98,
+   "lines": [
+    [
+     10,
+     11
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "beat": 0,
+   "end": 5.02
+  },
+  {
+   "start": 5.02,
+   "lines": [
+    [
+     14,
+     15,
+     16
+    ],
+    [
+     17
+    ]
+   ],
+   "beat": 0,
+   "end": 5.82
+  },
+  {
+   "start": 5.82,
+   "lines": [
+    [
+     18,
+     19
+    ]
+   ],
+   "beat": 0,
+   "end": 6.5
+  },
+  {
+   "start": 6.5,
+   "lines": [
+    [
+     20,
+     21,
+     22
+    ]
+   ],
+   "beat": 1,
+   "end": 7.46
+  },
+  {
+   "start": 7.46,
+   "lines": [
+    [
+     23
+    ],
+    [
+     24
+    ]
+   ],
+   "beat": 1,
+   "end": 8.8
+  },
+  {
+   "start": 8.8,
+   "lines": [
+    [
+     25,
+     26
+    ],
+    [
+     27,
+     28
+    ]
+   ],
+   "beat": 1,
+   "end": 10.3
+  },
+  {
+   "start": 10.3,
+   "lines": [
+    [
+     29,
+     30
+    ],
+    [
+     31,
+     32
+    ]
+   ],
+   "beat": 1,
+   "end": 11.648
+  },
+  {
+   "start": 11.648,
+   "lines": [
+    [
+     33,
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 12.308
+  },
+  {
+   "start": 12.308,
+   "lines": [
+    [
+     35,
+     36
+    ],
+    [
+     37,
+     38
+    ]
+   ],
+   "beat": 2,
+   "end": 14.028
+  },
+  {
+   "start": 14.028,
+   "lines": [
+    [
+     39
+    ],
+    [
+     40,
+     41
+    ]
+   ],
+   "beat": 2,
+   "end": 15.328
+  },
+  {
+   "start": 15.328,
+   "lines": [
+    [
+     42
+    ]
+   ],
+   "beat": 2,
+   "end": 15.528
+  },
+  {
+   "start": 15.528,
+   "lines": [
+    [
+     43,
+     44
+    ],
+    [
+     45
+    ]
+   ],
+   "beat": 2,
+   "end": 17.909
+  },
+  {
+   "start": 17.909,
+   "lines": [
+    [
+     46,
+     47,
+     48
+    ]
+   ],
+   "beat": 3,
+   "end": 18.989
+  },
+  {
+   "start": 18.989,
+   "lines": [
+    [
+     49,
+     50
+    ],
+    [
+     51,
+     52
+    ]
+   ],
+   "beat": 3,
+   "end": 20.249
+  },
+  {
+   "start": 20.249,
+   "lines": [
+    [
+     53,
+     54
+    ],
+    [
+     55
+    ]
+   ],
+   "beat": 3,
+   "end": 21.166
+  },
+  {
+   "start": 21.166,
+   "lines": [
+    [
+     56,
+     57
+    ],
+    [
+     58,
+     59
+    ]
+   ],
+   "beat": 4,
+   "end": 22.606
+  },
+  {
+   "start": 22.606,
+   "lines": [
+    [
+     60
+    ],
+    [
+     61,
+     62
+    ]
+   ],
+   "beat": 4,
+   "end": 23.786
+  },
+  {
+   "start": 23.786,
+   "lines": [
+    [
+     63
+    ]
+   ],
+   "beat": 4,
+   "end": 24.366
+  },
+  {
+   "start": 24.366,
+   "lines": [
+    [
+     64,
+     65,
+     66
+    ]
+   ],
+   "beat": 4,
+   "end": 24.646
+  },
+  {
+   "start": 24.646,
+   "lines": [
+    [
+     67,
+     68
+    ]
+   ],
+   "beat": 4,
+   "end": 25.046
+  },
+  {
+   "start": 25.046,
+   "lines": [
+    [
+     69,
+     70,
+     71
+    ]
+   ],
+   "beat": 4,
+   "end": 25.586
+  },
+  {
+   "start": 25.586,
+   "lines": [
+    [
+     72,
+     73
+    ]
+   ],
+   "beat": 4,
+   "end": 25.948
+  },
+  {
+   "start": 25.948,
+   "lines": [
+    [
+     74,
+     75
+    ]
+   ],
+   "beat": 5,
+   "end": 26.748
+  },
+  {
+   "start": 26.748,
+   "lines": [
+    [
+     76,
+     77
+    ],
+    [
+     78
+    ]
+   ],
+   "beat": 5,
+   "end": 27.408
+  },
+  {
+   "start": 27.408,
+   "lines": [
+    [
+     79,
+     80,
+     81
+    ]
+   ],
+   "beat": 5,
+   "end": 28.288
+  },
+  {
+   "start": 28.288,
+   "lines": [
+    [
+     82,
+     83
+    ]
+   ],
+   "beat": 5,
+   "end": 29.268
+  },
+  {
+   "start": 29.268,
+   "lines": [
+    [
+     84,
+     85,
+     86
+    ]
+   ],
+   "beat": 5,
+   "end": 29.922
+  },
+  {
+   "start": 29.922,
+   "lines": [
+    [
+     87,
+     88
+    ]
+   ],
+   "beat": 6,
+   "end": 30.722
+  },
+  {
+   "start": 30.722,
+   "lines": [
+    [
+     89,
+     90
+    ]
+   ],
+   "beat": 6,
+   "end": 31.642
+  },
+  {
+   "start": 31.642,
+   "lines": [
+    [
+     91,
+     92
+    ],
+    [
+     93
+    ]
+   ],
+   "beat": 6,
+   "end": 32.802
+  },
+  {
+   "start": 32.802,
+   "lines": [
+    [
+     94,
+     95
+    ]
+   ],
+   "beat": 6,
+   "end": 33.662
+  },
+  {
+   "start": 33.662,
+   "lines": [
+    [
+     96,
+     97,
+     98
+    ],
+    [
+     99
+    ]
+   ],
+   "beat": 6,
+   "end": 35.082
+  },
+  {
+   "start": 35.082,
+   "lines": [
+    [
+     100,
+     101
+    ],
+    [
+     102,
+     103
+    ]
+   ],
+   "beat": 6,
+   "end": 36.662
+  },
+  {
+   "start": 36.662,
+   "lines": [
+    [
+     104,
+     105,
+     106
+    ],
+    [
+     107
+    ]
+   ],
+   "beat": 6,
+   "end": 38.266
+  },
+  {
+   "start": 38.266,
+   "lines": [
+    [
+     108
+    ],
+    [
+     109,
+     110
+    ]
+   ],
+   "beat": 7,
+   "end": 39.506
+  },
+  {
+   "start": 39.506,
+   "lines": [
+    [
+     111,
+     112
+    ]
+   ],
+   "beat": 7,
+   "end": 40.406
+  },
+  {
+   "start": 40.406,
+   "lines": [
+    [
+     113
+    ]
+   ],
+   "beat": 7,
+   "end": 41.646
+  },
+  {
+   "start": 41.646,
+   "lines": [
+    [
+     114
+    ],
+    [
+     115,
+     116,
+     117
+    ]
+   ],
+   "beat": 7,
+   "end": 42.946
+  },
+  {
+   "start": 42.946,
+   "lines": [
+    [
+     118
+    ],
+    [
+     119,
+     120
+    ]
+   ],
+   "beat": 7,
+   "end": 43.626
+  },
+  {
+   "start": 43.626,
+   "lines": [
+    [
+     121,
+     122
+    ],
+    [
+     123
+    ]
+   ],
+   "beat": 7,
+   "end": 44.486
+  },
+  {
+   "start": 44.486,
+   "lines": [
+    [
+     124,
+     125
+    ],
+    [
+     126,
+     127
+    ]
+   ],
+   "beat": 7,
+   "end": 45.726
+  },
+  {
+   "start": 45.726,
+   "lines": [
+    [
+     128
+    ]
+   ],
+   "beat": 7,
+   "end": 46.42
+  },
+  {
+   "start": 46.42,
+   "lines": [
+    [
+     129,
+     130
+    ]
+   ],
+   "beat": 8,
+   "end": 47.22
+  },
+  {
+   "start": 47.22,
+   "lines": [
+    [
+     131
+    ]
+   ],
+   "beat": 8,
+   "end": 48.14
+  },
+  {
+   "start": 48.14,
+   "lines": [
+    [
+     132,
+     133
+    ],
+    [
+     134,
+     135
+    ]
+   ],
+   "beat": 8,
+   "end": 49.78
+  },
+  {
+   "start": 49.78,
+   "lines": [
+    [
+     136,
+     137
+    ],
+    [
+     138,
+     139
+    ]
+   ],
+   "beat": 8,
+   "end": 51.504
+  },
+  {
+   "start": 51.504,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 9,
+   "end": 52.944
+  },
+  {
+   "start": 52.944,
+   "lines": [
+    [
+     144,
+     145
+    ],
+    [
+     146,
+     147
+    ]
+   ],
+   "beat": 9,
+   "end": 54.584
+  },
+  {
+   "start": 54.584,
+   "lines": [
+    [
+     148,
+     149
+    ]
+   ],
+   "beat": 9,
+   "end": 55.544
+  },
+  {
+   "start": 55.544,
+   "lines": [
+    [
+     150,
+     151
+    ]
+   ],
+   "beat": 9,
+   "end": 56.237
+  },
+  {
+   "start": 56.237,
+   "lines": [
+    [
+     152,
+     153
+    ],
+    [
+     154,
+     155
+    ]
+   ],
+   "beat": 10,
+   "end": 57.057
+  },
+  {
+   "start": 57.057,
+   "lines": [
+    [
+     156,
+     157
+    ],
+    [
+     158,
+     159
+    ]
+   ],
+   "beat": 10,
+   "end": 58.057
+  },
+  {
+   "start": 58.057,
+   "lines": [
+    [
+     160,
+     161
+    ],
+    [
+     162,
+     163
+    ]
+   ],
+   "beat": 10,
+   "end": 59.297
+  },
+  {
+   "start": 59.297,
+   "lines": [
+    [
+     164,
+     165
+    ]
+   ],
+   "beat": 10,
+   "end": 60.557
+  },
+  {
+   "start": 60.557,
+   "lines": [
+    [
+     166,
+     167
+    ]
+   ],
+   "beat": 10,
+   "end": 61.917
+  },
+  {
+   "start": 61.917,
+   "lines": [
+    [
+     168,
+     169
+    ]
+   ],
+   "beat": 11,
+   "end": 62.857
+  },
+  {
+   "start": 62.857,
+   "lines": [
+    [
+     170,
+     171,
+     172
+    ]
+   ],
+   "beat": 11,
+   "end": 63.457
+  },
+  {
+   "start": 63.457,
+   "lines": [
+    [
+     173,
+     174
+    ],
+    [
+     175
+    ]
+   ],
+   "beat": 11,
+   "end": 64.757
+  },
+  {
+   "start": 64.757,
+   "lines": [
+    [
+     176,
+     177
+    ],
+    [
+     178
+    ]
+   ],
+   "beat": 11,
+   "end": 65.977
+  },
+  {
+   "start": 65.977,
+   "lines": [
+    [
+     179,
+     180
+    ],
+    [
+     181,
+     182
+    ]
+   ],
+   "beat": 11,
+   "end": 67.157
+  },
+  {
+   "start": 67.157,
+   "lines": [
+    [
+     183,
+     184
+    ]
+   ],
+   "beat": 11,
+   "end": 68.691
+  },
+  {
+   "start": 68.691,
+   "lines": [
+    [
+     185
+    ],
+    [
+     186,
+     187
+    ]
+   ],
+   "beat": 12,
+   "end": 69.811
+  },
+  {
+   "start": 69.811,
+   "lines": [
+    [
+     188
+    ],
+    [
+     189
+    ]
+   ],
+   "beat": 12,
+   "end": 71.031
+  },
+  {
+   "start": 71.031,
+   "lines": [
+    [
+     190,
+     191
+    ],
+    [
+     192,
+     193
+    ]
+   ],
+   "beat": 12,
+   "end": 72.271
+  },
+  {
+   "start": 72.271,
+   "lines": [
+    [
+     194,
+     195
+    ],
+    [
+     196
+    ]
+   ],
+   "beat": 12,
+   "end": 73.236
+  },
+  {
+   "start": 73.236,
+   "lines": [
+    [
+     197,
+     198,
+     199
+    ],
+    [
+     200
+    ]
+   ],
+   "beat": 13,
+   "end": 74.436
+  },
+  {
+   "start": 74.436,
+   "lines": [
+    [
+     201,
+     202
+    ],
+    [
+     203,
+     204
+    ]
+   ],
+   "beat": 13,
+   "end": 75.756
+  },
+  {
+   "start": 75.756,
+   "lines": [
+    [
+     205
+    ]
+   ],
+   "beat": 13,
+   "end": 76.336
+  },
+  {
+   "start": 76.336,
+   "lines": [
+    [
+     206,
+     207,
+     208
+    ]
+   ],
+   "beat": 13,
+   "end": 76.876
+  },
+  {
+   "start": 76.876,
+   "lines": [
+    [
+     209,
+     210
+    ]
+   ],
+   "beat": 13,
+   "end": 77.296
+  },
+  {
+   "start": 77.296,
+   "lines": [
+    [
+     211,
+     212,
+     213
+    ],
+    [
+     214
+    ]
+   ],
+   "beat": 13,
+   "end": 78.956
+  },
+  {
+   "start": 78.956,
+   "lines": [
+    [
+     215
+    ],
+    [
+     216
+    ]
+   ],
+   "beat": 13,
+   "end": 80.016
+  },
+  {
+   "start": 80.016,
+   "lines": [
+    [
+     217,
+     218
+    ],
+    [
+     219
+    ]
+   ],
+   "beat": 13,
+   "end": 81.716
+  },
+  {
+   "start": 81.716,
+   "lines": [
+    [
+     220,
+     221
+    ],
+    [
+     222
+    ]
+   ],
+   "beat": 13,
+   "end": 82.636
+  },
+  {
+   "start": 82.636,
+   "lines": [
+    [
+     223,
+     224
+    ]
+   ],
+   "beat": 13,
+   "end": 83.536
+  },
+  {
+   "start": 83.536,
+   "lines": [
+    [
+     225,
+     226
+    ],
+    [
+     227,
+     228
+    ]
+   ],
+   "beat": 13,
+   "end": 84.956
+  },
+  {
+   "start": 84.956,
+   "lines": [
+    [
+     229
+    ]
+   ],
+   "beat": 13,
+   "end": 85.456
+  },
+  {
+   "start": 85.456,
+   "lines": [
+    [
+     230,
+     231
+    ]
+   ],
+   "beat": 13,
+   "end": 86.036
+  },
+  {
+   "start": 86.036,
+   "lines": [
+    [
+     232,
+     233,
+     234
+    ]
+   ],
+   "beat": 13,
+   "end": 87.123
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Mardi 24 novembre 2026 · Bourse de Paris",
+   "until_beat": 1,
+   "start": 0.0,
+   "end": 11.648
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "41 MILLIARDS $",
+    "EN CASH"
+   ],
+   "at_word": 0,
+   "start": 0.0,
+   "end": 6.5
+  },
+  {
+   "type": "stock",
+   "key": "SNY",
+   "name": "Sanofi",
+   "sub": "SAN · Euronext Paris · mardi 9 h 50",
+   "pct": "+5,00 %",
+   "up": true,
+   "size": "big",
+   "y": 560,
+   "at_word": 6,
+   "start": 2.62,
+   "end": 6.5
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "SANOFI · MARDI 24 NOV.",
+   "value_from": 0,
+   "value_to": 5.0,
+   "decimals": 2,
+   "prefix": "+",
+   "suffix": " %",
+   "color": "green",
+   "pill": "PLUS FORTE HAUSSE DU CAC 40",
+   "desc": "89,52 € · plus haut depuis nov. 2025 · AFP via Boursorama · 24 nov. 2026, 9 h 50",
+   "start": 6.5,
+   "end": 11.648
+  },
+  {
+   "type": "stock",
+   "key": "INSM",
+   "name": "Insmed",
+   "sub": "INSM · Nasdaq · 175 $ par action",
+   "pct": "+14 % avant-Bourse",
+   "up": true,
+   "y": 560,
+   "at_word": 2,
+   "start": 12.308,
+   "end": 17.669
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 24 nov. 2026",
+   "start": 11.648,
+   "end": 17.669
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "OFFRE DE SANOFI",
+    "value_to": 175,
+    "prefix": "",
+    "suffix": " $",
+    "color": "cyan",
+    "desc": "Par action Insmed, en numéraire",
+    "logo": "SNY"
+   },
+   "b_at_word": 1,
+   "b": {
+    "kicker": "PRIME",
+    "value_to": 46,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "Vs cours d'avant les rumeurs (18 nov.)",
+    "logo": "INSM"
+   },
+   "start": 17.669,
+   "end": 21.166,
+   "b_t": 18.009
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 24 nov. 2026 · Stocktwits via Yahoo Finance · 24 nov. 2026",
+   "start": 17.669,
+   "end": 21.166
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "POURQUOI PAYER",
+    "AUSSI CHER ?"
+   ],
+   "at_word": 1,
+   "start": 21.466,
+   "end": 25.948
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_4b2fa9a8.jpg",
+   "bio_at_word": 12,
+   "start": 25.948,
+   "end": 29.922,
+   "bio_t": 29.548
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "SANOFI · DUPIXENT",
+   "right": "2031-2032",
+   "tag": "FIN D'EXCLUSIVITÉ",
+   "headline": "Dupixent, approuvé dans 9 indications, perd son exclusivité en 2031 et 2032",
+   "highlight": "perd son exclusivité",
+   "sub": "Jefferies via Investing.com · STAT News · 24 nov. 2026",
+   "start": 30.722,
+   "end": 38.266
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "BRINSUPRI · INSMED",
+   "logo": "INSM",
+   "value_from": 0,
+   "value_to": 1.09,
+   "decimals": 2,
+   "prefix": "",
+   "suffix": " MD$",
+   "color": "cyan",
+   "pill": "VENTES AOÛT 2025 → 30 SEPT. 2026",
+   "desc": "Dilatation des bronches · Investing.com · 24 nov. 2026",
+   "at_word": 6,
+   "start": 41.646,
+   "end": 46.42
+  },
+  {
+   "type": "ticket",
+   "at_word": 0,
+   "title": "INSMED · 2 MÉDICAMENTS",
+   "subtitle": "Brinsupri : août 2025 → sept. 2026",
+   "rows": [
+    [
+     "Brinsupri",
+     "1,09 Md$"
+    ],
+    [
+     "Arikayce · 2025",
+     "434 M$"
+    ]
+   ],
+   "total": [
+    "DÉJÀ",
+    "COMMERCIALISÉS"
+   ],
+   "start": 46.42,
+   "end": 51.504
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 24 nov. 2026 · AFP via Daily Sabah",
+   "start": 46.42,
+   "end": 51.504
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "PRIX PAYÉ",
+   "value_from": 0,
+   "value_to": 22,
+   "decimals": 0,
+   "prefix": "≈ ",
+   "suffix": " ×",
+   "color": "red",
+   "pill": "LES VENTES 2026 ATTENDUES",
+   "desc": "Brinsupri + Arikayce · Ideal Investisseur · 24 nov. 2026",
+   "start": 51.504,
+   "end": 56.237
+  },
+  {
+   "type": "ticket",
+   "at_word": 2,
+   "title": "MÉGA-RACHATS PHARMA",
+   "subtitle": "Montants annoncés",
+   "rows": [
+    [
+     "Pfizer → Seagen · 2023",
+     "43 Md$"
+    ],
+    [
+     "Sanofi → Insmed · 2026",
+     "41 Md$"
+    ]
+   ],
+   "total": [
+    "MÊME ORDRE",
+    "DE GRANDEUR"
+   ],
+   "stamp": "PHARMA",
+   "start": 56.697,
+   "end": 61.917
+  },
+  {
+   "type": "stock",
+   "key": "PFE",
+   "name": "Pfizer",
+   "sub": "Rachat de Seagen · 2023",
+   "pct": "43 Md$",
+   "up": true,
+   "y": 1560,
+   "at_word": 11,
+   "start": 58.677,
+   "end": 61.917
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 24 nov. 2026 · valeurs mesurées différemment",
+   "start": 56.237,
+   "end": 61.917
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "AGENDA · SANOFI × INSMED",
+   "right": "S1 2027",
+   "tag": "À SURVEILLER",
+   "headline": "Finalisation attendue au 1er semestre 2027, sous réserve du vote des actionnaires d'Insmed et des autorités",
+   "highlight": "1er semestre 2027",
+   "sub": "Investing.com · 24 nov. 2026 · Stocktwits via Yahoo Finance · 24 nov. 2026",
+   "start": 62.857,
+   "end": 68.691
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "PARI MALIN OU",
+    "CHÈQUE TROP CHER ?"
+   ],
+   "at_word": 1,
+   "start": 69.191,
+   "end": 73.236
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Sanofi × Insmed : le rachat décrypté",
+   "imgs": [
+    "tg_38e4f34b.jpg",
+    "tg_1eaa56f0.jpg",
+    "tg_3435c02c_top.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 3,
+   "bio_at_word": 37,
+   "button": "ACCÈS GRATUIT",
+   "start": 73.236,
+   "end": 87.033,
+   "subs_t": 74.036,
+   "bio_t": 86.676
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.6,
+   "src": "episodes/ep50_sanofi_insmed/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.58,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.6,
+   "at_word": 6,
+   "src": "episodes/ep50_sanofi_insmed/broll/b0b.mp4",
+   "start": 2.58,
+   "end": 6.5,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep50_sanofi_insmed/broll/b1.mp4",
+   "start": 6.5,
+   "end": 11.648,
+   "beat": 1
+  },
+  {
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep50_sanofi_insmed/broll/b2.mp4",
+   "start": 11.648,
+   "end": 15.288,
+   "beat": 2
+  },
+  {
+   "clip": "b2b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep50_sanofi_insmed/broll/b2b.mp4",
+   "start": 15.288,
+   "end": 17.669,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep50_sanofi_insmed/broll/b3.mp4",
+   "start": 17.669,
+   "end": 21.166,
+   "beat": 3
+  },
+  {
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep50_sanofi_insmed/broll/b4.mp4",
+   "start": 21.166,
+   "end": 25.948,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep50_sanofi_insmed/broll/b5.mp4",
+   "start": 25.948,
+   "end": 29.922,
+   "beat": 5
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.35,
+   "src": "episodes/ep50_sanofi_insmed/broll/b6.mp4",
+   "start": 29.922,
+   "end": 33.762,
+   "beat": 6
+  },
+  {
+   "clip": "b6b.mp4",
+   "ss": 1,
+   "cx": 0.75,
+   "at_word": 10,
+   "src": "episodes/ep50_sanofi_insmed/broll/b6b.mp4",
+   "start": 33.762,
+   "end": 38.266,
+   "beat": 6
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.42
+   },
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.42,
+   "blur": true,
+   "src": "episodes/ep50_sanofi_insmed/broll/b8.mp4",
+   "start": 38.266,
+   "end": 46.42,
+   "beat": 7
+  },
+  {
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "src": "episodes/ep50_sanofi_insmed/broll/b9.mp4",
+   "start": 46.42,
+   "end": 50.0,
+   "beat": 8
+  },
+  {
+   "clip": "b9b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep50_sanofi_insmed/broll/b9b.mp4",
+   "start": 50.0,
+   "end": 51.504,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep50_sanofi_insmed/broll/b10.mp4",
+   "start": 51.504,
+   "end": 56.237,
+   "beat": 9
+  },
+  {
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep50_sanofi_insmed/broll/b11.mp4",
+   "start": 56.237,
+   "end": 61.917,
+   "beat": 10
+  },
+  {
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.6,
+   "src": "episodes/ep50_sanofi_insmed/broll/b13.mp4",
+   "start": 61.917,
+   "end": 65.157,
+   "beat": 11
+  },
+  {
+   "clip": "b13b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 10,
+   "src": "episodes/ep50_sanofi_insmed/broll/b13b.mp4",
+   "start": 65.157,
+   "end": 68.691,
+   "beat": 11
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep50_sanofi_insmed/broll/b14.mp4",
+   "start": 68.691,
+   "end": 73.236,
+   "beat": 12
+  },
+  {
+   "blur_prev": true,
+   "start": 73.236,
+   "end": 88.833,
+   "beat": 13
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 2.53,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 2.62,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 6.44,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 6.62,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 12.308,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 15.238,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 17.609,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 17.789,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 18.009,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 18.059,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 21.466,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 25.898,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 25.948,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 29.548,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 29.872,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 30.722,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 33.712,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 41.586,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 41.766,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 46.42,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 49.95,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 51.444,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 51.624,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 56.697,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 58.677,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 61.867,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 62.857,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 65.107,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 68.641,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 69.191,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 73.186,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 73.286,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 73.586,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 74.036,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 86.433,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 86.676,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 87.033,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   87.033,
+   89.833
+  ]
+ ],
+ "endcard": {
+  "start": 87.033,
+  "button": "ACCÈS GRATUIT",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "24 novembre 2026"
+}

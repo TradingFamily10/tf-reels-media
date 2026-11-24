@@ -530,5 +530,26 @@
   "img": "SKH.png",
   "tile": "#FFFFFF",
   "fit": "86%"
+ },
+ "SNY": {
+  "name": "Sanofi",
+  "ticker": "SAN",
+  "img": "SNY.png",
+  "tile": "#5B2BD6",
+  "fit": "86%"
+ },
+ "INSM": {
+  "name": "Insmed",
+  "ticker": "INSM",
+  "img": "INSM.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
+ },
+ "PFE": {
+  "name": "Pfizer",
+  "ticker": "PFE",
+  "img": "PFE.png",
+  "tile": "#FFFFFF",
+  "fit": "86%"
  }
 }
