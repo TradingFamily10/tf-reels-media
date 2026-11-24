@@ -551,5 +551,19 @@
   "img": "PFE.png",
   "tile": "#FFFFFF",
   "fit": "86%"
+ },
+ "HPE": {
+  "name": "Hewlett Packard Enterprise",
+  "ticker": "HPE",
+  "img": "HPE.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "MRVL": {
+  "name": "Marvell",
+  "ticker": "MRVL",
+  "img": "MRVL.png",
+  "tile": "#000000",
+  "fit": "70%"
  }
 }

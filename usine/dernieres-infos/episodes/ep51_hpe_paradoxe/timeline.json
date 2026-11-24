@@ -1,0 +1,3581 @@
+{
+ "fps": 30,
+ "duration": 86.874,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 5.989,
+   "w0": 0,
+   "w1": 16,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 6.049,
+   "end": 9.685,
+   "w0": 17,
+   "w1": 30,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 9.745,
+   "end": 15.27,
+   "w0": 31,
+   "w1": 47,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 15.33,
+   "end": 21.211,
+   "w0": 48,
+   "w1": 64,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 21.271,
+   "end": 24.207,
+   "w0": 65,
+   "w1": 72,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 24.267,
+   "end": 27.88,
+   "w0": 73,
+   "w1": 85,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 27.94,
+   "end": 33.153,
+   "w0": 86,
+   "w1": 100,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 33.213,
+   "end": 38.419,
+   "w0": 101,
+   "w1": 115,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 38.479,
+   "end": 41.737,
+   "w0": 116,
+   "w1": 122,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 41.797,
+   "end": 44.747,
+   "w0": 123,
+   "w1": 133,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 44.807,
+   "end": 47.424,
+   "w0": 134,
+   "w1": 143,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 47.484,
+   "end": 52.492,
+   "w0": 144,
+   "w1": 160,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 52.552,
+   "end": 54.767,
+   "w0": 161,
+   "w1": 166,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 54.827,
+   "end": 59.993,
+   "w0": 167,
+   "w1": 184,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 60.053,
+   "end": 65.451,
+   "w0": 185,
+   "w1": 196,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_14.wav"
+  },
+  {
+   "i": 15,
+   "start": 65.511,
+   "end": 70.935,
+   "w0": 197,
+   "w1": 211,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_15.wav"
+  },
+  {
+   "i": 16,
+   "start": 70.995,
+   "end": 84.964,
+   "w0": 212,
+   "w1": 253,
+   "voice": "episodes/ep51_hpe_paradoxe/voice/beat_16.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "Des",
+   "start": 0.0,
+   "end": 0.12,
+   "beat": 0
+  },
+  {
+   "w": "résultats",
+   "start": 0.12,
+   "end": 0.74,
+   "beat": 0
+  },
+  {
+   "w": "au-dessus",
+   "start": 0.96,
+   "end": 1.22,
+   "beat": 0
+  },
+  {
+   "w": "des",
+   "start": 1.22,
+   "end": 1.38,
+   "beat": 0
+  },
+  {
+   "w": "attentes.",
+   "start": 1.38,
+   "end": 1.76,
+   "beat": 0
+  },
+  {
+   "w": "Des",
+   "start": 1.98,
+   "end": 2.06,
+   "beat": 0
+  },
+  {
+   "w": "commandes",
+   "start": 2.06,
+   "end": 2.46,
+   "beat": 0
+  },
+  {
+   "w": "qui",
+   "start": 2.46,
+   "end": 2.58,
+   "beat": 0
+  },
+  {
+   "w": "doublent.",
+   "start": 2.58,
+   "end": 2.88,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 2.88,
+   "end": 3.22,
+   "beat": 0
+  },
+  {
+   "w": "pourtant,",
+   "start": 3.22,
+   "end": 3.52,
+   "beat": 0
+  },
+  {
+   "w": "HPE",
+   "start": 3.68,
+   "end": 4.04,
+   "beat": 0
+  },
+  {
+   "w": "chute",
+   "start": 4.04,
+   "end": 4.32,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 4.32,
+   "end": 4.46,
+   "beat": 0
+  },
+  {
+   "w": "11 %",
+   "start": 4.46,
+   "end": 4.72,
+   "beat": 0
+  },
+  {
+   "w": "avant",
+   "start": 5.08,
+   "end": 5.32,
+   "beat": 0
+  },
+  {
+   "w": "l'ouverture.",
+   "start": 5.46,
+   "end": 5.88,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 6.049,
+   "end": 6.269,
+   "beat": 1
+  },
+  {
+   "w": "ce",
+   "start": 6.269,
+   "end": 6.369,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 6.469,
+   "end": 6.529,
+   "beat": 1
+  },
+  {
+   "w": "pas",
+   "start": 6.529,
+   "end": 6.629,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 6.629,
+   "end": 6.689,
+   "beat": 1
+  },
+  {
+   "w": "pire :",
+   "start": 6.689,
+   "end": 7.009,
+   "beat": 1
+  },
+  {
+   "w": "la",
+   "start": 7.189,
+   "end": 7.309,
+   "beat": 1
+  },
+  {
+   "w": "veille,",
+   "start": 7.309,
+   "end": 7.589,
+   "beat": 1
+  },
+  {
+   "w": "l'action",
+   "start": 7.729,
+   "end": 7.929,
+   "beat": 1
+  },
+  {
+   "w": "avait",
+   "start": 7.929,
+   "end": 8.129,
+   "beat": 1
+  },
+  {
+   "w": "pris",
+   "start": 8.129,
+   "end": 8.349,
+   "beat": 1
+  },
+  {
+   "w": "plus",
+   "start": 8.349,
+   "end": 8.529,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 8.529,
+   "end": 8.689,
+   "beat": 1
+  },
+  {
+   "w": "17 %.",
+   "start": 8.689,
+   "end": 9.409,
+   "beat": 1
+  },
+  {
+   "w": "Les",
+   "start": 9.745,
+   "end": 9.965,
+   "beat": 2
+  },
+  {
+   "w": "chiffres",
+   "start": 9.965,
+   "end": 10.285,
+   "beat": 2
+  },
+  {
+   "w": "sont",
+   "start": 10.285,
+   "end": 10.445,
+   "beat": 2
+  },
+  {
+   "w": "solides :",
+   "start": 10.445,
+   "end": 10.885,
+   "beat": 2
+  },
+  {
+   "w": "14,55",
+   "start": 11.245,
+   "end": 11.565,
+   "beat": 2
+  },
+  {
+   "w": "milliards",
+   "start": 11.565,
+   "end": 11.845,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 12.145,
+   "end": 12.285,
+   "beat": 2
+  },
+  {
+   "w": "dollars",
+   "start": 12.285,
+   "end": 12.525,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 12.525,
+   "end": 12.685,
+   "beat": 2
+  },
+  {
+   "w": "chiffre",
+   "start": 12.685,
+   "end": 13.005,
+   "beat": 2
+  },
+  {
+   "w": "d'affaires",
+   "start": 13.105,
+   "end": 13.345,
+   "beat": 2
+  },
+  {
+   "w": "sur",
+   "start": 13.345,
+   "end": 13.465,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 13.465,
+   "end": 13.585,
+   "beat": 2
+  },
+  {
+   "w": "trimestre,",
+   "start": 13.585,
+   "end": 14.085,
+   "beat": 2
+  },
+  {
+   "w": "mieux",
+   "start": 14.385,
+   "end": 14.545,
+   "beat": 2
+  },
+  {
+   "w": "que",
+   "start": 14.545,
+   "end": 14.685,
+   "beat": 2
+  },
+  {
+   "w": "prévu.",
+   "start": 14.685,
+   "end": 15.065,
+   "beat": 2
+  },
+  {
+   "w": "Les",
+   "start": 15.33,
+   "end": 15.57,
+   "beat": 3
+  },
+  {
+   "w": "ventes",
+   "start": 15.57,
+   "end": 15.89,
+   "beat": 3
+  },
+  {
+   "w": "cloud",
+   "start": 15.89,
+   "end": 16.17,
+   "beat": 3
+  },
+  {
+   "w": "et",
+   "start": 16.17,
+   "end": 16.47,
+   "beat": 3
+  },
+  {
+   "w": "IA",
+   "start": 16.47,
+   "end": 16.83,
+   "beat": 3
+  },
+  {
+   "w": "grimpent",
+   "start": 16.83,
+   "end": 17.27,
+   "beat": 3
+  },
+  {
+   "w": "d'environ",
+   "start": 17.31,
+   "end": 17.53,
+   "beat": 3
+  },
+  {
+   "w": "69 %,",
+   "start": 17.53,
+   "end": 18.13,
+   "beat": 3
+  },
+  {
+   "w": "et",
+   "start": 18.57,
+   "end": 19.05,
+   "beat": 3
+  },
+  {
+   "w": "le",
+   "start": 19.05,
+   "end": 19.17,
+   "beat": 3
+  },
+  {
+   "w": "groupe",
+   "start": 19.17,
+   "end": 19.41,
+   "beat": 3
+  },
+  {
+   "w": "ajoute",
+   "start": 19.41,
+   "end": 19.79,
+   "beat": 3
+  },
+  {
+   "w": "5",
+   "start": 19.79,
+   "end": 20.03,
+   "beat": 3
+  },
+  {
+   "w": "milliards",
+   "start": 20.03,
+   "end": 20.33,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 20.33,
+   "end": 20.53,
+   "beat": 3
+  },
+  {
+   "w": "rachats",
+   "start": 20.53,
+   "end": 20.81,
+   "beat": 3
+  },
+  {
+   "w": "d'actions.",
+   "start": 20.89,
+   "end": 21.07,
+   "beat": 3
+  },
+  {
+   "w": "Alors",
+   "start": 21.271,
+   "end": 21.751,
+   "beat": 4
+  },
+  {
+   "w": "pourquoi",
+   "start": 21.751,
+   "end": 22.251,
+   "beat": 4
+  },
+  {
+   "w": "Wall",
+   "start": 22.251,
+   "end": 22.511,
+   "beat": 4
+  },
+  {
+   "w": "Street",
+   "start": 22.511,
+   "end": 22.731,
+   "beat": 4
+  },
+  {
+   "w": "sanctionne-t-elle",
+   "start": 22.731,
+   "end": 23.291,
+   "beat": 4
+  },
+  {
+   "w": "les",
+   "start": 23.431,
+   "end": 23.571,
+   "beat": 4
+  },
+  {
+   "w": "bonnes",
+   "start": 23.571,
+   "end": 23.831,
+   "beat": 4
+  },
+  {
+   "w": "nouvelles ?",
+   "start": 23.831,
+   "end": 23.991,
+   "beat": 4
+  },
+  {
+   "w": "Ce",
+   "start": 24.267,
+   "end": 24.547,
+   "beat": 5
+  },
+  {
+   "w": "paradoxe,",
+   "start": 24.547,
+   "end": 25.247,
+   "beat": 5
+  },
+  {
+   "w": "je",
+   "start": 25.247,
+   "end": 25.327,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 25.327,
+   "end": 25.447,
+   "beat": 5
+  },
+  {
+   "w": "suis",
+   "start": 25.447,
+   "end": 25.647,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 25.647,
+   "end": 25.827,
+   "beat": 5
+  },
+  {
+   "w": "direct",
+   "start": 25.827,
+   "end": 26.147,
+   "beat": 5
+  },
+  {
+   "w": "sur",
+   "start": 26.147,
+   "end": 26.467,
+   "beat": 5
+  },
+  {
+   "w": "mon",
+   "start": 26.467,
+   "end": 26.607,
+   "beat": 5
+  },
+  {
+   "w": "Telegram.",
+   "start": 26.607,
+   "end": 27.327,
+   "beat": 5
+  },
+  {
+   "w": "Lien",
+   "start": 27.367,
+   "end": 27.487,
+   "beat": 5
+  },
+  {
+   "w": "en",
+   "start": 27.487,
+   "end": 27.587,
+   "beat": 5
+  },
+  {
+   "w": "bio.",
+   "start": 27.587,
+   "end": 27.767,
+   "beat": 5
+  },
+  {
+   "w": "La",
+   "start": 27.94,
+   "end": 28.1,
+   "beat": 6
+  },
+  {
+   "w": "réponse :",
+   "start": 28.1,
+   "end": 28.4,
+   "beat": 6
+  },
+  {
+   "w": "toute",
+   "start": 28.72,
+   "end": 28.84,
+   "beat": 6
+  },
+  {
+   "w": "l'IA",
+   "start": 29.04,
+   "end": 29.16,
+   "beat": 6
+  },
+  {
+   "w": "reprend",
+   "start": 29.16,
+   "end": 29.62,
+   "beat": 6
+  },
+  {
+   "w": "son",
+   "start": 29.62,
+   "end": 29.74,
+   "beat": 6
+  },
+  {
+   "w": "souffle.",
+   "start": 29.74,
+   "end": 30.14,
+   "beat": 6
+  },
+  {
+   "w": "Nvidia",
+   "start": 30.26,
+   "end": 30.56,
+   "beat": 6
+  },
+  {
+   "w": "recule",
+   "start": 30.56,
+   "end": 31.06,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 31.06,
+   "end": 31.18,
+   "beat": 6
+  },
+  {
+   "w": "plus",
+   "start": 31.18,
+   "end": 31.32,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 31.32,
+   "end": 31.44,
+   "beat": 6
+  },
+  {
+   "w": "4 %",
+   "start": 31.44,
+   "end": 31.64,
+   "beat": 6
+  },
+  {
+   "w": "avant",
+   "start": 32.1,
+   "end": 32.38,
+   "beat": 6
+  },
+  {
+   "w": "l'ouverture.",
+   "start": 32.5,
+   "end": 33.0,
+   "beat": 6
+  },
+  {
+   "w": "Lundi,",
+   "start": 33.213,
+   "end": 33.813,
+   "beat": 7
+  },
+  {
+   "w": "elle",
+   "start": 33.893,
+   "end": 33.973,
+   "beat": 7
+  },
+  {
+   "w": "avait",
+   "start": 33.973,
+   "end": 34.173,
+   "beat": 7
+  },
+  {
+   "w": "bondi",
+   "start": 34.173,
+   "end": 34.533,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 34.533,
+   "end": 34.633,
+   "beat": 7
+  },
+  {
+   "w": "31 %,",
+   "start": 34.633,
+   "end": 34.973,
+   "beat": 7
+  },
+  {
+   "w": "portée",
+   "start": 35.453,
+   "end": 36.053,
+   "beat": 7
+  },
+  {
+   "w": "par",
+   "start": 36.053,
+   "end": 36.213,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 36.213,
+   "end": 36.333,
+   "beat": 7
+  },
+  {
+   "w": "retour",
+   "start": 36.333,
+   "end": 36.653,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 36.653,
+   "end": 36.833,
+   "beat": 7
+  },
+  {
+   "w": "son",
+   "start": 36.833,
+   "end": 36.953,
+   "beat": 7
+  },
+  {
+   "w": "patron,",
+   "start": 36.953,
+   "end": 37.293,
+   "beat": 7
+  },
+  {
+   "w": "Jensen",
+   "start": 37.293,
+   "end": 37.893,
+   "beat": 7
+  },
+  {
+   "w": "Huang.",
+   "start": 37.893,
+   "end": 38.153,
+   "beat": 7
+  },
+  {
+   "w": "Micron,",
+   "start": 38.479,
+   "end": 38.959,
+   "beat": 8
+  },
+  {
+   "w": "AMD",
+   "start": 39.099,
+   "end": 39.439,
+   "beat": 8
+  },
+  {
+   "w": "et",
+   "start": 39.439,
+   "end": 39.739,
+   "beat": 8
+  },
+  {
+   "w": "Marvell",
+   "start": 39.739,
+   "end": 40.099,
+   "beat": 8
+  },
+  {
+   "w": "perdent",
+   "start": 40.099,
+   "end": 40.659,
+   "beat": 8
+  },
+  {
+   "w": "jusqu'à",
+   "start": 40.659,
+   "end": 40.799,
+   "beat": 8
+  },
+  {
+   "w": "4 %.",
+   "start": 40.979,
+   "end": 41.559,
+   "beat": 8
+  },
+  {
+   "w": "Et",
+   "start": 41.797,
+   "end": 42.137,
+   "beat": 9
+  },
+  {
+   "w": "les",
+   "start": 42.137,
+   "end": 42.237,
+   "beat": 9
+  },
+  {
+   "w": "contrats",
+   "start": 42.237,
+   "end": 42.617,
+   "beat": 9
+  },
+  {
+   "w": "sur",
+   "start": 42.617,
+   "end": 42.757,
+   "beat": 9
+  },
+  {
+   "w": "le",
+   "start": 42.757,
+   "end": 42.877,
+   "beat": 9
+  },
+  {
+   "w": "Nasdaq",
+   "start": 42.877,
+   "end": 43.037,
+   "beat": 9
+  },
+  {
+   "w": "100",
+   "start": 43.037,
+   "end": 43.157,
+   "beat": 9
+  },
+  {
+   "w": "cèdent",
+   "start": 43.157,
+   "end": 43.457,
+   "beat": 9
+  },
+  {
+   "w": "plus",
+   "start": 43.897,
+   "end": 44.097,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 44.097,
+   "end": 44.257,
+   "beat": 9
+  },
+  {
+   "w": "1 %.",
+   "start": 44.257,
+   "end": 44.617,
+   "beat": 9
+  },
+  {
+   "w": "Mais",
+   "start": 44.807,
+   "end": 45.027,
+   "beat": 10
+  },
+  {
+   "w": "le",
+   "start": 45.027,
+   "end": 45.147,
+   "beat": 10
+  },
+  {
+   "w": "vrai",
+   "start": 45.147,
+   "end": 45.327,
+   "beat": 10
+  },
+  {
+   "w": "poids",
+   "start": 45.327,
+   "end": 45.567,
+   "beat": 10
+  },
+  {
+   "w": "lourd,",
+   "start": 45.567,
+   "end": 45.827,
+   "beat": 10
+  },
+  {
+   "w": "il",
+   "start": 45.967,
+   "end": 46.107,
+   "beat": 10
+  },
+  {
+   "w": "est",
+   "start": 46.107,
+   "end": 46.247,
+   "beat": 10
+  },
+  {
+   "w": "ailleurs :",
+   "start": 46.247,
+   "end": 46.607,
+   "beat": 10
+  },
+  {
+   "w": "la",
+   "start": 46.607,
+   "end": 46.867,
+   "beat": 10
+  },
+  {
+   "w": "Fed.",
+   "start": 46.867,
+   "end": 47.207,
+   "beat": 10
+  },
+  {
+   "w": "Les",
+   "start": 47.484,
+   "end": 47.644,
+   "beat": 11
+  },
+  {
+   "w": "marchés",
+   "start": 47.644,
+   "end": 47.984,
+   "beat": 11
+  },
+  {
+   "w": "voient",
+   "start": 47.984,
+   "end": 48.184,
+   "beat": 11
+  },
+  {
+   "w": "désormais",
+   "start": 48.184,
+   "end": 48.624,
+   "beat": 11
+  },
+  {
+   "w": "à",
+   "start": 48.624,
+   "end": 48.744,
+   "beat": 11
+  },
+  {
+   "w": "95 %",
+   "start": 48.744,
+   "end": 49.164,
+   "beat": 11
+  },
+  {
+   "w": "une",
+   "start": 49.724,
+   "end": 50.224,
+   "beat": 11
+  },
+  {
+   "w": "hausse",
+   "start": 50.224,
+   "end": 50.564,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 50.564,
+   "end": 50.664,
+   "beat": 11
+  },
+  {
+   "w": "ses",
+   "start": 50.664,
+   "end": 50.861,
+   "beat": 11
+  },
+  {
+   "w": "taux",
+   "start": 50.861,
+   "end": 51.124,
+   "beat": 11
+  },
+  {
+   "w": "d'un",
+   "start": 51.124,
+   "end": 51.204,
+   "beat": 11
+  },
+  {
+   "w": "quart",
+   "start": 51.204,
+   "end": 51.344,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 51.344,
+   "end": 51.484,
+   "beat": 11
+  },
+  {
+   "w": "point",
+   "start": 51.484,
+   "end": 51.704,
+   "beat": 11
+  },
+  {
+   "w": "en",
+   "start": 51.704,
+   "end": 51.904,
+   "beat": 11
+  },
+  {
+   "w": "décembre.",
+   "start": 51.904,
+   "end": 52.384,
+   "beat": 11
+  },
+  {
+   "w": "Et",
+   "start": 52.552,
+   "end": 52.752,
+   "beat": 12
+  },
+  {
+   "w": "certains",
+   "start": 52.752,
+   "end": 53.012,
+   "beat": 12
+  },
+  {
+   "w": "envisagent",
+   "start": 53.012,
+   "end": 53.692,
+   "beat": 12
+  },
+  {
+   "w": "même",
+   "start": 53.692,
+   "end": 53.792,
+   "beat": 12
+  },
+  {
+   "w": "un",
+   "start": 53.792,
+   "end": 54.132,
+   "beat": 12
+  },
+  {
+   "w": "demi-point.",
+   "start": 54.412,
+   "end": 54.652,
+   "beat": 12
+  },
+  {
+   "w": "Des",
+   "start": 54.827,
+   "end": 55.007,
+   "beat": 13
+  },
+  {
+   "w": "taux",
+   "start": 55.007,
+   "end": 55.227,
+   "beat": 13
+  },
+  {
+   "w": "plus",
+   "start": 55.227,
+   "end": 55.407,
+   "beat": 13
+  },
+  {
+   "w": "hauts,",
+   "start": 55.407,
+   "end": 55.647,
+   "beat": 13
+  },
+  {
+   "w": "c'est",
+   "start": 55.807,
+   "end": 55.867,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 55.867,
+   "end": 55.967,
+   "beat": 13
+  },
+  {
+   "w": "l'argent",
+   "start": 56.007,
+   "end": 56.247,
+   "beat": 13
+  },
+  {
+   "w": "plus",
+   "start": 56.247,
+   "end": 56.507,
+   "beat": 13
+  },
+  {
+   "w": "cher…",
+   "start": 56.507,
+   "end": 56.767,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 56.767,
+   "end": 57.267,
+   "beat": 13
+  },
+  {
+   "w": "des",
+   "start": 57.267,
+   "end": 57.387,
+   "beat": 13
+  },
+  {
+   "w": "valorisations",
+   "start": 57.387,
+   "end": 58.007,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 58.007,
+   "end": 58.227,
+   "beat": 13
+  },
+  {
+   "w": "l'IA",
+   "start": 58.367,
+   "end": 58.527,
+   "beat": 13
+  },
+  {
+   "w": "plus",
+   "start": 58.527,
+   "end": 58.867,
+   "beat": 13
+  },
+  {
+   "w": "dures",
+   "start": 58.867,
+   "end": 59.207,
+   "beat": 13
+  },
+  {
+   "w": "à",
+   "start": 59.207,
+   "end": 59.387,
+   "beat": 13
+  },
+  {
+   "w": "justifier.",
+   "start": 59.387,
+   "end": 59.907,
+   "beat": 13
+  },
+  {
+   "w": "Prochain",
+   "start": 60.053,
+   "end": 60.493,
+   "beat": 14
+  },
+  {
+   "w": "rendez-vous :",
+   "start": 60.493,
+   "end": 60.693,
+   "beat": 14
+  },
+  {
+   "w": "demain,",
+   "start": 61.213,
+   "end": 61.393,
+   "beat": 14
+  },
+  {
+   "w": "l'inflation",
+   "start": 61.793,
+   "end": 62.233,
+   "beat": 14
+  },
+  {
+   "w": "PCE,",
+   "start": 62.233,
+   "end": 62.813,
+   "beat": 14
+  },
+  {
+   "w": "la",
+   "start": 63.153,
+   "end": 63.213,
+   "beat": 14
+  },
+  {
+   "w": "dernière",
+   "start": 63.213,
+   "end": 63.513,
+   "beat": 14
+  },
+  {
+   "w": "grosse",
+   "start": 63.513,
+   "end": 63.873,
+   "beat": 14
+  },
+  {
+   "w": "statistique",
+   "start": 63.873,
+   "end": 64.633,
+   "beat": 14
+  },
+  {
+   "w": "avant",
+   "start": 64.633,
+   "end": 64.833,
+   "beat": 14
+  },
+  {
+   "w": "la",
+   "start": 64.833,
+   "end": 64.993,
+   "beat": 14
+  },
+  {
+   "w": "Fed.",
+   "start": 64.993,
+   "end": 65.253,
+   "beat": 14
+  },
+  {
+   "w": "Alors,",
+   "start": 65.511,
+   "end": 65.771,
+   "beat": 15
+  },
+  {
+   "w": "simple",
+   "start": 66.011,
+   "end": 66.291,
+   "beat": 15
+  },
+  {
+   "w": "pause",
+   "start": 66.291,
+   "end": 66.651,
+   "beat": 15
+  },
+  {
+   "w": "après",
+   "start": 66.651,
+   "end": 66.971,
+   "beat": 15
+  },
+  {
+   "w": "un",
+   "start": 66.971,
+   "end": 67.131,
+   "beat": 15
+  },
+  {
+   "w": "rebond",
+   "start": 67.131,
+   "end": 67.471,
+   "beat": 15
+  },
+  {
+   "w": "historique…",
+   "start": 67.471,
+   "end": 68.191,
+   "beat": 15
+  },
+  {
+   "w": "ou",
+   "start": 68.191,
+   "end": 68.431,
+   "beat": 15
+  },
+  {
+   "w": "début",
+   "start": 68.431,
+   "end": 68.731,
+   "beat": 15
+  },
+  {
+   "w": "d'une",
+   "start": 68.871,
+   "end": 68.971,
+   "beat": 15
+  },
+  {
+   "w": "nouvelle",
+   "start": 68.971,
+   "end": 69.191,
+   "beat": 15
+  },
+  {
+   "w": "secousse ?",
+   "start": 69.191,
+   "end": 69.711,
+   "beat": 15
+  },
+  {
+   "w": "Dis-le",
+   "start": 69.891,
+   "end": 70.071,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 70.171,
+   "end": 70.291,
+   "beat": 15
+  },
+  {
+   "w": "commentaire.",
+   "start": 70.291,
+   "end": 70.771,
+   "beat": 15
+  },
+  {
+   "w": "Si",
+   "start": 70.995,
+   "end": 71.195,
+   "beat": 16
+  },
+  {
+   "w": "tu",
+   "start": 71.195,
+   "end": 71.295,
+   "beat": 16
+  },
+  {
+   "w": "veux",
+   "start": 71.295,
+   "end": 71.435,
+   "beat": 16
+  },
+  {
+   "w": "comprendre",
+   "start": 71.435,
+   "end": 71.835,
+   "beat": 16
+  },
+  {
+   "w": "avant",
+   "start": 71.835,
+   "end": 72.155,
+   "beat": 16
+  },
+  {
+   "w": "les",
+   "start": 72.155,
+   "end": 72.355,
+   "beat": 16
+  },
+  {
+   "w": "autres",
+   "start": 72.355,
+   "end": 72.635,
+   "beat": 16
+  },
+  {
+   "w": "au",
+   "start": 72.855,
+   "end": 72.895,
+   "beat": 16
+  },
+  {
+   "w": "lieu",
+   "start": 72.895,
+   "end": 73.015,
+   "beat": 16
+  },
+  {
+   "w": "de",
+   "start": 73.015,
+   "end": 73.155,
+   "beat": 16
+  },
+  {
+   "w": "subir,",
+   "start": 73.155,
+   "end": 73.455,
+   "beat": 16
+  },
+  {
+   "w": "rejoins",
+   "start": 73.815,
+   "end": 74.235,
+   "beat": 16
+  },
+  {
+   "w": "plus",
+   "start": 74.235,
+   "end": 74.375,
+   "beat": 16
+  },
+  {
+   "w": "de",
+   "start": 74.375,
+   "end": 74.535,
+   "beat": 16
+  },
+  {
+   "w": "22 000",
+   "start": 74.815,
+   "end": 75.015,
+   "beat": 16
+  },
+  {
+   "w": "personnes",
+   "start": 75.015,
+   "end": 75.375,
+   "beat": 16
+  },
+  {
+   "w": "sur",
+   "start": 75.375,
+   "end": 75.655,
+   "beat": 16
+  },
+  {
+   "w": "mon",
+   "start": 75.655,
+   "end": 75.775,
+   "beat": 16
+  },
+  {
+   "w": "Telegram",
+   "start": 75.775,
+   "end": 76.275,
+   "beat": 16
+  },
+  {
+   "w": "gratuit :",
+   "start": 76.275,
+   "end": 76.535,
+   "beat": 16
+  },
+  {
+   "w": "l'actu",
+   "start": 77.095,
+   "end": 77.355,
+   "beat": 16
+  },
+  {
+   "w": "géopolitique",
+   "start": 77.355,
+   "end": 78.095,
+   "beat": 16
+  },
+  {
+   "w": "et",
+   "start": 78.095,
+   "end": 78.195,
+   "beat": 16
+  },
+  {
+   "w": "financière",
+   "start": 78.195,
+   "end": 78.775,
+   "beat": 16
+  },
+  {
+   "w": "décortiquée,",
+   "start": 78.775,
+   "end": 79.395,
+   "beat": 16
+  },
+  {
+   "w": "mes",
+   "start": 79.755,
+   "end": 79.875,
+   "beat": 16
+  },
+  {
+   "w": "analyses",
+   "start": 79.875,
+   "end": 80.215,
+   "beat": 16
+  },
+  {
+   "w": "d'actions",
+   "start": 80.435,
+   "end": 80.615,
+   "beat": 16
+  },
+  {
+   "w": "détaillées",
+   "start": 80.615,
+   "end": 81.255,
+   "beat": 16
+  },
+  {
+   "w": "et",
+   "start": 81.255,
+   "end": 81.455,
+   "beat": 16
+  },
+  {
+   "w": "mes",
+   "start": 81.455,
+   "end": 81.555,
+   "beat": 16
+  },
+  {
+   "w": "opportunités",
+   "start": 81.555,
+   "end": 82.235,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 82.235,
+   "end": 82.495,
+   "beat": 16
+  },
+  {
+   "w": "temps",
+   "start": 82.495,
+   "end": 82.635,
+   "beat": 16
+  },
+  {
+   "w": "réel.",
+   "start": 82.635,
+   "end": 83.035,
+   "beat": 16
+  },
+  {
+   "w": "Entre",
+   "start": 83.195,
+   "end": 83.435,
+   "beat": 16
+  },
+  {
+   "w": "dans",
+   "start": 83.435,
+   "end": 83.555,
+   "beat": 16
+  },
+  {
+   "w": "le",
+   "start": 83.555,
+   "end": 83.675,
+   "beat": 16
+  },
+  {
+   "w": "canal,",
+   "start": 83.675,
+   "end": 83.995,
+   "beat": 16
+  },
+  {
+   "w": "lien",
+   "start": 83.995,
+   "end": 84.495,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 84.495,
+   "end": 84.515,
+   "beat": 16
+  },
+  {
+   "w": "bio.",
+   "start": 84.515,
+   "end": 84.795,
+   "beat": 16
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "beat": 0,
+   "end": 1.22
+  },
+  {
+   "start": 1.22,
+   "lines": [
+    [
+     3,
+     4
+    ]
+   ],
+   "beat": 0,
+   "end": 1.98
+  },
+  {
+   "start": 1.98,
+   "lines": [
+    [
+     5,
+     6
+    ]
+   ],
+   "beat": 0,
+   "end": 2.46
+  },
+  {
+   "start": 2.46,
+   "lines": [
+    [
+     7,
+     8
+    ]
+   ],
+   "beat": 0,
+   "end": 2.88
+  },
+  {
+   "start": 2.88,
+   "lines": [
+    [
+     9,
+     10
+    ]
+   ],
+   "beat": 0,
+   "end": 3.68
+  },
+  {
+   "start": 3.68,
+   "lines": [
+    [
+     11,
+     12
+    ],
+    [
+     13,
+     14
+    ]
+   ],
+   "beat": 0,
+   "end": 5.08
+  },
+  {
+   "start": 5.08,
+   "lines": [
+    [
+     15,
+     16
+    ]
+   ],
+   "beat": 0,
+   "end": 6.049
+  },
+  {
+   "start": 6.049,
+   "lines": [
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "beat": 1,
+   "end": 6.629
+  },
+  {
+   "start": 6.629,
+   "lines": [
+    [
+     21,
+     22
+    ]
+   ],
+   "beat": 1,
+   "end": 7.189
+  },
+  {
+   "start": 7.189,
+   "lines": [
+    [
+     23,
+     24
+    ]
+   ],
+   "beat": 1,
+   "end": 7.729
+  },
+  {
+   "start": 7.729,
+   "lines": [
+    [
+     25
+    ],
+    [
+     26,
+     27
+    ]
+   ],
+   "beat": 1,
+   "end": 8.349
+  },
+  {
+   "start": 8.349,
+   "lines": [
+    [
+     28,
+     29,
+     30
+    ]
+   ],
+   "beat": 1,
+   "end": 9.745
+  },
+  {
+   "start": 9.745,
+   "lines": [
+    [
+     31,
+     32
+    ],
+    [
+     33
+    ]
+   ],
+   "beat": 2,
+   "end": 10.445
+  },
+  {
+   "start": 10.445,
+   "lines": [
+    [
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 11.245
+  },
+  {
+   "start": 11.245,
+   "lines": [
+    [
+     35,
+     36
+    ],
+    [
+     37,
+     38
+    ]
+   ],
+   "beat": 2,
+   "end": 12.525
+  },
+  {
+   "start": 12.525,
+   "lines": [
+    [
+     39,
+     40
+    ],
+    [
+     41
+    ]
+   ],
+   "beat": 2,
+   "end": 13.345
+  },
+  {
+   "start": 13.345,
+   "lines": [
+    [
+     42,
+     43
+    ],
+    [
+     44
+    ]
+   ],
+   "beat": 2,
+   "end": 14.385
+  },
+  {
+   "start": 14.385,
+   "lines": [
+    [
+     45,
+     46
+    ],
+    [
+     47
+    ]
+   ],
+   "beat": 2,
+   "end": 15.33
+  },
+  {
+   "start": 15.33,
+   "lines": [
+    [
+     48,
+     49
+    ],
+    [
+     50
+    ]
+   ],
+   "beat": 3,
+   "end": 16.17
+  },
+  {
+   "start": 16.17,
+   "lines": [
+    [
+     51,
+     52,
+     53
+    ],
+    [
+     54
+    ]
+   ],
+   "beat": 3,
+   "end": 17.53
+  },
+  {
+   "start": 17.53,
+   "lines": [
+    [
+     55,
+     56
+    ],
+    [
+     57,
+     58
+    ]
+   ],
+   "beat": 3,
+   "end": 19.41
+  },
+  {
+   "start": 19.41,
+   "lines": [
+    [
+     59,
+     60
+    ],
+    [
+     61
+    ]
+   ],
+   "beat": 3,
+   "end": 20.33
+  },
+  {
+   "start": 20.33,
+   "lines": [
+    [
+     62,
+     63
+    ],
+    [
+     64
+    ]
+   ],
+   "beat": 3,
+   "end": 21.271
+  },
+  {
+   "start": 21.271,
+   "lines": [
+    [
+     65,
+     66
+    ],
+    [
+     67,
+     68
+    ]
+   ],
+   "beat": 4,
+   "end": 22.731
+  },
+  {
+   "start": 22.731,
+   "lines": [
+    [
+     69
+    ],
+    [
+     70
+    ]
+   ],
+   "beat": 4,
+   "end": 23.571
+  },
+  {
+   "start": 23.571,
+   "lines": [
+    [
+     71,
+     72
+    ]
+   ],
+   "beat": 4,
+   "end": 24.267
+  },
+  {
+   "start": 24.267,
+   "lines": [
+    [
+     73,
+     74
+    ]
+   ],
+   "beat": 5,
+   "end": 25.247
+  },
+  {
+   "start": 25.247,
+   "lines": [
+    [
+     75,
+     76,
+     77
+    ]
+   ],
+   "beat": 5,
+   "end": 25.647
+  },
+  {
+   "start": 25.647,
+   "lines": [
+    [
+     78,
+     79,
+     80
+    ]
+   ],
+   "beat": 5,
+   "end": 26.467
+  },
+  {
+   "start": 26.467,
+   "lines": [
+    [
+     81,
+     82
+    ]
+   ],
+   "beat": 5,
+   "end": 27.367
+  },
+  {
+   "start": 27.367,
+   "lines": [
+    [
+     83,
+     84,
+     85
+    ]
+   ],
+   "beat": 5,
+   "end": 27.94
+  },
+  {
+   "start": 27.94,
+   "lines": [
+    [
+     86,
+     87
+    ]
+   ],
+   "beat": 6,
+   "end": 28.72
+  },
+  {
+   "start": 28.72,
+   "lines": [
+    [
+     88,
+     89
+    ],
+    [
+     90
+    ]
+   ],
+   "beat": 6,
+   "end": 29.62
+  },
+  {
+   "start": 29.62,
+   "lines": [
+    [
+     91,
+     92
+    ]
+   ],
+   "beat": 6,
+   "end": 30.26
+  },
+  {
+   "start": 30.26,
+   "lines": [
+    [
+     93
+    ],
+    [
+     94,
+     95
+    ]
+   ],
+   "beat": 6,
+   "end": 31.18
+  },
+  {
+   "start": 31.18,
+   "lines": [
+    [
+     96,
+     97
+    ],
+    [
+     98,
+     99
+    ]
+   ],
+   "beat": 6,
+   "end": 32.5
+  },
+  {
+   "start": 32.5,
+   "lines": [
+    [
+     100
+    ]
+   ],
+   "beat": 6,
+   "end": 33.213
+  },
+  {
+   "start": 33.213,
+   "lines": [
+    [
+     101,
+     102
+    ],
+    [
+     103,
+     104
+    ]
+   ],
+   "beat": 7,
+   "end": 34.533
+  },
+  {
+   "start": 34.533,
+   "lines": [
+    [
+     105,
+     106
+    ]
+   ],
+   "beat": 7,
+   "end": 35.453
+  },
+  {
+   "start": 35.453,
+   "lines": [
+    [
+     107,
+     108
+    ],
+    [
+     109,
+     110
+    ]
+   ],
+   "beat": 7,
+   "end": 36.653
+  },
+  {
+   "start": 36.653,
+   "lines": [
+    [
+     111,
+     112
+    ],
+    [
+     113
+    ]
+   ],
+   "beat": 7,
+   "end": 37.293
+  },
+  {
+   "start": 37.293,
+   "lines": [
+    [
+     114,
+     115
+    ]
+   ],
+   "beat": 7,
+   "end": 38.479
+  },
+  {
+   "start": 38.479,
+   "lines": [
+    [
+     116,
+     117
+    ],
+    [
+     118,
+     119
+    ]
+   ],
+   "beat": 8,
+   "end": 40.099
+  },
+  {
+   "start": 40.099,
+   "lines": [
+    [
+     120
+    ],
+    [
+     121,
+     122
+    ]
+   ],
+   "beat": 8,
+   "end": 41.797
+  },
+  {
+   "start": 41.797,
+   "lines": [
+    [
+     123,
+     124
+    ],
+    [
+     125
+    ]
+   ],
+   "beat": 9,
+   "end": 42.617
+  },
+  {
+   "start": 42.617,
+   "lines": [
+    [
+     126,
+     127
+    ],
+    [
+     128,
+     129
+    ]
+   ],
+   "beat": 9,
+   "end": 43.157
+  },
+  {
+   "start": 43.157,
+   "lines": [
+    [
+     130,
+     131
+    ],
+    [
+     132,
+     133
+    ]
+   ],
+   "beat": 9,
+   "end": 44.807
+  },
+  {
+   "start": 44.807,
+   "lines": [
+    [
+     134,
+     135
+    ],
+    [
+     136,
+     137
+    ]
+   ],
+   "beat": 10,
+   "end": 45.567
+  },
+  {
+   "start": 45.567,
+   "lines": [
+    [
+     138,
+     139,
+     140
+    ],
+    [
+     141
+    ]
+   ],
+   "beat": 10,
+   "end": 46.607
+  },
+  {
+   "start": 46.607,
+   "lines": [
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 10,
+   "end": 47.484
+  },
+  {
+   "start": 47.484,
+   "lines": [
+    [
+     144,
+     145
+    ],
+    [
+     146
+    ]
+   ],
+   "beat": 11,
+   "end": 48.184
+  },
+  {
+   "start": 48.184,
+   "lines": [
+    [
+     147
+    ],
+    [
+     148,
+     149
+    ]
+   ],
+   "beat": 11,
+   "end": 49.724
+  },
+  {
+   "start": 49.724,
+   "lines": [
+    [
+     150,
+     151,
+     152
+    ]
+   ],
+   "beat": 11,
+   "end": 50.664
+  },
+  {
+   "start": 50.664,
+   "lines": [
+    [
+     153,
+     154
+    ],
+    [
+     155,
+     156
+    ]
+   ],
+   "beat": 11,
+   "end": 51.344
+  },
+  {
+   "start": 51.344,
+   "lines": [
+    [
+     157,
+     158,
+     159
+    ],
+    [
+     160
+    ]
+   ],
+   "beat": 11,
+   "end": 52.552
+  },
+  {
+   "start": 52.552,
+   "lines": [
+    [
+     161,
+     162
+    ],
+    [
+     163
+    ]
+   ],
+   "beat": 12,
+   "end": 53.692
+  },
+  {
+   "start": 53.692,
+   "lines": [
+    [
+     164,
+     165
+    ],
+    [
+     166
+    ]
+   ],
+   "beat": 12,
+   "end": 54.827
+  },
+  {
+   "start": 54.827,
+   "lines": [
+    [
+     167,
+     168
+    ],
+    [
+     169,
+     170
+    ]
+   ],
+   "beat": 13,
+   "end": 55.807
+  },
+  {
+   "start": 55.807,
+   "lines": [
+    [
+     171,
+     172
+    ],
+    [
+     173
+    ]
+   ],
+   "beat": 13,
+   "end": 56.247
+  },
+  {
+   "start": 56.247,
+   "lines": [
+    [
+     174,
+     175
+    ]
+   ],
+   "beat": 13,
+   "end": 56.767
+  },
+  {
+   "start": 56.767,
+   "lines": [
+    [
+     176,
+     177
+    ],
+    [
+     178
+    ]
+   ],
+   "beat": 13,
+   "end": 58.007
+  },
+  {
+   "start": 58.007,
+   "lines": [
+    [
+     179,
+     180
+    ],
+    [
+     181,
+     182
+    ]
+   ],
+   "beat": 13,
+   "end": 59.207
+  },
+  {
+   "start": 59.207,
+   "lines": [
+    [
+     183,
+     184
+    ]
+   ],
+   "beat": 13,
+   "end": 60.053
+  },
+  {
+   "start": 60.053,
+   "lines": [
+    [
+     185
+    ],
+    [
+     186
+    ]
+   ],
+   "beat": 14,
+   "end": 61.213
+  },
+  {
+   "start": 61.213,
+   "lines": [
+    [
+     187
+    ],
+    [
+     188,
+     189
+    ]
+   ],
+   "beat": 14,
+   "end": 63.153
+  },
+  {
+   "start": 63.153,
+   "lines": [
+    [
+     190,
+     191
+    ],
+    [
+     192
+    ]
+   ],
+   "beat": 14,
+   "end": 63.873
+  },
+  {
+   "start": 63.873,
+   "lines": [
+    [
+     193
+    ],
+    [
+     194,
+     195,
+     196
+    ]
+   ],
+   "beat": 14,
+   "end": 65.511
+  },
+  {
+   "start": 65.511,
+   "lines": [
+    [
+     197,
+     198
+    ],
+    [
+     199,
+     200
+    ]
+   ],
+   "beat": 15,
+   "end": 66.971
+  },
+  {
+   "start": 66.971,
+   "lines": [
+    [
+     201,
+     202
+    ],
+    [
+     203
+    ]
+   ],
+   "beat": 15,
+   "end": 68.191
+  },
+  {
+   "start": 68.191,
+   "lines": [
+    [
+     204,
+     205
+    ],
+    [
+     206,
+     207
+    ]
+   ],
+   "beat": 15,
+   "end": 69.191
+  },
+  {
+   "start": 69.191,
+   "lines": [
+    [
+     208
+    ]
+   ],
+   "beat": 15,
+   "end": 69.891
+  },
+  {
+   "start": 69.891,
+   "lines": [
+    [
+     209,
+     210
+    ],
+    [
+     211
+    ]
+   ],
+   "beat": 15,
+   "end": 70.995
+  },
+  {
+   "start": 70.995,
+   "lines": [
+    [
+     212,
+     213,
+     214
+    ],
+    [
+     215
+    ]
+   ],
+   "beat": 16,
+   "end": 71.835
+  },
+  {
+   "start": 71.835,
+   "lines": [
+    [
+     216,
+     217
+    ],
+    [
+     218
+    ]
+   ],
+   "beat": 16,
+   "end": 72.855
+  },
+  {
+   "start": 72.855,
+   "lines": [
+    [
+     219,
+     220
+    ],
+    [
+     221,
+     222
+    ]
+   ],
+   "beat": 16,
+   "end": 73.815
+  },
+  {
+   "start": 73.815,
+   "lines": [
+    [
+     223,
+     224
+    ],
+    [
+     225,
+     226
+    ]
+   ],
+   "beat": 16,
+   "end": 75.015
+  },
+  {
+   "start": 75.015,
+   "lines": [
+    [
+     227,
+     228
+    ],
+    [
+     229,
+     230
+    ]
+   ],
+   "beat": 16,
+   "end": 76.275
+  },
+  {
+   "start": 76.275,
+   "lines": [
+    [
+     231
+    ]
+   ],
+   "beat": 16,
+   "end": 77.095
+  },
+  {
+   "start": 77.095,
+   "lines": [
+    [
+     232
+    ],
+    [
+     233
+    ]
+   ],
+   "beat": 16,
+   "end": 78.095
+  },
+  {
+   "start": 78.095,
+   "lines": [
+    [
+     234,
+     235
+    ],
+    [
+     236
+    ]
+   ],
+   "beat": 16,
+   "end": 79.755
+  },
+  {
+   "start": 79.755,
+   "lines": [
+    [
+     237,
+     238
+    ],
+    [
+     239
+    ]
+   ],
+   "beat": 16,
+   "end": 80.615
+  },
+  {
+   "start": 80.615,
+   "lines": [
+    [
+     240,
+     241
+    ]
+   ],
+   "beat": 16,
+   "end": 81.455
+  },
+  {
+   "start": 81.455,
+   "lines": [
+    [
+     242,
+     243
+    ],
+    [
+     244,
+     245
+    ]
+   ],
+   "beat": 16,
+   "end": 82.635
+  },
+  {
+   "start": 82.635,
+   "lines": [
+    [
+     246
+    ]
+   ],
+   "beat": 16,
+   "end": 83.195
+  },
+  {
+   "start": 83.195,
+   "lines": [
+    [
+     247,
+     248
+    ],
+    [
+     249,
+     250
+    ]
+   ],
+   "beat": 16,
+   "end": 83.995
+  },
+  {
+   "start": 83.995,
+   "lines": [
+    [
+     251,
+     252,
+     253
+    ]
+   ],
+   "beat": 16,
+   "end": 85.164
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Mardi 24 novembre 2026 · Avant Wall Street",
+   "until_beat": 1,
+   "start": 0.0,
+   "end": 9.745
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "WALL STREET · HPE",
+   "right": "24 NOV.",
+   "tag": "PARADOXE",
+   "headline": "HPE recule de 11,1 % en avant-Bourse malgré des résultats supérieurs aux attentes",
+   "highlight": "11,1 %",
+   "sub": "Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris) · Yahoo Finance (ADVFN) · 24 nov. 2026",
+   "start": 0.12,
+   "end": 6.049
+  },
+  {
+   "type": "stock",
+   "key": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "sub": "HPE · NYSE · avant-Bourse",
+   "pct": "−11,1 %",
+   "up": false,
+   "y": 1480,
+   "at_word": 11,
+   "start": 3.68,
+   "end": 6.049
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "LUNDI 23 NOV.",
+    "value_to": 17,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "Séance de lundi, plus de +17 %",
+    "logo": "HPE"
+   },
+   "b_at_word": 13,
+   "b": {
+    "kicker": "MARDI · AVANT-BOURSE",
+    "value_to": -11.1,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Vers 5 h 26 à New York",
+    "logo": "HPE"
+   },
+   "start": 6.049,
+   "end": 9.745,
+   "b_t": 8.689
+  },
+  {
+   "type": "source",
+   "text": "Yahoo Finance (ADVFN) · 24 nov. 2026 · Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 6.049,
+   "end": 9.745
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "HPE · 4e TRIMESTRE FISCAL",
+   "logo": "HPE",
+   "value_from": 0,
+   "value_to": 14.55,
+   "decimals": 2,
+   "prefix": "",
+   "suffix": "",
+   "color": "cyan",
+   "pill": "MILLIARDS DE $ · AU-DESSUS DU CONSENSUS",
+   "desc": "Chiffre d'affaires · Yahoo Finance (ADVFN) · 24 nov. 2026 (CNBC)",
+   "start": 9.745,
+   "end": 15.33,
+   "cut_in": true
+  },
+  {
+   "type": "ticket",
+   "at_word": 0,
+   "title": "HPE · LE BULLETIN",
+   "subtitle": "4e trimestre fiscal 2026",
+   "rows": [
+    [
+     "Cloud & IA",
+     "≈ +69 %"
+    ],
+    [
+     "Commandes IA",
+     "× 2"
+    ],
+    [
+     "Rachats d'actions",
+     "+5 Md$"
+    ]
+   ],
+   "total": [
+    "PRÉVISIONS",
+    "AU-DESSUS"
+   ],
+   "start": 15.33,
+   "end": 21.271
+  },
+  {
+   "type": "source",
+   "text": "Yahoo Finance (ADVFN) · 24 nov. 2026",
+   "start": 15.33,
+   "end": 21.271
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "POURQUOI CETTE",
+    "SANCTION ?"
+   ],
+   "at_word": 1,
+   "start": 21.751,
+   "end": 24.267
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_3435c02c.jpg",
+   "bio_at_word": 12,
+   "start": 24.267,
+   "end": 27.94,
+   "bio_t": 27.587
+  },
+  {
+   "type": "stock",
+   "key": "NVDA",
+   "name": "Nvidia",
+   "sub": "NVDA · Nasdaq · avant-Bourse",
+   "pct": "−4,4 %",
+   "up": false,
+   "y": 560,
+   "at_word": 7,
+   "start": 30.26,
+   "end": 33.213
+  },
+  {
+   "type": "source",
+   "text": "Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 27.94,
+   "end": 33.213
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "NVIDIA · LUNDI 23 NOV.",
+   "logo": "NVDA",
+   "value_from": 0,
+   "value_to": 31.5,
+   "decimals": 1,
+   "prefix": "+",
+   "suffix": " %",
+   "color": "green",
+   "pill": "PRÈS DE 1 000 MD$ GAGNÉS",
+   "desc": "Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 33.213,
+   "end": 38.479
+  },
+  {
+   "type": "screen_logos",
+   "kicker": "PUCES · AVANT-BOURSE",
+   "value_from": 0,
+   "value_to": -4.3,
+   "decimals": 1,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "DE −3,3 % À −4,3 %",
+   "keys": [
+    "MU",
+    "AMD",
+    "MRVL"
+   ],
+   "desc": "Micron · AMD · Marvell · Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 38.479,
+   "end": 41.797,
+   "cut_in": true
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "NASDAQ 100 · CONTRATS À TERME",
+   "value_from": 0,
+   "value_to": -1.11,
+   "decimals": 2,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "MARDI · 5 H 26 À NEW YORK",
+   "desc": "S&P 500 −0,46 % · Dow −0,14 % · Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 41.797,
+   "end": 44.807,
+   "cut_in": true
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "LE VRAI POIDS LOURD :",
+    "LA FED"
+   ],
+   "at_word": 2,
+   "start": 45.147,
+   "end": 47.484
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "FED · RÉUNION DE DÉCEMBRE",
+   "value_from": 0,
+   "value_to": 95,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "PROBABILITÉ D'UNE HAUSSE DE 0,25 PT",
+   "desc": "Yahoo Finance · 24 nov. 2026 · CME FedWatch",
+   "start": 47.484,
+   "end": 52.552
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "FED · TAUX",
+   "right": "DÉCEMBRE",
+   "tag": "SCÉNARIO",
+   "headline": "Une faible probabilité d'une hausse d'un demi-point, contre zéro la veille",
+   "highlight": "un demi-point",
+   "sub": "Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris) · CME FedWatch",
+   "start": 52.752,
+   "end": 54.827
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "ARGENT PLUS CHER",
+    "= IA SOUS PRESSION"
+   ],
+   "at_word": 3,
+   "start": 55.407,
+   "end": 60.053
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "AGENDA · ÉTATS-UNIS",
+   "right": "MER. 25 NOV.",
+   "tag": "À SURVEILLER",
+   "headline": "L'indice PCE, dernière statistique majeure avant la dernière réunion de la Fed de l'année",
+   "highlight": "dernière statistique majeure",
+   "sub": "Reuters via SRN News · 24 nov. 2026, 11 h 26 (Paris)",
+   "start": 61.213,
+   "end": 65.511
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "SIMPLE PAUSE OU",
+    "NOUVELLE SECOUSSE ?"
+   ],
+   "at_word": 1,
+   "start": 66.011,
+   "end": 70.995
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "HPE, Nvidia, Fed : le paradoxe décrypté",
+   "imgs": [
+    "tg_1eaa56f0.jpg",
+    "tg_3435c02c_top.jpg",
+    "tg_4b2fa9a8.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 15,
+   "bio_at_word": 41,
+   "button": "ENTRE DANS LE CANAL",
+   "start": 70.995,
+   "end": 85.074,
+   "subs_t": 75.015,
+   "bio_t": 84.515
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b0.mp4",
+   "start": 0.0,
+   "end": 3.18,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "at_word": 10,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b0b.mp4",
+   "start": 3.18,
+   "end": 6.049,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b1.mp4",
+   "start": 6.049,
+   "end": 9.745,
+   "beat": 1
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b2.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b2.mp4",
+   "start": 9.745,
+   "end": 15.33,
+   "beat": 2
+  },
+  {
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b3.mp4",
+   "start": 15.33,
+   "end": 20.49,
+   "beat": 3
+  },
+  {
+   "clip": "b3b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 15,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b3b.mp4",
+   "start": 20.49,
+   "end": 21.271,
+   "beat": 3
+  },
+  {
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b4.mp4",
+   "start": 21.271,
+   "end": 24.267,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b5.mp4",
+   "start": 24.267,
+   "end": 27.94,
+   "beat": 5
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.4,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b6.mp4",
+   "start": 27.94,
+   "end": 30.22,
+   "beat": 6
+  },
+  {
+   "clip": "b6b.mp4",
+   "ss": 1,
+   "cx": 0.72,
+   "at_word": 7,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b6b.mp4",
+   "start": 30.22,
+   "end": 33.213,
+   "beat": 6
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b7.mp4",
+   "start": 33.213,
+   "end": 38.479,
+   "beat": 7
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b8.mp4",
+   "start": 38.479,
+   "end": 41.797,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b9.mp4",
+   "start": 41.797,
+   "end": 44.807,
+   "beat": 9
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b10.mp4",
+   "start": 44.807,
+   "end": 47.484,
+   "beat": 10
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b11.mp4",
+   "start": 47.484,
+   "end": 52.552,
+   "beat": 11
+  },
+  {
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b12.mp4",
+   "start": 52.552,
+   "end": 54.827,
+   "beat": 12
+  },
+  {
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b13.mp4",
+   "start": 54.827,
+   "end": 57.347,
+   "beat": 13
+  },
+  {
+   "clip": "b13b.mp4",
+   "ss": 1,
+   "cx": 0.62,
+   "at_word": 11,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b13b.mp4",
+   "start": 57.347,
+   "end": 60.053,
+   "beat": 13
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.6,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b14.mp4",
+   "start": 60.053,
+   "end": 65.511,
+   "beat": 14
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep51_hpe_paradoxe/broll/b15.mp4",
+   "start": 65.511,
+   "end": 70.995,
+   "beat": 15
+  },
+  {
+   "blur_prev": true,
+   "start": 70.995,
+   "end": 86.874,
+   "beat": 16
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.12,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 3.13,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 3.68,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 5.989,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 6.169,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 8.689,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 8.739,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 9.715,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 9.865,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 15.33,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 20.44,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 21.221,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 21.751,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 24.217,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 24.267,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 27.587,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 27.89,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 30.17,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 30.26,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 33.153,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 33.333,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 38.429,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 38.579,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 38.779,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 38.869,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 38.959,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 41.767,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 41.917,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 45.147,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 47.424,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 47.604,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 52.752,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 54.777,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 55.407,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 57.297,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 60.003,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 61.213,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 65.461,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 66.011,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 70.945,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 71.045,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 71.345,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 75.015,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 84.474,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 84.515,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 85.074,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   85.074,
+   87.874
+  ]
+ ],
+ "endcard": {
+  "start": 85.074,
+  "button": "ENTRE DANS LE CANAL",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "24 novembre 2026"
+}
