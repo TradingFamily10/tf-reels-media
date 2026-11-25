@@ -1,0 +1,3061 @@
+{
+ "fps": 30,
+ "duration": 82.95,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.35,
+   "w0": 0,
+   "w1": 13,
+   "voice": "episodes/ep53_europe_washington/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.41,
+   "end": 7.486,
+   "w0": 14,
+   "w1": 23,
+   "voice": "episodes/ep53_europe_washington/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 7.546,
+   "end": 12.069,
+   "w0": 24,
+   "w1": 34,
+   "voice": "episodes/ep53_europe_washington/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 12.129,
+   "end": 16.349,
+   "w0": 35,
+   "w1": 44,
+   "voice": "episodes/ep53_europe_washington/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 16.409,
+   "end": 21.066,
+   "w0": 45,
+   "w1": 54,
+   "voice": "episodes/ep53_europe_washington/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 21.126,
+   "end": 26.144,
+   "w0": 55,
+   "w1": 66,
+   "voice": "episodes/ep53_europe_washington/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 26.204,
+   "end": 29.224,
+   "w0": 67,
+   "w1": 72,
+   "voice": "episodes/ep53_europe_washington/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 29.284,
+   "end": 33.624,
+   "w0": 73,
+   "w1": 86,
+   "voice": "episodes/ep53_europe_washington/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 33.684,
+   "end": 40.596,
+   "w0": 87,
+   "w1": 105,
+   "voice": "episodes/ep53_europe_washington/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 40.656,
+   "end": 47.261,
+   "w0": 106,
+   "w1": 122,
+   "voice": "episodes/ep53_europe_washington/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 47.321,
+   "end": 55.697,
+   "w0": 123,
+   "w1": 138,
+   "voice": "episodes/ep53_europe_washington/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 55.757,
+   "end": 61.331,
+   "w0": 139,
+   "w1": 155,
+   "voice": "episodes/ep53_europe_washington/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 61.391,
+   "end": 65.708,
+   "w0": 156,
+   "w1": 164,
+   "voice": "episodes/ep53_europe_washington/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 65.768,
+   "end": 81.04,
+   "w0": 165,
+   "w1": 207,
+   "voice": "episodes/ep53_europe_washington/voice/beat_13.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "Les",
+   "start": 0.0,
+   "end": 0.16,
+   "beat": 0
+  },
+  {
+   "w": "9",
+   "start": 0.16,
+   "end": 0.58,
+   "beat": 0
+  },
+  {
+   "w": "grandes",
+   "start": 0.58,
+   "end": 0.66,
+   "beat": 0
+  },
+  {
+   "w": "Bourses",
+   "start": 0.66,
+   "end": 0.92,
+   "beat": 0
+  },
+  {
+   "w": "européennes",
+   "start": 0.92,
+   "end": 1.42,
+   "beat": 0
+  },
+  {
+   "w": "montent",
+   "start": 1.42,
+   "end": 1.74,
+   "beat": 0
+  },
+  {
+   "w": "ce",
+   "start": 1.74,
+   "end": 1.84,
+   "beat": 0
+  },
+  {
+   "w": "matin.",
+   "start": 1.84,
+   "end": 2.2,
+   "beat": 0
+  },
+  {
+   "w": "Pendant",
+   "start": 2.2,
+   "end": 2.62,
+   "beat": 0
+  },
+  {
+   "w": "que",
+   "start": 2.62,
+   "end": 2.86,
+   "beat": 0
+  },
+  {
+   "w": "la",
+   "start": 2.86,
+   "end": 3.0,
+   "beat": 0
+  },
+  {
+   "w": "tech",
+   "start": 3.0,
+   "end": 3.14,
+   "beat": 0
+  },
+  {
+   "w": "américaine",
+   "start": 3.14,
+   "end": 3.74,
+   "beat": 0
+  },
+  {
+   "w": "saigne.",
+   "start": 3.74,
+   "end": 4.2,
+   "beat": 0
+  },
+  {
+   "w": "Mais",
+   "start": 4.41,
+   "end": 4.69,
+   "beat": 1
+  },
+  {
+   "w": "ce",
+   "start": 4.69,
+   "end": 4.79,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 4.85,
+   "end": 4.93,
+   "beat": 1
+  },
+  {
+   "w": "pas",
+   "start": 4.93,
+   "end": 5.05,
+   "beat": 1
+  },
+  {
+   "w": "l'I.A.",
+   "start": 5.05,
+   "end": 5.41,
+   "beat": 1
+  },
+  {
+   "w": "qui",
+   "start": 5.41,
+   "end": 5.65,
+   "beat": 1
+  },
+  {
+   "w": "menace",
+   "start": 5.65,
+   "end": 6.01,
+   "beat": 1
+  },
+  {
+   "w": "l'Europe.",
+   "start": 6.09,
+   "end": 6.41,
+   "beat": 1
+  },
+  {
+   "w": "C'est",
+   "start": 6.69,
+   "end": 6.77,
+   "beat": 1
+  },
+  {
+   "w": "Washington.",
+   "start": 6.77,
+   "end": 7.05,
+   "beat": 1
+  },
+  {
+   "w": "À",
+   "start": 7.546,
+   "end": 7.966,
+   "beat": 2
+  },
+  {
+   "w": "Paris,",
+   "start": 7.966,
+   "end": 8.166,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 8.326,
+   "end": 8.386,
+   "beat": 2
+  },
+  {
+   "w": "CAC",
+   "start": 8.386,
+   "end": 8.566,
+   "beat": 2
+  },
+  {
+   "w": "40",
+   "start": 8.566,
+   "end": 8.866,
+   "beat": 2
+  },
+  {
+   "w": "grimpe",
+   "start": 8.866,
+   "end": 9.326,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 9.326,
+   "end": 9.406,
+   "beat": 2
+  },
+  {
+   "w": "1,20 %,",
+   "start": 9.406,
+   "end": 10.286,
+   "beat": 2
+  },
+  {
+   "w": "à",
+   "start": 10.286,
+   "end": 10.526,
+   "beat": 2
+  },
+  {
+   "w": "8 137",
+   "start": 10.526,
+   "end": 11.626,
+   "beat": 2
+  },
+  {
+   "w": "points.",
+   "start": 11.626,
+   "end": 11.826,
+   "beat": 2
+  },
+  {
+   "w": "En",
+   "start": 12.129,
+   "end": 12.369,
+   "beat": 3
+  },
+  {
+   "w": "tête",
+   "start": 12.369,
+   "end": 12.509,
+   "beat": 3
+  },
+  {
+   "w": "du",
+   "start": 12.509,
+   "end": 12.689,
+   "beat": 3
+  },
+  {
+   "w": "DAX",
+   "start": 12.689,
+   "end": 13.009,
+   "beat": 3
+  },
+  {
+   "w": "à",
+   "start": 13.009,
+   "end": 13.209,
+   "beat": 3
+  },
+  {
+   "w": "Francfort :",
+   "start": 13.209,
+   "end": 13.689,
+   "beat": 3
+  },
+  {
+   "w": "Volkswagen,",
+   "start": 13.829,
+   "end": 14.269,
+   "beat": 3
+  },
+  {
+   "w": "BMW",
+   "start": 14.709,
+   "end": 15.129,
+   "beat": 3
+  },
+  {
+   "w": "et",
+   "start": 15.129,
+   "end": 15.669,
+   "beat": 3
+  },
+  {
+   "w": "Mercedes.",
+   "start": 15.669,
+   "end": 15.929,
+   "beat": 3
+  },
+  {
+   "w": "Le",
+   "start": 16.409,
+   "end": 16.809,
+   "beat": 4
+  },
+  {
+   "w": "luxe",
+   "start": 16.809,
+   "end": 17.369,
+   "beat": 4
+  },
+  {
+   "w": "suit :",
+   "start": 17.369,
+   "end": 17.589,
+   "beat": 4
+  },
+  {
+   "w": "Swatch",
+   "start": 17.849,
+   "end": 18.309,
+   "beat": 4
+  },
+  {
+   "w": "bondit",
+   "start": 18.309,
+   "end": 18.749,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 18.749,
+   "end": 18.909,
+   "beat": 4
+  },
+  {
+   "w": "6 %,",
+   "start": 18.909,
+   "end": 19.609,
+   "beat": 4
+  },
+  {
+   "w": "Richemont",
+   "start": 19.609,
+   "end": 20.309,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 20.309,
+   "end": 20.589,
+   "beat": 4
+  },
+  {
+   "w": "3 %.",
+   "start": 20.589,
+   "end": 21.029,
+   "beat": 4
+  },
+  {
+   "w": "Et",
+   "start": 21.126,
+   "end": 21.266,
+   "beat": 5
+  },
+  {
+   "w": "Rémy",
+   "start": 21.266,
+   "end": 21.486,
+   "beat": 5
+  },
+  {
+   "w": "Cointreau",
+   "start": 21.486,
+   "end": 21.646,
+   "beat": 5
+  },
+  {
+   "w": "s'envole",
+   "start": 21.646,
+   "end": 22.466,
+   "beat": 5
+  },
+  {
+   "w": "de",
+   "start": 22.466,
+   "end": 22.466,
+   "beat": 5
+  },
+  {
+   "w": "10,2 %,",
+   "start": 22.746,
+   "end": 22.986,
+   "beat": 5
+  },
+  {
+   "w": "avec",
+   "start": 23.386,
+   "end": 23.966,
+   "beat": 5
+  },
+  {
+   "w": "de",
+   "start": 23.966,
+   "end": 24.166,
+   "beat": 5
+  },
+  {
+   "w": "nouveaux",
+   "start": 24.166,
+   "end": 24.406,
+   "beat": 5
+  },
+  {
+   "w": "objectifs",
+   "start": 24.406,
+   "end": 25.066,
+   "beat": 5
+  },
+  {
+   "w": "jusqu'en",
+   "start": 25.066,
+   "end": 25.246,
+   "beat": 5
+  },
+  {
+   "w": "2032.",
+   "start": 25.446,
+   "end": 25.846,
+   "beat": 5
+  },
+  {
+   "w": "Alors,",
+   "start": 26.204,
+   "end": 26.684,
+   "beat": 6
+  },
+  {
+   "w": "pourquoi",
+   "start": 26.684,
+   "end": 27.264,
+   "beat": 6
+  },
+  {
+   "w": "l'argent",
+   "start": 27.564,
+   "end": 27.864,
+   "beat": 6
+  },
+  {
+   "w": "file-t-il",
+   "start": 27.864,
+   "end": 28.144,
+   "beat": 6
+  },
+  {
+   "w": "vers",
+   "start": 28.424,
+   "end": 28.624,
+   "beat": 6
+  },
+  {
+   "w": "l'Europe ?",
+   "start": 28.784,
+   "end": 28.964,
+   "beat": 6
+  },
+  {
+   "w": "Cette",
+   "start": 29.284,
+   "end": 29.664,
+   "beat": 7
+  },
+  {
+   "w": "rotation,",
+   "start": 29.664,
+   "end": 30.084,
+   "beat": 7
+  },
+  {
+   "w": "je",
+   "start": 30.084,
+   "end": 30.404,
+   "beat": 7
+  },
+  {
+   "w": "la",
+   "start": 30.404,
+   "end": 30.544,
+   "beat": 7
+  },
+  {
+   "w": "suis",
+   "start": 30.544,
+   "end": 30.764,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 30.764,
+   "end": 30.984,
+   "beat": 7
+  },
+  {
+   "w": "temps",
+   "start": 30.984,
+   "end": 31.204,
+   "beat": 7
+  },
+  {
+   "w": "réel",
+   "start": 31.204,
+   "end": 31.564,
+   "beat": 7
+  },
+  {
+   "w": "sur",
+   "start": 31.564,
+   "end": 31.744,
+   "beat": 7
+  },
+  {
+   "w": "mon",
+   "start": 31.744,
+   "end": 31.884,
+   "beat": 7
+  },
+  {
+   "w": "Telegram.",
+   "start": 31.884,
+   "end": 32.684,
+   "beat": 7
+  },
+  {
+   "w": "Lien",
+   "start": 32.724,
+   "end": 32.884,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 32.884,
+   "end": 33.064,
+   "beat": 7
+  },
+  {
+   "w": "bio.",
+   "start": 33.064,
+   "end": 33.404,
+   "beat": 7
+  },
+  {
+   "w": "Réponse :",
+   "start": 33.684,
+   "end": 34.484,
+   "beat": 8
+  },
+  {
+   "w": "l'Europe",
+   "start": 34.784,
+   "end": 35.064,
+   "beat": 8
+  },
+  {
+   "w": "a",
+   "start": 35.064,
+   "end": 35.344,
+   "beat": 8
+  },
+  {
+   "w": "moins",
+   "start": 35.344,
+   "end": 35.564,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 35.564,
+   "end": 35.744,
+   "beat": 8
+  },
+  {
+   "w": "tech",
+   "start": 35.744,
+   "end": 35.984,
+   "beat": 8
+  },
+  {
+   "w": "et",
+   "start": 35.984,
+   "end": 36.444,
+   "beat": 8
+  },
+  {
+   "w": "plus",
+   "start": 36.444,
+   "end": 36.764,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 36.764,
+   "end": 37.024,
+   "beat": 8
+  },
+  {
+   "w": "valeurs",
+   "start": 37.024,
+   "end": 37.224,
+   "beat": 8
+  },
+  {
+   "w": "défensives.",
+   "start": 37.224,
+   "end": 37.944,
+   "beat": 8
+  },
+  {
+   "w": "Ceux",
+   "start": 38.104,
+   "end": 38.304,
+   "beat": 8
+  },
+  {
+   "w": "qui",
+   "start": 38.304,
+   "end": 38.484,
+   "beat": 8
+  },
+  {
+   "w": "doutent",
+   "start": 38.484,
+   "end": 38.724,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 38.724,
+   "end": 38.984,
+   "beat": 8
+  },
+  {
+   "w": "l'I.A.",
+   "start": 39.144,
+   "end": 39.344,
+   "beat": 8
+  },
+  {
+   "w": "viennent",
+   "start": 39.344,
+   "end": 39.704,
+   "beat": 8
+  },
+  {
+   "w": "s'y",
+   "start": 39.884,
+   "end": 39.944,
+   "beat": 8
+  },
+  {
+   "w": "abriter.",
+   "start": 40.004,
+   "end": 40.384,
+   "beat": 8
+  },
+  {
+   "w": "Mais",
+   "start": 40.656,
+   "end": 40.896,
+   "beat": 9
+  },
+  {
+   "w": "Washington",
+   "start": 40.896,
+   "end": 41.316,
+   "beat": 9
+  },
+  {
+   "w": "prépare",
+   "start": 41.316,
+   "end": 42.036,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 42.036,
+   "end": 42.196,
+   "beat": 9
+  },
+  {
+   "w": "nouveaux",
+   "start": 42.196,
+   "end": 42.476,
+   "beat": 9
+  },
+  {
+   "w": "droits",
+   "start": 42.476,
+   "end": 42.816,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 42.816,
+   "end": 42.916,
+   "beat": 9
+  },
+  {
+   "w": "douane",
+   "start": 42.916,
+   "end": 43.256,
+   "beat": 9
+  },
+  {
+   "w": "sur",
+   "start": 43.256,
+   "end": 43.576,
+   "beat": 9
+  },
+  {
+   "w": "la",
+   "start": 43.576,
+   "end": 43.736,
+   "beat": 9
+  },
+  {
+   "w": "Chine,",
+   "start": 43.736,
+   "end": 44.116,
+   "beat": 9
+  },
+  {
+   "w": "l'Union",
+   "start": 44.536,
+   "end": 44.836,
+   "beat": 9
+  },
+  {
+   "w": "européenne",
+   "start": 44.836,
+   "end": 45.476,
+   "beat": 9
+  },
+  {
+   "w": "et",
+   "start": 45.476,
+   "end": 45.696,
+   "beat": 9
+  },
+  {
+   "w": "14",
+   "start": 45.696,
+   "end": 46.056,
+   "beat": 9
+  },
+  {
+   "w": "autres",
+   "start": 46.056,
+   "end": 46.396,
+   "beat": 9
+  },
+  {
+   "w": "économies.",
+   "start": 46.396,
+   "end": 47.116,
+   "beat": 9
+  },
+  {
+   "w": "Et",
+   "start": 47.321,
+   "end": 47.521,
+   "beat": 10
+  },
+  {
+   "w": "à",
+   "start": 47.521,
+   "end": 47.601,
+   "beat": 10
+  },
+  {
+   "w": "14",
+   "start": 47.601,
+   "end": 47.941,
+   "beat": 10
+  },
+  {
+   "w": "h",
+   "start": 47.941,
+   "end": 48.111,
+   "beat": 10
+  },
+  {
+   "w": "30,",
+   "start": 48.111,
+   "end": 48.621,
+   "beat": 10
+  },
+  {
+   "w": "l'inflation",
+   "start": 48.621,
+   "end": 49.101,
+   "beat": 10
+  },
+  {
+   "w": "PCE",
+   "start": 49.101,
+   "end": 49.701,
+   "beat": 10
+  },
+  {
+   "w": "américaine",
+   "start": 49.701,
+   "end": 50.401,
+   "beat": 10
+  },
+  {
+   "w": "tombe :",
+   "start": 50.401,
+   "end": 50.981,
+   "beat": 10
+  },
+  {
+   "w": "3,8 %",
+   "start": 50.981,
+   "end": 52.261,
+   "beat": 10
+  },
+  {
+   "w": "attendus,",
+   "start": 52.261,
+   "end": 52.781,
+   "beat": 10
+  },
+  {
+   "w": "contre",
+   "start": 53.041,
+   "end": 53.321,
+   "beat": 10
+  },
+  {
+   "w": "3,6 %",
+   "start": 54.181,
+   "end": 54.481,
+   "beat": 10
+  },
+  {
+   "w": "le",
+   "start": 54.481,
+   "end": 54.781,
+   "beat": 10
+  },
+  {
+   "w": "mois",
+   "start": 54.781,
+   "end": 55.101,
+   "beat": 10
+  },
+  {
+   "w": "dernier.",
+   "start": 55.101,
+   "end": 55.321,
+   "beat": 10
+  },
+  {
+   "w": "Une",
+   "start": 55.757,
+   "end": 56.037,
+   "beat": 11
+  },
+  {
+   "w": "hausse",
+   "start": 56.037,
+   "end": 56.497,
+   "beat": 11
+  },
+  {
+   "w": "des",
+   "start": 56.497,
+   "end": 56.617,
+   "beat": 11
+  },
+  {
+   "w": "taux",
+   "start": 56.617,
+   "end": 56.777,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 56.777,
+   "end": 56.857,
+   "beat": 11
+  },
+  {
+   "w": "la",
+   "start": 56.857,
+   "end": 56.977,
+   "beat": 11
+  },
+  {
+   "w": "Fed",
+   "start": 56.977,
+   "end": 57.277,
+   "beat": 11
+  },
+  {
+   "w": "le",
+   "start": 57.277,
+   "end": 57.537,
+   "beat": 11
+  },
+  {
+   "w": "9",
+   "start": 57.537,
+   "end": 57.777,
+   "beat": 11
+  },
+  {
+   "w": "décembre",
+   "start": 57.777,
+   "end": 58.357,
+   "beat": 11
+  },
+  {
+   "w": "est",
+   "start": 58.357,
+   "end": 58.597,
+   "beat": 11
+  },
+  {
+   "w": "déjà",
+   "start": 58.597,
+   "end": 58.917,
+   "beat": 11
+  },
+  {
+   "w": "jouée",
+   "start": 58.917,
+   "end": 59.317,
+   "beat": 11
+  },
+  {
+   "w": "à",
+   "start": 59.317,
+   "end": 59.537,
+   "beat": 11
+  },
+  {
+   "w": "plus",
+   "start": 59.537,
+   "end": 59.777,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 59.777,
+   "end": 59.977,
+   "beat": 11
+  },
+  {
+   "w": "96 %.",
+   "start": 59.977,
+   "end": 60.917,
+   "beat": 11
+  },
+  {
+   "w": "Alors,",
+   "start": 61.391,
+   "end": 61.691,
+   "beat": 12
+  },
+  {
+   "w": "l'Europe :",
+   "start": 61.991,
+   "end": 62.251,
+   "beat": 12
+  },
+  {
+   "w": "refuge…",
+   "start": 62.251,
+   "end": 63.131,
+   "beat": 12
+  },
+  {
+   "w": "ou",
+   "start": 63.251,
+   "end": 63.371,
+   "beat": 12
+  },
+  {
+   "w": "prochaine",
+   "start": 63.371,
+   "end": 63.711,
+   "beat": 12
+  },
+  {
+   "w": "cible ?",
+   "start": 63.711,
+   "end": 64.231,
+   "beat": 12
+  },
+  {
+   "w": "Dis-le",
+   "start": 64.231,
+   "end": 64.731,
+   "beat": 12
+  },
+  {
+   "w": "en",
+   "start": 64.731,
+   "end": 64.931,
+   "beat": 12
+  },
+  {
+   "w": "commentaire.",
+   "start": 64.931,
+   "end": 65.551,
+   "beat": 12
+  },
+  {
+   "w": "Les",
+   "start": 65.768,
+   "end": 66.088,
+   "beat": 13
+  },
+  {
+   "w": "marchés",
+   "start": 66.088,
+   "end": 66.428,
+   "beat": 13
+  },
+  {
+   "w": "bougent",
+   "start": 66.428,
+   "end": 66.788,
+   "beat": 13
+  },
+  {
+   "w": "plus",
+   "start": 66.788,
+   "end": 66.968,
+   "beat": 13
+  },
+  {
+   "w": "vite",
+   "start": 66.968,
+   "end": 67.208,
+   "beat": 13
+  },
+  {
+   "w": "que",
+   "start": 67.208,
+   "end": 67.388,
+   "beat": 13
+  },
+  {
+   "w": "les",
+   "start": 67.388,
+   "end": 67.508,
+   "beat": 13
+  },
+  {
+   "w": "journaux.",
+   "start": 67.508,
+   "end": 67.928,
+   "beat": 13
+  },
+  {
+   "w": "Sur",
+   "start": 68.168,
+   "end": 68.288,
+   "beat": 13
+  },
+  {
+   "w": "mon",
+   "start": 68.288,
+   "end": 68.408,
+   "beat": 13
+  },
+  {
+   "w": "Telegram",
+   "start": 68.408,
+   "end": 68.968,
+   "beat": 13
+  },
+  {
+   "w": "gratuit,",
+   "start": 68.968,
+   "end": 69.248,
+   "beat": 13
+  },
+  {
+   "w": "tu",
+   "start": 69.548,
+   "end": 69.668,
+   "beat": 13
+  },
+  {
+   "w": "as",
+   "start": 69.668,
+   "end": 69.788,
+   "beat": 13
+  },
+  {
+   "w": "l'actu",
+   "start": 69.888,
+   "end": 70.188,
+   "beat": 13
+  },
+  {
+   "w": "géopolitique",
+   "start": 70.188,
+   "end": 71.068,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 71.068,
+   "end": 71.228,
+   "beat": 13
+  },
+  {
+   "w": "financière",
+   "start": 71.228,
+   "end": 71.888,
+   "beat": 13
+  },
+  {
+   "w": "décortiquée,",
+   "start": 71.888,
+   "end": 72.628,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 73.028,
+   "end": 73.128,
+   "beat": 13
+  },
+  {
+   "w": "analyses",
+   "start": 73.128,
+   "end": 73.488,
+   "beat": 13
+  },
+  {
+   "w": "d'actions",
+   "start": 73.708,
+   "end": 73.968,
+   "beat": 13
+  },
+  {
+   "w": "détaillées",
+   "start": 73.968,
+   "end": 74.688,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 74.688,
+   "end": 75.008,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 75.008,
+   "end": 75.128,
+   "beat": 13
+  },
+  {
+   "w": "opportunités",
+   "start": 75.128,
+   "end": 76.008,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 76.008,
+   "end": 76.268,
+   "beat": 13
+  },
+  {
+   "w": "temps",
+   "start": 76.268,
+   "end": 76.488,
+   "beat": 13
+  },
+  {
+   "w": "réel.",
+   "start": 76.488,
+   "end": 76.928,
+   "beat": 13
+  },
+  {
+   "w": "Plus",
+   "start": 77.088,
+   "end": 77.248,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 77.248,
+   "end": 77.468,
+   "beat": 13
+  },
+  {
+   "w": "22 000",
+   "start": 77.828,
+   "end": 78.048,
+   "beat": 13
+  },
+  {
+   "w": "personnes",
+   "start": 78.048,
+   "end": 78.408,
+   "beat": 13
+  },
+  {
+   "w": "y",
+   "start": 78.408,
+   "end": 78.608,
+   "beat": 13
+  },
+  {
+   "w": "sont",
+   "start": 78.608,
+   "end": 78.748,
+   "beat": 13
+  },
+  {
+   "w": "déjà.",
+   "start": 78.748,
+   "end": 79.108,
+   "beat": 13
+  },
+  {
+   "w": "Entre",
+   "start": 79.308,
+   "end": 79.508,
+   "beat": 13
+  },
+  {
+   "w": "dans",
+   "start": 79.508,
+   "end": 79.688,
+   "beat": 13
+  },
+  {
+   "w": "le",
+   "start": 79.688,
+   "end": 79.748,
+   "beat": 13
+  },
+  {
+   "w": "canal,",
+   "start": 79.748,
+   "end": 80.048,
+   "beat": 13
+  },
+  {
+   "w": "lien",
+   "start": 80.388,
+   "end": 80.528,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 80.528,
+   "end": 80.708,
+   "beat": 13
+  },
+  {
+   "w": "bio.",
+   "start": 80.708,
+   "end": 80.848,
+   "beat": 13
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "beat": 0,
+   "end": 0.92
+  },
+  {
+   "start": 0.92,
+   "lines": [
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "beat": 0,
+   "end": 1.74
+  },
+  {
+   "start": 1.74,
+   "lines": [
+    [
+     6,
+     7
+    ]
+   ],
+   "beat": 0,
+   "end": 2.2
+  },
+  {
+   "start": 2.2,
+   "lines": [
+    [
+     8
+    ],
+    [
+     9,
+     10,
+     11
+    ]
+   ],
+   "beat": 0,
+   "end": 3.14
+  },
+  {
+   "start": 3.14,
+   "lines": [
+    [
+     12,
+     13
+    ]
+   ],
+   "beat": 0,
+   "end": 4.41
+  },
+  {
+   "start": 4.41,
+   "lines": [
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     17
+    ]
+   ],
+   "beat": 1,
+   "end": 5.05
+  },
+  {
+   "start": 5.05,
+   "lines": [
+    [
+     18
+    ]
+   ],
+   "beat": 1,
+   "end": 5.41
+  },
+  {
+   "start": 5.41,
+   "lines": [
+    [
+     19,
+     20
+    ],
+    [
+     21
+    ]
+   ],
+   "beat": 1,
+   "end": 6.69
+  },
+  {
+   "start": 6.69,
+   "lines": [
+    [
+     22,
+     23
+    ]
+   ],
+   "beat": 1,
+   "end": 7.546
+  },
+  {
+   "start": 7.546,
+   "lines": [
+    [
+     24,
+     25
+    ]
+   ],
+   "beat": 2,
+   "end": 8.326
+  },
+  {
+   "start": 8.326,
+   "lines": [
+    [
+     26,
+     27
+    ],
+    [
+     28,
+     29
+    ]
+   ],
+   "beat": 2,
+   "end": 9.326
+  },
+  {
+   "start": 9.326,
+   "lines": [
+    [
+     30,
+     31
+    ]
+   ],
+   "beat": 2,
+   "end": 10.286
+  },
+  {
+   "start": 10.286,
+   "lines": [
+    [
+     32,
+     33
+    ],
+    [
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 12.129
+  },
+  {
+   "start": 12.129,
+   "lines": [
+    [
+     35,
+     36
+    ],
+    [
+     37,
+     38
+    ]
+   ],
+   "beat": 3,
+   "end": 13.009
+  },
+  {
+   "start": 13.009,
+   "lines": [
+    [
+     39,
+     40
+    ]
+   ],
+   "beat": 3,
+   "end": 13.829
+  },
+  {
+   "start": 13.829,
+   "lines": [
+    [
+     41,
+     42
+    ]
+   ],
+   "beat": 3,
+   "end": 15.129
+  },
+  {
+   "start": 15.129,
+   "lines": [
+    [
+     43,
+     44
+    ]
+   ],
+   "beat": 3,
+   "end": 16.409
+  },
+  {
+   "start": 16.409,
+   "lines": [
+    [
+     45,
+     46
+    ],
+    [
+     47
+    ]
+   ],
+   "beat": 4,
+   "end": 17.849
+  },
+  {
+   "start": 17.849,
+   "lines": [
+    [
+     48,
+     49
+    ],
+    [
+     50,
+     51
+    ]
+   ],
+   "beat": 4,
+   "end": 19.609
+  },
+  {
+   "start": 19.609,
+   "lines": [
+    [
+     52
+    ],
+    [
+     53,
+     54
+    ]
+   ],
+   "beat": 4,
+   "end": 21.126
+  },
+  {
+   "start": 21.126,
+   "lines": [
+    [
+     55,
+     56,
+     57
+    ],
+    [
+     58
+    ]
+   ],
+   "beat": 5,
+   "end": 22.466
+  },
+  {
+   "start": 22.466,
+   "lines": [
+    [
+     59,
+     60
+    ]
+   ],
+   "beat": 5,
+   "end": 23.386
+  },
+  {
+   "start": 23.386,
+   "lines": [
+    [
+     61,
+     62,
+     63
+    ],
+    [
+     64
+    ]
+   ],
+   "beat": 5,
+   "end": 25.066
+  },
+  {
+   "start": 25.066,
+   "lines": [
+    [
+     65,
+     66
+    ]
+   ],
+   "beat": 5,
+   "end": 26.204
+  },
+  {
+   "start": 26.204,
+   "lines": [
+    [
+     67,
+     68
+    ],
+    [
+     69
+    ]
+   ],
+   "beat": 6,
+   "end": 27.864
+  },
+  {
+   "start": 27.864,
+   "lines": [
+    [
+     70,
+     71
+    ],
+    [
+     72
+    ]
+   ],
+   "beat": 6,
+   "end": 29.284
+  },
+  {
+   "start": 29.284,
+   "lines": [
+    [
+     73,
+     74
+    ]
+   ],
+   "beat": 7,
+   "end": 30.084
+  },
+  {
+   "start": 30.084,
+   "lines": [
+    [
+     75,
+     76,
+     77
+    ]
+   ],
+   "beat": 7,
+   "end": 30.764
+  },
+  {
+   "start": 30.764,
+   "lines": [
+    [
+     78,
+     79,
+     80
+    ]
+   ],
+   "beat": 7,
+   "end": 31.564
+  },
+  {
+   "start": 31.564,
+   "lines": [
+    [
+     81,
+     82
+    ],
+    [
+     83
+    ]
+   ],
+   "beat": 7,
+   "end": 32.724
+  },
+  {
+   "start": 32.724,
+   "lines": [
+    [
+     84,
+     85,
+     86
+    ]
+   ],
+   "beat": 7,
+   "end": 33.684
+  },
+  {
+   "start": 33.684,
+   "lines": [
+    [
+     87
+    ]
+   ],
+   "beat": 8,
+   "end": 34.784
+  },
+  {
+   "start": 34.784,
+   "lines": [
+    [
+     88
+    ],
+    [
+     89,
+     90
+    ]
+   ],
+   "beat": 8,
+   "end": 35.564
+  },
+  {
+   "start": 35.564,
+   "lines": [
+    [
+     91,
+     92,
+     93
+    ]
+   ],
+   "beat": 8,
+   "end": 36.444
+  },
+  {
+   "start": 36.444,
+   "lines": [
+    [
+     94,
+     95
+    ],
+    [
+     96
+    ]
+   ],
+   "beat": 8,
+   "end": 37.224
+  },
+  {
+   "start": 37.224,
+   "lines": [
+    [
+     97
+    ]
+   ],
+   "beat": 8,
+   "end": 38.104
+  },
+  {
+   "start": 38.104,
+   "lines": [
+    [
+     98,
+     99
+    ],
+    [
+     100
+    ]
+   ],
+   "beat": 8,
+   "end": 38.724
+  },
+  {
+   "start": 38.724,
+   "lines": [
+    [
+     101,
+     102
+    ]
+   ],
+   "beat": 8,
+   "end": 39.344
+  },
+  {
+   "start": 39.344,
+   "lines": [
+    [
+     103
+    ],
+    [
+     104,
+     105
+    ]
+   ],
+   "beat": 8,
+   "end": 40.656
+  },
+  {
+   "start": 40.656,
+   "lines": [
+    [
+     106,
+     107
+    ],
+    [
+     108
+    ]
+   ],
+   "beat": 9,
+   "end": 42.036
+  },
+  {
+   "start": 42.036,
+   "lines": [
+    [
+     109,
+     110
+    ],
+    [
+     111
+    ]
+   ],
+   "beat": 9,
+   "end": 42.816
+  },
+  {
+   "start": 42.816,
+   "lines": [
+    [
+     112,
+     113,
+     114
+    ]
+   ],
+   "beat": 9,
+   "end": 43.576
+  },
+  {
+   "start": 43.576,
+   "lines": [
+    [
+     115,
+     116
+    ]
+   ],
+   "beat": 9,
+   "end": 44.536
+  },
+  {
+   "start": 44.536,
+   "lines": [
+    [
+     117,
+     118
+    ]
+   ],
+   "beat": 9,
+   "end": 45.476
+  },
+  {
+   "start": 45.476,
+   "lines": [
+    [
+     119,
+     120,
+     121
+    ],
+    [
+     122
+    ]
+   ],
+   "beat": 9,
+   "end": 47.321
+  },
+  {
+   "start": 47.321,
+   "lines": [
+    [
+     123,
+     124,
+     125,
+     126
+    ]
+   ],
+   "beat": 10,
+   "end": 48.111
+  },
+  {
+   "start": 48.111,
+   "lines": [
+    [
+     127
+    ],
+    [
+     128,
+     129
+    ]
+   ],
+   "beat": 10,
+   "end": 49.701
+  },
+  {
+   "start": 49.701,
+   "lines": [
+    [
+     130,
+     131
+    ]
+   ],
+   "beat": 10,
+   "end": 50.981
+  },
+  {
+   "start": 50.981,
+   "lines": [
+    [
+     132,
+     133
+    ]
+   ],
+   "beat": 10,
+   "end": 53.041
+  },
+  {
+   "start": 53.041,
+   "lines": [
+    [
+     134,
+     135
+    ],
+    [
+     136,
+     137
+    ]
+   ],
+   "beat": 10,
+   "end": 55.101
+  },
+  {
+   "start": 55.101,
+   "lines": [
+    [
+     138
+    ]
+   ],
+   "beat": 10,
+   "end": 55.757
+  },
+  {
+   "start": 55.757,
+   "lines": [
+    [
+     139,
+     140
+    ],
+    [
+     141,
+     142
+    ]
+   ],
+   "beat": 11,
+   "end": 56.777
+  },
+  {
+   "start": 56.777,
+   "lines": [
+    [
+     143,
+     144,
+     145
+    ]
+   ],
+   "beat": 11,
+   "end": 57.277
+  },
+  {
+   "start": 57.277,
+   "lines": [
+    [
+     146,
+     147
+    ],
+    [
+     148,
+     149
+    ]
+   ],
+   "beat": 11,
+   "end": 58.597
+  },
+  {
+   "start": 58.597,
+   "lines": [
+    [
+     150,
+     151,
+     152
+    ]
+   ],
+   "beat": 11,
+   "end": 59.537
+  },
+  {
+   "start": 59.537,
+   "lines": [
+    [
+     153,
+     154,
+     155
+    ]
+   ],
+   "beat": 11,
+   "end": 61.391
+  },
+  {
+   "start": 61.391,
+   "lines": [
+    [
+     156,
+     157
+    ]
+   ],
+   "beat": 12,
+   "end": 62.251
+  },
+  {
+   "start": 62.251,
+   "lines": [
+    [
+     158
+    ]
+   ],
+   "beat": 12,
+   "end": 63.251
+  },
+  {
+   "start": 63.251,
+   "lines": [
+    [
+     159,
+     160
+    ],
+    [
+     161
+    ]
+   ],
+   "beat": 12,
+   "end": 64.231
+  },
+  {
+   "start": 64.231,
+   "lines": [
+    [
+     162,
+     163
+    ],
+    [
+     164
+    ]
+   ],
+   "beat": 12,
+   "end": 65.768
+  },
+  {
+   "start": 65.768,
+   "lines": [
+    [
+     165,
+     166
+    ],
+    [
+     167
+    ]
+   ],
+   "beat": 13,
+   "end": 66.788
+  },
+  {
+   "start": 66.788,
+   "lines": [
+    [
+     168,
+     169,
+     170
+    ]
+   ],
+   "beat": 13,
+   "end": 67.388
+  },
+  {
+   "start": 67.388,
+   "lines": [
+    [
+     171,
+     172
+    ]
+   ],
+   "beat": 13,
+   "end": 68.168
+  },
+  {
+   "start": 68.168,
+   "lines": [
+    [
+     173,
+     174,
+     175
+    ],
+    [
+     176
+    ]
+   ],
+   "beat": 13,
+   "end": 69.548
+  },
+  {
+   "start": 69.548,
+   "lines": [
+    [
+     177,
+     178,
+     179
+    ],
+    [
+     180
+    ]
+   ],
+   "beat": 13,
+   "end": 71.068
+  },
+  {
+   "start": 71.068,
+   "lines": [
+    [
+     181,
+     182
+    ],
+    [
+     183
+    ]
+   ],
+   "beat": 13,
+   "end": 73.028
+  },
+  {
+   "start": 73.028,
+   "lines": [
+    [
+     184,
+     185
+    ],
+    [
+     186
+    ]
+   ],
+   "beat": 13,
+   "end": 73.968
+  },
+  {
+   "start": 73.968,
+   "lines": [
+    [
+     187,
+     188
+    ]
+   ],
+   "beat": 13,
+   "end": 75.008
+  },
+  {
+   "start": 75.008,
+   "lines": [
+    [
+     189,
+     190
+    ],
+    [
+     191,
+     192
+    ]
+   ],
+   "beat": 13,
+   "end": 76.488
+  },
+  {
+   "start": 76.488,
+   "lines": [
+    [
+     193
+    ]
+   ],
+   "beat": 13,
+   "end": 77.088
+  },
+  {
+   "start": 77.088,
+   "lines": [
+    [
+     194,
+     195,
+     196
+    ],
+    [
+     197
+    ]
+   ],
+   "beat": 13,
+   "end": 78.408
+  },
+  {
+   "start": 78.408,
+   "lines": [
+    [
+     198,
+     199,
+     200
+    ]
+   ],
+   "beat": 13,
+   "end": 79.308
+  },
+  {
+   "start": 79.308,
+   "lines": [
+    [
+     201,
+     202
+    ],
+    [
+     203,
+     204
+    ]
+   ],
+   "beat": 13,
+   "end": 80.388
+  },
+  {
+   "start": 80.388,
+   "lines": [
+    [
+     205,
+     206,
+     207
+    ]
+   ],
+   "beat": 13,
+   "end": 81.24
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Mercredi 25 novembre 2026 · Europe",
+   "until_beat": 1,
+   "start": 0.0,
+   "end": 7.546
+  },
+  {
+   "type": "screen_logos",
+   "kicker": "EUROPE · INDICES EN HAUSSE",
+   "value_from": 0,
+   "value_to": 9,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " / 9",
+   "color": "green",
+   "pill": "MERCREDI 25 NOV. · 9 H 50",
+   "keys": [
+    "VOW",
+    "BMW",
+    "MBG",
+    "UHR",
+    "CFR",
+    "RCO"
+   ],
+   "desc": "Nasdaq −1,48 % mardi soir · The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)",
+   "start": 0.0,
+   "end": 4.41
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "LA MENACE",
+    "VIENT DE WASHINGTON"
+   ],
+   "at_word": 9,
+   "start": 6.77,
+   "end": 7.546
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "CAC 40 · 9 H 50",
+    "value_to": 1.2,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "8 137 points"
+   },
+   "b_at_word": 9,
+   "b": {
+    "kicker": "STOXX 600 · 9 H 50",
+    "value_to": 0.61,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "636,63 points"
+   },
+   "start": 7.546,
+   "end": 12.129,
+   "b_t": 10.526
+  },
+  {
+   "type": "source",
+   "text": "The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)",
+   "start": 7.546,
+   "end": 12.129
+  },
+  {
+   "type": "screen_logos",
+   "kicker": "DAX · FRANCFORT",
+   "value_from": 0,
+   "value_to": 0.4,
+   "decimals": 2,
+   "prefix": "+",
+   "suffix": " %",
+   "color": "green",
+   "pill": "LES CONSTRUCTEURS EN TÊTE",
+   "keys": [
+    "VOW",
+    "BMW",
+    "MBG"
+   ],
+   "desc": "25 117 points",
+   "start": 12.129,
+   "end": 16.409,
+   "cut_in": true
+  },
+  {
+   "type": "source",
+   "text": "The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)",
+   "start": 12.129,
+   "end": 16.409
+  },
+  {
+   "type": "tickers",
+   "title": "LUXE · MERCREDI 25 NOV.",
+   "rows": [
+    {
+     "key": "UHR",
+     "name": "Swatch Group",
+     "pct": "+6 %",
+     "at_word": 3,
+     "t": 17.799
+    },
+    {
+     "key": "CFR",
+     "name": "Richemont",
+     "pct": "+3 %",
+     "at_word": 7,
+     "t": 19.559
+    }
+   ],
+   "start": 16.409,
+   "end": 21.126
+  },
+  {
+   "type": "source",
+   "text": "Reuters (WHTC) · 25 nov. 2026, 9 h 19 (Paris)",
+   "start": 16.409,
+   "end": 21.126
+  },
+  {
+   "type": "stock",
+   "key": "RCO",
+   "name": "Rémy Cointreau",
+   "sub": "RCO · Euronext Paris · 25 nov.",
+   "pct": "+10,2 %",
+   "up": true,
+   "size": "big",
+   "y": 560,
+   "at_word": 1,
+   "start": 21.266,
+   "end": 26.204
+  },
+  {
+   "type": "source",
+   "text": "Reuters (WHTC) · 25 nov. 2026, 9 h 19 (Paris)",
+   "start": 21.126,
+   "end": 26.204
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "POURQUOI L'ARGENT",
+    "FILE EN EUROPE ?"
+   ],
+   "at_word": 1,
+   "start": 26.684,
+   "end": 29.284
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_3435c02c_top.jpg",
+   "bio_at_word": 13,
+   "start": 29.284,
+   "end": 33.684,
+   "bio_t": 33.064
+  },
+  {
+   "type": "news",
+   "at_word": 1,
+   "left": "BLOOMBERG · MARCHÉS",
+   "right": "25 NOV.",
+   "tag": "ROTATION",
+   "headline": "Les actions européennes profitent des investisseurs qui parient contre l'IA",
+   "highlight": "parient contre l'IA",
+   "sub": "Oninvest (Bloomberg) · 25 nov. 2026 · Citi a relevé sa recommandation en novembre",
+   "start": 34.784,
+   "end": 40.656
+  },
+  {
+   "type": "news",
+   "at_word": 2,
+   "left": "ÉTATS-UNIS · COMMERCE",
+   "right": "25 NOV.",
+   "tag": "DOUANE",
+   "headline": "Les États-Unis prêts à taxer la Chine, l'UE et 14 autres économies pour surcapacités industrielles",
+   "highlight": "l'UE et 14 autres économies",
+   "sub": "AP (OPB) · 25 nov. 2026",
+   "start": 41.316,
+   "end": 47.321
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "PCE · SEPTEMBRE",
+    "value_to": 3.6,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Sur un an"
+   },
+   "b_at_word": 9,
+   "b": {
+    "kicker": "PCE · OCTOBRE · ATTENDU",
+    "value_to": 3.8,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Publication 14 h 30 (Paris)"
+   },
+   "start": 47.321,
+   "end": 55.757,
+   "b_t": 50.981
+  },
+  {
+   "type": "source",
+   "text": "Investing.com (Reuters) · 25 nov. 2026",
+   "start": 47.321,
+   "end": 55.757
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "FED · HAUSSE DE 0,25 POINT",
+   "value_from": 0,
+   "value_to": 96.4,
+   "decimals": 1,
+   "prefix": "",
+   "suffix": " %",
+   "color": "red",
+   "pill": "RÉUNION DES 8-9 DÉC.",
+   "desc": "Probabilité intégrée par les marchés · Investing.com (Reuters) · 25 nov. 2026",
+   "start": 55.757,
+   "end": 61.391,
+   "cut_in": true
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "REFUGE OU",
+    "PROCHAINE CIBLE ?"
+   ],
+   "at_word": 2,
+   "start": 62.251,
+   "end": 65.768
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Droits de douane : ce que l'Europe risque",
+   "imgs": [
+    "tg_3435c02c_top.jpg",
+    "tg_1eaa56f0.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 32,
+   "bio_at_word": 42,
+   "button": "ENTRE DANS LE CANAL",
+   "start": 65.768,
+   "end": 81.15,
+   "subs_t": 78.048,
+   "bio_t": 80.708
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.57,
+   "src": "episodes/ep53_europe_washington/broll/b0.mp4",
+   "start": 0.0,
+   "end": 2.16,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep53_europe_washington/broll/b0b.mp4",
+   "start": 2.16,
+   "end": 4.41,
+   "beat": 0
+  },
+  {
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.45,
+   "src": "episodes/ep53_europe_washington/broll/b1.mp4",
+   "start": 4.41,
+   "end": 7.546,
+   "beat": 1
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b2.mp4",
+    "ss": 1,
+    "cx": 0.53
+   },
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.53,
+   "blur": true,
+   "src": "episodes/ep53_europe_washington/broll/b2.mp4",
+   "start": 7.546,
+   "end": 12.129,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep53_europe_washington/broll/b3.mp4",
+   "start": 12.129,
+   "end": 16.409,
+   "beat": 3
+  },
+  {
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.62,
+   "src": "episodes/ep53_europe_washington/broll/b4.mp4",
+   "start": 16.409,
+   "end": 19.569,
+   "beat": 4
+  },
+  {
+   "clip": "b4b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 7,
+   "src": "episodes/ep53_europe_washington/broll/b4b.mp4",
+   "start": 19.569,
+   "end": 21.126,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.4,
+   "src": "episodes/ep53_europe_washington/broll/b5.mp4",
+   "start": 21.126,
+   "end": 24.366,
+   "beat": 5
+  },
+  {
+   "clip": "b5b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 9,
+   "src": "episodes/ep53_europe_washington/broll/b5b.mp4",
+   "start": 24.366,
+   "end": 26.204,
+   "beat": 5
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep53_europe_washington/broll/b7.mp4",
+   "start": 26.204,
+   "end": 29.284,
+   "beat": 6
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.45,
+   "src": "episodes/ep53_europe_washington/broll/b8.mp4",
+   "start": 29.284,
+   "end": 33.684,
+   "beat": 7
+  },
+  {
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.4,
+   "src": "episodes/ep53_europe_washington/broll/b9.mp4",
+   "start": 33.684,
+   "end": 38.064,
+   "beat": 8
+  },
+  {
+   "clip": "b9b.mp4",
+   "ss": 1,
+   "cx": 0.72,
+   "at_word": 11,
+   "src": "episodes/ep53_europe_washington/broll/b9b.mp4",
+   "start": 38.064,
+   "end": 40.656,
+   "beat": 8
+  },
+  {
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep53_europe_washington/broll/b10.mp4",
+   "start": 40.656,
+   "end": 43.696,
+   "beat": 9
+  },
+  {
+   "clip": "b10b.mp4",
+   "ss": 1,
+   "cx": 0.42,
+   "at_word": 10,
+   "src": "episodes/ep53_europe_washington/broll/b10b.mp4",
+   "start": 43.696,
+   "end": 47.321,
+   "beat": 9
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep53_europe_washington/broll/b13.mp4",
+   "start": 47.321,
+   "end": 55.757,
+   "beat": 10
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep53_europe_washington/broll/b14.mp4",
+   "start": 55.757,
+   "end": 61.391,
+   "beat": 11
+  },
+  {
+   "clip": "b15.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep53_europe_washington/broll/b15.mp4",
+   "start": 61.391,
+   "end": 65.768,
+   "beat": 12
+  },
+  {
+   "blur_prev": true,
+   "start": 65.768,
+   "end": 82.95,
+   "beat": 13
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 0.1,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 0.3,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 0.39,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 0.48,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 0.57,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 0.66,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 0.75,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 2.11,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 4.36,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 6.77,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 7.486,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 7.666,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 10.526,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 10.576,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 12.079,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 12.229,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 12.429,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 12.519,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 12.609,
+   "k": "pop",
+   "g": 0.55
+  },
+  {
+   "t": 16.409,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 17.799,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 19.519,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 19.559,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 21.076,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 21.266,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 24.316,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 26.154,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 26.684,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 29.234,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 29.284,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 33.064,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 33.634,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 34.784,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 38.014,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 40.606,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 41.316,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 43.646,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 47.261,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 47.441,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 50.981,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 51.031,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 55.727,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 55.877,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 62.251,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 65.718,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 65.818,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 66.118,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 78.048,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 80.55,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 80.708,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 81.15,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   81.15,
+   83.95
+  ]
+ ],
+ "endcard": {
+  "start": 81.15,
+  "button": "ENTRE DANS LE CANAL",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "25 novembre 2026"
+}

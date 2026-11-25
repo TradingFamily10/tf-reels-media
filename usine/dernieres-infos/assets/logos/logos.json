@@ -572,5 +572,47 @@
   "img": "ADI.png",
   "tile": "#0067B9",
   "fit": "70%"
+ },
+ "VOW": {
+  "name": "Volkswagen",
+  "ticker": "VOW3",
+  "img": "VOW.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "BMW": {
+  "name": "BMW",
+  "ticker": "BMW",
+  "img": "BMW.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "MBG": {
+  "name": "Mercedes-Benz",
+  "ticker": "MBG",
+  "img": "MBG.png",
+  "tile": "#FFFFFF",
+  "fit": "80%"
+ },
+ "UHR": {
+  "name": "Swatch Group",
+  "ticker": "UHR",
+  "img": "UHR.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
+ },
+ "CFR": {
+  "name": "Richemont",
+  "ticker": "CFR",
+  "img": "CFR.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
+ },
+ "RCO": {
+  "name": "Rémy Cointreau",
+  "ticker": "RCO",
+  "img": "RCO.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
  }
 }

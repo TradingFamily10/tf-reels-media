@@ -1,0 +1,457 @@
+{
+ "id": "ep53_europe_washington",
+ "date_label": "25 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "logowall",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "Les marchés bougent plus vite que les journaux : sur mon Telegram tu as l'info au moment où elle tombe",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://edgeconsultancykw.com/europe-market-wrap-25-november-2026/",
+  "https://whtc.com/2026/11/25/european-shares-rise-on-consumer-boost-markets-await-us-tariffs-inflation/",
+  "https://www.investing.com/news/stock-market-news/europe-stocks-climb-as-autos-luxury-rally-eyes-on-us-pce-fed-hike-bets-5049961",
+  "https://en.oninvest.com/article/stocks-in-europe-rose-in-contrast-to-declines-in-the-u-s-and-asia-what-makes-them-attractive",
+  "https://opb.org/article/2026/11/24/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say",
+  "https://newslantern.com/news/25381/2026-11-25/us-prepares-to-announce-tariffs-on-china-eu-and-14-other-economies"
+ ],
+ "beats": [
+  {
+   "text": "Les 9 grandes Bourses européennes montent ce matin. Pendant que la tech américaine saigne.",
+   "say": "Les neuf grandes Bourses européennes montent ce matin... Pendant que la tech américaine saigne.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.57
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Mercredi 25 novembre 2026 · Europe",
+     "until_beat": 1
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "EUROPE · INDICES EN HAUSSE",
+     "value_from": 0,
+     "value_to": 9,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " / 9",
+     "color": "green",
+     "pill": "MERCREDI 25 NOV. · 9 H 50",
+     "keys": [
+      "VOW",
+      "BMW",
+      "MBG",
+      "UHR",
+      "CFR",
+      "RCO"
+     ],
+     "desc": "Nasdaq −1,48 % mardi soir · The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Mais ce n'est pas l'I.A. qui menace l'Europe. C'est Washington.",
+   "say": "Mais ce n'est pas l'I.A. qui menace l'Europe... C'est Washington.",
+   "bg": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LA MENACE",
+      "VIENT DE WASHINGTON"
+     ],
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "À Paris, le CAC 40 grimpe de 1,20 %, à 8 137 points.",
+   "say": "À Paris, le CAC quarante grimpe de plus d'un pour cent, à huit mille cent trente-sept points.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.53
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CAC 40 · 9 H 50",
+      "value_to": 1.2,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "8 137 points"
+     },
+     "b_at_word": 9,
+     "b": {
+      "kicker": "STOXX 600 · 9 H 50",
+      "value_to": 0.61,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "636,63 points"
+     }
+    },
+    {
+     "type": "source",
+     "text": "The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "En tête du DAX à Francfort : Volkswagen, BMW et Mercedes.",
+   "say": "En tête du DAX, à Francfort : Volkswagen, B.M.W. et Mercedes.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_logos",
+     "kicker": "DAX · FRANCFORT",
+     "value_from": 0,
+     "value_to": 0.4,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "LES CONSTRUCTEURS EN TÊTE",
+     "keys": [
+      "VOW",
+      "BMW",
+      "MBG"
+     ],
+     "desc": "25 117 points"
+    },
+    {
+     "type": "source",
+     "text": "The Edge · Europe Market Wrap · 25 nov. 2026, 9 h 50 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Le luxe suit : Swatch bondit de 6 %, Richemont de 3 %.",
+   "say": "Le luxe suit : Swatch bondit de six pour cent... Richemont, de trois pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.62
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LUXE · MERCREDI 25 NOV.",
+     "rows": [
+      {
+       "key": "UHR",
+       "name": "Swatch Group",
+       "pct": "+6 %",
+       "at_word": 3
+      },
+      {
+       "key": "CFR",
+       "name": "Richemont",
+       "pct": "+3 %",
+       "at_word": 7
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Reuters (WHTC) · 25 nov. 2026, 9 h 19 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Et Rémy Cointreau s'envole de 10,2 %, avec de nouveaux objectifs jusqu'en 2032.",
+   "say": "Et Rémy Cointreau s'envole de plus de dix pour cent... avec de nouveaux objectifs jusqu'en deux mille trente-deux.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b5.mp4",
+      "ss": 1,
+      "cx": 0.4
+     },
+     {
+      "clip": "b5b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 9
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "RCO",
+     "name": "Rémy Cointreau",
+     "sub": "RCO · Euronext Paris · 25 nov.",
+     "pct": "+10,2 %",
+     "up": true,
+     "size": "big",
+     "y": 560,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Reuters (WHTC) · 25 nov. 2026, 9 h 19 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi l'argent file-t-il vers l'Europe ?",
+   "say": "Alors... pourquoi l'argent file-t-il vers l'Europe ?",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI L'ARGENT",
+      "FILE EN EUROPE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette rotation, je la suis en temps réel sur mon Telegram. Lien en bio.",
+   "say": "Cette rotation, je la suis en temps réel sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.45
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Réponse : l'Europe a moins de tech et plus de valeurs défensives. Ceux qui doutent de l'I.A. viennent s'y abriter.",
+   "say": "Réponse : l'Europe a moins de tech, et plus de valeurs défensives. Ceux qui doutent de l'I.A. viennent s'y abriter.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b9.mp4",
+      "ss": 1,
+      "cx": 0.4
+     },
+     {
+      "clip": "b9b.mp4",
+      "ss": 1,
+      "cx": 0.72,
+      "at_word": 11
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "BLOOMBERG · MARCHÉS",
+     "right": "25 NOV.",
+     "tag": "ROTATION",
+     "headline": "Les actions européennes profitent des investisseurs qui parient contre l'IA",
+     "highlight": "parient contre l'IA",
+     "sub": "Oninvest (Bloomberg) · 25 nov. 2026 · Citi a relevé sa recommandation en novembre"
+    }
+   ]
+  },
+  {
+   "text": "Mais Washington prépare de nouveaux droits de douane sur la Chine, l'Union européenne et 14 autres économies.",
+   "say": "Mais Washington prépare de nouveaux droits de douane... sur la Chine, l'Union européenne, et quatorze autres économies.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b10.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b10b.mp4",
+      "ss": 1,
+      "cx": 0.42,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "ÉTATS-UNIS · COMMERCE",
+     "right": "25 NOV.",
+     "tag": "DOUANE",
+     "headline": "Les États-Unis prêts à taxer la Chine, l'UE et 14 autres économies pour surcapacités industrielles",
+     "highlight": "l'UE et 14 autres économies",
+     "sub": "AP (OPB) · 25 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et à 14 h 30, l'inflation PCE américaine tombe : 3,8 % attendus, contre 3,6 % le mois dernier.",
+   "say": "Et à quatorze heures trente, l'inflation P.C.E. américaine tombe : près de quatre pour cent attendus... contre un peu plus de trois et demi le mois dernier.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "PCE · SEPTEMBRE",
+      "value_to": 3.6,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Sur un an"
+     },
+     "b_at_word": 9,
+     "b": {
+      "kicker": "PCE · OCTOBRE · ATTENDU",
+      "value_to": 3.8,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Publication 14 h 30 (Paris)"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Investing.com (Reuters) · 25 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Une hausse des taux de la Fed le 9 décembre est déjà jouée à plus de 96 %.",
+   "say": "Une hausse des taux de la Fed le neuf décembre... est déjà jouée à plus de quatre-vingt-seize pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b14.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "FED · HAUSSE DE 0,25 POINT",
+     "value_from": 0,
+     "value_to": 96.4,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "RÉUNION DES 8-9 DÉC.",
+     "desc": "Probabilité intégrée par les marchés · Investing.com (Reuters) · 25 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, l'Europe : refuge… ou prochaine cible ? Dis-le en commentaire.",
+   "say": "Alors, l'Europe : refuge... ou prochaine cible ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "REFUGE OU",
+      "PROCHAINE CIBLE ?"
+     ],
+     "at_word": 2
+    }
+   ]
+  },
+  {
+   "text": "Les marchés bougent plus vite que les journaux. Sur mon Telegram gratuit, tu as l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Entre dans le canal, lien en bio.",
+   "say": "Les marchés bougent plus vite que les journaux... Sur mon Telegram gratuit, tu as l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées, et mes opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà... Entre dans le canal, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Droits de douane : ce que l'Europe risque",
+     "imgs": [
+      "tg_3435c02c_top.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 32,
+     "bio_at_word": 42,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
