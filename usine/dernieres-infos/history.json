@@ -707,5 +707,24 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/564430f948745baca2704e3be2b6570f20699c57/2026-11-24_ep51_hpe_paradoxe.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=3140011420826944736",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "06:55",
+  "id": "ep52_dow_50000",
+  "topic": "Dow Jones à 50 000, la tech craque (24-25/11) : Dow +0,85 % à 50 019, 1re clôture au-dessus de 50 000 (Yahoo/Motley Fool, 24/7 Wall St.) ; Nasdaq −1,48 % à 23 734, S&P 500 −0,50 % à 7 201 ; Nvidia −5,86 % à 155,38 $ (TradingKey) après +31,48 % lundi ; SOX ≈ −8 %, Micron ≈ −11 % (Saxo) ; santé +3,0 %, tech −3,3 % (24/7) ; Sanofi ADR +10,9 % (rachat Insmed) ; Analog Devices −17,3 %, HPE −17,1 %, Dell −12,0 % (24/7) ; Asie mer. 25/11 : Kospi ≈ −6 % vers 4 710, Nikkei −3 % (investingLive), Samsung −6,60 %, SK hynix −6,30 %, SoftBank −9,76 % (TradingKey) ; doutes IA + dépenses financées par la dette (investingLive) ; agenda PCE oct. + PIB T3 14 h 30 Paris, Thanksgiving jeu. ; beat coupé (durée) : confiance des consommateurs 103,3 vs 92,2 ; logos SNY, NVDA, HPE, DELL, ADI (ajouté, tuile bleue), CRWV, MU, AMD, SSU, SKH, SFTBY",
+  "hook_type": "bignum",
+  "hook_formula": "personne n'en parle",
+  "cta_angle": "Pendant que tout le monde fête un record, sur mon Telegram on regarde ce qui se cache derrière",
+  "title": "Dow Jones à 50 000 : le record qui cache tout",
+  "caption": "Un record historique à Wall Street… et pourtant, la tech craque. 📉\nLe Dow Jones clôture au-dessus de 50 000 points pour la 1re fois, pendant que le Nasdaq recule de 1,48 %, Nvidia de 5,86 % et que le Kospi chute de près de 6 % cette nuit. À surveiller aujourd'hui à 14 h 30 : l'inflation PCE et le PIB américain.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #wallstreet #dowjones #nvidia #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/68234c9c176294d70fd09a612ace1d99de1b44dc/2026-11-25_ep52_dow_50000.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=1508550054007752119",
+  "networks": [
+   "facebook",
+   "tiktok",
+   "youtube"
+  ],
+  "tiktok": "metricool"
  }
 ]

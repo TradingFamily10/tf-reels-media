@@ -565,5 +565,12 @@
   "img": "MRVL.png",
   "tile": "#000000",
   "fit": "70%"
+ },
+ "ADI": {
+  "name": "Analog Devices",
+  "ticker": "ADI",
+  "img": "ADI.png",
+  "tile": "#0067B9",
+  "fit": "70%"
  }
 }
