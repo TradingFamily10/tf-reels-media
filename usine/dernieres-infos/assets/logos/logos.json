@@ -635,5 +635,12 @@
   "img": "AM.png",
   "tile": "#FFFFFF",
   "fit": "92%"
+ },
+ "ARAMCO": {
+  "name": "Saudi Aramco",
+  "ticker": "2222",
+  "img": "ARAMCO.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
  }
 }
