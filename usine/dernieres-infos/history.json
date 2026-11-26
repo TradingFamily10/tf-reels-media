@@ -754,5 +754,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/a5840342f54569706328c7a0dc92f809e9f96ea3/2026-11-25_ep54_ouverture_rouge.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=3678841652200357939",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "06:55",
+  "id": "ep55_seoul_taux",
+  "topic": "Séoul relève ses taux en pleine tempête (26/11) : Banque de Corée 3,00 % -> 3,25 %, plus haut depuis nov. 2024, 3e hausse de 2026 (+75 pb), 32 analystes sur 34 l'attendaient (Reuters via AOL 26/11) ; Kospi −5,8 %, Taïwan −7,6 % mer. 25/11 (Saxo 26/11) ; exportations > 1 000 Md$ pour la 1re fois, puces / chantiers / défense / nucléaire (SBS 26/11) ; croissance 2027 relevée de 2,9 % à 4,1 %, plus forte depuis 2021 ; inflation oct. 2,8 % vs cible 2 % (Reuters) ; PCE de base 3,3 % vs 3,2 % attendu (Saxo) ; hausse Fed déc. 98,1 % (CME FedWatch via SBS) ; Nvidia −3,91 % à 149,30 $ (Yahoo/Motley Fool) ; USTR : droits de douane proposés sur 14 économies dont UE, Japon, Corée, 15 % envisagés pour l'UE (TradingKey) ; beats coupés (durée) : 32/34 analystes, rebond Kospi +1,94 % jeu. matin (TradingKey), Thanksgiving ; logos SSU, SKH, NVDA",
+  "hook_type": "headline",
+  "hook_formula": "contre-intuitif",
+  "cta_angle": "Pendant que tu dormais, Séoul a changé la donne.",
+  "title": "Séoul relève ses taux en pleine tempête",
+  "caption": "La Bourse de Séoul a chuté de 5,8 % mercredi… et la Banque de Corée relève quand même ses taux. 🇰🇷\nTaux directeur à 3,25 %, 3e hausse de l'année, exportations au-delà de 1 000 milliards de dollars et croissance 2027 relevée à 4,1 %. Prochain rendez-vous : la Fed en décembre.\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #coreedusud #tauxdinteret #fed #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/d531ea61f0a713c2e10d304c62cd076ebde316f8/2026-11-26_ep55_seoul_taux.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=963933676639764861",
+  "tiktok": "metricool"
  }
 ]
