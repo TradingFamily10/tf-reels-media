@@ -768,5 +768,19 @@
   "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/d531ea61f0a713c2e10d304c62cd076ebde316f8/2026-11-26_ep55_seoul_taux.mp4",
   "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=963933676639764861",
   "tiktok": "metricool"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "13:05",
+  "id": "ep56_nasdaq_rebond",
+  "topic": "Nasdaq frôle le marché baissier, l'Europe rebondit (jeu. 26/11) : Nasdaq 100 brièvement −20 % depuis le record d'octobre mer. 25/11 (Saxo) ; Nasdaq > −4 % en séance puis −0,62 % à 23 585,80 (AFP/MoneyVox) ; Nvidia −3,9 % à 149,30 $, pic oct. 243,37 $, note S&P sous surveillance (Reuters/Boursorama) ; CAC 40 +1,79 % à 8 123 vers 9h45 (AFP/Boursorama) ; défense européenne +3,6 % (Reuters) ; Safran +3,78 %, Thales +3,03 %, Airbus +2,78 %, Dassault Aviation +2,67 %, STMicro +4,84 % (AFP) ; droits de douane US 20-40 % sur 14 partenaires pas avant février/mars (Reuters) ; Brent 94,33 $, attaque houthie revendiquée sur raffinerie saoudienne (Reuters, Saxo) ; citation Swissquote (MoneyVox) ; OPEP+ 29/11 ; logos NVDA, NDAQ, SAF, STM, AIR (simple-icons, ajouté), HO, AM (tuiles texte ajoutées)",
+  "hook_type": "bignum",
+  "hook_formula": "chiffre choc",
+  "cta_angle": "Chaque matin, je fais le tri dans le bruit pour toi.",
+  "title": "Le Nasdaq frôle le marché baissier, l'Europe rebondit",
+  "caption": "Hier, le Nasdaq 100 a touché les −20 % depuis son record d'octobre… avant de se retourner en pleine séance. 📉📈\nCe matin, le CAC 40 gagne 1,79 % et la défense européenne mène le rebond : Safran, Thales, Airbus, Dassault Aviation. Vrai rebond ou simple pause ?\nToute l'actu décortiquée, mes analyses d'actions et mes opportunités en temps réel sur mon canal Telegram gratuit (lien en bio).\nContenu éducatif, pas un conseil en investissement.\n#bourse #nasdaq #cac40 #defense #investfamily",
+  "media_url": "https://raw.githubusercontent.com/TradingFamily10/tf-reels-media/1a487cfe77f8dd3e847da9013c69ebf3f2ec5462/2026-11-26_ep56_nasdaq_rebond.mp4",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7946352&openWithPostUuid=-8899929281390360853",
+  "tiktok": "metricool"
  }
 ]

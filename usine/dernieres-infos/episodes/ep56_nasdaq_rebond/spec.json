@@ -1,0 +1,507 @@
+{
+ "id": "ep56_nasdaq_rebond",
+ "date_label": "26 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "chiffre choc",
+ "cta_angle": "Chaque matin, je fais le tri dans le bruit pour toi.",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nasdaq-briefly-hits-bear-market-territory-before-paring-losses---26-november-2026-26112026",
+  "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-rattrape-le-sursaut-americain-4be1e2a9af2b9792d2b96d4dca7c4042",
+  "https://www.boursorama.com/bourse/actualites/l-europe-ouvre-dans-le-vert-thanksgiving-fait-oublier-les-craintes-sur-la-tech-ce56615f60183078645c4d5e90f545b1",
+  "https://www.boursorama.com/bourse/actualites/fort-rebond-en-vue-en-europe-les-droits-de-douane-us-inquietent-moins-f4c17d2b11bcf3e17150476bb16e9b67",
+  "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-progresse-nettement-soutenue-par-le-compartiment-technologique-ce7851d8df80f223",
+  "https://www.moneyvox.fr/bourse/actualites/111426/le-cac-40-en-forte-hausse-a-ouverture-ce-jeudi-26-novembre-lvmh-a-suivre"
+ ],
+ "beats": [
+  {
+   "text": "−20 % : hier, le Nasdaq 100 a touché le marché baissier. Puis tout s'est retourné.",
+   "say": "Moins vingt pour cent... Hier, le Nasdaq cent a touché le marché baissier. Puis tout s'est retourné.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.68,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "hook_bignum",
+     "value_to": -20,
+     "prefix": "",
+     "suffix": " %",
+     "unit": "NASDAQ 100 · DEPUIS LE RECORD D'OCTOBRE",
+     "label": "marché baissier touché",
+     "logos": [
+      "NVDA",
+      "NDAQ",
+      "STM",
+      "SAF",
+      "AIR",
+      "HO"
+     ],
+     "reveal_at_word": 10,
+     "count_dur": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le plus fou : en pleine séance, le Nasdaq a plongé de plus de 4 %.",
+   "say": "Et ce n'est pas le plus fou... en pleine séance, le Nasdaq a plongé de plus de quatre pour cent.",
+   "bg": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "−4 %",
+      "EN PLEINE SÉANCE"
+     ],
+     "at_word": 13
+    }
+   ]
+  },
+  {
+   "text": "Mais à la clôture, il ne perdait plus que 0,62 %.",
+   "say": "Mais à la clôture... il perdait moins d'un pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NASDAQ · EN SÉANCE",
+      "value_to": -4,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Plus de 4 % de baisse au pire de la séance · mer. 25 nov.",
+      "logo": "NDAQ"
+     },
+     "b_at_word": 3,
+     "b": {
+      "kicker": "NASDAQ · CLÔTURE",
+      "value_to": -0.62,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "23 585,80 points",
+      "logo": "NDAQ"
+     }
+    },
+    {
+     "type": "source",
+     "text": "AFP / MoneyVox · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Au cœur de la tempête : Nvidia, encore −3,9 % à 149,30 $.",
+   "say": "Au cœur de la tempête : Nvidia... encore près de quatre pour cent de baisse.",
+   "bg": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Clôture mer. 25 nov. · 149,30 $",
+     "pct": "−3,9 %",
+     "up": false,
+     "y": 1480,
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "Reuters / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En octobre, elle valait 243 $. Et S&P menace sa note de crédit.",
+   "say": "En octobre, elle valait deux cent quarante-trois dollars... Et l'agence S. and P. menace sa note de crédit.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NVIDIA · PIC D'OCTOBRE",
+      "value_to": 243.37,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " $",
+      "color": "white",
+      "desc": "Plus haut de 2026",
+      "logo": "NVDA"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "NVIDIA · 25 NOV.",
+      "value_to": 149.3,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "Note de crédit sous surveillance (S&P)",
+      "logo": "NVDA"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Reuters / Boursorama · 26 nov. 2026 · Saxo · Market Quick Take · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui profite de ce retournement ?",
+   "say": "Alors... qui profite de ce retournement ?",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI PROFITE DU",
+      "RETOURNEMENT ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ces retournements, je les suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Ces retournements, je les suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_1eaa56f0.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Ce matin, l'Europe rebondit : le CAC 40 gagne 1,79 %.",
+   "say": "Ce matin, l'Europe rebondit : le CAC quarante gagne près de deux pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "CAC 40 · JEUDI 26 NOV. · 9H45",
+     "value_from": 7980,
+     "value_to": 8123,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " pts",
+     "color": "green",
+     "pill": "+1,79 %",
+     "desc": "Clôture mercredi : 7 980,57 pts · AFP / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le secteur qui mène la danse ? La défense européenne, +3,6 %.",
+   "say": "Le secteur qui mène la danse ? La défense européenne... plus de trois pour cent et demi.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b8b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "DÉFENSE EUROPÉENNE",
+      "+3,6 %"
+     ],
+     "at_word": 7
+    },
+    {
+     "type": "source",
+     "text": "Reuters / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Safran, Thales, Airbus, Dassault Aviation : tous en nette hausse.",
+   "say": "Safran, Thalès, Airbus, Dassault Aviation : tous en nette hausse.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "PARIS · JEUDI 26 NOV. · 9H45",
+     "rows": [
+      {
+       "key": "SAF",
+       "name": "Safran",
+       "pct": "+3,78 %",
+       "at_word": 0
+      },
+      {
+       "key": "HO",
+       "name": "Thales",
+       "pct": "+3,03 %",
+       "at_word": 1
+      },
+      {
+       "key": "AIR",
+       "name": "Airbus",
+       "pct": "+2,78 %",
+       "at_word": 2
+      },
+      {
+       "key": "AM",
+       "name": "Dassault Aviation",
+       "pct": "+2,67 %",
+       "at_word": 3
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "AFP / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et les puces se réveillent : STMicroelectronics prend 4,84 %.",
+   "say": "Et les puces se réveillent : S.T. Micro... prend près de cinq pour cent.",
+   "bg": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "STM",
+     "name": "STMicroelectronics",
+     "sub": "Paris · jeu. 26 nov. · 39,36 €",
+     "pct": "+4,84 %",
+     "up": true,
+     "y": 1480,
+     "at_word": 5
+    },
+    {
+     "type": "source",
+     "text": "AFP / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le soulagement vient de Washington : ses nouveaux droits de douane attendront février.",
+   "say": "Le soulagement vient de Washington : ses nouveaux droits de douane... attendront février.",
+   "bg": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "ÉTATS-UNIS · COMMERCE",
+     "right": "26 NOV.",
+     "tag": "MOINS PIRE QUE PRÉVU",
+     "headline": "Taux de 20 % à 40 % proposés sur 14 partenaires, dont la Chine, le Japon et l'UE, pas appliqués avant février ou mars",
+     "highlight": "février ou mars",
+     "sub": "Reuters / Boursorama · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais le pétrole s'enflamme : le Brent frôle les 95 $ après une attaque houthie en Arabie saoudite.",
+   "say": "Mais le pétrole s'enflamme : le Brent frôle les quatre-vingt-quinze dollars... après une attaque houthie en Arabie saoudite.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BRENT · $ LE BARIL",
+     "value_from": 89,
+     "value_to": 94.33,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " $",
+     "color": "red",
+     "pill": "+5 $ EN DEUX JOURS",
+     "desc": "Attaque houthie revendiquée · mines dans le détroit d'Ormuz · Saxo · Market Quick Take · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et Swissquote prévient : ce rebond peut encore raconter la même histoire, la panique.",
+   "say": "Et Swissquote prévient : ce rebond peut encore raconter la même histoire... la panique.",
+   "bg": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "SWISSQUOTE · CITATION",
+     "right": "26 NOV.",
+     "tag": "PRUDENCE",
+     "headline": "« Un rebond de 3 % après une chute de 5 % peut encore raconter la même histoire : la panique. »",
+     "highlight": "la panique",
+     "sub": "Ipek Ozkardeskaya · AFP / MoneyVox · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Prochain test : Wall Street rouvre demain, et l'OPEP+ se réunit dimanche 29 novembre.",
+   "say": "Prochain test : Wall Street rouvre demain... et l'OPEP plus se réunit dimanche vingt-neuf novembre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b14.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b14b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "PROCHAIN TEST",
+      "OPEP+ · 29 NOVEMBRE"
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Alors, vrai rebond… ou simple pause dans la panique ? Dis-le en commentaire.",
+   "say": "Alors... vrai rebond... ou simple pause dans la panique ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "VRAI REBOND",
+      "OU SIMPLE PAUSE ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Chaque matin, je fais le tri dans le bruit pour toi. Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes y sont déjà. Entre dans le canal, lien en bio.",
+   "say": "Chaque matin, je fais le tri dans le bruit pour toi... Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de vingt-deux mille personnes y sont déjà... Entre dans le canal, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Nasdaq au bord du marché baissier, l'Europe rebondit : mon décryptage",
+     "imgs": [
+      "tg_38e4f34b.jpg",
+      "tg_3435c02c.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 33,
+     "bio_at_word": 43,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

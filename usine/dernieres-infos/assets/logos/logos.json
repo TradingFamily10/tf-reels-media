@@ -614,5 +614,26 @@
   "img": "RCO.png",
   "tile": "#FFFFFF",
   "fit": "92%"
+ },
+ "AIR": {
+  "name": "Airbus",
+  "ticker": "AIR",
+  "img": "AIR.png",
+  "tile": "#FFFFFF",
+  "fit": "96%"
+ },
+ "HO": {
+  "name": "Thales",
+  "ticker": "HO",
+  "img": "HO.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
+ },
+ "AM": {
+  "name": "Dassault Aviation",
+  "ticker": "AM",
+  "img": "AM.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
  }
 }
