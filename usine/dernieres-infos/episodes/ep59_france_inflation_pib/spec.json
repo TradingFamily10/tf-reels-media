@@ -1,0 +1,556 @@
+{
+ "id": "ep59_france_inflation_pib",
+ "date_label": "27 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "headline",
+ "hook_formula": "contre-intuitif",
+ "cta_angle": "Ce soir, pendant que S&P tranche, mes abonnés auront l'analyse dans la minute",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.france-epargne.fr/news/linflation-francaise-ralentit-bien-plus-que-prevu-en-novembre-freinee-par-lenergie",
+  "https://www.xtb.com/int/market-analysis/news-and-research/economic-calendar-inflation-in-europe-surprises-to-the-downside-27-11-2026",
+  "https://echosplus.com/2026/11/27/france-le-pib-recule-de-02-au-troisieme-trimestre-la-prevision-de-croissance-fragilisee/",
+  "https://www.boursorama.com/bourse/actualites/bourse-de-paris-hausse-timide-avant-le-retour-de-wall-street-8018d81d7734ab5fa10def645e72679c",
+  "https://www.boursorama.com/bourse/actualites/l-attrait-pour-le-risque-revient-sur-les-places-europeennes-901debe20470f41dcb36d9fb64f8adca",
+  "https://fr.euronews.com/2026/10/31/dette-fitch-degrade-la-perspective-de-la-france-a-negative"
+ ],
+ "beats": [
+  {
+   "text": "L'inflation française chute bien plus que prévu. Et pourtant, la France a de quoi s'inquiéter.",
+   "say": "L'inflation française chute... bien plus que prévu. Et pourtant, la France a de quoi s'inquiéter.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.37
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.45,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 27 novembre 2026 · Paris",
+     "until_beat": 0
+    },
+    {
+     "type": "news",
+     "at_word": 0,
+     "left": "INSEE · ESTIMATION PROVISOIRE",
+     "right": "27 NOV.",
+     "tag": "CONTRE-INTUITIF",
+     "headline": "L'inflation ralentit à 2,9 % sur un an en novembre, alors que les économistes attendaient 3,2 %",
+     "highlight": "2,9 %",
+     "sub": "France Épargne / Insee · 27 nov. 2026 · XTB · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "2,9 % sur un an en novembre. Les économistes attendaient 3,2 %.",
+   "say": "Moins de trois pour cent sur un an en novembre... Les économistes attendaient plus de trois pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 40,
+     "cx": 0.45
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "CONSENSUS · NOVEMBRE",
+      "value_to": 3.2,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Prévision des économistes"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "INSEE · NOVEMBRE",
+      "value_to": 2.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Contre 3,4 % en octobre"
+     }
+    },
+    {
+     "type": "source",
+     "text": "France Épargne / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le plus important : le même matin, l'Insee annonce que l'économie a reculé.",
+   "say": "Et ce n'est pas le plus important... le même matin, l'Insee annonce un recul de l'économie.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.62
+     },
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.4,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE MÊME MATIN",
+      "L'ÉCONOMIE RECULE"
+     ],
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Le PIB du troisième trimestre recule de 0,2 %. Pire que la première estimation.",
+   "say": "Le P.I.B. du troisième trimestre recule... Et c'est pire que la première estimation.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.4
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "FRANCE · PIB · T3 2026",
+     "value_from": 0,
+     "value_to": -0.2,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "RÉVISÉ EN BAISSE",
+     "desc": "Première estimation : −0,1 % · Echos Plus / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Les exportations plongent de 1,6 %. L'investissement recule de 0,9 %.",
+   "say": "Les exportations plongent... L'investissement recule, lui aussi.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b4.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "EXPORTATIONS · T3",
+      "value_to": -1.6,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Après +2,9 % au T2"
+     },
+     "b_at_word": 5,
+     "b": {
+      "kicker": "INVESTISSEMENT · T3",
+      "value_to": -0.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Après −0,5 % au T2"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Echos Plus / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le gouvernement vise 0,5 % de croissance en 2026. L'acquis n'est que de 0,1 %.",
+   "say": "Le gouvernement vise un demi-point de croissance cette année... L'acquis, lui, est presque nul.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b5.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "OBJECTIF DU GOUVERNEMENT · 2026",
+      "value_to": 0.5,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Rapport annexé au PLF 2027"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "ACQUIS FIN SEPTEMBRE",
+      "value_to": 0.1,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Acquis de croissance 2026"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Echos Plus / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi les prix ralentissent-ils, si l'économie cale ?",
+   "say": "Alors... pourquoi les prix ralentissent-ils, si l'économie cale ?",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LES PRIX FREINENT",
+      "L'ÉCONOMIE CALE"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ce dossier France, je le suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Ce dossier France, je le suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.6
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 13
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "La réponse, c'est l'énergie : sa hausse sur un an passe de 24,1 % à 19,2 %.",
+   "say": "La réponse, c'est l'énergie... sa hausse sur un an passe de vingt-quatre à dix-neuf pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.65
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ÉNERGIE · OCTOBRE",
+      "value_to": 24.1,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Sur un an"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "ÉNERGIE · NOVEMBRE",
+      "value_to": 19.2,
+      "decimals": 1,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Toujours en hausse, mais moins vite"
+     }
+    },
+    {
+     "type": "source",
+     "text": "France Épargne / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Sur un seul mois, les prix baissent même de 0,7 %.",
+   "say": "Sur un seul mois, les prix baissent même... de presque un pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PRIX À LA CONSOMMATION · NOVEMBRE",
+     "value_from": 0,
+     "value_to": -0.7,
+     "decimals": 1,
+     "prefix": "",
+     "suffix": " %",
+     "color": "green",
+     "pill": "SUR UN MOIS",
+     "desc": "Après +0,4 % en octobre · France Épargne / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais ton Livret A, à 1,7 %, reste 1,2 point sous l'inflation.",
+   "say": "Mais ton Livret A... reste encore plus d'un point sous l'inflation.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "LIVRET A",
+      "value_to": 1.7,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Taux actuel"
+     },
+     "b_at_word": 6,
+     "b": {
+      "kicker": "INFLATION · NOVEMBRE",
+      "value_to": 2.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Écart : 1,2 point"
+     }
+    },
+    {
+     "type": "source",
+     "text": "France Épargne / Insee · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "À Paris, le CAC 40 grappille 0,3 %, porté par STMicro. Sanofi recule.",
+   "say": "À Paris, le CAC quarante grappille un peu de terrain, porté par S.T. Micro. Sanofi recule.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.55
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "BOURSE DE PARIS · VENDREDI 27 NOV. · 10H15",
+     "rows": [
+      {
+       "key": "STM",
+       "name": "STMicroelectronics",
+       "pct": "+4,77 %",
+       "up": true,
+       "at_word": 3
+      },
+      {
+       "key": "SOI",
+       "name": "Soitec",
+       "pct": "+5,78 %",
+       "up": true,
+       "at_word": 5
+      },
+      {
+       "key": "SNY",
+       "name": "Sanofi",
+       "pct": "−2,08 %",
+       "up": false,
+       "at_word": 10
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "CAC 40 +0,29 % à 8 132 pts · AFP / Boursorama · 27 nov. 2026 · 10h27"
+    }
+   ]
+  },
+  {
+   "text": "Mais le vrai test tombe ce soir : S&P doit se prononcer sur la note de la France.",
+   "say": "Mais le vrai test tombe ce soir... Standard and Poor's doit se prononcer sur la note de la France.",
+   "bg": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.3
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 7,
+     "left": "DETTE FRANÇAISE",
+     "right": "CE SOIR",
+     "tag": "NOTATION",
+     "headline": "La décision de S&P sur la note de la France, « A+ » perspective stable, est attendue après la clôture",
+     "highlight": "après la clôture",
+     "sub": "AFP / Boursorama · 27 nov. 2026 · 10h27"
+    }
+   ]
+  },
+  {
+   "text": "Fin octobre, Fitch avait déjà passé sa perspective en négatif.",
+   "say": "Fin octobre, Fitch avait déjà passé sa perspective... en négatif.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5,
+    "inset": 0.05
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 1,
+     "left": "FITCH",
+     "right": "30 OCT.",
+     "tag": "PERSPECTIVE",
+     "headline": "Fitch maintient la note A+ de la France mais abaisse sa perspective à « négative »",
+     "highlight": "négative",
+     "sub": "Euronews · 31 oct. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Et la France emprunte déjà à 4,73 % sur dix ans, contre 3,28 % pour l'Allemagne.",
+   "say": "Et la France emprunte déjà bien plus cher que l'Allemagne... sur dix ans.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b15.mp4",
+     "ss": 1,
+     "cx": 0.55
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "FRANCE · OAT 10 ANS",
+      "value_to": 4.73,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Taux d'emprunt"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "ALLEMAGNE · BUND 10 ANS",
+      "value_to": 3.28,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Taux d'emprunt"
+     }
+    },
+    {
+     "type": "source",
+     "text": "AFP / Boursorama · 27 nov. 2026 · 10h27"
+    }
+   ]
+  },
+  {
+   "text": "Moins d'inflation, mais moins de croissance : bonne nouvelle, ou signal d'alarme ?",
+   "say": "Moins d'inflation, mais moins de croissance... bonne nouvelle, ou signal d'alarme ?",
+   "bg": {
+    "clip": "b17.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "BONNE NOUVELLE",
+      "OU SIGNAL D'ALARME ?"
+     ],
+     "at_word": 6
+    }
+   ]
+  },
+  {
+   "text": "Ce soir, pendant que S&P tranche, mes abonnés auront l'analyse dans la minute. Rejoins plus de 22 000 personnes sur mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Lien en bio.",
+   "say": "Ce soir, pendant que Standard and Poor's tranche... mes abonnés auront l'analyse dans la minute. Rejoins plus de vingt-deux mille personnes sur mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Note de la France : la décision de S&P décryptée en direct",
+     "imgs": [
+      "tg_3435c02c.jpg",
+      "tg_1eaa56f0.jpg",
+      "tg_4b2fa9a8.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 16,
+     "bio_at_word": 36,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
