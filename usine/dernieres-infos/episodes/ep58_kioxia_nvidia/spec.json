@@ -1,0 +1,541 @@
+{
+ "id": "ep58_kioxia_nvidia",
+ "date_label": "27 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "breaking",
+ "hook_formula": "coupable inattendu",
+ "cta_angle": "Si tu veux comprendre avant les autres au lieu de subir",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.investing.com/news/stock-market-news/kioxia-jumps-14-after-nvidia-collaboration-as-chip-stocks-rebound-5052074",
+  "https://wisevoter.com/world/2026/11/26/kioxia-shares-jump-nvidia-ai-storage-test",
+  "https://www.heygotrade.com/en/news/ai-stocks-rebound-kioxia-nvidia-memory-demo/",
+  "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026",
+  "https://edgeconsultancykw.com/asia-market-wrap-27-november-2026/",
+  "https://tradingeconomics.com/japan/tokyo-core-cpi",
+  "https://www.breitbart.com/news/asian-shares-mostly-rise-ahead-of-wall-streets-reopening-after-the-thanksgiving-holiday/"
+ ],
+ "beats": [
+  {
+   "text": "Ce n'est pas un résultat qui a fait bondir Kioxia de 14 %. C'est un test avec Nvidia.",
+   "say": "Ce n'est pas un résultat qui a fait bondir Kioxia de quatorze pour cent... C'est un test avec Nvidia.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 14
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 27 novembre 2026 · avant l'Europe",
+     "until_beat": 0
+    },
+    {
+     "type": "breaking",
+     "label": "DERNIÈRES INFOS",
+     "lines": [
+      "KIOXIA +14,5 %",
+      "UN TEST AVEC NVIDIA",
+      "TOKYO · JEUDI 26/11"
+     ]
+    },
+    {
+     "type": "stock",
+     "key": "KXIA",
+     "name": "Kioxia",
+     "sub": "Tokyo · plus haut de séance jeudi",
+     "pct": "+14,5 %",
+     "up": true,
+     "size": "big",
+     "y": 1600,
+     "at_word": 9
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le plus fou : la veille, le même titre avait plongé de 14 %.",
+   "say": "Et ce n'est pas le plus fou... la veille, le même titre avait plongé de quatorze pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b1.mp4",
+     "ss": 1,
+     "cx": 0.75
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "KIOXIA · MERCREDI 25 NOV.",
+      "value_to": -14.18,
+      "decimals": 2,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Séance de panique sur les puces"
+     },
+     "b_at_word": 13,
+     "b": {
+      "kicker": "KIOXIA · JEUDI 26 NOV.",
+      "value_to": 12.57,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "Clôture à 7 762 yens · Wisevoter · 26 nov. 2026"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Kioxia, c'est la mémoire flash : les disques SSD qui stockent les données de l'IA.",
+   "say": "Kioxia, c'est la mémoire flash... les disques S.S.D. qui stockent les données de l'I.A.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b2.mp4",
+      "ss": 1,
+      "cx": 0.55
+     },
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.75,
+      "at_word": 6
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "KXIA",
+     "name": "Kioxia",
+     "sub": "Mémoire flash · SSD",
+     "y": 1480,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le test : 144 disques Kioxia dans un système Nvidia.",
+   "say": "Le test... cent quarante-quatre disques Kioxia, dans un système Nvidia.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.75
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "PREUVE DE CONCEPT · NVIDIA GB200 NVL72",
+     "value_from": 0,
+     "value_to": 144,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": "",
+     "color": "white",
+     "pill": "SSD KIOXIA",
+     "desc": "18 serveurs, 8 disques chacun · Investing.com · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Environ 1,1 pétaoctet de stockage, mis à portée des puces de Nvidia.",
+   "say": "Environ un pétaoctet de stockage... mis à portée des puces de Nvidia.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 1,
+      "cx": 0.55
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 6,
+      "cx": 0.5,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "≈ 1,1 PÉTAOCTET",
+      "POUR LES GPU"
+     ],
+     "at_word": 0
+    },
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "Logiciel SCADA + architecture Storage-Next",
+     "y": 1480,
+     "at_word": 11
+    },
+    {
+     "type": "source",
+     "text": "Investing.com · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Mais attention : les deux groupes évaluent encore la faisabilité technique.",
+   "say": "Mais attention... les deux groupes évaluent encore la faisabilité technique.",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.62
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 4,
+     "left": "KIOXIA × NVIDIA",
+     "right": "26 NOV.",
+     "tag": "PRUDENCE",
+     "headline": "Les deux sociétés évaluent encore la faisabilité technique et les performances de la solution",
+     "highlight": "évaluent encore",
+     "sub": "Aucun chiffre de vitesse publié · Investing.com · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi un simple test fait-il bondir une action à ce point ?",
+   "say": "Alors... pourquoi un simple test fait-il bondir une action à ce point ?",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.7
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "POURQUOI",
+      "UN TEL BOND ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Ces montagnes russes de la tech, je les suis en direct sur mon Telegram. Lien en bio.",
+   "say": "Ces montagnes russes de la tech, je les suis en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_38e4f34b.jpg",
+     "bio_at_word": 16
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Parce que Kioxia a fondu de plus de 40 % ce mois-ci.",
+   "say": "Parce que Kioxia a fondu... de plus de quarante pour cent ce mois-ci.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b8.mp4",
+     "ss": 1,
+     "cx": 0.3
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "KIOXIA · NOVEMBRE 2026",
+     "value_from": 0,
+     "value_to": -40,
+     "decimals": 0,
+     "prefix": "> ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "SUR LE MOIS",
+     "desc": "Malgré le rebond de jeudi · Saxo · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Elle vaut environ 1,7 fois ses bénéfices attendus : la moins chère du Nikkei 225.",
+   "say": "Elle vaut moins de deux fois ses bénéfices attendus... la moins chère du Nikkei deux cent vingt-cinq.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b9.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "KIOXIA · PER ATTENDU",
+     "value_from": 0,
+     "value_to": 1.7,
+     "decimals": 1,
+     "prefix": "≈ ",
+     "suffix": " x",
+     "color": "white",
+     "pill": "LA MOINS CHÈRE DU NIKKEI 225",
+     "desc": "Saxo · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Le doute vient de New York : mercredi, Nvidia et Micron ont reculé de plus de 3 %.",
+   "say": "Le doute vient de New York... mercredi, Nvidia et Micron ont reculé de plus de trois pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "WALL STREET · MERCREDI 25 NOV. · CLÔTURE",
+     "rows": [
+      {
+       "key": "NVDA",
+       "name": "Nvidia",
+       "pct": "−3,91 %",
+       "up": false,
+       "at_word": 7
+      },
+      {
+       "key": "MU",
+       "name": "Micron",
+       "pct": "−4,53 %",
+       "up": false,
+       "at_word": 9
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Heygotrade / CNBC · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Selon TrendForce, des géants chinois du cloud ont réduit leurs commandes de mémoire pour 2027.",
+   "say": "Selon TrendForce, des géants chinois du cloud ont réduit leurs commandes de mémoire pour deux mille vingt-sept.",
+   "bg": {
+    "clip": "b11.mp4",
+    "ss": 1,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 3,
+     "left": "TRENDFORCE",
+     "right": "25 NOV.",
+     "tag": "MÉMOIRE",
+     "headline": "Des fournisseurs de cloud chinois réduisent les commandes de mémoire prévues pour 2027",
+     "highlight": "réduisent les commandes",
+     "sub": "Heygotrade / CNBC · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Ce matin, l'Asie rebondit : Séoul prend 2,72 %, Tokyo 1,17 %.",
+   "say": "Ce matin, l'Asie rebondit... Séoul prend près de trois pour cent, Tokyo plus d'un pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "SÉOUL · KOSPI",
+      "value_to": 2.72,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "4 839,20 points"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "TOKYO · NIKKEI 225",
+      "value_to": 1.17,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": " %",
+      "color": "green",
+      "desc": "58 172 points"
+     }
+    },
+    {
+     "type": "source",
+     "text": "The Edge · 27 nov. 2026 · 3h08 GMT"
+    }
+   ]
+  },
+  {
+   "text": "Mais à Tokyo, l'inflation hors produits frais accélère à 2,9 %.",
+   "say": "Mais à Tokyo, l'inflation hors produits frais accélère... à près de trois pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b13.mp4",
+     "ss": 1,
+     "cx": 0.3
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "TOKYO · INFLATION · OCTOBRE",
+      "value_to": 2.6,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "white",
+      "desc": "Hors produits frais"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "TOKYO · NOVEMBRE",
+      "value_to": 2.9,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Cible de la Banque du Japon : 2 %"
+     }
+    },
+    {
+     "type": "source",
+     "text": "The Edge / Trading Economics · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Ce soir, Wall Street rouvre pour une demi-séance. Et lundi, la Banque du Japon prend la parole.",
+   "say": "Ce soir, Wall Street rouvre pour une demi-séance... Et lundi, la Banque du Japon prend la parole.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "WALL STREET : 20 H",
+      "LUNDI : LA BOJ PARLE"
+     ],
+     "at_word": 2
+    },
+    {
+     "type": "source",
+     "text": "Saxo / The Edge · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, Kioxia : vrai rebond ou simple sursaut ? Dis-le en commentaire.",
+   "say": "Alors... Kioxia : vrai rebond ou simple sursaut ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b16.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "VRAI REBOND",
+      "OU SURSAUT ?"
+     ],
+     "at_word": 1
+    },
+    {
+     "type": "stock",
+     "key": "KXIA",
+     "name": "Kioxia",
+     "sub": "−40 % en novembre",
+     "y": 1480,
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Si tu veux comprendre avant les autres au lieu de subir, rejoins plus de 22 000 personnes sur mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Lien en bio.",
+   "say": "Si tu veux comprendre avant les autres... au lieu de subir, rejoins plus de vingt-deux mille personnes sur mon Telegram gratuit : actu géopolitique et financière décortiquée, analyses d'actions détaillées, opportunités en temps réel. Lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Kioxia, Nvidia et la mémoire de l'IA : mon décryptage du jour",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_4b2fa9a8.jpg",
+      "tg_3435c02c.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 14,
+     "bio_at_word": 34,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

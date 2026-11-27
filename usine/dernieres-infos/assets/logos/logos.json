@@ -642,5 +642,12 @@
   "img": "ARAMCO.png",
   "tile": "#FFFFFF",
   "fit": "92%"
+ },
+ "KXIA": {
+  "name": "Kioxia",
+  "ticker": "285A",
+  "img": "KXIA.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
  }
 }

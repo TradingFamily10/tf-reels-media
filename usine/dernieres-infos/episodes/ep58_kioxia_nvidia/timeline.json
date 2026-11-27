@@ -1,0 +1,3545 @@
+{
+ "fps": 30,
+ "duration": 85.27,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 4.664,
+   "w0": 0,
+   "w1": 16,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 4.724,
+   "end": 8.914,
+   "w0": 17,
+   "w1": 32,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 8.974,
+   "end": 13.054,
+   "w0": 33,
+   "w1": 46,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 13.114,
+   "end": 16.865,
+   "w0": 47,
+   "w1": 55,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 16.925,
+   "end": 20.659,
+   "w0": 56,
+   "w1": 67,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 20.719,
+   "end": 24.45,
+   "w0": 68,
+   "w1": 77,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 24.51,
+   "end": 28.173,
+   "w0": 78,
+   "w1": 89,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 28.233,
+   "end": 32.591,
+   "w0": 90,
+   "w1": 106,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 32.651,
+   "end": 35.756,
+   "w0": 107,
+   "w1": 117,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 35.816,
+   "end": 40.477,
+   "w0": 118,
+   "w1": 131,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 40.537,
+   "end": 45.772,
+   "w0": 132,
+   "w1": 147,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 45.832,
+   "end": 51.146,
+   "w0": 148,
+   "w1": 162,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 51.206,
+   "end": 56.239,
+   "w0": 163,
+   "w1": 171,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 56.299,
+   "end": 60.778,
+   "w0": 172,
+   "w1": 181,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_13.wav"
+  },
+  {
+   "i": 14,
+   "start": 60.838,
+   "end": 66.189,
+   "w0": 182,
+   "w1": 198,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_14.wav"
+  },
+  {
+   "i": 15,
+   "start": 66.249,
+   "end": 70.696,
+   "w0": 199,
+   "w1": 208,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_15.wav"
+  },
+  {
+   "i": 16,
+   "start": 70.756,
+   "end": 83.36,
+   "w0": 209,
+   "w1": 243,
+   "voice": "episodes/ep58_kioxia_nvidia/voice/beat_16.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "Ce",
+   "start": 0.0,
+   "end": 0.16,
+   "beat": 0
+  },
+  {
+   "w": "n'est",
+   "start": 0.18,
+   "end": 0.26,
+   "beat": 0
+  },
+  {
+   "w": "pas",
+   "start": 0.26,
+   "end": 0.36,
+   "beat": 0
+  },
+  {
+   "w": "un",
+   "start": 0.36,
+   "end": 0.46,
+   "beat": 0
+  },
+  {
+   "w": "résultat",
+   "start": 0.46,
+   "end": 0.96,
+   "beat": 0
+  },
+  {
+   "w": "qui",
+   "start": 0.96,
+   "end": 1.04,
+   "beat": 0
+  },
+  {
+   "w": "a",
+   "start": 1.04,
+   "end": 1.14,
+   "beat": 0
+  },
+  {
+   "w": "fait",
+   "start": 1.14,
+   "end": 1.26,
+   "beat": 0
+  },
+  {
+   "w": "bondir",
+   "start": 1.26,
+   "end": 1.72,
+   "beat": 0
+  },
+  {
+   "w": "Kioxia",
+   "start": 1.72,
+   "end": 2.16,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 2.16,
+   "end": 2.28,
+   "beat": 0
+  },
+  {
+   "w": "14 %.",
+   "start": 2.28,
+   "end": 3.1,
+   "beat": 0
+  },
+  {
+   "w": "C'est",
+   "start": 3.34,
+   "end": 3.38,
+   "beat": 0
+  },
+  {
+   "w": "un",
+   "start": 3.38,
+   "end": 3.52,
+   "beat": 0
+  },
+  {
+   "w": "test",
+   "start": 3.52,
+   "end": 3.76,
+   "beat": 0
+  },
+  {
+   "w": "avec",
+   "start": 3.76,
+   "end": 4.08,
+   "beat": 0
+  },
+  {
+   "w": "Nvidia.",
+   "start": 4.08,
+   "end": 4.3,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 4.724,
+   "end": 5.004,
+   "beat": 1
+  },
+  {
+   "w": "ce",
+   "start": 5.004,
+   "end": 5.084,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 5.124,
+   "end": 5.224,
+   "beat": 1
+  },
+  {
+   "w": "pas",
+   "start": 5.224,
+   "end": 5.324,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 5.324,
+   "end": 5.384,
+   "beat": 1
+  },
+  {
+   "w": "plus",
+   "start": 5.384,
+   "end": 5.564,
+   "beat": 1
+  },
+  {
+   "w": "fou :",
+   "start": 5.564,
+   "end": 5.784,
+   "beat": 1
+  },
+  {
+   "w": "la",
+   "start": 5.964,
+   "end": 6.104,
+   "beat": 1
+  },
+  {
+   "w": "veille,",
+   "start": 6.104,
+   "end": 6.484,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 6.624,
+   "end": 6.744,
+   "beat": 1
+  },
+  {
+   "w": "même",
+   "start": 6.744,
+   "end": 6.924,
+   "beat": 1
+  },
+  {
+   "w": "titre",
+   "start": 6.924,
+   "end": 7.284,
+   "beat": 1
+  },
+  {
+   "w": "avait",
+   "start": 7.424,
+   "end": 7.564,
+   "beat": 1
+  },
+  {
+   "w": "plongé",
+   "start": 7.564,
+   "end": 7.964,
+   "beat": 1
+  },
+  {
+   "w": "de",
+   "start": 7.964,
+   "end": 8.064,
+   "beat": 1
+  },
+  {
+   "w": "14 %.",
+   "start": 8.064,
+   "end": 8.684,
+   "beat": 1
+  },
+  {
+   "w": "Kioxia,",
+   "start": 8.974,
+   "end": 9.434,
+   "beat": 2
+  },
+  {
+   "w": "c'est",
+   "start": 9.534,
+   "end": 9.594,
+   "beat": 2
+  },
+  {
+   "w": "la",
+   "start": 9.594,
+   "end": 9.674,
+   "beat": 2
+  },
+  {
+   "w": "mémoire",
+   "start": 9.674,
+   "end": 10.034,
+   "beat": 2
+  },
+  {
+   "w": "flash :",
+   "start": 10.034,
+   "end": 10.294,
+   "beat": 2
+  },
+  {
+   "w": "les",
+   "start": 10.654,
+   "end": 10.754,
+   "beat": 2
+  },
+  {
+   "w": "disques",
+   "start": 10.754,
+   "end": 11.114,
+   "beat": 2
+  },
+  {
+   "w": "SSD",
+   "start": 11.114,
+   "end": 11.534,
+   "beat": 2
+  },
+  {
+   "w": "qui",
+   "start": 11.534,
+   "end": 11.794,
+   "beat": 2
+  },
+  {
+   "w": "stockent",
+   "start": 11.794,
+   "end": 12.194,
+   "beat": 2
+  },
+  {
+   "w": "les",
+   "start": 12.194,
+   "end": 12.234,
+   "beat": 2
+  },
+  {
+   "w": "données",
+   "start": 12.234,
+   "end": 12.474,
+   "beat": 2
+  },
+  {
+   "w": "de",
+   "start": 12.474,
+   "end": 12.634,
+   "beat": 2
+  },
+  {
+   "w": "l'IA.",
+   "start": 12.774,
+   "end": 12.934,
+   "beat": 2
+  },
+  {
+   "w": "Le",
+   "start": 13.114,
+   "end": 13.274,
+   "beat": 3
+  },
+  {
+   "w": "test :",
+   "start": 13.274,
+   "end": 13.574,
+   "beat": 3
+  },
+  {
+   "w": "144",
+   "start": 13.874,
+   "end": 14.394,
+   "beat": 3
+  },
+  {
+   "w": "disques",
+   "start": 14.394,
+   "end": 14.974,
+   "beat": 3
+  },
+  {
+   "w": "Kioxia",
+   "start": 14.974,
+   "end": 15.514,
+   "beat": 3
+  },
+  {
+   "w": "dans",
+   "start": 15.514,
+   "end": 15.774,
+   "beat": 3
+  },
+  {
+   "w": "un",
+   "start": 15.774,
+   "end": 15.954,
+   "beat": 3
+  },
+  {
+   "w": "système",
+   "start": 15.954,
+   "end": 16.274,
+   "beat": 3
+  },
+  {
+   "w": "Nvidia.",
+   "start": 16.274,
+   "end": 16.514,
+   "beat": 3
+  },
+  {
+   "w": "Environ",
+   "start": 16.925,
+   "end": 17.305,
+   "beat": 4
+  },
+  {
+   "w": "1,1",
+   "start": 17.305,
+   "end": 17.885,
+   "beat": 4
+  },
+  {
+   "w": "pétaoctet",
+   "start": 17.885,
+   "end": 18.145,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 18.145,
+   "end": 18.245,
+   "beat": 4
+  },
+  {
+   "w": "stockage,",
+   "start": 18.245,
+   "end": 18.805,
+   "beat": 4
+  },
+  {
+   "w": "mis",
+   "start": 18.805,
+   "end": 19.125,
+   "beat": 4
+  },
+  {
+   "w": "à",
+   "start": 19.125,
+   "end": 19.325,
+   "beat": 4
+  },
+  {
+   "w": "portée",
+   "start": 19.325,
+   "end": 19.625,
+   "beat": 4
+  },
+  {
+   "w": "des",
+   "start": 19.625,
+   "end": 19.765,
+   "beat": 4
+  },
+  {
+   "w": "puces",
+   "start": 19.765,
+   "end": 20.005,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 20.005,
+   "end": 20.125,
+   "beat": 4
+  },
+  {
+   "w": "Nvidia.",
+   "start": 20.125,
+   "end": 20.305,
+   "beat": 4
+  },
+  {
+   "w": "Mais",
+   "start": 20.719,
+   "end": 20.999,
+   "beat": 5
+  },
+  {
+   "w": "attention :",
+   "start": 20.999,
+   "end": 21.379,
+   "beat": 5
+  },
+  {
+   "w": "les",
+   "start": 21.859,
+   "end": 21.919,
+   "beat": 5
+  },
+  {
+   "w": "deux",
+   "start": 21.919,
+   "end": 22.079,
+   "beat": 5
+  },
+  {
+   "w": "groupes",
+   "start": 22.079,
+   "end": 22.499,
+   "beat": 5
+  },
+  {
+   "w": "évaluent",
+   "start": 22.499,
+   "end": 22.819,
+   "beat": 5
+  },
+  {
+   "w": "encore",
+   "start": 22.819,
+   "end": 23.019,
+   "beat": 5
+  },
+  {
+   "w": "la",
+   "start": 23.019,
+   "end": 23.219,
+   "beat": 5
+  },
+  {
+   "w": "faisabilité",
+   "start": 23.219,
+   "end": 23.959,
+   "beat": 5
+  },
+  {
+   "w": "technique.",
+   "start": 23.959,
+   "end": 24.219,
+   "beat": 5
+  },
+  {
+   "w": "Alors,",
+   "start": 24.51,
+   "end": 24.85,
+   "beat": 6
+  },
+  {
+   "w": "pourquoi",
+   "start": 25.15,
+   "end": 25.41,
+   "beat": 6
+  },
+  {
+   "w": "un",
+   "start": 25.41,
+   "end": 25.59,
+   "beat": 6
+  },
+  {
+   "w": "simple",
+   "start": 25.59,
+   "end": 25.89,
+   "beat": 6
+  },
+  {
+   "w": "test",
+   "start": 25.89,
+   "end": 26.29,
+   "beat": 6
+  },
+  {
+   "w": "fait-il",
+   "start": 26.29,
+   "end": 26.61,
+   "beat": 6
+  },
+  {
+   "w": "bondir",
+   "start": 26.81,
+   "end": 27.21,
+   "beat": 6
+  },
+  {
+   "w": "une",
+   "start": 27.21,
+   "end": 27.35,
+   "beat": 6
+  },
+  {
+   "w": "action",
+   "start": 27.35,
+   "end": 27.59,
+   "beat": 6
+  },
+  {
+   "w": "à",
+   "start": 27.59,
+   "end": 27.73,
+   "beat": 6
+  },
+  {
+   "w": "ce",
+   "start": 27.73,
+   "end": 27.85,
+   "beat": 6
+  },
+  {
+   "w": "point ?",
+   "start": 27.85,
+   "end": 28.07,
+   "beat": 6
+  },
+  {
+   "w": "Ces",
+   "start": 28.233,
+   "end": 28.433,
+   "beat": 7
+  },
+  {
+   "w": "montagnes",
+   "start": 28.433,
+   "end": 28.833,
+   "beat": 7
+  },
+  {
+   "w": "russes",
+   "start": 28.833,
+   "end": 29.133,
+   "beat": 7
+  },
+  {
+   "w": "de",
+   "start": 29.133,
+   "end": 29.193,
+   "beat": 7
+  },
+  {
+   "w": "la",
+   "start": 29.193,
+   "end": 29.313,
+   "beat": 7
+  },
+  {
+   "w": "tech,",
+   "start": 29.313,
+   "end": 29.573,
+   "beat": 7
+  },
+  {
+   "w": "je",
+   "start": 29.833,
+   "end": 29.933,
+   "beat": 7
+  },
+  {
+   "w": "les",
+   "start": 29.933,
+   "end": 30.053,
+   "beat": 7
+  },
+  {
+   "w": "suis",
+   "start": 30.053,
+   "end": 30.373,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 30.373,
+   "end": 30.433,
+   "beat": 7
+  },
+  {
+   "w": "direct",
+   "start": 30.433,
+   "end": 30.693,
+   "beat": 7
+  },
+  {
+   "w": "sur",
+   "start": 30.693,
+   "end": 31.013,
+   "beat": 7
+  },
+  {
+   "w": "mon",
+   "start": 31.013,
+   "end": 31.173,
+   "beat": 7
+  },
+  {
+   "w": "Telegram.",
+   "start": 31.173,
+   "end": 31.913,
+   "beat": 7
+  },
+  {
+   "w": "Lien",
+   "start": 31.993,
+   "end": 32.153,
+   "beat": 7
+  },
+  {
+   "w": "en",
+   "start": 32.153,
+   "end": 32.353,
+   "beat": 7
+  },
+  {
+   "w": "bio.",
+   "start": 32.353,
+   "end": 32.493,
+   "beat": 7
+  },
+  {
+   "w": "Parce",
+   "start": 32.651,
+   "end": 32.831,
+   "beat": 8
+  },
+  {
+   "w": "que",
+   "start": 32.831,
+   "end": 32.971,
+   "beat": 8
+  },
+  {
+   "w": "Kioxia",
+   "start": 32.971,
+   "end": 33.431,
+   "beat": 8
+  },
+  {
+   "w": "a",
+   "start": 33.431,
+   "end": 33.531,
+   "beat": 8
+  },
+  {
+   "w": "fondu",
+   "start": 33.531,
+   "end": 33.931,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 33.931,
+   "end": 34.191,
+   "beat": 8
+  },
+  {
+   "w": "plus",
+   "start": 34.191,
+   "end": 34.391,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 34.391,
+   "end": 34.511,
+   "beat": 8
+  },
+  {
+   "w": "40 %",
+   "start": 34.511,
+   "end": 34.831,
+   "beat": 8
+  },
+  {
+   "w": "ce",
+   "start": 35.191,
+   "end": 35.371,
+   "beat": 8
+  },
+  {
+   "w": "mois-ci.",
+   "start": 35.371,
+   "end": 35.531,
+   "beat": 8
+  },
+  {
+   "w": "Elle",
+   "start": 35.816,
+   "end": 36.096,
+   "beat": 9
+  },
+  {
+   "w": "vaut",
+   "start": 36.096,
+   "end": 36.276,
+   "beat": 9
+  },
+  {
+   "w": "environ",
+   "start": 36.276,
+   "end": 36.696,
+   "beat": 9
+  },
+  {
+   "w": "1,7",
+   "start": 36.696,
+   "end": 36.876,
+   "beat": 9
+  },
+  {
+   "w": "fois",
+   "start": 36.876,
+   "end": 37.036,
+   "beat": 9
+  },
+  {
+   "w": "ses",
+   "start": 37.036,
+   "end": 37.196,
+   "beat": 9
+  },
+  {
+   "w": "bénéfices",
+   "start": 37.196,
+   "end": 37.676,
+   "beat": 9
+  },
+  {
+   "w": "attendus :",
+   "start": 37.676,
+   "end": 38.156,
+   "beat": 9
+  },
+  {
+   "w": "la",
+   "start": 38.376,
+   "end": 38.476,
+   "beat": 9
+  },
+  {
+   "w": "moins",
+   "start": 38.476,
+   "end": 38.656,
+   "beat": 9
+  },
+  {
+   "w": "chère",
+   "start": 38.656,
+   "end": 38.956,
+   "beat": 9
+  },
+  {
+   "w": "du",
+   "start": 38.956,
+   "end": 39.076,
+   "beat": 9
+  },
+  {
+   "w": "Nikkei",
+   "start": 39.076,
+   "end": 39.456,
+   "beat": 9
+  },
+  {
+   "w": "225.",
+   "start": 39.456,
+   "end": 40.236,
+   "beat": 9
+  },
+  {
+   "w": "Le",
+   "start": 40.537,
+   "end": 40.697,
+   "beat": 10
+  },
+  {
+   "w": "doute",
+   "start": 40.697,
+   "end": 40.897,
+   "beat": 10
+  },
+  {
+   "w": "vient",
+   "start": 40.897,
+   "end": 41.137,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 41.137,
+   "end": 41.297,
+   "beat": 10
+  },
+  {
+   "w": "New",
+   "start": 41.297,
+   "end": 41.437,
+   "beat": 10
+  },
+  {
+   "w": "York :",
+   "start": 41.437,
+   "end": 41.777,
+   "beat": 10
+  },
+  {
+   "w": "mercredi,",
+   "start": 42.017,
+   "end": 42.637,
+   "beat": 10
+  },
+  {
+   "w": "Nvidia",
+   "start": 42.797,
+   "end": 43.197,
+   "beat": 10
+  },
+  {
+   "w": "et",
+   "start": 43.197,
+   "end": 43.417,
+   "beat": 10
+  },
+  {
+   "w": "Micron",
+   "start": 43.417,
+   "end": 43.857,
+   "beat": 10
+  },
+  {
+   "w": "ont",
+   "start": 43.857,
+   "end": 44.077,
+   "beat": 10
+  },
+  {
+   "w": "reculé",
+   "start": 44.077,
+   "end": 44.577,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 44.577,
+   "end": 44.677,
+   "beat": 10
+  },
+  {
+   "w": "plus",
+   "start": 44.677,
+   "end": 44.857,
+   "beat": 10
+  },
+  {
+   "w": "de",
+   "start": 44.857,
+   "end": 44.997,
+   "beat": 10
+  },
+  {
+   "w": "3 %.",
+   "start": 44.997,
+   "end": 45.577,
+   "beat": 10
+  },
+  {
+   "w": "Selon",
+   "start": 45.832,
+   "end": 46.212,
+   "beat": 11
+  },
+  {
+   "w": "TrendForce,",
+   "start": 46.212,
+   "end": 46.792,
+   "beat": 11
+  },
+  {
+   "w": "des",
+   "start": 47.092,
+   "end": 47.212,
+   "beat": 11
+  },
+  {
+   "w": "géants",
+   "start": 47.212,
+   "end": 47.512,
+   "beat": 11
+  },
+  {
+   "w": "chinois",
+   "start": 47.512,
+   "end": 47.832,
+   "beat": 11
+  },
+  {
+   "w": "du",
+   "start": 47.832,
+   "end": 47.952,
+   "beat": 11
+  },
+  {
+   "w": "cloud",
+   "start": 47.952,
+   "end": 48.372,
+   "beat": 11
+  },
+  {
+   "w": "ont",
+   "start": 48.372,
+   "end": 48.612,
+   "beat": 11
+  },
+  {
+   "w": "réduit",
+   "start": 48.612,
+   "end": 49.012,
+   "beat": 11
+  },
+  {
+   "w": "leurs",
+   "start": 49.012,
+   "end": 49.092,
+   "beat": 11
+  },
+  {
+   "w": "commandes",
+   "start": 49.092,
+   "end": 49.512,
+   "beat": 11
+  },
+  {
+   "w": "de",
+   "start": 49.512,
+   "end": 49.592,
+   "beat": 11
+  },
+  {
+   "w": "mémoire",
+   "start": 49.592,
+   "end": 50.052,
+   "beat": 11
+  },
+  {
+   "w": "pour",
+   "start": 50.052,
+   "end": 50.232,
+   "beat": 11
+  },
+  {
+   "w": "2027.",
+   "start": 50.232,
+   "end": 50.912,
+   "beat": 11
+  },
+  {
+   "w": "Ce",
+   "start": 51.206,
+   "end": 51.526,
+   "beat": 12
+  },
+  {
+   "w": "matin,",
+   "start": 51.526,
+   "end": 51.786,
+   "beat": 12
+  },
+  {
+   "w": "l'Asie",
+   "start": 52.226,
+   "end": 52.446,
+   "beat": 12
+  },
+  {
+   "w": "rebondit :",
+   "start": 52.446,
+   "end": 53.026,
+   "beat": 12
+  },
+  {
+   "w": "Séoul",
+   "start": 53.206,
+   "end": 53.586,
+   "beat": 12
+  },
+  {
+   "w": "prend",
+   "start": 53.586,
+   "end": 53.786,
+   "beat": 12
+  },
+  {
+   "w": "2,72 %,",
+   "start": 53.786,
+   "end": 54.826,
+   "beat": 12
+  },
+  {
+   "w": "Tokyo",
+   "start": 54.826,
+   "end": 55.326,
+   "beat": 12
+  },
+  {
+   "w": "1,17 %.",
+   "start": 55.326,
+   "end": 56.086,
+   "beat": 12
+  },
+  {
+   "w": "Mais",
+   "start": 56.299,
+   "end": 56.459,
+   "beat": 13
+  },
+  {
+   "w": "à",
+   "start": 56.459,
+   "end": 56.619,
+   "beat": 13
+  },
+  {
+   "w": "Tokyo,",
+   "start": 56.619,
+   "end": 56.899,
+   "beat": 13
+  },
+  {
+   "w": "l'inflation",
+   "start": 57.339,
+   "end": 57.799,
+   "beat": 13
+  },
+  {
+   "w": "hors",
+   "start": 57.799,
+   "end": 58.039,
+   "beat": 13
+  },
+  {
+   "w": "produits",
+   "start": 58.039,
+   "end": 58.499,
+   "beat": 13
+  },
+  {
+   "w": "frais",
+   "start": 58.499,
+   "end": 58.779,
+   "beat": 13
+  },
+  {
+   "w": "accélère",
+   "start": 58.779,
+   "end": 59.459,
+   "beat": 13
+  },
+  {
+   "w": "à",
+   "start": 59.459,
+   "end": 59.659,
+   "beat": 13
+  },
+  {
+   "w": "2,9 %.",
+   "start": 59.659,
+   "end": 60.479,
+   "beat": 13
+  },
+  {
+   "w": "Ce",
+   "start": 60.838,
+   "end": 61.038,
+   "beat": 14
+  },
+  {
+   "w": "soir,",
+   "start": 61.038,
+   "end": 61.458,
+   "beat": 14
+  },
+  {
+   "w": "Wall",
+   "start": 61.638,
+   "end": 61.818,
+   "beat": 14
+  },
+  {
+   "w": "Street",
+   "start": 61.818,
+   "end": 62.038,
+   "beat": 14
+  },
+  {
+   "w": "rouvre",
+   "start": 62.038,
+   "end": 62.518,
+   "beat": 14
+  },
+  {
+   "w": "pour",
+   "start": 62.518,
+   "end": 62.718,
+   "beat": 14
+  },
+  {
+   "w": "une",
+   "start": 62.718,
+   "end": 62.878,
+   "beat": 14
+  },
+  {
+   "w": "demi-séance.",
+   "start": 63.118,
+   "end": 63.698,
+   "beat": 14
+  },
+  {
+   "w": "Et",
+   "start": 63.918,
+   "end": 63.958,
+   "beat": 14
+  },
+  {
+   "w": "lundi,",
+   "start": 63.958,
+   "end": 64.418,
+   "beat": 14
+  },
+  {
+   "w": "la",
+   "start": 64.598,
+   "end": 64.698,
+   "beat": 14
+  },
+  {
+   "w": "Banque",
+   "start": 64.698,
+   "end": 64.978,
+   "beat": 14
+  },
+  {
+   "w": "du",
+   "start": 64.978,
+   "end": 65.078,
+   "beat": 14
+  },
+  {
+   "w": "Japon",
+   "start": 65.078,
+   "end": 65.338,
+   "beat": 14
+  },
+  {
+   "w": "prend",
+   "start": 65.338,
+   "end": 65.578,
+   "beat": 14
+  },
+  {
+   "w": "la",
+   "start": 65.578,
+   "end": 65.718,
+   "beat": 14
+  },
+  {
+   "w": "parole.",
+   "start": 65.718,
+   "end": 65.978,
+   "beat": 14
+  },
+  {
+   "w": "Alors,",
+   "start": 66.249,
+   "end": 66.629,
+   "beat": 15
+  },
+  {
+   "w": "Kioxia :",
+   "start": 66.909,
+   "end": 67.489,
+   "beat": 15
+  },
+  {
+   "w": "vrai",
+   "start": 67.769,
+   "end": 67.969,
+   "beat": 15
+  },
+  {
+   "w": "rebond",
+   "start": 67.969,
+   "end": 68.469,
+   "beat": 15
+  },
+  {
+   "w": "ou",
+   "start": 68.469,
+   "end": 68.649,
+   "beat": 15
+  },
+  {
+   "w": "simple",
+   "start": 68.649,
+   "end": 68.909,
+   "beat": 15
+  },
+  {
+   "w": "sursaut ?",
+   "start": 69.169,
+   "end": 69.509,
+   "beat": 15
+  },
+  {
+   "w": "Dis-le",
+   "start": 69.589,
+   "end": 69.789,
+   "beat": 15
+  },
+  {
+   "w": "en",
+   "start": 69.929,
+   "end": 70.049,
+   "beat": 15
+  },
+  {
+   "w": "commentaire.",
+   "start": 70.049,
+   "end": 70.569,
+   "beat": 15
+  },
+  {
+   "w": "Si",
+   "start": 70.756,
+   "end": 70.956,
+   "beat": 16
+  },
+  {
+   "w": "tu",
+   "start": 70.956,
+   "end": 71.096,
+   "beat": 16
+  },
+  {
+   "w": "veux",
+   "start": 71.096,
+   "end": 71.216,
+   "beat": 16
+  },
+  {
+   "w": "comprendre",
+   "start": 71.216,
+   "end": 71.656,
+   "beat": 16
+  },
+  {
+   "w": "avant",
+   "start": 71.656,
+   "end": 71.996,
+   "beat": 16
+  },
+  {
+   "w": "les",
+   "start": 71.996,
+   "end": 72.176,
+   "beat": 16
+  },
+  {
+   "w": "autres",
+   "start": 72.176,
+   "end": 72.516,
+   "beat": 16
+  },
+  {
+   "w": "au",
+   "start": 72.756,
+   "end": 72.796,
+   "beat": 16
+  },
+  {
+   "w": "lieu",
+   "start": 72.796,
+   "end": 72.936,
+   "beat": 16
+  },
+  {
+   "w": "de",
+   "start": 72.936,
+   "end": 73.076,
+   "beat": 16
+  },
+  {
+   "w": "subir,",
+   "start": 73.076,
+   "end": 73.436,
+   "beat": 16
+  },
+  {
+   "w": "rejoins",
+   "start": 73.836,
+   "end": 74.156,
+   "beat": 16
+  },
+  {
+   "w": "plus",
+   "start": 74.156,
+   "end": 74.336,
+   "beat": 16
+  },
+  {
+   "w": "de",
+   "start": 74.336,
+   "end": 74.476,
+   "beat": 16
+  },
+  {
+   "w": "22 000",
+   "start": 74.756,
+   "end": 74.956,
+   "beat": 16
+  },
+  {
+   "w": "personnes",
+   "start": 74.956,
+   "end": 75.336,
+   "beat": 16
+  },
+  {
+   "w": "sur",
+   "start": 75.336,
+   "end": 75.576,
+   "beat": 16
+  },
+  {
+   "w": "mon",
+   "start": 75.576,
+   "end": 75.736,
+   "beat": 16
+  },
+  {
+   "w": "Telegram",
+   "start": 75.736,
+   "end": 76.256,
+   "beat": 16
+  },
+  {
+   "w": "gratuit :",
+   "start": 76.256,
+   "end": 76.516,
+   "beat": 16
+  },
+  {
+   "w": "actu",
+   "start": 76.876,
+   "end": 77.216,
+   "beat": 16
+  },
+  {
+   "w": "géopolitique",
+   "start": 77.216,
+   "end": 78.036,
+   "beat": 16
+  },
+  {
+   "w": "et",
+   "start": 78.036,
+   "end": 78.116,
+   "beat": 16
+  },
+  {
+   "w": "financière",
+   "start": 78.116,
+   "end": 78.656,
+   "beat": 16
+  },
+  {
+   "w": "décortiquée,",
+   "start": 78.656,
+   "end": 79.396,
+   "beat": 16
+  },
+  {
+   "w": "analyses",
+   "start": 79.576,
+   "end": 79.856,
+   "beat": 16
+  },
+  {
+   "w": "d'actions",
+   "start": 80.076,
+   "end": 80.256,
+   "beat": 16
+  },
+  {
+   "w": "détaillées,",
+   "start": 80.256,
+   "end": 80.916,
+   "beat": 16
+  },
+  {
+   "w": "opportunités",
+   "start": 81.096,
+   "end": 81.756,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 81.756,
+   "end": 81.916,
+   "beat": 16
+  },
+  {
+   "w": "temps",
+   "start": 81.916,
+   "end": 82.076,
+   "beat": 16
+  },
+  {
+   "w": "réel.",
+   "start": 82.076,
+   "end": 82.516,
+   "beat": 16
+  },
+  {
+   "w": "Lien",
+   "start": 82.716,
+   "end": 82.916,
+   "beat": 16
+  },
+  {
+   "w": "en",
+   "start": 82.916,
+   "end": 82.996,
+   "beat": 16
+  },
+  {
+   "w": "bio.",
+   "start": 82.996,
+   "end": 83.196,
+   "beat": 16
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1,
+     2
+    ]
+   ],
+   "beat": 0,
+   "end": 0.36
+  },
+  {
+   "start": 0.36,
+   "lines": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "beat": 0,
+   "end": 1.14
+  },
+  {
+   "start": 1.14,
+   "lines": [
+    [
+     7,
+     8
+    ],
+    [
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 2.16
+  },
+  {
+   "start": 2.16,
+   "lines": [
+    [
+     10,
+     11
+    ]
+   ],
+   "beat": 0,
+   "end": 3.34
+  },
+  {
+   "start": 3.34,
+   "lines": [
+    [
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "beat": 0,
+   "end": 4.08
+  },
+  {
+   "start": 4.08,
+   "lines": [
+    [
+     16
+    ]
+   ],
+   "beat": 0,
+   "end": 4.724
+  },
+  {
+   "start": 4.724,
+   "lines": [
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "beat": 1,
+   "end": 5.324
+  },
+  {
+   "start": 5.324,
+   "lines": [
+    [
+     21,
+     22,
+     23
+    ]
+   ],
+   "beat": 1,
+   "end": 5.964
+  },
+  {
+   "start": 5.964,
+   "lines": [
+    [
+     24,
+     25
+    ]
+   ],
+   "beat": 1,
+   "end": 6.624
+  },
+  {
+   "start": 6.624,
+   "lines": [
+    [
+     26,
+     27
+    ],
+    [
+     28,
+     29
+    ]
+   ],
+   "beat": 1,
+   "end": 7.564
+  },
+  {
+   "start": 7.564,
+   "lines": [
+    [
+     30
+    ],
+    [
+     31,
+     32
+    ]
+   ],
+   "beat": 1,
+   "end": 8.974
+  },
+  {
+   "start": 8.974,
+   "lines": [
+    [
+     33,
+     34
+    ],
+    [
+     35,
+     36
+    ]
+   ],
+   "beat": 2,
+   "end": 10.034
+  },
+  {
+   "start": 10.034,
+   "lines": [
+    [
+     37
+    ]
+   ],
+   "beat": 2,
+   "end": 10.654
+  },
+  {
+   "start": 10.654,
+   "lines": [
+    [
+     38
+    ],
+    [
+     39,
+     40
+    ]
+   ],
+   "beat": 2,
+   "end": 11.534
+  },
+  {
+   "start": 11.534,
+   "lines": [
+    [
+     41,
+     42
+    ],
+    [
+     43,
+     44
+    ]
+   ],
+   "beat": 2,
+   "end": 12.474
+  },
+  {
+   "start": 12.474,
+   "lines": [
+    [
+     45,
+     46
+    ]
+   ],
+   "beat": 2,
+   "end": 13.114
+  },
+  {
+   "start": 13.114,
+   "lines": [
+    [
+     47,
+     48
+    ]
+   ],
+   "beat": 3,
+   "end": 13.874
+  },
+  {
+   "start": 13.874,
+   "lines": [
+    [
+     49,
+     50
+    ],
+    [
+     51
+    ]
+   ],
+   "beat": 3,
+   "end": 15.514
+  },
+  {
+   "start": 15.514,
+   "lines": [
+    [
+     52,
+     53
+    ],
+    [
+     54,
+     55
+    ]
+   ],
+   "beat": 3,
+   "end": 16.925
+  },
+  {
+   "start": 16.925,
+   "lines": [
+    [
+     56,
+     57
+    ],
+    [
+     58
+    ]
+   ],
+   "beat": 4,
+   "end": 18.145
+  },
+  {
+   "start": 18.145,
+   "lines": [
+    [
+     59,
+     60
+    ]
+   ],
+   "beat": 4,
+   "end": 18.805
+  },
+  {
+   "start": 18.805,
+   "lines": [
+    [
+     61,
+     62,
+     63
+    ]
+   ],
+   "beat": 4,
+   "end": 19.625
+  },
+  {
+   "start": 19.625,
+   "lines": [
+    [
+     64,
+     65
+    ],
+    [
+     66,
+     67
+    ]
+   ],
+   "beat": 4,
+   "end": 20.719
+  },
+  {
+   "start": 20.719,
+   "lines": [
+    [
+     68,
+     69
+    ]
+   ],
+   "beat": 5,
+   "end": 21.859
+  },
+  {
+   "start": 21.859,
+   "lines": [
+    [
+     70,
+     71
+    ],
+    [
+     72,
+     73
+    ]
+   ],
+   "beat": 5,
+   "end": 22.819
+  },
+  {
+   "start": 22.819,
+   "lines": [
+    [
+     74,
+     75
+    ],
+    [
+     76
+    ]
+   ],
+   "beat": 5,
+   "end": 23.959
+  },
+  {
+   "start": 23.959,
+   "lines": [
+    [
+     77
+    ]
+   ],
+   "beat": 5,
+   "end": 24.51
+  },
+  {
+   "start": 24.51,
+   "lines": [
+    [
+     78,
+     79
+    ],
+    [
+     80,
+     81
+    ]
+   ],
+   "beat": 6,
+   "end": 25.89
+  },
+  {
+   "start": 25.89,
+   "lines": [
+    [
+     82,
+     83
+    ],
+    [
+     84
+    ]
+   ],
+   "beat": 6,
+   "end": 27.21
+  },
+  {
+   "start": 27.21,
+   "lines": [
+    [
+     85,
+     86,
+     87
+    ]
+   ],
+   "beat": 6,
+   "end": 27.73
+  },
+  {
+   "start": 27.73,
+   "lines": [
+    [
+     88,
+     89
+    ]
+   ],
+   "beat": 6,
+   "end": 28.233
+  },
+  {
+   "start": 28.233,
+   "lines": [
+    [
+     90,
+     91
+    ],
+    [
+     92
+    ]
+   ],
+   "beat": 7,
+   "end": 29.133
+  },
+  {
+   "start": 29.133,
+   "lines": [
+    [
+     93,
+     94,
+     95
+    ]
+   ],
+   "beat": 7,
+   "end": 29.833
+  },
+  {
+   "start": 29.833,
+   "lines": [
+    [
+     96,
+     97,
+     98
+    ]
+   ],
+   "beat": 7,
+   "end": 30.373
+  },
+  {
+   "start": 30.373,
+   "lines": [
+    [
+     99,
+     100,
+     101
+    ]
+   ],
+   "beat": 7,
+   "end": 31.013
+  },
+  {
+   "start": 31.013,
+   "lines": [
+    [
+     102,
+     103
+    ]
+   ],
+   "beat": 7,
+   "end": 31.993
+  },
+  {
+   "start": 31.993,
+   "lines": [
+    [
+     104,
+     105,
+     106
+    ]
+   ],
+   "beat": 7,
+   "end": 32.651
+  },
+  {
+   "start": 32.651,
+   "lines": [
+    [
+     107,
+     108
+    ],
+    [
+     109,
+     110
+    ]
+   ],
+   "beat": 8,
+   "end": 33.531
+  },
+  {
+   "start": 33.531,
+   "lines": [
+    [
+     111,
+     112,
+     113
+    ]
+   ],
+   "beat": 8,
+   "end": 34.391
+  },
+  {
+   "start": 34.391,
+   "lines": [
+    [
+     114,
+     115,
+     116
+    ],
+    [
+     117
+    ]
+   ],
+   "beat": 8,
+   "end": 35.816
+  },
+  {
+   "start": 35.816,
+   "lines": [
+    [
+     118,
+     119
+    ],
+    [
+     120,
+     121
+    ]
+   ],
+   "beat": 9,
+   "end": 36.876
+  },
+  {
+   "start": 36.876,
+   "lines": [
+    [
+     122,
+     123
+    ],
+    [
+     124
+    ]
+   ],
+   "beat": 9,
+   "end": 37.676
+  },
+  {
+   "start": 37.676,
+   "lines": [
+    [
+     125
+    ]
+   ],
+   "beat": 9,
+   "end": 38.376
+  },
+  {
+   "start": 38.376,
+   "lines": [
+    [
+     126,
+     127
+    ],
+    [
+     128
+    ]
+   ],
+   "beat": 9,
+   "end": 38.956
+  },
+  {
+   "start": 38.956,
+   "lines": [
+    [
+     129,
+     130
+    ],
+    [
+     131
+    ]
+   ],
+   "beat": 9,
+   "end": 40.537
+  },
+  {
+   "start": 40.537,
+   "lines": [
+    [
+     132,
+     133
+    ],
+    [
+     134
+    ]
+   ],
+   "beat": 10,
+   "end": 41.137
+  },
+  {
+   "start": 41.137,
+   "lines": [
+    [
+     135,
+     136,
+     137
+    ]
+   ],
+   "beat": 10,
+   "end": 42.017
+  },
+  {
+   "start": 42.017,
+   "lines": [
+    [
+     138
+    ],
+    [
+     139,
+     140,
+     141
+    ]
+   ],
+   "beat": 10,
+   "end": 43.857
+  },
+  {
+   "start": 43.857,
+   "lines": [
+    [
+     142,
+     143,
+     144
+    ]
+   ],
+   "beat": 10,
+   "end": 44.677
+  },
+  {
+   "start": 44.677,
+   "lines": [
+    [
+     145,
+     146,
+     147
+    ]
+   ],
+   "beat": 10,
+   "end": 45.832
+  },
+  {
+   "start": 45.832,
+   "lines": [
+    [
+     148,
+     149
+    ]
+   ],
+   "beat": 11,
+   "end": 47.092
+  },
+  {
+   "start": 47.092,
+   "lines": [
+    [
+     150,
+     151
+    ],
+    [
+     152
+    ]
+   ],
+   "beat": 11,
+   "end": 47.832
+  },
+  {
+   "start": 47.832,
+   "lines": [
+    [
+     153,
+     154
+    ],
+    [
+     155,
+     156
+    ]
+   ],
+   "beat": 11,
+   "end": 49.012
+  },
+  {
+   "start": 49.012,
+   "lines": [
+    [
+     157,
+     158
+    ],
+    [
+     159,
+     160
+    ]
+   ],
+   "beat": 11,
+   "end": 50.052
+  },
+  {
+   "start": 50.052,
+   "lines": [
+    [
+     161,
+     162
+    ]
+   ],
+   "beat": 11,
+   "end": 51.206
+  },
+  {
+   "start": 51.206,
+   "lines": [
+    [
+     163,
+     164
+    ]
+   ],
+   "beat": 12,
+   "end": 52.226
+  },
+  {
+   "start": 52.226,
+   "lines": [
+    [
+     165,
+     166
+    ]
+   ],
+   "beat": 12,
+   "end": 53.206
+  },
+  {
+   "start": 53.206,
+   "lines": [
+    [
+     167,
+     168
+    ],
+    [
+     169
+    ]
+   ],
+   "beat": 12,
+   "end": 54.826
+  },
+  {
+   "start": 54.826,
+   "lines": [
+    [
+     170,
+     171
+    ]
+   ],
+   "beat": 12,
+   "end": 56.299
+  },
+  {
+   "start": 56.299,
+   "lines": [
+    [
+     172,
+     173,
+     174
+    ]
+   ],
+   "beat": 13,
+   "end": 57.339
+  },
+  {
+   "start": 57.339,
+   "lines": [
+    [
+     175
+    ],
+    [
+     176,
+     177
+    ]
+   ],
+   "beat": 13,
+   "end": 58.499
+  },
+  {
+   "start": 58.499,
+   "lines": [
+    [
+     178,
+     179
+    ],
+    [
+     180,
+     181
+    ]
+   ],
+   "beat": 13,
+   "end": 60.838
+  },
+  {
+   "start": 60.838,
+   "lines": [
+    [
+     182,
+     183
+    ]
+   ],
+   "beat": 14,
+   "end": 61.638
+  },
+  {
+   "start": 61.638,
+   "lines": [
+    [
+     184,
+     185
+    ],
+    [
+     186
+    ]
+   ],
+   "beat": 14,
+   "end": 62.518
+  },
+  {
+   "start": 62.518,
+   "lines": [
+    [
+     187,
+     188
+    ],
+    [
+     189
+    ]
+   ],
+   "beat": 14,
+   "end": 63.918
+  },
+  {
+   "start": 63.918,
+   "lines": [
+    [
+     190,
+     191
+    ]
+   ],
+   "beat": 14,
+   "end": 64.598
+  },
+  {
+   "start": 64.598,
+   "lines": [
+    [
+     192,
+     193
+    ],
+    [
+     194,
+     195
+    ]
+   ],
+   "beat": 14,
+   "end": 65.338
+  },
+  {
+   "start": 65.338,
+   "lines": [
+    [
+     196,
+     197
+    ],
+    [
+     198
+    ]
+   ],
+   "beat": 14,
+   "end": 66.249
+  },
+  {
+   "start": 66.249,
+   "lines": [
+    [
+     199,
+     200
+    ]
+   ],
+   "beat": 15,
+   "end": 67.769
+  },
+  {
+   "start": 67.769,
+   "lines": [
+    [
+     201,
+     202
+    ],
+    [
+     203,
+     204
+    ]
+   ],
+   "beat": 15,
+   "end": 69.169
+  },
+  {
+   "start": 69.169,
+   "lines": [
+    [
+     205
+    ]
+   ],
+   "beat": 15,
+   "end": 69.589
+  },
+  {
+   "start": 69.589,
+   "lines": [
+    [
+     206,
+     207
+    ],
+    [
+     208
+    ]
+   ],
+   "beat": 15,
+   "end": 70.756
+  },
+  {
+   "start": 70.756,
+   "lines": [
+    [
+     209,
+     210,
+     211
+    ],
+    [
+     212
+    ]
+   ],
+   "beat": 16,
+   "end": 71.656
+  },
+  {
+   "start": 71.656,
+   "lines": [
+    [
+     213,
+     214
+    ],
+    [
+     215
+    ]
+   ],
+   "beat": 16,
+   "end": 72.756
+  },
+  {
+   "start": 72.756,
+   "lines": [
+    [
+     216,
+     217
+    ],
+    [
+     218,
+     219
+    ]
+   ],
+   "beat": 16,
+   "end": 73.836
+  },
+  {
+   "start": 73.836,
+   "lines": [
+    [
+     220,
+     221
+    ],
+    [
+     222,
+     223
+    ]
+   ],
+   "beat": 16,
+   "end": 74.956
+  },
+  {
+   "start": 74.956,
+   "lines": [
+    [
+     224,
+     225
+    ],
+    [
+     226,
+     227
+    ]
+   ],
+   "beat": 16,
+   "end": 76.256
+  },
+  {
+   "start": 76.256,
+   "lines": [
+    [
+     228
+    ]
+   ],
+   "beat": 16,
+   "end": 76.876
+  },
+  {
+   "start": 76.876,
+   "lines": [
+    [
+     229,
+     230
+    ]
+   ],
+   "beat": 16,
+   "end": 78.036
+  },
+  {
+   "start": 78.036,
+   "lines": [
+    [
+     231,
+     232
+    ],
+    [
+     233
+    ]
+   ],
+   "beat": 16,
+   "end": 79.576
+  },
+  {
+   "start": 79.576,
+   "lines": [
+    [
+     234,
+     235
+    ]
+   ],
+   "beat": 16,
+   "end": 80.256
+  },
+  {
+   "start": 80.256,
+   "lines": [
+    [
+     236
+    ],
+    [
+     237
+    ]
+   ],
+   "beat": 16,
+   "end": 81.756
+  },
+  {
+   "start": 81.756,
+   "lines": [
+    [
+     238,
+     239
+    ],
+    [
+     240
+    ]
+   ],
+   "beat": 16,
+   "end": 82.716
+  },
+  {
+   "start": 82.716,
+   "lines": [
+    [
+     241,
+     242,
+     243
+    ]
+   ],
+   "beat": 16,
+   "end": 83.56
+  }
+ ],
+ "overlays": [
+  {
+   "type": "date",
+   "text": "Vendredi 27 novembre 2026 · avant l'Europe",
+   "until_beat": 0,
+   "start": 0.0,
+   "end": 4.724
+  },
+  {
+   "type": "breaking",
+   "label": "DERNIÈRES INFOS",
+   "lines": [
+    "KIOXIA +14,5 %",
+    "UN TEST AVEC NVIDIA",
+    "TOKYO · JEUDI 26/11"
+   ],
+   "start": 0.0,
+   "end": 4.724
+  },
+  {
+   "type": "stock",
+   "key": "KXIA",
+   "name": "Kioxia",
+   "sub": "Tokyo · plus haut de séance jeudi",
+   "pct": "+14,5 %",
+   "up": true,
+   "size": "big",
+   "y": 1600,
+   "at_word": 9,
+   "start": 1.72,
+   "end": 4.724
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "KIOXIA · MERCREDI 25 NOV.",
+    "value_to": -14.18,
+    "decimals": 2,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Séance de panique sur les puces"
+   },
+   "b_at_word": 13,
+   "b": {
+    "kicker": "KIOXIA · JEUDI 26 NOV.",
+    "value_to": 12.57,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "Clôture à 7 762 yens · Wisevoter · 26 nov. 2026"
+   },
+   "start": 4.724,
+   "end": 8.974,
+   "b_t": 7.564
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 26 nov. 2026",
+   "start": 4.724,
+   "end": 8.974
+  },
+  {
+   "type": "stock",
+   "key": "KXIA",
+   "name": "Kioxia",
+   "sub": "Mémoire flash · SSD",
+   "y": 1480,
+   "at_word": 0,
+   "start": 8.974,
+   "end": 13.114
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 26 nov. 2026",
+   "start": 8.974,
+   "end": 13.114
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "PREUVE DE CONCEPT · NVIDIA GB200 NVL72",
+   "value_from": 0,
+   "value_to": 144,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": "",
+   "color": "white",
+   "pill": "SSD KIOXIA",
+   "desc": "18 serveurs, 8 disques chacun · Investing.com · 26 nov. 2026",
+   "start": 13.114,
+   "end": 16.925
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "≈ 1,1 PÉTAOCTET",
+    "POUR LES GPU"
+   ],
+   "at_word": 0,
+   "start": 16.925,
+   "end": 20.719
+  },
+  {
+   "type": "stock",
+   "key": "NVDA",
+   "name": "Nvidia",
+   "sub": "Logiciel SCADA + architecture Storage-Next",
+   "y": 1480,
+   "at_word": 11,
+   "start": 20.125,
+   "end": 20.719
+  },
+  {
+   "type": "source",
+   "text": "Investing.com · 26 nov. 2026",
+   "start": 16.925,
+   "end": 20.719
+  },
+  {
+   "type": "news",
+   "at_word": 4,
+   "left": "KIOXIA × NVIDIA",
+   "right": "26 NOV.",
+   "tag": "PRUDENCE",
+   "headline": "Les deux sociétés évaluent encore la faisabilité technique et les performances de la solution",
+   "highlight": "évaluent encore",
+   "sub": "Aucun chiffre de vitesse publié · Investing.com · 26 nov. 2026",
+   "start": 22.079,
+   "end": 24.51
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "POURQUOI",
+    "UN TEL BOND ?"
+   ],
+   "at_word": 1,
+   "start": 25.15,
+   "end": 28.233
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_38e4f34b.jpg",
+   "bio_at_word": 16,
+   "start": 28.233,
+   "end": 32.651,
+   "bio_t": 32.353
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "KIOXIA · NOVEMBRE 2026",
+   "value_from": 0,
+   "value_to": -40,
+   "decimals": 0,
+   "prefix": "> ",
+   "suffix": " %",
+   "color": "red",
+   "pill": "SUR LE MOIS",
+   "desc": "Malgré le rebond de jeudi · Saxo · 27 nov. 2026",
+   "start": 32.651,
+   "end": 35.816
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "KIOXIA · PER ATTENDU",
+   "value_from": 0,
+   "value_to": 1.7,
+   "decimals": 1,
+   "prefix": "≈ ",
+   "suffix": " x",
+   "color": "white",
+   "pill": "LA MOINS CHÈRE DU NIKKEI 225",
+   "desc": "Saxo · 27 nov. 2026",
+   "start": 35.816,
+   "end": 40.537,
+   "cut_in": true
+  },
+  {
+   "type": "tickers",
+   "title": "WALL STREET · MERCREDI 25 NOV. · CLÔTURE",
+   "rows": [
+    {
+     "key": "NVDA",
+     "name": "Nvidia",
+     "pct": "−3,91 %",
+     "up": false,
+     "at_word": 7,
+     "t": 42.747
+    },
+    {
+     "key": "MU",
+     "name": "Micron",
+     "pct": "−4,53 %",
+     "up": false,
+     "at_word": 9,
+     "t": 43.367
+    }
+   ],
+   "start": 40.537,
+   "end": 45.832
+  },
+  {
+   "type": "source",
+   "text": "Heygotrade / CNBC · 27 nov. 2026",
+   "start": 40.537,
+   "end": 45.832
+  },
+  {
+   "type": "news",
+   "at_word": 3,
+   "left": "TRENDFORCE",
+   "right": "25 NOV.",
+   "tag": "MÉMOIRE",
+   "headline": "Des fournisseurs de cloud chinois réduisent les commandes de mémoire prévues pour 2027",
+   "highlight": "réduisent les commandes",
+   "sub": "Heygotrade / CNBC · 27 nov. 2026",
+   "start": 47.212,
+   "end": 51.206
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "SÉOUL · KOSPI",
+    "value_to": 2.72,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "4 839,20 points"
+   },
+   "b_at_word": 7,
+   "b": {
+    "kicker": "TOKYO · NIKKEI 225",
+    "value_to": 1.17,
+    "decimals": 2,
+    "prefix": "+",
+    "suffix": " %",
+    "color": "green",
+    "desc": "58 172 points"
+   },
+   "start": 51.206,
+   "end": 56.299,
+   "b_t": 54.826
+  },
+  {
+   "type": "source",
+   "text": "The Edge · 27 nov. 2026 · 3h08 GMT",
+   "start": 51.206,
+   "end": 56.299
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "TOKYO · INFLATION · OCTOBRE",
+    "value_to": 2.6,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "white",
+    "desc": "Hors produits frais"
+   },
+   "b_at_word": 7,
+   "b": {
+    "kicker": "TOKYO · NOVEMBRE",
+    "value_to": 2.9,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Cible de la Banque du Japon : 2 %"
+   },
+   "start": 56.299,
+   "end": 60.838,
+   "b_t": 58.779,
+   "cut_in": true
+  },
+  {
+   "type": "source",
+   "text": "The Edge / Trading Economics · 27 nov. 2026",
+   "start": 56.299,
+   "end": 60.838
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "WALL STREET : 20 H",
+    "LUNDI : LA BOJ PARLE"
+   ],
+   "at_word": 2,
+   "start": 61.638,
+   "end": 66.249
+  },
+  {
+   "type": "source",
+   "text": "Saxo / The Edge · 27 nov. 2026",
+   "start": 60.838,
+   "end": 66.249
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "VRAI REBOND",
+    "OU SURSAUT ?"
+   ],
+   "at_word": 1,
+   "start": 66.909,
+   "end": 70.756
+  },
+  {
+   "type": "stock",
+   "key": "KXIA",
+   "name": "Kioxia",
+   "sub": "−40 % en novembre",
+   "y": 1480,
+   "at_word": 1,
+   "start": 66.909,
+   "end": 70.756
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "Kioxia, Nvidia et la mémoire de l'IA : mon décryptage du jour",
+   "imgs": [
+    "tg_1eaa56f0.jpg",
+    "tg_4b2fa9a8.jpg",
+    "tg_3435c02c.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 14,
+   "bio_at_word": 34,
+   "button": "ACCÈS GRATUIT",
+   "start": 70.756,
+   "end": 83.47,
+   "subs_t": 74.756,
+   "bio_t": 82.996
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b0.mp4",
+   "start": 0.0,
+   "end": 3.48,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 14,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b0b.mp4",
+   "start": 3.48,
+   "end": 4.724,
+   "beat": 0
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.75
+   },
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.75,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b1.mp4",
+   "start": 4.724,
+   "end": 8.974,
+   "beat": 1
+  },
+  {
+   "clip": "b2.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b2.mp4",
+   "start": 8.974,
+   "end": 10.714,
+   "beat": 2
+  },
+  {
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.75,
+   "at_word": 6,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b3.mp4",
+   "start": 10.714,
+   "end": 13.114,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.75
+   },
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.75,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b3.mp4",
+   "start": 13.114,
+   "end": 16.925,
+   "beat": 3
+  },
+  {
+   "clip": "b4.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b4.mp4",
+   "start": 16.925,
+   "end": 18.765,
+   "beat": 4
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 6,
+   "cx": 0.5,
+   "at_word": 5,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b0b.mp4",
+   "start": 18.765,
+   "end": 20.719,
+   "beat": 4
+  },
+  {
+   "clip": "b5.mp4",
+   "ss": 1,
+   "cx": 0.62,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b5.mp4",
+   "start": 20.719,
+   "end": 24.51,
+   "beat": 5
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.7,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b6.mp4",
+   "start": 24.51,
+   "end": 28.233,
+   "beat": 6
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b7.mp4",
+   "start": 28.233,
+   "end": 32.651,
+   "beat": 7
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.3
+   },
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.3,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b8.mp4",
+   "start": 32.651,
+   "end": 35.816,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b9.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b9.mp4",
+   "start": 35.816,
+   "end": 40.537,
+   "beat": 9
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b10.mp4",
+   "start": 40.537,
+   "end": 45.832,
+   "beat": 10
+  },
+  {
+   "clip": "b11.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b11.mp4",
+   "start": 45.832,
+   "end": 51.206,
+   "beat": 11
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b12.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b12.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b12.mp4",
+   "start": 51.206,
+   "end": 56.299,
+   "beat": 12
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b13.mp4",
+    "ss": 1,
+    "cx": 0.3
+   },
+   "clip": "b13.mp4",
+   "ss": 1,
+   "cx": 0.3,
+   "blur": true,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b13.mp4",
+   "start": 56.299,
+   "end": 60.838,
+   "beat": 13
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b14.mp4",
+   "start": 60.838,
+   "end": 66.249,
+   "beat": 14
+  },
+  {
+   "clip": "b16.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep58_kioxia_nvidia/broll/b16.mp4",
+   "start": 66.249,
+   "end": 70.756,
+   "beat": 15
+  },
+  {
+   "blur_prev": true,
+   "start": 70.756,
+   "end": 85.27,
+   "beat": 16
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.1,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.21,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 0.32,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 1.72,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 3.43,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 4.664,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 4.844,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 7.564,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 7.614,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 8.974,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 10.664,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 13.054,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 13.234,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 16.925,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 18.715,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 20.125,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 20.669,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 22.079,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 24.46,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 25.15,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 28.183,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 28.233,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 32.353,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 32.591,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 32.771,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 35.786,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 35.936,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 40.537,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 42.747,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 43.367,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 47.212,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 51.146,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 51.326,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 54.826,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 54.876,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 56.269,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 56.419,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 58.779,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 58.829,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 61.638,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 66.199,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 66.909,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 66.909,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 70.706,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 70.806,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 71.106,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 74.756,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 82.87,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 82.996,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 83.47,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   0.0,
+   4.774
+  ],
+  [
+   83.47,
+   86.27
+  ]
+ ],
+ "endcard": {
+  "start": 83.47,
+  "button": "ACCÈS GRATUIT",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "27 novembre 2026"
+}
