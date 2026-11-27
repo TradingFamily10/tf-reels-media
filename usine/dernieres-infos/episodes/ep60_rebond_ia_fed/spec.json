@@ -1,0 +1,470 @@
+{
+ "id": "ep60_rebond_ia_fed",
+ "date_label": "27 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "logowall",
+ "hook_formula": "personne n'en parle",
+ "cta_angle": "Pendant que les marchés s'affolent, sur mon Telegram on garde la tête froide",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://www.forbes.com/sites/siladityaray/2026/11/27/stock-futures-surge-as-battered-ai-shares-rebound-ahead-of-shorterned-friday-trading/",
+  "https://www.tipranks.com/news/stock-market-today-nov-27-markets-reopen-for-shortened-black-friday-trading",
+  "https://premarketdaily.com/2026/11/27/nvidia-and-gold-surge-together-as-black-friday-cuts-the-session-short/"
+ ],
+ "beats": [
+  {
+   "text": "Sandisk, Micron, AMD, Nvidia : ce matin, toute la tech américaine rebondit avant l'ouverture.",
+   "say": "Sandisk, Micron, A.M.D., Nvidia... ce matin, toute la tech américaine rebondit avant l'ouverture.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b0.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "date",
+     "text": "Vendredi 27 novembre 2026 · Wall Street",
+     "until_beat": 1
+    },
+    {
+     "type": "screen_logos",
+     "kicker": "NASDAQ 100 · FUTURES",
+     "value_from": 0,
+     "value_to": 2.35,
+     "decimals": 2,
+     "prefix": "+",
+     "suffix": " %",
+     "color": "green",
+     "pill": "AVANT L'OUVERTURE",
+     "keys": [
+      "SNDK",
+      "MU",
+      "AMD",
+      "NVDA"
+     ],
+     "desc": "26 714 points · Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Tout le monde fête ce rebond. Le vrai danger est ailleurs.",
+   "say": "Tout le monde fête ce rebond... Le vrai danger est ailleurs.",
+   "bg": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "LE VRAI DANGER",
+      "EST AILLEURS"
+     ],
+     "at_word": 7
+    }
+   ]
+  },
+  {
+   "text": "Sandisk bondit de 10,8 %, Micron de 6,4 %, AMD de 5 %.",
+   "say": "Sandisk bondit de près de onze pour cent... Micron de plus de six pour cent, A.M.D. de cinq pour cent.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b3.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b3b.mp4",
+      "ss": 1,
+      "cx": 0.6,
+      "at_word": 4
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "AVANT-BOURSE · VEN. 27 NOV.",
+     "rows": [
+      {
+       "key": "SNDK",
+       "name": "Sandisk",
+       "pct": "+10,8 %",
+       "at_word": 0
+      },
+      {
+       "key": "MU",
+       "name": "Micron",
+       "pct": "+6,4 %",
+       "at_word": 4
+      },
+      {
+       "key": "AMD",
+       "name": "AMD",
+       "pct": "+5,0 %",
+       "at_word": 7
+      }
+     ]
+    },
+    {
+     "type": "source",
+     "text": "Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Nvidia reprend 4,2 %, à 155 dollars.",
+   "say": "Nvidia reprend plus de quatre pour cent... à cent cinquante-cinq dollars.",
+   "bg": {
+    "clip": "b4.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "NVDA",
+     "name": "Nvidia",
+     "sub": "NVDA · avant-bourse · 155,20 $",
+     "pct": "+4,2 %",
+     "up": true,
+     "size": "big",
+     "y": 560,
+     "at_word": 0
+    },
+    {
+     "type": "source",
+     "text": "Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Même Anthropic repasse au-dessus de son prix d'introduction, 83 dollars.",
+   "say": "Même Anthropic repasse au-dessus de son prix d'introduction, quatre-vingt-trois dollars.",
+   "bg": {
+    "clip": "b5.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "stock",
+     "key": "ANT",
+     "name": "Anthropic",
+     "sub": "Avant-bourse · 85,73 $ · IPO à 83 $",
+     "pct": "+3,6 %",
+     "up": true,
+     "size": "big",
+     "y": 560,
+     "at_word": 1
+    },
+    {
+     "type": "source",
+     "text": "Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Mais ce rebond part de très bas : le Nasdaq 100 a perdu environ 8 % en novembre.",
+   "say": "Mais ce rebond part de très bas : le Nasdaq cent a perdu environ huit pour cent en novembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b6.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "NASDAQ 100 · NOVEMBRE 2026",
+     "value_from": 0,
+     "value_to": -8,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " %",
+     "color": "red",
+     "pill": "JUSQU'À MERCREDI",
+     "desc": "Pire mois depuis décembre 2022 · Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Nvidia reste 37 % sous son record d'octobre. Sandisk a perdu près de la moitié de sa valeur.",
+   "say": "Nvidia reste plus d'un tiers sous son record... Sandisk a perdu près de la moitié de sa valeur.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b7.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "NVIDIA · VS RECORD",
+      "value_to": -37,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " %",
+      "color": "red",
+      "desc": "À la clôture de mercredi",
+      "logo": "NVDA"
+     },
+     "b_at_word": 7,
+     "b": {
+      "kicker": "SANDISK · NOV.",
+      "value_to": -50,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "« Près de la moitié de sa valeur »",
+      "logo": "SNDK"
+     }
+    },
+    {
+     "type": "source",
+     "text": "Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Alors, pourquoi ce rebond ne rassure personne ?",
+   "say": "Alors... pourquoi ce rebond ne rassure personne ?",
+   "bg": {
+    "clip": "b8.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "UN REBOND",
+      "QUI NE RASSURE PAS"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Cette demi-séance, je la commente en direct sur mon Telegram. Lien en bio.",
+   "say": "Cette demi-séance, je la commente en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b9.mp4",
+    "ss": 1,
+    "cx": 0.55
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 12
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Parce que la Fed ne change pas de cap : le marché voit à 98,9 % une hausse des taux en décembre.",
+   "say": "Parce que la Fed ne change pas de cap : le marché voit à presque cent pour cent... une hausse des taux en décembre.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_gauge",
+     "kicker": "HAUSSE DE LA FED EN DÉCEMBRE ?",
+     "pill": "98,9 % SELON LE CME FEDWATCH",
+     "desc": "Hausse de 0,25 point attendue · Forbes · 27 nov. 2026, 11 h 29 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Et le taux américain à 10 ans grimpe à 4,92 %.",
+   "say": "Et le taux américain à dix ans grimpe... à près de cinq pour cent.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "TAUX US À 10 ANS",
+     "value_from": 4.86,
+     "value_to": 4.92,
+     "decimals": 2,
+     "prefix": "",
+     "suffix": " %",
+     "color": "red",
+     "pill": "+6 POINTS DE BASE",
+     "desc": "Le 30 ans à 5,305 % · PreMarket Daily · 27 nov. 2026, 10 h 11 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Pendant ce temps, l'or reprend 4 %, deux jours après son plus bas sur un an.",
+   "say": "Pendant ce temps, l'or reprend quatre pour cent... deux jours après son plus bas sur un an.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b12.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "OR · PLUS BAS SUR 52 SEMAINES",
+      "value_to": 3425,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "red",
+      "desc": "Mercredi 25 nov. · contrat de février"
+     },
+     "b_at_word": 4,
+     "b": {
+      "kicker": "OR · VENDREDI MATIN",
+      "value_to": 3708,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " $",
+      "color": "green",
+      "desc": "+4 % · COMEX"
+     }
+    },
+    {
+     "type": "source",
+     "text": "PreMarket Daily · 27 nov. 2026, 10 h 11 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "En Asie, Shanghai gagne 3,7 % : Pékin promet d'agir pour freiner la chute de ses marchés.",
+   "say": "En Asie, Shanghai gagne presque quatre pour cent : Pékin promet d'agir pour freiner la chute de ses marchés.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b13.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b13b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "ASIE · MARCHÉS",
+     "right": "27 NOV.",
+     "tag": "PÉKIN INTERVIENT",
+     "headline": "Shanghai +3,73 %, Shenzhen +6,3 % : le gouvernement chinois promet de nouvelles mesures pour enrayer la baisse",
+     "highlight": "nouvelles mesures",
+     "sub": "TipRanks · 27 nov. 2026, 11 h 41 (Paris) · Kospi +4,34 % (Forbes)"
+    }
+   ]
+  },
+  {
+   "text": "À surveiller : Wall Street ouvre à 15 h 30 et ferme dès 19 h, heure de Paris.",
+   "say": "À surveiller : Wall Street ouvre à quinze heures trente... et ferme dès dix-neuf heures, heure de Paris.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 2,
+     "left": "AGENDA · WALL STREET",
+     "right": "VEN. 27 NOV.",
+     "tag": "DEMI-SÉANCE",
+     "headline": "Séance raccourcie du Black Friday : ouverture 15 h 30, clôture 19 h (Paris), aucune statistique majeure",
+     "highlight": "clôture 19 h",
+     "sub": "TipRanks · 27 nov. 2026, 11 h 41 (Paris) · PreMarket Daily · 27 nov. 2026, 10 h 11 (Paris)"
+    }
+   ]
+  },
+  {
+   "text": "Alors, vrai rebond… ou simple respiration avant la Fed ? Dis-le en commentaire.",
+   "say": "Alors... vrai rebond... ou simple respiration avant la Fed ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "VRAI REBOND",
+      "OU RESPIRATION ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Pendant que les marchés s'affolent, sur mon Telegram gratuit on garde la tête froide : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes sont déjà avec nous. Rejoins la famille, lien en bio.",
+   "say": "Pendant que les marchés s'affolent... sur mon Telegram gratuit, on garde la tête froide : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de vingt-deux mille personnes sont déjà avec nous... Rejoins la famille, lien en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "Rebond de la tech : ce que la Fed prépare",
+     "imgs": [
+      "tg_1eaa56f0.jpg",
+      "tg_3435c02c.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 32,
+     "bio_at_word": 42,
+     "button": "ENTRE DANS LE CANAL"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ENTRE DANS LE CANAL",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}

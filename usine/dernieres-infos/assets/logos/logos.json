@@ -649,5 +649,12 @@
   "img": "KXIA.png",
   "tile": "#FFFFFF",
   "fit": "92%"
+ },
+ "SNDK": {
+  "name": "Sandisk",
+  "ticker": "SNDK",
+  "img": "SNDK.png",
+  "tile": "#FFFFFF",
+  "fit": "92%"
  }
 }
