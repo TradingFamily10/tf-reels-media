@@ -1,0 +1,3297 @@
+{
+ "fps": 30,
+ "duration": 85.522,
+ "has_voice": true,
+ "beats": [
+  {
+   "i": 0,
+   "start": 0.0,
+   "end": 5.194,
+   "w0": 0,
+   "w1": 16,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_00.wav"
+  },
+  {
+   "i": 1,
+   "start": 5.254,
+   "end": 9.408,
+   "w0": 17,
+   "w1": 32,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_01.wav"
+  },
+  {
+   "i": 2,
+   "start": 9.468,
+   "end": 12.274,
+   "w0": 33,
+   "w1": 39,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_02.wav"
+  },
+  {
+   "i": 3,
+   "start": 12.334,
+   "end": 17.501,
+   "w0": 40,
+   "w1": 54,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_03.wav"
+  },
+  {
+   "i": 4,
+   "start": 17.561,
+   "end": 25.587,
+   "w0": 55,
+   "w1": 74,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_04.wav"
+  },
+  {
+   "i": 5,
+   "start": 25.647,
+   "end": 27.323,
+   "w0": 75,
+   "w1": 80,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_05.wav"
+  },
+  {
+   "i": 6,
+   "start": 27.383,
+   "end": 32.32,
+   "w0": 81,
+   "w1": 95,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_06.wav"
+  },
+  {
+   "i": 7,
+   "start": 32.38,
+   "end": 38.522,
+   "w0": 96,
+   "w1": 111,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_07.wav"
+  },
+  {
+   "i": 8,
+   "start": 38.582,
+   "end": 44.709,
+   "w0": 112,
+   "w1": 127,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_08.wav"
+  },
+  {
+   "i": 9,
+   "start": 44.769,
+   "end": 51.546,
+   "w0": 128,
+   "w1": 143,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_09.wav"
+  },
+  {
+   "i": 10,
+   "start": 51.606,
+   "end": 56.521,
+   "w0": 144,
+   "w1": 152,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_10.wav"
+  },
+  {
+   "i": 11,
+   "start": 56.581,
+   "end": 62.558,
+   "w0": 153,
+   "w1": 166,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_11.wav"
+  },
+  {
+   "i": 12,
+   "start": 62.618,
+   "end": 66.577,
+   "w0": 167,
+   "w1": 181,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_12.wav"
+  },
+  {
+   "i": 13,
+   "start": 66.637,
+   "end": 83.612,
+   "w0": 182,
+   "w1": 230,
+   "voice": "episodes/ep61_opep_compte_rebours/voice/beat_13.wav"
+  }
+ ],
+ "words": [
+  {
+   "w": "24",
+   "start": 0.0,
+   "end": 0.62,
+   "beat": 0
+  },
+  {
+   "w": "heures.",
+   "start": 0.62,
+   "end": 0.96,
+   "beat": 0
+  },
+  {
+   "w": "C'est",
+   "start": 0.96,
+   "end": 1.02,
+   "beat": 0
+  },
+  {
+   "w": "le",
+   "start": 1.02,
+   "end": 1.12,
+   "beat": 0
+  },
+  {
+   "w": "temps",
+   "start": 1.12,
+   "end": 1.26,
+   "beat": 0
+  },
+  {
+   "w": "qu'il",
+   "start": 1.26,
+   "end": 1.38,
+   "beat": 0
+  },
+  {
+   "w": "reste",
+   "start": 1.46,
+   "end": 1.76,
+   "beat": 0
+  },
+  {
+   "w": "avant",
+   "start": 1.76,
+   "end": 2.06,
+   "beat": 0
+  },
+  {
+   "w": "que",
+   "start": 2.06,
+   "end": 2.26,
+   "beat": 0
+  },
+  {
+   "w": "21",
+   "start": 2.26,
+   "end": 2.56,
+   "beat": 0
+  },
+  {
+   "w": "pays",
+   "start": 2.56,
+   "end": 3.02,
+   "beat": 0
+  },
+  {
+   "w": "décident",
+   "start": 3.02,
+   "end": 3.42,
+   "beat": 0
+  },
+  {
+   "w": "de",
+   "start": 3.42,
+   "end": 3.52,
+   "beat": 0
+  },
+  {
+   "w": "leur",
+   "start": 3.52,
+   "end": 3.62,
+   "beat": 0
+  },
+  {
+   "w": "pétrole",
+   "start": 3.62,
+   "end": 4.08,
+   "beat": 0
+  },
+  {
+   "w": "pour",
+   "start": 4.08,
+   "end": 4.26,
+   "beat": 0
+  },
+  {
+   "w": "2027.",
+   "start": 4.26,
+   "end": 4.96,
+   "beat": 0
+  },
+  {
+   "w": "Et",
+   "start": 5.254,
+   "end": 5.414,
+   "beat": 1
+  },
+  {
+   "w": "ce",
+   "start": 5.414,
+   "end": 5.534,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 5.554,
+   "end": 5.634,
+   "beat": 1
+  },
+  {
+   "w": "pas",
+   "start": 5.634,
+   "end": 5.754,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 5.754,
+   "end": 5.834,
+   "beat": 1
+  },
+  {
+   "w": "pire :",
+   "start": 5.834,
+   "end": 6.154,
+   "beat": 1
+  },
+  {
+   "w": "après",
+   "start": 6.294,
+   "end": 6.494,
+   "beat": 1
+  },
+  {
+   "w": "le",
+   "start": 6.494,
+   "end": 6.634,
+   "beat": 1
+  },
+  {
+   "w": "31",
+   "start": 6.634,
+   "end": 6.954,
+   "beat": 1
+  },
+  {
+   "w": "décembre,",
+   "start": 6.954,
+   "end": 7.574,
+   "beat": 1
+  },
+  {
+   "w": "plus",
+   "start": 7.754,
+   "end": 7.834,
+   "beat": 1
+  },
+  {
+   "w": "aucun",
+   "start": 7.834,
+   "end": 8.254,
+   "beat": 1
+  },
+  {
+   "w": "quota",
+   "start": 8.254,
+   "end": 8.614,
+   "beat": 1
+  },
+  {
+   "w": "n'est",
+   "start": 8.714,
+   "end": 8.814,
+   "beat": 1
+  },
+  {
+   "w": "en",
+   "start": 8.814,
+   "end": 8.914,
+   "beat": 1
+  },
+  {
+   "w": "vigueur.",
+   "start": 8.914,
+   "end": 9.314,
+   "beat": 1
+  },
+  {
+   "w": "Fin",
+   "start": 9.468,
+   "end": 9.688,
+   "beat": 2
+  },
+  {
+   "w": "octobre,",
+   "start": 9.688,
+   "end": 10.248,
+   "beat": 2
+  },
+  {
+   "w": "le",
+   "start": 10.428,
+   "end": 10.508,
+   "beat": 2
+  },
+  {
+   "w": "Brent",
+   "start": 10.508,
+   "end": 10.728,
+   "beat": 2
+  },
+  {
+   "w": "frôlait",
+   "start": 10.728,
+   "end": 11.188,
+   "beat": 2
+  },
+  {
+   "w": "118",
+   "start": 11.188,
+   "end": 11.848,
+   "beat": 2
+  },
+  {
+   "w": "dollars.",
+   "start": 11.848,
+   "end": 12.048,
+   "beat": 2
+  },
+  {
+   "w": "En",
+   "start": 12.334,
+   "end": 12.554,
+   "beat": 3
+  },
+  {
+   "w": "novembre,",
+   "start": 12.554,
+   "end": 13.074,
+   "beat": 3
+  },
+  {
+   "w": "il",
+   "start": 13.214,
+   "end": 13.314,
+   "beat": 3
+  },
+  {
+   "w": "a",
+   "start": 13.314,
+   "end": 13.414,
+   "beat": 3
+  },
+  {
+   "w": "perdu",
+   "start": 13.414,
+   "end": 13.694,
+   "beat": 3
+  },
+  {
+   "w": "près",
+   "start": 13.694,
+   "end": 13.894,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 13.894,
+   "end": 14.054,
+   "beat": 3
+  },
+  {
+   "w": "20 %.",
+   "start": 14.054,
+   "end": 14.714,
+   "beat": 3
+  },
+  {
+   "w": "Vendredi,",
+   "start": 14.714,
+   "end": 15.414,
+   "beat": 3
+  },
+  {
+   "w": "il",
+   "start": 15.614,
+   "end": 15.694,
+   "beat": 3
+  },
+  {
+   "w": "tournait",
+   "start": 15.694,
+   "end": 16.074,
+   "beat": 3
+  },
+  {
+   "w": "autour",
+   "start": 16.074,
+   "end": 16.214,
+   "beat": 3
+  },
+  {
+   "w": "de",
+   "start": 16.214,
+   "end": 16.414,
+   "beat": 3
+  },
+  {
+   "w": "90",
+   "start": 16.414,
+   "end": 16.894,
+   "beat": 3
+  },
+  {
+   "w": "dollars.",
+   "start": 16.894,
+   "end": 17.234,
+   "beat": 3
+  },
+  {
+   "w": "La",
+   "start": 17.561,
+   "end": 17.721,
+   "beat": 4
+  },
+  {
+   "w": "raison :",
+   "start": 17.721,
+   "end": 18.021,
+   "beat": 4
+  },
+  {
+   "w": "trop",
+   "start": 18.261,
+   "end": 18.421,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 18.421,
+   "end": 18.561,
+   "beat": 4
+  },
+  {
+   "w": "pétrole.",
+   "start": 18.561,
+   "end": 18.961,
+   "beat": 4
+  },
+  {
+   "w": "Selon",
+   "start": 19.181,
+   "end": 19.481,
+   "beat": 4
+  },
+  {
+   "w": "l'AIE,",
+   "start": 19.481,
+   "end": 21.381,
+   "beat": 4
+  },
+  {
+   "w": "l'offre",
+   "start": 21.381,
+   "end": 21.641,
+   "beat": 4
+  },
+  {
+   "w": "dépasse",
+   "start": 21.641,
+   "end": 22.021,
+   "beat": 4
+  },
+  {
+   "w": "la",
+   "start": 22.021,
+   "end": 22.161,
+   "beat": 4
+  },
+  {
+   "w": "demande",
+   "start": 22.161,
+   "end": 22.401,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 22.401,
+   "end": 22.741,
+   "beat": 4
+  },
+  {
+   "w": "1,7",
+   "start": 22.741,
+   "end": 22.861,
+   "beat": 4
+  },
+  {
+   "w": "million",
+   "start": 22.861,
+   "end": 23.161,
+   "beat": 4
+  },
+  {
+   "w": "de",
+   "start": 23.161,
+   "end": 23.861,
+   "beat": 4
+  },
+  {
+   "w": "barils",
+   "start": 23.861,
+   "end": 24.241,
+   "beat": 4
+  },
+  {
+   "w": "par",
+   "start": 24.241,
+   "end": 24.381,
+   "beat": 4
+  },
+  {
+   "w": "jour",
+   "start": 24.381,
+   "end": 24.661,
+   "beat": 4
+  },
+  {
+   "w": "ce",
+   "start": 24.661,
+   "end": 24.941,
+   "beat": 4
+  },
+  {
+   "w": "trimestre.",
+   "start": 24.941,
+   "end": 25.461,
+   "beat": 4
+  },
+  {
+   "w": "Alors,",
+   "start": 25.647,
+   "end": 25.887,
+   "beat": 5
+  },
+  {
+   "w": "qui",
+   "start": 26.167,
+   "end": 26.327,
+   "beat": 5
+  },
+  {
+   "w": "va",
+   "start": 26.327,
+   "end": 26.487,
+   "beat": 5
+  },
+  {
+   "w": "fermer",
+   "start": 26.487,
+   "end": 26.807,
+   "beat": 5
+  },
+  {
+   "w": "le",
+   "start": 26.807,
+   "end": 26.867,
+   "beat": 5
+  },
+  {
+   "w": "robinet ?",
+   "start": 26.867,
+   "end": 27.167,
+   "beat": 5
+  },
+  {
+   "w": "Le",
+   "start": 27.383,
+   "end": 27.543,
+   "beat": 6
+  },
+  {
+   "w": "verdict",
+   "start": 27.543,
+   "end": 27.843,
+   "beat": 6
+  },
+  {
+   "w": "de",
+   "start": 27.843,
+   "end": 28.143,
+   "beat": 6
+  },
+  {
+   "w": "dimanche,",
+   "start": 28.143,
+   "end": 28.663,
+   "beat": 6
+  },
+  {
+   "w": "je",
+   "start": 28.763,
+   "end": 28.923,
+   "beat": 6
+  },
+  {
+   "w": "le",
+   "start": 28.923,
+   "end": 29.063,
+   "beat": 6
+  },
+  {
+   "w": "décortique",
+   "start": 29.063,
+   "end": 29.703,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 29.703,
+   "end": 29.923,
+   "beat": 6
+  },
+  {
+   "w": "direct",
+   "start": 29.923,
+   "end": 30.243,
+   "beat": 6
+  },
+  {
+   "w": "sur",
+   "start": 30.243,
+   "end": 30.703,
+   "beat": 6
+  },
+  {
+   "w": "mon",
+   "start": 30.703,
+   "end": 30.863,
+   "beat": 6
+  },
+  {
+   "w": "Telegram.",
+   "start": 30.863,
+   "end": 31.703,
+   "beat": 6
+  },
+  {
+   "w": "Lien",
+   "start": 31.703,
+   "end": 31.863,
+   "beat": 6
+  },
+  {
+   "w": "en",
+   "start": 31.863,
+   "end": 32.023,
+   "beat": 6
+  },
+  {
+   "w": "bio.",
+   "start": 32.023,
+   "end": 32.183,
+   "beat": 6
+  },
+  {
+   "w": "Scénario",
+   "start": 32.38,
+   "end": 32.9,
+   "beat": 7
+  },
+  {
+   "w": "le",
+   "start": 32.9,
+   "end": 33.04,
+   "beat": 7
+  },
+  {
+   "w": "plus",
+   "start": 33.04,
+   "end": 33.24,
+   "beat": 7
+  },
+  {
+   "w": "probable",
+   "start": 33.24,
+   "end": 33.58,
+   "beat": 7
+  },
+  {
+   "w": "selon",
+   "start": 33.58,
+   "end": 33.9,
+   "beat": 7
+  },
+  {
+   "w": "Reuters :",
+   "start": 33.9,
+   "end": 34.48,
+   "beat": 7
+  },
+  {
+   "w": "personne.",
+   "start": 34.72,
+   "end": 35.04,
+   "beat": 7
+  },
+  {
+   "w": "Les",
+   "start": 35.4,
+   "end": 35.58,
+   "beat": 7
+  },
+  {
+   "w": "quotas",
+   "start": 35.58,
+   "end": 35.88,
+   "beat": 7
+  },
+  {
+   "w": "resteraient",
+   "start": 35.88,
+   "end": 36.38,
+   "beat": 7
+  },
+  {
+   "w": "inchangés",
+   "start": 36.38,
+   "end": 36.96,
+   "beat": 7
+  },
+  {
+   "w": "au",
+   "start": 37.14,
+   "end": 37.22,
+   "beat": 7
+  },
+  {
+   "w": "moins",
+   "start": 37.22,
+   "end": 37.44,
+   "beat": 7
+  },
+  {
+   "w": "jusqu'à",
+   "start": 37.44,
+   "end": 37.68,
+   "beat": 7
+  },
+  {
+   "w": "fin",
+   "start": 37.88,
+   "end": 38.04,
+   "beat": 7
+  },
+  {
+   "w": "mars.",
+   "start": 38.04,
+   "end": 38.3,
+   "beat": 7
+  },
+  {
+   "w": "L'Irak",
+   "start": 38.662,
+   "end": 38.902,
+   "beat": 8
+  },
+  {
+   "w": "réclame",
+   "start": 38.902,
+   "end": 39.362,
+   "beat": 8
+  },
+  {
+   "w": "une",
+   "start": 39.362,
+   "end": 39.482,
+   "beat": 8
+  },
+  {
+   "w": "base",
+   "start": 39.482,
+   "end": 39.782,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 39.782,
+   "end": 39.982,
+   "beat": 8
+  },
+  {
+   "w": "6",
+   "start": 39.982,
+   "end": 40.342,
+   "beat": 8
+  },
+  {
+   "w": "millions",
+   "start": 40.342,
+   "end": 40.662,
+   "beat": 8
+  },
+  {
+   "w": "de",
+   "start": 40.662,
+   "end": 40.902,
+   "beat": 8
+  },
+  {
+   "w": "barils",
+   "start": 40.902,
+   "end": 41.262,
+   "beat": 8
+  },
+  {
+   "w": "par",
+   "start": 41.262,
+   "end": 41.442,
+   "beat": 8
+  },
+  {
+   "w": "jour.",
+   "start": 41.442,
+   "end": 41.742,
+   "beat": 8
+  },
+  {
+   "w": "Son",
+   "start": 41.962,
+   "end": 42.162,
+   "beat": 8
+  },
+  {
+   "w": "quota",
+   "start": 42.162,
+   "end": 42.402,
+   "beat": 8
+  },
+  {
+   "w": "actuel :",
+   "start": 42.402,
+   "end": 42.922,
+   "beat": 8
+  },
+  {
+   "w": "4,4",
+   "start": 43.922,
+   "end": 44.182,
+   "beat": 8
+  },
+  {
+   "w": "millions.",
+   "start": 44.182,
+   "end": 44.542,
+   "beat": 8
+  },
+  {
+   "w": "Riyad",
+   "start": 44.769,
+   "end": 45.209,
+   "beat": 9
+  },
+  {
+   "w": "déclare",
+   "start": 45.209,
+   "end": 45.649,
+   "beat": 9
+  },
+  {
+   "w": "10,6",
+   "start": 46.029,
+   "end": 46.329,
+   "beat": 9
+  },
+  {
+   "w": "millions",
+   "start": 46.329,
+   "end": 46.629,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 47.049,
+   "end": 47.249,
+   "beat": 9
+  },
+  {
+   "w": "barils",
+   "start": 47.249,
+   "end": 47.589,
+   "beat": 9
+  },
+  {
+   "w": "en",
+   "start": 47.589,
+   "end": 47.669,
+   "beat": 9
+  },
+  {
+   "w": "octobre.",
+   "start": 47.669,
+   "end": 48.209,
+   "beat": 9
+  },
+  {
+   "w": "Les",
+   "start": 48.409,
+   "end": 48.509,
+   "beat": 9
+  },
+  {
+   "w": "observateurs",
+   "start": 48.509,
+   "end": 49.189,
+   "beat": 9
+  },
+  {
+   "w": "de",
+   "start": 49.189,
+   "end": 49.309,
+   "beat": 9
+  },
+  {
+   "w": "l'OPEP",
+   "start": 49.409,
+   "end": 49.749,
+   "beat": 9
+  },
+  {
+   "w": "n'en",
+   "start": 49.969,
+   "end": 50.049,
+   "beat": 9
+  },
+  {
+   "w": "comptent",
+   "start": 50.049,
+   "end": 50.509,
+   "beat": 9
+  },
+  {
+   "w": "que",
+   "start": 50.509,
+   "end": 50.569,
+   "beat": 9
+  },
+  {
+   "w": "9,2.",
+   "start": 50.569,
+   "end": 51.429,
+   "beat": 9
+  },
+  {
+   "w": "Aramco,",
+   "start": 51.606,
+   "end": 52.166,
+   "beat": 10
+  },
+  {
+   "w": "TotalEnergies,",
+   "start": 52.426,
+   "end": 53.206,
+   "beat": 10
+  },
+  {
+   "w": "Exxon,",
+   "start": 53.466,
+   "end": 53.906,
+   "beat": 10
+  },
+  {
+   "w": "Shell :",
+   "start": 54.146,
+   "end": 54.446,
+   "beat": 10
+  },
+  {
+   "w": "tous",
+   "start": 54.766,
+   "end": 54.906,
+   "beat": 10
+  },
+  {
+   "w": "suspendus",
+   "start": 54.906,
+   "end": 55.626,
+   "beat": 10
+  },
+  {
+   "w": "à",
+   "start": 55.626,
+   "end": 55.726,
+   "beat": 10
+  },
+  {
+   "w": "cette",
+   "start": 55.726,
+   "end": 55.886,
+   "beat": 10
+  },
+  {
+   "w": "décision.",
+   "start": 55.886,
+   "end": 56.426,
+   "beat": 10
+  },
+  {
+   "w": "Goldman",
+   "start": 56.581,
+   "end": 56.881,
+   "beat": 11
+  },
+  {
+   "w": "Sachs",
+   "start": 56.881,
+   "end": 57.401,
+   "beat": 11
+  },
+  {
+   "w": "voit",
+   "start": 57.401,
+   "end": 57.501,
+   "beat": 11
+  },
+  {
+   "w": "le",
+   "start": 57.501,
+   "end": 57.641,
+   "beat": 11
+  },
+  {
+   "w": "Brent",
+   "start": 57.641,
+   "end": 57.901,
+   "beat": 11
+  },
+  {
+   "w": "à",
+   "start": 57.901,
+   "end": 58.181,
+   "beat": 11
+  },
+  {
+   "w": "78",
+   "start": 58.181,
+   "end": 58.981,
+   "beat": 11
+  },
+  {
+   "w": "dollars",
+   "start": 58.981,
+   "end": 58.981,
+   "beat": 11
+  },
+  {
+   "w": "fin",
+   "start": 58.981,
+   "end": 59.681,
+   "beat": 11
+  },
+  {
+   "w": "2027.",
+   "start": 59.681,
+   "end": 60.541,
+   "beat": 11
+  },
+  {
+   "w": "Verdict",
+   "start": 60.741,
+   "end": 61.081,
+   "beat": 11
+  },
+  {
+   "w": "dimanche,",
+   "start": 61.081,
+   "end": 61.821,
+   "beat": 11
+  },
+  {
+   "w": "à",
+   "start": 61.821,
+   "end": 62.061,
+   "beat": 11
+  },
+  {
+   "w": "Vienne.",
+   "start": 62.061,
+   "end": 62.401,
+   "beat": 11
+  },
+  {
+   "w": "Et",
+   "start": 62.618,
+   "end": 62.778,
+   "beat": 12
+  },
+  {
+   "w": "toi,",
+   "start": 62.778,
+   "end": 62.938,
+   "beat": 12
+  },
+  {
+   "w": "tu",
+   "start": 63.198,
+   "end": 63.278,
+   "beat": 12
+  },
+  {
+   "w": "vois",
+   "start": 63.278,
+   "end": 63.438,
+   "beat": 12
+  },
+  {
+   "w": "le",
+   "start": 63.438,
+   "end": 63.518,
+   "beat": 12
+  },
+  {
+   "w": "baril",
+   "start": 63.518,
+   "end": 63.838,
+   "beat": 12
+  },
+  {
+   "w": "sous",
+   "start": 63.838,
+   "end": 63.998,
+   "beat": 12
+  },
+  {
+   "w": "les",
+   "start": 63.998,
+   "end": 64.098,
+   "beat": 12
+  },
+  {
+   "w": "80",
+   "start": 64.098,
+   "end": 64.458,
+   "beat": 12
+  },
+  {
+   "w": "dollars",
+   "start": 64.458,
+   "end": 64.878,
+   "beat": 12
+  },
+  {
+   "w": "l'an",
+   "start": 64.878,
+   "end": 64.918,
+   "beat": 12
+  },
+  {
+   "w": "prochain ?",
+   "start": 64.918,
+   "end": 65.198,
+   "beat": 12
+  },
+  {
+   "w": "Dis-le",
+   "start": 65.578,
+   "end": 65.678,
+   "beat": 12
+  },
+  {
+   "w": "en",
+   "start": 65.818,
+   "end": 65.918,
+   "beat": 12
+  },
+  {
+   "w": "commentaire.",
+   "start": 65.918,
+   "end": 66.438,
+   "beat": 12
+  },
+  {
+   "w": "Dimanche",
+   "start": 66.637,
+   "end": 67.057,
+   "beat": 13
+  },
+  {
+   "w": "soir,",
+   "start": 67.057,
+   "end": 67.337,
+   "beat": 13
+  },
+  {
+   "w": "pendant",
+   "start": 67.577,
+   "end": 67.697,
+   "beat": 13
+  },
+  {
+   "w": "que",
+   "start": 67.697,
+   "end": 67.897,
+   "beat": 13
+  },
+  {
+   "w": "tout",
+   "start": 67.897,
+   "end": 68.077,
+   "beat": 13
+  },
+  {
+   "w": "le",
+   "start": 68.077,
+   "end": 68.157,
+   "beat": 13
+  },
+  {
+   "w": "monde",
+   "start": 68.157,
+   "end": 68.277,
+   "beat": 13
+  },
+  {
+   "w": "attendra",
+   "start": 68.277,
+   "end": 68.697,
+   "beat": 13
+  },
+  {
+   "w": "les",
+   "start": 68.697,
+   "end": 68.837,
+   "beat": 13
+  },
+  {
+   "w": "gros",
+   "start": 68.837,
+   "end": 69.057,
+   "beat": 13
+  },
+  {
+   "w": "titres",
+   "start": 69.057,
+   "end": 69.397,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 69.397,
+   "end": 69.497,
+   "beat": 13
+  },
+  {
+   "w": "lundi,",
+   "start": 69.497,
+   "end": 69.857,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 70.137,
+   "end": 70.257,
+   "beat": 13
+  },
+  {
+   "w": "abonnés",
+   "start": 70.257,
+   "end": 70.797,
+   "beat": 13
+  },
+  {
+   "w": "auront",
+   "start": 70.797,
+   "end": 71.177,
+   "beat": 13
+  },
+  {
+   "w": "déjà",
+   "start": 71.177,
+   "end": 71.437,
+   "beat": 13
+  },
+  {
+   "w": "l'analyse.",
+   "start": 71.597,
+   "end": 72.077,
+   "beat": 13
+  },
+  {
+   "w": "Sur",
+   "start": 72.177,
+   "end": 72.397,
+   "beat": 13
+  },
+  {
+   "w": "mon",
+   "start": 72.397,
+   "end": 72.557,
+   "beat": 13
+  },
+  {
+   "w": "Telegram",
+   "start": 72.557,
+   "end": 73.057,
+   "beat": 13
+  },
+  {
+   "w": "gratuit :",
+   "start": 73.057,
+   "end": 73.357,
+   "beat": 13
+  },
+  {
+   "w": "l'actu",
+   "start": 73.877,
+   "end": 74.137,
+   "beat": 13
+  },
+  {
+   "w": "géopolitique",
+   "start": 74.137,
+   "end": 74.877,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 74.877,
+   "end": 74.957,
+   "beat": 13
+  },
+  {
+   "w": "financière",
+   "start": 74.957,
+   "end": 75.597,
+   "beat": 13
+  },
+  {
+   "w": "décortiquée,",
+   "start": 75.597,
+   "end": 76.397,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 76.397,
+   "end": 76.677,
+   "beat": 13
+  },
+  {
+   "w": "analyses",
+   "start": 76.677,
+   "end": 77.037,
+   "beat": 13
+  },
+  {
+   "w": "d'actions",
+   "start": 77.257,
+   "end": 77.497,
+   "beat": 13
+  },
+  {
+   "w": "détaillées",
+   "start": 77.497,
+   "end": 78.217,
+   "beat": 13
+  },
+  {
+   "w": "et",
+   "start": 78.217,
+   "end": 78.437,
+   "beat": 13
+  },
+  {
+   "w": "mes",
+   "start": 78.437,
+   "end": 78.577,
+   "beat": 13
+  },
+  {
+   "w": "opportunités",
+   "start": 78.577,
+   "end": 79.357,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 79.357,
+   "end": 79.537,
+   "beat": 13
+  },
+  {
+   "w": "temps",
+   "start": 79.537,
+   "end": 79.757,
+   "beat": 13
+  },
+  {
+   "w": "réel.",
+   "start": 79.757,
+   "end": 80.157,
+   "beat": 13
+  },
+  {
+   "w": "Plus",
+   "start": 80.317,
+   "end": 80.497,
+   "beat": 13
+  },
+  {
+   "w": "de",
+   "start": 80.497,
+   "end": 80.697,
+   "beat": 13
+  },
+  {
+   "w": "22 000",
+   "start": 81.037,
+   "end": 81.257,
+   "beat": 13
+  },
+  {
+   "w": "personnes",
+   "start": 81.257,
+   "end": 81.617,
+   "beat": 13
+  },
+  {
+   "w": "nous",
+   "start": 81.617,
+   "end": 81.897,
+   "beat": 13
+  },
+  {
+   "w": "ont",
+   "start": 81.897,
+   "end": 82.037,
+   "beat": 13
+  },
+  {
+   "w": "rejoints.",
+   "start": 82.037,
+   "end": 82.597,
+   "beat": 13
+  },
+  {
+   "w": "Le",
+   "start": 82.697,
+   "end": 82.797,
+   "beat": 13
+  },
+  {
+   "w": "lien",
+   "start": 82.797,
+   "end": 83.017,
+   "beat": 13
+  },
+  {
+   "w": "est",
+   "start": 83.017,
+   "end": 83.197,
+   "beat": 13
+  },
+  {
+   "w": "en",
+   "start": 83.197,
+   "end": 83.297,
+   "beat": 13
+  },
+  {
+   "w": "bio.",
+   "start": 83.297,
+   "end": 83.457,
+   "beat": 13
+  }
+ ],
+ "pages": [
+  {
+   "start": 0.0,
+   "lines": [
+    [
+     0,
+     1
+    ]
+   ],
+   "beat": 0,
+   "end": 0.96
+  },
+  {
+   "start": 0.96,
+   "lines": [
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "beat": 0,
+   "end": 1.46
+  },
+  {
+   "start": 1.46,
+   "lines": [
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "beat": 0,
+   "end": 2.56
+  },
+  {
+   "start": 2.56,
+   "lines": [
+    [
+     10,
+     11
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "beat": 0,
+   "end": 3.62
+  },
+  {
+   "start": 3.62,
+   "lines": [
+    [
+     14
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "beat": 0,
+   "end": 5.254
+  },
+  {
+   "start": 5.254,
+   "lines": [
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "beat": 1,
+   "end": 5.754
+  },
+  {
+   "start": 5.754,
+   "lines": [
+    [
+     21,
+     22
+    ]
+   ],
+   "beat": 1,
+   "end": 6.294
+  },
+  {
+   "start": 6.294,
+   "lines": [
+    [
+     23,
+     24,
+     25
+    ],
+    [
+     26
+    ]
+   ],
+   "beat": 1,
+   "end": 7.754
+  },
+  {
+   "start": 7.754,
+   "lines": [
+    [
+     27,
+     28
+    ],
+    [
+     29,
+     30
+    ]
+   ],
+   "beat": 1,
+   "end": 8.814
+  },
+  {
+   "start": 8.814,
+   "lines": [
+    [
+     31,
+     32
+    ]
+   ],
+   "beat": 1,
+   "end": 9.468
+  },
+  {
+   "start": 9.468,
+   "lines": [
+    [
+     33,
+     34
+    ]
+   ],
+   "beat": 2,
+   "end": 10.428
+  },
+  {
+   "start": 10.428,
+   "lines": [
+    [
+     35,
+     36
+    ],
+    [
+     37,
+     38
+    ]
+   ],
+   "beat": 2,
+   "end": 11.848
+  },
+  {
+   "start": 11.848,
+   "lines": [
+    [
+     39
+    ]
+   ],
+   "beat": 2,
+   "end": 12.334
+  },
+  {
+   "start": 12.334,
+   "lines": [
+    [
+     40,
+     41
+    ]
+   ],
+   "beat": 3,
+   "end": 13.214
+  },
+  {
+   "start": 13.214,
+   "lines": [
+    [
+     42,
+     43,
+     44
+    ]
+   ],
+   "beat": 3,
+   "end": 13.694
+  },
+  {
+   "start": 13.694,
+   "lines": [
+    [
+     45,
+     46,
+     47
+    ]
+   ],
+   "beat": 3,
+   "end": 14.714
+  },
+  {
+   "start": 14.714,
+   "lines": [
+    [
+     48
+    ],
+    [
+     49,
+     50
+    ]
+   ],
+   "beat": 3,
+   "end": 16.074
+  },
+  {
+   "start": 16.074,
+   "lines": [
+    [
+     51,
+     52
+    ],
+    [
+     53,
+     54
+    ]
+   ],
+   "beat": 3,
+   "end": 17.561
+  },
+  {
+   "start": 17.561,
+   "lines": [
+    [
+     55,
+     56
+    ]
+   ],
+   "beat": 4,
+   "end": 18.261
+  },
+  {
+   "start": 18.261,
+   "lines": [
+    [
+     57,
+     58
+    ],
+    [
+     59
+    ]
+   ],
+   "beat": 4,
+   "end": 19.181
+  },
+  {
+   "start": 19.181,
+   "lines": [
+    [
+     60,
+     61
+    ]
+   ],
+   "beat": 4,
+   "end": 21.381
+  },
+  {
+   "start": 21.381,
+   "lines": [
+    [
+     62,
+     63
+    ],
+    [
+     64,
+     65
+    ]
+   ],
+   "beat": 4,
+   "end": 22.401
+  },
+  {
+   "start": 22.401,
+   "lines": [
+    [
+     66,
+     67
+    ],
+    [
+     68
+    ]
+   ],
+   "beat": 4,
+   "end": 23.161
+  },
+  {
+   "start": 23.161,
+   "lines": [
+    [
+     69,
+     70
+    ],
+    [
+     71,
+     72
+    ]
+   ],
+   "beat": 4,
+   "end": 24.661
+  },
+  {
+   "start": 24.661,
+   "lines": [
+    [
+     73,
+     74
+    ]
+   ],
+   "beat": 4,
+   "end": 25.647
+  },
+  {
+   "start": 25.647,
+   "lines": [
+    [
+     75,
+     76
+    ],
+    [
+     77,
+     78
+    ]
+   ],
+   "beat": 5,
+   "end": 26.807
+  },
+  {
+   "start": 26.807,
+   "lines": [
+    [
+     79,
+     80
+    ]
+   ],
+   "beat": 5,
+   "end": 27.383
+  },
+  {
+   "start": 27.383,
+   "lines": [
+    [
+     81,
+     82
+    ],
+    [
+     83,
+     84
+    ]
+   ],
+   "beat": 6,
+   "end": 28.763
+  },
+  {
+   "start": 28.763,
+   "lines": [
+    [
+     85,
+     86
+    ],
+    [
+     87
+    ]
+   ],
+   "beat": 6,
+   "end": 29.703
+  },
+  {
+   "start": 29.703,
+   "lines": [
+    [
+     88,
+     89,
+     90
+    ]
+   ],
+   "beat": 6,
+   "end": 30.703
+  },
+  {
+   "start": 30.703,
+   "lines": [
+    [
+     91,
+     92
+    ]
+   ],
+   "beat": 6,
+   "end": 31.703
+  },
+  {
+   "start": 31.703,
+   "lines": [
+    [
+     93,
+     94,
+     95
+    ]
+   ],
+   "beat": 6,
+   "end": 32.38
+  },
+  {
+   "start": 32.38,
+   "lines": [
+    [
+     96,
+     97
+    ],
+    [
+     98,
+     99
+    ]
+   ],
+   "beat": 7,
+   "end": 33.58
+  },
+  {
+   "start": 33.58,
+   "lines": [
+    [
+     100,
+     101
+    ]
+   ],
+   "beat": 7,
+   "end": 34.72
+  },
+  {
+   "start": 34.72,
+   "lines": [
+    [
+     102
+    ]
+   ],
+   "beat": 7,
+   "end": 35.4
+  },
+  {
+   "start": 35.4,
+   "lines": [
+    [
+     103,
+     104
+    ],
+    [
+     105
+    ]
+   ],
+   "beat": 7,
+   "end": 36.38
+  },
+  {
+   "start": 36.38,
+   "lines": [
+    [
+     106,
+     107
+    ],
+    [
+     108,
+     109
+    ]
+   ],
+   "beat": 7,
+   "end": 37.88
+  },
+  {
+   "start": 37.88,
+   "lines": [
+    [
+     110,
+     111
+    ]
+   ],
+   "beat": 7,
+   "end": 38.662
+  },
+  {
+   "start": 38.662,
+   "lines": [
+    [
+     112,
+     113
+    ],
+    [
+     114,
+     115
+    ]
+   ],
+   "beat": 8,
+   "end": 39.782
+  },
+  {
+   "start": 39.782,
+   "lines": [
+    [
+     116,
+     117,
+     118
+    ]
+   ],
+   "beat": 8,
+   "end": 40.662
+  },
+  {
+   "start": 40.662,
+   "lines": [
+    [
+     119,
+     120
+    ],
+    [
+     121,
+     122
+    ]
+   ],
+   "beat": 8,
+   "end": 41.962
+  },
+  {
+   "start": 41.962,
+   "lines": [
+    [
+     123,
+     124
+    ],
+    [
+     125
+    ]
+   ],
+   "beat": 8,
+   "end": 43.922
+  },
+  {
+   "start": 43.922,
+   "lines": [
+    [
+     126,
+     127
+    ]
+   ],
+   "beat": 8,
+   "end": 44.769
+  },
+  {
+   "start": 44.769,
+   "lines": [
+    [
+     128
+    ],
+    [
+     129,
+     130
+    ]
+   ],
+   "beat": 9,
+   "end": 46.329
+  },
+  {
+   "start": 46.329,
+   "lines": [
+    [
+     131
+    ],
+    [
+     132,
+     133
+    ]
+   ],
+   "beat": 9,
+   "end": 47.589
+  },
+  {
+   "start": 47.589,
+   "lines": [
+    [
+     134,
+     135
+    ]
+   ],
+   "beat": 9,
+   "end": 48.409
+  },
+  {
+   "start": 48.409,
+   "lines": [
+    [
+     136,
+     137
+    ],
+    [
+     138,
+     139
+    ]
+   ],
+   "beat": 9,
+   "end": 49.969
+  },
+  {
+   "start": 49.969,
+   "lines": [
+    [
+     140,
+     141
+    ],
+    [
+     142,
+     143
+    ]
+   ],
+   "beat": 9,
+   "end": 51.606
+  },
+  {
+   "start": 51.606,
+   "lines": [
+    [
+     144
+    ],
+    [
+     145
+    ]
+   ],
+   "beat": 10,
+   "end": 53.466
+  },
+  {
+   "start": 53.466,
+   "lines": [
+    [
+     146,
+     147
+    ]
+   ],
+   "beat": 10,
+   "end": 54.766
+  },
+  {
+   "start": 54.766,
+   "lines": [
+    [
+     148
+    ],
+    [
+     149,
+     150
+    ]
+   ],
+   "beat": 10,
+   "end": 55.726
+  },
+  {
+   "start": 55.726,
+   "lines": [
+    [
+     151,
+     152
+    ]
+   ],
+   "beat": 10,
+   "end": 56.581
+  },
+  {
+   "start": 56.581,
+   "lines": [
+    [
+     153
+    ],
+    [
+     154,
+     155
+    ]
+   ],
+   "beat": 11,
+   "end": 57.501
+  },
+  {
+   "start": 57.501,
+   "lines": [
+    [
+     156,
+     157,
+     158,
+     159
+    ]
+   ],
+   "beat": 11,
+   "end": 58.981
+  },
+  {
+   "start": 58.981,
+   "lines": [
+    [
+     160
+    ],
+    [
+     161,
+     162
+    ]
+   ],
+   "beat": 11,
+   "end": 60.741
+  },
+  {
+   "start": 60.741,
+   "lines": [
+    [
+     163,
+     164
+    ]
+   ],
+   "beat": 11,
+   "end": 61.821
+  },
+  {
+   "start": 61.821,
+   "lines": [
+    [
+     165,
+     166
+    ]
+   ],
+   "beat": 11,
+   "end": 62.618
+  },
+  {
+   "start": 62.618,
+   "lines": [
+    [
+     167,
+     168
+    ]
+   ],
+   "beat": 12,
+   "end": 63.198
+  },
+  {
+   "start": 63.198,
+   "lines": [
+    [
+     169,
+     170
+    ],
+    [
+     171,
+     172
+    ]
+   ],
+   "beat": 12,
+   "end": 63.838
+  },
+  {
+   "start": 63.838,
+   "lines": [
+    [
+     173,
+     174
+    ],
+    [
+     175,
+     176
+    ]
+   ],
+   "beat": 12,
+   "end": 64.878
+  },
+  {
+   "start": 64.878,
+   "lines": [
+    [
+     177,
+     178
+    ]
+   ],
+   "beat": 12,
+   "end": 65.578
+  },
+  {
+   "start": 65.578,
+   "lines": [
+    [
+     179,
+     180
+    ],
+    [
+     181
+    ]
+   ],
+   "beat": 12,
+   "end": 66.637
+  },
+  {
+   "start": 66.637,
+   "lines": [
+    [
+     182,
+     183
+    ]
+   ],
+   "beat": 13,
+   "end": 67.577
+  },
+  {
+   "start": 67.577,
+   "lines": [
+    [
+     184
+    ],
+    [
+     185,
+     186
+    ]
+   ],
+   "beat": 13,
+   "end": 68.077
+  },
+  {
+   "start": 68.077,
+   "lines": [
+    [
+     187,
+     188
+    ],
+    [
+     189
+    ]
+   ],
+   "beat": 13,
+   "end": 68.697
+  },
+  {
+   "start": 68.697,
+   "lines": [
+    [
+     190,
+     191
+    ],
+    [
+     192
+    ]
+   ],
+   "beat": 13,
+   "end": 69.397
+  },
+  {
+   "start": 69.397,
+   "lines": [
+    [
+     193,
+     194
+    ]
+   ],
+   "beat": 13,
+   "end": 70.137
+  },
+  {
+   "start": 70.137,
+   "lines": [
+    [
+     195,
+     196
+    ],
+    [
+     197,
+     198
+    ]
+   ],
+   "beat": 13,
+   "end": 71.597
+  },
+  {
+   "start": 71.597,
+   "lines": [
+    [
+     199
+    ]
+   ],
+   "beat": 13,
+   "end": 72.177
+  },
+  {
+   "start": 72.177,
+   "lines": [
+    [
+     200,
+     201,
+     202
+    ],
+    [
+     203
+    ]
+   ],
+   "beat": 13,
+   "end": 73.877
+  },
+  {
+   "start": 73.877,
+   "lines": [
+    [
+     204
+    ],
+    [
+     205
+    ]
+   ],
+   "beat": 13,
+   "end": 74.877
+  },
+  {
+   "start": 74.877,
+   "lines": [
+    [
+     206,
+     207
+    ],
+    [
+     208
+    ]
+   ],
+   "beat": 13,
+   "end": 76.397
+  },
+  {
+   "start": 76.397,
+   "lines": [
+    [
+     209,
+     210
+    ],
+    [
+     211
+    ]
+   ],
+   "beat": 13,
+   "end": 77.497
+  },
+  {
+   "start": 77.497,
+   "lines": [
+    [
+     212,
+     213
+    ]
+   ],
+   "beat": 13,
+   "end": 78.437
+  },
+  {
+   "start": 78.437,
+   "lines": [
+    [
+     214,
+     215
+    ],
+    [
+     216,
+     217
+    ]
+   ],
+   "beat": 13,
+   "end": 79.757
+  },
+  {
+   "start": 79.757,
+   "lines": [
+    [
+     218
+    ]
+   ],
+   "beat": 13,
+   "end": 80.317
+  },
+  {
+   "start": 80.317,
+   "lines": [
+    [
+     219,
+     220,
+     221
+    ],
+    [
+     222
+    ]
+   ],
+   "beat": 13,
+   "end": 81.617
+  },
+  {
+   "start": 81.617,
+   "lines": [
+    [
+     223,
+     224
+    ],
+    [
+     225
+    ]
+   ],
+   "beat": 13,
+   "end": 82.697
+  },
+  {
+   "start": 82.697,
+   "lines": [
+    [
+     226,
+     227,
+     228
+    ]
+   ],
+   "beat": 13,
+   "end": 83.197
+  },
+  {
+   "start": 83.197,
+   "lines": [
+    [
+     229,
+     230
+    ]
+   ],
+   "beat": 13,
+   "end": 83.812
+  }
+ ],
+ "overlays": [
+  {
+   "type": "hook_bignum",
+   "value_to": 24,
+   "prefix": "",
+   "suffix": " H",
+   "unit": "OPEP+ · DIMANCHE 29/11",
+   "label": "21 pays · quotas 2027 · Vienne",
+   "logos": [
+    "ARAMCO",
+    "XOM",
+    "TTE",
+    "SHEL",
+    "CVX",
+    "BP"
+   ],
+   "reveal_at_word": 7,
+   "count_dur": 1.1,
+   "start": 0.0,
+   "end": 5.254,
+   "reveal_t": 1.76
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "APRÈS LE 31 DÉCEMBRE",
+    "AUCUN QUOTA"
+   ],
+   "at_word": 6,
+   "start": 6.294,
+   "end": 9.468
+  },
+  {
+   "type": "source",
+   "text": "House of Saud (OPEP, Bloomberg) · 26 nov. 2026",
+   "start": 5.254,
+   "end": 9.468
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "BRENT · CLÔTURE DU 30 OCTOBRE",
+   "value_from": 90,
+   "value_to": 118,
+   "decimals": 0,
+   "prefix": "≈ ",
+   "suffix": " $",
+   "color": "gold",
+   "pill": "PLUS HAUT DEPUIS AVRIL",
+   "desc": "Reuters, cité par Admirals (Reuters, Bloomberg) · 27 nov. 2026",
+   "start": 9.468,
+   "end": 12.334
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "BRENT · NOVEMBRE (AU 20/11)",
+    "value_to": -20,
+    "decimals": 0,
+    "prefix": "≈ ",
+    "suffix": " %",
+    "color": "red",
+    "desc": "Trading Economics, cité par Admirals"
+   },
+   "b_at_word": 8,
+   "b": {
+    "kicker": "BRENT · VEN. 27 NOV.",
+    "value_to": 90,
+    "decimals": 0,
+    "prefix": "≈ ",
+    "suffix": " $",
+    "color": "red",
+    "desc": "En séance · Yahoo Finance · 27 nov. 2026"
+   },
+   "start": 12.334,
+   "end": 17.561,
+   "b_t": 14.714,
+   "cut_in": true
+  },
+  {
+   "type": "news",
+   "at_word": 5,
+   "left": "AIE · RAPPORT DE NOVEMBRE",
+   "right": "T4 2026",
+   "tag": "EXCÉDENT",
+   "headline": "L'offre mondiale dépasserait la demande de 1,7 million de barils par jour au 4e trimestre 2026",
+   "highlight": "1,7 million de barils",
+   "sub": "ICIS · 25 nov. 2026",
+   "start": 19.181,
+   "end": 25.647
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "QUI VA FERMER",
+    "LE ROBINET ?"
+   ],
+   "at_word": 1,
+   "start": 26.167,
+   "end": 27.383
+  },
+  {
+   "type": "phone",
+   "mode": "mini",
+   "img": "tg_3435c02c_top.jpg",
+   "bio_at_word": 14,
+   "start": 27.383,
+   "end": 32.38,
+   "bio_t": 32.023
+  },
+  {
+   "type": "news",
+   "at_word": 5,
+   "left": "OPEP+ · AVANT LA RÉUNION",
+   "right": "27 NOV.",
+   "tag": "SCÉNARIO",
+   "headline": "L'OPEP+ devrait garder ses objectifs de production inchangés au moins jusqu'à la fin du 1er trimestre 2027",
+   "highlight": "inchangés",
+   "sub": "Deux sources proches des discussions · Admirals (Reuters, Bloomberg) · 27 nov. 2026",
+   "start": 33.9,
+   "end": 38.582
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "IRAK · BASE RÉCLAMÉE 2027",
+    "value_to": 6,
+    "decimals": 0,
+    "prefix": "",
+    "suffix": " M b/j",
+    "color": "gold",
+    "desc": "Bloomberg, cité par House of Saud"
+   },
+   "b_at_word": 12,
+   "b": {
+    "kicker": "IRAK · QUOTA ACTUEL",
+    "value_to": 4.4,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " M b/j",
+    "color": "red",
+    "desc": "4,431 M b/j · capacité estimée par l'AIE : ≈ 4,9"
+   },
+   "start": 38.582,
+   "end": 44.769,
+   "b_t": 42.162
+  },
+  {
+   "type": "screen_duo",
+   "a": {
+    "kicker": "ARABIE SAOUDITE · DÉCLARÉ (OCT.)",
+    "value_to": 10.6,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " M b/j",
+    "color": "gold",
+    "desc": "Chiffre officiel de Riyad : 10,563",
+    "logo": "ARAMCO"
+   },
+   "b_at_word": 9,
+   "b": {
+    "kicker": "SOURCES SECONDAIRES OPEP",
+    "value_to": 9.2,
+    "decimals": 1,
+    "prefix": "",
+    "suffix": " M b/j",
+    "color": "red",
+    "desc": "9,194 M b/j · écart de 1,369 M b/j"
+   },
+   "start": 44.769,
+   "end": 51.606,
+   "b_t": 48.509,
+   "cut_in": true
+  },
+  {
+   "type": "source",
+   "text": "House of Saud (OPEP, Bloomberg) · 26 nov. 2026",
+   "start": 44.769,
+   "end": 51.606
+  },
+  {
+   "type": "tickers",
+   "title": "LES MAJORS DU PÉTROLE",
+   "rows": [
+    {
+     "key": "ARAMCO",
+     "name": "Saudi Aramco",
+     "pct": "",
+     "up": true,
+     "at_word": 0,
+     "t": 51.556
+    },
+    {
+     "key": "TTE",
+     "name": "TotalEnergies",
+     "pct": "",
+     "up": true,
+     "at_word": 1,
+     "t": 52.376
+    },
+    {
+     "key": "XOM",
+     "name": "ExxonMobil",
+     "pct": "",
+     "up": true,
+     "at_word": 2,
+     "t": 53.416
+    },
+    {
+     "key": "SHEL",
+     "name": "Shell",
+     "pct": "",
+     "up": true,
+     "at_word": 3,
+     "t": 54.096
+    }
+   ],
+   "start": 51.606,
+   "end": 56.581
+  },
+  {
+   "type": "screen_counter",
+   "kicker": "BRENT · PRÉVISION GOLDMAN SACHS",
+   "value_from": 90,
+   "value_to": 78,
+   "decimals": 0,
+   "prefix": "",
+   "suffix": " $",
+   "color": "red",
+   "pill": "DÉCEMBRE 2027",
+   "desc": "Note du 15 nov. 2026 · Admirals · House of Saud",
+   "until_word": 10,
+   "start": 56.581,
+   "end": 60.741
+  },
+  {
+   "type": "date",
+   "text": "Dimanche 29 novembre · Vienne · OPEP+",
+   "at_word": 10,
+   "start": 60.741,
+   "end": 62.618
+  },
+  {
+   "type": "bigtitle",
+   "lines": [
+    "SOUS 80 $",
+    "EN 2027 ?"
+   ],
+   "at_word": 5,
+   "start": 63.518,
+   "end": 66.637
+  },
+  {
+   "type": "cta_telegram",
+   "notif": "OPEP+ : ce qui a été décidé à Vienne",
+   "imgs": [
+    "tg_38e4f34b.jpg",
+    "tg_4b2fa9a8.jpg",
+    "tg_1eaa56f0.jpg"
+   ],
+   "subs": 22760,
+   "subs_at_word": 40,
+   "bio_at_word": 48,
+   "button": "ACCÈS GRATUIT",
+   "start": 66.637,
+   "end": 83.722,
+   "subs_t": 81.257,
+   "bio_t": 83.297
+  }
+ ],
+ "bg": [
+  {
+   "clip": "b0.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b0.mp4",
+   "start": 0.0,
+   "end": 1.72,
+   "beat": 0
+  },
+  {
+   "clip": "b0b.mp4",
+   "ss": 1,
+   "cx": 0.3,
+   "at_word": 7,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b0b.mp4",
+   "start": 1.72,
+   "end": 5.254,
+   "beat": 0
+  },
+  {
+   "clip": "b1.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b1.mp4",
+   "start": 5.254,
+   "end": 9.468,
+   "beat": 1
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b2.mp4",
+    "ss": 5,
+    "cx": 0.5
+   },
+   "clip": "b2.mp4",
+   "ss": 5,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b2.mp4",
+   "start": 9.468,
+   "end": 12.334,
+   "beat": 2
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b3.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b3.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b3.mp4",
+   "start": 12.334,
+   "end": 17.561,
+   "beat": 3
+  },
+  {
+   "clip": "b4.mp4",
+   "ss": 5,
+   "cx": 0.6,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b4.mp4",
+   "start": 17.561,
+   "end": 19.141,
+   "beat": 4
+  },
+  {
+   "clip": "b4b.mp4",
+   "ss": 1,
+   "cx": 0.62,
+   "at_word": 5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b4b.mp4",
+   "start": 19.141,
+   "end": 25.647,
+   "beat": 4
+  },
+  {
+   "clip": "b6.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b6.mp4",
+   "start": 25.647,
+   "end": 27.383,
+   "beat": 5
+  },
+  {
+   "clip": "b7.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b7.mp4",
+   "start": 27.383,
+   "end": 32.38,
+   "beat": 6
+  },
+  {
+   "clip": "b8.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b8.mp4",
+   "start": 32.38,
+   "end": 35.54,
+   "beat": 7
+  },
+  {
+   "clip": "b8b.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "at_word": 8,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b8b.mp4",
+   "start": 35.54,
+   "end": 38.582,
+   "beat": 7
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b10.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "clip": "b10.mp4",
+   "ss": 1,
+   "cx": 0.5,
+   "blur": true,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b10.mp4",
+   "start": 38.582,
+   "end": 44.769,
+   "beat": 8
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b11.mp4",
+    "ss": 15,
+    "cx": 0.3
+   },
+   "clip": "b11.mp4",
+   "ss": 15,
+   "cx": 0.3,
+   "blur": true,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b11.mp4",
+   "start": 44.769,
+   "end": 51.606,
+   "beat": 9
+  },
+  {
+   "clip": "b14.mp4",
+   "ss": 1,
+   "cx": 0.4,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b14.mp4",
+   "start": 51.606,
+   "end": 56.581,
+   "beat": 10
+  },
+  {
+   "screen": true,
+   "under": {
+    "clip": "b15.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "start": 56.581,
+   "end": 60.701,
+   "beat": 11
+  },
+  {
+   "clip": "b15b.mp4",
+   "ss": 1,
+   "cx": 0.55,
+   "at_word": 10,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b15b.mp4",
+   "start": 60.701,
+   "end": 62.618,
+   "beat": 11
+  },
+  {
+   "clip": "b16.mp4",
+   "ss": 5,
+   "cx": 0.75,
+   "src": "episodes/ep61_opep_compte_rebours/broll/b16.mp4",
+   "start": 62.618,
+   "end": 66.637,
+   "beat": 12
+  },
+  {
+   "blur_prev": true,
+   "start": 66.637,
+   "end": 85.522,
+   "beat": 13
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 0.02,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 0.15,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.22,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.29,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.36,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.43,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 0.5,
+   "k": "tick",
+   "g": 0.6
+  },
+  {
+   "t": 1.1,
+   "k": "boom",
+   "g": 1.0
+  },
+  {
+   "t": 1.67,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 1.71,
+   "k": "swish",
+   "g": 0.8
+  },
+  {
+   "t": 5.204,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 6.294,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 9.408,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 9.588,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 12.304,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 12.454,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 14.714,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 14.764,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 19.091,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 19.181,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 25.597,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 26.167,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 27.333,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 27.383,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 32.023,
+   "k": "pop",
+   "g": 0.8
+  },
+  {
+   "t": 32.33,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 33.9,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 35.49,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 38.522,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 38.702,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 42.162,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 42.212,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 44.739,
+   "k": "swish",
+   "g": 0.6
+  },
+  {
+   "t": 44.889,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 48.509,
+   "k": "pop",
+   "g": 0.7
+  },
+  {
+   "t": 48.559,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 51.556,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 51.606,
+   "k": "pop",
+   "g": 0.9
+  },
+  {
+   "t": 52.376,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 53.416,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 54.096,
+   "k": "tick",
+   "g": 0.9
+  },
+  {
+   "t": 56.521,
+   "k": "whoosh",
+   "g": 0.8
+  },
+  {
+   "t": 56.701,
+   "k": "count",
+   "g": 0.55
+  },
+  {
+   "t": 62.568,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 63.518,
+   "k": "boom",
+   "g": 0.9
+  },
+  {
+   "t": 66.587,
+   "k": "cut",
+   "g": 0.35
+  },
+  {
+   "t": 66.687,
+   "k": "ding",
+   "g": 0.9
+  },
+  {
+   "t": 66.987,
+   "k": "whoosh",
+   "g": 0.7
+  },
+  {
+   "t": 81.257,
+   "k": "count",
+   "g": 0.6
+  },
+  {
+   "t": 83.122,
+   "k": "rise",
+   "g": 0.7
+  },
+  {
+   "t": 83.297,
+   "k": "pop",
+   "g": 1.0
+  },
+  {
+   "t": 83.722,
+   "k": "boom",
+   "g": 0.9
+  }
+ ],
+ "hide_subs": [
+  [
+   0.0,
+   5.303999999999999
+  ],
+  [
+   83.722,
+   86.52199999999999
+  ]
+ ],
+ "endcard": {
+  "start": 83.722,
+  "button": "ACCÈS GRATUIT",
+  "small": "Telegram gratuit · lien en bio"
+ },
+ "date_label": "28 novembre 2026"
+}

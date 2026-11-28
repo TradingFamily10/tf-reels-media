@@ -1,0 +1,460 @@
+{
+ "id": "ep61_opep_compte_rebours",
+ "date_label": "28 novembre 2026",
+ "brand": "Invest Family Fr",
+ "hook_type": "bignum",
+ "hook_formula": "compte à rebours",
+ "cta_angle": "Dimanche soir, pendant que tout le monde attendra les gros titres de lundi, mes abonnés auront déjà l'analyse",
+ "cta_type": "notif_scroll",
+ "voice": {
+  "engine": "hedra",
+  "voice": "Clément 2",
+  "voice_id": "voice_ed52485f-b64d-4dc4-8080-0847ae629dad",
+  "model": "elevenlabs-v3",
+  "speed": 1.08,
+  "stability": 0.5
+ },
+ "sources": [
+  "https://admiralmarkets.com/analytics/traders-blog/opec-meeting-november-29-2026-preview",
+  "https://houseofsaud.com/opec-nov29-2027-quotas/",
+  "https://www.icis.com/explore/resources/news/2026/11/25/11243387/oil-falls-on-supply-glut-concerns-eyes-on-29-nov-opec-meeting/",
+  "https://www.riotimesonline.com/opec-plus-weighs-january-oil-quota-rollover-2026",
+  "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+ ],
+ "beats": [
+  {
+   "text": "24 heures. C'est le temps qu'il reste avant que 21 pays décident de leur pétrole pour 2027.",
+   "say": "Vingt-quatre heures... C'est le temps qu'il reste avant que vingt-et-un pays décident de leur pétrole pour deux mille vingt-sept.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b0.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b0b.mp4",
+      "ss": 1,
+      "cx": 0.3,
+      "at_word": 7
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "hook_bignum",
+     "value_to": 24,
+     "prefix": "",
+     "suffix": " H",
+     "unit": "OPEP+ · DIMANCHE 29/11",
+     "label": "21 pays · quotas 2027 · Vienne",
+     "logos": [
+      "ARAMCO",
+      "XOM",
+      "TTE",
+      "SHEL",
+      "CVX",
+      "BP"
+     ],
+     "reveal_at_word": 7,
+     "count_dur": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Et ce n'est pas le pire : après le 31 décembre, plus aucun quota n'est en vigueur.",
+   "say": "Et ce n'est pas le pire... après le trente-et-un décembre, plus aucun quota n'est en vigueur.",
+   "bg": {
+    "clip": "b1.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "APRÈS LE 31 DÉCEMBRE",
+      "AUCUN QUOTA"
+     ],
+     "at_word": 6
+    },
+    {
+     "type": "source",
+     "text": "House of Saud (OPEP, Bloomberg) · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Fin octobre, le Brent frôlait 118 dollars.",
+   "say": "Fin octobre, le Brent frôlait cent dix-huit dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b2.mp4",
+     "ss": 5,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BRENT · CLÔTURE DU 30 OCTOBRE",
+     "value_from": 90,
+     "value_to": 118,
+     "decimals": 0,
+     "prefix": "≈ ",
+     "suffix": " $",
+     "color": "gold",
+     "pill": "PLUS HAUT DEPUIS AVRIL",
+     "desc": "Reuters, cité par Admirals (Reuters, Bloomberg) · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "En novembre, il a perdu près de 20 %. Vendredi, il tournait autour de 90 dollars.",
+   "say": "En novembre, il a perdu près de vingt pour cent... Vendredi, il tournait autour de quatre-vingt-dix dollars.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b3.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "BRENT · NOVEMBRE (AU 20/11)",
+      "value_to": -20,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "color": "red",
+      "desc": "Trading Economics, cité par Admirals"
+     },
+     "b_at_word": 8,
+     "b": {
+      "kicker": "BRENT · VEN. 27 NOV.",
+      "value_to": 90,
+      "decimals": 0,
+      "prefix": "≈ ",
+      "suffix": " $",
+      "color": "red",
+      "desc": "En séance · Yahoo Finance · 27 nov. 2026"
+     }
+    }
+   ]
+  },
+  {
+   "text": "La raison : trop de pétrole. Selon l'AIE, l'offre dépasse la demande de 1,7 million de barils par jour ce trimestre.",
+   "say": "La raison... trop de pétrole. Selon l'Agence internationale de l'énergie, l'offre dépasse la demande d'un million sept cent mille barils par jour ce trimestre.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b4.mp4",
+      "ss": 5,
+      "cx": 0.6
+     },
+     {
+      "clip": "b4b.mp4",
+      "ss": 1,
+      "cx": 0.62,
+      "at_word": 5
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "AIE · RAPPORT DE NOVEMBRE",
+     "right": "T4 2026",
+     "tag": "EXCÉDENT",
+     "headline": "L'offre mondiale dépasserait la demande de 1,7 million de barils par jour au 4e trimestre 2026",
+     "highlight": "1,7 million de barils",
+     "sub": "ICIS · 25 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Alors, qui va fermer le robinet ?",
+   "say": "Alors... qui va fermer le robinet ?",
+   "bg": {
+    "clip": "b6.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "QUI VA FERMER",
+      "LE ROBINET ?"
+     ],
+     "at_word": 1
+    }
+   ]
+  },
+  {
+   "text": "Le verdict de dimanche, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "say": "Le verdict de dimanche, je le décortique en direct sur mon Telegram. Lien en bio.",
+   "bg": {
+    "clip": "b7.mp4",
+    "ss": 1,
+    "cx": 0.5
+   },
+   "overlays": [
+    {
+     "type": "phone",
+     "mode": "mini",
+     "img": "tg_3435c02c_top.jpg",
+     "bio_at_word": 14
+    }
+   ],
+   "cta": "short"
+  },
+  {
+   "text": "Scénario le plus probable selon Reuters : personne. Les quotas resteraient inchangés au moins jusqu'à fin mars.",
+   "say": "Scénario le plus probable selon Reuters... personne. Les quotas resteraient inchangés, au moins jusqu'à fin mars.",
+   "bg": {
+    "shots": [
+     {
+      "clip": "b8.mp4",
+      "ss": 1,
+      "cx": 0.5
+     },
+     {
+      "clip": "b8b.mp4",
+      "ss": 1,
+      "cx": 0.5,
+      "at_word": 8
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "news",
+     "at_word": 5,
+     "left": "OPEP+ · AVANT LA RÉUNION",
+     "right": "27 NOV.",
+     "tag": "SCÉNARIO",
+     "headline": "L'OPEP+ devrait garder ses objectifs de production inchangés au moins jusqu'à la fin du 1er trimestre 2027",
+     "highlight": "inchangés",
+     "sub": "Deux sources proches des discussions · Admirals (Reuters, Bloomberg) · 27 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "L'Irak réclame une base de 6 millions de barils par jour. Son quota actuel : 4,4 millions.",
+   "say": "L'Irak réclame une base de six millions de barils par jour... Son quota actuel ? À peine plus de quatre millions.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b10.mp4",
+     "ss": 1,
+     "cx": 0.5
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "IRAK · BASE RÉCLAMÉE 2027",
+      "value_to": 6,
+      "decimals": 0,
+      "prefix": "",
+      "suffix": " M b/j",
+      "color": "gold",
+      "desc": "Bloomberg, cité par House of Saud"
+     },
+     "b_at_word": 12,
+     "b": {
+      "kicker": "IRAK · QUOTA ACTUEL",
+      "value_to": 4.4,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " M b/j",
+      "color": "red",
+      "desc": "4,431 M b/j · capacité estimée par l'AIE : ≈ 4,9"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Riyad déclare 10,6 millions de barils en octobre. Les observateurs de l'OPEP n'en comptent que 9,2.",
+   "say": "Riyad déclare plus de dix millions et demi de barils en octobre... Les observateurs de l'OPEP n'en comptent qu'un peu plus de neuf.",
+   "bg": {
+    "screen": true,
+    "under": {
+     "clip": "b11.mp4",
+     "ss": 15,
+     "cx": 0.3
+    }
+   },
+   "overlays": [
+    {
+     "type": "screen_duo",
+     "a": {
+      "kicker": "ARABIE SAOUDITE · DÉCLARÉ (OCT.)",
+      "value_to": 10.6,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " M b/j",
+      "color": "gold",
+      "desc": "Chiffre officiel de Riyad : 10,563",
+      "logo": "ARAMCO"
+     },
+     "b_at_word": 9,
+     "b": {
+      "kicker": "SOURCES SECONDAIRES OPEP",
+      "value_to": 9.2,
+      "decimals": 1,
+      "prefix": "",
+      "suffix": " M b/j",
+      "color": "red",
+      "desc": "9,194 M b/j · écart de 1,369 M b/j"
+     }
+    },
+    {
+     "type": "source",
+     "text": "House of Saud (OPEP, Bloomberg) · 26 nov. 2026"
+    }
+   ]
+  },
+  {
+   "text": "Aramco, TotalEnergies, Exxon, Shell : tous suspendus à cette décision.",
+   "say": "Aramco, TotalEnergies, Exxon, Shell : tous suspendus à cette décision.",
+   "bg": {
+    "clip": "b14.mp4",
+    "ss": 1,
+    "cx": 0.4
+   },
+   "overlays": [
+    {
+     "type": "tickers",
+     "title": "LES MAJORS DU PÉTROLE",
+     "rows": [
+      {
+       "key": "ARAMCO",
+       "name": "Saudi Aramco",
+       "pct": "",
+       "up": true,
+       "at_word": 0
+      },
+      {
+       "key": "TTE",
+       "name": "TotalEnergies",
+       "pct": "",
+       "up": true,
+       "at_word": 1
+      },
+      {
+       "key": "XOM",
+       "name": "ExxonMobil",
+       "pct": "",
+       "up": true,
+       "at_word": 2
+      },
+      {
+       "key": "SHEL",
+       "name": "Shell",
+       "pct": "",
+       "up": true,
+       "at_word": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Goldman Sachs voit le Brent à 78 dollars fin 2027. Verdict dimanche, à Vienne.",
+   "say": "Goldman Sachs voit le Brent à soixante-dix-huit dollars fin deux mille vingt-sept... Verdict dimanche, à Vienne.",
+   "bg": {
+    "shots": [
+     {
+      "screen": true,
+      "under": {
+       "clip": "b15.mp4",
+       "ss": 1,
+       "cx": 0.5
+      }
+     },
+     {
+      "clip": "b15b.mp4",
+      "ss": 1,
+      "cx": 0.55,
+      "at_word": 10
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "screen_counter",
+     "kicker": "BRENT · PRÉVISION GOLDMAN SACHS",
+     "value_from": 90,
+     "value_to": 78,
+     "decimals": 0,
+     "prefix": "",
+     "suffix": " $",
+     "color": "red",
+     "pill": "DÉCEMBRE 2027",
+     "desc": "Note du 15 nov. 2026 · Admirals · House of Saud",
+     "until_word": 10
+    },
+    {
+     "type": "date",
+     "text": "Dimanche 29 novembre · Vienne · OPEP+",
+     "at_word": 10
+    }
+   ]
+  },
+  {
+   "text": "Et toi, tu vois le baril sous les 80 dollars l'an prochain ? Dis-le en commentaire.",
+   "say": "Et toi, tu vois le baril sous les quatre-vingts dollars l'an prochain ? Dis-le en commentaire.",
+   "bg": {
+    "clip": "b16.mp4",
+    "ss": 5,
+    "cx": 0.75
+   },
+   "overlays": [
+    {
+     "type": "bigtitle",
+     "lines": [
+      "SOUS 80 $",
+      "EN 2027 ?"
+     ],
+     "at_word": 5
+    }
+   ]
+  },
+  {
+   "text": "Dimanche soir, pendant que tout le monde attendra les gros titres de lundi, mes abonnés auront déjà l'analyse. Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de 22 000 personnes nous ont rejoints. Le lien est en bio.",
+   "say": "Dimanche soir, pendant que tout le monde attendra les gros titres de lundi... mes abonnés auront déjà l'analyse. Sur mon Telegram gratuit : l'actu géopolitique et financière décortiquée, mes analyses d'actions détaillées et mes opportunités en temps réel. Plus de vingt-deux mille personnes nous ont rejoints... Le lien est en bio.",
+   "bg": {
+    "blur_prev": true
+   },
+   "overlays": [
+    {
+     "type": "cta_telegram",
+     "notif": "OPEP+ : ce qui a été décidé à Vienne",
+     "imgs": [
+      "tg_38e4f34b.jpg",
+      "tg_4b2fa9a8.jpg",
+      "tg_1eaa56f0.jpg"
+     ],
+     "subs": 22760,
+     "subs_at_word": 40,
+     "bio_at_word": 48,
+     "button": "ACCÈS GRATUIT"
+    }
+   ],
+   "cta": "long",
+   "endcard": {
+    "duration": 1.8,
+    "button": "ACCÈS GRATUIT",
+    "small": "Telegram gratuit · lien en bio"
+   }
+  }
+ ]
+}
