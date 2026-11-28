@@ -656,5 +656,12 @@
   "img": "SNDK.png",
   "tile": "#FFFFFF",
   "fit": "92%"
+ },
+ "GLE": {
+  "name": "Société Générale",
+  "ticker": "GLE",
+  "img": "GLE.png",
+  "tile": "#1A1A1A",
+  "fit": "80%"
  }
 }
